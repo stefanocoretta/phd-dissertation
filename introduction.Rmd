@@ -1,0 +1,11 @@
+---
+title: "PhD dissertation"
+author: "Stefano Coretta"
+documentclass: book
+---
+
+# (PART) Background {-}
+
+# Introduction
+
+This is the introduction of the dissertation.

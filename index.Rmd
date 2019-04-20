@@ -1,0 +1,6 @@
+---
+title: "PhD dissertation"
+author: "Stefano Coretta"
+site: bookdown::bookdown_site
+documentclass: book
+---
