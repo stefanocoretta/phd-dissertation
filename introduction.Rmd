@@ -11,3 +11,35 @@ documentclass: book
 This is the introduction of the dissertation.
 
 ## The voicing effect and beyond
+
+A long-recognised property of vowels is that their duration is influenced by the voicing of the consonant following them.
+Across a wide variety of languages, vowels tend to be shorter when followed by voiceless consonants, and longer when followed by voiced ones.
+This tendency has been called the 'voicing effect' \citep{mitleb1982}.
+Remarkably, as far as we can tell, no language has been reported having the opposite effect, namely longer vowel durations before voiceless than before voiced consonants.
+Possibly, the voicing effect is one of the most robust effects found in the phonetic literature (together with, for example, the effect of vowel height).
+Among the earliest traceable mentions to the voicing effect there are \citet{meyer1903} for English (cited in \citealt{lindblom1967}), \citet{meyer1904} for German, \citet{meyer1909} for Hungarian, and \citet{gregoire1911} for French (all cited in \citealt{maddieson1976}).
+After these, a plethora of studies confirmed the effect in these languages and reported it in other ones.
+
+<!-- I need to talk about what I mean by voicing -->
+
+English is by far the language that received the most attention (\citealt{heffner1937, house1953, lisker1957, zimmerman1958, peterson1960, house1961, sharf1962, sharf1964, lindblom1967, halle1967, halle1967a, slis1969a, slis1969, chen1970, klatt1973, lisker1974, raphael1975, umeda1975, javkin1976, port1982, mack1982, luce1985, van-summers1987, kluender1988, de-jong1991, laeufer1992, fowler1992, de-jong2004, lampp2004, warren2005, ko2018, glewwe2018, sanker2019}, among others).
+The existence of the voicing effect has been further corroborated in French by \citet{belasco1953} and \citet{chen1970}, in Hungarian by \citet{soskuthy2013}, and German (in the context of word-final voicing neutralisation, see \citealt{nicenboim2018a} and references therein).
+Other voicing-effect languages are Arabic, Assamese, Bengali, Dutch, Hindi, Italian \citep{caldognetto1979, farnetani1986, esposito2002}, Icelandic, Korean, Lithuanian, Norwegian, Swedish, Spanish, Telugu \citep{sanker2018}, and Russian [add references].
+All of these languages, with the exception of Arabic, Korean, and Telugu, are Indo-European languages.
+The sample is thus strongly biased from a typological perspective.
+Moreover, the three non-Indo-European languages surveyed are well-studied languages in any case.
+It will thus be vital, in the future, to investigate the voicing effect in underdescribed and underdocumented languages, from a wider variety of linguistic families and geographical locations.
+This notwithstanding, the voicing effect is generally regarded as a very common and widespread phenomenon.
+
+While the existence of the voicing effect is unquestionable, a commonly shared stance is that it is not an absolute universal, and that the magnitude of the effect varies across languages that have it.
+Polish and Czech are generally reputed to be languages in which the duration of the vowel does not significantly differ before voiceless and voiced stops.
+In fact, the results concerning the effect in these languages suggest both absence and presence of voicing-induced vowel duration differences.
+As for Polish, \citet{slowiaczek1985} measured the duration of vowels in word-final syllables from 5 speakers, and vowels followed by an underlyingly voiced stop are 10--15 ms longer.
+@nowak2006 investigates several properties of vowel duration in 4 speakers, and finds that vowels followed by voiced stops in 4 speakers (from different parts of Poland) are 4.5 ms longer (a significant difference).
+<!-- I should read about what stats he did -->
+@malisz2008 analyse data from 40 speakers of 'Standard Polish', and while they don't report estimates from the whole dataset, the means from 4 speakers suggest a difference in vowel duration before voiceless vs. voiced stops of about 3.5 ms.
+On the other hand, an equal number of studies argue that voicing does not significantly affect vowel duration.
+\citet{jassem1989} could not replicate the results in \citet{slowiaczek1985}.
+\citet{keating1984} reports a non-significant difference of 2 ms in the word pair /rata/ (167.4) and /rada/ (169.5 ms), based on data from 24 speakers in Wrocław, Poland.
+Finally, \citet{strycharczuk2012a} reports a non-significant effect in 6 speakers in pre-sonorant word-final position.
+<!-- find where speakers are from -->
