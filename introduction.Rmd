@@ -63,3 +63,14 @@ The argument for the phonologisation of the effect rests, among other things, on
 Finally, \citet{ko2018} compares CV ratio values in three speaking styles (normal, faster, and slower) and finds that the ratio changes as a function of speaking style.
 Moreover, the rate-driven differences in CV ratio differ in the voiceless and voiced condition.
 In sum, while this would not be an argument against phonologisation of the voicing effect in English, there is contrasting evidence as to whether the relative magnitude of the effect is stable across speaking tempos.
+
+<!-- add references from the meta-analysis -->
+The alleged phonologisation of the effect in English is usually argued to be responsible for the greater effect in this language compared to others.
+The reported effect of voicing in word-final syllables in English varies between 35 and 150 ms [add references].
+When looking at non-final syllables, the effect is smaller, with values between 18 and 35 ms [add references].
+Taking the first vowel in Italian disyllabic words for comparison, the difference in vowel duration before voiceless vs. voiced stops is 22 in \citet{farnetani1986} and 24 ms in \citet{esposito2002}.
+These values are within the range of the non-final effect in English.
+It is thus possible that, once controlling for contextual factors, the apparent cross-linguistic differences in magnitude get at least reduced.
+A similar conclusion is proposed by \citet{laeufer1992}, who compared French and English with carefully designed material to ensure comparison.
+When the duration of vowel is similar across languages, the magnitude of the effect is also comparable.
+To conclude, there is mixed evidence as to whether there exist cross-linguistic differences in magnitude of the voicing effect, and arguments based on phonologisation of the effect as derived from stability across speaking rates should be taken with caution.
