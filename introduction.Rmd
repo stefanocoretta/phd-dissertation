@@ -25,11 +25,10 @@ After these, a plethora of studies confirmed the effect in these languages and r
 
 English is by far the language that received the most attention (\citealt{heffner1937, house1953, lisker1957, zimmerman1958, peterson1960, house1961, sharf1962, sharf1964, lindblom1967, halle1967, halle1967a, slis1969a, slis1969, chen1970, klatt1973, lisker1974, raphael1975, umeda1975, javkin1976, port1982, mack1982, luce1985, van-summers1987, kluender1988, de-jong1991, laeufer1992, fowler1992, de-jong2004, lampp2004, warren2005, ko2018, glewwe2018, sanker2019}, among others).
 The existence of the voicing effect has been further corroborated in French by \citet{belasco1953}, \citet{chen1970}, and \citet{laeufer1992}, in Hungarian by \citet{soskuthy2013}, and German (in the context of word-final voicing neutralisation, see \citealt{nicenboim2018a} and references therein).
-Other voicing-effect languages are Arabic, Assamese, Bengali, Dutch, Hindi, Italian \citep{caldognetto1979, farnetani1986, esposito2002}, Icelandic, Korean, Lithuanian, Norwegian, Swedish, Spanish, Telugu \citep{sanker2018}, and Russian [add references].
-All of these languages, with the exception of Arabic, Korean, and Telugu, are Indo-European languages.
-The sample is thus strongly biased from a typological perspective.
+Other voicing-effect languages are Arabic (\citealt{hussein1994}, but cf. \citealt{mitleb1982}), Assamese, Bengali, Dutch, Hindi, Italian \citep{caldognetto1979, farnetani1986, esposito2002}, Icelandic, Japanese \citep{port1987}, Korean, Lithuanian, Norwegian, Swedish, Spanish, Telugu \citep{sanker2018}, and Russian [add references].
+From a typological perspective, the sample is thus strongly biased towards Indo-European languages.
 <!-- Maybe say this later or in footnote because it could give the impression that I will sort this out. -->
-Moreover, the three non-Indo-European languages surveyed are well-studied languages.
+Moreover, the four non-Indo-European languages are well-studied languages.
 It will thus be vital, in the future, to investigate the voicing effect in underdescribed and underdocumented languages, from a wider variety of linguistic families and geographical locations.
 This notwithstanding, the voicing effect is generally regarded as a very common and widespread phenomenon.
 
@@ -74,3 +73,34 @@ It is thus possible that, once controlling for contextual factors, the apparent 
 A similar conclusion is proposed by \citet{laeufer1992}, who compared French and English with carefully designed material to ensure comparison.
 When the duration of vowel is similar across languages, the magnitude of the effect is also comparable.
 To conclude, there is mixed evidence as to whether there exist cross-linguistic differences in magnitude of the voicing effect, and arguments based on phonologisation of the effect as derived from stability across speaking rates should be taken with caution.
+
+## Whence the voicing effect
+
+Over a century of research on the voicing effect has without doubt increased our knowledge of this complex phenomenon.
+However, to date no single proposal as to why this phenomenon exists has reached unanimous consensus.
+The period between the 50s and the 70s generated a series of accounts about the source of the voicing effect, with subsequent decades focussing on testing or extending these hypotheses.
+Two major 'factions' have opposing views regarding whether the effect originally emerged due to perceptual biases or physical properties of the production system.
+At present, there is no ultimate answer as to which of the two sides best accounts for all of the aspects of the voicing effect, and rather both point of views partially contribute to the overall picture.
+The following paragraphs will review the major perception and production accounts, with greater attention given to the latter, which are the focus of this dissertation.
+<!-- as in papers, doesn't exclude perception -->
+
+<!-- Perception -->
+
+One of the perception-based accounts states that the voicing effect emerges as a consequence of the difficulty in the perceptual identification of the vowel-consonant boundary in the context of voiced stops, and of the misinterpretation of the voicing during closure \citep{javkin1976}.
+According to this account, speakers misperceive the periodic vibration of the vocal folds (voicing) during the closure of a voiced stop as part of the preceding vowel.
+In the absence of contextual correction, this misperception can lead to the creation of a new production norm where the vowel is long.
+If this new lexical representation is created, the listener, now turned speaker, will subsequently produce longer vowel durations when followed by voiced stops.
+<!-- Ohala -->
+Although \citet{javkin1976} does not directly test the hypothesis that closure voicing is reinterpreted as part of the preceding vowel, the results indicate that listeners perceive vowels to be longer when followed by voiced than when followed by voiceless stops, other things being equal.
+On the other hand, \citet{sanker2019} finds that vowels rather elicit less 'long' responses when the consonant following the vowel is voiced, while they elicit more 'long' responses in stimuli where the following consonant is spliced out.
+While there is potential for a perceptual bias driving some aspects of the voicing effect, \citet{sanker2019} argues that production mechanisms of voiced stops affecting acoustic aspects of vowels could be at the root of the perceptual biases revealed by the study.
+
+To provide a rationale for the language-specificity of the voicing effect, \citet{kluender1988} propose that different languages exploit biases of the perceptual system at different degrees.
+They argue that speakers actively manipulate vowel durations to enhance the closure-duration difference which can cue the voicing distinction in obstruents.
+However, \citet{fowler1992} shows by means of perceptual experiments that speakers judge vowels to be longer if the consonant closure duration is increased, and that, conversely, consonant closure is perceived to be longer when vowel duration is increased.
+Fowler's experimental results thus challenge the premise that speakers exploit durational contrasts to enhance voicing distinctions.
+
+
+<!-- Production -->
+
+While individual production accounts differ in the details, two broad categories can be identified, with two members each being representative of sub-categories.
