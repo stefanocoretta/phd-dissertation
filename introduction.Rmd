@@ -95,11 +95,14 @@ Although \citet{javkin1976} does not directly test the hypothesis that closure v
 On the other hand, \citet{sanker2019} finds that vowels rather elicit less 'long' responses when the consonant following the vowel is voiced, while they elicit more 'long' responses in stimuli where the following consonant is spliced out.
 While there is potential for a perceptual bias driving some aspects of the voicing effect, \citet{sanker2019} argues that production mechanisms of voiced stops affecting acoustic aspects of vowels could be at the root of the perceptual biases revealed by the study.
 
-To provide a rationale for the language-specificity of the voicing effect, \citet{kluender1988} propose that different languages exploit biases of the perceptual system at different degrees.
-They argue that speakers actively manipulate vowel durations to enhance the closure-duration difference which can cue the voicing distinction in obstruents.
-However, \citet{fowler1992} shows by means of perceptual experiments that speakers judge vowels to be longer if the consonant closure duration is increased, and that, conversely, consonant closure is perceived to be longer when vowel duration is increased.
-Fowler's experimental results thus challenge the premise that speakers exploit durational contrasts to enhance voicing distinctions.
-
+To provide a rationale for the language-specificity of the voicing effect, \citet{kluender1988} propose that different languages can exploit the perceptual bias behind the effect at different degrees.
+The ratio of the duration of the closure and that of the vowel is one of the perceptual cues to voicing \citet{port1982, lisker1986}.
+Listeners associate smaller values of the consonant-to-vowel ratio to voiced stops, and, vice versa, greater values to voiceless stops.
+\citet{kluender1988} argue that speakers can actively manipulate vowel durations to proportionally increase the difference in ratio between the two voicing categories, so that the ratio would be even smaller in the voiced context and even greater in the voiceless one.
+As a consequence, the perceptual distance between the voicing categories would be enhanced, thus facilitating discrimination.
+According to this view, listeners should show a contrast effect, by which longer closure durations elicit more 'short vowel' responses and shorter closures more 'long vowel' responses.
+However, \citet{fowler1992} shows that listeners judge vowels to be longer when the stop closure duration is increased, and that, similarly, stop closure is perceived to be longer when vowel duration is increased.
+These results indicate a mechanism of perceptual assimilation of the respective durations of vowels and stop closures, rather than a contrast effect which can be exploited in the enhancement of the voicing distinction.
 
 <!-- Production -->
 
