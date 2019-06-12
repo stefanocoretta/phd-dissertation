@@ -106,4 +106,18 @@ These results indicate a mechanism of perceptual assimilation of the respective 
 
 <!-- Production -->
 
-While individual production accounts differ in the details, two broad categories can be identified, with two members each being representative of sub-categories.
+While individual production accounts differ in the details, two broad categories can be identified.
+Two accounts ascribe the source of the voicing effect to some mechanisms of compensation within a certain property of speech (either duration or articulatory force), while two others relate the emergence of the effect to timing aspects of gestures related to the articulation of stops (either laryngeal or oral).
+
+The compensatory temporal adjustment account \citep{lindblom1967, slis1969a, slis1969, lehiste1970, lehiste1970a} states that the relative durations of a vowel and consonant in a VC sequence are statistically correlated.
+A well-known fact about stop closure is that it is longer in voiceless stops and shorter in voiced stops \citep{lisker1957, van-summers1987, davis1989, de-jong1991}.
+As a consequence, vowels are shorter when followed by the longer closure of voiceless stops, and they are longer when followed by the shorter closure of voiced stops.
+This compensatory pattern would be the consequence of maintaining a particular speech interval at a fixed temporal duration, while the duration of the closure changes depending on the voicing status of the stop.
+Proponents of the compensatory account have argued that compensation is implemented either at the level of the syllable (or of the VC sequence, \citealt{lindblom1967, farnetani1986}), or at the level of the word \citep{slis1969a, slis1969, lehiste1970, lehiste1970a}.
+This formulation of the account, however, faces empirical and logical challenges.
+The duration of both the syllable and the word is affected by the voicing of the stop \citet{chen1970, jacewicz2009}, and it is not clear why compensation within a word should target the pre-consonantal vowel necessarily and not other segments (these issues will be discussed in more details in [...]).
+
+A second proposal attributes the voicing-driven differential duration of vowels to articulatory energy expenditure, rather than temporal aspects.
+\citet{meyer1903} and similarly \citet{belasco1953} propose that the articulatory force required to produce a syllable is constant, and thus it is distributed across segments according to their energy requirements.
+According to this hypothesis, voiceless stops are produced with more force than voiced stops, and hence some force is subtracted from the production of the preceding vowel to maintaining the overall force constant.
+However, the concept of 'articulatory force' lacks an empirically solid definition, and experimental results mentioned in \citet{zimmerman1958} rather point to the absence of a relation between energy expenditure and vowel duration.
