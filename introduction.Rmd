@@ -23,9 +23,9 @@ After these, a plethora of studies confirmed the effect in these languages and r
 
 <!-- I need to talk about what I mean by voicing -->
 
-English is by far the language that received the most attention (\citealt{heffner1937, house1953, lisker1957, zimmerman1958, peterson1960, house1961, sharf1962, sharf1964, lindblom1967, halle1967, halle1967a, slis1969a, slis1969, chen1970, klatt1973, lisker1974, raphael1975, umeda1975, javkin1976, port1982, mack1982, luce1985, van-summers1987, kluender1988, de-jong1991, laeufer1992, fowler1992, de-jong2004, lampp2004, warren2005, ko2018, glewwe2018, sanker2019}, among others).
+English is by far the language that received the most attention (\citealt{heffner1937, house1953, lisker1957, zimmerman1958, peterson1960, house1961, sharf1962, sharf1964, lindblom1967, halle1967, halle1967a, slis1969a, slis1969, chen1970, klatt1973, lisker1974, raphael1975, umeda1975, javkin1976, port1982, mack1982, luce1985, van-summers1987, kluender1988, de-jong1991, laeufer1992, fowler1992, de-jong2004, warren2005, ko2018, glewwe2018, sanker2019}, among others).
 The existence of the voicing effect has been further corroborated in French by \citet{belasco1953}, \citet{chen1970}, and \citet{laeufer1992}, in Hungarian by \citet{soskuthy2013}, and German (in the context of word-final voicing neutralisation, see \citealt{nicenboim2018a} and references therein).
-Other voicing-effect languages are Arabic (\citealt{hussein1994}, but cf. \citealt{mitleb1982}), Assamese, Bengali, Dutch, Hindi, Italian \citep{caldognetto1979, farnetani1986, esposito2002}, Icelandic, Japanese \citep{port1987}, Korean, Lithuanian, Norwegian, Swedish, Spanish, Telugu \citep{sanker2018}, and Russian [add references].
+Other voicing-effect languages are Arabic (\citealt{hussein1994}, but cf. \citealt{mitleb1982}), Assamese, Bengali, Dutch, Hindi \citet{maddieson1976, ohala1992a, lampp2004, durvasula2012, sanker2018}, Italian \citep{caldognetto1979, farnetani1986, esposito2002}, Icelandic, Japanese \citep{port1987}, Korean, Lithuanian, Norwegian, Swedish, Spanish, Telugu \citep{sanker2018}, and Russian [add references].
 From a typological perspective, the sample is thus strongly biased towards Indo-European languages.
 <!-- Maybe say this later or in footnote because it could give the impression that I will sort this out. -->
 Moreover, the four non-Indo-European languages are well-studied languages.
@@ -99,7 +99,7 @@ To provide a rationale for the language-specificity of the voicing effect, \cite
 The ratio of the duration of the closure and that of the vowel is one of the perceptual cues to voicing \citet{port1982, lisker1986}.
 Listeners associate smaller values of the consonant-to-vowel ratio to voiced stops, and, vice versa, greater values to voiceless stops.
 \citet{kluender1988} argue that speakers can actively manipulate vowel durations to proportionally increase the difference in ratio between the two voicing categories, so that the ratio would be even smaller in the voiced context and even greater in the voiceless one.
-As a consequence, the perceptual distance between the voicing categories would be enhanced, thus facilitating discrimination.
+As a consequence, the perceptual distance between the voicing categories would be enhanced, thus facilitating discrimination \citet{stevens1989, kingston1994}.
 According to this view, listeners should show a contrast effect, by which longer closure durations elicit more 'short vowel' responses and shorter closures more 'long vowel' responses.
 However, \citet{fowler1992} shows that listeners judge vowels to be longer when the stop closure duration is increased, and that, similarly, stop closure is perceived to be longer when vowel duration is increased.
 These results indicate a mechanism of perceptual assimilation of the respective durations of vowels and stop closures, rather than a contrast effect which can be exploited in the enhancement of the voicing distinction.
@@ -125,4 +125,9 @@ However, the concept of 'articulatory force' lacks an empirically solid definiti
 While the compensatory temporal adjustment and the energy expenditure accounts rely on compensatory mechanisms of duration or articulatory force, two other proposals concern aspects of gestural timing of the larynx and the consonant closing gesture.
 The laryngeal adjustment account \citet{halle1967, halle1967a, chomsky1968} is based on the idea that voicing during a stop closure requires precise adjustments of the glottis in order to comply with aerodynamic constraints \citep{ohala2011}.
 Such a precision requires greater time to be achieved during articulation than the production of closure voicelessness, which requires less precise control.
-Because of these properties of laryngeal articulation, full closure can be achieved relatively faster in the context of voiceless stops, while a delay in closure onset with voiced stops ensures enough time to produce the suitable glottal configuration.
+Because of these properties of laryngeal articulation, full closure can be achieved relatively faster in the context of voiceless stops, while a delay of closure onset in voiced stops ensures enough time to produce the suitable glottal configuration.
+The preliminary electromiographic data of glottal muscular activity discussed in \citet{chen1970}, however, suggests that the expected early activity of laryngeal muscles during the production of vowels followed by voiced stops compared to vowels followed by voiceless stops is not found.
+Further articulatory evidence shows that there is rather a general increase of activity of certain laryngeal muscles (mainly the posterior crycoarytenoid and the crycothyroid) during the production of voiceless sounds \citep{hirose1972, kagaya1975, hirose1977, lofqvist1989}.
+No conclusive evidence can thus be adduced in support of the laryngeal adjustment hypothesis, although other laryngeal mechanisms cannot be ultimately excluded.
+
+<!-- I think I need to read more about this -->
