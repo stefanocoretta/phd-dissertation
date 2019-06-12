@@ -145,5 +145,6 @@ Subsequent work by \citet{warren2005} further shows that the percentage of diffe
 <!-- to sum up -->
 
 ## Aspiration effect
+<!-- and ejection effect? -->
 
 While the dissertation focusses on the voicing effect, a closely related phenomenon, the effect of consonant aspiration on vowel duration, has consequences of theoretical importance for the voicing effect.
