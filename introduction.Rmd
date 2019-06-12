@@ -121,3 +121,8 @@ A second proposal attributes the voicing-driven differential duration of vowels 
 \citet{meyer1903} and similarly \citet{belasco1953} propose that the articulatory force required to produce a syllable is constant, and thus it is distributed across segments according to their energy requirements.
 According to this hypothesis, voiceless stops are produced with more force than voiced stops, and hence some force is subtracted from the production of the preceding vowel to maintaining the overall force constant.
 However, the concept of 'articulatory force' lacks an empirically solid definition, and experimental results mentioned in \citet{zimmerman1958} rather point to the absence of a relation between energy expenditure and vowel duration.
+
+While the compensatory temporal adjustment and the energy expenditure accounts rely on compensatory mechanisms of duration or articulatory force, two other proposals concern aspects of gestural timing of the larynx and the consonant closing gesture.
+The laryngeal adjustment account \citet{halle1967, halle1967a, chomsky1968} is based on the idea that voicing during a stop closure requires precise adjustments of the glottis in order to comply with aerodynamic constraints \citep{ohala2011}.
+Such a precision requires greater time to be achieved during articulation than the production of closure voicelessness, which requires less precise control.
+Because of these properties of laryngeal articulation, full closure can be achieved relatively faster in the context of voiceless stops, while a delay in closure onset with voiced stops ensures enough time to produce the suitable glottal configuration.
