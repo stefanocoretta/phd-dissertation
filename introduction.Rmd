@@ -25,10 +25,10 @@ After these, a plethora of studies confirmed the effect in these languages and r
 
 English is by far the language that received the most attention (\citealt{heffner1937, house1953, lisker1957, zimmerman1958, peterson1960, house1961, sharf1962, sharf1964, lindblom1967, halle1967, halle1967a, slis1969a, slis1969, chen1970, klatt1973, lisker1974, raphael1975, umeda1975, javkin1976, port1982, mack1982, luce1985, van-summers1987, kluender1988, de-jong1991, laeufer1992, fowler1992, de-jong2004, warren2005, ko2018, glewwe2018, sanker2019}, among others).
 The existence of the voicing effect has been further corroborated in French by \citet{belasco1953}, \citet{chen1970}, and \citet{laeufer1992}, in Hungarian by \citet{soskuthy2013}, and German (in the context of word-final voicing neutralisation, see \citealt{nicenboim2018a} and references therein).
-Other voicing-effect languages are Arabic (\citealt{hussein1994}, but cf. \citealt{mitleb1982}), Assamese, Bengali, Dutch, Hindi \citet{maddieson1976, ohala1992a, lampp2004, durvasula2012, sanker2018}, Italian \citep{caldognetto1979, farnetani1986, esposito2002}, Icelandic, Japanese \citep{port1987}, Korean, Lithuanian, Norwegian, Swedish, Spanish, Telugu \citep{sanker2018}, and Russian [add references].
+Other voicing-effect languages are Arabic (\citealt{hussein1994}, but cf. \citealt{mitleb1982}), Assamese, Bengali, Dutch, Georgian \citep{begus2017}, Hindi \citet{maddieson1976, ohala1992a, lampp2004, durvasula2012, sanker2018}, Italian \citep{caldognetto1979, farnetani1986, esposito2002}, Icelandic, Japanese \citep{port1987}, Korean, Lithuanian, Norwegian, Swedish, Spanish, Telugu \citep{sanker2018}, and Russian [add references].
 From a typological perspective, the sample is thus strongly biased towards Indo-European languages.
 <!-- Maybe say this later or in footnote because it could give the impression that I will sort this out. -->
-Moreover, the four non-Indo-European languages are well-studied languages.
+Moreover, the five non-Indo-European languages are well-studied languages.
 It will thus be vital, in the future, to investigate the voicing effect in underdescribed and underdocumented languages, from a wider variety of linguistic families and geographical locations.
 This notwithstanding, the voicing effect is generally regarded as a very common and widespread phenomenon.
 
