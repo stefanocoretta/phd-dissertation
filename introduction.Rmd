@@ -1,12 +1,18 @@
 ---
-title: "PhD dissertation"
+title: "Vowel duration and consonant voicing: An articulatory study"
 author: "Stefano Coretta"
 documentclass: book
 ---
 
 # (PART) Introduction {-}
 
+# Overview
+
+<!-- to do -->
+Given that no particular hypothesis seems to stand out over the others, this thesis set out to find out what information could be obtained from time-synchronised acoustic, ultrasonic, and electroglottographic data.
+
 # The voicing effect and beyond
+\label{s:ve}
 
 <!-- I talk mostly about stops, so maybe I have to clarify this -->
 A long-recognised property of vowels is that their duration is influenced by the voicing of the consonant following them.
@@ -164,3 +170,35 @@ Closure duration is longer in unaspirated stops and shorter in aspirated stops i
 An investigation of the effect of ejection in Georgian \citep{begus2017} shows that vowels are shortest when followed by aspirated stops, longer when followed by ejectives, and longest when followed by voiced stops (Georgian contrasts aspirated voiceless, ejective, and voiced unaspirated stops).
 Moreover, the negative correlation between closure and vowel duration has a greater magnitude in the context of voiced compared to those of aspirated and ejective stops.
 As discussed in \citep{begus2017}, these patterns are compatible with accounts of compensatory temporal adjustments, laryngeal adjustments, and rate of closure.
+
+## Summary
+<!-- to do -->
+
+# Project overview
+
+The end of \Cref{s:ve} stressed the variety of proposals as to what the source of the voicing effect could be.
+Moreover, the accounts reviewed in the previous chapter all find partial support and face challenges in one way or the other.
+Possibly, accounts based on perceptual biases are somewhat weaker than production accounts.
+Given the complexity of the various production accounts and their interactions, this thesis focusses on articulatory aspects of the voicing effect.
+Since over the years evidence has accumulated for at least three of these accounts, the compensatory temporal adjustment, the laryngeal adjustment, and the rate of closure account, this thesis set out to collect acoustic and articulatory that would enable a free exploration of the hypothesis space.
+This is where the first of the two studies that form part of this thesis stands.
+An exploratory study of several aspects of the influence of voicing on vowel duration sought to provide data without constraining the experimental design in light of a particular hypothesis.
+The results of this study suggested a promising venue for a further investigation of the compensatory temporal adjustment account.
+A second study was thus planned to test the hypotheses generated in the previous exploration.
+
+This chapter offers an overview of these studies, which are discussed in turn.
+For each study, information will be given on experimental materials and procedures, and data processing.
+While specific details will be presented in the individual papers, this chapter offers to the readers a kind of road map to aid them in navigating the second part of the thesis.
+
+## Exploratory study of the voicing effect in Italian and Polish
+
+Since the voicing effect in English is thought to be phonologised, if one wants to unearth mechanic properties, it is more convenient to investigate the effect in language where the effect is not phonologised and thus potential not under the control of the speaker.
+<!-- but could still be, cf with Rothenberg -->
+Moreover, contrasting two languages that differ in the magnitude or presence vs. absence of the effect is a desideratum.
+Italian and Polish are two good candidates since they satisfy both the requirement of the effect not being phonologised, and the requirement of showing the effect at different degrees.
+Moreover, their phonological systems share some properties that makes comparison easier.
+
+Since the accounts cover aspects of segmental duration, oral articulators, and laryngeal gestures, data was obtained from three sources: (1) acoustics, (2) ultrasound tongue imaging, a non-invasive technique to image the shape of the tongue using ultrasonic equipment, and (3) electroglottography, a indirect and safe method to gather information on vocal fold activity.
+
+
+## Compensatory aspects of the effect of voicing on vowel duration in English
