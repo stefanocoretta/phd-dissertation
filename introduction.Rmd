@@ -4,13 +4,9 @@ author: "Stefano Coretta"
 documentclass: book
 ---
 
-# (PART) Background {-}
+# (PART) Introduction {-}
 
-# Introduction
-
-This is the introduction of the dissertation.
-
-## The voicing effect and beyond
+# The voicing effect and beyond
 
 <!-- I talk mostly about stops, so maybe I have to clarify this -->
 A long-recognised property of vowels is that their duration is influenced by the voicing of the consonant following them.
