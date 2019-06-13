@@ -95,7 +95,7 @@ If this new lexical representation is created, the listener, now turned speaker,
 <!-- Ohala -->
 Although \citet{javkin1976} does not directly test the hypothesis that closure voicing is reinterpreted as part of the preceding vowel, the results indicate that listeners perceive vowels to be longer when followed by voiced than when followed by voiceless stops, other things being equal.
 On the other hand, \citet{sanker2019} finds that vowels rather elicit less 'long' responses when the consonant following the vowel is voiced, while they elicit more 'long' responses in stimuli where the following consonant is spliced out.
-While there is potential for a perceptual bias driving some aspects of the voicing effect, production mechanisms of voiced stops affecting acoustic aspects of vowels could be at the root of perceptual biases, which could be responsible for the enhancement of the effect in some speakers/languages \citep{begus2017, sanke2019}.
+While there is potential for a perceptual bias driving some aspects of the voicing effect, production mechanisms of voiced stops affecting acoustic aspects of vowels could be at the root of perceptual biases, which could be responsible for the enhancement of the effect in some speakers/languages \citep{begus2017, sanker2019}.
 
 To provide a rationale for the language-specificity of the voicing effect, \citet{kluender1988} propose that different languages can exploit the perceptual bias behind the effect at different degrees.
 The ratio of the duration of the closure and that of the vowel is one of the perceptual cues to voicing \citet{port1982, lisker1986}.
@@ -156,7 +156,6 @@ The results concerning the aspiration effect are mixed.
 \citet{ohala1992a}, on the other hand, shows that vowels have the same duration before unaspirated and aspirated stops in his sample of Hindi speakers.
 \citet{sanker2018} observes an effect in Hindi long but not in short vowels, while the effect is reversed in Telugu long vowels (vowels are shorter before aspirated than unaspirated stops), with no appreciable difference in short vowels.
 Note that these studies don't easily lend themselves to comparison, since the material and contexts used differ (vowel type, vowel phonological length, number of syllables, context following the test word).
-An investigation of the effect of ejection in Georgian \citep{begus2017} shows that vowels are shortest when followed by aspirated stops, longer when followed by ejectives, and longest when followed by voiced stops (Georgian contrasts aspirated voiceless, ejective, and voiced unaspirated stops).
 
 The trend of vowels being longer when followed by aspirated stops challenges some of the accounts presented in \Cref{s:accounts}, as noted in \citet{maddieson1976}.
 The articulatory force expenditure hypothesis predicts vowels to be shorter before aspirated than before unaspirated stops since it is likely that aspirated stops require greater force than unaspirated ones.
@@ -164,4 +163,8 @@ According to the laryngeal adjustment account, the duration of the vowels should
 Since closure rate is determined by airflow, the rate of closure account expects vowels followed by aspirated stops to be shorter than or equal to vowels followed by unaspirated stops, since the former should be characterised by greater airflow and higher closure rates due to the spread glottis.
 While \citet{maddieson1976} argue against a compensatory effect between vowel and consonant duration, the data in \citet{durvasula2012} are compatible with it (see [...] for details).
 The results in \citet{sanker2018} on Hindi, but not Telugu, are also compatible with a compensatory mechanism.
-Closure durations are longer in unaspirated stops and shorter in aspirated stops in both languages, but the effect of aspiration on vowel duration has opposite directions, as discussed above.
+Closure duration is longer in unaspirated stops and shorter in aspirated stops in both languages, but the effect of aspiration on vowel duration has opposite directions, as discussed above.
+
+An investigation of the effect of ejection in Georgian \citep{begus2017} shows that vowels are shortest when followed by aspirated stops, longer when followed by ejectives, and longest when followed by voiced stops (Georgian contrasts aspirated voiceless, ejective, and voiced unaspirated stops).
+Moreover, the negative correlation between closure and vowel duration has a greater magnitude in the context of voiced compared to those of aspirated and ejective stops.
+As discussed in \citep{begus2017}, these patterns are compatible with accounts of compensatory temporal adjustments, laryngeal adjustments, and rate of closure.
