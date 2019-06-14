@@ -174,7 +174,7 @@ As discussed in \citep{begus2017}, these patterns are compatible with accounts o
 ## Summary
 <!-- to do -->
 
-# Project overview
+# Studies overview
 
 The end of \Cref{s:ve} stressed the variety of proposals as to what the source of the voicing effect could be.
 Moreover, the accounts reviewed in the previous chapter all find partial support and face challenges in one way or the other.
@@ -190,7 +190,11 @@ This chapter offers an overview of these studies, which are discussed in turn.
 For each study, information will be given on experimental materials and procedures, and data processing.
 While specific details will be presented in the individual papers, this chapter offers to the readers a kind of road map to aid them in navigating the second part of the thesis.
 
+<!-- Ethics -->
+
 ## Exploratory study of the voicing effect in Italian and Polish
+
+<!-- three aspects: exploratory, acoustics + articulatory, and Italian Polish -->
 
 Since the voicing effect in English is thought to be phonologised, if one wants to unearth mechanic properties, it is more convenient to investigate the effect in language where the effect is not phonologised and thus potential not under the control of the speaker.
 <!-- but could still be, cf with Rothenberg -->
@@ -199,6 +203,42 @@ Italian and Polish are two good candidates since they satisfy both the requireme
 Moreover, their phonological systems share some properties that makes comparison easier.
 
 Since the accounts cover aspects of segmental duration, oral articulators, and laryngeal gestures, data was obtained from three sources: (1) acoustics, (2) ultrasound tongue imaging, a non-invasive technique to image the shape of the tongue using ultrasonic equipment, and (3) electroglottography, a indirect and safe method to gather information on vocal fold activity.
+
+<!-- Participants: to be moved -->
+A total of 17 participants were recruited in Manchester (UK) and in Verbania (Italy).
+Eleven participants were native speakers of Italian, and six of Polish.
+Recordings were made in a sound-attenuated room at the Phonetics Laboratory of the University of Manchester, and in a quiet room at a field location in Verbania.
+Due to technical issues or poor signal quality, ultrasonic data of /u/ from two speakers and electroglottographic data from two others are missing.
+\Cref{t:speakers-data} gives the recording location and possible missing data for each participant.
+Basic sociolinguistic data is given in [...].
+The participants read an information sheet prior to the experiment and signed a consent form
+
+\ctable[caption = ...,
+label = t:speakers-data,
+width=\textwidth,
+star,
+doinside = \scriptsize
+]{lll}{}{
+\FL
+Speaker & Location   & Missing data    \ML
+IT01    & Manchester &                 \NN
+IT02    & Manchester &                 \NN
+IT03    & Verbania   &                 \NN
+IT04    & Verbania   & missing EGG     \NN
+IT05    & Verbania   & missing EGG     \NN
+IT07    & Verbania   & missing /u/ UTI \NN
+IT09    & Manchester &                 \NN
+IT11    & Manchester &                 \NN
+IT12    & Manchester &                 \NN
+IT13    & Manchester &                 \NN
+IT14    & Manchester &                 \NN
+PL02    & Manchester &                 \NN
+PL03    & Manchester &                 \NN
+PL04    & Manchester &                 \NN
+PL05    & Manchester & missing /u/ UTI \NN
+PL06    & Manchester &                 \NN
+PL07    & Manchester &                 \LL
+}
 
 Ultrasound tongue imaging (UTI) uses ultrasonography for charting the movements of the tongue into a two-dimensional image.
 In medical sonography, ultrasound waves (sound waves at high frequencies, ranging between 2 and 14 MHz) are emitted from a probe in a fan-like manner, and travel through organic tissue (such as skin and muscles).
