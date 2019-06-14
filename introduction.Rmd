@@ -200,5 +200,42 @@ Moreover, their phonological systems share some properties that makes comparison
 
 Since the accounts cover aspects of segmental duration, oral articulators, and laryngeal gestures, data was obtained from three sources: (1) acoustics, (2) ultrasound tongue imaging, a non-invasive technique to image the shape of the tongue using ultrasonic equipment, and (3) electroglottography, a indirect and safe method to gather information on vocal fold activity.
 
+Ultrasound tongue imaging (UTI) uses ultrasonography for charting the movements of the tongue into a two-dimensional image.
+In medical sonography, ultrasound waves (sound waves at high frequencies, ranging between 2 and 14 MHz) are emitted from a probe in a fan-like manner, and travel through organic tissue (such as skin and muscles).
+When the surface of a material with different density is hit, the ultrasound waves are partially reflected, and such "echo" is registered by the probe.
+These echoes can then be plotted on a two-dimensional graph, where different densities are represented by different shades (higher densities are brighter, while lower densities are darker).
+The graph, or ultrasound image, will show high density surfaces as very bright lines, surrounded by darker areas.
+By positioning the ultrasound probe in contact with the submental triangle (the surface below the chin), sagittally oriented, it is possible to infer the cross-sectional profile of the tongue, which appears as a bright line in the resulting ultrasound image.
+
+Electroglottography \citep{fabre1957} is a technique that measures the size of contact between the vocal folds (the Vocal Folds Contact Area, VFCA).
+A high frequency low voltage electrical current is sent through two electrodes which are in contact with the surface of the neck, one on each side of the thyroid cartilage.
+The impedance of the current is directly correlated with VFCA, while its amplitude is inversely correlated \citep{titze1990}.
+Thus, impedance increases with lower VFCA and decreases with higher VFCA.
+Conversely, amplitude decreases when the VFCA increases and it increases when the VFCA decreases.
+The EGG unit registers changes in impedance and it converts it in amplitude.
+Its output is a synchronised stereo recording which contains the EGG signal from the electrodes in right channel and the audio signal from the microphone in the left channel.
+
+![Equipment set-up scheme.\label{f:setup}](./img/setup.pdf){ width=80% }
+
+\Cref{f:setup} shows the equipment set-up employed in the study.
+The left part of the figure shows the ultrasound set-up, while the EGG set-up is shown on the right.
+Two separate laptops were used for the acquisition of the ultrasound and EGG recordings.
+The ultrasound unit was plugged into one laptop.
+A P-Stretch unit (used for signal synchronisation) and the ultrasound probe were directly connected to the ultrasound unit.
+The P-Stretch unit and a microphone fed a pre-amplifier system, which was plugged into the ultrasound laptop.
+A second microphone and the electrodes were connected to the EGG unit, which was plugged into the second laptop.
+A TELEMED Echo Blaster 128 system was used for ultrasonography and a Glottal Enterprises EG2-PCX2 unit for EGG.
+The subject wore a headset (not shown in \Cref{f:setup}) which holds the ultrasound probe in position (allowing free head movement), and the velcro strap with the EGG electrodes, located on each side of the thyroid cartilage, at the level of the glottis.
+The microphones were clipped to the headset on either side, at identical height.
+
+Ultrasound and EGG inputs are acquired and recorded in separate laptops by means of, respectively, Articulate Assistant Advanced (AAA, \citealt{articulate2011}) and Praat \citep{boersma2016}.
+Since the signals from the ultrasound machine and the electroglottograph are recorded simultaneously but separately, data from both machines need to be synchronised after acquisition.
+Synchronisation is achieved through the cross-correlation of the audio signals from both sources \citep{grimaldi2008}.
+This method creates a sound file from two audio files which is the cross-correlation of the original files (\Cref{f:cross-correlation}).
+The interval between the start of the cross-correlated sound file and the time of maximum amplitude is equal to the lag between the two original files.
+Syncing of the original sound files is achieved by trimming the longer sound from its start by the same amount as the lag.
+A measure taken at any particular time in the ultrasound source can thus be related to a measure taken at that same time in the EGG source.
+
+![Synchronisation of two sounds by cross-correlation. \label{f:cross-correlation}](./img/cross-correlation.pdf){ width=80% }
 
 ## Compensatory aspects of the effect of voicing on vowel duration in English
