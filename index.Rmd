@@ -8,4 +8,5 @@ biblio-style: unified
 indent: true
 header-includes:
 - \usepackage{cleveref}
+- \usepackage{ctable}
 ---
