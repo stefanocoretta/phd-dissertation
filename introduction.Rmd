@@ -333,3 +333,32 @@ The test words were built according to the following structure: C\textsubscript{
 The test words were embedded in sentence-medial position within frame sentences, so that each speaker would read a total of 120 stimuli (24 words × 5 frames).
 The audio recordings were force-aligned and the times of acoustic landmarks were extracted according to the same procedure as in Study I (with `make-textgrid.praat` and `get-measurements.praat` in \citealt{coretta2019g}).
 Further details are given in Paper [...].
+
+# Open Science
+
+Open Science is a movement that proposes a series of research principles and warns from common (unintentional) misconceptions and questionable practices in order to build a more honest and transparent scientific environment.
+The term Open Science as a whole refers to the fundamental concepts of 'openness, transparency, rigour, reproducibility, replicability, and accumulation of knowledge' \citep[3]{cruwell2018}.
+Knowledge accumulation is sound only when replicability and reproducibility, proxies to the first three concepts above, can be met.
+While reproducibility and replicability are generally used interchangeably, they refer to two different ideas.
+A study is *replicable* when researchers can independently run the study on new subjects/with new data and obtain the same results (in brief, same analysis, different data/researchers).
+The *reproducibility* of a study is, instead, related to the ability of independent researchers to run the original analysis on the original data and obtain the same results as those presented by the original authors, pending enough information on the analysis procedures is given (in brief, same analysis, same data).
+
+The need for Open Science, which is increasingly expanding to several disciplines and enterprises, emerged primarily from the ongoing 'replication crisis' \citep{pashler2012, schooler2014}, most focus of which has been give to the medical and the psychological sciences.
+Recent attempts to replicate the results from high-impact studies in psychology have demonstrated an alarming high rate of failure to replicate.
+In some cases, the studies did not provide enough information to
+Much of this failed attempts have been claimed to be a consequence of questionable research and measurement practices \citep{simmons2011, flake2019}.
+
+Questionable research and measurement practices are practices that negatively affect the scientific enterprise, but that are intentionally or unintentionally employed by a surprisingly high number of researchers \citet{john2012}.
+At various stages of the research timeline, a research can employ the so-called 'researchers' degrees of freedom' to obtain a significant result \citep{simmons2011}.
+Within the Null Hypothesis Significance Testing paradigm, the researchers' degrees of freedom create a 'garden of forking paths' \citep{gelman2013}, that the researcher can explore until the results are satisfactory (i.e., they are the results expected by the researchers, or they are high-impact and novel).
+
+*P*-hacking is a general term that refers to the process of choosing and reporting those analyses that transform a non-significant *p*-value to a significant one \citep{simmons2011, wagenmakers2007, motulsky2014}.
+*P*-hacking can be achieved by several means, for example by trying different dependent variables, including and/or excluding predictors, selective inclusion/exclusion of subjects and observations, or sequential testing (collecting data until the results are significant).
+Another common practice is to back-engineer a hypothesis after unexpected results, also known as Hypothesising After the Results are Known (HARKing, \citealt{kerr1998}).
+\citet{lieber2009} warns against 'double dipping', or the use of the same data to generate a hypothesis and to test it.
+<!-- cite roettger too -->
+Questionable Measurement practices...
+
+<!-- sample size -->
+
+<!-- publication bias -->
