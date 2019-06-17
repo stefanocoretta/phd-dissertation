@@ -23,7 +23,7 @@ Possibly, the voicing effect is one of the most robust effects found in the phon
 Among the earliest traceable mentions to the voicing effect there are \citet{meyer1903} for English (cited in \citealt{lindblom1967}), \citet{meyer1904} for German, \citet{meyer1909} for Hungarian, and \citet{gregoire1911} for French (all cited in \citealt{maddieson1976}).
 After these, a plethora of studies confirmed the effect in these languages and reported it in other ones.
 
-<!-- I need to talk about what I mean by voicing -->
+<!-- I need to talk about what I mean by voicing, defined phonologically, cf Docherty and Tanner -->
 
 English is by far the language that received the most attention (\citealt{heffner1937, house1953, lisker1957, zimmerman1958, peterson1960, house1961, sharf1962, sharf1964, lindblom1967, halle1967, halle1967a, slis1969a, slis1969, chen1970, klatt1973, lisker1974, raphael1975, umeda1975, javkin1976, port1982, mack1982, luce1985, van-summers1987, kluender1988, de-jong1991, laeufer1992, fowler1992, de-jong2004, warren2005, ko2018, glewwe2018, sanker2019}, among others).
 The existence of the voicing effect has been further corroborated in French by \citet{belasco1953}, \citet{chen1970}, and \citet{laeufer1992}, in Hungarian by \citet{soskuthy2013}, and German (in the context of word-final voicing neutralisation, see \citealt{nicenboim2018a} and references therein).
@@ -75,6 +75,8 @@ It is thus possible that, once controlling for contextual factors, the apparent 
 A similar conclusion is proposed by \citet{laeufer1992}, who compared French and English with carefully designed material to ensure comparison.
 When the duration of vowel is similar across languages, the magnitude of the effect is also comparable.
 To conclude, there is mixed evidence as to whether there exist cross-linguistic differences in magnitude of the voicing effect, and arguments based on phonologisation of the effect as derived from stability across speaking rates should be taken with caution.
+
+<!-- other phonological factors that modulate VE: stress, whispered speech, vowel quality -->
 
 ## Whence the voicing effect
 \label{s:accounts}
@@ -269,15 +271,53 @@ A second Movo microphone and the electrodes were connected to a Glottal Enterpri
 The subject wore a metallic headset produced by \citet{articulate2008} (not shown in \Cref{f:setup}), which holds the ultrasound probe in position (allowing free head movement), and the velcro strap with the EGG electrodes around their neck.
 The electrodes were located on each side of the thyroid cartilage, at the level of the glottis.
 The microphones were clipped to the headset on either side, at identical height.
+<!-- palate tracing and bite plate -->
 
 <!-- put Vale's pic -->
+
+<!-- MATERIALS -->
+
+<!-- mention that data and processing are available at OSF, the following paragrapsh are documentation of the data and data processing -->
 
 The UTI+audio and EGG+audio signals were acquired and recorded by means of Articulate Assistant Advanced (AAA, \citealt{articulate2011}) and Praat \citep{boersma2016} respectively.
 Since the signals from the ultrasonic machine and the electroglottograph are recorded simultaneously but separately, data from both sources were synchronised after acquisition.
 Synchronisation was achieved using the cross-correlation of the audio signals from both sources \citep{grimaldi2008}.
 The interval between the start of the cross-correlated signal and the time of the signal maximum amplitude is equal to the lag between the two original sounds (\Cref{f:cross-correlation}).
 Synchronisation of the original sound files was achieved by trimming the beginning of the longer sound by the lag obtained from cross-correlation.
+A Praat script was written to automate the synchronisation process (`sync-egg.praat` in \citealt{coretta2018m}).
 
 ![Synchronisation of two sounds by cross-correlation. \label{f:cross-correlation}](./img/cross-correlation.pdf){ width=80% }
+
+A time-aligned transcript of the recordings was obtained with a force-alignment procedure.
+Since the audio recorded with the EGG system presented more hardware-generated noise than that recorded with the UTI system, the latter was used in all subsequent acoustic-based analyses.
+The SPeech Phonetisation Alignment and Syllabification (SPPAS) software was used \citet{bigi2015}.
+SPPAS is a language-agnostic system, and it comes pre-packaged for a variety of languages, among which Italian, Polish, and English.
+The output of the force-alignment is a Praat TextGrid with time-aligned interval tiers of the intonational phrase units (utterances), word-level, and phone-level annotations.
+The automatic annotation was then manually checked and corrected if necessary by the author.
+The placement of the phone boundaries followed the suggestions in \citet{machac2009}.
+See [...] for details.
+
+Detection of the release of C1 and C2 was accomplished through the algorithmic procedure described in \citet{ananthapadmanabha2014}.
+An implementation of the procedure has been written by the author in Praat (`release-detection-c1.praat` and `burst-detection.praat` in \citealt{coretta2018m}).
+The output of the automatic detection was manually checked and corrected.
+The times of the following landmarks were extracted via a custom Praat script (`get.duration.praat` in \citealt{coretta2018m}): sentence onset and offset, target word onset and offset, C1 release, V1 onset, V1 offset/C2 closure onset, C2 release, V2 onset.
+
+UTI data processing was performed in AAA \citep{articulate2011}.
+Spline curves were fitted to the tongue surface images using a built-in automatic batch procedure, within a search area defined by the interval between the onset of the syllable preceding the target word and the offset of the syllable following the target word.
+A search area TextGrid was created in Praat (with `search-area.praat` in \citealt{coretta2018m}) and imported in AAA for the batch procedure.
+The automatic fitting procedure was monitored by the author and manual correction of the fitted splines was applied if necessary.
+
+Subsequent data processing followed the method described in \citet{strycharczuk2015}.
+See [...] and [...] for details.
+The Cartesian coordinates of the fitted splines, together with tongue displacement, tangential velocity, and absolute velocity of the tongue root, dorsum and tip, were obtained from the following landmarks: C2 closure onset, tongue maximum displacement during C2 closure (MAX), peak absolute velocity before (PEAK_1) and after (PEAK_2) tongue maximum displacement, tongue closing gesture onset (GONS), closure gesture nucleus onset (NONS) and offset (NOFF).
+GONS, NONS, and NOFF were defined as the times where absolute velocity reaches 20% of the peak absolute velocity before PEAK_1, between PEAK_1 and MAX, and between MAX and PEAK_2 respectively \citet{kroos1997, gafos2010a}.
+Tongue displacement, tangential and absolute velocity of the tongue root, dorsum, and tip were also extracted as time-series along the duration of V1.
+
+<!-- figure of velocity -->
+
+Finally, wavegram data was extracted from the EGG data, following the method proposed by \citet{herbst2010}.
+In brief, a wavegram is a spectrogram-like representation of the EGG signal, where individual glottal cycles are sequentially placed on the *x*-axis, the normalised time of the samples taken from within each glottal cycle is the *y*-axis, and the third dimension, represented by colours of different shading, is the normalised amplitude of the EGG signal.
+See [...] for details.
+Wavegram data was obtained from the entire duration of V1.
 
 ## Compensatory aspects of the effect of voicing on vowel duration in English (Study II)
