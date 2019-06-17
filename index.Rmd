@@ -3,6 +3,7 @@ title: "Vowel duration and consonant voicing: An articulatory study"
 author: "Stefano Coretta"
 site: bookdown::bookdown_site
 documentclass: book
+classoption: openany
 bibliography: linguistics
 biblio-style: unified
 indent: true
