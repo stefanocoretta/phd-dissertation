@@ -207,6 +207,7 @@ Italian and Polish are two good candidates since they satisfy both the requireme
 Moreover, their phonological systems share some properties that makes comparison easier.
 
 Since the accounts cover aspects of segmental duration, oral articulators, and laryngeal gestures, data was obtained from three sources: (1) acoustics, (2) ultrasound tongue imaging, a non-invasive technique to image the shape of the tongue using ultrasonic equipment, and (3) electroglottography, a indirect and safe method to gather information on vocal fold activity.
+<!-- say that since the papers talk about different aspects of the study and its methods, here I report an over-all overview of the methods and data of Study I -->
 
 <!-- Participants: to be moved -->
 A total of 17 participants were recruited in Manchester (UK) and in Verbania (Italy).
@@ -275,7 +276,10 @@ The microphones were clipped to the headset on either side, at identical height.
 
 <!-- put Vale's pic -->
 
-<!-- MATERIALS -->
+The participants read sentences containing test words presented on the screen via AAA.
+The test words were C\textsubscript{1}V\textsubscript{1}C\textsubscript{2}V\textsubscript{2} words, where C\textsubscript{1} = /p/, V\textsubscript{1} = /a, o, u/, C\textsubscript{2} = /t, d, k, g/, and V\textsubscript{2} = V\textsubscript{1}.
+The choice of the segmental make-up of the test words was constrained by the use of ultrasound tongue imaging.
+Paper [...] provides more details on the rationale behind the material design.
 
 <!-- mention that data and processing are available at OSF, the following paragrapsh are documentation of the data and data processing -->
 
@@ -321,3 +325,11 @@ See [...] for details.
 Wavegram data was obtained from the entire duration of V1.
 
 ## Compensatory aspects of the effect of voicing on vowel duration in English (Study II)
+
+A second study was designed to assess the generalisability of the results from Study I to English, and to investigate differences between disyllabic and monosyllabic words.
+Fifteen university students were recorded in a sound attenuated room in the Phonetics Laboratory of the University of Manchester while reading sentence stimuli containing test words, presented on a computer screen with PsychoPy \citep{peirce2009}.
+The participants were native speakers of British English, aged between 20 and 29, born and raised within Greater Manchester.
+The test words were built according to the following structure: C\textsubscript{1}V́\textsubscript{1}C\textsubscript{2}(VC), where C\textsubscript{1} = /t/, V\textsubscript{1} = /iː, ɜː, ɑː/, C\textsubscript{2} = /p, b, k, g/, and (VC) = /əs/.
+The test words were embedded in sentence-medial position within frame sentences, so that each speaker would read a total of 120 stimuli (24 words × 5 frames).
+The audio recordings were force-aligned and the times of acoustic landmarks were extracted according to the same procedure as in Study I (with `make-textgrid.praat` and `get-measurements.praat` in \citealt{coretta2019g}).
+Further details are given in Paper [...].
