@@ -383,7 +383,14 @@ In \citet{dumas-mallet2017}, half of the surveyed biomedical studies (N = 660) h
 Estimation of the prospective statistical power has been suggested
 \citet{tressoldi2015} also find that only 2.9% of 853 studies in psychology report a prospective power analysis for sample size determination, i.e. the estimation of the smallest sample size necessary to obtain a certain power level before the experiment is run.
 
-<!-- publication bias and file drawer-->
+A bias in the observed effects can also arise at the publication stage.
+A publication bias has been observed in that significant and novel results are generally favoured over null or replicated results \citep{easterbrook1991, ioannidis2005, song2010, kicinski2013, nissen2016}.
+\citet{rosenthal1979} called the bias agains publishing null results the 'file drawer' problem.
+Studies that don't lead to a significant result are stored in the file drawer and forgotten.
+This practice not only can bias meta-analytical effect sizes, but also allows for waste of resources when studies with undisclosed null results are repeatedly performed.
+The questionable research and measurement practices described above, together with the publication bias, conspire to unduly increase confidence in our research outcomes.
 
 <!-- power and sample size in phonetics, analysis of speakers number in phonetics -->
 As mentioned above, sample size can have a big impact on statistical power, coupled with the effects of increased variance due to between-subject designs.
+
+<!-- remedies to all which is bad: pre-registration and registered reports -->
