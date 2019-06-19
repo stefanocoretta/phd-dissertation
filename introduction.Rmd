@@ -199,10 +199,9 @@ A second study was thus planned to test the hypotheses generated in the previous
 This chapter offers an overview of these studies, which are discussed in turn.
 For each study, information will be given on experimental materials and procedures, and data processing.
 While specific details will be presented in the individual papers, this chapter offers to the readers a kind of road map to aid them in navigating the second part of the thesis.
+Ethics clearance was obtained from the University research ethics committee (UREC) of the University of Manchester (REF 2016-009976).
 
 <!-- data and code links here? -->
-
-<!-- Ethics -->
 
 ## Exploratory study of the voicing effect in Italian and Polish (Study I)
 
@@ -213,6 +212,8 @@ Since the voicing effect in English is thought to be phonologised, if one wants 
 Moreover, contrasting two languages that differ in the magnitude or presence vs. absence of the effect is a desideratum.
 Italian and Polish are two good candidates since they satisfy both the requirement of the effect not being phonologised, and the requirement of showing the effect at different degrees.
 Moreover, their phonological systems share some properties that makes comparison easier.
+Note that, when talking about voiceless vs. voiced stops throughout the dissertation, I refer to the phonemic (lexical) contrast defined at an abstract level, rather than to the actual phonetic implementation of such contrast.
+This is generally helpful in light of the distinction between aspirating vs. true voicing languages \citep{beckman2013}, and in the case of English (Study II) in particular \citet{docherty1992}.
 
 Since the accounts cover aspects of segmental duration, oral articulators, and laryngeal gestures, data was obtained from three sources: (1) acoustics, (2) ultrasound tongue imaging, a non-invasive technique to image the shape of the tongue using ultrasonic equipment, and (3) electroglottography, a indirect and safe method to gather information on vocal fold activity.
 <!-- say that since the papers talk about different aspects of the study and its methods, here I report an over-all overview of the methods and data of Study I -->
@@ -400,7 +401,6 @@ Studies that don't lead to a significant result are stored in the file drawer an
 This practice not only can bias meta-analytical effect sizes, but also allows for waste of resources when studies with undisclosed null results are repeatedly performed.
 The questionable research and measurement practices described above, together with the publication bias, conspire to unduly increase confidence in our research outcomes.
 
-<!-- power and sample size in phonetics, analysis of speakers number in phonetics -->
 Given the similarities in methods between the psychological sciences and phonetics/phonology, it is reasonable to assume that the situation does not fare better in the latter.
 As mentioned above, sample size can have a big impact on statistical power, coupled with the effects of increased variance due to between-subject designs.
 \citet{kirby2018} suggests that the number of participants in phonetic studies is low, and that even with nominally high-powered sample sizes estimation of small effect sizes is subject to the power-related issues discussed above (especially Type S/M errors).
