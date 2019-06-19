@@ -8,7 +8,7 @@ documentclass: book
 
 # Overview
 
-<!-- to do -->
+<!-- TODO: Overview -->
 Given that no particular hypothesis seems to stand out over the others, this thesis set out to find out what information could be obtained from time-synchronised acoustic, ultrasonic, and electroglottographic data.
 
 # The voicing effect and beyond
@@ -22,8 +22,6 @@ Remarkably, as far as we can tell, no language has been reported having the oppo
 Possibly, the voicing effect is one of the most robust effects found in the phonetic literature (together with, for example, the effect of vowel height).
 Among the earliest traceable mentions to the voicing effect there are \citet{meyer1903} for English (cited in \citealt{lindblom1967}), \citet{meyer1904} for German, \citet{meyer1909} for Hungarian, and \citet{gregoire1911} for French (all cited in \citealt{maddieson1976}).
 After these, a plethora of studies confirmed the effect in these languages and reported it in other ones.
-
-<!-- I need to talk about what I mean by voicing, defined phonologically, cf Docherty and Tanner -->
 
 English is by far the language that received the most attention (\citealt{heffner1937, house1953, lisker1957, zimmerman1958, peterson1960, house1961, sharf1962, sharf1964, lindblom1967, halle1967, halle1967a, slis1969a, slis1969, chen1970, klatt1973, lisker1974, raphael1975, umeda1975, javkin1976, port1982, mack1982, luce1985, van-summers1987, kluender1988, de-jong1991, laeufer1992, fowler1992, de-jong2004, warren2005, ko2018, glewwe2018, sanker2019}, among others).
 The existence of the voicing effect has been further corroborated in French by \citet{belasco1953}, \citet{chen1970}, and \citet{laeufer1992}, in Hungarian by \citet{soskuthy2013}, and German (in the context of word-final voicing neutralisation, see \citealt{nicenboim2018a} and references therein).
@@ -281,16 +279,16 @@ A second Movo microphone and the electrodes were connected to a Glottal Enterpri
 The subject wore a metallic headset produced by \citet{articulate2008} (not shown in \Cref{f:setup}), which holds the ultrasound probe in position (allowing free head movement), and the velcro strap with the EGG electrodes around their neck.
 The electrodes were located on each side of the thyroid cartilage, at the level of the glottis.
 The microphones were clipped to the headset on either side, at identical height.
-<!-- palate tracing and bite plate -->
+<!-- TODO: palate tracing and bite plate -->
 
-<!-- put Vale's pic -->
+<!-- TODO: put Vale's pic -->
 
 The participants read sentences containing test words presented on the screen via AAA.
 The test words were C\textsubscript{1}V\textsubscript{1}C\textsubscript{2}V\textsubscript{2} words, where C\textsubscript{1} = /p/, V\textsubscript{1} = /a, o, u/, C\textsubscript{2} = /t, d, k, g/, and V\textsubscript{2} = V\textsubscript{1}.
 The choice of the segmental make-up of the test words was constrained by the use of ultrasound tongue imaging.
 Paper [...] provides more details on the rationale behind the material design.
 
-<!-- mention that data and processing are available at OSF, the following paragrapsh are documentation of the data and data processing -->
+<!-- TODO: mention that data and processing are available at OSF, the following paragrapsh are documentation of the data and data processing -->
 
 The UTI+audio and EGG+audio signals were acquired and recorded by means of Articulate Assistant Advanced (AAA, \citealt{articulate2011}) and Praat \citep{boersma2016} respectively.
 Since the signals from the ultrasonic machine and the electroglottograph are recorded simultaneously but separately, data from both sources were synchronised after acquisition.
@@ -326,7 +324,7 @@ The Cartesian coordinates of the fitted splines, together with tongue displaceme
 GONS, NONS, and NOFF were defined as the times where absolute velocity reaches 20% of the peak absolute velocity before PEAK_1, between PEAK_1 and MAX, and between MAX and PEAK_2 respectively \citet{kroos1997, gafos2010a}.
 Tongue displacement, tangential and absolute velocity of the tongue root, dorsum, and tip were also extracted as time-series along the duration of V1.
 
-<!-- figure of velocity -->
+<!-- TODO: figure of velocity -->
 
 Finally, wavegram data was extracted from the EGG data, following the method proposed by \citet{herbst2010}.
 In brief, a wavegram is a spectrogram-like representation of the EGG signal, where individual glottal cycles are sequentially placed on the *x*-axis, the normalised time of the samples taken from within each glottal cycle is the *y*-axis, and the third dimension, represented by colours of different shading, is the normalised amplitude of the EGG signal.
@@ -354,7 +352,7 @@ The *reproducibility* of a study is, instead, related to the ability of independ
 
 The need for Open Science, which is increasingly expanding to several disciplines and enterprises, emerged primarily from the ongoing 'replication crisis' \citep{pashler2012, schooler2014}, most focus of which has been give to the medical and the psychological sciences.
 Recent attempts to replicate the results from high-impact studies in psychology have demonstrated an alarming high rate of failure to replicate.
-<!-- brysbaert say 40% replication rate -->
+<!-- TODO: brysbaert say 40% replication rate -->
 In some cases, the studies did not provide enough information to...
 Much of this failed attempts have been claimed to be a consequence of questionable research and measurement practices \citep{simmons2011, flake2019}.
 
@@ -368,8 +366,7 @@ The researchers' degrees of freedom create a 'garden of forking paths' \citep{ge
 *P*-hacking can be achieved by several means, for example by trying different dependent variables, including and/or excluding predictors, selective inclusion/exclusion of subjects and observations, or sequential testing (collecting data until the results are significant).
 Another common practice is to back-engineer a hypothesis after unexpected results, also known as Hypothesising After the Results are Known (HARKing, \citealt{kerr1998}).
 \citet{lieber2009} warns against 'double dipping', or the use of the same data to generate a hypothesis and to test it.
-<!-- cite roettger too -->
-Questionable Measurement practices...
+<!-- TODO: Questionable Measurement practices... -->
 
 Other issues that can affect statistical analysis are related to errors in rejecting the null hypothesis.
 A researcher could falsely reject the null hypothesis when in fact is correct (Type I errors, an effect is found when there is no effect), or they could falsely fail to reject the null hypothesis when in fact it should have been rejected (Type II errors, an effect is not found when there is one).
@@ -392,7 +389,11 @@ In \citet{dumas-mallet2017}, half of the surveyed biomedical studies (N = 660) h
 Estimation of the prospective statistical power has been suggested
 \citet{tressoldi2015} also find that only 2.9% of 853 studies in psychology report a prospective power analysis for sample size determination, i.e. the estimation of the smallest sample size necessary to obtain a certain power level before the experiment is run.
 
-<!-- cognitive biases, see Roettger, confirmation hindsight etc -->
+<!-- TODO: cognitive biases, see Roettger, confirmation hindsight etc -->
+<!-- these and the QRMPs are not necessarily intentional or malicious, especially in the case of those practices that lie within a grey area of accepted standards -->
+
+<!-- TODO: misconceptions of p-values? -->
+<!-- wagenmakers problems p values, motulsky 2014 greenland 2016 in 8 steps for misconceptions -->
 
 A bias in the observed effects can also arise at the publication stage.
 A publication bias has been observed in that significant and novel results are generally favoured over null or replicated results \citep{easterbrook1991, ioannidis2005, song2010, kicinski2013, nissen2016}.
@@ -415,6 +416,15 @@ However, no apparent trend of increasing average number of speakers can be obser
 Finally, the language endangerment status has a small but negligible negative effect on participants' number in vulnerable and definitely endangered languages, but not so much in severely and critically endangered ones.
 It is reasonable to say that, based on this limited sample, sample size (in terms of participants) is generally very low, independent from publication year and endangerment status.
 
-<!-- remedies to all which is bad: pre-registration and registered reports -->
+As a partial remedy to the issues discussed so far, researchers have proposed two solutions: pre-registrations and Registered Reports.
+Pre-registration of a study consists in the researchers' commitment to an experimental and analytical protocol before collecting (if applicable) and seeing the data \citet{wagenmakers2012, veer2016}.
+Pre-registering a study allows a clear separation between confirmatory (hypothesis testing) analyses and exploratory (hypothesis generating) research.
+While both types of research are essential to scientific progress \citep{tukey1980}, presenting exploratory analyses as confirmatory is detrimental.
+Pre-registrations ensure researchers comply to such demarcation, while leaving space to generate new hypotheses via exploratory research.
+A more recent initiative proposes Registered Reports as a publication format that can counteract questionable research practices and the exploitation of the researcher's degrees of freedom \citep{chambers2015}.
+At the time of writing, no journal specialised in phonetics/phonology offers this article format, although it is currently under implementation at the Journal of the Association for Laboratory Phonology and a few other more general linguistic journals.\footnote{\url{https://docs.google.com/spreadsheets/d/17dLaqKXcjyWk1thG8y5C3_fHXXNEqQMcGWDY62BOc0Q/edit?usp=sharing}}
+
+<!-- TODO: reproducibility? -->
 
 <!-- full *command* of these concepts was obtained while doing the project -->
+<!-- also problems of time and resources, especially with UTI -->
