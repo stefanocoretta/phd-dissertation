@@ -383,6 +383,8 @@ In \citet{dumas-mallet2017}, half of the surveyed biomedical studies (N = 660) h
 Estimation of the prospective statistical power has been suggested
 \citet{tressoldi2015} also find that only 2.9% of 853 studies in psychology report a prospective power analysis for sample size determination, i.e. the estimation of the smallest sample size necessary to obtain a certain power level before the experiment is run.
 
+<!-- cognitive biases, see Roettger, confirmation hindsight etc -->
+
 A bias in the observed effects can also arise at the publication stage.
 A publication bias has been observed in that significant and novel results are generally favoured over null or replicated results \citep{easterbrook1991, ioannidis2005, song2010, kicinski2013, nissen2016}.
 \citet{rosenthal1979} called the bias agains publishing null results the 'file drawer' problem.
@@ -391,6 +393,18 @@ This practice not only can bias meta-analytical effect sizes, but also allows fo
 The questionable research and measurement practices described above, together with the publication bias, conspire to unduly increase confidence in our research outcomes.
 
 <!-- power and sample size in phonetics, analysis of speakers number in phonetics -->
+Given the similarities in methods between the psychological sciences and phonetics/phonology, it is reasonable to assume that the situation does not fare better in the latter.
 As mentioned above, sample size can have a big impact on statistical power, coupled with the effects of increased variance due to between-subject designs.
+\citet{kirby2018} suggests that the number of participants in phonetic studies is low, and that even with nominally high-powered sample sizes estimation of small effect sizes is subject to the power-related issues discussed above (especially Type S/M errors).
+\citet{nicenboim2018a} further show how low statistical power has adverse effects on phonetic phenomena characterised by small effect sizes, like incomplete neutralisation.
+\citet{winter2015} further argues that the common practice of using few items (e.g. word types) and a high number of repetitions increases statistical certainty of the estimates of idiosyncratic differences between items rather than those of sought effects.
+\citet{roettger2019} discusses how the inherently multidimensional nature of speech favours exploration of the researcher's degrees of freedom, by allowing the researcher to navigate through a variety of choices of phonetic correlates and their operationalisation.
+
+In a review of 113 studies of acoustic correlates of word stress in a variety of languages published between 1955 and 2017, \citet{roettger2017} show that the majority of studies include 1 to 10 speakers (mode = 1), 1 to 40 lexical items, and 1 to 6 repetitions.
+A follow-up analysis conducted by the author of this dissertation on the same data \citep{gordon2018} indicates that the median number of participants per study is 5 (see Appendix [...]).
+A few recent studies (2010 onwards) constitute a clear exception by having more than 30 participants.
+However, no apparent trend of increasing average number of speakers can be observed, so the situation has been fairly stable over the years.
+Finally, the language endangerment status has a small but negligible negative effect on participants' number in vulnerable and definitely endangered languages, but not so much in severely and critically endangered ones.
+It is reasonable to say that, based on this limited sample, sample size (in terms of participants) is generally very low, independent from publication year and endangerment status.
 
 <!-- remedies to all which is bad: pre-registration and registered reports -->
