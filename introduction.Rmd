@@ -435,6 +435,7 @@ Ensuring full reproducibility also means ensuring computational reproducibility,
 The ideas of accountability and reproducibility are not new to linguistics in general \citep{bird2003, thieberger2004, maxwell2005, maxwell2013, cysouw2015, gawne2017} and to phonetics/phonology specifically \citep{abari2012, roettger2018a}.
 These objectives can be achieved by publicly sharing data (barring ethics restrictions), analysis code, and detailed information on the software that produced the results.
 
+<!-- TODO: putting this to practice -->
 <!-- full *command* of these concepts was obtained while doing the project -->
 <!-- also problems of time and resources, especially with UTI -->
 <!-- pre-registered study, shared data, reproducible analyses -->
