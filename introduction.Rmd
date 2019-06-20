@@ -276,12 +276,14 @@ The main ultrasonic component was a TELEMED Echo Blaster 128 unit with a TELEMED
 A P-Stretch unit (used for signal synchronisation) and was connected to the ultrasound unit via a custom modification \citep{articulate2011}.
 The P-Stretch unit and a Movo LV4-O2 Lavalier microphone fed into a FocusRight Scarlett Solo pre-amplifier, which was plugged into the ultrasound laptop via USB.
 A second Movo microphone and the electrodes were connected to a Glottal Enterprises EG2-PCX2 unit, which was plugged into the second laptop (the audio signals from the UTI and the EGG units were used for synchronisation, see below).
-The subject wore a metallic headset produced by \citet{articulate2008} (not shown in \Cref{f:setup}), which holds the ultrasound probe in position (allowing free head movement), and the velcro strap with the EGG electrodes around their neck.
+The subject wore a metallic headset produced by \citet{articulate2008} (\Cref{f:headset}), which holds the ultrasound probe in position (allowing free head movement), and the velcro strap with the EGG electrodes around their neck.
 The electrodes were located on each side of the thyroid cartilage, at the level of the glottis.
 The microphones were clipped to the headset on either side, at identical height.
-<!-- TODO: palate tracing and bite plate -->
+Before the reading task, the participant’s occlusal plane was obtained using a bite plate \citet{scobbie2011}.
+The tongue data was rotated such that each speaker's occlusal plane is horizontal.
+This procedure enables the comparison of tongue movements across subjects.
 
-<!-- TODO: put Vale's pic -->
+![Headset.\label{f:headset}](./img/headset.png){ width=80% }
 
 The participants read sentences containing test words presented on the screen via AAA.
 The test words were C\textsubscript{1}V\textsubscript{1}C\textsubscript{2}V\textsubscript{2} words, where C\textsubscript{1} = /p/, V\textsubscript{1} = /a, o, u/, C\textsubscript{2} = /t, d, k, g/, and V\textsubscript{2} = V\textsubscript{1}.
@@ -320,11 +322,11 @@ The automatic fitting procedure was monitored by the author and manual correctio
 
 Subsequent data processing followed the method described in \citet{strycharczuk2015}.
 See [...] and [...] for details.
-The Cartesian coordinates of the fitted splines, together with tongue displacement, tangential velocity, and absolute velocity of the tongue root, dorsum and tip, were obtained from the following landmarks: C2 closure onset, tongue maximum displacement during C2 closure (MAX), peak absolute velocity before (PEAK_1) and after (PEAK_2) tongue maximum displacement, tongue closing gesture onset (GONS), closure gesture nucleus onset (NONS) and offset (NOFF).
-GONS, NONS, and NOFF were defined as the times where absolute velocity reaches 20% of the peak absolute velocity before PEAK_1, between PEAK_1 and MAX, and between MAX and PEAK_2 respectively \citet{kroos1997, gafos2010a}.
+The Cartesian coordinates of the fitted splines, together with tongue displacement, tangential velocity, and absolute velocity of the tongue root, dorsum and tip, were obtained from the following landmarks (\Cref{f:kine}): C2 closure onset, tongue maximum displacement during C2 closure (MAX), peak absolute velocity before (PEAK_1) and after (PEAK_2) tongue maximum displacement, tongue closing gesture onset (GONS), closure gesture nucleus onset (NONS) and offset (NOFF).
+GONS, NONS, and NOFF were defined as the times where absolute velocity reaches 20% of the peak absolute velocity before PEAK_1, between PEAK_1 and MAX, and between MAX and PEAK_2 respectively \citep{kroos1997, gafos2010a}.
 Tongue displacement, tangential and absolute velocity of the tongue root, dorsum, and tip were also extracted as time-series along the duration of V1.
 
-<!-- TODO: figure of velocity -->
+![Kinematics landmarks. \label{f:kine}](./img/velocity.pdf){ width=80% }
 
 Finally, wavegram data was extracted from the EGG data, following the method proposed by \citet{herbst2010}.
 In brief, a wavegram is a spectrogram-like representation of the EGG signal, where individual glottal cycles are sequentially placed on the *x*-axis, the normalised time of the samples taken from within each glottal cycle is the *y*-axis, and the third dimension, represented by colours of different shading, is the normalised amplitude of the EGG signal.
