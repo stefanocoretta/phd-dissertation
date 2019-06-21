@@ -37,16 +37,14 @@ This corresponds to a raw difference of 10.5 ms, which the author reports not to
 Given the low number of speakers and the relative high standard error of the effect (about 28 ms, calculated as the mean difference over the *t*-value, \citealt{nicenboim2018a}), it is possible that the null result is due to low statistical power.
 \citet{machac2007} analyse 638 VCV sequences recorded from 53 speakers of Czech and found partial evidence for an effect of voicing in the language.
 
-<!-- be sure you explain contexts of V -->
 As for Polish, \citet{slowiaczek1985} measured the duration of vowels in word-final syllables from 5 speakers, and vowels followed by an underlyingly voiced stop are 10--15 ms longer.
 @nowak2006 investigates several properties of vowel duration in 4 speakers, and finds that vowels followed by voiced stops in 4 speakers (from different parts of Poland) are 4.5 ms longer (a significant difference).
 <!-- I should read about what stats he did -->
 @malisz2008 analyse data from 40 speakers of 'Standard Polish', and while they don't report estimates from the whole dataset, the means from 4 speakers suggest a difference in vowel duration before voiceless vs. voiced stops of about 3.5 ms.
 On the other hand, an equal number of studies argue that voicing does not significantly affect vowel duration.
 \citet{jassem1989} could not replicate the results in \citet{slowiaczek1985}.
-\citet{keating1984} reports a non-significant difference of 2 ms in the word pair /rata/ (167.4) and /rada/ (169.5 ms), based on data from 24 speakers in Wrocław, Poland.
-Finally, \citet{strycharczuk2012a} reports a non-significant effect in 6 speakers in pre-sonorant word-final position.
-<!-- find where speakers are from -->
+\citet{keating1984} reports a non-significant difference of 2 ms in the word pair /rata/ (167.4) and /rada/ (169.5 ms), based on data from 24 speakers in Wrocław.
+Finally, \citet{strycharczuk2012a} reports a non-significant effect in 6 Warsaw speakers in pre-sonorant word-final position.
 To summarise, the evidence concerning the presence or absence of the voicing effect in Czech and Polish is mixed and it is not possible to draw certain conclusions.
 <!-- maybe add a footnote about meta-analysis -->
 
@@ -59,10 +57,9 @@ Finally, \citet{ko2018} compares CV ratio values in three speaking styles (norma
 Moreover, the rate-driven differences in CV ratio differ in the voiceless and voiced condition.
 In sum, while this would not be an argument against phonologisation of the voicing effect in English, there is contrasting evidence as to whether the relative magnitude of the effect is stable across speaking tempos.
 
-<!-- add references from the meta-analysis -->
 The alleged phonologisation of the effect in English is usually argued to be responsible for the greater effect in this language compared to others.
-The reported effect of voicing in word-final syllables in English varies between 35 and 150 ms [add references].
-When looking at non-final syllables, the effect is smaller, with values between 18 and 35 ms [add references].
+The reported effect of voicing in word-final syllables in English varies between 35 and 150 ms \citep{heffner1937, house1953, zimmerman1958, peterson1960, sharf1962, chen1970, klatt1973, mack1982, luce1985, laeufer1992, ko2018}.
+When looking at non-final syllables, the effect is smaller, with values between 18 and 35 ms \citep{sharf1962, klatt1973, davis1989}.
 Taking the first vowel in Italian disyllabic words for comparison, the difference in vowel duration before voiceless vs. voiced stops is 22 in \citet{farnetani1986} and 24 ms in \citet{esposito2002}.
 These values are within the range of the non-final effect in English.
 It is thus possible that, once controlling for contextual factors, the apparent cross-linguistic differences in magnitude get at least reduced.
@@ -152,9 +149,7 @@ Subsequent work by \citet{warren2005} further shows that the percentage of diffe
 
 <!-- to sum up -->
 
-## Aspiration effect
-<!-- and ejection effect? -->
-
+## Beyond voicing effects
 
 Two phonation modes other than voicing are known to affect preceding vowel duration: aspiration and ejection.
 While this project focusses on the voicing effect, the closely related aspiration and ejection effects have consequences of theoretical importance for the voicing effect.
@@ -173,11 +168,13 @@ The results in \citet{sanker2018} on Hindi, but not Telugu, are also compatible 
 Closure duration is longer in unaspirated stops and shorter in aspirated stops in both languages, but the effect of aspiration on vowel duration has opposite directions, as discussed above.
 
 An investigation of the effect of ejection in Georgian \citep{begus2017} shows that vowels are shortest when followed by aspirated stops, longer when followed by ejectives, and longest when followed by voiced stops (Georgian contrasts aspirated voiceless, ejective, and voiced unaspirated stops).
-Moreover, the negative correlation between closure and vowel duration has a greater magnitude in the context of voiced compared to those of aspirated and ejective stops.
+The negative correlation between closure and vowel duration has a greater magnitude in the context of voiced compared to those of aspirated and ejective stops.
+Moreover, the author shows that the closure effect on vowel duration coexists with a 'laryngeal features' effect (both effects, when entered as predictors in a single regression model, lead to significant *p*-values).
+In other words, the variance in vowel duration is account for in part by the duration of the stop closure and in part by the voicing category of the post-vocalic stop.
 As discussed in \citep{begus2017}, these patterns are compatible with accounts of compensatory temporal adjustments, laryngeal adjustments, and rate of closure.
 
 ## Summary
-<!-- to do -->
+<!-- TODO: voicing effect summary -->
 
 # Studies overview
 
