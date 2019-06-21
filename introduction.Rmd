@@ -354,25 +354,12 @@ The *reproducibility* of a study is, instead, related to the ability of independ
 
 The need for Open Science, which is increasingly expanding to several disciplines and enterprises, emerged primarily from the ongoing 'replication crisis' \citep{pashler2012, schooler2014}, most focus of which has been give to the medical and the psychological sciences.
 Recent attempts to replicate the results from high-impact studies in psychology have demonstrated an alarming high rate of failure to replicate.
-<!-- TODO: brysbaert say 40% replication rate -->
-In some cases, the studies did not provide enough information to...
-Much of this failed attempts have been claimed to be a consequence of questionable research and measurement practices \citep{simmons2011, flake2019}.
-<!-- TODO: reproducibility crisis -->
-<!-- sandve 2013 for computational biology -->
+For example, in a replication attempt of 100 psychology studies, only 39% of the original results were rated to have been replicated \citep{open-science-collaboration2015}.
+Failure to replicate previous results have been claimed to be a consequence of low statistical power \citep{button2013}, and of the so-called questionable research and measurement practices \citep{simmons2011, morin2015, flake2019}.
 
-Questionable research and measurement practices are practices that negatively affect the scientific enterprise, but that are intentionally or unintentionally employed by a surprisingly high number of researchers \citet{john2012}.
-\citet{silberzahn2018} asked 29 teams (61 analysts) to answer the same research question given the same data set, and showed that data analysis is highly subjective.
-A total of 21 unique combinations of predictors were used across the 29 teams, leading to diverging results (20 teams obtained a significant result, while 9 did not).
-At various stages of the research timeline, a research can employ the so-called 'researchers' degrees of freedom' to obtain a significant result \citep{simmons2011}.
-The researchers' degrees of freedom create a 'garden of forking paths' \citep{gelman2013}, that the researcher can explore until the results are satisfactory (i.e., they are the results expected by the researchers, or they are high-impact and novel).
+## ``With great power comes great replicability''
 
-*P*-hacking is a general term that refers to the process of choosing and reporting those analyses that transform a non-significant *p*-value to a significant one \citep{simmons2011, wagenmakers2007, motulsky2014}.
-*P*-hacking can be achieved by several means, for example by trying different dependent variables, including and/or excluding predictors, selective inclusion/exclusion of subjects and observations, or sequential testing (collecting data until the results are significant).
-Another common practice is to back-engineer a hypothesis after unexpected results, also known as Hypothesising After the Results are Known (HARKing, \citealt{kerr1998}).
-\citet{lieber2009} warns against 'double dipping', or the use of the same data to generate a hypothesis and to test it.
-<!-- TODO: Questionable Measurement practices... -->
-
-Other issues that can affect statistical analysis are related to errors in rejecting the null hypothesis.
+Other issues that can affect statistical analysis are related to errors in rejecting the null hypothesis.\footnote{Teh quote in the title is from a 2016 twitter status by Nathan C. Hall (\url{https://twitter.com/prof_nch/status/790744443313852417?s=20}).}
 A researcher could falsely reject the null hypothesis when in fact is correct (Type I errors, an effect is found when there is no effect), or they could falsely fail to reject the null hypothesis when in fact it should have been rejected (Type II errors, an effect is not found when there is one).
 Type I and Type II errors have generally accepted rates, i.e. $\alpha$ = 0.05 and $\beta$ = 0.2.
 This means that, in an imaginary multiple replication of a study, 5% of the times the null hypothesis will be falsely rejected, and 20% of the times will falsely be not rejected.
@@ -393,6 +380,19 @@ In \citet{dumas-mallet2017}, half of the surveyed biomedical studies (N = 660) h
 Estimation of the prospective statistical power has been suggested
 \citet{tressoldi2015} also find that only 2.9% of 853 studies in psychology report a prospective power analysis for sample size determination, i.e. the estimation of the smallest sample size necessary to obtain a certain power level before the experiment is run.
 
+## The dark side of research and measurement practices
+
+Questionable research and measurement practices are practices that negatively affect the scientific enterprise, but that are intentionally or unintentionally employed by a surprisingly high number of researchers \citet{john2012}.
+\citet{silberzahn2018} asked 29 teams (61 analysts) to answer the same research question given the same data set, and showed that data analysis is highly subjective.
+A total of 21 unique combinations of predictors were used across the 29 teams, leading to diverging results (20 teams obtained a significant result, while 9 did not).
+At various stages of the research timeline, a research can employ the so-called 'researchers' degrees of freedom' to obtain a significant result \citep{simmons2011}.
+The researchers' degrees of freedom create a 'garden of forking paths' \citep{gelman2013}, that the researcher can explore until the results are satisfactory (i.e., they are the results expected by the researchers, or they are high-impact and novel).
+
+*P*-hacking is a general term that refers to the process of choosing and reporting those analyses that transform a non-significant *p*-value to a significant one \citep{simmons2011, wagenmakers2007, motulsky2014}.
+*P*-hacking can be achieved by several means, for example by trying different dependent variables, including and/or excluding predictors, selective inclusion/exclusion of subjects and observations, or sequential testing (collecting data until the results are significant).
+Another common practice is to back-engineer a hypothesis after unexpected results, also known as Hypothesising After the Results are Known (HARKing, \citealt{kerr1998}).
+\citet{lieber2009} warns against 'double dipping', or the use of the same data to generate a hypothesis and to test it.
+
 <!-- TODO: cognitive biases, see Roettger, confirmation hindsight etc -->
 <!-- these and the QRMPs are not necessarily intentional or malicious, especially in the case of those practices that lie within a grey area of accepted standards -->
 
@@ -405,6 +405,15 @@ A publication bias has been observed in that significant and novel results are g
 Studies that don't lead to a significant result are stored in the file drawer and forgotten.
 This practice not only can bias meta-analytical effect sizes, but also allows for waste of resources when studies with undisclosed null results are repeatedly performed.
 The questionable research and measurement practices described above, together with the publication bias, conspire to unduly increase confidence in our research outcomes.
+
+<!-- TODO: Questionable Measurement practices... -->
+
+## Reproducibility
+
+<!-- TODO: reproducibility crisis -->
+<!-- sandve 2013 for computational biology -->
+
+## Where we stand and where we are heading
 
 Given the similarities in methods between the psychological sciences and phonetics/phonology, it is reasonable to assume that the situation does not fare better in the latter.
 As mentioned above, sample size can have a big impact on statistical power, coupled with the effects of increased variance due to between-subject designs.
@@ -434,6 +443,8 @@ Issues of reproducibility are not unknown to linguistics and phonetics/phonology
 Ensuring full reproducibility also means ensuring computational reproducibility, or in other words enabling researchers to perform the original analysis on the original data in an identical computational environment \citep{fomel2009, peng2009}.
 The ideas of accountability and reproducibility are not new to linguistics in general \citep{bird2003, thieberger2004, maxwell2005, maxwell2013, cysouw2015, gawne2017} and to phonetics/phonology specifically \citep{abari2012, roettger2018a}.
 These objectives can be achieved by publicly sharing data (barring ethics restrictions), analysis code, and detailed information on the software that produced the results.
+
+## Putting this into practice
 
 <!-- TODO: putting this to practice -->
 <!-- full *command* of these concepts was obtained while doing the project -->
