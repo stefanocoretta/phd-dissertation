@@ -403,12 +403,6 @@ This practice not only can bias meta-analytical effect sizes, but also allows fo
 The questionable research and measurement practices described above, together with publication bias, conspire to unduly increase confidence in our research outcomes.
 A final exculpatory note is due, though, in that these practices are not necessarily intentional or fraudulent, and in some cases lie within a 'grey area' of accepted standard procedures.
 
-## Reproducibility
-
-<!-- TODO: reproducibility crisis -->
-<!-- sandve 2013 for computational biology -->
-
-
 ## Where we stand and where we are heading
 
 Given the similarities in methods between the psychological sciences and phonetics/phonology, it is reasonable to assume that the situation does not fare better in the latter.
