@@ -374,10 +374,10 @@ In \citet{dumas-mallet2017}, half of the surveyed biomedical studies (N = 660) h
 Estimation of the prospective statistical power has been suggested
 \citet{tressoldi2015} also find that only 2.9% of 853 studies in psychology report a prospective power analysis for sample size determination, i.e. the estimation of the smallest sample size necessary to obtain a certain power level before the experiment is run.
 
-## The dark side of research and measurement practices
+## The dark side of research
 
-Questionable research and measurement practices are practices that negatively affect the scientific enterprise, but that are intentionally or unintentionally employed by a surprisingly high number of researchers \citet{john2012}.
-\citet{silberzahn2018} asked 29 teams (61 analysts) to answer the same research question given the same data set, and showed that data analysis is highly subjective.
+Questionable research and measurement practices are practices that negatively affect the scientific enterprise, but that are employed (most of the time unintentionally) by a surprisingly high number of researchers \citep{john2012}.
+\citet{silberzahn2018} asked 29 teams (61 analysts) to answer the same research question given the same data set, and showed that data analysis can be highly subjective.
 A total of 21 unique combinations of predictors were used across the 29 teams, leading to diverging results (20 teams obtained a significant result, while 9 did not).
 At various stages of the research timeline, a research can employ the so-called 'researchers' degrees of freedom' to obtain a significant result \citep{simmons2011}.
 The researchers' degrees of freedom create a 'garden of forking paths' \citep{gelman2013}, that the researcher can explore until the results are satisfactory (i.e., they are the results expected by the researchers, or they are high-impact and novel).
@@ -386,21 +386,22 @@ The researchers' degrees of freedom create a 'garden of forking paths' \citep{ge
 *P*-hacking can be achieved by several means, for example by trying different dependent variables, including and/or excluding predictors, selective inclusion/exclusion of subjects and observations, or sequential testing (collecting data until the results are significant).
 Another common practice is to back-engineer a hypothesis after unexpected results, also known as Hypothesising After the Results are Known (HARKing, \citealt{kerr1998}).
 \citet{lieber2009} warns against 'double dipping', or the use of the same data to generate a hypothesis and to test it.
+\citet{morin2015} and \citet{flake2019} more specifically discuss questionable practices related to how research variables are measured and operationalised.
+The literature reviewd in \citet{flake2019} suggests that a very high percentage of published papers contains measures that are created for the reported study but that lack any reference to reliability tests.
+Researchers have also been found to manipulate validated scales to obtain desired results \citep{}.
 
-<!-- TODO: cognitive biases, see Roettger, confirmation hindsight etc -->
-<!-- these and the QRMPs are not necessarily intentional or malicious, especially in the case of those practices that lie within a grey area of accepted standards -->
-
-<!-- TODO: misconceptions of p-values? -->
-<!-- wagenmakers problems p values, motulsky 2014 greenland 2016 in 8 steps for misconceptions -->
+Cognitive biases and statistical misconceptions can also have a negative impact on research conduct.
+\citet{wagenmakers2012} discuss the effects of the confirmation bias (the tendency to look for facts and interpretations thereof that confirm one's prior conviction, \citealt{nickerson1998}) and the hindsight bias (the tendency to find an event less surprising after it has occurred, \citealt{roese2012}).
+\citet{greenland2017} defines further common distortions pertaining to methodological approaches, like statistical reification (interpreting statistical results as reflections of an actual physical reality).
+Finally, \citet{wagenmakers2007} and \citet{motulsky2014} examine mistaken beliefs about the meaning of *p*-values and statistical significance (like interpreting *p*-values as an index to statistical evidence or the idea that *p*-values inform us about the likelihood of the null-hypothesis given the data).
 
 A bias in the observed effects can also arise at the publication stage.
 A publication bias has been observed in that significant and novel results are generally favoured over null or replicated results \citep{easterbrook1991, ioannidis2005, song2010, kicinski2013, nissen2016}.
 \citet{rosenthal1979} called the bias agains publishing null results the 'file drawer' problem.
 Studies that don't lead to a significant result are stored in the file drawer and forgotten.
 This practice not only can bias meta-analytical effect sizes, but also allows for waste of resources when studies with undisclosed null results are repeatedly performed.
-The questionable research and measurement practices described above, together with the publication bias, conspire to unduly increase confidence in our research outcomes.
-
-<!-- TODO: Questionable Measurement practices... -->
+The questionable research and measurement practices described above, together with publication bias, conspire to unduly increase confidence in our research outcomes.
+A final exculpatory note is due, though, in that these practices are not necessarily intentional or fraudulent, and in some cases lie within a 'grey area' of accepted standard procedures.
 
 ## Reproducibility
 
