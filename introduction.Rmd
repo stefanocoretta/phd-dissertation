@@ -55,7 +55,7 @@ To summarise, the evidence concerning the presence or absence of the voicing eff
 <!-- maybe add a footnote about meta-analysis -->
 
 The second common stance about the voicing effect is that its magnitude differs across languages, and that English generally shows the greatest effect.
-The latter statement led to the idea that the voicing effect is phonologised in English \citet{dejong1991, sole2007, sanker2018}.
+The latter statement led to the idea that the voicing effect is phonologised in English \citet{de-jong1991, sole2007, sanker2018}.
 The argument for the phonologisation of the effect rests, among other things, on the alleged stability of the ratio of the effect across speaking rates and prosodic contexts differing in strength.
 \citet{port1982} suggest that the ratio of the consonant and vowel durations is stable at faster and slower speaking tempos, and that the CV ratio proves to be the primary acoustic correlate of voicing in word-final position.
 \citet{luce1985}, on the other hand, claim that vowel duration is a more robust cue to voicing across speaking rates, when compared to the CV ratio and the duration of the stop closure (which fared as the worst among the three indices).
