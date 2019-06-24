@@ -454,10 +454,10 @@ Sample size determination followed the method of the Region Of Practical Equival
 A full Bayesian analysis was run, and greater emphasis was given on the posterior probability distributions of the effect of interest while discussing the results (see Paper ... for details).
 
 Data, code, and information about software can be found in the research compendium of this project on the Open Science Framework at \url{https://osf.io/w92me/}.
-<!-- TODO: make it public -->
+<!-- TODO: use public link -->
 This OSF repository acts as a hub of the research compendium of the project as a whole and of the individual papers' compendia.
-The data has been packaged and documented using R \citep{marwick2017}
-The data packages are available on GitHub and links to them are given in the OSF repository (see the Data components in the repository).
+The data has been packaged and documented using R \citep{marwick2017}.
+The data packages are available on GitHub and links to them are given in the OSF repository (see the Data components in the repository).\footnote{The raw ultrasound tongue imaging AAA files were not uploaded given the size (almost 40 GB) and can be obtained from the author.}
 Following the recommendations in \citet{berez-kroeker2018}, each data package can be referred to with a full bibliographical citation (provided in the respective Data component on the OSF).
 
 Data processing using Praat scripting followed principles of literate programming \citep{knuth1984}.
