@@ -7,7 +7,11 @@ classoption: openany
 bibliography: linguistics
 biblio-style: unified
 indent: true
+fontsize: 12pt
+mainfont: Tinos
 header-includes:
 - \usepackage{cleveref}
 - \usepackage{ctable}
+- \frenchspacing
+- \renewcommand{\baselinestretch}{1.5}
 ---
