@@ -191,6 +191,7 @@ A second study was thus planned to test the hypotheses generated in the previous
 This chapter offers an overview of these studies, which are discussed in turn.
 For each study, information will be given on experimental materials and procedures, and data processing.
 While specific details will be presented in the individual papers, this chapter offers to the readers a kind of road map to aid them in navigating the second part of the thesis.
+Data and code is available on the Open Science Framework and GitHub (see \Cref{s:repro})
 Ethics clearance was obtained from the University research ethics committee (UREC) of the University of Manchester (REF 2016-009976).
 
 <!-- data and code links here? -->
@@ -283,8 +284,6 @@ The participants read sentences containing test words presented on the screen vi
 The test words were C\textsubscript{1}V\textsubscript{1}C\textsubscript{2}V\textsubscript{2} words, where C\textsubscript{1} = /p/, V\textsubscript{1} = /a, o, u/, C\textsubscript{2} = /t, d, k, g/, and V\textsubscript{2} = V\textsubscript{1}.
 The choice of the segmental make-up of the test words was constrained by the use of ultrasound tongue imaging.
 Paper [...] provides more details on the rationale behind the material design.
-
-<!-- TODO: mention that data and processing are available at OSF, the following paragrapsh are documentation of the data and data processing -->
 
 The UTI+audio and EGG+audio signals were acquired and recorded by means of Articulate Assistant Advanced (AAA, \citealt{articulate2011}) and Praat \citep{boersma2016} respectively.
 Since the signals from the ultrasonic machine and the electroglottograph are recorded simultaneously but separately, data from both sources were synchronised after acquisition.
@@ -434,9 +433,39 @@ Ensuring full reproducibility also means ensuring computational reproducibility,
 Our field is not immune to these issues (see the 'Yokuts vowels' case, \citealt{weigel2002, weigel2005, blevins2004}), and the idea of reproducibility is not new to linguistics in general \citep{bird2003, thieberger2004, maxwell2005, maxwell2013, cysouw2015,  gawne2017} and to phonetics/phonology specifically \citep{abari2012, roettger2018a}.
 The objective of making research accountable can be achieved by publicly sharing data (barring ethics restrictions), analysis code, and detailed information on the software that produced the results \citep{sandve2013}.
 
-## Putting this into practice
+<!-- TODO: literate programming? -->
 
-<!-- TODO: putting this to practice -->
-<!-- full *command* of these concepts was obtained while doing the project -->
-<!-- also problems of time and resources, especially with UTI -->
-<!-- pre-registered study, shared data, reproducible analyses -->
+## Putting this into practice
+\label{s:repro}
+
+<!-- maybe refer here to the Papers so don't need other section? -->
+
+The project of this dissertation has been carried out with principles of Open Science in mind.
+The reader might notice, however, a certain arc of development in putting these concepts into practice, since, for some of these, full command has been obtained only after careful consideration, the timeline of which extended into later stages of the project.
+This last section of the Introduction discusses how the principles and methods expounded in the above sections were applied.
+
+Study I was not pre-registered, since the absence of a specific hypothesis did not allow for the formulation of a corresponding analysis.
+Sample size was determined on the basis of practical considerations concerning the time required for processing ultrasound tongue imaging data.
+Rather, several different parameters and models have been explored in search of relevant patterns, while only a few of these have been reported in the papers of this study.
+The models of Study I were conducted within a Neyman-Pearson (frequentist) framework of statistical inference, while a Bayes factor analysis was performed in those cases that demanded it (Paper III).
+To compensate for the asymmetry between the number of models run and those reported, less attention has been given to *p*-values, while greater focus was placed on effect sizes and their hypothesis-generating value.
+The design and analyses of Study II have been pre-registered on the Open Science Framework at [...].
+Sample size determination followed the method of the Region Of Practical Equivalence.
+A full Bayesian analysis was run, and greater emphasis was given on the posterior probability distributions of the effect of interest while discussing the results (see Paper ... for details).
+
+Data, code, and information about software can be found in the research compendium of this project on the Open Science Framework at \url{https://osf.io/w92me/}.
+<!-- TODO: make it public -->
+This OSF repository acts as a hub of the research compendium of the project as a whole and of the individual papers' compendia.
+The data has been packaged and documented using R \citep{marwick2017}
+The data packages are available on GitHub and links to them are given in the OSF repository (see the Data components in the repository).
+Following the recommendations in \citet{berez-kroeker2018}, each data package can be referred to with a full bibliographical citation (provided in the respective Data component on the OSF).
+
+Data processing using Praat scripting followed principles of literate programming \citep{knuth1984}.
+Praat code was written in literate markdown (which mixes code and code documentation).
+Praat scripts were extracted from the literate source file using the Literate Markdown Tangle software\footnote{\url{https://github.com/driusan/lmt}} and were run with a custom R package, speakr \citep{coretta2019h}.
+The documentation of the scripts was generated with Pandoc\footnote{\url{https://pandoc.org}} and a custom Praat syntax highlighting extension (available in speakr).
+All analyses and derived figures in this dissertation can be reproduced in R \citep{r-core-team2019} with the scripts found in the papers' respective compendia.
+
+The following software and packages were used: tidyverse \citet{wickham2017}, lme4 \citep{bates2015}, lmerTest \citep{kuznetsova2017}, effects \citep{fox2019}, broom.mixed \citep{bolker2019}, mgcv \citep{wood2017}, itsadug \citep{van-rij2017}, Stan \citep{stan-development-team2017}, brms \citep{burkner2017}, tidybayes \citep{kay2019}.
+I further developed two R packages for the visualisation of generalised additive models using tidyverse software (tidymv, \citealt{coretta2019i}) and the analysis of ultrasound tongue imaging data with mgcv (rticulate, \citealt{coretta2018}).
+This dissertation was written in R Markdown, and typeset with knitr and bookdown \citep{xie2014, xie2016, xie2018, xie2019}.
