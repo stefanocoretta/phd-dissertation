@@ -21,22 +21,30 @@ In particular, the thesis poses the question of what aspects of the articulation
 In the attempt to answer this question, a combination of acoustic, ultrasound tongue imaging, and electroglottographic data was collected as part of two studies on Italian, Polish, and English.
 These languages were chosen in that they constitute a methodological window into the complex variation of the voicing effect as seen both across and within languages.
 
-The results of the investigation of acoustic segment durations, tongue root position, and glottal adjustments suggest a composite production account which synthesises previous independent and seemingly contrasting accounts.
+The results of the investigation of acoustic segment durations, tongue root position, and glottal adjustments suggest a composite production account of the voicing effect which synthesises previous independent and seemingly contrasting accounts.
 It is demonstrated that the duration of the speech interval between the releases of the consonants flanking the stressed vowel in disyllabic words of Italian, Polish, and English is not affected by the voicing status of the post-vocalic consonant.
 By capitalising on known and argued articulatory properties of vocalic and consonantal sequences \citep{ohman1967a, fowler1983, odell2008, saltzman2008}, the temporal stability of the release-to-release interval is proposed to be a consequence of the isochrony of two consecutive vocalic gestures and of the phasing of the consonantal gestures relative to former.
 As a side effect of the release-to-release temporal stability, the timing of the VC boundary within such interval determines the respective durations of the vowel and the following consonant closure, the latter of which are known to be generally longer for voiceless than for voiced stops \citep{lisker1957, van-summers1987, davis1989, de-jong1991}.
 Shorter vowels are followed by the longer closures of voiceless stops, while longer vowels are followed by the shorter closure of voiced stops.
 
-Furthermore, the timing of the VC boundary is shown to be modulated, among other known factors, by the position of the tongue root, as evidenced by tongue imaging data, and by the interaction of glottal spreading and oral closure, as suggested by an electroglottographic study of vocal folds activity.
+<!-- TODO: English monosyllabic words -->
+
+The timing of the VC boundary is shown to be modulated, among other known factors, by the position of the tongue root, as evidenced by tongue imaging data, and by the interaction of glottal spreading and oral closure, as suggested by an electroglottographic study of vocal folds activity.
 It was found that the degree of advancement of the tongue root at stop closure onset is positively correlated with preceding vowel duration, such that longer vowels correspond to greater tongue root advancement.
 Together with the shorter duration of the closure of voiced stops, this pattern fits with the known role of tongue root advancement in the maintenance of voicing during stop closure \citep{kent1969, perkell1969, westbury1983}.
 
-Finally, the analysis of vocal fold activity during the production of vowels shows that the latter portion of vowels followed by voiceless stops is produced with greater glottal spread in Italian than in Polish.
+Furthermore, the analysis of vocal fold activity during the production of vowels shows that the latter portion of vowels followed by voiceless stops is produced with greater glottal spread in Italian than in Polish.
 This difference is taken as evidence for a language-specific implementation of the timing of glottal spreading.
 Increased glottal spread before voiceless stops is understood as the precursor of pre-aspiration, the presence of which has been reported in Italian \citep{ni-chasaide1993, stevens2004a, stevens2004, stevens2010, stevens2010b, stevens2014a}.
 By combining previous work on pre-aspiration \citep{lisker1974, nichasaide1985, stevens2014}, two alternative path-ways are proposed: either pre-aspiration is enhanced by shortening the closure of the stop, or it is reduced or prevented by producing an earlier stop closure, which would mask the acoustic effects of glottal spreading and result in a longer closure duration, other things being equal.
 
 <!-- TODO: Organisation of the thesis -->
+The thesis is organised as follows. The following three chapters constitute the introductory part, and they present, in turn, a review of literature on the voicing effect (\Cref{s:ve}), an overview of the studies conducted (\Cref{s:studies}), and a discussion of the principles of the Open Science movement (\Cref{s:openscience}), which has had a deep impact on the shaping of this project.
+The second part is a collection of original manuscripts in the form of standalone papers (...), which report and discuss the methodological and conceptual contributions of the present work.
+Papers ... and ... deal with the duration of the release-to-release interval in the three investigated languages.
+Papers ... deals with the results on tongue root advancement and vowel duration in Italian and Polish.
+Paper ... and ... introduce two methods to analyse tongue contours and electroglottographic data using generalised additive modelling, and discuss cross-linguistic and speaker-level similarities and differences concerning tongue root advancement and glottal spreading in Italian and Polish.
+Finally, ... summarises the results of this investigation by providing an overarching synthesis, and concludes with a discussion of limitations and future avenues of research.
 
 # The voicing effect and beyond
 \label{s:ve}
@@ -204,6 +212,7 @@ As discussed in \citep{begus2017}, these patterns are compatible with accounts o
 <!-- TODO: voicing effect summary -->
 
 # Studies overview
+\label{s:studies}
 
 The end of \Cref{s:ve} stressed the variety of proposals as to what the source of the voicing effect could be.
 Moreover, the accounts reviewed in the previous chapter all find partial support and face challenges in one way or the other.
@@ -364,6 +373,7 @@ The audio recordings were force-aligned and the times of acoustic landmarks were
 Further details are given in Paper [...].
 
 # Open Science
+\label{s:openscience}
 
 Open Science is a movement that proposes a series of research principles and warns from common (unintentional) misconceptions and questionable practices in order to build a more honest and transparent scientific environment.
 The term Open Science as a whole refers to the fundamental concepts of 'openness, transparency, rigour, reproducibility, replicability, and accumulation of knowledge' \citep[3]{cruwell2018}.
