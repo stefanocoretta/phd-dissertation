@@ -29,8 +29,12 @@ Shorter vowels are followed by the longer closures of voiceless stops, while lon
 
 Furthermore, the timing of the VC boundary is shown to be modulated, among other known factors, by the position of the tongue root, as evidenced by tongue imaging data, and by the interaction of glottal spreading and oral closure, as suggested by an electroglottographic study of vocal folds activity.
 It was found that the degree of advancement of the tongue root at stop closure onset is positively correlated with preceding vowel duration, such that longer vowels correspond to greater tongue root advancement.
-Together with the shorter duration of the closure of voiced stops, this relation fits with the known role of tongue root advancement in the maintenance of voicing during stop closure \citep{kent1969, perkell1969, westbury1983}.
-<!-- TODO: pre-aspiration business -->
+Together with the shorter duration of the closure of voiced stops, this pattern fits with the known role of tongue root advancement in the maintenance of voicing during stop closure \citep{kent1969, perkell1969, westbury1983}.
+
+Finally, the analysis of vocal fold activity during the production of vowels shows that the latter portion of vowels followed by voiceless stops is produced with greater glottal spread in Italian than in Polish.
+This difference is taken as evidence for a language-specific implementation of the timing of glottal spreading.
+Increased glottal spread before voiceless stops is understood as the precursor of pre-aspiration, the presence of which has been reported in Italian \citep{ni-chasaide1993, stevens2004a, stevens2004, stevens2010, stevens2010b, stevens2014a}.
+By combining previous work on pre-aspiration \citep{lisker1974, nichasaide1985, stevens2014}, two alternative path-ways are proposed: either pre-aspiration is enhanced by shortening the closure of the stop, or it is reduced or prevented by producing an earlier stop closure, which would mask the acoustic effects of glottal spreading and result in a longer closure duration, other things being equal.
 
 <!-- TODO: Organisation of the thesis -->
 
