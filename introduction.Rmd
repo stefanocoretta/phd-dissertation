@@ -23,11 +23,14 @@ These languages were chosen in that they constitute a methodological window into
 
 The results of the investigation of acoustic segment durations, tongue root position, and glottal adjustments suggest a composite production account of the voicing effect which synthesises previous independent and seemingly contrasting accounts.
 It is demonstrated that the duration of the speech interval between the releases of the consonants flanking the stressed vowel in disyllabic words of Italian, Polish, and English is not affected by the voicing status of the post-vocalic consonant.
-By capitalising on known and argued articulatory properties of vocalic and consonantal sequences \citep{ohman1967a, fowler1983, odell2008, saltzman2008}, the temporal stability of the release-to-release interval is proposed to be a consequence of the isochrony of two consecutive vocalic gestures and of the phasing of the consonantal gestures relative to former.
-As a side effect of the release-to-release temporal stability, the timing of the VC boundary within such interval determines the respective durations of the vowel and the following consonant closure, the latter of which are known to be generally longer for voiceless than for voiced stops \citep{lisker1957, van-summers1987, davis1989, de-jong1991}.
-Shorter vowels are followed by the longer closures of voiceless stops, while longer vowels are followed by the shorter closure of voiced stops.
+By capitalising on known articulatory properties of vocalic and consonantal sequences \citep{ohman1967a, fowler1983, odell2008, saltzman2008}, the temporal stability of the release-to-release interval is proposed to be a consequence of the isochrony of two consecutive vocalic gestures and of the phasing of the consonantal gestures relative to former.
+As a side effect of the release-to-release temporal stability, the timing of the VC boundary within such interval determines the respective durations of the vowel and the following consonant closure, the latter of which is known to be generally longer for voiceless than for voiced stops \citep{lisker1957, van-summers1987, davis1989, de-jong1991}.
+It follows that shorter vowels are followed by the longer closures of voiceless stops, while longer vowels are followed by the shorter closure of voiced stops.
 
-<!-- TODO: English monosyllabic words -->
+The results of English monosyllabic words, on the other hand, show that in this context the release-to-release interval is longer when the post-vocalic consonant is voiced.
+The absence of release-to-release temporal stability in monosyllabic words is argued to be related to the absence of vowel-to-vowel isochrony, which in turn is a consequence of the lack of a second vowel functioning as a temporal anchor.
+The respective durations of vowel and closure can thus be modified independently, fact that can be exploited by speakers to enhance the voicing contrast by manipulating the ration between the duration of the vowel and of the closure without being constrained by the release-to-release stability as in disyllabic words.
+The presence of the voicing effect in monosyllabic words is conjectured to have been emerged either because of inheritance from earlier diachronic stages or as a consequence of mechanisms affecting the timing of the consonant closure onset.
 
 The timing of the VC boundary is shown to be modulated, among other known factors, by the position of the tongue root, as evidenced by tongue imaging data, and by the interaction of glottal spreading and oral closure, as suggested by an electroglottographic study of vocal folds activity.
 Tongue root advancement was observed during the closure of voiced stops in some but not all speakers of both Italian and Polish.
