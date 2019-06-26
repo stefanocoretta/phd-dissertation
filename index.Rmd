@@ -13,5 +13,6 @@ header-includes:
 - \usepackage{cleveref}
 - \usepackage{ctable}
 - \frenchspacing
+- \raggedbottom
 - \renewcommand{\baselinestretch}{1.5}
 ---
