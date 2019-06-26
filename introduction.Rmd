@@ -133,8 +133,7 @@ The following paragraphs will review the major perception and production account
 One of the perception-based accounts states that the voicing effect emerges as a consequence of the difficulty in the perceptual identification of the vowel-consonant boundary in the context of voiced stops, and of the misinterpretation of the voicing during closure \citep{javkin1976}.
 According to this account, speakers misperceive the periodic vibration of the vocal folds (voicing) during the closure of a voiced stop as part of the preceding vowel.
 In the absence of contextual correction, this misperception can lead to the creation of a new production norm where the vowel is long.
-If this new lexical representation is created, the listener, now turned speaker, will subsequently produce longer vowel durations when followed by voiced stops.
-<!-- Ohala -->
+If this new lexical representation is created, the listener, now turned speaker, will subsequently produce longer vowel durations when followed by voiced stops \citet{ohala1989}.
 Although \citet{javkin1976} does not directly test the hypothesis that closure voicing is reinterpreted as part of the preceding vowel, the results indicate that listeners perceive vowels to be longer when followed by voiced than when followed by voiceless stops, other things being equal.
 On the other hand, \citet{sanker2019} finds that vowels rather elicit less 'long' responses when the consonant following the vowel is voiced, while they elicit more 'long' responses in stimuli where the following consonant is spliced out.
 While there is potential for a perceptual bias driving some aspects of the voicing effect, production mechanisms of voiced stops affecting acoustic aspects of vowels could be at the root of perceptual biases, which could be responsible for the enhancement of the effect in some speakers/languages \citep{begus2017, sanker2019}.
@@ -232,8 +231,6 @@ For each study, information will be given on experimental materials and procedur
 While specific details will be presented in the individual papers, this chapter offers to the readers a kind of road map to aid them in navigating the second part of the thesis.
 Data and code is available on the Open Science Framework and GitHub (see \Cref{s:repro})
 Ethics clearance was obtained from the University research ethics committee (UREC) of the University of Manchester (REF 2016-009976).
-
-<!-- data and code links here? -->
 
 ## Exploratory study of the voicing effect in Italian and Polish (Study I)
 
