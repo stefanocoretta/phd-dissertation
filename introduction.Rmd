@@ -8,11 +8,11 @@ documentclass: book
 
 # Overview
 
-Phonetics and phonology are two interrelated disciplines that seek to investigate the complex structure of the systems of sounds used in human communication as a channel through which messages can be transmitted.
-A topic that generated great interest over the decades, and that masterfully exemplifies the complexities of such system, is the still somewhat elusive connection between vowel duration and consonantal voicing.
-While great progress has been made in understanding this link, after more than a century there is still a lack of agreement as to what exactly contributes to the emergence of this phenomenon, as proposed by the numerous accounts that have been put forward.
-According to a robust cross-linguistic tendency, vowels tend to have short duration when followed by a voiceless consonant and long duration when the following consonant is voiced \citep{meyer1903, heffner1937, house1953, lisker1957, peterson1960}.
-As \Cref{s:ve} discusses, this so-called 'voicing effect' interacts with a variety of factors, and scholars have sought its origins in properties of speech production, from aerodynamic to timing aspects, and of speech perception \citet{belasco1953, zimmerman1958, sharf1962, lindblom1967, halle1967a, javkin1976, kluender1988}.
+The sounds of a language form an incredibly complex system of relations and dependencies, both at a physical and a more abstract level.
+A topic that masterfully exemplifies the complexities of such a system and that has generated great interest over the decades is the somewhat elusive connection between vowel duration and consonant voicing.
+According to a robust cross-linguistic tendency, vowels are shorter when followed by a voiceless consonant and longer when the following consonant is voiced \citep{meyer1903, heffner1937, house1953, lisker1957, peterson1960}.
+This so-called 'voicing effect' interacts with a variety of linguistic factors, and scholars have sought its origins in properties of speech production, from aerodynamic to timing aspects, and of speech perception \citep{belasco1953, zimmerman1958, sharf1962, lindblom1967, halle1967a, javkin1976, kluender1988}.
+While much progress has been made in understanding this link, after more than a century there is still disagreement as to what contributes to the emergence of this phenomenon, as evidenced by the numerous accounts put forward.
 
 Given the plurality of views concerning less understood aspects of the voicing effect, this thesis set out to tackle this phenomenon by employing a diverse set of techniques and sources of data.
 To keep this type of enquiry manageable, it was decided to undertake this endeavour from a speech production outlook, areas which have fuelled a great deal of debate within the voicing effect literature, while keeping an open eye on possible elements of perception.
