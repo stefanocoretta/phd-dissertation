@@ -55,21 +55,21 @@ Finally, ... summarises the results of this investigation by providing an overar
 
 A long-recognised property of vowels is that their duration is influenced by the voicing of the consonant following them.
 Across a wide variety of languages, vowels tend to be shorter when followed by voiceless consonants, and longer when followed by voiced ones.
-This tendency has been called the 'voicing effect' \citep{mitleb1982}.
-Remarkably, as far as we can tell, no language has been reported to have the opposite effect, namely longer vowel durations before voiceless than before voiced consonants.
-Possibly, the voicing effect is one of the most robust effects found in the phonetic literature (together with, for example, the effect of vowel height).
-Among the earliest traceable mentions to the voicing effect there are \citet{meyer1903} for English (cited in \citealt{lindblom1967}), \citet{meyer1904} for German, \citet{meyer1909} for Hungarian, and \citet{gregoire1911} for French (all cited in \citealt{maddieson1976}).
-After these, a plethora of studies confirmed the effect in these languages and reported it in other ones.
+This phenomenon has been called the 'voicing effect' \citep{mitleb1982} or 'pre-fortis clipping' \citep{wells1990}.
+Remarkably, no known language has been reported to have the opposite effect, namely longer vowel durations before voiceless than before voiced consonants.\footnote{This does not exclude that there might be or have been a language that shows this pattern.}
+In face of this, the voicing effect is one of the most robust and most researched effect found in the phonetic and phonological literature.
+Among the earliest traceable mentions to this phenomenon there are \citet{meyer1903} for English (cited in \citealt{lindblom1967}), \citet{meyer1904} for German, \citet{meyer1909} for Hungarian, and \citet{gregoire1911} for French (all cited in \citealt{maddieson1976}).
+After these, a great number of studies further confirmed the existence of the effect in these languages and reported it in an ever increasing list of others.
 
-English is by far the language that received the most attention (\citealt{heffner1937, house1953, lisker1957, zimmerman1958, peterson1960, house1961, sharf1962, sharf1964, lindblom1967, halle1967, halle1967a, slis1969a, slis1969, chen1970, klatt1973, lisker1974, raphael1975, umeda1975, javkin1976, port1982, mack1982, luce1985, van-summers1987, kluender1988, de-jong1991, laeufer1992, fowler1992, de-jong2004, warren2005, ko2018, glewwe2018, sanker2019}, among others).
-The existence of the voicing effect has been further corroborated in French by \citet{belasco1953}, \citet{chen1970}, and \citet{laeufer1992}, in Hungarian by \citet{soskuthy2013}, and German (in the context of word-final voicing neutralisation, see \citealt{nicenboim2018a} and references therein).
-Other voicing-effect languages are Arabic (\citealt{hussein1994}, but cf. \citealt{mitleb1982}), Assamese, Bengali, Dutch, Georgian \citep{begus2017}, Hindi \citet{maddieson1976, ohala1992a, lampp2004, durvasula2012, sanker2018}, Italian \citep{caldognetto1979, farnetani1986, esposito2002}, Icelandic, Japanese \citep{port1987}, Korean, Lithuanian \citep{campos-astorkiza2007}, Norwegian, Swedish, Spanish, Telugu \citep{sanker2018}, and Russian [add references].\footnote{From a typological perspective, the sample is strongly biased towards Indo-European languages.
-Moreover, the five non-Indo-European languages are well-studied languages.
+English is the language that by far received the most attention (\citealt{heffner1937, house1953, lisker1957, zimmerman1958, peterson1960, house1961, sharf1962, sharf1964, lindblom1967, halle1967, halle1967a, slis1969a, slis1969, chen1970, klatt1973, lisker1974, raphael1975, umeda1975, javkin1976, port1982, mack1982, luce1985, van-summers1987, kluender1988, de-jong1991, laeufer1992, fowler1992, de-jong2004, warren2005, ko2018, glewwe2018, sanker2019}, among others).
+The presence of a voicing effect has been further corroborated in French by \citet{belasco1953}, \citet{chen1970}, and \citet{laeufer1992}, in Hungarian by \citet{soskuthy2013}, and German (in the context of word-final voicing neutralisation, see \citealt{nicenboim2018a} and references therein).
+Other known voicing-effect languages are Arabic (\citealt{hussein1994}, but cf. \citealt{mitleb1982}), Assamese and Bengali \citep{maddieson1976a}, Dutch \citep{slis1969a}, Georgian \citep{begus2017}, Hindi \citep{maddieson1976, ohala1992a, lampp2004, durvasula2012, sanker2018}, Italian \citep{caldognetto1979, farnetani1986, esposito2002}, Icelandic \citep{einarsson1927}, Japanese \citep{port1987}, Korean \citep{chen1970}, Lithuanian \citep{campos-astorkiza2007}, Norwegian \citep{fintoft1961}, Swedish \citep{elert1970}, Spanish \citep{navarro1916}, Telugu \citep{sanker2018}, and Russian \citep{chen1970}.\footnote{From a typological perspective, this sample is strongly biased towards Indo-European languages.
+Moreover, the five non-Indo-European languages in the list are all thriving and well-studied languages.
 This notwithstanding, the voicing effect is generally regarded as a very common and widespread phenomenon.}
 
-While the existence of the voicing effect is unquestionable, a commonly shared stance is that it is not an absolute universal, and that the magnitude of the effect varies across languages that have it.
-Czech and Polish are generally reputed to be languages in which the duration of the vowel does not significantly differ before voiceless and voiced stops.
-In fact, the results concerning the effect in these languages suggest both absence and presence of voicing-induced vowel duration differences.
+While the existence of the voicing effect is unquestionable, a commonly shared stance is that it is not an absolute universal, and that some languages lack voicing-induced durational differences.
+Czech and Polish are generally reputed to be languages in which the duration of vowels does not significantly differ before voiceless and voiced stops.
+In fact, the results concerning the effect in these languages are mixed, and support can be found both for and against an effect of voicing on vowel duration.
 \citet{keating1984} examined the duration of vowels in 3 Czech speakers.
 Vowels are 193.7 ms long when followed by /t/ and 204.2 ms when followed by /d/.
 This corresponds to a raw difference of 10.5 ms, which the author reports not to be significant (*t*(30) = -0.37, p > 0.2).
@@ -85,37 +85,34 @@ On the other hand, an equal number of studies argue that voicing does not signif
 \citet{keating1984} reports a non-significant difference of 2 ms in the word pair /rata/ (167.4) and /rada/ (169.5 ms), based on data from 24 speakers in Wrocław.
 Finally, \citet{strycharczuk2012a} reports a non-significant effect in 6 Warsaw speakers in pre-sonorant word-final position.
 To summarise, the evidence concerning the presence or absence of the voicing effect in Czech and Polish is mixed and it is not possible to draw certain conclusions.
-<!-- maybe add a footnote about meta-analysis -->
 
-The second common stance about the voicing effect is that its magnitude differs across languages, and that English generally shows the greatest effect.
-The latter statement led to the idea that the voicing effect is phonologised in English \citet{de-jong1991, sole2007, sanker2018}.
-The argument for the phonologisation of the effect rests, among other things, on the alleged stability of the ratio of the effect across speaking rates and prosodic contexts differing in strength.
-\citet{port1982} suggest that the ratio of the consonant and vowel durations is stable at faster and slower speaking tempos, and that the CV ratio proves to be the primary acoustic correlate of voicing in word-final position.
-\citet{luce1985}, on the other hand, claim that vowel duration is a more robust cue to voicing across speaking rates, when compared to the CV ratio and the duration of the stop closure (which fared as the worst among the three indices).
-Finally, \citet{ko2018} compares CV ratio values in three speaking styles (normal, faster, and slower) and finds that the ratio changes as a function of speaking style.
-Moreover, the rate-driven differences in CV ratio differ in the voiceless and voiced condition.
-In sum, while this would not be an argument against phonologisation of the voicing effect in English, there is contrasting evidence as to whether the relative magnitude of the effect is stable across speaking tempos.
-
-The alleged phonologisation of the effect in English is usually argued to be responsible for the greater effect in this language compared to others.
+A second common stance about the voicing effect is that its magnitude differs across languages, and that the greatest effect is observed in English.
 The reported effect of voicing in word-final syllables in English varies between 35 and 150 ms \citep{heffner1937, house1953, zimmerman1958, peterson1960, sharf1962, chen1970, klatt1973, mack1982, luce1985, laeufer1992, ko2018}.
-When looking at non-final syllables, the effect is smaller, with values between 18 and 35 ms \citep{sharf1962, klatt1973, davis1989}.
-Taking the first vowel in Italian disyllabic words for comparison, the difference in vowel duration before voiceless vs. voiced stops is 22 in \citet{farnetani1986} and 24 ms in \citet{esposito2002}.
-These values are within the range of the non-final effect in English.
-It is thus possible that, once controlling for contextual factors, the apparent cross-linguistic differences in magnitude get at least reduced.
-A similar conclusion is proposed by \citet{laeufer1992}, who compared French and English with carefully designed material to ensure comparison.
-When the duration of vowel is similar across languages, the magnitude of the effect is also comparable.
-To conclude, there is mixed evidence as to whether there exist cross-linguistic differences in magnitude of the voicing effect, and arguments based on phonologisation of the effect as derived from stability across speaking rates should be made with caution.
+However, the effect is smaller in non-final syllables, with values between 18 and 35 ms \citep{sharf1962, klatt1973, davis1989}.
+Taking Italian for comparison, the mean difference in vowel duration before voiceless vs. voiced stops in the first syllable of disyllabic words is 22 in \citet{farnetani1986} and 24 ms in \citet{esposito2002}.
+These values are within the range of the reported effect in English non-final syllables.
+It is thus possible that, once controlling for contextual factors, the apparent cross-linguistic differences in magnitude are, if not removed, at least reduced.
+A similar position is taken by \citet{laeufer1992}, who directly compared French and English using carefully designed experimental materials.
+When the duration of a vowel is similar across languages, consonant voicing also has an effect comparable in degree.
 
 Language is not the only source of variation, and the voicing effect interacts with several other phonological and phonetic factors.
 For example, \citet{umeda1975} reports that the difference in vowel duration before voiceless vs. voiced stops is greater when the test word is pre-pausal.
 The effect of voicing also seems to be more robust in stressed than in unstressed vowels \citep{davis1989}.
 There is also indication that the effect is modulated by the syllabic affiliation of the post-vocalic consonant in English, so that vowels followed by a coda show a greater effect than vowels followed by an onset (\citealt{sharf1962, klatt1973, davis1989}, but \citealt{abdelli-beruh2004} doesn't find a significant difference across these contexts in French).
-\citet{port1981} further argues that the effect in the word-initial stressed vowel is smaller along the hierarchy monosyllabic > disyllabic > trisyllabic words, which also reflects that of decreasing vowel durations.
+\citet{port1981} further argues that the effect in the word-initial stressed vowels is smaller along the hierarchy monosyllabic > disyllabic > trisyllabic words, which also reflects that of decreasing vowel durations.
 \citet{laeufer1992} discusses the voicing effect as a function of vowel height, and shows that the effect is greater in low (intrinsically longer) vowels than in high (intrinsically shorter) vowels.
-\citet{house1953} also report that there is a greater durational difference before fricatives than before stops.
+\citet{house1953} also report a greater durational difference before fricatives than before stops.
 <!-- not replicated in Tanner 2019 -->
-Post-vocalic nasals have been argued either to behave like voiced stops \citep{lisker1974, peterson1960} or to excercise an effect intermediate between that of voiceless and voiced stops \citep{house1953, zimmerman1958}.
+Post-vocalic nasals have been argued either to behave like voiced stops \citep{lisker1974, peterson1960} or to exercise an effect intermediate between that of voiceless and voiced stops \citep{house1953, zimmerman1958}.
 Finally, \citet{sharf1964} shows that the effect persists even in whispered (unvoiced) speech.
+
+Finally, the voicing effect can take on a linguistic function resulting in the phonologisation of the durational differences, as argued for English \citep{de-jong1991, de-jong2004, sole2007, sanker2019}.
+\citet{de-jong2004} shows that effect is greater in stressed syllables and under focus in English but not in Arabic \citep{de-jong2002}, and argue that vowel duration is used contrastively as a cue to voicing in the former.
+A further argument for the phonologisation of the durational difference in English is the stability of the effect across speaking tempos.
+\citet{port1982} suggest that the ratio of the consonant and vowel durations is stable at faster and slower speaking rates, and that the CV ratio proves to be the primary acoustic correlate of voicing in word-final position.
+\citet{luce1985}, however, claim that vowel duration is a more robust cue across tempos than the CV ratio and the duration of the stop closure.
+Finally, \citet{ko2018} compares CV ratio values in three speaking styles (normal, faster, and slower) and finds that the ratio changes as a function of speaking style and that the effect of style interacts with consonant voicing.
+In sum, there is contrasting evidence as to whether the relative magnitude of the effect is stable across speaking tempos.
 
 ## Whence the voicing effect
 \label{s:accounts}
