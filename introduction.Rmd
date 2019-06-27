@@ -118,35 +118,34 @@ In sum, there is contrasting evidence as to whether the relative magnitude of th
 \label{s:accounts}
 
 Over a century of research on the voicing effect has without doubt brought progress in our understanding of this complex phenomenon.
-However, no single proposed explanation to date has reached unanimous consensus.
-The golden period for the publications of accounts about the source of the voicing effect is the one between the 50s and the 70s, with subsequent decades focussing on testing or extending previous hypotheses.
-A major distinction can be drawn between accounts that view the voicing effect as a consequence of articulatory or aerodynamic properties of speech production, and accounts that instead draw on biases of the perceptual system.
-No ultimate answer as to which of the two sides best accounts for all of the aspects of the voicing effect, and rather both point of views partially contribute to the overall picture.
-The following paragraphs review the most notable perception and production accounts, paving the way for a discussion of related phonation effects in the following chapter.
+After the 'golden period' between the 50s and the 70s, when several proposals have been put forward, subsequent years focussed on testing or extending previous hypotheses and no final consensus has been reached.
+A broad distinction can be drawn between accounts that ascribe the voicing effect to articulatory or aerodynamic properties of speech production, and accounts that instead draw on biases of the perceptual system.
+No answer has been obtained as to which of the two sides best accounts for all of the aspects of the voicing effect, and rather both views contribute in some respects to the overall picture.
+The following paragraphs review the most notable perception and production accounts, paving the way for a discussion of phonation effects related to that of voicing in the following chapter.
 
 <!-- Perception -->
 
-One of the perception-based accounts states that the voicing effect emerges as a consequence of the difficulty in the perceptual identification of the vowel-consonant boundary in the context of voiced stops, and of the misinterpretation of the voicing during closure \citep{javkin1976}.
-According to this account, speakers misperceive the periodic vibration of the vocal folds (voicing) during the closure of a voiced stop as part of the preceding vowel.
-In the absence of contextual correction, this misperception can lead to the creation of a new production norm where the vowel is long.
-If this new lexical representation is created, the listener, now turned speaker, will subsequently produce longer vowel durations when followed by voiced stops \citet{ohala1989}.
-Although \citet{javkin1976} does not directly test the hypothesis that closure voicing is reinterpreted as part of the preceding vowel, the results indicate that listeners perceive vowels to be longer when followed by voiced than when followed by voiceless stops, other things being equal.
-On the other hand, \citet{sanker2019} finds that vowels rather elicit less 'long' responses when the consonant following the vowel is voiced, while they elicit more 'long' responses in stimuli where the following consonant is spliced out.
-While there is potential for a perceptual bias driving some aspects of the voicing effect, production mechanisms of voiced stops affecting acoustic aspects of vowels could be at the root of perceptual biases, which could be responsible for the enhancement of the effect in some speakers/languages \citep{begus2017, sanker2019}.
+A perceptual-based explanation advocated by \citet{javkin1976} argues that the voicing effect emerges as a consequence of the difficulty in the perceptual identification of the vowel-consonant boundary in the context of voiced stops, and of the misinterpretation of voicing during closure.
+According to this account, speakers misperceive the periodic vibration of the vocal folds (voicing) during the closure of a voiced stop as being part of the preceding vowel.
+In the absence of contextual correction, this misperception can lead to the creation of a new production norm where the vowel is lengthened \citep{ohala1989}.
+Subsequent productions of vowels followed by voiced stops would thus be longer than vowels followed by voiceless stops.
+Although \citet{javkin1976} does not directly test the hypothesis that closure voicing is reinterpreted as being part of the preceding vowel, his study indicates that listeners perceive vowels to be longer when followed by voiced than when followed by voiceless stops, other things being equal.
+On the other hand, \citet{sanker2019} finds that vowels followed by voiced stops rather elicit less 'long' responses, while more 'long' responses are elicited in stimuli where the following consonant was spliced out.
+However, listeners were perceiving vowels with falling F0 to be longer than vowels with flat or raising F0, in partial accord with previous work \citep{lehiste1976, alan2010, cumming2011}.
 
-To provide a rationale for the language-specificity of the voicing effect, \citet{kluender1988} propose that different languages can exploit the perceptual bias behind the effect at different degrees.
-The ratio of the duration of the closure and that of the vowel is one of the perceptual cues to voicing \citet{port1982, lisker1986}.
-Listeners associate smaller values of the consonant-to-vowel ratio to voiced stops, and, vice versa, greater values to voiceless stops.
+To provide for a rationale of the language-specificity of the voicing effect, \citet{kluender1988} propose that different languages can exploit the perceptual biases behind the effect at different degrees.
+As discussed in the previous chapter, the ratio between the duration of the closure and that of the vowel has been identified as one of the perceptual cues to voicing \citep{port1982, lisker1986}.
+Listeners associate smaller values of the CV ratio to voiced stops, and, vice versa, greater values to voiceless stops.
 \citet{kluender1988} argue that speakers can actively manipulate vowel durations to proportionally increase the difference in ratio between the two voicing categories, so that the ratio would be even smaller in the voiced context and even greater in the voiceless one.
-As a consequence, the perceptual distance between the voicing categories would be enhanced, thus facilitating discrimination \citet{stevens1989, kingston1994}.
-According to this view, listeners should show a contrast effect, by which longer closure durations elicit more 'short vowel' responses and shorter closures more 'long vowel' responses.
+As a consequence, the perceptual distance between the voicing categories would be enhanced, thus facilitating discrimination \citep{stevens1989, kingston1994}.
+According to this view, listeners' discrimination of vowel duration should show a contrast effect, by which longer closure durations elicit more 'short vowel' responses and shorter closures more 'long vowel' responses.
 However, \citet{fowler1992} shows that listeners judge vowels to be longer when the stop closure duration is increased, and that, similarly, stop closure is perceived to be longer when vowel duration is increased.
-These results indicate a mechanism of perceptual assimilation of the respective durations of vowels and stop closures, rather than a contrast effect which can be exploited in the enhancement of the voicing distinction.
+These results indicate a mechanism of perceptual assimilation of the respective durations of vowels and stop closures and do not support a contrast effect.
 
 <!-- Production -->
-
-While individual production accounts differ in the details, two broad categories can be identified.
-Two accounts ascribe the source of the voicing effect to some mechanisms of compensation within a certain property of speech (either duration or articulatory force), while two others relate the emergence of the effect to timing aspects of gestures related to the articulation of stops (either laryngeal or oral).
+While perceptual biases could be driving some aspects of the voicing effect and be responsible for its enhancement in some languages, production mechanisms are likely to provide the necessary variation that would be exploited by the perceptual system \citep{begus2017, sanker2019}.
+Although individual production accounts differ in the details, two broad categories can be identified.
+Some accounts ascribe the source of the voicing effect to mechanisms of compensation within a certain property of speech (either duration or articulatory force), while others relate the emergence of the effect to timing aspects of articulatory gestures (either laryngeal or oral).
 
 The compensatory temporal adjustment account \citep{lindblom1967, slis1969a, slis1969, lehiste1970, lehiste1970a} states that the relative durations of a vowel and consonant in a VC sequence are statistically correlated.
 A well-known fact about stop closure is that it is longer in voiceless stops and shorter in voiced stops \citep{lisker1957, van-summers1987, davis1989, de-jong1991}.
@@ -182,7 +181,7 @@ Subsequent work by \citet{warren2005} further shows that the percentage of diffe
 
 <!-- to sum up -->
 
-## Beyond the voicing effect
+## Beyond voicing
 
 Two phonation modes other than voicing are known to affect preceding vowel duration: aspiration and ejection.
 While this project focusses on the voicing effect, the closely related aspiration and ejection effects have consequences of theoretical importance for the voicing effect.
