@@ -114,17 +114,15 @@ A further argument for the phonologisation of the durational difference in Engli
 Finally, \citet{ko2018} compares CV ratio values in three speaking styles (normal, faster, and slower) and finds that the ratio changes as a function of speaking style and that the effect of style interacts with consonant voicing.
 In sum, there is contrasting evidence as to whether the relative magnitude of the effect is stable across speaking tempos.
 
-## Whence the voicing effect
+## One phenomenon, many explanations
 \label{s:accounts}
 
-Over a century of research on the voicing effect has without doubt increased our knowledge of this complex phenomenon.
-However, to date no single proposal as to why this phenomenon exists has reached unanimous consensus.
-The period between the 50s and the 70s generated a series of accounts about the source of the voicing effect, with subsequent decades focussing on testing or extending these hypotheses.
-Two major 'factions' have opposing views regarding whether the effect originally emerged due to perceptual biases or physical properties of the production system.
-At present, there is no ultimate answer as to which of the two sides best accounts for all of the aspects of the voicing effect, and rather both point of views partially contribute to the overall picture.
-The following paragraphs will review the major perception and production accounts, with greater attention given to the latter, which are the focus of this dissertation.
-<!-- this is not an in-depth nor exhaustive review -->
-<!-- as in papers, doesn't exclude perception -->
+Over a century of research on the voicing effect has without doubt brought progress in our understanding of this complex phenomenon.
+However, no single proposed explanation to date has reached unanimous consensus.
+The golden period for the publications of accounts about the source of the voicing effect is the one between the 50s and the 70s, with subsequent decades focussing on testing or extending previous hypotheses.
+A major distinction can be drawn between accounts that view the voicing effect as a consequence of articulatory or aerodynamic properties of speech production, and accounts that instead draw on biases of the perceptual system.
+No ultimate answer as to which of the two sides best accounts for all of the aspects of the voicing effect, and rather both point of views partially contribute to the overall picture.
+The following paragraphs review the most notable perception and production accounts, paving the way for a discussion of related phonation effects in the following chapter.
 
 <!-- Perception -->
 
@@ -184,7 +182,7 @@ Subsequent work by \citet{warren2005} further shows that the percentage of diffe
 
 <!-- to sum up -->
 
-## Beyond voicing effects
+## Beyond the voicing effect
 
 Two phonation modes other than voicing are known to affect preceding vowel duration: aspiration and ejection.
 While this project focusses on the voicing effect, the closely related aspiration and ejection effects have consequences of theoretical importance for the voicing effect.
