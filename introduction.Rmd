@@ -147,36 +147,36 @@ While perceptual biases could be driving some aspects of the voicing effect and 
 Although individual production accounts differ in the details, two broad categories can be identified.
 Some accounts ascribe the source of the voicing effect to mechanisms of compensation within a certain property of speech (either duration or articulatory force), while others relate the emergence of the effect to timing aspects of articulatory gestures (either laryngeal or oral).
 
-The compensatory temporal adjustment account \citep{lindblom1967, slis1969a, slis1969, lehiste1970, lehiste1970a} states that the relative durations of a vowel and consonant in a VC sequence are statistically correlated.
+The compensatory temporal adjustment account \citep{lindblom1967, slis1969a, slis1969, lehiste1970, lehiste1970a} states that the relative durations of vowel and consonant in a VC sequence are correlated.
 A well-known fact about stop closure is that it is longer in voiceless stops and shorter in voiced stops \citep{lisker1957, van-summers1987, davis1989, de-jong1991}.
 As a consequence, vowels are shorter when followed by the longer closure of voiceless stops, and they are longer when followed by the shorter closure of voiced stops.
-This compensatory pattern would be the consequence of maintaining a particular speech interval at a fixed temporal duration, while the duration of the closure changes depending on the voicing status of the stop.
-Proponents of the compensatory account have argued that compensation is implemented either at the level of the syllable (or of the VC sequence, \citealt{lindblom1967, farnetani1986}), or at the level of the word \citep{slis1969a, slis1969, lehiste1970, lehiste1970a}.
+This compensatory pattern would be the consequence of keeping the duration of a particular speech interval fixed, while the duration of the closure changes depending on the voicing status of the stop.
+Proponents of this account have argued that compensation is implemented either at the level of the syllable (or of the VC sequence, \citealt{lindblom1967, farnetani1986}), or at the level of the word \citep{slis1969a, slis1969, lehiste1970, lehiste1970a}.
 This formulation of the account, however, faces empirical and logical challenges.
-The duration of both the syllable and the word is affected by the voicing of the stop \citet{chen1970, jacewicz2009}, and it is not clear why compensation within a word should target the pre-consonantal vowel necessarily and not other segments (these issues will be discussed in more details in [...]).
+The duration of both the syllable and the word is affected by stop voicing \citep{chen1970, jacewicz2009}, and it is not clear why compensation within a word should necessarily target the pre-consonantal vowel and not other segments (these issues are discussed in more details in [...]).
 
-A second proposal attributes the voicing-driven differential duration of vowels to articulatory energy expenditure, rather than temporal aspects.
+A second proposal attributes the voicing-driven duration differences of vowels to articulatory energy expenditure, rather than temporal aspects.
 \citet{meyer1903} and similarly \citet{belasco1953} propose that the articulatory force required to produce a syllable is constant, and thus it is distributed across segments according to their energy requirements.
 According to this hypothesis, voiceless stops are produced with more force than voiced stops, and hence some force is subtracted from the production of the preceding vowel to maintaining the overall force constant.
 However, the concept of 'articulatory force' lacks an empirically solid definition, and experimental results mentioned in \citet{zimmerman1958} rather point to the absence of a relation between energy expenditure and vowel duration.
 
 While the compensatory temporal adjustment and the energy expenditure accounts rely on compensatory mechanisms of duration or articulatory force, two other proposals concern aspects of gestural timing of the larynx and the consonant closing gesture.
-The laryngeal adjustment account \citet{halle1967, halle1967a, chomsky1968} is based on the idea that voicing during a stop closure requires precise adjustments of the glottis in order to comply with aerodynamic constraints \citep{ohala2011}.
-Such a precision requires greater time to be achieved during articulation than the production of closure voicelessness, which requires a less precise control over glottal opening.
-Because of these properties of laryngeal articulation, full closure can be achieved relatively faster in the context of voiceless stops, while a delay of closure onset in voiced stops ensures enough time to produce the suitable glottal configuration.
-The preliminary electromiographic data of glottal muscular activity discussed in \citet{chen1970}, however, suggests that the expected early activity of laryngeal muscles during the production of vowels followed by voiced stops compared to vowels followed by voiceless stops is not found.
-Further articulatory evidence shows that there is rather a general increase of activity of certain laryngeal muscles (mainly the posterior crycoarytenoid and the crycothyroid) during the production of voiceless sounds \citep{hirose1972, kagaya1975, hirose1977, lofqvist1989}.
-No conclusive evidence can thus be adduced in support of the laryngeal adjustment hypothesis, although other laryngeal mechanisms cannot be ultimately excluded.
+The laryngeal adjustment account \citep{halle1967, halle1967a, chomsky1968} is based on the idea that voicing during stop closure requires precise adjustments of the glottis in order to comply with aerodynamic constraints \citep{ohala2011}.
+Such an articulatory precision necessitates greater time to be implemented than the production of closure voicelessness.
+Because of these properties of laryngeal articulation, full closure can be achieved relatively faster in the context of voiceless stops (which require less precise control), while a delay of closure onset in voiced stops ensures enough time to produce the suitable glottal configuration.
+The preliminary electromiographic study of glottal muscular activity discussed in \citet{chen1970}, however, does not suggest the presence of early laryngeal activity of laryngeal during the production of vowels followed by voiced stops compared to vowels followed by voiceless stops.
+Further articulatory evidence shows that there is rather a general increase of activity of certain laryngeal muscles (namely, the posterior crycoarytenoid and the crycothyroid) during the production of voiceless sounds \citep{hirose1972, kagaya1975, hirose1977, lofqvist1989}.
+No conclusive evidence can thus be adduced in support of the laryngeal adjustment hypothesis, although other laryngeal mechanisms cannot be ultimately excluded \citep{begus2017}.
 
 <!-- I think I need to read more about this -->
 
-The last production account surveyed here is based on the rate of closure transition \citep{ohman1967a, chen1970}.
+Another production account is based on the rate of stop closure transition \citep{ohman1967a, chen1970}.
 Voiceless stops are articulated with greater glottal opening relative to voiced stops (and vowels), so that a greater volume of air is admitted into the oral cavity.
 @ohman1967a argues that the production of the closure of voiceless stops would then require more muscular effort to counteract the increased intra-oral pressure generated by the greater airflow.
 As a consequence, the rate of the closing gesture of voiceless stops is higher than that of voiced stops.
-In other words, full closure will be achieved earlier when the stop is voiceless than when it is voiced relative to the onset of the preceding vowel.
+In other words, full closure will be achieved earlier relative to the onset of the closing gesture when the stop is voiceless than when it is voiced.
 Hence, vowels will be shorter when followed by voiceless stops than when followed by voiced stops.
-\citet{chen1970} observes from articulatory data of lip movements that the difference in labial closure rate accounted for 20% of the difference in vowel duration.
+\citet{chen1970} observes that the difference in labial closure rate accounted for 20% of the difference in vowel duration.
 Subsequent work by \citet{warren2005} further shows that the percentage of difference accounted for rises to 80% when considering the movements of both the lips and the jaw.
 
 <!-- to sum up -->
@@ -184,26 +184,26 @@ Subsequent work by \citet{warren2005} further shows that the percentage of diffe
 ## Beyond voicing
 
 Two phonation modes other than voicing are known to affect preceding vowel duration: aspiration and ejection.
-While this project focusses on the voicing effect, the closely related aspiration and ejection effects have consequences of theoretical importance for the voicing effect.
+While this project focusses on the voicing effect, the closely related aspiration and ejection effects have consequences of theoretical importance.
 The results concerning the aspiration effect are mixed.
-\citet{maddieson1976}, \citet{durvasula2012}, and \citet{lampp2004} report longer vowels in aspirated than in unaspirated stops in Hindi, and \citet{maddieson1976a} a simlar trend in Assamese, Bengali, and Marathi.
-\citet{ohala1992a}, on the other hand, shows that vowels have the same duration before unaspirated and aspirated stops in his sample of Hindi speakers.
-\citet{sanker2018} observes an effect in Hindi long but not in short vowels, while the effect is reversed in Telugu long vowels (vowels are shorter before aspirated than unaspirated stops), with no appreciable difference in short vowels.
-Note that these studies don't easily lend themselves to comparison, since the material and contexts used differ (vowel type, vowel phonological length, number of syllables, context following the test word).
+\citet{maddieson1976}, \citet{durvasula2012}, and \citet{lampp2004} report longer vowels before aspirated than before unaspirated stops in Hindi, and \citet{maddieson1976a} finds a simlar trend in Assamese, Bengali, and Marathi.
+\citet{ohala1992a}, on the other hand, show that vowels have the same duration before unaspirated and aspirated stops in their sample of Hindi speakers.
+\citet{sanker2018} observes an effect of aspiration in Hindi long vowels but not in short vowels, while the effect is reversed in Telugu long vowels (vowels are shorter before aspirated than unaspirated stops), with no appreciable difference in short vowels.
+Note that these studies don't easily lend themselves to comparison, since the material and contexts used differ (for instance, vowel type, vowel phonological length, number of syllables, and context following the test word).
 
 The trend of vowels being longer when followed by aspirated stops challenges some of the accounts presented in \Cref{s:accounts}, as noted in \citet{maddieson1976}.
 The articulatory force expenditure hypothesis predicts vowels to be shorter before aspirated than before unaspirated stops since it is likely that aspirated stops require greater force than unaspirated ones.
 According to the laryngeal adjustment account, the duration of the vowels should not differ in voiceless unaspirated and aspirated stops since they both require glottal opening, rather than the precise adjustments characteristic of voiced stops.
-Since closure rate is determined by airflow, the rate of closure account expects vowels followed by aspirated stops to be shorter than or equal to vowels followed by unaspirated stops, since the former should be characterised by greater airflow and higher closure rates due to the spread glottis.
-While \citet{maddieson1976} argue against a compensatory effect between vowel and consonant duration, the data in \citet{durvasula2012} are compatible with it (see [...] for details).
+Since closure rate is determined by airflow, the rate of closure account expects vowels followed by aspirated stops to be shorter than or equal to vowels followed by unaspirated stops, since the former should be characterised by greater airflow and higher closure rates due to glottal spreading.
+While \citet{maddieson1976} argue against a compensatory effect between vowel and consonant duration, the data in \citet{durvasula2012} are instead compatible with it (see [...] for details).
 The results in \citet{sanker2018} on Hindi, but not Telugu, are also compatible with a compensatory mechanism.
 Closure duration is longer in unaspirated stops and shorter in aspirated stops in both languages, but the effect of aspiration on vowel duration has opposite directions, as discussed above.
 
 An investigation of the effect of ejection in Georgian \citep{begus2017} shows that vowels are shortest when followed by aspirated stops, longer when followed by ejectives, and longest when followed by voiced stops (Georgian contrasts aspirated voiceless, ejective, and voiced unaspirated stops).
-The negative correlation between closure and vowel duration has a greater magnitude in the context of voiced compared to those of aspirated and ejective stops.
+The negative correlation between closure and vowel duration has greater magnitude in the context of voiced compared to that of aspirated and ejective stops.
 Moreover, the author shows that the closure effect on vowel duration coexists with a 'laryngeal features' effect (both effects, when entered as predictors in a single regression model, lead to significant *p*-values).
 In other words, the variance in vowel duration is account for in part by the duration of the stop closure and in part by the voicing category of the post-vocalic stop.
-As discussed in \citep{begus2017}, these patterns are compatible with accounts of compensatory temporal adjustments, laryngeal adjustments, and rate of closure.
+As discussed in \citet{begus2017}, these patterns are compatible with accounts of compensatory temporal adjustments, laryngeal adjustments, and rate of closure.
 
 ## Summary
 <!-- TODO: voicing effect summary -->
