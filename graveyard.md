@@ -7,3 +7,5 @@ This is where the first of the two studies that form part of this thesis stands.
 An exploratory study of several aspects of the influence of voicing on vowel duration sought to provide data without constraining the experimental design in light of a particular hypothesis.
 The results of this study suggested a promising venue for a further investigation of the compensatory temporal adjustment account.
 A second study was thus planned to test the hypotheses generated in the previous exploration.
+
+The temporal stability of the interval in disyllabic words is argued to derive from the combined action of vowel-to-vowel isochrony within the word and of the synchronous implementation of the vocalic and consonant gestures within the syllable.

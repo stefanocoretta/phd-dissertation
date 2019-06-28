@@ -308,7 +308,7 @@ SPPAS is a language-agnostic system which comes with pre-packaged models for a v
 Since the audio recorded with the EGG system was nosier than that recorded with the UTI system, the latter was used in all subsequent acoustic-based analyses.
 The output of the force-alignment is a Praat TextGrid with time-aligned interval tiers containing the annotations of intonational phrase units (utterances), words, and phones.
 The automatic annotation was then manually checked by the author and corrected if necessary.
-The placement of phone boundaries followed the suggestions in \citet{machac2009}.
+The placement of segment boundaries followed the suggestions in \citet{machac2009}.
 See Paper [...] for details.
 
 Detection of the release of C1 and C2 was accomplished through the algorithmic procedure described in \citet{ananthapadmanabha2014}.
@@ -336,13 +336,18 @@ See Paper [...] for the detailed procedure.
 
 ## Compensatory aspects of the effect of voicing on vowel duration in English (Study II)
 
-A second study was designed to assess the generalisability of the results from Study I to English, and to investigate differences between disyllabic and monosyllabic words.
+The results from Study I indicated that the temporal distance between two consecutive stop releases in disyllabic words of Italian and Polish is not affected by the voicing of the second stop.
+Within this temporally stable interval, differences in the timing of oral closure determines the respective durations of the vowel and the consonant closure.
+Thus, a second study was carried out to assess whether the durational pattern found in Study I would generalise to English, and to investigate differences between disyllabic and monosyllabic words as predicted by a word-holistic account of gestural phasing.
+It was expected that, while the duration of the release-to-release interval would be insensitive to the voicing status of the second consonant, the interval would be longer in monosyllabic words with a voiced consonant.
+Paper [...] discusses the empirical and theoretical foundation of the research hypotheses and methods of Study II more in detail.
+A brief synthesis of the methodologies of the study is reported here.
+
 Fifteen university students were recorded in a sound attenuated room in the Phonetics Laboratory of the University of Manchester while reading sentence stimuli containing test words, presented on a computer screen with PsychoPy \citep{peirce2009}.
 The participants were native speakers of British English, aged between 20 and 29, born and raised within Greater Manchester.
 The test words were built according to the following structure: C\textsubscript{1}V́\textsubscript{1}C\textsubscript{2}(VC), where C\textsubscript{1} = /t/, V\textsubscript{1} = /iː, ɜː, ɑː/, C\textsubscript{2} = /p, b, k, g/, and (VC) = /əs/.
-The test words were embedded in sentence-medial position within frame sentences, so that each speaker would read a total of 120 stimuli (24 words × 5 frames).
+These words were embedded within five different frame sentences, so that each speaker would read a total of 120 stimuli (24 words × 5 frames).
 The audio recordings were force-aligned and the times of acoustic landmarks were extracted according to the same procedure as in Study I (with `make-textgrid.praat` and `get-measurements.praat` in \citealt{coretta2019g}).
-Further details are given in Paper [...].
 
 # Open Science
 \label{s:openscience}
@@ -461,6 +466,8 @@ To compensate for the asymmetry between the number of models run and those repor
 The design and analyses of Study II have been pre-registered on the Open Science Framework at [...].
 Sample size determination followed the method of the Region Of Practical Equivalence.
 A full Bayesian analysis was run, and greater emphasis was given on the posterior probability distributions of the effect of interest while discussing the results (see Paper ... for details).
+
+<!-- TODO: talk about datasets -->
 
 Data, code, and information about software can be found in the research compendium of this project on the Open Science Framework at \url{https://osf.io/w92me/}.
 <!-- TODO: use public link -->
