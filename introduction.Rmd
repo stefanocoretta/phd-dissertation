@@ -352,6 +352,13 @@ The audio recordings were force-aligned and the times of acoustic landmarks were
 # Open Science
 \label{s:openscience}
 
+In the academic world, great emphasis is given to the theoretical content of original research, whereas the scientific process that led to research findings is relegated to a subordinate position.
+However, as brilliantly put by Chris Chambers, the methods section traditionally included in papers was originally meant to be a 'recipe' that would allow future researchers to follow and reproduce the steps used by the authors to go from a set of ideas to a set of results.
+Through the years, though, this paper section has become a place where the authors can give a statement that confirms they have followed accepted analytical procedures.
+More recently, scholars have developed a greater preoccupation towards accountability of methods.
+The consideration of these issues in phonetics and phonology is evidenced by the publication of a recent special issue on data analysis in the Journal of Phonetics and by the ongoing adoption of a new method-oriented form of publication by the Journal of the Association for Laboratory Phonology.
+Matters of research transparency are part of a broader collection of problems, which have fuelled the birth of the international campaign which falls under the umbrella term Open Science.
+
 Open Science is a movement that proposes a series of research principles and warns from common (unintentional) misconceptions and questionable practices in order to build a more honest and transparent scientific environment.
 The term Open Science as a whole refers to the fundamental concepts of 'openness, transparency, rigour, reproducibility, replicability, and accumulation of knowledge' \citep[3]{cruwell2018}.
 Knowledge accumulation is sound only when replicability and reproducibility, proxies to the first three concepts above, can be met.
@@ -454,7 +461,7 @@ The objective of making research accountable can be achieved by publicly sharing
 
 <!-- maybe refer here to the Papers so don't need other section? -->
 
-The project of this dissertation has been carried out with principles of Open Science in mind.
+The research project behind this dissertation has been carried out with principles of Open Science in mind.
 The reader might notice, however, a certain arc of development in putting these concepts into practice, since, for some of these, full command has been obtained only after careful consideration, the timeline of which extended into later stages of the project.
 This last section of the Introduction discusses how the principles and methods expounded in the above sections were applied.
 
