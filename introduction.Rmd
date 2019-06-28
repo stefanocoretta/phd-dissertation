@@ -186,7 +186,7 @@ Subsequent work by \citet{warren2005} further shows that the percentage of diffe
 Two phonation modes other than voicing are known to affect preceding vowel duration: aspiration and ejection.
 While this project focusses on the voicing effect, the closely related aspiration and ejection effects have consequences of theoretical importance.
 The results concerning the aspiration effect are mixed.
-\citet{maddieson1976}, \citet{durvasula2012}, and \citet{lampp2004} report longer vowels before aspirated than before unaspirated stops in Hindi, and \citet{maddieson1976a} finds a simlar trend in Assamese, Bengali, and Marathi.
+\citet{maddieson1976}, \citet{durvasula2012}, and \citet{lampp2004} report longer vowels before aspirated than before unaspirated stops in Hindi, and \citet{maddieson1976a} finds a similar trend in Assamese, Bengali, and Marathi.
 \citet{ohala1992a}, on the other hand, show that vowels have the same duration before unaspirated and aspirated stops in their sample of Hindi speakers.
 \citet{sanker2018} observes an effect of aspiration in Hindi long vowels but not in short vowels, while the effect is reversed in Telugu long vowels (vowels are shorter before aspirated than unaspirated stops), with no appreciable difference in short vowels.
 Note that these studies don't easily lend themselves to comparison, since the material and contexts used differ (for instance, vowel type, vowel phonological length, number of syllables, and context following the test word).
@@ -211,78 +211,51 @@ As discussed in \citet{begus2017}, these patterns are compatible with accounts o
 # Studies overview
 \label{s:studies}
 
-The end of \Cref{s:ve} stressed the variety of proposals as to what the source of the voicing effect could be.
-Moreover, the accounts reviewed in the previous chapter all find partial support and face challenges in one way or the other.
-Possibly, accounts based on perceptual biases are somewhat weaker than production accounts.
-Given the complexity of the various production accounts and their interactions, this thesis focusses on articulatory aspects of the voicing effect.
-Since over the years evidence has accumulated for at least three of these accounts, the compensatory temporal adjustment, the laryngeal adjustment, and the rate of closure account, this thesis set out to collect acoustic and articulatory that would enable a free exploration of the hypothesis space.
-This is where the first of the two studies that form part of this thesis stands.
-An exploratory study of several aspects of the influence of voicing on vowel duration sought to provide data without constraining the experimental design in light of a particular hypothesis.
-The results of this study suggested a promising venue for a further investigation of the compensatory temporal adjustment account.
-A second study was thus planned to test the hypotheses generated in the previous exploration.
+Each of the proposals regarding the origin of the voicing effect, reviewed in \Cref{s:ve}, stresses one particular aspect of the mechanisms that could lie behind this phenomenon.
+Whereas some of the hypotheses concern biases of the perceptual system, others depend on articulatory and aerodynamic properties of speech production.
+Crucially, all accounts have found only partial support in the literature.
+Given the complex nature that characterises the production accounts, this thesis set out to investigate durational and dynamic aspects of the articulation of vowel-consonant sequences.
+Over the years, evidence has accumulated for the articulatory accounts based on compensatory temporal adjustments, laryngeal adjustments, and rate of consonant closure.
+The outcomes of a time-synchronised analysis of acoustic and articulatory data from Italian and Polish indicate that components of temporal compensation and gestural phasing are the likely source of the differences in vowel durations.
+A follow-up acoustic study of English further confirmed these results, and offered new insights on the possible development of the voicing effect from the word-level structuring of vocalic and consonantal gestures.
 
-This chapter offers an overview of these studies, which are discussed in turn.
-For each study, information will be given on experimental materials and procedures, and data processing.
-While specific details will be presented in the individual papers, this chapter offers to the readers a kind of road map to aid them in navigating the second part of the thesis.
-Data and code is available on the Open Science Framework and GitHub (see \Cref{s:repro})
-Ethics clearance was obtained from the University research ethics committee (UREC) of the University of Manchester (REF 2016-009976).
+An overview of these studies, with information on experimental materials, procedures, and data processing, is given in this chapter.
+The following sections constitute a synopsis of the methodologies presented in more specific details in the relevant papers.
+The data and code referred to here can be found in the dissertation repositories on the Open Science Framework and GitHub (see \Cref{s:repro}).
+Ethics clearance to undertake this work was obtained from the University research ethics committee (UREC) of the University of Manchester (REF 2016-009976).
 
 ## Exploratory study of the voicing effect in Italian and Polish (Study I)
 
 <!-- three aspects: exploratory, acoustics + articulatory, and Italian Polish -->
 
-Since the voicing effect in English is thought to be phonologised, if one wants to unearth mechanic properties, it is more convenient to investigate the effect in language where the effect is not phonologised and thus potential not under the control of the speaker.
-<!-- but could still be, cf with Rothenberg -->
-Moreover, contrasting two languages that differ in the magnitude or presence vs. absence of the effect is a desideratum.
-Italian and Polish are two good candidates since they satisfy both the requirement of the effect not being phonologised, and the requirement of showing the effect at different degrees.
-Moreover, their phonological systems share some properties that makes comparison easier.
-Note that, when talking about voiceless vs. voiced stops throughout the dissertation, I refer to the phonemic (lexical) contrast defined at an abstract level, rather than to the actual phonetic implementation of such contrast.
-This is generally helpful in light of the distinction between aspirating vs. true voicing languages \citep{beckman2013}, and in the case of English (Study II) in particular \citet{docherty1992}.
+A convenient way to investigate mechanic properties underlying the effect of voicing on vowel durations is to consider languages in which the effect has not been claimed to be phonologised.
+Moreover, comparing two languages that differ in the presence or degree of vowel durational difference can uncover variation motivating cross-linguistic differences.
+Italian and Polish are two good candidates in that they satisfy both of these requirements.
+Moreover, their phonological systems allow for a somewhat direct comparison.
+For these reasons, an exploratory study of Italian and Polish was carried out to examine the influence of voiceless and voiced stops on vowel duration.
+Note that, when talking about voiceless vs. voiced stops, I refer to the phonemic (lexical) contrast defined at an abstract level, rather than to the actual phonetic implementation of such contrast.
+This approach is generally helpful in light of the distinction between aspirating vs. true-voicing languages \citep{beckman2013}, and in the case of English in particular \citep{docherty1992}, which is the subject of the second study.
 
-Since the accounts cover aspects of segmental duration, oral articulators, and laryngeal gestures, data was obtained from three sources: (1) acoustics, (2) ultrasound tongue imaging, a non-invasive technique to image the shape of the tongue using ultrasonic equipment, and (3) electroglottography, a indirect and safe method to gather information on vocal fold activity.
-<!-- say that since the papers talk about different aspects of the study and its methods, here I report an over-all overview of the methods and data of Study I -->
+Since the accounts this dissertation focusses on cover aspects of segmental duration, consonantal articulatory gestures, and voicing, data was obtained from three sources: (1) acoustics, (2) ultrasound tongue imaging, a non-invasive technique to image the tongue using ultrasonic equipment, and (3) electroglottography, an indirect and safe method to gather information on vocal fold activity.
+In the following paragraphs, I offer an outline of the methodologies employed in Study I, while referring the reader to specific papers for a more in-depth description.
 
-<!-- Participants: to be moved -->
+### Participants
+
 A total of 17 participants were recruited in Manchester (UK) and in Verbania (Italy).
-Eleven participants were native speakers of Italian, and six of Polish.
-Recordings were made in a sound-attenuated room at the Phonetics Laboratory of the University of Manchester, and in a quiet room at a field location in Verbania.
-Due to technical issues or poor signal quality, ultrasonic data of /u/ from two speakers and electroglottographic data from two others are missing.
-\Cref{t:speakers-data} gives the recording location and possible missing data for each participant.
-Basic sociolinguistic data is given in [...].
-The participants read an information sheet prior to the experiment and signed a consent form
+Eleven were native speakers of Italian (IT01-IT05, IT07, IT09, IT11-IT14), and six of Polish (PL02-PL07).
+Missing speaker codes refer to test participants or participants that produced unusable data because of individual anatomy or faulty equipment.
+Recordings were made in a sound-attenuated room at the Phonetics Laboratory of the University of Manchester, or in a quiet room at a field location in Verbania (IT03-IT07).
+Due to technical issues or poor signal quality, ultrasonic data of /u/ from two speakers (IT07, PL05) and electroglottographic data from two others (IT04, IT05) are missing.
+Basic participants' sociolinguistic data is given in Paper [...].
+The participants were given an information sheet prior to the experiment and signed a consent form.
 
-\ctable[caption = ...,
-label = t:speakers-data,
-width=\textwidth,
-star,
-doinside = \scriptsize
-]{lll}{}{
-\FL
-Speaker & Location   & Missing data    \ML
-IT01    & Manchester &                 \NN
-IT02    & Manchester &                 \NN
-IT03    & Verbania   &                 \NN
-IT04    & Verbania   & missing EGG     \NN
-IT05    & Verbania   & missing EGG     \NN
-IT07    & Verbania   & missing /u/ UTI \NN
-IT09    & Manchester &                 \NN
-IT11    & Manchester &                 \NN
-IT12    & Manchester &                 \NN
-IT13    & Manchester &                 \NN
-IT14    & Manchester &                 \NN
-PL02    & Manchester &                 \NN
-PL03    & Manchester &                 \NN
-PL04    & Manchester &                 \NN
-PL05    & Manchester & missing /u/ UTI \NN
-PL06    & Manchester &                 \NN
-PL07    & Manchester &                 \LL
-}
+### Ultrasound tongue imaging and electroglottography
 
-2D Ultrasound tongue imaging (UTI) uses ultrasonography for charting the movements of the tongue into a two-dimensional image \citet{gick2002, stone2005, lulich2018}.
+2D Ultrasound tongue imaging (UTI) uses ultrasonography for charting the movements of the tongue into a two-dimensional image \citep{gick2002, stone2005, lulich2018}.
 In medical sonography, ultrasonic waves (sound waves at high frequencies, ranging between 2 and 14 MHz) are emitted from a probe in a fan-like manner, and travel through organic tissue (such as skin and muscles).
 When the surface of a material with different density is hit, the ultrasound waves are partially reflected, and such 'echo' is registered by the probe.
-These echoes can then be plotted on a two-dimensional graph, where different densities are represented by different shades (higher densities are brighter, while lower densities are darker).
-The graph, or ultrasound image, sows high density surfaces as very bright lines, surrounded by darker areas.
+The information interpolated from these echoes can be plotted on a two-dimensional graph, where different material densities are represented by different shades (higher densities are brighter, while lower densities are darker).
+The graph, or ultrasound image, shows high density surfaces as very bright lines, surrounded by darker areas.
 By positioning the ultrasound probe in contact with the sub-mental triangle (the surface below the chin), sagittally oriented, it is possible to infer the cross-sectional profile of the tongue, which appears as a bright line in the resulting ultrasound image.
 
 Electroglottography \citep{fabre1957, childers1985, scherer1987, rothenberg1988} is a technique that measures the size of contact between the vocal folds (the Vocal Folds Contact Area, VFCA).
@@ -290,72 +263,76 @@ A high frequency low voltage electrical current is sent through two electrodes w
 The impedance of the current is directly correlated with VFCA, while its amplitude is inversely correlated with it \citep{titze1990}.
 Impedance increases with lower VFCA and decreases with higher VFCA.
 Conversely, amplitude decreases when the VFCA increases and it increases when the VFCA decreases.
-The EGG unit registers changes in impedance and it converts it into amplitude values.
+The EGG unit registers changes in impedance and converts it into amplitude values.
 The unit outputs a synchronised stereo recording which contains the EGG signal from the electrodes in one channel and the audio signal from the microphone in the other.
 
-![Equipment set-up scheme.\label{f:setup}](./img/setup.pdf){ width=80% }
+### Equipment set-up
 
-\Cref{f:setup} shows the equipment set-up employed in the study.
+![Schematics of the equipment set-up of Study I. Stabilisation headset not shown.\label{f:setup}](./img/setup.pdf){ width=80% }
+
+\Cref{f:setup} shows a schematics of equipment set-up used in this study.
 The left part of the figure shows the ultrasonic components \citep{articulate2011}, while the EGG components (Glottal Enterprises) are shown on the right.
 Two separate Hewlett-Packard ProBook 6750b laptops with Microsoft Windows 7 were used for the acquisition of the UTI and EGG recordings.
 The main ultrasonic component was a TELEMED Echo Blaster 128 unit with a TELEMED C3.5/20/128Z-3 ultrasonic transducer (20mm radius, 2-4 MHz), plugged into one laptop via a USB cable.
-A P-Stretch unit (used for signal synchronisation) and was connected to the ultrasound unit via a custom modification \citep{articulate2011}.
+A P-Stretch unit (used for signal synchronisation) was connected to the ultrasound unit via a custom modification \citep{articulate2011}.
 The P-Stretch unit and a Movo LV4-O2 Lavalier microphone fed into a FocusRight Scarlett Solo pre-amplifier, which was plugged into the ultrasound laptop via USB.
 A second Movo microphone and the electrodes were connected to a Glottal Enterprises EG2-PCX2 unit, which was plugged into the second laptop (the audio signals from the UTI and the EGG units were used for synchronisation, see below).
-The subject wore a metallic headset produced by \citet{articulate2008} (\Cref{f:headset}), which holds the ultrasound probe in position (allowing free head movement), and the velcro strap with the EGG electrodes around their neck.
+
+The subject wore a metallic headset produced by \citet{articulate2008} (\Cref{f:headset}), which stabilises the position of the ultrasound probe (allowing free head movement), and the velcro strap with the EGG electrodes around their neck.
 The electrodes were located on each side of the thyroid cartilage, at the level of the glottis.
-The microphones were clipped to the headset on either side, at identical height.
+The microphones were clipped to the headset on either side, at identical heights.
 Before the reading task, the participant’s occlusal plane was obtained using a bite plate \citet{scobbie2011}.
-The tongue data was rotated such that each speaker's occlusal plane is horizontal.
-This procedure enables the comparison of tongue movements across subjects.
+This procedure allows data to be rotated along the occlusal plane and enables the comparison of tongue movements within and across subjects.
 
-![Headset.\label{f:headset}](./img/headset.png){ width=80% }
+![Headset.\label{f:headset}](./img/headset.png){ width=50% }
 
-The participants read sentences containing test words presented on the screen via AAA.
+### Procedure and data processing
+
+The participants read sentence stimuli containing test words presented on the screen via the software Articulate Assistant Advanced™ (AAA, \citealt{articulate2011}).
 The test words were C\textsubscript{1}V\textsubscript{1}C\textsubscript{2}V\textsubscript{2} words, where C\textsubscript{1} = /p/, V\textsubscript{1} = /a, o, u/, C\textsubscript{2} = /t, d, k, g/, and V\textsubscript{2} = V\textsubscript{1}.
 The choice of the segmental make-up of the test words was constrained by the use of ultrasound tongue imaging.
+The words were embedded in the frame sentence *Dico X lentamente* 'I say X slowly', and *Mówię X teraz* 'Say X now' for Italian and Polish respectively.
 Paper [...] provides more details on the rationale behind the material design.
 
-The UTI+audio and EGG+audio signals were acquired and recorded by means of Articulate Assistant Advanced (AAA, \citealt{articulate2011}) and Praat \citep{boersma2016} respectively.
+The UTI+audio and EGG+audio signals were acquired and recorded by means of AAA and Praat \citep{boersma2016} respectively.
 Since the signals from the ultrasonic machine and the electroglottograph are recorded simultaneously but separately, data from both sources were synchronised after acquisition.
-Synchronisation was achieved using the cross-correlation of the audio signals from both sources \citep{grimaldi2008}.
+Synchronisation was achieved using the cross-correlation of the audio signals obtained from the separate sources \citep{grimaldi2008}.
 The interval between the start of the cross-correlated signal and the time of the signal maximum amplitude is equal to the lag between the two original sounds (\Cref{f:cross-correlation}).
 Synchronisation of the original sound files was achieved by trimming the beginning of the longer sound by the lag obtained from cross-correlation.
 A Praat script was written to automate the synchronisation process (`sync-egg.praat` in \citealt{coretta2018m}).
 
 ![Synchronisation of two sounds by cross-correlation. \label{f:cross-correlation}](./img/cross-correlation.pdf){ width=80% }
 
-A time-aligned transcript of the recordings was obtained with a force-alignment procedure.
-Since the audio recorded with the EGG system presented more hardware-generated noise than that recorded with the UTI system, the latter was used in all subsequent acoustic-based analyses.
-The SPeech Phonetisation Alignment and Syllabification (SPPAS) software was used \citet{bigi2015}.
-SPPAS is a language-agnostic system, and it comes pre-packaged for a variety of languages, among which Italian, Polish, and English.
-The output of the force-alignment is a Praat TextGrid with time-aligned interval tiers of the intonational phrase units (utterances), word-level, and phone-level annotations.
-The automatic annotation was then manually checked and corrected if necessary by the author.
-The placement of the phone boundaries followed the suggestions in \citet{machac2009}.
-See [...] for details.
+A time-aligned transcript of the recordings was obtained with a force-alignment procedure using the SPeech Phonetisation Alignment and Syllabification (SPPAS) software \citep{bigi2015}.
+SPPAS is a language-agnostic system which comes with pre-packaged models for a variety of languages, among which Italian, Polish, and English.
+Since the audio recorded with the EGG system was nosier than that recorded with the UTI system, the latter was used in all subsequent acoustic-based analyses.
+The output of the force-alignment is a Praat TextGrid with time-aligned interval tiers containing the annotations of intonational phrase units (utterances), words, and phones.
+The automatic annotation was then manually checked by the author and corrected if necessary.
+The placement of phone boundaries followed the suggestions in \citet{machac2009}.
+See Paper [...] for details.
 
 Detection of the release of C1 and C2 was accomplished through the algorithmic procedure described in \citet{ananthapadmanabha2014}.
-An implementation of the procedure has been written by the author in Praat (`release-detection-c1.praat` and `burst-detection.praat` in \citealt{coretta2018m}).
+A custom implementation of the procedure has been written in Praat (`release-detection-c1.praat` and `burst-detection.praat` in \citealt{coretta2018m}).
 The output of the automatic detection was manually checked and corrected.
-The times of the following landmarks were extracted via a custom Praat script (`get.duration.praat` in \citealt{coretta2018m}): sentence onset and offset, target word onset and offset, C1 release, V1 onset, V1 offset/C2 closure onset, C2 release, V2 onset.
+The times of the following landmarks were extracted via a custom Praat script (`get-duration.praat` in \citealt{coretta2018m}): sentence onset and offset, target word onset and offset, C1 release, V1 onset, V1 offset/C2 closure onset, C2 release, V2 onset.
 
-UTI data processing was performed in AAA \citep{articulate2011}.
-Spline curves were fitted to the tongue surface images using a built-in automatic batch procedure, within a search area defined by the interval between the onset of the syllable preceding the target word and the offset of the syllable following the target word.
-A search area TextGrid was created in Praat (with `search-area.praat` in \citealt{coretta2018m}) and imported in AAA for the batch procedure.
+UTI data processing was performed in AAA.
+Spline curves were fitted to the tongue surface images using a built-in automatic batch procedure, within a search area defined by the interval between the onset of the CV sequence preceding the target word and the offset of the that following it (*Di[co X le]natamente*, *Mów[ię X te]raz*).
+The search area was created via Praat scripting (with `search-area.praat` in \citealt{coretta2018m}) and imported in AAA for the batch procedure.
 The automatic fitting procedure was monitored by the author and manual correction of the fitted splines was applied if necessary.
 
 Subsequent data processing followed the method described in \citet{strycharczuk2015}.
-See [...] and [...] for details.
-The Cartesian coordinates of the fitted splines, together with tongue displacement, tangential velocity, and absolute velocity of the tongue root, dorsum and tip, were obtained from the following landmarks (\Cref{f:kine}): C2 closure onset, tongue maximum displacement during C2 closure (MAX), peak absolute velocity before (PEAK_1) and after (PEAK_2) tongue maximum displacement, tongue closing gesture onset (GONS), closure gesture nucleus onset (NONS) and offset (NOFF).
+See Paper [...] and [...] for details.
+The Cartesian coordinates of the fitted splines, together with tongue displacement, tangential velocity, and absolute velocity of the tongue root, dorsum and tip, were obtained from the following temporal landmarks (\Cref{f:kine}): C2 closure onset, tongue maximum displacement during C2 closure (MAX), peak absolute velocity before and after tongue maximum displacement (PEAK_1 and PEAK_2), tongue closing gesture onset (GONS), closing gesture nucleus onset (NONS) and offset (NOFF).
 GONS, NONS, and NOFF were defined as the times where absolute velocity reaches 20% of the peak absolute velocity before PEAK_1, between PEAK_1 and MAX, and between MAX and PEAK_2 respectively \citep{kroos1997, gafos2010a}.
-Tongue displacement, tangential and absolute velocity of the tongue root, dorsum, and tip were also extracted as time-series along the duration of V1.
+Tongue displacement, and the tangential and absolute velocities of the tongue root, dorsum, and tip were also extracted as time-series along the entire duration of V1.
 
-![Kinematics landmarks. \label{f:kine}](./img/velocity.pdf){ width=80% }
+![Temporal kinematic landmarks of tongue movements in the word *putu*. The top panel shows tongue tip displacement, while the bottom panel shows tangential and absolute velocity. \label{f:kine}](./img/velocity.pdf){ width=80% }
 
 Finally, wavegram data was extracted from the EGG data, following the method proposed by \citet{herbst2010}.
 In brief, a wavegram is a spectrogram-like representation of the EGG signal, where individual glottal cycles are sequentially placed on the *x*-axis, the normalised time of the samples taken from within each glottal cycle is the *y*-axis, and the third dimension, represented by colours of different shading, is the normalised amplitude of the EGG signal.
-See [...] for details.
 Wavegram data was obtained from the entire duration of V1.
+See Paper [...] for the detailed procedure.
 
 ## Compensatory aspects of the effect of voicing on vowel duration in English (Study II)
 
