@@ -429,17 +429,18 @@ A final exculpatory note is due, though, in that these practices are not necessa
 
 Given the similarities in methods between the psychological sciences and phonetics/phonology, it is reasonable to assume that the situation does not fare better in the latter.
 As mentioned above, sample size, coupled with the effects of increased variance due to between-subject designs, can have a big impact on statistical power.
-\citet{kirby2018} suggest that the number of participants in phonetic studies is generally low, and that even with nominally high-powered sample sizes estimation of small effect sizes is subject to power-related issues discussed above (especially Type S/M errors).
+\citet{kirby2018} suggest that the number of participants in phonetic studies is generally low, and that, even with nominally high-powered sample sizes, estimation of small effect sizes is subject to the power-related issues discussed above (especially Type S/M errors).
 \citet{nicenboim2018a} further show how low statistical power has adverse effects on the investigation of phonetic phenomena characterised by small effect sizes, like incomplete neutralisation.
 \citet{winter2015} further argues that the common practice of using few items (e.g. word types) and a high number of repetitions increases statistical certainty of the estimates of idiosyncratic differences between items rather than those of the sought effects.
 \citet{roettger2019} discusses how the inherently multidimensional nature of speech favours exploration of the researcher's degrees of freedom, by allowing the researcher to navigate through a variety of choices of phonetic correlates and their operationalisation.
 
 In a review of 113 studies of acoustic correlates of word stress in a variety of languages, published between 1955 and 2017, \citet{roettger2017} show that the majority of studies include 1 to 10 speakers (mode = 1), 1 to 40 lexical items, and 1 to 6 repetitions.
-A follow-up analysis conducted by the author of this dissertation on the same data \citep{gordon2018} indicates that the median number of participants per study is 5 (see Appendix [...]).
+A follow-up analysis conducted on the same data indicates that the median number of participants per study is 5 (see Appendix [...]).
+<!-- TODO: appendix \citep{gordon2018} -->
 A few recent studies (2010 onwards) constitute a clear exception by having more than 30 participants.
 However, no apparent trend of increasing average number of speakers can be observed and the situation has been fairly stable over the years.
 Finally, the language endangerment status has a small but negligible negative effect on participants' number in vulnerable and definitely endangered languages, but not so much in severely and critically endangered ones.
-It is reasonable to say that, based on this limited sample, sample size (in terms of participants) is generally very low, independent from publication year and endangerment status.
+It is reasonable to assume that, based on this cursory analysis, sample size in phonetic studies is generally very low, independent from publication year and endangerment status.
 
 As a partial remedy to the issues discussed so far, researchers have proposed two solutions: pre-registrations and Registered Reports.
 Pre-registration of a study consists in the researchers' commitment to an experimental and analytical protocol before collecting and seeing the data \citep{wagenmakers2012, veer2016}.
@@ -454,11 +455,16 @@ As discussed above, a research analysis is reproducible when different researche
 Ensuring full reproducibility also means ensuring computational reproducibility, or in other words enabling researchers to perform the original analysis in an identical computational environment \citep{schwab2000, fomel2009}.
 \citet{peng2009} mentions exposed cases of fraudulent data manipulation and unintentional analysis errors that call for policies of reproducibility to ensure accountability of published results.
 <!-- Ho Chunk case from Donald -->
-Our field is not immune from these issues (see for example the 'Yokuts vowels' case, \citealt{weigel2002, weigel2005, blevins2004}), and the idea of reproducibility is not new to linguistics in general \citep{bird2003, thieberger2004, maxwell2005, maxwell2013, cysouw2015,  gawne2017} and to phonetics/phonology specifically \citep{abari2012, roettger2018a}.
+Our field is not immune from these issues (see for example the 'Yokuts vowels' case, \citealt{weigel2002, weigel2005, blevins2004}), and the idea of reproducibility is not new to linguistics in general \citep{bird2003, thieberger2004, maxwell2005, maxwell2013, cysouw2015,  gawne2017} nor to phonetics/phonology specifically \citep{abari2012, roettger2018a}.
 
-The objective of making research accountable can be achieved by publicly sharing data (barring ethics restrictions), analysis code, and detailed information on the software that produced the results \citep{sandve2013}.
-
-<!-- TODO: literate programming? -->
+The objective of making research accountable can be achieved by publicly sharing data (barring ethical restrictions), analysis code, and detailed information on the software that produced the results \citep{sandve2013}.
+Sharing data is also fundamental for the accumulation of knowledge, for example in the context of meta-analytical studies.
+Several services are now available which offer free online data storage and versioning, like the Open Science Framework, GitHub, and DataHub.
+Extensive documentation of code takes on an important role, and the paradigm of literate programming offers a practical solution \citep{knuth1984}.
+Within the literate programming framework, code and documentation coexist within a single source file, and code snippets are interweaved with their documentation.
+Reproducible reporting further implements this concept \citep{peng2015} by automating the generation and inclusion of summary tables, statistics, and figures in a paper using statistical software like R \citep{r-core-team2019}.
+In a reproducible report, data and results are computationally linked via the statistical software, and changes in data or analyses are reflected in changes in the results appearing in the text.
+This workflow reduces chances of reporting errors and facilitates validation of the data analyses by other researchers.
 
 ## Putting this into practice
 \label{s:repro}
@@ -467,32 +473,32 @@ The objective of making research accountable can be achieved by publicly sharing
 
 The research project behind this dissertation has been carried out with principles of Open Science in mind.
 The reader might notice, however, a certain arc of development in putting these concepts into practice, since, for some of these, full command has been obtained only after careful consideration, the timeline of which extended into later stages of the project.
-This last section of the Introduction discusses how the principles and methods expounded in the above sections were applied.
+This last section of the Introduction discusses how the principles and methods expounded in the above sections were applied to this project.
 
 Study I was not pre-registered, since the absence of a specific hypothesis did not allow for the formulation of a corresponding analysis.
 Sample size was determined on the basis of practical considerations concerning the time required for processing ultrasound tongue imaging data.
-Rather, several different parameters and models have been explored in search of relevant patterns, while only a few of these have been reported in the papers of this study.
-The models of Study I were conducted within a Neyman-Pearson (frequentist) framework of statistical inference, while a Bayes factor analysis was performed in those cases that demanded it (Paper III).
+Several different parameters and models have been explored in search of relevant patterns, while only a few of these have been reported in the papers of this study.
+The models of Study I were conducted within a Neyman-Pearson (frequentist) framework of statistical inference \citep{perezgonzalez2015}, while a Bayes factor analysis \citep{kass1995} was performed in those cases that demanded it (Paper [...]).
 To compensate for the asymmetry between the number of models run and those reported, less attention has been given to *p*-values, while greater focus was placed on effect sizes and their hypothesis-generating value.
 The design and analyses of Study II have been pre-registered on the Open Science Framework at [...].
-Sample size determination followed the method of the Region Of Practical Equivalence.
-A full Bayesian analysis was run, and greater emphasis was given on the posterior probability distributions of the effect of interest while discussing the results (see Paper ... for details).
+Sample size determination followed the method of the Region Of Practical Equivalence \citep{vasishth2018a}.
+Data from Study II was subject to a full Bayesian analysis, and greater emphasis was given on the posterior probability distributions of the effect estimates (see Paper [...] for details).
 
 <!-- TODO: talk about datasets -->
 
-Data, code, and information about software can be found in the research compendium of this project on the Open Science Framework at \url{https://osf.io/w92me/}.
+Data, code, and information about software can be found in the research compendium of this project on the Open Science Framework (\url{https://osf.io/w92me/}).
 <!-- TODO: use public link -->
-This OSF repository acts as a hub of the research compendium of the project as a whole and of the individual papers' compendia.
-The data has been packaged and documented using R \citep{marwick2017}.
-The data packages are available on GitHub and links to them are given in the OSF repository (see the Data components in the repository).\footnote{The raw ultrasound tongue imaging AAA files were not uploaded given the size (almost 40 GB) and can be obtained from the author.}
-Following the recommendations in \citet{berez-kroeker2018}, each data package can be referred to with a full bibliographical citation (provided in the respective Data component on the OSF).
+This OSF repository acts as a hub for the research compendia of the project and of the individual papers.
+Data has been packaged and documented using R \citep{marwick2017}.
+The data packages are available on GitHub and links to them are given in the OSF repository (see the Data components in the repository).\footnote{The raw ultrasound tongue imaging AAA files were not uploaded given their size (almost 40 GB) and can be obtained from the author.}
+Following the recommendations in \citet{berez-kroeker2018}, each data package is given a standard bibliographical citation (provided in the respective Data components on the OSF).
 
-Data processing using Praat scripting followed principles of literate programming \citep{knuth1984}.
-Praat code was written in literate markdown (which mixes code and code documentation).
+Data processing using Praat scripting followed the principles of literate programming.
+Praat code was written in literate markdown.
 Praat scripts were extracted from the literate source file using the Literate Markdown Tangle software\footnote{\url{https://github.com/driusan/lmt}} and were run with a custom R package, speakr \citep{coretta2019h}.
 The documentation of the scripts was generated with Pandoc\footnote{\url{https://pandoc.org}} and a custom Praat syntax highlighting extension (available in speakr).
 All analyses and derived figures in this dissertation can be reproduced in R \citep{r-core-team2019} with the scripts found in the papers' respective compendia.
 
-The following software and packages were used: tidyverse \citet{wickham2017}, lme4 \citep{bates2015}, lmerTest \citep{kuznetsova2017}, effects \citep{fox2019}, broom.mixed \citep{bolker2019}, mgcv \citep{wood2017}, itsadug \citep{van-rij2017}, Stan \citep{stan-development-team2017}, brms \citep{burkner2017}, tidybayes \citep{kay2019}.
-I further developed two R packages for the visualisation of generalised additive models using tidyverse software (tidymv, \citealt{coretta2019i}) and the analysis of ultrasound tongue imaging data with mgcv (rticulate, \citealt{coretta2018}).
+The following software and packages were used: tidyverse \citep{wickham2017}, lme4 \citep{bates2015}, lmerTest \citep{kuznetsova2017}, effects \citep{fox2019}, broom.mixed \citep{bolker2019}, mgcv \citep{wood2017}, itsadug \citep{van-rij2017}, Stan \citep{stan-development-team2017}, brms \citep{burkner2017}, tidybayes \citep{kay2019}.
+I developed two R packages for the visualisation of generalised additive models using tidyverse software (tidymv, \citealt{coretta2019i}) and the analysis of ultrasound tongue imaging data with mgcv (rticulate, \citealt{coretta2018}).
 This dissertation was written in R Markdown, and typeset with knitr and bookdown \citep{xie2014, xie2016, xie2018, xie2019}.
