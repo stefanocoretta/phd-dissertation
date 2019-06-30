@@ -43,7 +43,7 @@ By combining previous work on pre-aspiration \citep{lisker1974, nichasaide1985, 
 
 ## Organisation of this thesis
 
-The thesis is organised as follows. The following three chapters constitute the introductory part, and they present in turn a review of literature on the voicing effect (\Cref{s:ve}), an overview of the studies conducted (\Cref{s:studies}), and a discussion of the principles of the Open Science movement (\Cref{s:openscience}), which has had a deep impact on the shape of this project.
+The thesis is organised as follows. The following three chapters constitute the introductory part, and they present in turn a review of the literature on the voicing effect (\Cref{s:ve}), an overview of the studies conducted (\Cref{s:studies}), and a discussion of the principles of the Open Science movement (\Cref{s:openscience}), which has had a deep impact on the shape of this project.
 The second part of the thesis is a collection of original manuscripts in the form of standalone papers (...), which report and discuss the methodological and conceptual contributions of the present work.
 Papers ... and ... deal with the duration of the release-to-release interval in Italian and Polish, and English respectively.
 Paper ... deals with the relation between tongue root advancement and vowel duration in Italian and Polish.
@@ -57,7 +57,7 @@ A long-recognised property of vowels is that their duration is influenced by the
 Across a wide variety of languages, vowels tend to be shorter when followed by voiceless consonants, and longer when followed by voiced ones.
 This phenomenon has been called the 'voicing effect' \citep{mitleb1982} or 'pre-fortis clipping' \citep{wells1990}.
 Remarkably, no known language has been reported to have the opposite effect, namely longer vowel durations before voiceless than before voiced consonants.\footnote{This does not exclude that there might be or have been a language that shows this pattern.}
-In face of this, the voicing effect is one of the most robust and most researched effect found in the phonetic and phonological literature.
+In face of this, the voicing effect is one of the most robust and most researched effects found in the phonetic and phonological literature.
 Among the earliest traceable mentions to this phenomenon there are \citet{meyer1903} for English (cited in \citealt{lindblom1967}), \citet{meyer1904} for German, \citet{meyer1909} for Hungarian, and \citet{gregoire1911} for French (all cited in \citealt{maddieson1976}).
 After these, a great number of studies further confirmed the existence of the effect in these languages and reported it in an ever increasing list of others.
 
@@ -89,13 +89,13 @@ To summarise, the evidence concerning the presence or absence of the voicing eff
 A second common stance about the voicing effect is that its magnitude differs across languages, and that the greatest effect is observed in English.
 The reported effect of voicing in word-final syllables in English varies between 35 and 150 ms \citep{heffner1937, house1953, zimmerman1958, peterson1960, sharf1962, chen1970, klatt1973, mack1982, luce1985, laeufer1992, ko2018}.
 However, the effect is smaller in non-final syllables, with values between 18 and 35 ms \citep{sharf1962, klatt1973, davis1989}.
-Taking Italian for comparison, the mean difference in vowel duration before voiceless vs. voiced stops in the first syllable of disyllabic words is 22 in \citet{farnetani1986} and 24 ms in \citet{esposito2002}.
+Taking Italian for comparison, the mean difference in vowel duration before voiceless vs. voiced stops in the first syllable of Italian disyllabic words is 22 in \citet{farnetani1986} and 24 ms in \citet{esposito2002}.
 These values are within the range of the reported effect in English non-final syllables.
 It is thus possible that, once controlling for contextual factors, the apparent cross-linguistic differences in magnitude are, if not removed, at least reduced.
 A similar position is taken by \citet{laeufer1992}, who directly compared French and English using carefully designed experimental materials.
-When the duration of a vowel is similar across languages, consonant voicing also has an effect comparable in degree.
+When the duration of a vowel is similar across languages, consonant voicing also has an effect which is comparable in degree.
 
-Language is not the only source of variation, and the voicing effect interacts with several other phonological and phonetic factors.
+Language is not the only source of variation and the voicing effect interacts with several other phonological and phonetic factors.
 For example, \citet{umeda1975} reports that the difference in vowel duration before voiceless vs. voiced stops is greater when the test word is pre-pausal.
 The effect of voicing also seems to be more robust in stressed than in unstressed vowels \citep{davis1989}.
 There is also indication that the effect is modulated by the syllabic affiliation of the post-vocalic consonant in English, so that vowels followed by a coda show a greater effect than vowels followed by an onset (\citealt{sharf1962, klatt1973, davis1989}, but \citealt{abdelli-beruh2004} doesn't find a significant difference across these contexts in French).
@@ -177,7 +177,7 @@ As a consequence, the rate of the closing gesture of voiceless stops is higher t
 In other words, full closure will be achieved earlier relative to the onset of the closing gesture when the stop is voiceless than when it is voiced.
 Hence, vowels will be shorter when followed by voiceless stops than when followed by voiced stops.
 \citet{chen1970} observes that the difference in labial closure rate accounted for 20% of the difference in vowel duration.
-Subsequent work by \citet{warren2005} further shows that the percentage of difference accounted for rises to 80% when considering the movements of both the lips and the jaw.
+Subsequent work by \citet{warren2005} further shows that the percentage of the difference which is accounted for rises to 80% when considering the movements of both the lips and the jaw.
 
 <!-- to sum up -->
 
@@ -195,13 +195,13 @@ The trend of vowels being longer when followed by aspirated stops challenges som
 The articulatory force expenditure hypothesis predicts vowels to be shorter before aspirated than before unaspirated stops since it is likely that aspirated stops require greater force than unaspirated ones.
 According to the laryngeal adjustment account, the duration of the vowels should not differ in voiceless unaspirated and aspirated stops since they both require glottal opening, rather than the precise adjustments characteristic of voiced stops.
 Since closure rate is determined by airflow, the rate of closure account expects vowels followed by aspirated stops to be shorter than or equal to vowels followed by unaspirated stops, since the former should be characterised by greater airflow and higher closure rates due to glottal spreading.
-While \citet{maddieson1976} argue against a compensatory effect between vowel and consonant duration, the data in \citet{durvasula2012} are instead compatible with it (see [...] for details).
+While \citet{maddieson1976} argue against a compensatory effect between vowel and consonant duration, the data in \citet{durvasula2012} are instead compatible with it (see Paper [...] for details).
 The results in \citet{sanker2018} on Hindi, but not Telugu, are also compatible with a compensatory mechanism.
 Closure duration is longer in unaspirated stops and shorter in aspirated stops in both languages, but the effect of aspiration on vowel duration has opposite directions, as discussed above.
 
 An investigation of the effect of ejection in Georgian \citep{begus2017} shows that vowels are shortest when followed by aspirated stops, longer when followed by ejectives, and longest when followed by voiced stops (Georgian contrasts aspirated voiceless, ejective, and voiced unaspirated stops).
 The negative correlation between closure and vowel duration has greater magnitude in the context of voiced compared to that of aspirated and ejective stops.
-Moreover, the author shows that the closure effect on vowel duration coexists with a 'laryngeal features' effect (both effects, when entered as predictors in a single regression model, lead to significant *p*-values).
+Moreover, the author shows that the closure effect on vowel duration coexists with a 'Laryngeal Features' effect (both closure duration and phonation, when entered in a single regression model, lead to significant *p*-values).
 In other words, the variance in vowel duration is account for in part by the duration of the stop closure and in part by the voicing category of the post-vocalic stop.
 As discussed in \citet{begus2017}, these patterns are compatible with accounts of compensatory temporal adjustments, laryngeal adjustments, and rate of closure.
 
@@ -229,7 +229,7 @@ Ethics clearance to undertake this work was obtained from the University researc
 <!-- three aspects: exploratory, acoustics + articulatory, and Italian Polish -->
 
 A convenient way to investigate mechanic properties underlying the effect of voicing on vowel durations is to consider languages in which the effect has not been claimed to be phonologised.
-Moreover, comparing two languages that differ in the presence or degree of vowel durational difference can uncover variation motivating cross-linguistic differences.
+Moreover, comparing two languages that differ in the presence or degree of vowel durational differences can uncover variation motivating cross-linguistic differences.
 Italian and Polish are two good candidates in that they satisfy both of these requirements.
 Moreover, their phonological systems allow for a somewhat direct comparison.
 For these reasons, an exploratory study of Italian and Polish was carried out to examine the influence of voiceless and voiced stops on vowel duration.
@@ -270,7 +270,7 @@ The unit outputs a synchronised stereo recording which contains the EGG signal f
 
 ![Schematics of the equipment set-up of Study I. Stabilisation headset not shown.\label{f:setup}](./img/setup.pdf){ width=80% }
 
-\Cref{f:setup} shows a schematics of equipment set-up used in this study.
+\Cref{f:setup} shows a schematics of the equipment set-up used in this study.
 The left part of the figure shows the ultrasonic components \citep{articulate2011}, while the EGG components (Glottal Enterprises) are shown on the right.
 Two separate Hewlett-Packard ProBook 6750b laptops with Microsoft Windows 7 were used for the acquisition of the UTI and EGG recordings.
 The main ultrasonic component was a TELEMED Echo Blaster 128 unit with a TELEMED C3.5/20/128Z-3 ultrasonic transducer (20mm radius, 2-4 MHz), plugged into one laptop via a USB cable.
@@ -355,31 +355,32 @@ The audio recordings were force-aligned and the times of acoustic landmarks were
 In the academic world, great emphasis is given to the theoretical content of original research, whereas the scientific process that leads to the findings is relegated to a subordinate position.
 However, as brilliantly put by Prof. Chris Chambers\footnote{From a keynote speech given at the Leibniz Institute for Psychology Information (\url{https://youtu.be/d2nVPhVacFk}).}, the methods section traditionally included in papers was originally meant to be a 'recipe' that would allow future researchers to follow and reproduce the steps used by the authors to go from a set of ideas to a set of results.
 Through the years, though, this paper section has become a place where the authors can give a statement that confirms they have followed accepted analytical procedures.
-More recently, scholars have developed a greater preoccupation towards accountability of methods.
+More recently, on the other hand, scholars have developed a greater preoccupation towards methodological accountability.
 The consideration of these issues in phonetics and phonology is evidenced by the publication of a recent special issue on data analysis in the Journal of Phonetics and by the ongoing adoption of a new method-oriented form of publication by the Journal of the Association for Laboratory Phonology.
-Matters of research transparency are part of a broader collection of problems, which have fuelled the birth of an international campaign which falls under the umbrella term 'Open Science'.
+Matters of research transparency are part of a broader collection of problems, which have fuelled the birth of an international campaign which falls under the umbrella term of 'Open Science'.
 
 Open Science is a movement that stresses the importance of a more honest and transparent scientific attitude by promoting a series of research principles and by warning from common, although not necessarily intentional, questionable practices and misconceptions.
 The term Open Science as a whole refers to the fundamental concepts of 'openness, transparency, rigour, reproducibility, replicability, and accumulation of knowledge' \citep[3]{cruwell2018}.
-The goodness of the latter depends in great part on the concepts of reproducibility and replicability.
+The goodness of the latter depends in great part on the reproducibility and replicability of the studies of interest.
 While reproducibility and replicability are generally used interchangeably, they refer to two different ideas.
 A study is *replicable* when researchers can independently run the study on new subjects/data and obtain the same results (in brief, same analysis, different data/researchers).
 The *reproducibility* of a study is, instead, related to the ability of independent researchers to run the original analysis on the original data and obtain the same results as those presented by the original authors, pending enough information on the analysis procedures is given (in brief, same analysis, same data).
 
-The need for Open Science, which is increasingly expanding to several disciplines and enterprises, emerged primarily from the ongoing 'replication crisis' \citep{pashler2012, schooler2014}, which has attracted the most attention within the circles of medical and psychological sciences.
+A sense of need for Open Science, now increasingly spreading to different disciplines and enterprises, rose primarily from the ongoing 'replication crisis' \citep{pashler2012, schooler2014}, which has attracted the most attention within the circles of medical and psychological sciences.
 Recent attempts to replicate results from high-impact studies in psychology have demonstrated an alarmingly high rate of failure to replicate.
-For example, in a replication attempt of 100 psychology studies, only 39% of the original results were rated to have been replicated \citep{open-science-collaboration2015}.
-Failure to replicate previous results have been claimed to be a consequence of low statistical power \citep{button2013}, and of the so-called questionable research and measurement practices \citep{simmons2011, morin2015, flake2019}.
+For example, in a replication attempt of 100 psychology studies, only 39% of the original results were rated by annotators as successfully replicated \citep{open-science-collaboration2015}.
+Failure to replicate previous results have been claimed to be a consequence of low statistical power \citep{button2013}, and of so-called questionable research and measurement practices \citep{simmons2011, morin2015, flake2019}.
 The following sections discuss these problems in turn.
 
 ## ``With great power comes great replicability''
 
 One of the issues that can affect statistical analysis is related to errors in rejecting the null hypothesis.\footnote{The quote in the title is from a 2016 twitter status by Nathan C. Hall (\url{https://twitter.com/prof_nch/status/790744443313852417?s=20}).}
 A researcher could falsely reject the null hypothesis when in fact is correct (Type I errors, an effect is found when there is none), or they could falsely fail to reject the null hypothesis when in fact it should have been (Type II errors, an effect is not found when there is one).
-Type I and Type II errors do occur, and the aim is to keep them as low as possible.
-The generally accepted rates of Type I and Type II arrors are $\alpha$ = 0.05 and $\beta$ = 0.2 respectively.
-This means that, in an imaginary multiple replication of a study, 5% of the times the null hypothesis will be falsely rejected, and 20% of the times will falsely be not rejected.
-Related to Type II errors is statistical power, which is the probability of correctly rejecting the null hypothesis when it is false ($B = 1 - \beta$).
+Type I and Type II errors do occur and cannot be totally prevented.
+Rather, the aim is to keep their rate of occurrence as low as possible.
+The generally accepted rates of Type I and Type II arrors are 0.05 and 0.2 respectively (usually referred to as the $\alpha$ and  $\beta$ levels).
+This means that, in a series of imaginary multiple replications of a study, 5% of the times the null hypothesis will be falsely rejected, and 20% of the times will falsely be not rejected.
+A concept closely related to Type II errors is statistical power, which is the probability of correctly rejecting the null hypothesis when it is false (calculated as $B = 1 - \beta$).
 In other words, power is the probability of detecting an effect equal or greater than a specified effect size.
 Given the standard $\beta = 0.2$, an accepted (minimum) power threshold is 80% (which means that an effect equal or greater than a chosen size will be detected 80% of the times).
 <!-- NHST vs Bayesian power? -->
@@ -406,7 +407,7 @@ The researchers' degrees of freedom create a 'garden of forking paths' \citep{ge
 
 *P*-hacking is a general term that refers to the process of choosing and reporting those analyses that change a non-significant *p*-value to a significant one \citep{simmons2011, wagenmakers2007, motulsky2014}.
 *P*-hacking can be achieved by several means, for example by trying different dependent variables, including and/or excluding predictors, selective inclusion/exclusion of subjects and observations, or sequential testing (collecting data until the results are significant).
-Another common practice is to back-engineer a hypothesis after unexpected results, also known as Hypothesising After the Results are Known (HARKing, \citealt{kerr1998}).
+Another common practice is to back-engineer a hypothesis after obtaining unexpected results, also known as Hypothesising After the Results are Known (HARKing, \citealt{kerr1998}).
 \citet{lieber2009} warns against 'double dipping', or the use of the same data to generate a hypothesis and test it.
 \citet{morin2015} and \citet{flake2019} more specifically discuss questionable practices related to how research variables are measured and operationalised.
 The literature reviewed in \citet{flake2019} suggests that a very high percentage of published papers contains measures that are created on the fly but lack any reference to reliability tests.
@@ -445,10 +446,10 @@ It is reasonable to assume that, based on this cursory analysis, sample size in 
 As a partial remedy to the issues discussed so far, researchers have proposed two solutions: pre-registrations and Registered Reports.
 Pre-registration of a study consists in the researchers' commitment to an experimental and analytical protocol before collecting and seeing the data \citep{wagenmakers2012, veer2016}.
 Pre-registering a study establishes a clear separation between confirmatory (hypothesis testing) analyses and exploratory (hypothesis generating) research.
-While both types of research are essential to scientific progress \citep{tukey1980}, presenting exploratory analyses as confirmatory is detrimental for it.
+While both types of research are essential to scientific progress \citep{tukey1980}, presenting exploratory analyses as confirmatory is detrimental to it.
 Pre-registrations ensure researchers comply to such demarcation, while leaving space to generate new hypotheses via exploratory research.
 A more recent initiative proposes Registered Reports as a publication format that can counteract questionable research practices and the exploitation of the researcher's degrees of freedom \citep{chambers2015}.
-At the time of writing, no journal specialised in phonetics/phonology offers this article format, although it is currently under implementation at the Journal of the Association for Laboratory Phonology and a few other more general linguistic journals.\footnote{See the spreadsheet at this link for a curated list: \url{https://docs.google.com/spreadsheets/d/17dLaqKXcjyWk1thG8y5C3_fHXXNEqQMcGWDY62BOc0Q/edit?usp=sharing}.}
+At the time of writing, no journal specialised in phonetics/phonology offers this article format, although it is currently under implementation at the Journal of the Association for Laboratory Phonology and a few other journals focussed on other linguistic fields.\footnote{See the spreadsheet at this link for a curated list: \url{https://docs.google.com/spreadsheets/d/17dLaqKXcjyWk1thG8y5C3_fHXXNEqQMcGWDY62BOc0Q/edit?usp=sharing}.}
 
 Another incentive to developing a transparent research attitude comes from aspects of reproducibility.
 As discussed above, a research analysis is reproducible when different researchers obtain the same results as in the published study by running the same analysis on the same data.
@@ -480,9 +481,9 @@ Sample size was determined on the basis of practical considerations concerning t
 Several different parameters and models have been explored in search of relevant patterns, while only a few of these have been reported in the papers of this study.
 The models of Study I were conducted within a Neyman-Pearson (frequentist) framework of statistical inference \citep{perezgonzalez2015}, while a Bayes factor analysis \citep{kass1995} was performed in those cases that demanded it (Paper [...]).
 To compensate for the asymmetry between the number of models run and those reported, less attention has been given to *p*-values, while greater focus was placed on effect sizes and their hypothesis-generating value.
-The design and analyses of Study II have been pre-registered on the Open Science Framework at [...].
+The design and analyses of Study II have been pre-registered on the Open Science Framework (\url{https://osf.io/m4rzy/}).
 Sample size determination followed the method of the Region Of Practical Equivalence \citep{vasishth2018a}.
-Data from Study II was subject to a full Bayesian analysis, and greater emphasis was given on the posterior probability distributions of the effect estimates (see Paper [...] for details).
+Data from Study II was subject to a full Bayesian analysis, and greater emphasis was given on the posterior probability distributions of the effect estimates rather than on their means (see Paper [...] for details).
 
 <!-- TODO: talk about datasets -->
 
@@ -490,8 +491,8 @@ Data, code, and information about software can be found in the research compendi
 <!-- TODO: use public link -->
 This OSF repository acts as a hub for the research compendia of the project and of the individual papers.
 Data has been packaged and documented using R \citep{marwick2017}.
-The data packages are available on GitHub and links to them are given in the OSF repository (see the Data components in the repository).\footnote{The raw ultrasound tongue imaging AAA files were not uploaded given their size (almost 40 GB) and can be obtained from the author.}
-Following the recommendations in \citet{berez-kroeker2018}, each data package is given a standard bibliographical citation (provided in the respective Data components on the OSF).
+The data packages (coretta2018itapol and coretta2019eng) are available on GitHub and links to them are given in the OSF repository (see the Data components in the repository).\footnote{The raw ultrasound tongue imaging AAA files were not uploaded given their size (almost 40 GB) and can be obtained from the author.}
+Following the recommendations in \citet{berez-kroeker2018}, each data component is given a standard bibliographical citation \citep{coretta2018m, coretta2019g}.
 
 Data processing using Praat scripting followed the principles of literate programming.
 Praat code was written in literate markdown.
