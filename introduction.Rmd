@@ -284,7 +284,7 @@ The microphones were clipped to the headset on either side, at identical heights
 Before the reading task, the participant’s occlusal plane was obtained using a bite plate \citet{scobbie2011}.
 This procedure allows data to be rotated along the occlusal plane and enables the comparison of tongue movements within and across subjects.
 
-![Headset.\label{f:headset}](./img/headset.png){ width=50% }
+![Ultrasonic probe stabilisation headset.\label{f:headset}](./img/headset.png){ width=50% }
 
 ### Procedure and data processing
 
@@ -301,7 +301,7 @@ The interval between the start of the cross-correlated signal and the time of th
 Synchronisation of the original sound files was achieved by trimming the beginning of the longer sound by the lag obtained from cross-correlation.
 A Praat script was written to automate the synchronisation process (`sync-egg.praat` in \citealt{coretta2018m}).
 
-![Synchronisation of two sounds by cross-correlation. \label{f:cross-correlation}](./img/cross-correlation.pdf){ width=80% }
+![Synchronisation of two sounds by cross-correlation. The top panel shows the waveforms of two identical sounds, one of which has been offset by 10 ms. The bottom panel shows the cross-correlation of the two sounds in the top panel. The offset of the sounds corresponds to the time of maximum amplitude in the cross-correlated sound. \label{f:cross-correlation}](./img/cross-correlation.pdf){ width=80% }
 
 A time-aligned transcript of the recordings was obtained with a force-alignment procedure using the SPeech Phonetisation Alignment and Syllabification (SPPAS) software \citep{bigi2015}.
 SPPAS is a language-agnostic system which comes with pre-packaged models for a variety of languages, among which Italian, Polish, and English.
