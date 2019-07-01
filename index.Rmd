@@ -17,4 +17,12 @@ header-includes:
 - \frenchspacing
 - \raggedbottom
 - \renewcommand{\baselinestretch}{1.5}
+- \usepackage[absolute]{textpos}
+params:
+  version: "1.0"
+  version-date: "2019/07/01"
 ---
+
+\begin{textblock}{3}(0.2,0.2)
+  \textcolor{lightgray}{v`r params$version` (`r params[["version-date"]]`)}
+\end{textblock}
