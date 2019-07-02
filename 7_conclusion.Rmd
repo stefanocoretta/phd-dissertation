@@ -13,4 +13,25 @@ The results in Paper [...] suggest the existence of a statistical correlation be
 Finally, in Paper [...] it was speculated that the timing of the stop closure is modulated by the presence of emerging voiceless pre-aspiration, so that either enhancement of pre-aspiration delays closure or its prevention anticipates it.
 This chapter provides an over-arching synthesis of the account proposed here in light of the observed patterns, and discusses the implications for theories of speech production.
 
+## Gestural phasing
+
+As argued in Paper [...], the temporal stability of the release-to-release interval is compatible with hypotheses about the gestural organisation of vowel and consonants within the domains of the syllable and the word.
+According to the coupled oscillators model \citep{odell2008}, embedded in the task-dynamic model of Articulatory Phonology \citep{ohala1986a, browman1988, browman2000, goldstein2006, goldstein2014}, speech gestures can be implemented according to two coupling modes: in-phase (synchronous) or anti-phase (sequential) mode.
+When two or more gestures are in an in-phase relation, they are initiated in synchrony.
+If two or more gestures follow an anti-phase coupling mode, the gestures are implemented sequentially and one gesture starts when the preceding one has reached its target.
+These two coupling modes can account for temporal aspects observed in the relative phasing of coda and onsets consonants with vowels.
+
+<!-- TODO: cite Pouplier universal chapter -->
+\citet{marin2010} showed that onset consonants in American English are in-phase with respect to the vowel nucleus and anti-phase with each other.
+Such phasing pattern establishes a stable relationship between the centre of the consonant (or consonants in a cluster) and the following vowel.
+Independent of the number of onset consonants, the temporal midpoint of the onset consonant(s) (the so-called 'C-centre') is maintained at a fixed distance from the vowel, such that an increasing number of consonants in the onset does not change the distance between the vowel and the onset C-centre (\Cref{f:gorganisation}a).
+On the other hand, coda consonants are in an anti-phase relation with the preceding vowel and between themselves.
+When consonants are added to the coda, they are sequentially realised.
+Temporal stability in codas is found in the lag between the vowel and the left-most edge of the coda, which is not affected by the number of coda consonants (\Cref{f:gorganisation}b).
+Other studies found further evidence for the synchronous and sequential coupling modes (see extensive review in \citealt{marin2010} and \citealt{marin2014}), although the use of one mode over the other depends on the language and the consonants under study [...].
+
+Consonants can thus be said to follow either a C-centre or a left-edge organisation pattern.
+In both cases, of course, the pattern is relative to the tautosyllabic vowel (the following vowel for onsets, the preceding vowel for codas).
+To the best of my knowledge, no study has reported the timing of onset consonants relative to the *preceding* (heterosyllabic) vowel.
+
 ## One account to rule them all
