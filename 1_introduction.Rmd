@@ -503,3 +503,5 @@ All analyses and derived figures in this dissertation can be reproduced in R \ci
 The following software and packages were used: tidyverse \citep{wickham2017}, lme4 \citep{bates2015}, lmerTest \citep{kuznetsova2017}, effects \citep{fox2019}, broom.mixed \citep{bolker2019}, mgcv \citep{wood2017}, itsadug \citep{van-rij2017}, Stan \citep{stan-development-team2017}, brms \citep{burkner2017}, tidybayes \citep{kay2019}.
 I developed two R packages for the visualisation of generalised additive models using tidyverse software (tidymv, \citealt{coretta2019i}) and the analysis of ultrasound tongue imaging data with mgcv (rticulate, \citealt{coretta2018}).
 This dissertation was written in R Markdown, and typeset with knitr and bookdown \citep{xie2014, xie2016, xie2018, xie2019}.
+
+# (PART) Original publications {-}

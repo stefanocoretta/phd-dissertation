@@ -12,12 +12,14 @@ indent: true
 fontsize: 12pt
 mainfont: Tinos
 header-includes:
+- \let\tnote\relax
 - \usepackage{cleveref}
 - \usepackage{ctable}
 - \frenchspacing
 - \raggedbottom
 - \renewcommand{\baselinestretch}{1.5}
 - \usepackage[absolute]{textpos}
+- \usepackage{subfigure}
 params:
   version: "1.0"
   version-date: "2019/07/01"
@@ -26,3 +28,7 @@ params:
 \begin{textblock}{3}(0.2,0.2)
   \textcolor{lightgray}{v`r params$version` (`r params[["version-date"]]`)}
 \end{textblock}
+
+\newenvironment{abstract}{
+    \chapter*{\centering Abstract}%
+}{}
