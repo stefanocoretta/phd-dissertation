@@ -1,3 +1,16 @@
 # (PART) Conclusion {-}
 
 # General discussion
+
+This dissertation investigated the influence of consonant voicing on vowel duration by focussing on production aspects of vowel-consonant sequences.
+As a cross-linguistic tendency, vowels are shorter when followed by voiceless consonants and longer when followed by voiced ones.
+Several proposals as to what mechanisms underly this tendency have been proposed, but no account has won consensus.
+Two studies were carried out to investigate durational and articulatory properties of vowels and consonants in Italian, Polish, and English.
+Five papers presented and discussed the results from these studies.
+Paper I and [...] show that the duration of the interval between the releases of the stops of a disyllabic word is not affected by the voicing of the second stop in Italian, Polish, and English.
+On the other hand, the release-to-release interval of English monosyllabic words is longer when the second consonant is voiced.
+The results in Paper [...] suggest the existence of a statistical correlation between vowel duration and degree of tongue root advancement, such that longer vowel durations correspond to greater tongue root advancement.
+Finally, in Paper [...] it was speculated that the timing of the stop closure is modulated by the presence of emerging voiceless pre-aspiration, so that either enhancement of pre-aspiration delays closure or its prevention anticipates it.
+This chapter provides an over-arching synthesis of the account proposed here in light of the observed patterns, and discusses the implications for theories of speech production.
+
+## One account to rule them all
