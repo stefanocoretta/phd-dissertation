@@ -8,6 +8,11 @@ classoption:
 - a4paper
 bibliography: linguistics
 biblio-style: unified
+geometry:
+- top=3cm
+- bottom=3cm
+- left=4cm
+- right=2.5cm
 indent: true
 fontsize: 12pt
 mainfont: Tinos
