@@ -100,4 +100,30 @@ Teasing apart production and perceptual mechanisms in speech is more difficult t
 On the other hand, when independent physical explanations behind production biases or mechanisms can be pointed out, it can be assumed that they can be considered design features of the production system and not just consequences of a perceptual bias.
 In this case, we could assume that, while perceptual biases can pick up on the duration difference of vowels as a cue to voicing and enhance such contrast, the differences emerge from a production mechanism in the first place.
 
+## Cross-linguistic differences
+
+As discussed in [...], the degree of the voicing effect is generally thought to vary depending on the language.
+It is generally said that English has the bigger effect, while it is smaller in Italian and possibly absent in Polish.
+Papers [...] and [...] indicate a somewhat less systematic difference between these languages.
+While direct comparison is not straightforward given the different material used in Study I and II, I ran a Bayesian analysis of the effect of voicing in disyllabic words comparing English, Italian, and Polish (see Appendix [...]).
+The analysis suggests that, when controlling for differences in average baseline vowel duration and speech rate, there is no strong evidence for a difference in the effect of voicing across these languages.
+Crucially, there is indication that the effect differs in monosyllabic vs disyllabic words, and that it is greater in the former.
+So comparison across languages should be done properly across the same contexts.
+This was done by \citet{laeufer1992}, who shows that the effect becomes comparable when the duration of the vowel is comparable.
+
+Moreover, the results from the Bayesian meta-analysis of the English voicing effect (Appendix [...]) indicates that, while there is clearly a positive effect of voicing on vowel duration, less can be said about the magnitude of such effect.
+The estimated range of values is between 55 and 95 ms, however the analysis revealed a possibility for publication bias in favour of larger effects.
+Note also that there could be differences in speech rate, and older studies might have produced data at lower rates.
+The smaller effect found in Study II could be indicative of such differences.
+For example, the intercept estimate of vowel duration before voiceless stops is about 125 ms in Study II but the average duration in the meta-analytical data is 150 ms.
+Although the voicing effect does not scale linearly with vowel duration, as suggested by \citet{ko2018}, slower speech rates (i.e. longer vowel durations) correspond to a greater effect of voicing.
+
+I am not claiming however, that the voicing effect must be universal across the board.
+Especially in the case of monosyllabic words, as argued above, language-specific perceptual enhancement can modulate the magnitude.
+For example, \citet{tanner2019} demonstrate that, although not unambiguously, the effect in monosyllabic words differs across varieties of English.
+They also argue that the effect they found in spontaneous speech is smaller than that of the laboratory speech reported in previous studies.
+However, when their results are compared to those of Study II, the difference is substantially reduced.
+The ratio of the difference in vowel duration in \citet{tanner2019} is estimated to be between 1 and 1.16.
+The ratio in Study II is between 1.03 and 1.17, a range that is virtually identical to that of \citet{tanner2019}.
+
 # (PART) Appendices {-}
