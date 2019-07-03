@@ -1,6 +1,6 @@
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, include = FALSE, fig.align = "center", out.extra = "width=.7\\linewidth", fig.lp = "f:")
+knitr::opts_chunk$set(echo = FALSE, include = FALSE, fig.align = "center", out.extra = "width=.7\\linewidth")
 knitr::opts_knit$set(root.dir = here::here())
 library(tidyverse)
 theme_set(theme_minimal())
@@ -375,7 +375,7 @@ meta_bm_syl_q50 <- (meta_bm_syl_q2.5 + meta_bm_syl_q97.5) / 2
 
 The following is the summary of the meta-analytical model (as output by `summary()` function).
 The population-level effects are the ones of interest.
-\Cref{f:intervals-plot} is a visual aid to the summury, and shows a variety of credible intervals of the estimates from the model.
+\Cref{fig:intervals-plot} is a visual aid to the summury, and shows a variety of credible intervals of the estimates from the model.
 The blue-coloured bars represent (from darker to lighter blue) the 50%, 80%, and 95% credible intervals (CIs).
 THe black lines are the 66% (thick) and 98% (thin) CIs.
 
@@ -415,7 +415,7 @@ Note that the estimated error is double compared to that of the intercept, which
 We can argue that, on average, the mean voicing effect in penultimate syllables is about 50 ms smaller than the mean effect in monosyllabic words in the surveyed studies.
 The mean of the voicing effect in disyllabic words can thus be estimated to be around 25 ms (about 75 - 50 ms).
 
-A visual representation of the meta-analytical distributions is given in \Cref{f:syl-plot}.
+A visual representation of the meta-analytical distributions is given in \Cref{fig:syl-plot}.
 The plot shows the full posterior distributions of the voicing effect in the word-final and penultimate contexts.
 Note how the posterior distribution in penultimate position is wider than the other.
 
@@ -444,7 +444,7 @@ post_syl %>%
   theme(legend.position = "top")
 ```
 
-\Cref{f:origin-shrunk-plot} shows the mean estimates (the points) of the voicing effect with 95% CIs (the horizontal segments) for each of the 11 studies.
+\Cref{fig:origin-shrunk-plot} shows the mean estimates (the points) of the voicing effect with 95% CIs (the horizontal segments) for each of the 11 studies.
 For each study, the plot gives both the original estimate (as obtained from the raw data summary of the study) and the estimate shrunk by the random effects in the meta-analytical model.
 The vertical lines indicate the meta-analytical 95% CI of the voicing effect in final (solid) and penultimate syllable position (dashed).
 Original estimates further away from the meta-analytical mean effect and those with greater uncertainty (wider errors) show greater shrinkage to the mean.
@@ -506,7 +506,7 @@ bind_rows(estimated_tbl, studies_shrunk) %>%
   theme(panel.grid.major.y = element_blank(), panel.grid.minor.y = element_blank())
 ```
 
-\Cref{f:funnel-plot} is a funnel plot, which can be used to visually check whether the sample suffers from publication bias.
+\Cref{fig:funnel-plot} is a funnel plot, which can be used to visually check whether the sample suffers from publication bias.
 In this plot, the x-axis corresponds to the original estimated difference in vowel duration, while the y-axis is a measure of precision (calculated as 1 divided by the estimated error of the difference).
 The meta-analytical means are indicated by the thick and dashed vertical lines for syllable-final and penultimate postion respectively.
 The shaded areas indicate the 95% CI of the meta-analytical posterior of the voicing effect in final (light blue) and penultimate (dark blue) position.

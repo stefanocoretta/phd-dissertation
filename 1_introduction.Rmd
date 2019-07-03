@@ -268,9 +268,9 @@ The unit outputs a synchronised stereo recording which contains the EGG signal f
 
 ### Equipment set-up
 
-![Schematics of the equipment set-up of Study I. Stabilisation headset not shown.\label{f:setup}](./img/setup.pdf){ width=80% }
+![Schematics of the equipment set-up of Study I. Stabilisation headset not shown.\label{fig:setup}](./img/setup.pdf){ width=80% }
 
-\Cref{f:setup} shows a schematics of the equipment set-up used in this study.
+\Cref{fig:setup} shows a schematics of the equipment set-up used in this study.
 The left part of the figure shows the ultrasonic components \citep{articulate2011}, while the EGG components (Glottal Enterprises) are shown on the right.
 Two separate Hewlett-Packard ProBook 6750b laptops with Microsoft Windows 7 were used for the acquisition of the UTI and EGG recordings.
 The main ultrasonic component was a TELEMED Echo Blaster 128 unit with a TELEMED C3.5/20/128Z-3 ultrasonic transducer (20mm radius, 2-4 MHz), plugged into one laptop via a USB cable.
@@ -278,13 +278,13 @@ A P-Stretch unit (used for signal synchronisation) was connected to the ultrasou
 The P-Stretch unit and a Movo LV4-O2 Lavalier microphone fed into a FocusRight Scarlett Solo pre-amplifier, which was plugged into the ultrasound laptop via USB.
 A second Movo microphone and the electrodes were connected to a Glottal Enterprises EG2-PCX2 unit, which was plugged into the second laptop (the audio signals from the UTI and the EGG units were used for synchronisation, see below).
 
-The subject wore a metallic headset produced by \citet{articulate2008} (\Cref{f:headset}), which stabilises the position of the ultrasound probe (allowing free head movement), and the velcro strap with the EGG electrodes around their neck.
+The subject wore a metallic headset produced by \citet{articulate2008} (\Cref{fig:headset}), which stabilises the position of the ultrasound probe (allowing free head movement), and the velcro strap with the EGG electrodes around their neck.
 The electrodes were located on each side of the thyroid cartilage, at the level of the glottis.
 The microphones were clipped to the headset on either side, at identical heights.
 Before the reading task, the participant’s occlusal plane was obtained using a bite plate \citet{scobbie2011}.
 This procedure allows data to be rotated along the occlusal plane and enables the comparison of tongue movements within and across subjects.
 
-![Ultrasonic probe stabilisation headset.\label{f:headset}](./img/headset.png){ width=50% }
+![Ultrasonic probe stabilisation headset.\label{fig:headset}](./img/headset.png){ width=50% }
 
 ### Procedure and data processing
 
@@ -297,11 +297,11 @@ Paper [...] provides more details on the rationale behind the material design.
 The UTI+audio and EGG+audio signals were acquired and recorded by means of AAA and Praat \citep{boersma2016} respectively.
 Since the signals from the ultrasonic machine and the electroglottograph are recorded simultaneously but separately, data from both sources were synchronised after acquisition.
 Synchronisation was achieved using the cross-correlation of the audio signals obtained from the separate sources \citep{grimaldi2008}.
-The interval between the start of the cross-correlated signal and the time of the signal maximum amplitude is equal to the lag between the two original sounds (\Cref{f:cross-correlation}).
+The interval between the start of the cross-correlated signal and the time of the signal maximum amplitude is equal to the lag between the two original sounds (\Cref{fig:cross-correlation}).
 Synchronisation of the original sound files was achieved by trimming the beginning of the longer sound by the lag obtained from cross-correlation.
 A Praat script was written to automate the synchronisation process (`sync-egg.praat` in \citealt{coretta2018m}).
 
-![Synchronisation of two sounds by cross-correlation. The top panel shows the waveforms of two identical sounds, one of which has been offset by 10 ms. The bottom panel shows the cross-correlation of the two sounds in the top panel. The offset of the sounds corresponds to the time of maximum amplitude in the cross-correlated sound. \label{f:cross-correlation}](./img/cross-correlation.pdf){ width=80% }
+![Synchronisation of two sounds by cross-correlation. The top panel shows the waveforms of two identical sounds, one of which has been offset by 10 ms. The bottom panel shows the cross-correlation of the two sounds in the top panel. The offset of the sounds corresponds to the time of maximum amplitude in the cross-correlated sound. \label{fig:cross-correlation}](./img/cross-correlation.pdf){ width=80% }
 
 A time-aligned transcript of the recordings was obtained with a force-alignment procedure using the SPeech Phonetisation Alignment and Syllabification (SPPAS) software \citep{bigi2015}.
 SPPAS is a language-agnostic system which comes with pre-packaged models for a variety of languages, among which Italian, Polish, and English.
@@ -323,11 +323,11 @@ The automatic fitting procedure was monitored by the author and manual correctio
 
 Subsequent data processing followed the method described in \citet{strycharczuk2015}.
 See Paper [...] and [...] for details.
-The Cartesian coordinates of the fitted splines, together with tongue displacement, tangential velocity, and absolute velocity of the tongue root, dorsum and tip, were obtained from the following temporal landmarks (\Cref{f:kine}): C2 closure onset, tongue maximum displacement during C2 closure (MAX), peak absolute velocity before and after tongue maximum displacement (PEAK_1 and PEAK_2), tongue closing gesture onset (GONS), closing gesture nucleus onset (NONS) and offset (NOFF).
+The Cartesian coordinates of the fitted splines, together with tongue displacement, tangential velocity, and absolute velocity of the tongue root, dorsum and tip, were obtained from the following temporal landmarks (\Cref{fig:kine}): C2 closure onset, tongue maximum displacement during C2 closure (MAX), peak absolute velocity before and after tongue maximum displacement (PEAK_1 and PEAK_2), tongue closing gesture onset (GONS), closing gesture nucleus onset (NONS) and offset (NOFF).
 GONS, NONS, and NOFF were defined as the times where absolute velocity reaches 20% of the peak absolute velocity before PEAK_1, between PEAK_1 and MAX, and between MAX and PEAK_2 respectively \citep{kroos1997, gafos2010a}.
 Tongue displacement, and the tangential and absolute velocities of the tongue root, dorsum, and tip were also extracted as time-series along the entire duration of V1.
 
-![Temporal kinematic landmarks of tongue movements in the word *putu*. The top panel shows tongue tip displacement, while the bottom panel shows tangential and absolute velocity. \label{f:kine}](./img/velocity.pdf){ width=80% }
+![Temporal kinematic landmarks of tongue movements in the word *putu*. The top panel shows tongue tip displacement, while the bottom panel shows tangential and absolute velocity. \label{fig:kine}](./img/velocity.pdf){ width=80% }
 
 Finally, wavegram data was extracted from the EGG data, following the method proposed by \citet{herbst2010}.
 In brief, a wavegram is a spectrogram-like representation of the EGG signal, where individual glottal cycles are sequentially placed on the *x*-axis, the normalised time of the samples taken from within each glottal cycle is the *y*-axis, and the third dimension, represented by colours of different shading, is the normalised amplitude of the EGG signal.
