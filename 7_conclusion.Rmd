@@ -29,10 +29,42 @@ On the other hand, coda consonants are in an anti-phase relation with the preced
 When consonants are added to the coda, they are sequentially realised.
 Temporal stability in codas is found in the lag between the vowel and the left-most edge of the coda, which is not affected by the number of coda consonants (\Cref{f:gorganisation}b).
 Other studies found further evidence for the synchronous and sequential coupling modes (see extensive review in \citealt{marin2010} and \citealt{marin2014}), although the use of one mode over the other depends on the language and the consonants under study [...].
+Consonants can thus be said to follow either a C-centre or a left-edge organisation pattern depending on whether they are in-phase or anti-phase with the vocalic gesture.
 
-Consonants can thus be said to follow either a C-centre or a left-edge organisation pattern.
-In both cases, of course, the pattern is relative to the tautosyllabic vowel (the following vowel for onsets, the preceding vowel for codas).
-To the best of my knowledge, no study has reported the timing of onset consonants relative to the *preceding* (heterosyllabic) vowel.
+Phasing modes are defined within the traditional syllable, or, in other words, relative to the tautosyllabic vowel (the following vowel for onsets and the preceding vowel for codas).
+Less is known about the relation between heterosyllabic segments and how syllables are timed and phased within words.
+\citet{ohman1967} and \citet{fowler1983} propose that vocalic gestures are implemented according to a rhythmic programme and that consonantal (constriction gestures) are superimposed to the vocalic gestural stream.
+Furthermore, the authors argue that the timing of vocalic gestures follows a regular cyclic pattern, which is in turn responsible for the rhythmic patterns of speech.
+\citet{fowler1983} reviews a collection of findings from speech production, perception, and phonological studies that support the idea of the cyclic production of vowels.
+
+A consequence of the cyclic production of vowels and the independence of the vocalic and consonantal gestures is that two consecutive vowels within a word would be at a stable temporal distance independent of the nature and number of the intervening consonants.
+This hypothesis, however, is not borne out by the empirical evidence in \citet{zmarich2011} and \citet{zeroual2015}.
+Using electromagnetic articulography, both studies find that the distance between two vowels is greater when the intervening consonant is a geminate compared to when it is a singleton consonant.
+\citet{de-jong1991} finds only partial support for the independence of vowels and consonants.
+These studies also find substantial inter-speaker variation in the particulars of the gestural implementation of vowel-consonant sequences.
+
+While the strong prediction of vowel-to-vowel isochrony is not confirmed by data comparing singleton and geminates, it is possible that a softer formulation would still work.
+A possible reason for why the isochrony breaks in that context is that the geminate consonant is a blend of two phasing patterns.
+For example, \citet{zeroual2015} argue that their findings support the interpretation of geminates as two identical consonants produced sequentially.
+This would mean that the first part of the geminate is implemented anti-phase with the preceding vowel, while the second part is articulated in-phase with the following.
+The presence of an anti-phase gesture intervening between the vowels could be responsible for the disruption of the vowel-to-vowel isochrony.
+If this is the case, then isochrony would apply only in those cases where the intervening consonants are in-phase with the second vowel (a more detailed account and an alternative account are discussed in [...]).
+
+Turning to the voicing contrast, since CVCV words differing in the voicing of C2 just include a singleton consonant, we can expect VV isochrony to apply.
+Since onset consonants are in-phase with the tautosyllabic vowel and the timing of the release of C2 is not affected by voicing, the timing of the gestural onset of voiceless and voiced stops should also be identical.
+<!-- TODO: schematics -->
+This is in part confirmed by the ultrasound tongue imaging data of Study I.
+<!-- TODO: GONS appendix -->
+The duration of the interval between the acoustic release of C1 and the gestural onset time of C2 is not affected by the voicing status of C2.
+On the other hand, the velocity of the closing gesture is known to differ \citep{van-summers1987}.
+<!-- TODO: say that velocity data are not good here? -->
+While the gestural onset is identical, the difference in closing velocity produces the acoustic pattern of the differential in VC boundary timing.
+Fast closing velocity in voiceless stops creates an early VC boundary, while a slow closing gesture generates a late VC boundary.
+
+On the other hand, in tautosyllabic VC sequences, the consonant gesture is implemented anti-phase with the preceding vowel, meaning that the gestures are produced sequentially.
+In such case, VV isochrony is broken and the duration of V1 can be modulated freely.
+This is what it is argued to happen in monosyllabic words, where the distance between the releases of C1 and C2 differs depending on the voicing of C2.
+\citet{de-jong2002} indeed finds that in English monosyllabic words not only the velocity of the closing gesture differs, but also the timing of the consonant gesture, which happens later within the vowel in the context of voiced stops.
 
 ## One account to rule them all
 
