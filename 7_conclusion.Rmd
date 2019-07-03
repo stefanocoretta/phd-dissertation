@@ -68,8 +68,36 @@ This is what it is argued to happen in monosyllabic words, where the distance be
 
 ## One account to rule them all
 
+The results of Study I and II taken together allow for the formulation of an account of the voicing effect that brings together aspects of compensation and timing as proposed by different accounts.
+Two important aspects of the account proposed here is the temporal stability of the stop releases and the timing of the VC boundary.
+The temporal stability is one fundamental aspect of the compensatory temporal adjustment account.
+The difference between this and the account proposed here is that in the former closure duration determines the duration of the preceding vowel.
+In the present account, a rather more neutral position is taken.
+The timing of the VC boundary within the release-to-release interval determines the durations of *both* the vowel and closure.
+On the other hand, the timing of the VC boundary is modulated by aspects that would fall under the laryngeal adjustments and the rate of closure accounts.
 
+The ultrasound and EGG study, as discussed in Papers [...] and [...], suggest that mechanisms independent from closure duration per se can act upon the timing of the VC boundary and, indirectly, on the duration of closure.
+For one, tongue root position might drive the timing of the boundary by delaying it to allow for greater tongue root advancement.
+As discussed in Paper [...], tongue root advancement is known to facilitate voicing during the production of the stop closure.
+Second, the development of pre-aspiration could also influence the timing of the VC boundary by delaying or anticipating it depending on whether pre-aspiration is enhanced or prevented.
 
+Moreover, the account proposed here is diachronic in nature, in as much as it reveals a possible diachronic pathway to the emergence of the difference in vowel duration rooted in production aspects of vowels and consonants.
+In particular, I argue that the voicing effect can emerge because of the temporal stability of CVC sequences and the differences in timing of the closure in voiceless and voiced stops.
+Such an account assumes that the original scenario is one in which the duration of vowels and that of closures do not differ.
+Speakers start producing the difference via developmental learning or historical change.
+On top of this, when VV isochrony does not constrain the temporal distances in CVC sequences, vowel and closure durations are free to be manipulated independently with the aim of manipulating the VC ratio, as argued by perceptual accounts of the voicing effect.
 
+While the account proposed here is based on production mechanisms, it cannot be completely excluded that the production differences observed and stipulated here are actually consequential to perceptual biases.
+In this alternative scenario, there could be a design feature of the perceptual system that generates the differential duration percept even when there is not such difference in the acoustic output/input.
+An example from the domain of vision illustrates this possibility.
+When looking at a wheel spinning in clockwise direction, the observer will start seeing the wheel rotating counter-clockwise when the rotation speed exceeds a threshold.
+There is nothing in the mechanics of a wheel spinning around its axis that can explain this perceptual fact.
+Rather, the human brain is a design feature (rate of visual perception update) that creates the illusion of the wheel spinning in the opposite direction.
+In this case, since the wheel and its percept are two separate realities, the latter does not change how the wheel is spinning in reality.
+In the case of speech, however, a bias of the the perceptual system does generally spill onto production.
+
+Teasing apart production and perceptual mechanisms in speech is more difficult than in the spinning wheel case since production and perception operate on the same ontological reality, i.e. speech.
+On the other hand, when independent physical explanations behind production biases or mechanisms can be pointed out, it can be assumed that they can be considered design features of the production system and not just consequences of a perceptual bias.
+In this case, we could assume that, while perceptual biases can pick up on the duration difference of vowels as a cue to voicing and enhance such contrast, the differences emerge from a production mechanism in the first place.
 
 # (PART) Appendices {-}
