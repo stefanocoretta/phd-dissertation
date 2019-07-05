@@ -54,6 +54,11 @@ enitpl %>%
 ```
 
 A Bayesian mixed-effects regression was fitted to V1 duration with brms \citep{burkner2017, burkner2018} in R \citep{r-core-team2019}.
+Language, C2 voicing, centred speech rate, and an interaction between language and voicing were included as predictors.
+Random intercepts for speaker and word were used, together with by-speaker and by-word random coefficients for voicing.
+
+The following priors were used: for the intercept of vowel duration, a normal distribution with mean 145 and SD 30, for the effect of language a normal distribution with mean 0 and SD 50, for the effect of voicing a normal distribution with mean 25 and SD 10, for the interaction between language and voicing a normal distribution with mean 0 and SD 10, and for centred speech rate a normal distribution with mean -25 and SD 10.
+
 
 ```{r brm-1}
 priors <- c(
@@ -97,7 +102,7 @@ brm_1_draws <- brm_1 %>%
   filter(.variable != "b_Intercept")
 ```
 
-```{r brm-1-intervals, include=TRUE}
+```{r ve-int, include=TRUE}
 brm_1_draws %>%
   ungroup() %>%
   mutate(.variable = factor(.variable, levels = c("b_voicingvoiced", "b_languageItalian", "b_languagePolish", "b_languageItalian:voicingvoiced", "b_languagePolish:voicingvoiced", "b_speech_rate_c")[6:1])) %>%
@@ -113,4 +118,41 @@ brm_1_draws %>%
     y = element_blank()
   ) +
   theme(panel.grid.minor = element_blank())
+```
+
+\Cref{fig:ve-int} shows the posterior distributions for the effects of language, voicing, centred speech rate, and language × voicing interaction.
+The effect of voicing in English is between 7 and 28.5 ms at 95% probability.
+There is weak evidence for longer vowels in Italian and shorter vowels in Polish compared to English, but the credible intervals of these effects are very wide.
+Speech rate has a strong and robust negative effect on vowel duration: for each syllable per second unit increase, vowels get 11.5-15 ms shorter.
+The posterior distributions for the interaction between language and voicing indicate that probably the effect of voicing in Italian is very similar to that of English, while there is some extremely weak indication for a slightly smaller effect in Polish.
+Note, however, that the posterior distributions of the interactions are very wide (more than 20 ms).
+
+In sum, the present data does not offer robust evidence neither for or against cross-lingustic differences in voicing effect.
+If there is a difference, it will likely be about ±10 ms.
+
+```{r ve-post}
+ve_post <- posterior_samples(brm_1, pars = "b_") %>%
+  mutate(
+    English = b_voicingvoiced,
+    Italian = b_voicingvoiced + `b_languageItalian:voicingvoiced`,
+    Polish = b_voicingvoiced + `b_languagePolish:voicingvoiced`
+  ) %>%
+  select(English:Polish) %>%
+  gather(language, difference)
+```
+
+The following plot shows the posterior probability distributions of the effect of voicing marginalised over language.
+The great overlap among the distributions is indicative of the high uncertainty regarding the presence vs absence of cross-lingusitic differences.
+
+```{r ve-post-dens}
+ve_post %>%
+  ggplot(aes(difference, fill = language)) +
+  geom_vline(aes(xintercept = 0)) +
+  geom_density(alpha = 0.4, colour = NA, bw = 2) +
+  theme(legend.position = "top") +
+  scale_fill_viridis_d() +
+  labs(
+    x = "Difference in vowel duration (ms)",
+    y = element_blank()
+  )
 ```
