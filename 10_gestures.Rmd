@@ -2,7 +2,7 @@
 \chapter{Gesture onset timing of voiceless and voiced stops in Italian and Polish}
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 knitr::opts_knit$set(root.dir = here::here())
 
 library(tidyverse)
@@ -80,6 +80,10 @@ rel_gons_bm <- brm(
 summary(rel_gons_bm)
 ```
 
+The following plot shows the posterior probabilities of the effects of voicing, place of articulation, and vowel on gestural onset timing.
+The credible intervals are quite large (> 25 ms).
+At 80% probability, the effect of voicing is between −5 and +10 ms, while at 95% probability it is between −10.5 and +15.5.
+
 ```{r rel-gons-intervals}
 rel_gons_draws <- rel_gons_bm %>%
   gather_draws(b_c2_phonationvoiced, b_c2_placevelar, b_vowelo, b_vowelu)
@@ -93,15 +97,21 @@ rel_gons_draws %>%
   ggplot(aes(.value, .variable)) +
   # annotate("rect", xmin = -10, xmax = 10, ymin = -Inf, ymax = Inf, alpha = 0.5) +
   geom_vline(xintercept = 0) +
-  stat_intervalh() +
-  stat_pointintervalh(position = position_nudge(y = -0.2), .width = c(0.66, 0.98)) +
+  geom_halfeyeh(fill = "#9ecae1", .width = c(0.66, 0.98), fatten_point = 1, relative_scale = 0.7) +
+  stat_intervalh(position = position_nudge(y = -0.1), size = 2) +
   scale_x_continuous(breaks = seq(-50, 25, 5)) +
   scale_y_discrete(labels = c("Vowel = /u/", "Vowel = /o/", "Place = velar", "Voicing = voiced")) +
   scale_color_brewer() +
   labs(
-    x = "Difference in release to GONS (ms)",
+    x = "Difference in GONS timing (ms)",
     y = element_blank()
   ) +
   theme(panel.grid.minor = element_blank())
 ```
 
+The present data does not offer unambiguous support for isochronous timing of C2 gestural onset, but it suggests that the difference is smaller than 15 ms.
+The gestural literature does not explicitly posit a lower limit as to what range of values would indicate gestural isochrony.
+\citet{hermes2019} measure the lag between the gestures of an onset consonant and the vocalic nucleus and report that, in the standard population, the mean lag is 32 ms (SD - 66).
+If a 32 ms lag in implementation of two gestures can be interpreted as indicating a relation of synchrony between these gestures, than a difference below 15 ms could be interpreted as suggesting an isochronous production of voiceless and voiced consonantal gestures.
+Note that while in \citet{hermes2019} the temporal lag refers to a syntagmatic relation between two gestures, the case of the voiceless/voiced consonants is paradigmatic.
+Future work should: (1) identify a minimum theoretical value below which two gestures can be considered to be paradigmatically isochronous, and (2) investigate the temporal relation of gestural onsets in VCV sequences using a bigger sample.
