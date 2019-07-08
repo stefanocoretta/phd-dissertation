@@ -25,6 +25,7 @@ header-includes:
 - \renewcommand{\baselinestretch}{1.5}
 - \usepackage[absolute]{textpos}
 - \usepackage{subfigure}
+- \pagestyle{plain}
 params:
   version: "1.0.9000"
   version-date: "2019/07/01"

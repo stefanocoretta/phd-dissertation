@@ -40,7 +40,7 @@ round_2 <- function(...) {
 \end{abstract}
 
 ## Introduction
-\label{s:intro}
+\label{s:introR}
 
 <!-- it might be interesting to say that the VE applies even in cases when voicing is not actually present -->
 
@@ -182,7 +182,7 @@ The microphone was clipped onto a metal headset worn by the participant, which w
 <!-- maybe note on /u/ in italian is phonotactically not good -->
 
 The target stimuli were disyllabic words with C\textsubscript{1}V\textsubscript{1}C\textsubscript{2}V\textsubscript{2} structure, where C\textsubscript{1} = /p/, V\textsubscript{1} = /a, o, u/, C\textsubscript{2} = /t, d, k, g/, and V\textsubscript{2} = V\textsubscript{1} (e.g. /pata/, /pada/, /poto/, etc.).\footnote{Italian has both a mid-low [ɔ] and a mid-high [o] back vowel in its vowel inventory. These vowels are traditionally described as two distinct phonemes \citep{kramer2009}, although both their phonemic status and their phonetic substance are subject to a high degree of geographical and idiosyncratic variability \citep{renwick2016}. As a rule of thumb, stressed open syllables in Italian (like the ones used in this study) have [ɔː] (vowels in penultimate stressed open syllables are long) rather than [oː] \citep{renwick2016}. On the other hand, Polish has only a mid-low back vowel phoneme /ɔ/ \citep{gussmann2007}. For the sake of typographical simplicity, the symbol /o/ will be used here for both languages.}
-Most are nonce words, although inevitably some combinations produce real words both in Italian (4 words) and Polish (2 words, see \Cref{a:targets}).
+Most are nonce words, although inevitably some combinations produce real words both in Italian (4 words) and Polish (2 words, see \Cref{a:targetsR}).
 The lexical stress of the target words was placed by speakers of both Italian and Polish on V\textsubscript{1}, as intended.
 
 The make-up of the target words was constrained by the design of the experiment, which included ultrasound tongue imaging (UTI).
@@ -196,7 +196,7 @@ The target words were embedded in a frame sentence.
 Controlling for meaning, segmental and prosodic make-up between languages proved to be difficult.
 The frames are *Dico X lentamente* 'I say X slowly' in Italian [following @hajek2008], and *Mówię X teraz* 'I say X now' in Polish.
 These sentences were chosen in order to maintain a similar intonation contour across languages.
-<!-- Possible influences of the semantic content of the frame sentence on duration estimates will be discussed in \Cref{s:discussion}. -->
+<!-- Possible influences of the semantic content of the frame sentence on duration estimates will be discussed in \Cref{s:discussionR}. -->
 
 ### Procedure
 \label{s:procedure}
@@ -326,7 +326,7 @@ vow_lm <- lmer(
 summary(vow_lm)
 ```
 
-```{r Figure2, include=TRUE, fig.cap = "Raw data and boxplots of the duration in milliseconds of vowels in Italian (top row) and Polish (bottom row), for the vowels /a, o, u/ when followed by a voiceless or voiced stop", out.extra="width=\\linewidth", cache=TRUE}
+```{r FigureR-2, include=TRUE, fig.cap = "Raw data and boxplots of the duration in milliseconds of vowels in Italian (top row) and Polish (bottom row), for the vowels /a, o, u/ when followed by a voiceless or voiced stop", out.extra="width=\\linewidth", cache=TRUE}
 durations_filtered %>%
   ggplot(aes(c2_phonation, v1_duration)) +
   geom_boxplot(alpha = 0.5) +
@@ -341,7 +341,7 @@ vow_descr <- durations_filtered %>%
   summarise(mean = mean(v1_duration, na.rm = TRUE), sd = sd(v1_duration, na.rm = TRUE))
 ```
 
-\Cref{fig:Figure2} shows boxplots and raw data of vowel duration for the three vowels /a, o, u/ when followed by voiceless or voiced stops in Italian and Polish.
+\Cref{fig:FigureR-2} shows boxplots and raw data of vowel duration for the three vowels /a, o, u/ when followed by voiceless or voiced stops in Italian and Polish.
 Vowels tend to be longer when followed by a voiced stop in both languages.
 The effect appears to be greater in Italian than in Polish, especially for the vowels /a/ and /o/.
 There is no evident effect of C2 voicing in /u/ in Italian, but the effect is discernible in Polish /u/.
@@ -376,7 +376,7 @@ clo_lm <- lmer(
 summary(clo_lm)
 ```
 
-```{r Figure3, echo=FALSE, include=TRUE, fig.cap = "Raw data and boxplots of closure duration in milliseconds of voiceless and voiced stops in Italian (top row) and Polish (bottom row) when preceded by the vowels /a, o, u/", out.extra="width=\\linewidth", cache=TRUE}
+```{r FigureR-3, echo=FALSE, include=TRUE, fig.cap = "Raw data and boxplots of closure duration in milliseconds of voiceless and voiced stops in Italian (top row) and Polish (bottom row) when preceded by the vowels /a, o, u/", out.extra="width=\\linewidth", cache=TRUE}
 durations_filtered %>%
   ggplot(aes(c2_phonation, c2_clos_duration)) +
   geom_boxplot(alpha = 0.5) +
@@ -391,7 +391,7 @@ clos_descr <- durations_filtered %>%
   summarise(mean = mean(c2_clos_duration, na.rm = TRUE), sd = sd(c2_clos_duration, na.rm = TRUE))
 ```
 
-\Cref{fig:Figure3} illustrates stop closure durations with boxplots and individual raw data points.
+\Cref{fig:FigureR-3} illustrates stop closure durations with boxplots and individual raw data points.
 A pattern opposite to that with vowel duration can be noticed: closure duration is shorter for voiced than for voiceless stops.
 The closure of voiced stops in Italian is `r round_2(vow_descr[[1, 3]])` ms long (SD = `r round_2(vow_descr[[1, 4]])`), while the voiceless stops have a mean closure duration of `r round_2(vow_descr[[2, 3]])` ms (SD = `r round_2(vow_descr[[2, 4]])`).
 In Polish, the closure duration is `r round_2(vow_descr[[3, 3]])` ms (SD = `r round_2(vow_descr[[3, 4]])`) in voiced stops and `r round_2(vow_descr[[4, 3]])` ms (SD = `r round_2(vow_descr[[4, 4]])`) in voiceless stops.
@@ -417,7 +417,7 @@ vow_clo_lm <- lmer(
 summary(vow_clo_lm)
 ```
 
-```{r Figure4, include=TRUE, fig.cap = "Raw data, estimated regression lines, and 95 per cent confidence intervals of the effect of closure duration on vowel duration for the vowels /a, o, u/ (from a mixed-effects model fitted to data pooled from Italian and Polish, see text for details)", out.extra="width=\\linewidth", cache=TRUE}
+```{r FigureR-4, include=TRUE, fig.cap = "Raw data, estimated regression lines, and 95 per cent confidence intervals of the effect of closure duration on vowel duration for the vowels /a, o, u/ (from a mixed-effects model fitted to data pooled from Italian and Polish, see text for details)", out.extra="width=\\linewidth", cache=TRUE}
 as_tibble(effect("c2_clos_duration:vowel:speech_rate_c", vow_clo_lm)) %>%
   filter(speech_rate_c == -3e-04) %>%
   ggplot(aes(c2_clos_duration, fit)) +
@@ -440,7 +440,7 @@ These estimates can be interpreted in terms of percentages of compensation, whic
 Note, moreover, that the negative correlation found here could be a consequence of annotation bias, since the vowel and closure share a boundary.
 Faster speech rates elicit a bigger effect than lower speech rates, as indicated by the significant interaction between closure duration and speech rate ($\hat{\beta}$ = -0.2 ms, SE = 0.06 ms).
 The effect of the interaction is reduced when the vowel is /u/ ($\hat{\beta}$ = 0.17 ms, SE = 0.08 ms).
-\Cref{fig:Figure4} shows for each vowel /a, o, u/ the individual data points and the regression lines with 95\% confidence intervals extracted from the mixed-effects model.
+\Cref{fig:FigureR-4} shows for each vowel /a, o, u/ the individual data points and the regression lines with 95\% confidence intervals extracted from the mixed-effects model.
 
 ### Word duration
 
@@ -492,7 +492,7 @@ This indicates that there is positive evidence for a null effect of C2 voicing o
 
 ### Release to release interval duration
 
-```{r Figure5, include=TRUE, fig.cap="Raw data and boxplots of the duration in milliseconds of the release to release interval in Italian (left) and Polish (right) when C2 is voiceless or voiced", out.extra="width=\\linewidth", cache=TRUE, warning=FALSE}
+```{r FigureR-5, include=TRUE, fig.cap="Raw data and boxplots of the duration in milliseconds of the release to release interval in Italian (left) and Polish (right) when C2 is voiceless or voiced", out.extra="width=\\linewidth", cache=TRUE, warning=FALSE}
 rel_filtered %>%
   ggplot(aes(c2_phonation, rel_rel)) +
   geom_boxplot(alpha = 0.5) +
@@ -538,7 +538,7 @@ rr_descr <- word_filtered %>%
   summarise(mean = mean(rel_rel, na.rm = TRUE), sd = sd(rel_rel, na.rm = TRUE))
 ```
 
-In \Cref{fig:Figure5}, boxplots and raw data points show the duration of the release to release interval in words with a voiceless vs. a voiced C2 stop, in Italian and Polish.
+In \Cref{fig:FigureR-5}, boxplots and raw data points show the duration of the release to release interval in words with a voiceless vs. a voiced C2 stop, in Italian and Polish.
 It can be seen that the distributions, medians, and quartiles of the durations in the voiceless and voiced condition do not differ much in either language.
 In Italian, the mean duration of the release to release interval is `r round_2(rr_descr[[1, 3]])` ms (SD = `r round_2(rr_descr[[1, 4]])`) if C2 is voiceless, and `r round_2(rr_descr[[2, 3]])` ms (SD = `r round_2(rr_descr[[2, 4]])`) if voiced.
 In Polish, the mean durations are respectively `r round_2(rr_descr[[3, 3]])` (SD = `r round_2(rr_descr[[3, 4]])`) and `r round_2(rr_descr[[4, 3]])` (SD = `r round_2(rr_descr[[4, 4]])`) ms.
@@ -547,7 +547,7 @@ The Bayes factor of the null model against the full model is `r rr_bf`, which me
 The Bayes factor suggests there is strong evidence that duration of the release to release interval is not affected by C2 voicing.
 
 ## Discussion
-\label{s:discussion}
+\label{s:discussionR}
 
 A study of articulatory and acoustic aspects of the effect of consonant voicing on vowel duration in Italian and Polish has been carried out to look for a possible source of such an effect in speech production.
 Only the results from the acoustic part of the study bear on the main argument of this paper.
@@ -581,7 +581,7 @@ The mean differences of Italian vowels and closures (11.5 and 13.33, respectivel
 It is plausible that the smaller effect of C2 voicing on preceding vowel duration in Polish is related to the smaller effect on closure duration, if we assume a temporal mechanism of compensation between the closure and the vowel.
 These patterns will need to be confirmed with a more balanced sample of Italian and Polish speakers.
 
-```{r Figure6, include=TRUE, fig.cap = "By-speaker random coefficients and error bars for the effect of C2 voicing on vowel duration, extracted from a mixed-effect model (Section 3.1)", out.extra="width=\\linewidth", cache=TRUE, warning=FALSE}
+```{r FigureR-6, include=TRUE, fig.cap = "By-speaker random coefficients and error bars for the effect of C2 voicing on vowel duration, extracted from a mixed-effect model (Section 3.1)", out.extra="width=\\linewidth", cache=TRUE, warning=FALSE}
 as_tibble(coef(vow_lm)$speaker[,1:2], rownames = "speaker") %>%
   rename("intercept" = `(Intercept)`, "ve" = c2_phonationvoiced) %>%
   mutate(language = ifelse(str_detect(speaker, "^it"), "Italian", "Polish"), speaker = toupper(speaker)) %>%
@@ -596,7 +596,7 @@ as_tibble(coef(vow_lm)$speaker[,1:2], rownames = "speaker") %>%
 ```
 
 On the other hand, while the estimated differences in vowel durations can be interpreted in reference to Italian and Polish as two independent linguistic objects, the patterns observed in the individual speakers does not indicate a systematic relation between magnitude of the effect and language.
-\Cref{fig:Figure6} shows the random coefficients of the effect of C2 voicing on vowel duration for the individual speakers, extracted from the mixed-effects model presented in \Cref{s:vduration}.
+\Cref{fig:FigureR-6} shows the random coefficients of the effect of C2 voicing on vowel duration for the individual speakers, extracted from the mixed-effects model presented in \Cref{s:vduration}.
 Black indicates Italian speakers, while grey is for Polish speakers.
 As can be seen, speakers of both languages are scattered along the values of the voicing effect.
 These results are in agreement with the idiosyncrasy of the voicing effect of Polish found in \citet{malisz2008}.
@@ -628,7 +628,7 @@ No specific statement is implied about the variance of the duration around the m
 
 The invariance of the release to release interval allows us to refine the logistics of the compensatory account by narrowing the scope of the temporal adjustment action.
 A limitation of this account, as proposed by @slis1969 and @lehiste1970, is the lack of a precise identification of the word-internal mechanics of compensation.
-As already discussed in \Cref{s:intro}, it is not clear why the adjustment should target the preceding stressed vowel, rather than the following unstressed vowel or any other segment in the word.
+As already discussed in \Cref{s:introR}, it is not clear why the adjustment should target the preceding stressed vowel, rather than the following unstressed vowel or any other segment in the word.
 Since the release to release interval includes just the vocoid gesture between the release of C1 and the VC boundary, and the consonant closure, it follows that differences in the timing of the VC boundary must be reflected in differences in both vowel and closure durations.
 
 Under an account of temporal compensation, the voicing effect can be interpreted as a by-product of gestural phasing and mechanisms operating on the timing of the VC boundary.
@@ -878,12 +878,12 @@ PL07 & 32 & Female & Polish  & English, Russian                          & Biels
 }
 
 ## Target words
-\label{a:targets}
+\label{a:targetsR}
 
-See \Cref{t:targets}.
+See \Cref{t:targetsR}.
 
 \ctable[caption = Target words. Asterisks indicate real words,
-label = t:targets,
+label = t:targetsR,
 star,
 doinside = \footnotesize
 ]{lllllll}{}{
