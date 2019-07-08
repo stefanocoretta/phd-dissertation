@@ -15,10 +15,39 @@ This so-called 'voicing effect' interacts with a variety of linguistic factors a
 While much progress has been made in understanding this link, after more than a century there is still disagreement as to what contributes to the emergence of this phenomenon, as evidenced by the numerous accounts put forward.
 
 Given the plurality of views concerning less understood aspects of the voicing effect, this thesis set out to investigate this phenomenon by employing a diverse set of techniques and sources of data.
-To keep this type of enquiry manageable, it was decided to undertake this endeavour from a speech production outlook, an area which has fuelled a great part of the debate within the voicing effect literature.
+To keep this type of enquiry manageable, I decided to undertake this endeavour from a speech production outlook, an area which has fuelled a great part of the debate within the voicing effect literature.
 In particular, this thesis poses the question of what aspects of the articulation of vowel-consonant sequences can inform us on the influence of consonant voicing on the duration of vowels.
-In answering this question, a combination of acoustic, ultrasound tongue imaging, and electroglottographic data was collected as part of two studies on Italian, Polish, and English.
+In answering this question, I collected data from a combination of acoustic, ultrasound tongue imaging, and electroglottographic techniques as part of two studies on Italian, Polish, and English.
 These languages constitute an appropriate set in that they constitute a methodological window into the complex variation of the voicing effect as seen both across and within languages.
+
+This research project orbits around two broad aims.
+First, I sought to obtain acoustic and articulatory data using modern methods which would shed light on the production accounts put forward in the past century.
+The second objective was to enlighten the debate on reported cross-linguistic differences by conducting a comparative analysis which encompasses three related but contrasting languages.
+The papers in Part II offer evidence in relation to these goals.
+
+The specific questions touched upon in this dissertation encompass topics at the intersection between phonetics and phonology \citet{ohala1990, ohala1997, ohala2005, port2005, cohn2010}, and cover both concrete, observable phenomena, and abstract, formalised aspects of speech processing.
+Among the questions posed by this work there are the following:
+
+* In light of the accounts of the voicing effect, is it possible to identify mechanisms of temporal compensation and/or articulatory adjustments that result in the observed patters of vowel and consonant duration?
+* Do these aspects of production follow universal patterns and constraints, or can different languages modulate their implementation in specific ways?
+* Which articulatory properties of voicing directly manipulate vowel and consonant durations, and in particular what mechanisms influence the timing of the consonantal closure?
+* Do voiceless and voiced consonants target different articulatory realisations, or are there some oral and/or laryngeal configurations or processes that are shared between them?
+* What role does perception have in enhancing production-based differences, and what production constraints are there on perceptual biases?
+* What can we learn about other durational effects from the study of the voicing effect?
+* Can the magnitudes of the voicing effect reported in previous studies be replicated with new data, and what research aspects could be responsible of differences?
+* Can the mechanisms behind the voicing effect inform us on more general aspects of gestural phasing and articulatory timing within and beyond the traditional syllable?
+* What level of confidence can we attribute to previous and current results, considering the weight of the evidence provided by the data?
+
+## Organisation of this thesis
+
+The thesis is organised as follows. The following three chapters constitute the introductory part, and they present in turn a review of the literature on the voicing effect (\Cref{s:ve}), an overview of the studies conducted (\Cref{s:studies}), and a discussion of the principles of the Open Science movement (\Cref{s:openscience}), which has had a deep impact on the shape of this project.
+The second part of the thesis is a collection of original manuscripts in the form of standalone papers (...), which report and discuss the methodological and conceptual contributions of the present work.
+Papers ... and ... deal with the duration of the release-to-release interval in Italian and Polish, and English respectively.
+Paper ... deals with the relation between tongue root advancement and vowel duration in Italian and Polish.
+Paper ... and ... introduce two methods for the analysis of tongue contours and electroglottographic data using generalised additive modelling, and discuss cross-linguistic and speaker-level similarities and differences concerning tongue root advancement and glottal spreading in Italian and Polish.
+Finally, ... summarises the results of this investigation by providing an overarching synthesis, and concludes with a discussion of limitations and future avenues of research.
+
+## Summary of results
 
 The results of the investigation of acoustic segment durations, tongue root position, and glottal adjustments suggest a composite production account of the voicing effect which synthesises previous independent and seemingly contrasting proposals.
 Based on data from disyllabic words of Italian, Polish, and English, it is demonstrated that the duration of the speech interval between the releases of two stops flanking a stressed vowel is not affected by the voicing status of the post-vocalic consonant.
@@ -40,15 +69,6 @@ Furthermore, the analysis of vocal fold activity during the production of vowels
 This difference is taken as evidence for a language-specific implementation of the timing of glottal spreading.
 Increased glottal spread before voiceless stops is understood as the precursor of pre-aspiration, the presence of which has been reported in Italian \citep{ni-chasaide1993, stevens2004a, stevens2004, stevens2010, stevens2010b, stevens2014a}.
 By combining previous work on pre-aspiration \citep{lisker1974, nichasaide1985, stevens2014}, two alternative path-ways of sound change development are proposed: either pre-aspiration is enhanced by shortening the closure of the stop, or it is reduced or prevented altogether by producing an earlier stop closure. The latter solution would mask the acoustic effects of glottal spreading and result in a longer closure duration, other things being equal.
-
-## Organisation of this thesis
-
-The thesis is organised as follows. The following three chapters constitute the introductory part, and they present in turn a review of the literature on the voicing effect (\Cref{s:ve}), an overview of the studies conducted (\Cref{s:studies}), and a discussion of the principles of the Open Science movement (\Cref{s:openscience}), which has had a deep impact on the shape of this project.
-The second part of the thesis is a collection of original manuscripts in the form of standalone papers (...), which report and discuss the methodological and conceptual contributions of the present work.
-Papers ... and ... deal with the duration of the release-to-release interval in Italian and Polish, and English respectively.
-Paper ... deals with the relation between tongue root advancement and vowel duration in Italian and Polish.
-Paper ... and ... introduce two methods for the analysis of tongue contours and electroglottographic data using generalised additive modelling, and discuss cross-linguistic and speaker-level similarities and differences concerning tongue root advancement and glottal spreading in Italian and Polish.
-Finally, ... summarises the results of this investigation by providing an overarching synthesis, and concludes with a discussion of limitations and future avenues of research.
 
 # The voicing effect and beyond
 \label{s:ve}
