@@ -158,6 +158,11 @@ Differences below 5 ms would be masked by noise and more difficult to be detecte
 On the other hand, \citet{begus2017} reports very small standard errors, even below 1 ms.
 In sum, our current knowledge of perceptible and measurable differences is limited, and future work should focus on investigating both in light of theoretical and practical considerations.
 
+This dissertation focussed on the voicing effect of stop consonants, but other manners of articulation participate in the effect.
+According to the compensatory account presented here, a greater difference in consonant duration should correspond to a greater voicing effect.
+For example, \citet{crystal1988} report a greater difference in fricative duration than in stop duration, which would be compatible with a greater voicing effect in the former.
+However, while \citet{house1953} and \citet{peterson1960} find that the effect is greater in fricatives than in stops, \citet{tanner2019} observe the opposite trend.
+Future work should directly test the relation between differences in consonant duration and the voicing effect with consonants belonging to different manners of articulation.
 
 
 # (PART) Appendices {-}
