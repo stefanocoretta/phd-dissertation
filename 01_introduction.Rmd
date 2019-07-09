@@ -25,7 +25,7 @@ First, I sought to obtain acoustic and articulatory data using modern methods wh
 The second objective was to enlighten the debate on reported cross-linguistic differences by conducting a comparative analysis which encompasses three related but contrasting languages.
 The papers in Part II offer evidence in relation to these goals.
 
-The specific questions touched upon in this dissertation encompass topics at the intersection between phonetics and phonology \citet{ohala1990, ohala1997, ohala2005, port2005, cohn2010}, and cover both concrete, observable phenomena, and abstract, formalised aspects of speech processing.
+The specific questions touched upon in this dissertation encompass topics at the intersection between phonetics and phonology \citep{ohala1990, ohala1997, ohala2005, port2005, cohn2010}, and cover both concrete, observable phenomena, and abstract, formalised aspects of speech processing.
 Among the questions posed by this work there are the following:
 
 * In light of the accounts of the voicing effect, is it possible to identify mechanisms of temporal compensation and/or articulatory adjustments that result in the observed patters of vowel and consonant duration?
@@ -40,12 +40,23 @@ Among the questions posed by this work there are the following:
 
 ## Organisation of this thesis
 
-The thesis is organised as follows. The following three chapters constitute the introductory part, and they present in turn a review of the literature on the voicing effect (\Cref{s:ve}), an overview of the studies conducted (\Cref{s:studies}), and a discussion of the principles of the Open Science movement (\Cref{s:openscience}), which has had a deep impact on the shape of this project.
+The thesis is organised as follows. The following three chapters constitute the introductory part, and they present in turn a review of the literature on the voicing effect (\Cref{s:ve}), an overview of the studies conducted (\Cref{s:studies}), and a discussion of Open Science principles (\Cref{s:openscience}), which have had a deep impact on the shape of this project.
+
 The second part of the thesis is a collection of original manuscripts in the form of standalone papers (...), which report and discuss the methodological and conceptual contributions of the present work.
-Papers ... and ... deal with the duration of the release-to-release interval in Italian and Polish, and English respectively.
-Paper ... deals with the relation between tongue root advancement and vowel duration in Italian and Polish.
-Paper ... and ... introduce two methods for the analysis of tongue contours and electroglottographic data using generalised additive modelling, and discuss cross-linguistic and speaker-level similarities and differences concerning tongue root advancement and glottal spreading in Italian and Polish.
-Finally, ... summarises the results of this investigation by providing an overarching synthesis, and concludes with a discussion of limitations and future avenues of research.
+Papers I deals with compensatory aspects of the voicing effect in Italian and Polish acoustic data, and provides evidence for the durational stability of a speech interval across voicing contexts.
+The paper discusses the mechanisms of compensation between vowel and closure duration within such interval.
+
+Paper II extends the findings from Paper I to English, by comparing the durational aspects of monosyllabic and disyllabic words.
+More specifically, I discuss how differences in the gestural organisation of mono- vs disyllabic words illuminates us on diachronic pathways and perceptual biases behind the voicing effect in these two contexts.
+Moreover, I relate the current results with those from previous work, by means of a meta-analytical study of the voicing effect in English.
+
+Paper III deals with voicing-related gestures that modulate the position of the tongue root in Italian and Polish, using ultrasound tongue imaging data.
+In particular, I explore the link between vowel duration, closure duration and tongue root advancement, and discuss how the timing of consonant closure affects all three aspects.
+
+Paper IV and V introduce two methods for the analysis of tongue contours and electroglottographic data using generalised additive modelling, and discuss cross-linguistic and speaker-level similarities and differences concerning tongue root advancement and glottal spreading in Italian and Polish.
+In Paper V, I also cover diachronic aspects of pre-aspiration and how these can affect the timing of the closure onset.
+
+Finally, \Cref{s:gen-disc} and ... summarise the results of this investigation by providing an overarching synthesis, and concludes with a discussion of limitations and future avenues of research.
 
 ## Summary of results
 

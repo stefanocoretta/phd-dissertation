@@ -1,6 +1,7 @@
 # (PART) Conclusion {-}
 
 # General discussion
+\label{s:gen-disc}
 
 This dissertation investigated the influence of consonant voicing on vowel duration by focussing on production aspects of vowel-consonant sequences.
 As a cross-linguistic tendency, vowels are shorter when followed by voiceless consonants and longer when followed by voiced ones.
