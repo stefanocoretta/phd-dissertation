@@ -127,4 +127,37 @@ However, when their results are compared to those of Study II, the difference is
 The ratio of the difference in vowel duration in \citet{tanner2019} is estimated to be between 1 and 1.16.
 The ratio in Study II is between 1.03 and 1.17, a range that is virtually identical to that of \citet{tanner2019}.
 
+# Final thoughts
+
+The use of nonce words could be seen as detrimental due to the their unnaturalness.
+However, using nonce words has the perk of facilitating experimental design and control over phonological factors.
+Note that the effects found here are built according to analogical processes based on stored exemplars and/or abstract representations.
+Hence, even if unnatural speech was used, these studies have tapped into the speakers' knowledge, though somewhat indirectly.
+Moreover, nonce words eliminate issues relating to lexical frequency, which can substantially affect results.
+On the other hand, neighbourhood density is not controlled for, and this might still exercise an influence on the phonetic effects sought for in this dissertation.
+It is desirable that future work investigates the patterns observed in nonce words using real words, while carefully controlling for lexical frequency and neighbourhood density, among other usage factors.
+
+A limitation of the studies in this work is related to statistical precision of the effect estimates.
+As discussed in several places, some of the effects have quite large confidence/credible intervals.
+In some cases, like in the cross-linguistic comparative analysis of the voicing effect, it is difficult to draw any certain conclusion.
+Much of this uncertainty derives from the sample sizes employed in these studies.
+Although the number of speakers included is generally equal or above average (see ...), the number of observations is not at times sufficient enough to reach an appreciable precision.
+The results discussed in this dissertation stress how important obtaining a sufficient sample is, especially when dealing with small effect sizes.
+Much of the phonetic literature relies on small sample sizes, but most work is done on data which is generally quite noisy.
+Note also that arguments of magnitude are very often used to make theoretical statements about what constitute a relevant effect.
+However, reasoning on theoretical relevance of effect sizes is probably currently biased, and most of phonetics and phonological theory makes qualitative rather than precise quantitative predictions.
+
+Thresholds based on just noticeable differences also have their limits.
+\citet{huggins1972} for example shows that the perceptual threshold for segment durations varies depending on the type and baseline duration of the segment.
+For example, for a 90 ms vowel, speakers can reliably detect differences of 5 ms.
+Moreover, as ... say, such thresholds could be relevant only within the task they have been elicited in, and in more natural contexts even smaller differences could be perceptible in conjunction with other, possibly more robust, cues.
+Until we can establish with certainty what differences in which contexts are physiologically impossible to be perceived, an alternative solution could be to use measurement precision as a threshold.
+For example, \citet{allen1978} shows that the 95% confidence intervals of vowels measured by accurate phoneticians ranges between 10 and 25 ms.
+We could take the smallest value (10 ms) as representative of a region of practical equivalence (see ...).
+Differences below 5 ms would be masked by noise and more difficult to be detected.
+On the other hand, \citet{begus2017} reports very small standard errors, even below 1 ms.
+In sum, our current knowledge of perceptible and measurable differences is limited, and future work should focus on investigating both in light of theoretical and practical considerations.
+
+
+
 # (PART) Appendices {-}
