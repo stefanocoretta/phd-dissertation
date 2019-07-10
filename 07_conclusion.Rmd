@@ -149,7 +149,7 @@ However, reasoning on theoretical relevance of effect sizes is probably currentl
 
 Thresholds based on just noticeable differences also have their limits.
 \citet{huggins1972} for example shows that the perceptual threshold for segment durations varies depending on the type and baseline duration of the segment.
-For example, for a 90 ms vowel, speakers can reliably detect differences of 5 ms.
+For example, for a 90 ms vowel, speakers can reliably detect differences of 5 ms (cf. the Weber–Fechner law, \citet{fechner1966}).
 Moreover, as ... say, such thresholds could be relevant only within the task they have been elicited in, and in more natural contexts even smaller differences could be perceptible in conjunction with other, possibly more robust, cues.
 Until we can establish with certainty what differences in which contexts are physiologically impossible to be perceived, an alternative solution could be to use measurement precision as a threshold.
 For example, \citet{allen1978} shows that the 95% confidence intervals of vowels measured by accurate phoneticians ranges between 10 and 25 ms.
@@ -163,6 +163,19 @@ According to the compensatory account presented here, a greater difference in co
 For example, \citet{crystal1988} report a greater difference in fricative duration than in stop duration, which would be compatible with a greater voicing effect in the former.
 However, while \citet{house1953} and \citet{peterson1960} find that the effect is greater in fricatives than in stops, \citet{tanner2019} observe the opposite trend.
 Future work should directly test the relation between differences in consonant duration and the voicing effect with consonants belonging to different manners of articulation.
+
+The compensatory account presented here rests on the cyclic production of vowel sequences \citet{ohman1967, fowler1983}.
+\citet{zmarich2011} and \citet{zeroual2015} have demonstrated that the interval between the vowels flanking the stops is not isochronous in the context of singleton vs. geminate stops.
+However, the absence of isochrony in these contexts follows from the gestural organisation of the segments involved.
+While in the case of singleton stops, the vocalic gestures are immediately adjacent to each other, in the case of geminates, there is an intervening (consonantal) gesture that is in an anti-phase relation with the first vowel in the sequence.
+Since the two syllables are produced anti-phase relative to each other, the gesture of the second vowel is initiated after the completion of the intervening anti-phase gesture.
+As a consequence, the gestural onset of the second consonant is delayed in the geminate context relative to the singleton context.
+
+Future work should investigate vowel-to-vowel isochrony within contexts that have a comparable phasing profile (for example, within CV.CV words and within CVC.CV, but not across the two).
+The acoustic patterns discussed in this dissertation assume that the distance between the vowels in CV.CV words is not affected by the second consonant and that the timing of the gestural onset and release are the same independent of voicing, while the velocity profiles of the closing gesture differs.
+By extension, I propose that the vowel-to-vowel interval should be isochronous when comparing different manners of articulation, like in pairs such as Italian /kadi/ and /kazi/.
+Jaw displacement could be employed as an index of the gestural timing of the vocalic gestures in plurisyllabic words \citep{menezes2013, kawahara2017}.
+The temporal distance between the onsets or maxima of jaw displacement should be identical or very similar across voicing status, place, and manner of articulation of intervening consonant.
 
 
 # (PART) Appendices {-}
