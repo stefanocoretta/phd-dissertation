@@ -1,0 +1,104 @@
+
+\chapter{An informal analysis of number of speakers per phonetic study by year and endangerment status}
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_knit$set(root.dir = here::here())
+library(tidyverse)
+theme_set(theme_minimal())
+```
+
+```{r load-data, include=FALSE}
+load("./datasets/speakers.rds")
+```
+
+This analysis is based on the dataset used in \citet{roettger2017} and \citet{gordon2017} \citep{gordon2018}.\footnote{A previous version of this appendix appeared as a blog post at \url{https://stefanocoretta.github.io/post/an-estimate-of-number-of-speakers-per-study-in-phonetics/}.}
+The dataset contains information on number of participants from 113 studies, published between 1955 and 2017 (the majority of the studies are within the range 1990--2017).
+
+The median number of speakers per study across the entire dataset is 5.
+The histogram below shows that most studies have 10 speakers or less, and that there are a few outliers with 30-40 speakers.
+
+```{r hist}
+speakers %>%
+  ggplot(aes(no_speakers)) +
+  geom_histogram(colour = "#306754", fill = "#306754", alpha = 0.9, binwidth = 2.5) +
+  # geom_vline(xintercept = median(speakers$no_speakers), linetype = "dashed") +
+  scale_x_continuous(breaks = seq(0, 40, 5)) +
+  theme(panel.grid.minor.y = element_blank(), panel.grid.major.y = element_blank(), panel.grid.minor.x = element_blank()) +
+  labs(
+    title = "Histogram of number of speakers per study",
+    x = "Number of speakers",
+    y = element_blank()
+  )
+```
+
+The following plot shows the number of speakers across publication year.
+There is a tendecy for an increase in number of speakers, although the trend is not particularly marked.
+
+```{r year}
+speakers %>%
+  ggplot(aes(year, no_speakers)) +
+  geom_point(position = position_jitter(seed = 394), colour = "#306754", size = 2) +
+  geom_smooth(method = "lm") +
+  labs(
+    title = "Number of speakers per study through the years",
+    x = "Year",
+    y = "Number of speakers"
+  )
+```
+
+The following bar chart shows the median number of speakers in studies grouped by linguistic affiliation.
+The colour of the bars indicates the number of studies.
+Indo-European languages stand out in terms of number of studies (> 30), but the median number of speakers in this family does not fare much better than other less-reachable families.
+
+```{r participants-affiliation}
+speakers %>%
+  group_by(affiliation) %>%
+  summarise(median_sp = median(no_speakers), sd = sd(no_speakers), n_studies = n()) %>%
+  ggplot(aes(reorder(affiliation, desc(median_sp)), median_sp, fill = n_studies)) +
+  geom_bar(stat = "identity") +
+  # geom_errorbar(aes(ymin = median_sp - sd, ymax = median_sp + sd)) +
+  scale_fill_distiller(palette = "Greens") +
+  scale_y_continuous(breaks = seq(0, 13, 2)) +
+  theme(axis.text.x = element_text(angle = 90), panel.grid.major.x = element_blank()) +
+  labs(
+    title = "Number of speakers by linguistic affiliation (median)",
+    x = element_blank(),
+    y = "Median number of speakers",
+    fill = "Number of studies"
+  )
+```
+
+Information on the endangerment status of the languages in the dataset was obtained from GlottoLog.\footnote{\url{https://glottolog.org/meta/downloads}.}
+The following strip chart shows the number of speakers for each of the studies (each point) categorised by the endangerment of the target language.
+With the caveat that there are more studies on safe languages, there is a trend of decreasing number of speakers from safe, to vulnerable, to definitely endangered languages.
+The very low number of studies on languages of greater endangerment status makes it harder to establish patterns.
+Note also that the decreasing trend is in fact small (1/2 speakers).
+
+```{r status}
+speakers %>%
+  ggplot(aes(status, no_speakers, colour = status)) +
+  geom_jitter(alpha = 0.8, position = position_jitter(width = 0.3, seed = 123)) +
+  stat_summary(fun.y = median, geom = "point", shape = 18, size = 4, color = "black") +
+  scale_x_discrete(
+    labels = function(labels) {
+      fixedLabels <- c()
+      for (l in 1:length(labels)) {
+        fixedLabels <- c(fixedLabels, str_replace(labels[l], " ", "\n"))
+      }
+      return(fixedLabels)
+    }
+  ) +
+  scale_color_brewer(palette = "Paired") +
+  theme(panel.grid.major.x = element_blank(), legend.position = "none") +
+  labs(
+    title = "Number of participants per study by language endangerment status",
+    subtitle = "The diamonds indicate the median.",
+    x = "Endangerment status",
+    y = "Number of participants"
+  )
+```
+
+While generalisations based on this cursory analysis would not be wise, there seems to be a tendency for studies to have a very low number of speakers (median 5 speakers per study).
+The majority of studies analysed data from 10 speakers or less.
+This estimate is independent of publication year and endangerment status of the language enquired.
