@@ -88,7 +88,6 @@ A long-recognised property of vowels is that their duration is influenced by the
 Across a wide variety of languages, vowels tend to be shorter when followed by voiceless consonants, and longer when followed by voiced ones.
 This phenomenon has been called the 'voicing effect' \citep{mitleb1982} or 'pre-fortis clipping' \citep{wells1990}.
 Remarkably, no known language has been reported to have the opposite effect, namely longer vowel durations before voiceless than before voiced consonants.\footnote{This does not exclude that there might be or have been a language that shows this pattern.}
-In face of this, the voicing effect is one of the most robust and most researched effects found in the phonetic and phonological literature.
 Among the earliest traceable mentions to this phenomenon there are \citet{meyer1903} for English (cited in \citealt{lindblom1967}), \citet{meyer1904} for German, \citet{meyer1909} for Hungarian, and \citet{gregoire1911} for French (all cited in \citealt{maddieson1976}).
 After these, a great number of studies further confirmed the existence of the effect in these languages and reported it in an ever increasing list of others.
 
