@@ -139,9 +139,9 @@ It is desirable that future work investigates the patterns observed in nonce wor
 
 A limitation of the studies in this work is related to statistical precision of the effect estimates.
 As discussed in several places, some of the effects have quite large confidence/credible intervals.
-In some cases, like in the cross-linguistic comparative analysis of the voicing effect, it is difficult to draw any certain conclusion.
+In some cases, like in the cross-linguistic comparative analysis of the voicing effect, it is difficult to make unambiguous inferential statements.
 Much of this uncertainty derives from the sample sizes employed in these studies.
-Although the number of speakers included is generally equal or above average (see ...), the number of observations is not at times sufficient enough to reach an appreciable precision.
+Although the number of speakers included here is generally equal or above average (see \Cref{a:speakers}), the number of observations is not at times sufficient enough to reach an appreciable degree of precision.
 The results discussed in this dissertation stress how important obtaining a sufficient sample is, especially when dealing with small effect sizes.
 Much of the phonetic literature relies on small sample sizes, but most work is done on data which is generally quite noisy.
 Note also that arguments of magnitude are very often used to make theoretical statements about what constitute a relevant effect.
@@ -174,7 +174,7 @@ As a consequence, the gestural onset of the second consonant is delayed in the g
 Future work should investigate vowel-to-vowel isochrony within contexts that have a comparable phasing profile (for example, within CV.CV words and within CVC.CV, but not across the two).
 The acoustic patterns discussed in this dissertation assume that the distance between the vowels in CV.CV words is not affected by the second consonant and that the timing of the gestural onset and release are the same independent of voicing, while the velocity profiles of the closing gesture differs.
 By extension, I propose that the vowel-to-vowel interval should be isochronous when comparing different manners of articulation, like in pairs such as Italian /kadi/ and /kazi/.
-Jaw displacement could be employed as an index of the gestural timing of the vocalic gestures in plurisyllabic words \citep{menezes2013, kawahara2017}.
+Jaw displacement could be employed as an index of the gestural timing of the vocalic gestures in plurisyllabic words \citep{menezes2013, erickson2016, kawahara2017}.
 The temporal distance between the onsets or maxima of jaw displacement should be identical or very similar across voicing status, place, and manner of articulation of intervening consonant.
 
 

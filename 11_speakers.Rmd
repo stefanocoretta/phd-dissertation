@@ -1,5 +1,6 @@
 
 \chapter{An informal analysis of number of speakers per phonetic study by year and endangerment status}
+\label{a:speakers}
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
