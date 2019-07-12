@@ -28,6 +28,7 @@ studies <- stressed %>% select(study, n_syl:word_pos_2) %>% unique() %>%
 \appendix
 
 \chapter{Bayesian meta-analysis of the voicing effect in English}
+\label{a:ve-eng}
 
 A Bayesian meta-analysis of the English voicing effect has been run on the basis of 11 estimated posterior distributions extracted from 9 different publications, following the procedures discussed in \citet{nicenboim2018a}.
 The studies were selected by scraping the first 100 results on Google Scholar with the keywords "vowel duration voicing English".

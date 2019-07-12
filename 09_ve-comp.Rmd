@@ -13,6 +13,7 @@ data("eng_durations")
 ```
 
 \chapter{Cross-linguistic comparison of the voicing effect in English, Italian, and Polish}
+\label{a:ve-comp}
 
 ```{r merge-data}
 ita_pol <- token_measures %>%
