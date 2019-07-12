@@ -24,7 +24,7 @@ These two coupling modes can account for temporal aspects observed in the relati
 
 \begin{figure}
   \includegraphics{./img/gest-align.pdf}
-  \caption{Gestural organisation patterns for onsets (a), codas (b), heterosyllabic onsets (c). C = consonant, V = vowel (design based on \citealt{marin2010}).}
+  \caption{Gestural organisation patterns for onsets (a) and codas (b). C = consonant, V = vowel (design based on \citealt{marin2010}).}
   \label{fig:gorganisation}
 \end{figure}
 
