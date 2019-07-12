@@ -134,48 +134,49 @@ Especially in the case of monosyllabic words, as argued above, language-specific
 For example, \citet{tanner2019} demonstrate that, although not unambiguously, the effect of voicing on vowel duration in monosyllabic words differs across varieties of English.
 More work is needed to assess cross-linguistic differences with a sufficiently sampled dataset and by experimental procedures designed to reduce phonological differences.
 
-# Final thoughts
+# Concluding remarks
 \label{s:final}
 
-The use of nonce words could be seen as detrimental due to the their unnaturalness.
+The aim of this dissertation was to investigate properties of speech production that could illuminate the debate on the origin of the effect of consonant voicing on vowel duration.
+While the results of this endeavour contributed to answering the questions introduced in \Cref{s:overview}, some open issues remain and new questions are brought to light.
+The following paragraphs review these and offer some final thoughts on future directions of research.
+
+The use of nonce words in the present experiments might be seen as problematic due to the fact that they might have encouraged unnatural speech.
 However, using nonce words has the perk of facilitating experimental design and control over phonological factors.
-Note that the effects found here are built according to analogical processes based on stored exemplars and/or abstract representations.
-Hence, even if unnatural speech was used, these studies have tapped into the speakers' knowledge, though somewhat indirectly.
-Moreover, nonce words eliminate issues relating to lexical frequency, which can substantially affect results.
-On the other hand, neighbourhood density is not controlled for, and this might still exercise an influence on the phonetic effects sought for in this dissertation.
-It is desirable that future work investigates the patterns observed in nonce words using real words, while carefully controlling for lexical frequency and neighbourhood density, among other usage factors.
+Note that phonetic effects like the ones under discussion can operate according to analogical processes based on stored exemplars and/or abstract representations.
+Hence, even if unnatural speech materials were used here, these studies should have tapped into the speakers' knowledge, even though indirectly.
+Moreover, nonce words eliminate issues in relation to usage factors like lexical frequency, which can have a substantial influence \citep{hay2015, soskuthy2017a, soskuthy2018, todd2019}.
+On the other hand, neighbourhood density was not controlled for, a factor which is also known to play a role \citep{baese-berk2009, goldrick2013, seyfarth2016, glewwe2018}.
+It is desirable that future work investigates the patterns observed here using real words, while carefully controlling for lexical frequency and neighbourhood density, among other usage factors.
 
 A limitation of the studies in this work is related to statistical precision of the effect estimates.
-As discussed in several places, some of the effects have quite large confidence/credible intervals.
-In some cases, like in the cross-linguistic comparative analysis of the voicing effect, it is difficult to make unambiguous inferential statements.
-Much of this uncertainty derives from the sample sizes employed in these studies.
-Although the number of speakers included here is generally equal or above average (see \Cref{a:speakers}), the number of observations is not at times sufficient enough to reach an appreciable degree of precision.
+As discussed throughout this dissertation, some of the effects have quite large confidence/credible intervals.
+In some cases, like in the cross-linguistic comparative analysis of the voicing effect, making unambiguous inferential statements becomes difficult.
+Possibly, much of this uncertainty derives from the sample sizes employed in these studies.
+Although the number of speakers included here is generally similar or greater than average (see \Cref{a:speakers}), the number of observations might not have been sufficient enough to reach an appreciable degree of precision.
 The results discussed in this dissertation stress how important obtaining a sufficient sample is, especially when dealing with small effect sizes.
-Much of the phonetic literature relies on small sample sizes, but most work is done on data which is generally quite noisy.
-Note also that arguments of magnitude are very often used to make theoretical statements about what constitute a relevant effect.
-However, reasoning on theoretical relevance of effect sizes is probably currently biased, and most of phonetics and phonological theory makes qualitative rather than precise quantitative predictions.
+Much of the phonetic literature relies on small sample sizes, but most work is done on speech data which is typically quite noisy.
 
-Thresholds based on just noticeable differences also have their limits.
-\citet{huggins1972} for example shows that the perceptual threshold for segment durations varies depending on the type and baseline duration of the segment.
-For example, for a 90 ms vowel, speakers can reliably detect differences of 5 ms (cf. the Weber–Fechner law, \citet{fechner1966}).
-Moreover, as ... say, such thresholds could be relevant only within the task they have been elicited in, and in more natural contexts even smaller differences could be perceptible in conjunction with other, possibly more robust, cues.
-Until we can establish with certainty what differences in which contexts are physiologically impossible to be perceived, an alternative solution could be to use measurement precision as a threshold.
-For example, \citet{allen1978} shows that the 95% confidence intervals of vowels measured by accurate phoneticians ranges between 10 and 25 ms.
-We could take the smallest value (10 ms) as representative of a region of practical equivalence (see ...).
-Differences below 5 ms would be masked by noise and more difficult to be detected.
-On the other hand, \citet{begus2017} reports very small standard errors, even below 1 ms.
-In sum, our current knowledge of perceptible and measurable differences is limited, and future work should focus on investigating both in light of theoretical and practical considerations.
+Moreover, arguments of effect size are very often used to make statements about what constitute a theoretically relevant effect.
+However, much of phonetics and phonological theory makes qualitative rather than precise quantitative predictions, and argumentations on the theoretical relevance of effect sizes at present are probably biased due to the issues discussed in \Cref{s:openscience}.
+In any case, precision targets based on just noticeable differences have restricted scope.
+For example, \citet{huggins1972} shows that the perceptual threshold for segment durations varies depending on the type and baseline duration of the segment (cf. the Weber–Fechner law, \citealt{fechner1966}).
+Speakers can reliably detect differences of down to 5 ms with vowels that are 90 ms long \citep{nooteboom1980}.
+Furthermore, these perceptual thresholds might be relevant only within the task they have been elicited in, and in more natural contexts even smaller differences could be perceptible in conjunction with other, possibly more robust, cues.
+In sum, our current knowledge of perceptible differences is still limited, and future work should focus on investigating this matter both in light of theoretical and practical considerations.
+Until we can establish with certainty what differences in which contexts are physiologically impossible to be perceived, it is probably wise to report even very small, seemingly irrelevant effects while aiming at the highest level of precision possible.
 
-This dissertation focussed on the voicing effect of stop consonants, but other manners of articulation participate in the effect.
+This dissertation focuses on the voicing effect of stop consonants, but other manners of articulation participate in the effect.
 According to the compensatory account presented here, a greater difference in consonant duration should correspond to a greater voicing effect.
 For example, \citet{crystal1988} report a greater difference in fricative duration than in stop duration, which would be compatible with a greater voicing effect in the former.
 However, while \citet{house1953} and \citet{peterson1960} find that the effect is greater in fricatives than in stops, \citet{tanner2019} observe the opposite trend.
 Future work should directly test the relation between differences in consonant duration and the voicing effect with consonants belonging to different manners of articulation.
 
-The compensatory account presented here rests on the cyclic production of vowel sequences \citet{ohman1967, fowler1983}.
-\citet{zmarich2011} and \citet{zeroual2015} have demonstrated that the interval between the vowels flanking the stops is not isochronous in the context of singleton vs. geminate stops.
-However, the absence of isochrony in these contexts follows from the gestural organisation of the segments involved.
-While in the case of singleton stops, the vocalic gestures are immediately adjacent to each other, in the case of geminates, there is an intervening (consonantal) gesture that is in an anti-phase relation with the first vowel in the sequence.
+The compensatory account presented here rests on the cyclic production of vocalic gestures \citep{ohman1967, fowler1983}.
+\citet{zmarich2011} and \citet{zeroual2015} demonstrate that the temporal distance between two vowels with an intervening stop differs depending on whether the stop is a singleton or a geminate (the distance is greater in the latter case).
+However, I argue that the absence of vowel-to-vowel isochrony in these contexts follows from the gestural organisation of the segments involved.
+In the case of singleton stops, the vocalic gestures are immediately adjacent to each other, since onset consonant are allegedly realised synchronously with their tautosyllabic vowels.
+In the case of geminates, on the other hand, the intervening (consonantal) gesture is in an anti-phase relation with the first vowel in the sequence so that the two vowels are separated by the consonant.
 Since the two syllables are produced anti-phase relative to each other, the gesture of the second vowel is initiated after the completion of the intervening anti-phase gesture.
 As a consequence, the gestural onset of the second consonant is delayed in the geminate context relative to the singleton context.
 
