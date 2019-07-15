@@ -9,6 +9,12 @@ library(brms)
 library(tidybayes)
 library(knitr)
 library(kableExtra)
+
+def.chunk.hook  <- knitr::knit_hooks$get("chunk")
+knitr::knit_hooks$set(chunk = function(x, options) {
+  x <- def.chunk.hook(x, options)
+  ifelse(options$size != "normalsize", paste0("\\", options$size,"\n\n", x, "\n\n \\normalsize"), x)
+})
 ```
 
 ```{r data}
@@ -380,8 +386,8 @@ The population-level effects are the ones of interest.
 The blue-coloured bars represent (from darker to lighter blue) the 50%, 80%, and 95% credible intervals (CIs).
 THe black lines are the 66% (thick) and 98% (thin) CIs.
 
-```{r meta-summary, include=TRUE}
-summary(meta_bm_syl)
+```{r meta-summary, include=TRUE, size="footnotesize"}
+cat(capture.output(summary(meta_bm_syl))[8:16], sep = "\n")
 ```
 
 ```{r intervals-plot, include=TRUE, fig.cap = "Credible intervals of the meta-analytical posterior distributions."}

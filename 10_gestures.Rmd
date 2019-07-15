@@ -33,6 +33,12 @@ gestures <- token_measures %>%
   mutate_if(is_character, as_factor)
 
 gest_gmax <- filter(gestures, gons_max > 10)
+
+def.chunk.hook  <- knitr::knit_hooks$get("chunk")
+knitr::knit_hooks$set(chunk = function(x, options) {
+  x <- def.chunk.hook(x, options)
+  ifelse(options$size != "normalsize", paste0("\\", options$size,"\n\n", x, "\n\n \\normalsize"), x)
+})
 ```
 
 A consequence of the gestural organisation proposed to account for the stability of the release-to-release interval duration is that the timing of the gestural onset should not be affected by the voicing status of the consonant in disyllabic words.
@@ -77,8 +83,8 @@ rel_gons_bm <- brm(
 )
 ```
 
-```{r rel-gons-summary}
-summary(rel_gons_bm)
+```{r rel-gons-summary, size="footnotesize"}
+cat(capture.output(summary(rel_gons_bm))[8:31], sep = "\n")
 ```
 
 The following plot shows the posterior probabilities of the effects of voicing, place of articulation, and vowel on gestural onset timing.

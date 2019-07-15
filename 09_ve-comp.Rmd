@@ -10,6 +10,12 @@ library(coretta2018itapol)
 data("token_measures")
 library(coretta2019eng)
 data("eng_durations")
+
+def.chunk.hook  <- knitr::knit_hooks$get("chunk")
+knitr::knit_hooks$set(chunk = function(x, options) {
+  x <- def.chunk.hook(x, options)
+  ifelse(options$size != "normalsize", paste0("\\", options$size,"\n\n", x, "\n\n \\normalsize"), x)
+})
 ```
 
 \chapter{Cross-linguistic comparison of the voicing effect in English, Italian, and Polish}
@@ -93,8 +99,8 @@ brm_1 <- brm(
 )
 ```
 
-```{r brm-1-summary}
-summary(brm_1)
+```{r brm-1-summary, size="footnotesize"}
+cat(capture.output(summary(brm_1))[8:33], sep = "\n")
 ```
 
 ```{r brm-1-draws}
@@ -121,7 +127,7 @@ brm_1_draws %>%
   theme(panel.grid.minor = element_blank())
 ```
 
-\Cref{fig:ve-int} shows the posterior distributions for the effects of language, voicing, centred speech rate, and language × voicing interaction.
+The plot above shows the posterior distributions for the effects of language, voicing, centred speech rate, and language × voicing interaction.
 The effect of voicing in English is between 7 and 28.5 ms at 95% probability.
 There is weak evidence for longer vowels in Italian and shorter vowels in Polish compared to English, but the credible intervals of these effects are very wide.
 Speech rate has a strong and robust negative effect on vowel duration: for each syllable per second unit increase, vowels get 11.5-15 ms shorter.
