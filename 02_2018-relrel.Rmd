@@ -621,7 +621,7 @@ No specific statement is implied about the variance of the duration around the m
 
 \begin{figure}
   \centering
-  \includegraphics{img/Figure6.pdf}
+  \includegraphics[scale=1.3]{img/Figure6.pdf}
   \caption{A schematic representation of the oral cavity cross-sectional area, as inferred from acoustics. Design based on \citet{esposito2002}. The top panel shows a CV́C sequence with a voiceless C2, the bottom panel with a voiced C2. Oral cavity aperture (on the \textit{y}-axis, as the inverse of oral constriction) through time (on the \textit{x}-axis) is represented by the black line. Lower values represent a more constricted oral tract (a contoid configuration), while higher values indicate a more open oral tract (a vocoid configuration). The black bars below the time axis represent voicing (vocal fold vibration). Various landmarks and intervals are indicated in the schematic}
   \label{fig:compensatory}
 \end{figure}
@@ -729,17 +729,17 @@ See \Cref{tab:vow-table}, \Cref{tab:clo-table}, and \Cref{tab:vow-clo-table}.
 
 ```{r vow-table}
 kable(tidy(vow_lm, effect = "fixed", conf.int = TRUE) %>% select(-effect) %>% mutate(term = c("Intercept", "Voicing = voiced", "Vowel = /o/", "Vowel = /u/", "Lang = Polish", "Place = velar", "Speech rate", "Voiced × /o/", "Voiced × /u/", "Voiced × Polish", "/o/ × Polish", "/u/ × Polish", "Voiced × /o/ × Polish", "Voiced × /u/ × Polish")) %>% rename(Predictor = term, Estimate = estimate, SE = std.error, `t-value` = statistic, `p-value` = p.value, `CI low` = conf.low, `CI up` = conf.high) %>% select(Predictor, Estimate, SE, `CI low`, `CI up`, df, `t-value`, `p-value`) %>% mutate(`< α` = ifelse(`p-value` < 0.05, "*", "")), format = "latex", booktabs = TRUE, linesep = "", digits = 2, caption = "Summary of the linear mixed-effects model fitted to vowel duration (see \\Cref{s:vduration})") %>%
-kable_styling(font_size = 8)
+kable_styling(font_size = 8, latex_options = "hold_position")
 ```
 
 ```{r clo-table}
 kable(tidy(clo_lm, effect = "fixed", conf.int = TRUE) %>% select(-effect) %>% mutate(term = c("Intercept", "Voicing = voiced", "Vowel = /o/", "Vowel = /u/", "Lang = Polish", "Place = velar", "Speech rate", "Voiced × /o/", "Voiced × /u/", "Voiced × Polish", "/o/ × Polish", "/u/ × Polish", "Voiced × /o/ × Polish", "Voiced × /u/ × Polish")) %>% rename(Predictor = term, Estimate = estimate, SE = std.error, `t-value` = statistic, `p-value` = p.value, `CI low` = conf.low, `CI up` = conf.high) %>% select(Predictor, Estimate, SE, `CI low`, `CI up`, df, `t-value`, `p-value`) %>% mutate(`< α` = ifelse(`p-value` < 0.05, "*", "")), format = "latex", booktabs = TRUE, linesep = "", digits = 2, caption = "Summary of the linear mixed-effects model fitted to closure duration (see \\Cref{s:cduration})") %>%
-kable_styling(font_size = 8)
+kable_styling(font_size = 8, latex_options = "hold_position")
 ```
 
 ```{r vow-clo-table}
 kable(tidy(vow_clo_lm, effect = "fixed", conf.int = TRUE) %>% select(-effect) %>% mutate(term = c("Intercept", "Closure dur.", "Vowel = /o/", "Vowel = /u/", "Speech rate", "Closure × /o/", "Closure × /u/", "C2 closure × sp. rate", "/o/ × sp. rate", "/u/ × sp. rate", "Closure × /o/ × sp. rate", "Closure × /u/ × sp. rate")) %>% rename(Predictor = term, Estimate = estimate, SE = std.error, `t-value` = statistic, `p-value` = p.value, `CI low` = conf.low, `CI up` = conf.high) %>% select(Predictor, Estimate, SE, `CI low`, `CI up`, df, `t-value`, `p-value`) %>% mutate(`< α` = ifelse(`p-value` < 0.05, "*", "")), format = "latex", booktabs = TRUE, linesep = "", digits = 2, caption = "Summary of the linear mixed-effects model for testing the correlation between vowel and closure duration (see \\Cref{s:vcduration})") %>%
-kable_styling(font_size = 8)
+kable_styling(font_size = 8, latex_options = "hold_position")
 ```
 
 ```{r vif, include=FALSE}
@@ -853,6 +853,7 @@ See \Cref{t:socio}.
 
 \ctable[caption = Participants' sociolinguistic information. The column 'Spent most time in' gives the city in which the participant spent most of their life. The last column ('> 6 mo') indicates whether the participant has spent more than 6 months abroad,
 label = t:socio,
+pos=h,
 width=\textwidth,
 star,
 doinside = \scriptsize
@@ -884,6 +885,7 @@ See \Cref{t:targetsR}.
 
 \ctable[caption = Target words. Asterisks indicate real words,
 label = t:targetsR,
+pos=h,
 star,
 doinside = \footnotesize
 ]{lllllll}{}{

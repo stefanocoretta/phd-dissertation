@@ -36,5 +36,5 @@ params:
 \end{textblock}
 
 \newenvironment{abstract}{
-    \chapter*{\centering Abstract}%
+    \subsection*{\centering Abstract}%
 }{}
