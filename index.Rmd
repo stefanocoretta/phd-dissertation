@@ -27,8 +27,8 @@ header-includes:
 - \usepackage{subfigure}
 - \pagestyle{plain}
 params:
-  version: "1.0.9000"
-  version-date: "2019/07/01"
+  version: "2.0"
+  version-date: "2019/07/15"
 ---
 
 \begin{textblock}{3}(0.2,0.2)
