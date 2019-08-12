@@ -12,16 +12,16 @@ documentclass: book
 The sounds of a language form an incredibly complex system of relations and dependencies, both at a physical and a more abstract level.
 A topic that masterfully exemplifies the complexities of such a system and that has generated great interest over the decades is the somewhat elusive connection between vowel duration and consonant voicing.
 According to a robust cross-linguistic tendency, vowels are shorter when followed by a voiceless consonant and longer when the following consonant is voiced \citep{meyer1903, heffner1937, house1953, lisker1957, peterson1960}.
-This so-called 'voicing effect' interacts with a variety of linguistic factors and scholars have sought its origins in properties of speech production, from aerodynamic mechanisms to timing aspects, and of speech perception \citep{belasco1953, zimmerman1958, sharf1962, lindblom1967, halle1967a, javkin1976, kluender1988}.
+This so-called 'voicing effect' interacts with a variety of linguistic factors and scholars have sought its origins in properties of speech production, from aerodynamic mechanisms to gestural timing, and properties of speech perception \citep{belasco1953, zimmerman1958, sharf1962, lindblom1967, halle1967a, javkin1976, kluender1988}.
 While much progress has been made in understanding this link, after more than a century there is still disagreement as to what contributes to the emergence of this phenomenon, as evidenced by the numerous accounts put forward.
 
 Given the plurality of views concerning less understood aspects of the voicing effect, this thesis set out to investigate this phenomenon by employing a diverse set of techniques and sources of data.
 To keep this type of enquiry manageable, I decided to undertake this endeavour from a speech production outlook, an area which has fuelled a great part of the debate within the voicing effect literature.
-In particular, this thesis poses the question of what aspects of the articulation of vowel-consonant sequences can inform us on the influence of consonant voicing on the duration of vowels.
+In particular, this thesis poses the question of what aspects of the articulation of vowel-consonant sequences can inform us about the influence of consonant voicing on the duration of vowels.
 In answering this question, I collected data from a combination of acoustic, ultrasound tongue imaging, and electroglottographic techniques as part of two studies on Italian, Polish, and English.
-These languages constitute an appropriate set in that they constitute a methodological window into the complex variation of the voicing effect as seen both across and within languages.
+These languages make up an appropriate set in that they constitute a methodological window into the complex variation of the voicing effect as seen both across and within languages.
 
-This research project orbits around two broad aims.
+This research project has two broad aims.
 First, I sought to obtain acoustic and articulatory data using modern methods which would shed light on the production accounts put forward in the past century.
 The second objective was to enlighten the debate on reported cross-linguistic differences by conducting a comparative analysis which encompasses three related but contrasting languages.
 The papers in Part II offer evidence in relation to these goals.
@@ -29,14 +29,14 @@ The papers in Part II offer evidence in relation to these goals.
 The specific questions touched upon in this dissertation encompass topics at the intersection between phonetics and phonology \citep{ohala1990, ohala1997, ohala2005, port2005, cohn2010}, and cover both concrete, observable phenomena, and abstract, formalised aspects of speech processing.
 Among the questions posed by this work there are the following:
 
-* In light of the accounts of the voicing effect, is it possible to identify mechanisms of temporal compensation and/or articulatory adjustments that result in the observed patters of vowel and consonant duration?
-* Do these aspects of production follow universal patterns and constraints, or can different languages modulate their implementation in specific ways?
-* Which articulatory properties of voicing directly manipulate vowel and consonant durations, and in particular what mechanisms influence the timing of the consonantal closure?
+* Can the voicing effect be ascribed to mechanisms of temporal compensation and/or articulatory adjustments that result in the observed patters of both vowel and consonant duration?
+* Which articulatory properties of voicing directly affect vowel and consonant durations, and in particular what mechanisms influence the timing of the consonantal closure?
 * Do voiceless and voiced consonants target different articulatory realisations, or are there some oral and/or laryngeal configurations or processes that are shared between them?
-* What role does perception have in enhancing production-based differences, and what production constraints are there on perceptual biases?
-* What can we learn about other durational effects from the study of the voicing effect?
-* Can the magnitudes of the voicing effect reported in previous studies be replicated with new data, and what research aspects could be responsible of differences?
+* Do these aspects of production follow universal patterns and constraints, or can different languages modulate their implementation in specific ways?
 * Can the mechanisms behind the voicing effect inform us on more general aspects of gestural phasing and articulatory timing within and beyond the traditional syllable?
+* Can the study of articulation provide us with insights into the enhancing role of perception?
+* What can we learn about other durational effects from the study of the voicing effect?
+* Can the magnitudes of the voicing effect reported in previous studies be replicated with new data, and what research aspects could be responsible for differences?
 * What level of confidence can we attribute to previous and current results, considering the weight of the evidence provided by the data?
 
 ## Organisation of this thesis
@@ -85,20 +85,19 @@ By combining previous work on pre-aspiration \citep{lisker1974, nichasaide1985, 
 # The voicing effect and beyond
 \label{s:ve}
 
-A long-recognised property of vowels is that their duration is influenced by the voicing of the consonant following them.
 Across a wide variety of languages, vowels tend to be shorter when followed by voiceless consonants, and longer when followed by voiced ones.
 This phenomenon has been called the 'voicing effect' \citep{mitleb1982} or 'pre-fortis clipping' \citep{wells1990}.
-Remarkably, no known language has been reported to have the opposite effect, namely longer vowel durations before voiceless than before voiced consonants.\footnote{This does not exclude that there might be or have been a language that shows this pattern.}
 Among the earliest traceable mentions to this phenomenon there are \citet{meyer1903} for English (cited in \citealt{lindblom1967}), \citet{meyer1904} for German, \citet{meyer1909} for Hungarian, and \citet{gregoire1911} for French (all cited in \citealt{maddieson1976}).
 After these, a great number of studies further confirmed the existence of the effect in these languages and reported it in an ever increasing list of others.
+Remarkably, no known language has been claimed to have the opposite effect, namely longer vowel durations before voiceless than before voiced consonants.\footnote{This does not exclude that there might be or have been a language that shows this pattern.}
 
-English is the language that by far received the most attention (\citealt{heffner1937, house1953, lisker1957, zimmerman1958, peterson1960, house1961, sharf1962, sharf1964, lindblom1967, halle1967, halle1967a, slis1969a, slis1969, chen1970, klatt1973, lisker1974, raphael1975, umeda1975, javkin1976, port1982, mack1982, luce1985, van-summers1987, kluender1988, de-jong1991, laeufer1992, fowler1992, de-jong2004, warren2005, ko2018, glewwe2018, sanker2019}, among others).
+English is the language that by far received the most attention in relation to the voicing effect (\citealt{heffner1937, house1953, lisker1957, zimmerman1958, peterson1960, house1961, sharf1962, sharf1964, lindblom1967, halle1967, halle1967a, slis1969a, slis1969, chen1970, klatt1973, lisker1974, raphael1975, umeda1975, javkin1976, port1982, mack1982, luce1985, van-summers1987, kluender1988, de-jong1991, laeufer1992, fowler1992, de-jong2004, warren2005, ko2018, glewwe2018, sanker2019}, among others).
 The presence of a voicing effect has been further corroborated in French by \citet{belasco1953}, \citet{chen1970}, and \citet{laeufer1992}, in Hungarian by \citet{soskuthy2013}, and German (in the context of word-final voicing neutralisation, see \citealt{nicenboim2018a} and references therein).
 Other known voicing-effect languages are Arabic (\citealt{hussein1994}, but cf. \citealt{mitleb1982}), Assamese and Bengali \citep{maddieson1976a}, Dutch \citep{slis1969a}, Georgian \citep{begus2017}, Hindi \citep{maddieson1976, ohala1992a, lampp2004, durvasula2012, sanker2018}, Italian \citep{caldognetto1979, farnetani1986, esposito2002}, Icelandic \citep{einarsson1927}, Japanese \citep{port1987}, Korean \citep{chen1970}, Lithuanian \citep{campos-astorkiza2007}, Norwegian \citep{fintoft1961}, Swedish \citep{elert1970}, Spanish \citep{navarro1916}, Telugu \citep{sanker2018}, and Russian \citep{chen1970}.\footnote{From a typological perspective, this sample is strongly biased towards Indo-European languages.
 Moreover, the five non-Indo-European languages in the list are all thriving and well-studied languages.
 This notwithstanding, the voicing effect is generally regarded as a very common and widespread phenomenon.}
 
-While the existence of the voicing effect is unquestionable, a commonly shared stance is that it is not an absolute universal, and that some languages lack voicing-induced durational differences.
+While the voicing effect is cross-linguistically common, it is not universal, and some languages lack voicing-induced durational differences.
 Czech and Polish are generally reputed to be languages in which the duration of vowels does not significantly differ before voiceless and voiced stops.
 In fact, the results concerning the effect in these languages are mixed, and support can be found both for and against an effect of voicing on vowel duration.
 \citet{keating1984} examined the duration of vowels in 3 Czech speakers.
@@ -111,7 +110,7 @@ As for Polish, \citet{slowiaczek1985} measured the duration of vowels in word-fi
 @nowak2006 investigates several properties of vowel duration in 4 speakers, and finds that vowels followed by voiced stops in 4 speakers (from different parts of Poland) are 4.5 ms longer (a significant difference).
 <!-- I should read about what stats he did -->
 @malisz2008 analyse data from 40 speakers of 'Standard Polish', and while they don't report estimates from the whole dataset, the means from 4 speakers suggest a difference in vowel duration before voiceless vs. voiced stops of about 3.5 ms.
-On the other hand, an equal number of studies argue that voicing does not significantly affect vowel duration.
+On the other hand, an equal number of studies argue that voicing does not significantly affect vowel duration in Polish.
 \citet{jassem1989} could not replicate the results in \citet{slowiaczek1985}.
 \citet{keating1984} reports a non-significant difference of 2 ms in the word pair /rata/ (167.4) and /rada/ (169.5 ms), based on data from 24 speakers in Wrocław.
 Finally, \citet{strycharczuk2012a} reports a non-significant effect in 6 Warsaw speakers in pre-sonorant word-final position.
@@ -126,7 +125,7 @@ It is thus possible that, once controlling for contextual factors, the apparent 
 A similar position is taken by \citet{laeufer1992}, who directly compared French and English using carefully designed experimental materials.
 When the duration of a vowel is similar across languages, consonant voicing also has an effect which is comparable in degree.
 
-Language is not the only source of variation and the voicing effect interacts with several other phonological and phonetic factors.
+In addition to language, the voicing effect is also modulated by other phonological and phonetic factors.
 For example, \citet{umeda1975} reports that the difference in vowel duration before voiceless vs. voiced stops is greater when the test word is pre-pausal.
 The effect of voicing also seems to be more robust in stressed than in unstressed vowels \citep{davis1989}.
 There is also indication that the effect is modulated by the syllabic affiliation of the post-vocalic consonant in English, so that vowels followed by a coda show a greater effect than vowels followed by an onset (\citealt{sharf1962, klatt1973, davis1989}, but \citealt{abdelli-beruh2004} doesn't find a significant difference across these contexts in French).
@@ -138,7 +137,7 @@ Post-vocalic nasals have been argued either to behave like voiced stops \citep{l
 Finally, \citet{sharf1964} shows that the effect persists even in whispered (unvoiced) speech.
 
 Finally, the voicing effect can take on a linguistic function resulting in the phonologisation of the durational differences, as argued for English \citep{de-jong1991, de-jong2004, sole2007, sanker2019}.
-\citet{de-jong2004} shows that effect is greater in stressed syllables and under focus in English but not in Arabic \citep{de-jong2002}, and argue that vowel duration is used contrastively as a cue to voicing in the former.
+\citet{de-jong2004} shows that effect is greater in stressed syllables and under focus in English but not in Arabic \citep{de-jong2002}, and argues that vowel duration is used contrastively as a cue to voicing in the former.
 A further argument for the phonologisation of the durational difference in English is the stability of the effect across speaking tempos.
 \citet{port1982} suggest that the ratio of the consonant and vowel durations is stable at faster and slower speaking rates, and that the CV ratio proves to be the primary acoustic correlate of voicing in word-final position.
 \citet{luce1985}, however, claim that vowel duration is a more robust cue across tempos than the CV ratio and the duration of the stop closure.
@@ -149,7 +148,7 @@ In sum, there is contrasting evidence as to whether the relative magnitude of th
 \label{s:accounts}
 
 Over a century of research on the voicing effect has without doubt brought progress in our understanding of this complex phenomenon.
-After the 'golden period' between the 50s and the 70s, when several proposals have been put forward, subsequent years focussed on testing or extending previous hypotheses and no final consensus has been reached.
+While several proposals were put forward in the period between the 50s and the 70s, subsequent years focussed on testing or extending previous hypotheses and no final consensus has been reached.
 A broad distinction can be drawn between accounts that ascribe the voicing effect to articulatory or aerodynamic properties of speech production, and accounts that instead draw on biases of the perceptual system.
 No answer has been obtained as to which of the two sides best accounts for all of the aspects of the voicing effect, and rather both views contribute in some respects to the overall picture.
 The following paragraphs review the most notable perception and production accounts, paving the way for a discussion of phonation effects related to that of voicing in the following chapter.
@@ -161,7 +160,7 @@ According to this account, speakers misperceive the periodic vibration of the vo
 In the absence of contextual correction, this misperception can lead to the creation of a new production norm where the vowel is lengthened \citep{ohala1989}.
 Subsequent productions of vowels followed by voiced stops would thus be longer than vowels followed by voiceless stops.
 Although \citet{javkin1976} does not directly test the hypothesis that closure voicing is reinterpreted as being part of the preceding vowel, his study indicates that listeners perceive vowels to be longer when followed by voiced than when followed by voiceless stops, other things being equal.
-On the other hand, \citet{sanker2019} finds that vowels followed by voiced stops rather elicit less 'long' responses, while more 'long' responses are elicited in stimuli where the following consonant was spliced out.
+On the other hand, \citet{sanker2019} finds that vowels followed by voiced stops rather elicit fewer 'long' responses, while more 'long' responses are elicited in stimuli where the following consonant was spliced out.
 However, listeners were perceiving vowels with falling F0 to be longer than vowels with flat or raising F0, in partial accord with previous work \citep{lehiste1976, alan2010, cumming2011}.
 
 To provide for a rationale of the language-specificity of the voicing effect, \citet{kluender1988} propose that different languages can exploit the perceptual biases behind the effect at different degrees.
@@ -184,7 +183,7 @@ As a consequence, vowels are shorter when followed by the longer closure of voic
 This compensatory pattern would be the consequence of keeping the duration of a particular speech interval fixed, while the duration of the closure changes depending on the voicing status of the stop.
 Proponents of this account have argued that compensation is implemented either at the level of the syllable (or of the VC sequence, \citealt{lindblom1967, farnetani1986}), or at the level of the word \citep{slis1969a, slis1969, lehiste1970, lehiste1970a}.
 This formulation of the account, however, faces empirical and logical challenges.
-The duration of both the syllable and the word is affected by stop voicing \citep{chen1970, jacewicz2009}, and it is not clear why compensation within a word should necessarily target the pre-consonantal vowel and not other segments (these issues are discussed in more details in [...]).
+The duration of both the syllable and the word is affected by stop voicing \citep{chen1970, jacewicz2009}, and it is not clear why compensation within a word should necessarily target the pre-consonantal vowel and not other segments (these issues are discussed in more details in Paper [...]).
 
 A second proposal attributes the voicing-driven duration differences of vowels to articulatory energy expenditure, rather than temporal aspects.
 \citet{meyer1903} and similarly \citet{belasco1953} propose that the articulatory force required to produce a syllable is constant, and thus it is distributed across segments according to their energy requirements.
@@ -195,7 +194,7 @@ While the compensatory temporal adjustment and the energy expenditure accounts r
 The laryngeal adjustment account \citep{halle1967, halle1967a, chomsky1968} is based on the idea that voicing during stop closure requires precise adjustments of the glottis in order to comply with aerodynamic constraints \citep{ohala2011}.
 Such an articulatory precision necessitates greater time to be implemented than the production of closure voicelessness.
 Because of these properties of laryngeal articulation, full closure can be achieved relatively faster in the context of voiceless stops (which require less precise control), while a delay of closure onset in voiced stops ensures enough time to produce the suitable glottal configuration.
-The preliminary electromiographic study of glottal muscular activity discussed in \citet{chen1970}, however, does not suggest the presence of early laryngeal activity of laryngeal during the production of vowels followed by voiced stops compared to vowels followed by voiceless stops.
+The preliminary electromyographic study of glottal muscular activity discussed in \citet{chen1970}, however, does not suggest the presence of early laryngeal activity during the production of vowels followed by voiced stops compared to vowels followed by voiceless stops.
 Further articulatory evidence shows that there is rather a general increase of activity of certain laryngeal muscles (namely, the posterior crycoarytenoid and the crycothyroid) during the production of voiceless sounds \citep{hirose1972, kagaya1975, hirose1977, lofqvist1989}.
 No conclusive evidence can thus be adduced in support of the laryngeal adjustment hypothesis, although other laryngeal mechanisms cannot be ultimately excluded \citep{begus2017}.
 
@@ -239,7 +238,7 @@ As discussed in \citet{begus2017}, these patterns are compatible with accounts o
 ## Summary
 <!-- TODO: voicing effect summary -->
 
-# Studies overview
+# Methodology
 \label{s:studies}
 
 Each of the proposals regarding the origin of the voicing effect, reviewed in \Cref{s:ve}, stresses one particular aspect of the mechanisms that could lie behind this phenomenon.
@@ -274,7 +273,7 @@ In the following paragraphs, I offer an outline of the methodologies employed in
 
 A total of 17 participants were recruited in Manchester (UK) and in Verbania (Italy).
 Eleven were native speakers of Italian (IT01-IT05, IT07, IT09, IT11-IT14), and six of Polish (PL02-PL07).
-Missing speaker codes refer to test participants or participants that produced unusable data because of individual anatomy or faulty equipment.
+Missing speaker codes refer to test participants or participants that produced unusable data because of individual anatomy or recording issues.
 Recordings were made in a sound-attenuated room at the Phonetics Laboratory of the University of Manchester, or in a quiet room at a field location in Verbania (IT03-IT07).
 Due to technical issues or poor signal quality, ultrasonic data of /u/ from two speakers (IT07, PL05) and electroglottographic data from two others (IT04, IT05) are missing.
 Basic participants' sociolinguistic data is given in Paper [...].
@@ -283,7 +282,7 @@ The participants were given an information sheet prior to the experiment and sig
 ### Ultrasound tongue imaging and electroglottography
 
 2D Ultrasound tongue imaging (UTI) uses ultrasonography for charting the movements of the tongue into a two-dimensional image \citep{gick2002, stone2005, lulich2018}.
-In medical sonography, ultrasonic waves (sound waves at high frequencies, ranging between 2 and 14 MHz) are emitted from a probe in a fan-like manner, and travel through organic tissue (such as skin and muscles).
+In medical sonography, ultrasonic waves (sound waves at high frequencies, ranging between 2 and 14 MHz) are emitted from a probe in a fan-like manner, and travel through soft tissue (such as skin and muscles).
 When the surface of a material with different density is hit, the ultrasound waves are partially reflected, and such 'echo' is registered by the probe.
 The information interpolated from these echoes can be plotted on a two-dimensional graph, where different material densities are represented by different shades (higher densities are brighter, while lower densities are darker).
 The graph, or ultrasound image, shows high density surfaces as very bright lines, surrounded by darker areas.
@@ -313,7 +312,7 @@ The subject wore a metallic headset produced by \citet{articulate2008} (\Cref{fi
 The electrodes were located on each side of the thyroid cartilage, at the level of the glottis.
 The microphones were clipped to the headset on either side, at identical heights.
 Before the reading task, the participant’s occlusal plane was obtained using a bite plate \citet{scobbie2011}.
-This procedure allows data to be rotated along the occlusal plane and enables the comparison of tongue movements within and across subjects.
+This procedure allows data to be rotated along the occlusal plane and provides us with a reference plane.
 
 ![Ultrasonic probe stabilisation headset.\label{fig:headset}](./img/headset.png){ width=50% }
 
@@ -375,7 +374,7 @@ Paper [...] discusses the empirical and theoretical foundation of the research h
 A brief synthesis of the methodologies of the study is reported here.
 
 Fifteen university students were recorded in a sound attenuated room in the Phonetics Laboratory of the University of Manchester while reading sentence stimuli containing test words, presented on a computer screen with PsychoPy \citep{peirce2009}.
-The participants were native speakers of British English, aged between 20 and 29, born and raised within Greater Manchester.
+The participants were native speakers of British English, aged between 20 and 29, born and raised within Greater Manchester.\footnote{No sociolinguistic information was collected for this study, given that sociolinguistic considerations were not part of the study aims and the sensitivity of the data.}
 The test words were built according to the following structure: C\textsubscript{1}V́\textsubscript{1}C\textsubscript{2}(VC), where C\textsubscript{1} = /t/, V\textsubscript{1} = /iː, ɜː, ɑː/, C\textsubscript{2} = /p, b, k, g/, and (VC) = /əs/.
 These words were embedded within five different frame sentences, so that each speaker would read a total of 120 stimuli (24 words × 5 frames).
 The audio recordings were force-aligned and the times of acoustic landmarks were extracted according to the same procedure as in Study I (with `make-textgrid.praat` and `get-measurements.praat` in \citealt{coretta2019g}).
@@ -383,12 +382,12 @@ The audio recordings were force-aligned and the times of acoustic landmarks were
 # Open Science
 \label{s:openscience}
 
-In the academic world, great emphasis is given to the theoretical content of original research, whereas the scientific process that leads to the findings is relegated to a subordinate position.
+<!-- In the academic world, great emphasis is given to the theoretical content of original research, whereas the scientific process that leads to the findings is relegated to a subordinate position.
 However, as brilliantly put by Prof. Chris Chambers\footnote{From a keynote speech given at the Leibniz Institute for Psychology Information (\url{https://youtu.be/d2nVPhVacFk}).}, the methods section traditionally included in papers was originally meant to be a 'recipe' that would allow future researchers to follow and reproduce the steps used by the authors to go from a set of ideas to a set of results.
 Through the years, though, this paper section has become a place where the authors can give a statement that confirms they have followed accepted analytical procedures.
 More recently, on the other hand, scholars have developed a greater preoccupation towards methodological accountability.
 The consideration of these issues in phonetics and phonology is evidenced by the publication of a recent special issue on data analysis in the Journal of Phonetics and by the ongoing adoption of a new method-oriented form of publication by the Journal of the Association for Laboratory Phonology.
-Matters of research transparency are part of a broader collection of problems, which have fuelled the birth of an international campaign which falls under the umbrella term of 'Open Science'.
+Matters of research transparency are part of a broader collection of problems, which have fuelled the birth of an international campaign which falls under the umbrella term of 'Open Science'. -->
 
 Open Science is a movement that stresses the importance of a more honest and transparent scientific attitude by promoting a series of research principles and by warning from common, although not necessarily intentional, questionable practices and misconceptions.
 The term Open Science as a whole refers to the fundamental concepts of 'openness, transparency, rigour, reproducibility, replicability, and accumulation of knowledge' \citep[3]{cruwell2018}.
@@ -489,7 +488,7 @@ Ensuring full reproducibility also means ensuring computational reproducibility,
 <!-- Ho Chunk case from Donald -->
 Our field is not immune from these issues (see for example the 'Yokuts vowels' case, \citealt{weigel2002, weigel2005, blevins2004}), and the idea of reproducibility is not new to linguistics in general \citep{bird2003, thieberger2004, maxwell2005, maxwell2013, cysouw2015,  gawne2017} nor to phonetics/phonology specifically \citep{abari2012, roettger2018a}.
 
-The objective of making research accountable can be achieved by publicly sharing data (barring ethical restrictions), analysis code, and detailed information on the software that produced the results \citep{sandve2013}.
+The objective of making research accountable can be achieved by publicly sharing data (subject to ethical restrictions), analysis code, and detailed information on the software that produced the results \citep{sandve2013}.
 Sharing data is also fundamental for the accumulation of knowledge, for example in the context of meta-analytical studies.
 Several services are now available which offer free online data storage and versioning, like the Open Science Framework, GitHub, and DataHub.
 Extensive documentation of code takes on an important role, and the paradigm of literate programming offers a practical solution \citep{knuth1984}.
@@ -504,7 +503,7 @@ This workflow reduces chances of reporting errors and facilitates validation of 
 <!-- maybe refer here to the Papers so don't need other section? -->
 
 The research project behind this dissertation has been carried out with principles of Open Science in mind.
-The reader might notice, however, a certain arc of development in putting these concepts into practice, since, for some of these, full command has been obtained only after careful consideration, the timeline of which extended into later stages of the project.
+The reader might notice, however, a certain arc of development in putting these concepts into practice, since my understanding of Open Science practices evolved during this dissertation project.
 This last section of the Introduction discusses how the principles and methods expounded in the above sections were applied to this project.
 
 Study I was not pre-registered, since the absence of a specific hypothesis did not allow for the formulation of a corresponding analysis.
