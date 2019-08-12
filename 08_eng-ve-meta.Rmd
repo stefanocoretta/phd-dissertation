@@ -36,7 +36,7 @@ studies <- stressed %>% select(study, n_syl:word_pos_2) %>% unique() %>%
 \chapter{Bayesian meta-analysis of the voicing effect in English}
 \label{a:ve-eng}
 
-A Bayesian meta-analysis of the English voicing effect has been run on the basis of 11 estimated posterior distributions extracted from 9 different publications, following the procedures discussed in \citet{nicenboim2018a}.
+A Bayesian meta-analysis of the English voicing effect was run on the basis of 11 estimated posterior distributions extracted from 9 different publications, following the procedures discussed in \citet{nicenboim2018a}.
 The studies were selected by scraping the first 100 results on Google Scholar with the keywords "vowel duration voicing English".
 Other studies which were known to the author but not present among the Google Scholar results were also included. Since two publications (\citealt{sharf1962} and \citealt{klatt1973}) tested both monosyllabic and disyllabic words, two separate posterior distributions were estimated for each word type.
 This leads to a total of 11 posterior distribution of the effect of consonant voicing on vowel duration in English (7 estimated posteriors from 7 publications plus 2 each from 2 publications).
