@@ -16,7 +16,7 @@ This chapter provides an over-arching synthesis of the account proposed here in 
 
 ## A pluralist view
 
-The results of Study I and II taken together allow for the formulation of an account of the voicing effect that brings together aspects of compensation and timing as proposed by different accounts.
+The results of Study I and II bring together aspects of gestural compensation and articulatory timing and allow us to formulate a more holistic account that incorporates components of different accounts.
 Two important aspects of the account proposed here are the temporal stability of vocalic and consonantal gestures, and the timing of the vowel-consonant boundary.
 The gestural temporal stability is one fundamental aspect of the compensatory temporal adjustment account.
 The difference between the original formulation and the one proposed here is that, in the former, closure duration determines the duration of the preceding vowel.
@@ -34,8 +34,8 @@ Such an account assumes that the original scenario is one in which the duration 
 Speakers would start producing the difference via developmental learning or historical change.
 On top of this, when VV isochrony does not constrain the temporal distances in CVC sequences, vowel and closure durations are free to be manipulated independently with the aim of enhancing VC ratio differences, as argued by perceptual accounts of the voicing effect.
 
-While the account proposed here is based on production mechanisms, it cannot be completely excluded that the production differences observed and stipulated here are actually consequential to perceptual biases.
-In this alternative scenario, there could be a design feature of the perceptual system that generates the differential duration percept, even when there is not such difference in the acoustic output/input.
+While the account proposed here is based on production mechanisms, it cannot be completely excluded that the production differences observed and stipulated here are a consequence of perceptual biases.
+In such a scenario, there could be a design feature of the perceptual system that generates the differential duration percept, even when there is not such difference in the acoustic output/input.
 An example from the domain of vision illustrates this possibility.
 When looking at a wheel spinning in a clockwise direction, the observer will see the wheel rotating counter-clockwise when the rotation speed exceeds a threshold.
 There is nothing in the mechanics of a wheel spinning around its axis that can explain this perceptual fact.
@@ -50,7 +50,7 @@ Since in the case of voicing there are independent production reasons for the ob
 ## Gestural phasing
 
 As argued in Paper [...], the temporal stability of the release-to-release interval is compatible with hypotheses about the gestural organisation of vowel and consonants within the domains of the syllable and the word.
-According to the coupled oscillators model \citep{odell2008}, embedded in the task-dynamic model of Articulatory Phonology \citep{ohala1986a, browman1988, browman2000, goldstein2006, goldstein2014}, speech gestures can be implemented according to two coupling modes: in-phase (synchronous) or anti-phase (sequential) mode.
+According to the coupled oscillators model \citep{odell2008}, embedded in the task-dynamic model of Articulatory Phonology \citep{ohala1986a, browman1988, browman2000, goldstein2006, goldstein2014}, speech gestures can be implemented according to two coupling modes: in-phase or anti-phase mode.
 When two or more gestures are in an in-phase relation, they are initiated in synchrony.
 If two or more gestures follow an anti-phase coupling mode, the gestures are implemented sequentially and one gesture starts when the preceding one has reached its target.
 These two coupling modes can account for temporal aspects observed in the relative phasing of consonants and vowels.
@@ -61,7 +61,7 @@ These two coupling modes can account for temporal aspects observed in the relati
   \label{fig:gorganisation}
 \end{figure}
 
-\citet{marin2010} showed that onset consonants in American English are in-phase with respect to the vowel nucleus and anti-phase with each other.
+\citet{marin2010} show that onset consonants in American English are in-phase with respect to the vowel nucleus and anti-phase with each other.
 Such phasing pattern establishes a stable relationship between the centre of the consonant (or consonants in a cluster) and the following vowel.
 Independent of the number of onset consonants, the temporal midpoint of the onset (the so-called 'C-centre') is maintained at a fixed distance from the vowel, such that an increasing number of consonants in the onset does not change the distance between the vowel and the C-centre (\Cref{fig:gorganisation}a).
 On the other hand, coda consonants are in an anti-phase relation with the preceding vowel and between themselves.
@@ -107,8 +107,8 @@ This is what it is argued to happen in monosyllabic words, where the distance be
 ## On cross-linguistic differences
 
 As discussed in \Cref{s:ve}, the degree of the voicing effect is generally thought to vary depending on the language.
-Allegedly, English is possibly the language possessing the biggest effect, while the effect is smaller in Italian and possibly absent in Polish.
-However, Papers [...] and [...] indicate a somewhat less systematic difference between these languages.
+Allegedly, English is the language possessing the biggest effect, while the effect is smaller in Italian and possibly absent in Polish.
+However, Papers [...] and [...] indicate a somewhat different scenario.
 A direct comparison of the data from Study I and II is not straightforward, given the different materials used in the two studies, but it still provides us with some directions as to what difference, if any, there are between the languages in question.
 A Bayesian analysis of the effect of voicing in disyllabic words comparing English, Italian, and Polish (see \Cref{a:ve-comp}) suggests that, when controlling for differences in average baseline vowel duration and speech rate, there is no strong evidence for a difference in the effect of voicing across these languages.
 Note, however, that no conclusive statement can be done in this regard, due to the low precision obtained for the relevant estimates.
@@ -134,7 +134,7 @@ Especially in the case of monosyllabic words, as argued above, language-specific
 For example, \citet{tanner2019} demonstrate that, although not unambiguously, the effect of voicing on vowel duration in monosyllabic words differs across varieties of English.
 More work is needed to assess cross-linguistic differences with a sufficiently sampled dataset and by experimental procedures designed to reduce phonological differences.
 
-# Concluding remarks
+# Implications and future research
 \label{s:final}
 
 The aim of this dissertation was to investigate properties of speech production that could illuminate the debate on the origin of the effect of consonant voicing on vowel duration.
@@ -153,7 +153,7 @@ A limitation of the studies in this work is related to statistical precision of 
 As discussed throughout this dissertation, some of the effects have quite large confidence/credible intervals.
 In some cases, like in the cross-linguistic comparative analysis of the voicing effect, making unambiguous inferential statements becomes difficult.
 Possibly, much of this uncertainty derives from the sample sizes employed in these studies.
-Although the number of speakers included here is generally similar or greater than average (see \Cref{a:speakers}), the number of observations might not have been sufficient enough to reach an appreciable degree of precision.
+Although the number of speakers included here is generally similar to or greater than average (see \Cref{a:speakers}), the number of observations might not have been sufficient enough to reach an appreciable degree of precision.
 The results discussed in this dissertation stress how important obtaining a sufficient sample is, especially when dealing with small effect sizes.
 Much of the phonetic literature relies on small sample sizes, but most work is done on speech data which is typically quite noisy.
 
@@ -166,7 +166,7 @@ Furthermore, these perceptual thresholds might be relevant only within the task 
 In sum, our current knowledge of perceptible differences is still limited, and future work should focus on investigating this matter both in light of theoretical and practical considerations.
 Until we can establish with certainty what differences in which contexts are physiologically impossible to be perceived, it is probably wise to report even very small, seemingly irrelevant effects while aiming at the highest level of precision possible.
 
-This dissertation focuses on the voicing effect of stop consonants, but other manners of articulation participate in the effect.
+This dissertation focusses on the voicing effect of stop consonants, but other manners of articulation participate in the effect.
 According to the compensatory account presented here, a greater difference in consonant duration should correspond to a greater voicing effect.
 For example, \citet{crystal1988} report a greater difference in fricative duration than in stop duration, which would be compatible with a greater voicing effect in the former.
 However, while \citet{house1953} and \citet{peterson1960} find that the effect is greater in fricatives than in stops, \citet{tanner2019} observe the opposite trend.
@@ -175,7 +175,7 @@ Future work should directly test the relation between differences in consonant d
 The compensatory account presented here rests on the cyclic production of vocalic gestures \citep{ohman1967, fowler1983}.
 \citet{zmarich2011} and \citet{zeroual2015} demonstrate that the temporal distance between two vowels with an intervening stop differs depending on whether the stop is a singleton or a geminate (e.g. *aba* vs *abba*, the distance is greater in the latter case).
 However, I argue that the absence of vowel-to-vowel isochrony across these contexts follows from the gestural organisation of the segments involved.
-In the case of singleton stops, the vocalic gestures are executed consecutively and the intervocalic consonant is allegedly executed synchronously with the the second vowel (\Cref{fig:vv-cent}a top).
+In the case of singleton stops, the vocalic gestures are executed consecutively and the intervocalic consonant is executed synchronously with the the second vowel (\Cref{fig:vv-cent}a top).
 In the case of geminates, on the other hand, the intervening consonant is the outcome of the double selection of a single gesture where the first selection is executed anti-phase with the first vowel and the second in-phase with the second vowel (\Cref{fig:vv-cent}a bottom).
 The gesture of the second vowel is initiated after the completion of the intervening anti-phase gesture and in synchrony with the in-phase gesture.
 As a consequence, the gestural onset of the second consonant is delayed in the geminate context relative to the singleton context.

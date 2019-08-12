@@ -214,7 +214,7 @@ The change in the wavegram indicates a process of decreasing glottal opening (fr
 The greater glottal spread observed at vowel onset could be related to the residual glottal spread of the preceding voiceless stop /p/.
 This means that the phonation at vowel onset is breathier and becomes more modal during the production of the vowel, stabilising itself at about 20% of the vowel duration.
 
-Focusing now on the second half of the vowel, the wavegrams in \Cref{fig:surface} show a pattern that is symmetrical to that observed in the first half \citep{halle1967a}.
+Focussing now on the second half of the vowel, the wavegrams in \Cref{fig:surface} show a pattern that is symmetrical to that observed in the first half \citep{halle1967a}.
 Namely, glottal opening increases towards the end of the vowel.
 The magnitude and timing of the change, however, differs in the voiceless and voiced contexts.
 The change is greater and is implemented earlier in vowels followed by voiceless stops (left panels) than those followed by voiced stops (right panels).
