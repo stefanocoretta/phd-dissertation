@@ -19,11 +19,12 @@ This chapter provides an over-arching synthesis of the account proposed here in 
 The results of Study I and II bring together aspects of gestural compensation and articulatory timing and allow us to formulate a more holistic account that incorporates components of different accounts.
 Two important aspects of the account proposed here are the temporal stability of vocalic and consonantal gestures, and the timing of the vowel-consonant boundary.
 The gestural temporal stability is one fundamental aspect of the compensatory temporal adjustment account.
-The difference between the original formulation and the one proposed here is that, in the former, closure duration determines the duration of the preceding vowel.
-In the present account, a rather more neutral position is taken.
+The articulatory temporal stability across voicing contexts is evidenced in this dissertation by the durational stability of the interval between two consecutive stop releases.
+The duration of this release-to-release interval is not affected by the voicing of the second stop.
+However, while the original compensatory account states that the stop closure duration *determines* the duration of the preceding vowel, the formulation of the account proposed here takes a more neutral position.
 The timing of the VC boundary within the release-to-release interval determines the durations of *both* the vowel and closure.
-On the other hand, the timing of the VC boundary is modulated by aspects that would fall under the laryngeal adjustments and the rate of closure accounts.
 
+The second fundamental aspect of the holistic account is that the timing of the VC boundary is modulated by aspects that would fall under the laryngeal adjustments and the rate of closure accounts.
 The ultrasound and EGG data from Study I, as discussed in Papers [...] and [...], suggest that mechanisms independent from closure duration per se can act upon the timing of the VC boundary and, indirectly, on the duration of closure.
 For one, tongue root position might influence the timing of the boundary by delaying it to allow for greater tongue root advancement, which is known to facilitate voicing during the production of the stop closure (see Paper [...]).
 Second, the development of pre-aspiration could also influence the timing of the VC boundary by delaying or anticipating it depending on whether pre-aspiration is enhanced or prevented (Paper [...]).
