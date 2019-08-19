@@ -3,6 +3,14 @@
 # General discussion
 \label{s:gen-disc}
 
+\begin{adjustwidth}{2cm}{}
+Rather than trying to disprove a given hypothesis or showing that one is primary, we argue that it is useful to consider the inter-relationships between these different hypotheses.
+
+—--Winter and Röttger (2011)
+\end{adjustwidth}
+
+\vspace{1cm}
+
 This dissertation investigated the influence of consonant voicing on vowel duration by focussing on production aspects of vowel-consonant sequences.
 As a cross-linguistic tendency, vowels are shorter when followed by voiceless consonants and longer when followed by voiced ones.
 Several proposals as to what mechanisms underly this tendency have been proposed, but no account has won consensus.
