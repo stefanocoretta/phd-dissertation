@@ -20,7 +20,13 @@ eng_durations_rr <- na.omit(eng_durations)
 eng_clos <- na.omit(eng_durations)
 ```
 
-\chapter{Temporal (in)stability in English monosyllabic and disyllabic words: Insights on the effect of voicing on vowel duration}
+\chapter{Temporal (in)stability in English monosyllabic and disyllabic words: Insights on the effect of voicing on vowel duration [Paper II]}
+
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        Coretta, Stefano. 2019. Temporal (in)stability in English monosyllabic and disyllabic words: Insights on the effect of voicing on vowel duration. Submitted. DOI: [...].
+    }%
+}
 
 \begin{abstract}
 English is one in the wide range of languages in which the duration of vowels is modulated by the voicing of the following consonant: Vowels are shorter when followed by voiceless stops, and longer when followed by voiced stops.

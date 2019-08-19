@@ -20,7 +20,13 @@ theme_set(theme_minimal())
 load("./cache/wavegam.Rdata")
 ```
 
-\chapter{Modelling electroglottographic data with wavegrams and generalised additive mixed models}
+\chapter{Modelling electroglottographic data with wavegrams and generalised additive mixed models [Paper V]}
+
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        Coretta, Stefano. 2019. Modelling electroglottographic data with wavegrams and generalised additive mixed models. Manuscript. DOI: [...].
+    }%
+}
 
 \begin{abstract}
 While electroglottography is a practical and safe technique for obtaining articulatory data on voicing, statistical analysis of the signal it returns poses a few challenges given the highly dimensional nature of the signal.

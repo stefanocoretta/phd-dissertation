@@ -81,7 +81,13 @@ trp_difference <- kines_mean %>%
   na.omit()
 ```
 
-\chapter{Longer vowel duration correlates with greater tongue root displacement: Acoustic and articulatory data from Italian and Polish}
+\chapter{Longer vowel duration correlates with greater tongue root displacement: Acoustic and articulatory data from Italian and Polish [Paper III]}
+
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        Coretta, Stefano. 2019. Longer vowel duration correlates with greater tongue root displacement: Acoustic and articulatory data from Italian and Polish. Submitted. DOI: [...].
+    }%
+}
 
 \begin{abstract}
   Voiced stops tend to be preceded by longer vowels and produced with a more advanced tongue root than voiceless stops.

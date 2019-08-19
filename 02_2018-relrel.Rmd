@@ -27,7 +27,13 @@ round_2 <- function(...) {
 }
 ```
 
-\chapter{An exploratory study of voicing-related differences in vowel duration as compensatory temporal adjustment in Italian and Polish}
+\chapter{An exploratory study of voicing-related differences in vowel duration as compensatory temporal adjustment in Italian and Polish [Paper I]}
+
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        Coretta, Stefano. *forthcoming*. An exploratory study of voicing-related differences in vowel duration as compensatory temporal adjustment in Italian and Polish. To appear in *Glossa*.
+    }%
+}
 
 \begin{abstract}
   Over a century of phonetic research has established the cross-linguistic existence of the so called `voicing effect', by which vowels tend to be shorter when followed by voiceless stops and longer when the following stop is voiced.
