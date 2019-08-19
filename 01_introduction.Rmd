@@ -144,7 +144,7 @@ As a consequence, vowels are shorter when followed by the longer closure of voic
 This compensatory pattern would be the consequence of keeping the duration of a particular speech interval fixed, while the duration of the closure changes depending on the voicing status of the stop.
 Proponents of this account have argued that compensation is implemented either at the level of the syllable (or of the VC sequence, \citealt{lindblom1967, farnetani1986}), or at the level of the word \citep{slis1969a, slis1969, lehiste1970, lehiste1970a}.
 This formulation of the account, however, faces empirical and logical challenges.
-The duration of both the syllable and the word is affected by stop voicing \citep{chen1970, jacewicz2009}, and it is not clear why compensation within a word should necessarily target the pre-consonantal vowel and not other segments (these issues are discussed in more details in Paper [...]).
+The duration of both the syllable and the word is affected by stop voicing \citep{chen1970, jacewicz2009}, and it is not clear why compensation within a word should necessarily target the pre-consonantal vowel and not other segments (these issues are discussed in more details in Paper I).
 
 A second proposal attributes the voicing-driven duration differences of vowels to articulatory energy expenditure, rather than temporal aspects.
 \citet{meyer1903} and similarly \citet{belasco1953} propose that the articulatory force required to produce a syllable is constant, and thus it is distributed across segments according to their energy requirements.
@@ -186,7 +186,7 @@ The trend of vowels being longer when followed by aspirated stops challenges som
 The articulatory force expenditure hypothesis predicts vowels to be shorter before aspirated than before unaspirated stops since it is likely that aspirated stops require greater force than unaspirated ones.
 According to the laryngeal adjustment account, the duration of the vowels should not differ in voiceless unaspirated and aspirated stops since they both require glottal opening, rather than the precise adjustments characteristic of voiced stops.
 Since closure rate is determined by airflow, the rate of closure account expects vowels followed by aspirated stops to be shorter than or equal to vowels followed by unaspirated stops, since the former should be characterised by greater airflow and higher closure rates due to glottal spreading.
-While \citet{maddieson1976} argue against a compensatory effect between vowel and consonant duration, the data in \citet{durvasula2012} are instead compatible with it (see Paper [...] for details).
+While \citet{maddieson1976} argue against a compensatory effect between vowel and consonant duration, the data in \citet{durvasula2012} are instead compatible with it (see Paper I for details).
 The results in \citet{sanker2018} on Hindi, but not Telugu, are also compatible with a compensatory mechanism.
 Closure duration is longer in unaspirated stops and shorter in aspirated stops in both languages, but the effect of aspiration on vowel duration has opposite directions, as discussed above.
 
@@ -237,7 +237,7 @@ Eleven were native speakers of Italian (IT01-IT05, IT07, IT09, IT11-IT14), and s
 Missing speaker codes refer to test participants or participants that produced unusable data because of individual anatomy or recording issues.
 Recordings were made in a sound-attenuated room at the Phonetics Laboratory of the University of Manchester, or in a quiet room at a field location in Verbania (IT03-IT07).
 Due to technical issues or poor signal quality, ultrasonic data of /u/ from two speakers (IT07, PL05) and electroglottographic data from two others (IT04, IT05) are missing.
-Basic participants' sociolinguistic data is given in Paper [...].
+Basic participants' sociolinguistic data is given in Paper I.
 The participants were given an information sheet prior to the experiment and signed a consent form.
 
 ### Ultrasound tongue imaging and electroglottography
@@ -284,7 +284,7 @@ The participants read sentence stimuli containing test words presented on the sc
 The test words were C\textsubscript{1}V\textsubscript{1}C\textsubscript{2}V\textsubscript{2} words, where C\textsubscript{1} = /p/, V\textsubscript{1} = /a, o, u/, C\textsubscript{2} = /t, d, k, g/, and V\textsubscript{2} = V\textsubscript{1}.
 The choice of the segmental make-up of the test words was constrained by the use of ultrasound tongue imaging.
 The words were embedded in the frame sentence *Dico X lentamente* 'I say X slowly', and *Mówię X teraz* 'Say X now' for Italian and Polish respectively.
-Paper [...] provides more details on the rationale behind the material design.
+Paper I provides more details on the rationale behind the material design.
 
 The UTI+audio and EGG+audio signals were acquired and recorded by means of AAA and Praat \citep{boersma2016} respectively.
 Since the signals from the ultrasonic machine and the electroglottograph are recorded simultaneously but separately, data from both sources were synchronised after acquisition.
@@ -301,7 +301,7 @@ Since the audio recorded with the EGG system was nosier than that recorded with 
 The output of the force-alignment is a Praat TextGrid with time-aligned interval tiers containing the annotations of intonational phrase units (utterances), words, and phones.
 The automatic annotation was then manually checked by the author and corrected if necessary.
 The placement of segment boundaries followed the suggestions in \citet{machac2009}.
-See Paper [...] for details.
+See Paper I for details.
 
 Detection of the release of C1 and C2 was accomplished through the algorithmic procedure described in \citet{ananthapadmanabha2014}.
 A custom implementation of the procedure has been written in Praat (`release-detection-c1.praat` and `burst-detection.praat` in \citealt{coretta2018m}).
@@ -314,7 +314,7 @@ The search area was created via Praat scripting (with `search-area.praat` in \ci
 The automatic fitting procedure was monitored by the author and manual correction of the fitted splines was applied if necessary.
 
 Subsequent data processing followed the method described in \citet{strycharczuk2015}.
-See Paper [...] and [...] for details.
+See Paper III and IV for details.
 The Cartesian coordinates of the fitted splines, together with tongue displacement, tangential velocity, and absolute velocity of the tongue root, dorsum and tip, were obtained from the following temporal landmarks (\Cref{fig:kine}): C2 closure onset, tongue maximum displacement during C2 closure (MAX), peak absolute velocity before and after tongue maximum displacement (PEAK_1 and PEAK_2), tongue closing gesture onset (GONS), closing gesture nucleus onset (NONS) and offset (NOFF).
 GONS, NONS, and NOFF were defined as the times where absolute velocity reaches 20% of the peak absolute velocity before PEAK_1, between PEAK_1 and MAX, and between MAX and PEAK_2 respectively \citep{kroos1997, gafos2010a}.
 Tongue displacement, and the tangential and absolute velocities of the tongue root, dorsum, and tip were also extracted as time-series along the entire duration of V1.
@@ -324,7 +324,7 @@ Tongue displacement, and the tangential and absolute velocities of the tongue ro
 Finally, wavegram data was extracted from the EGG data, following the method proposed by \citet{herbst2010}.
 In brief, a wavegram is a spectrogram-like representation of the EGG signal, where individual glottal cycles are sequentially placed on the *x*-axis, the normalised time of the samples taken from within each glottal cycle is the *y*-axis, and the third dimension, represented by colours of different shading, is the normalised amplitude of the EGG signal.
 Wavegram data was obtained from the entire duration of V1.
-See Paper [...] for the detailed procedure.
+See Paper V for the detailed procedure.
 
 ## Compensatory aspects of the effect of voicing on vowel duration in English (Study II)
 
@@ -332,7 +332,7 @@ The results from Study I indicated that the temporal distance between two consec
 Within this temporally stable interval, differences in the timing of oral closure determines the respective durations of the vowel and the consonant closure.
 Thus, a second study was carried out to assess whether the durational pattern found in Study I would generalise to English, and to investigate differences between disyllabic and monosyllabic words as predicted by a word-holistic account of gestural phasing.
 It was expected that, while the duration of the release-to-release interval would be insensitive to the voicing status of the second consonant, the interval would be longer in monosyllabic words with a voiced consonant.
-Paper [...] discusses the empirical and theoretical foundation of the research hypotheses and methods of Study II more in detail.
+Paper II discusses the empirical and theoretical foundation of the research hypotheses and methods of Study II more in detail.
 A brief synthesis of the methodologies of the study is reported here.
 
 Fifteen university students were recorded in a sound attenuated room in the Phonetics Laboratory of the University of Manchester while reading sentence stimuli containing test words, presented on a computer screen with PsychoPy \citep{peirce2009}.
@@ -504,11 +504,11 @@ This last section of the Introduction discusses how the principles and methods e
 Study I was not pre-registered, since the absence of a specific hypothesis did not allow for the formulation of a corresponding analysis.
 Sample size was determined on the basis of practical considerations concerning the time required for processing ultrasound tongue imaging data.
 Several different parameters and models have been explored in search of relevant patterns, while only a few of these have been reported in the papers of this study.
-The models of Study I were conducted within a Neyman-Pearson (frequentist) framework of statistical inference \citep{perezgonzalez2015}, while a Bayes factor analysis \citep{kass1995} was performed in those cases that demanded it (Paper [...]).
+The models of Study I were conducted within a Neyman-Pearson (frequentist) framework of statistical inference \citep{perezgonzalez2015}, while a Bayes factor analysis \citep{kass1995} was performed in those cases that demanded it (Paper I).
 To compensate for the asymmetry between the number of models run and those reported, less attention has been given to *p*-values, while greater focus was placed on effect sizes and their hypothesis-generating value.
 The design and analyses of Study II have been pre-registered on the Open Science Framework (\url{https://osf.io/m4rzy/}).
 Sample size determination followed the method of the Region Of Practical Equivalence \citep{vasishth2018a}.
-Data from Study II was subject to a full Bayesian analysis, and greater emphasis was given on the posterior probability distributions of the effect estimates rather than on their means (see Paper [...] for details).
+Data from Study II was subject to a full Bayesian analysis, and greater emphasis was given on the posterior probability distributions of the effect estimates rather than on their means (see Paper II for details).
 
 <!-- TODO: talk about datasets -->
 

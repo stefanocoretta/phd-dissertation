@@ -8,10 +8,10 @@ As a cross-linguistic tendency, vowels are shorter when followed by voiceless co
 Several proposals as to what mechanisms underly this tendency have been proposed, but no account has won consensus.
 Two studies were carried out to investigate durational and articulatory properties of vowels and consonants in Italian, Polish, and English.
 Five papers presented and discussed the results from these studies.
-Paper I and [...] show that the duration of the interval between the releases of the stops of a disyllabic word is not affected by the voicing of the second stop in Italian, Polish, and English.
+Paper I and II show that the duration of the interval between the releases of the stops of a disyllabic word is not affected by the voicing of the second stop in Italian, Polish, and English.
 On the other hand, the release-to-release interval of English monosyllabic words is longer when the second consonant is voiced.
-The results in Paper [...] suggest the existence of a statistical correlation between vowel duration and degree of tongue root advancement, such that longer vowel durations correspond to greater tongue root advancement.
-Finally, in Paper [...] it was speculated that the timing of the stop closure is modulated by the presence of emerging voiceless pre-aspiration, so that either enhancement of pre-aspiration delays closure or its prevention anticipates it.
+The results in Paper III suggest the existence of a statistical correlation between vowel duration and degree of tongue root advancement, such that longer vowel durations correspond to greater tongue root advancement.
+Finally, in Paper V it was speculated that the timing of the stop closure is modulated by the presence of emerging voiceless pre-aspiration, so that either enhancement of pre-aspiration delays closure or its prevention anticipates it.
 This chapter provides an over-arching synthesis of the account proposed here in light of the observed patterns, and discusses the implications for theories of speech production.
 
 ## A pluralist view
@@ -25,9 +25,9 @@ However, while the original compensatory account states that the stop closure du
 The timing of the VC boundary within the release-to-release interval determines the durations of *both* the vowel and closure.
 
 The second fundamental aspect of the holistic account is that the timing of the VC boundary is modulated by aspects that would fall under the laryngeal adjustments and the rate of closure accounts.
-The ultrasound and EGG data from Study I, as discussed in Papers [...] and [...], suggest that mechanisms independent from closure duration per se can act upon the timing of the VC boundary and, indirectly, on the duration of closure.
-For one, tongue root position might influence the timing of the boundary by delaying it to allow for greater tongue root advancement, which is known to facilitate voicing during the production of the stop closure (see Paper [...]).
-Second, the development of pre-aspiration could also influence the timing of the VC boundary by delaying or anticipating it depending on whether pre-aspiration is enhanced or prevented (Paper [...]).
+The ultrasound and EGG data from Study I, as discussed in Papers III--V, suggest that mechanisms independent from closure duration per se can act upon the timing of the VC boundary and, indirectly, on the duration of closure.
+For one, tongue root position might influence the timing of the boundary by delaying it to allow for greater tongue root advancement, which is known to facilitate voicing during the production of the stop closure (see Paper III).
+Second, the development of pre-aspiration could also influence the timing of the VC boundary by delaying or anticipating it depending on whether pre-aspiration is enhanced or prevented (Paper V).
 
 Moreover, the account proposed here is diachronic in nature, in as much as it reveals a possible historical pathway to the emergence of the difference in vowel duration rooted in production aspects of vowels and consonants.
 In particular, I argue that the voicing effect can emerge because of the temporal stability of CVC sequences and the differences in timing of the closure in voiceless and voiced stops.
@@ -50,7 +50,7 @@ Since in the case of voicing there are independent production reasons for the ob
 
 ## Gestural phasing
 
-As argued in Paper [...], the temporal stability of the release-to-release interval is compatible with hypotheses about the gestural organisation of vowel and consonants within the domains of the syllable and the word.
+As argued in Paper II, the temporal stability of the release-to-release interval is compatible with hypotheses about the gestural organisation of vowel and consonants within the domains of the syllable and the word.
 According to the coupled oscillators model \citep{odell2008}, embedded in the task-dynamic model of Articulatory Phonology \citep{ohala1986a, browman1988, browman2000, goldstein2006, goldstein2014}, speech gestures can be implemented according to two coupling modes: in-phase or anti-phase mode.
 When two or more gestures are in an in-phase relation, they are initiated in synchrony.
 If two or more gestures follow an anti-phase coupling mode, the gestures are implemented sequentially and one gesture starts when the preceding one has reached its target.
@@ -109,12 +109,12 @@ This is what it is argued to happen in monosyllabic words, where the distance be
 
 As discussed in \Cref{s:ve}, the degree of the voicing effect is generally thought to vary depending on the language.
 Allegedly, English is the language possessing the biggest effect, while the effect is smaller in Italian and possibly absent in Polish.
-However, Papers [...] and [...] indicate a somewhat different scenario.
+However, Papers I and II indicate a somewhat different scenario.
 A direct comparison of the data from Study I and II is not straightforward, given the different materials used in the two studies, but it still provides us with some directions as to what difference, if any, there are between the languages in question.
 A Bayesian analysis of the effect of voicing in disyllabic words comparing English, Italian, and Polish (see \Cref{a:ve-comp}) suggests that, when controlling for differences in average baseline vowel duration and speech rate, there is no strong evidence for a difference in the effect of voicing across these languages.
 Note, however, that no conclusive statement can be done in this regard, due to the low precision obtained for the relevant estimates.
 
-Crucially, previous work \citep{sharf1962, klatt1973}, and in some part the results in Paper [...], indicate there is a tendency for the effect in English to be greater in monosyllabic than disyllabic words.
+Crucially, previous work \citep{sharf1962, klatt1973}, and in some part the results in Paper II, indicate there is a tendency for the effect in English to be greater in monosyllabic than disyllabic words.
 It is important, then, that differences across languages are tested directly and within the same phonological contexts.
 An example of this approach is the study in \citet{laeufer1992}, who shows that the effect in English and French is comparable when the vowel baseline duration is analogous.
 
