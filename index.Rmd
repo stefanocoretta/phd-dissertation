@@ -16,18 +16,6 @@ geometry:
 indent: true
 fontsize: 12pt
 mainfont: Tinos
-header-includes:
-- \let\tnote\relax
-- \usepackage{cleveref}
-- \usepackage{ctable}
-- \frenchspacing
-- \raggedbottom
-- \renewcommand{\baselinestretch}{1.5}
-- \usepackage[absolute]{textpos}
-- \usepackage{subfigure}
-- \pagestyle{plain}
-- \usepackage{changepage}
-- \usepackage{gb4e}
 params:
   version: "2.0.9000"
   version-date: "2019/07/15"
@@ -76,11 +64,12 @@ Further information on the conditions under which disclosure, publication and co
 
 \chapter*{Acknowledgements}
 
+\let\eachwordone=\it
+
 \begin{adjustwidth}{4cm}{}
-Elen síla lúmenn' omentielvo.
-\gll elen síl-a lúme-nna omentie-lv-o \\
-star \textsc{prs}\textbackslash{}shine-\textsc{prs} hour-\textsc{all.sg} meeting-\textsc{1pl}-\textsc{gen.sg} \\
-\trans `A star shines on the hour of our meeting.'
+{\tengwar    } \\
+Elen síla lúmenn' omentielvo.\\
+\textit{A star shines on the hour of our meeting.}
 \end{adjustwidth}
 
 \vspace{1cm}
@@ -98,9 +87,9 @@ Thanks must also go to Juliette, a companion of lunches and brunches, drinks and
 
 Thanks to the fellows I started this journey with: Stephen, to whom I am grateful for his continuous help and for our creative exchanges; and Donald, to whom I am grateful for the cheerful wit and the appreciation for the good things in life.
 I have also received immense support from George, whose exchanges of ideas were a continuous inspiration, and from Hannah, whose calmness and poise helped me cherish the good and the bad times.
-Last, but not least, a great thanks to all the other graduate students, some of whom were there before me, some of whom came later (Deepthi, Fernanda, Herni, Jane, Chriss, Max, Lorenzo, Kai, Sarah, Mary, and many others whom I wished I had the chance to know better), and to all the other members of staff at SALC who contributed each with their own field to my broader understanding of linguistics.
-
-
+Last, but not least, a great thanks to all the other graduate students, some of whom were there before me, some of whom came later (Deepthi, Fernanda, Herni, Jane, Chris, Max, Lorenzo, Kai, Sarah, Mary, and many others whom I wished I had the chance to know better), and to all the other members of staff at SALC who contributed each with their own field to my broader understanding of linguistics.
+I am also indebted to Prof. Steven Lulich from Indiana University in Bloomington for hosting me in his Lab during October 2018 and letting me play with the 3D ultrasound machine (what a toy!).
+Thanks also to Sherman, Romario, Rebecca, Luma, and all the beautiful people in Bloomington that accompanied me for too short a time along the PhD path.
 
 The tutelage and support of these and many more people came as those of \textit{Kṛṣṇa} upon \textit{Arjuna} in the \textit{Bhagavad-gitā}, during the battle at \textit{Kurukṣetra}.
 Without their direction and kindness, I would have lost my way and strayed, bow broken, never to find again will to persist along the path.

@@ -4,3 +4,5 @@ bookdown::pdf_book:
   keep_tex: true
   citation_package: natbib
   template: template.tex
+  includes:
+    in_header: preamble.tex
