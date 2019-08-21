@@ -209,9 +209,6 @@ Moreover, the author shows that the closure effect on vowel duration coexists wi
 In other words, the variance in vowel duration is account for in part by the duration of the stop closure and in part by the voicing category of the post-vocalic stop.
 As discussed in \citet{begus2017}, these patterns are compatible with accounts of compensatory temporal adjustments, laryngeal adjustments, and rate of closure.
 
-## Summary
-<!-- TODO: voicing effect summary -->
-
 # Methodology
 \label{s:studies}
 
