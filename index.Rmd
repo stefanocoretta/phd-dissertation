@@ -66,7 +66,7 @@ Further information on the conditions under which disclosure, publication and co
 
 \let\eachwordone=\it
 
-\begin{adjustwidth}{4cm}{}
+\begin{adjustwidth}{7cm}{}
 {\tengwar    } \\
 Elen síla lúmenn' omentielvo.\\
 \textit{A star shines on the hour of our meeting.}
@@ -84,14 +84,34 @@ I also wish to thank my colleagues, as well as friends, from the Division and th
 Thanks to Simone, for the numerous chats about academia and life, for his moral support, and for the unicorn-shaped mug he had his coffee from, which gave to our time spent together a note of candour and light-heartedness.
 Thanks to Andrea (Dr Andrea Nini), who taught me about matters of study and of day-to-day living.
 Thanks must also go to Juliette, a companion of lunches and brunches, drinks and dinners, work sessions and pleasure trips, who brought constant light in cloudy Manchester and in my heart.
+Thanks to Jessica, for the lovely *chiacchierate* about all things and for her sparkling energy.
 
 Thanks to the fellows I started this journey with: Stephen, to whom I am grateful for his continuous help and for our creative exchanges; and Donald, to whom I am grateful for the cheerful wit and the appreciation for the good things in life.
 I have also received immense support from George, whose exchanges of ideas were a continuous inspiration, and from Hannah, whose calmness and poise helped me cherish the good and the bad times.
 Last, but not least, a great thanks to all the other graduate students, some of whom were there before me, some of whom came later (Deepthi, Fernanda, Herni, Jane, Chris, Max, Lorenzo, Kai, Sarah, Mary, and many others whom I wished I had the chance to know better), and to all the other members of staff at SALC who contributed each with their own field to my broader understanding of linguistics.
-I am also indebted to Prof. Steven Lulich from Indiana University in Bloomington for hosting me in his Lab during October 2018 and letting me play with the 3D ultrasound machine (what a toy!).
+I am also indebted to Prof. Steven Lulich from Indiana University in Bloomington for hosting me in his Lab during October 2018 and letting me play with the 3D ultrasound machine (what a toy!), and to Prof. Małgorzata Čavar for sharing her ideas on the tongue root.
 Thanks also to Sherman, Romario, Rebecca, Luma, and all the beautiful people in Bloomington that accompanied me for too short a time along the PhD path.
 
+I would have also not made it through without all of my friends in Manchester, especially (in order of appearance, because they are all dearest to me) ma' boy David, the Juan and only, Richard and Jaqui whose holy union I witnessed and cherished, Mark and Kat who offered me unconditional friendship and a roof when I most needed them. Also thanks to Mariana, Maxime, Gül, Valentina, Simena, Lucia, Edo, and to the friends I met in York but whom I found again in Manchester, thank you.
+
+Thanks to my teachers and friends from Loto Blu, whose love has sustained me for all these years.
+Thanks to Valentina A., with whom I share an irrepressible thrust to 'acquire for ourselves a knowledge of higher words'.
+Special thanks go to my friends in Verbania, who supported me and stood me (*supportato e sopportato*) since the dawn of time, and to Mattia, *sorella mia*, whose friendship, *in præsentia et in absentia*, has gracefully marked my University years from day one.
+Thanks to Sig.ra Racchelli, whose help and care provided me with the resources to survive difficult times.
+Thanks to my loving family on Earth and beyond, and a special thanks to my mother, whose continuous sacrifice encouraged me to keep on moving forward.
+
 The tutelage and support of these and many more people came as those of \textit{Kṛṣṇa} upon \textit{Arjuna} in the \textit{Bhagavad-gitā}, during the battle at \textit{Kurukṣetra}.
-Without their direction and kindness, I would have lost my way and strayed, bow broken, never to find again will to persist along the path.
-Instead, they gave me strength to keep on aiming my arrows towards my purpose.
-For all of you a thousand words, then a hundred, then another thousand, would not be enough.
+Without their direction and kindness, I would have lost my way and strayed, never to find again the will to persist along the path.
+For all of you, a thousand thoughts, then a hundred, then another thousand, then a second hundred, then yet another thousand, then a hundred more.
+
+\vspace{3cm}
+
+\begin{center}
+{\nagari असंशयं महाबाहो मनो दुर्निग्रहं चलम् ।}\\
+{\nagari अभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते ॥ ६-३५॥}
+
+asaṃśayaṃ mahābāho mano durnigrahaṃ calam |\\
+abhyāsena tu kaunteya vairāgyeṇa ca gṛhyate || 6-35 ||
+
+\textit{O mighty-armed one, it is undoubtedly very difficult to curb the flickering mind, but it can be controlled, O son of Kunti, by constant practice and by detachment.} [BG 6.35]
+\end{center}

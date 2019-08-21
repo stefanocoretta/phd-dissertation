@@ -8,7 +8,7 @@ documentclass: book
 
 \begin{adjustwidth}{2cm}{}
 \vspace*{4\baselineskip}
-There is in all things a pattern that is part of our universe. It has symmetry, elegance, and grace - these qualities you find always in that the true artist captures. You can find it in the turning of the seasons, the way sand trails along a ridge, in the branch clusters of the \textit{creosote} bush of the pattern of its leaves. We try to copy these patterns in our lives and in our society, seeking the rhythms, the dances, the forms that comfort. Yet, it is possible to see peril in the finding of ultimate perfection. It is clear that the ultimate pattern contains its own fixity. In such perfection, all things move towards death.
+There is in all things a pattern that is part of our universe. It has symmetry, elegance, and grace---these qualities you find always in that the true artist captures. You can find it in the turning of the seasons, the way sand trails along a ridge, in the branch clusters of the \textit{creosote} bush of the pattern of its leaves. We try to copy these patterns in our lives and in our society, seeking the rhythms, the dances, the forms that comfort. Yet, it is possible to see peril in the finding of ultimate perfection. It is clear that the ultimate pattern contains its own fixity. In such perfection, all things move towards death.
 ---\textit{from} The Collected Sayings of Muad'Dib \textit{by the Princess Irulan}
 
 --- Frank Herbert, \textit{Dune} (1965)
