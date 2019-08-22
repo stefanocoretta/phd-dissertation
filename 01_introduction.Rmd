@@ -403,12 +403,12 @@ Matters of research transparency are part of a broader collection of problems, w
 
 Open Science is a movement that stresses the importance of a more honest and transparent scientific attitude by promoting a series of research principles and by warning from common, although not necessarily intentional, questionable practices and misconceptions.
 The term Open Science as a whole refers to the fundamental concepts of 'openness, transparency, rigour, reproducibility, replicability, and accumulation of knowledge' \citep[3]{cruwell2018}.
-The goodness of the latter depends in great part on the reproducibility and replicability of the studies of interest.
+The goodness of the latter depends in great part on the reproducibility and replicability of the studies that contribute to knowledge accumulation.
 While reproducibility and replicability are generally used interchangeably, they refer to two different ideas.
 A study is *replicable* when researchers can independently run the study on new subjects/data and obtain the same results (in brief, same analysis, different data/researchers).
 The *reproducibility* of a study is, instead, related to the ability of independent researchers to run the original analysis on the original data and obtain the same results as those presented by the original authors, pending enough information on the analysis procedures is given (in brief, same analysis, same data).
 
-A sense of need for Open Science, now increasingly spreading to different disciplines and enterprises, rose primarily from the ongoing 'replication crisis' \citep{pashler2012, schooler2014}, which has attracted the most attention within the circles of medical and psychological sciences.
+A sense of need for Open Science, now increasingly spreading to different disciplines and enterprises, arose primarily from the ongoing so-called 'replication crisis' \citep{pashler2012, schooler2014}, which has attracted the most attention within the circles of medical and psychological sciences.
 Recent attempts to replicate results from high-impact studies in psychology have demonstrated an alarmingly high rate of failure to replicate.
 For example, in a replication attempt of 100 psychology studies, only 39% of the original results were rated by annotators as successfully replicated \citep{open-science-collaboration2015}.
 Failure to replicate previous results have been claimed to be a consequence of low statistical power \citep{button2013}, and of so-called questionable research and measurement practices \citep{simmons2011, morin2015, flake2019}.
@@ -461,7 +461,7 @@ Cognitive biases and statistical misconceptions can also have a negative impact 
 Finally, \citet{wagenmakers2007} and \citet{motulsky2014} examine mistaken beliefs about the meaning of *p*-values and statistical significance (like interpreting *p*-values as an index to statistical evidence or the idea that *p*-values inform us about the likelihood of the null-hypothesis given the data).
 
 A bias in the observed effects can also arise at the stage of publication.
-A publication bias has been observed in that significant and novel results are generally favoured over null or replicated results \citep{easterbrook1991, ioannidis2005, song2010, kicinski2013, nissen2016}.
+A publication bias has been observed in that significant and novel results are generally favoured over null results or replications \citep{easterbrook1991, ioannidis2005, song2010, kicinski2013, nissen2016}.
 \citet{rosenthal1979} called the bias agains publishing null results the 'file drawer' problem.
 Studies that don't lead to a significant result are stored in a metaphorical file drawer and forgotten.
 This practice not only can bias meta-analytical effect sizes, but also allows for waste of resources when studies with undisclosed null results are repeatedly performed.
@@ -478,8 +478,7 @@ As mentioned above, sample size, coupled with the effects of increased variance 
 \citet{roettger2019} discusses how the inherently multidimensional nature of speech favours exploration of the researcher's degrees of freedom, by allowing the researcher to navigate through a variety of choices of phonetic correlates and their operationalisation.
 
 In a review of 113 studies of acoustic correlates of word stress in a variety of languages, published between 1955 and 2017, \citet{roettger2017} show that the majority of studies include 1 to 10 speakers (mode = 1), 1 to 40 lexical items, and 1 to 6 repetitions.
-A follow-up analysis conducted on the same data indicates that the median number of participants per study is 5 (see Appendix [...]).
-<!-- TODO: appendix \citep{gordon2018} -->
+A follow-up analysis conducted on the same data indicates that the median number of participants per study is 5 (see \Cref{a:speakers}).
 A few recent studies (2010 onwards) constitute a clear exception by having more than 30 participants.
 However, no apparent trend of increasing average number of speakers can be observed and the situation has been fairly stable over the years.
 Finally, the language endangerment status has a small but negligible negative effect on participants' number in vulnerable and definitely endangered languages, but not so much in severely and critically endangered ones.
@@ -515,15 +514,15 @@ This workflow reduces chances of reporting errors and facilitates validation of 
 <!-- maybe refer here to the Papers so don't need other section? -->
 
 The research project behind this dissertation has been carried out with principles of Open Science in mind.
-The reader might notice, however, a certain arc of development in putting these concepts into practice, since my understanding of Open Science practices evolved during this dissertation project.
-This last section of the Introduction discusses how the principles and methods expounded in the above sections were applied to this project.
+The reader might notice, however, a certain arc of development in putting these concepts into practice, since my understanding of Open Science practices evolved during the realisation of the project.
+This last section of the Introduction discusses how the principles and methods expounded in the above sections were applied in this project.
 
 Study I was not pre-registered, since the absence of a specific hypothesis did not allow for the formulation of a corresponding analysis.
 Sample size was determined on the basis of practical considerations concerning the time required for processing ultrasound tongue imaging data.
 Several different parameters and models have been explored in search of relevant patterns, while only a few of these have been reported in the papers of this study.
 The models of Study I were conducted within a Neyman-Pearson (frequentist) framework of statistical inference \citep{perezgonzalez2015}, while a Bayes factor analysis \citep{kass1995} was performed in those cases that demanded it (Paper I).
 To compensate for the asymmetry between the number of models run and those reported, less attention has been given to *p*-values, while greater focus was placed on effect sizes and their hypothesis-generating value.
-The design and analyses of Study II have been pre-registered on the Open Science Framework (\url{https://osf.io/m4rzy/}).
+The design and analyses of Study II have been pre-registered on the Open Science Framework (\url{https://osf.io/2m39u/}).
 Sample size determination followed the method of the Region Of Practical Equivalence \citep{vasishth2018a}.
 Data from Study II was subject to a full Bayesian analysis, and greater emphasis was given on the posterior probability distributions of the effect estimates rather than on their means (see Paper II for details).
 
@@ -532,7 +531,7 @@ Data from Study II was subject to a full Bayesian analysis, and greater emphasis
 Data, code, and information about software can be found in the research compendium of this project on the Open Science Framework (\url{https://osf.io/w92me/}).
 <!-- TODO: use public link -->
 This OSF repository acts as a hub for the research compendia of the project and of the individual papers.
-Data has been packaged and documented using R \citep{marwick2017}.
+The data has been packaged and documented using R \citep{marwick2017}.
 The data packages (coretta2018itapol and coretta2019eng) are available on GitHub and links to them are given in the OSF repository (see the Data components in the repository).\footnote{The raw ultrasound tongue imaging AAA files were not uploaded given their size (almost 40 GB) and can be obtained from the author.}
 Following the recommendations in \citet{berez-kroeker2018}, each data component is given a standard bibliographical citation \citep{coretta2018m, coretta2019g}.
 
