@@ -32,7 +32,9 @@ params:
 \newpage
 \begin{center}
 \section*{Abstract}
+\label{s:abstract}
 \end{center}
+\addcontentsline{toc}{section}{\nameref{s:abstract}}
 
 This dissertation focusses on the so-called 'voicing effect', by which vowels tend to be shorter when followed by voiceless stops and to be longer when followed by voiced stops, as exemplified by the English word pair *bat* vs. *bad*.
 While the presence of this effect is cross-linguistically widespread, less is known about the source(s) of this phenomenon and competing accounts have been proposed over the decades.
@@ -49,22 +51,26 @@ Furthermore, glottal spreading typical of voiceless stops also can affect the ti
 These two factors, among other known factors, contribute to the observed pattern of short voiced closures and long preceding vowel duration, and, vice versa, long voiceless closures and short preceding vowel duration.
 
 \chapter*{Declaration}
+\label{s:declaration}
+\addcontentsline{toc}{section}{\nameref{s:declaration}}
 
 I declare that no portion of the work referred to in this thesis has been submitted in support of an application for another degree or qualification of this or any other university or other institute of learning.
 
 \chapter*{Copyright statement}
+\label{s:copyright}
+\addcontentsline{toc}{section}{\nameref{s:copyright}}
 
-The author of this thesis (including any appendices and/or schedules to this thesis) owns certain copyright or related rights in it (the ``Copyright'') and s/he has given The University of Manchester certain rights to use such Copyright, including for administrative purposes.
+The author of this thesis (including any appendices and/or schedules to this thesis) owns certain copyright or related rights in it (the ''Copyright'') and s/he has given The University of Manchester certain rights to use such Copyright, including for administrative purposes.
 
 Copies of this thesis, either in full or in extracts and whether in hard or electronic copy, may be made only in accordance with the Copyright, Designs and Patents Act 1988 (as amended) and regulations issued under it or, where appropriate, in accordance with licensing agreements which the University has from time to time. This page must form part of any such copies made.
 
-The ownership of certain Copyright, patents, designs, trademarks and other intellectual property (the ``Intellectual Property'') and any reproductions of copyright works in the thesis, for example graphs and tables (``Reproductions''), which may be described in this thesis, may not be owned by the author and may be owned by third parties. Such Intellectual Property and Reproductions cannot and must not be made available for use without the prior written permission of the owner(s) of the relevant Intellectual Property and/or Reproductions.
+The ownership of certain Copyright, patents, designs, trademarks and other intellectual property (the ''Intellectual Property'') and any reproductions of copyright works in the thesis, for example graphs and tables (''Reproductions''), which may be described in this thesis, may not be owned by the author and may be owned by third parties. Such Intellectual Property and Reproductions cannot and must not be made available for use without the prior written permission of the owner(s) of the relevant Intellectual Property and/or Reproductions.
 
 Further information on the conditions under which disclosure, publication and commercialisation of this thesis, the Copyright and any Intellectual Property and/or Reproductions described in it may take place is available in the University IP Policy (see \url{http://documents.manchester.ac.uk/DocuInfo.aspx?DocID=24420}), in any relevant Thesis restriction declarations deposited in the University Library, The University Library’s regulations (see \url{http://www.library.manchester.ac.uk/about/regulations/}) and in The University’s policy on Presentation of Theses.
 
 \chapter*{Acknowledgements}
-
-\let\eachwordone=\it
+\label{s:acknowledgements}
+\addcontentsline{toc}{section}{\nameref{s:acknowledgements}}
 
 \begin{adjustwidth}{7cm}{}
 {\tengwar    } \\
@@ -110,8 +116,12 @@ For all of you, a thousand thoughts, then a hundred, then another thousand, then
 {\nagari असंशयं महाबाहो मनो दुर्निग्रहं चलम् ।}\\
 {\nagari अभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते ॥ ६-३५॥}
 
+\vspace{0.5cm}
+
 asaṃśayaṃ mahābāho mano durnigrahaṃ calam |\\
 abhyāsena tu kaunteya vairāgyeṇa ca gṛhyate || 6-35 ||
+
+\vspace{0.5cm}
 
 \textit{O mighty-armed one, it is undoubtedly very difficult to curb the flickering mind, but it can be controlled, O son of Kunti, by constant practice and by detachment.} [BG 6.35]
 \end{center}
