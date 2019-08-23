@@ -249,8 +249,6 @@ The series of polar GAMs indicates a high degree of idiosyncrasy in tongue root 
 Limitations of the current implementation of polar GAMs (such as across-speaker normalisation) and future directions are also briefly discussed.
 \end{abstract}
 
-**Keywords**: ultrasound tongue imaging, generalised additive models, tongue root
-
 ## Introduction
 
 <!-- need to say that tongue comes from UTI -->
@@ -294,7 +292,7 @@ Tongue contours obtained from ultrasound imaging lend themselves to be efficient
 
 ### Polar coordinates
 
-\citet{mielke2015} and \citet{heyne2015a, heyne2015} have shown that using polar coordinates of tongue contours rather than cartesian coordinates brings several benefits, among which reduced variance at the edges of the tongue contour.
+\citet{mielke2015} and \citet{heyne2015, heyne2015a} have shown that using polar coordinates of tongue contours rather than cartesian coordinates brings several benefits, among which reduced variance at the edges of the tongue contour.
 Points in a polar coordinate system are defined by pairs of radial and angular values.
 A point is described by a radius, which corresponds to the radial distance from the origin, and by the angle from a reference radius.
 Tongue contours, due to their shape, tend to have increasing slope at the left and right edges, in certain cases tending to become almost completely vertical.
@@ -542,7 +540,7 @@ In some speakers and contexts, the tongue root (the left part of the tongue cont
 
 In particular, IT01, IT02, PL05, and PL06 show a robust pattern in which the tongue root in voiced stops is more advanced than in voiceless stops in most vowel/place contexts.
 The other speakers, however, either don't have any tongue root advancement (like Pl03), or they have advancement in only some of the phonological contexts (like PL07).
-Moreover, IT11 has the opposite patter, especially with velar stops, such that voiced stops have a retracted tongue root compared to voiceless stops.
+Moreover, IT11 has the opposite pattern, especially with velar stops, such that voiced stops have a retracted tongue root compared to voiceless stops.
 IT04 is a clear example of tongue body lowering (another cavity expansion mechanism), as it can be seen in coronal stops.
 This level of idiosyncrasy (both within and between speakers) is not surprising, and it qualitatively resembles the degree of variability found, for example, in \citet{ahn2018} for English and Brasilian Portuguese.
 Finally, no clear patterns can be discerned between speakers of Italian and Polish that could point to cross-linguistic differences.
@@ -552,7 +550,7 @@ As for the magnitude of the difference in tongue root position, such difference 
 \citet{rothenberg1967} argues, based on modelling, that the tongue root can move forward by a maximum of about 5 mm mid-sagittally.
 This movement corresponds to an average volume increase of 18 cm\textsuperscript{2}.
 Given these estimates, it can be argued that a 2 mm change in root position along the mid-sagittal plane contributes to an appreciable oral cavity volume increase.
-Considering that other volume expansion mechanisms can operate along with the advancement of the tongue root (like larynx lowering, tongue body lowering, etc.), the tongue root driven volume increase found here, although at first sight small, seems to be sufficient to allow voicing to be maintained during the closure of voiced stops.
+Considering that other volume expansion mechanisms can operate along with the advancement of the tongue root (like larynx lowering, tongue body lowering, etc.), the tongue root driven volume increase found here, although at first sight small, seems to be sufficient to allow for voicing to be maintained during the closure of voiced stops.
 
 ```{r it01-gam-ar-2, cache=TRUE, message=FALSE, include=FALSE}
 it01_gam_ar_0 <- polar_gam(
@@ -958,6 +956,23 @@ pl07_gam_ar_0 <- polar_gam(
 compareML(pl07_gam_ar_0, pl07_gam_ar)
 ```
 
+## Conclusions
+
+Generalised additive (mixed) models (GAMs) can be efficiently used to statistically assess differences in tongue contour shapes as obtained from ultrasound tongue imaging.
+This paper showed how GAMs can be fitted to tongue contours in polar coordinates in R with the specialised package rticulate.
+An example of how GAMs can help modelling differences in tongue contours has been illustrated with data from 12 speakers of Italian and Polish in which the mid-sagittal tongue contours of voiceless and voiced stops where compared.
+The advantages of polar GAMs over the current implementation of polar tongue SSANOVA include: the ability to specify multiple predictors and random effects; control over the autocorrelation in the residuals which could otherwise make the model overconfident; separate methods for assessing statistical significance at the level of the predictor (with model comparison) and for identifying which part of the tongue differs significantly (by visualising the difference smooths).
+The same general issues noted in \citet{davidson2006} for SSANOVA apply to polar GAMs.
+In particular, while within-speaker normalisation can be achieved by rotation and offsetting of the data relative to a bite plate (as done here), across-speaker normalisation represents a bigger challenge.
+Since we can't deduced with sufficient certainty from the ultrasonic image which part of the tongue is being actually imaged, it is not possible to define fixed anatomical landmarks across speakers that can be used in normalisation.
+For this reason it has been recommended here to fit separate models for each speaker.
+Future work will explore ways of allowing the user to use data aggregated from multiple speakers while accounting for the uncertainty in which parts of the tongue are imaged.
+Finally, polar GAMs can also be readily extended to model 3D tongue surfaces and whole tongue contours differences over time (in other words, how the sectional shape of the tongue changes over time).
+
+## Data Accessibility Statement
+
+The data and code used in this paper can be viewed and downloaded at the Open Science Framework link <https://osf.io/q7hyz/?view_only=f9d9f865619848f4bc575bc86cb07282>.
+
 ```{r Figure07, include=TRUE, fig.cap = "Tongue contours of voiceless and voiced stops in IT01.", out.width=".8\\textwidth"}
 plot_polar_smooths(it01_gam_ar, X, voicing, facet_terms = c2_place + vowel, split = list(vc_voicing = c("vowel", "c2_place", "voicing"))) +
   theme(legend.position = "top") +
@@ -1029,20 +1044,3 @@ plot_polar_smooths(pl07_gam_ar, X, voicing, facet_terms = c2_place + vowel, spli
   theme(legend.position = "top") +
   labs(x = "", y = "")
 ```
-
-## Conclusions
-
-Generalised additive (mixed) models (GAMs) can be efficiently used to statistically assess differences in tongue contour shapes as obtained from ultrasound tongue imaging.
-This paper showed how GAMs can be fitted to tongue contours in polar coordinates in R with the specialised package rticulate.
-An example of how GAMs can help modelling differences in tongue contours has been illustrated with data from 12 speakers of Italian and Polish in which the mid-sagittal tongue contours of voiceless and voiced stops where compared.
-The advantages of polar GAMs over the current implementation of polar tongue SSANOVA include: the ability to specify multiple predictors and random effects; control over the autocorrelation in the residuals which could otherwise make the model overconfident; separate methods for assessing statistical significance at the level of the predictor (with model comparison) and for identifying which part of the tongue differs significantly (by visualising the difference smooths).
-The same general issues noted in \citet{davidson2006} for SSANOVA apply to polar GAMs.
-In particular, while within-speaker normalisation can be achieved by rotation and offsetting of the data relative to a bite plate (as done here), across-speaker normalisation represents a bigger challenge.
-Since we can't be deduced with sufficient certainty from the ultrasonic image which part of the tongue is being actually imaged, it is not possible to define fixed anatomical landmarks across speakers that can be used in normalisation.
-For this reason it has been recommended here to fit separate models for each speaker.
-Future work will explore ways of allowing the user to use data aggregated from multiple speakers while accounting for the uncertainty in which parts of the tongue are imaged.
-Finally, polar GAMs can also be readily extended to model 3D tongue surfaces and whole tongue contours differences over time (in other words, how the sectional shape of the tongue changes over time).
-
-## Data Accessibility Statement
-
-The data and code used in this paper can be viewed and downloaded at the Open Science Framework link <https://osf.io/q7hyz/?view_only=f9d9f865619848f4bc575bc86cb07282>.
