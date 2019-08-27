@@ -271,7 +271,7 @@ All further data processing and visualisation was done in R v3.5.2 [@r-core-team
 <!-- add power analysis? -->
 <!-- NEED TO CITE KIRBY -->
 
-Given the data-driven nature of the study, all statistical analyses reported here are to be considered exploratory (hypothesis-generating) rather than confirmatory (hypothesis-driven, \citealt{kerr1998, gelman2013, roettger2018}).
+Given the data-driven nature of the study, all statistical analyses reported here are to be considered exploratory (hypothesis-generating) rather than confirmatory (hypothesis-driven, \citealt{kerr1998, gelman2013, roettger2019}).
 The durational measurements were analysed with linear mixed-effects models using lme4 v1.1-19 in R [@bates2015], and model estimates were extracted with the effects package v4.1-0 [@fox2003].
 All factors were coded with treatment contrasts and the following reference levels: voiceless (vs. voiced), /a/ (vs. /o/, /u/), coronal (vs. velar), Italian (vs. Polish).
 Speech rate has been centred when included in the models to make the intercept estimates more interpretable.
@@ -674,7 +674,7 @@ However, even when multicollinearity between predictors is minimal, presence or 
 The diachronic development of context-driven statistical sub-distributions can override the original causal link \citep{soskuthy2013}.
 Under this scenario, it is not possible to discern which of the competing predictors is diachronically responsible for the relation, and either or both the compensatory mechanism and the laryngeal features could have had a role in generating the synchronic patterns (this kind of
 reasoning is compatible for example with exemplar theories of speech perception and
-production, see among others \citealt{johnson1997, soskuthy2018, ambridge2018, todd2018}).
+production, see among others \citealt{johnson1997, soskuthy2018, ambridge2018, todd2019}).
 
 Since diverging results have been obtained in relation to the significance of  C2 phonation in addition to C2 closure durations, these aspects need to be further investigated in future studies, although to ascertain whether they are artefacts of statistical procedures or if they reflect an underlying state of affairs might still prove difficult.
 To conclude, lack of significance of a separate laryngeal features effect in this study cannot be taken as evidence for its absence in the present data, and a compensatory mechanism could coexist with mechanisms directly related to laryngeal features, which would in turn explain the differential timing of the VC boundary.

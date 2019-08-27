@@ -303,7 +303,7 @@ The choice of the segmental make-up of the test words was constrained by the use
 The words were embedded in the frame sentence *Dico X lentamente* 'I say X slowly', and *Mówię X teraz* 'Say X now' for Italian and Polish respectively.
 Paper I provides more details on the rationale behind the material design.
 
-The UTI+audio and EGG+audio signals were acquired and recorded by means of AAA and Praat \citep{boersma2016} respectively.
+The UTI+audio and EGG+audio signals were acquired and recorded by means of AAA and Praat \citep{boersma2018} respectively.
 Since the signals from the ultrasonic machine and the electroglottograph are recorded simultaneously but separately, data from both sources were synchronised after acquisition.
 Synchronisation was achieved using the cross-correlation of the audio signals obtained from the separate sources \citep{grimaldi2008}.
 The interval between the start of the cross-correlated signal and the time of the signal maximum amplitude is equal to the lag between the two original sounds (\Cref{fig:cross-correlation}).
@@ -497,7 +497,7 @@ As discussed above, a research analysis is reproducible when different researche
 Ensuring full reproducibility also means ensuring computational reproducibility, or in other words enabling researchers to perform the original analysis in an identical computational environment \citep{schwab2000, fomel2009}.
 \citet{peng2009} mentions exposed cases of fraudulent data manipulation and unintentional analysis errors that call for policies of reproducibility to ensure accountability of published results.
 <!-- Ho Chunk case from Donald -->
-Our field is not immune from these issues (see for example the 'Yokuts vowels' case, \citealt{weigel2002, weigel2005, blevins2004}), and the idea of reproducibility is not new to linguistics in general \citep{bird2003, thieberger2004, maxwell2005, maxwell2013, cysouw2015,  gawne2017} nor to phonetics/phonology specifically \citep{abari2012, roettger2018a}.
+Our field is not immune from these issues (see for example the 'Yokuts vowels' case, \citealt{weigel2002, weigel2005, blevins2004}), and the idea of reproducibility is not new to linguistics in general \citep{bird2003, thieberger2004, maxwell2005, maxwell2013, cysouw2015,  gawne2017} nor to phonetics/phonology specifically \citep{abari2012, roettger2019a}.
 
 The objective of making research accountable can be achieved by publicly sharing data (subject to ethical restrictions), analysis code, and detailed information on the software that produced the results \citep{sandve2013}.
 Sharing data is also fundamental for the accumulation of knowledge, for example in the context of meta-analytical studies.
