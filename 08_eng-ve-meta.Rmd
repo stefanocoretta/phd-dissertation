@@ -47,7 +47,7 @@ The posterior distributions of each study have been obtained by fitting a Bayesi
 These models had the mean vowel durations as outcome and consonant voicing (voiceless vs. voiced) as the only predictor.
 Three studies, \citet{luce1985}, \citet{davis1989}, and \citet{ko2018}, reported measures of dispersion along with the means.
 Measurement error models were used to obtain the posterior distributions from these studies.
-The measurement error term in such models allows fitting to include information of the dispersion of the mean vowel durations, and hence of the uncertainty that comes with them.
+The measurement error term in such models allows us to include information of the dispersion of the mean vowel durations, and hence of the uncertainty that comes with them.
 All the models for estimating the posterior of the individual studies were fitted with the following priors: a normal distribution with mean = 0 ms and SD = 300 for the intercept, and a normal distribution with mean = 0 ms and SD = 100 for the effect of consonant voicing.
 The simple models (without an error term) also included a prior for the residual variance as a half Cauchy distribution with location = 0 ms and scale = 25.
 
@@ -384,7 +384,7 @@ The following is the summary of the meta-analytical model (as output by `summary
 The population-level effects are the ones of interest.
 \Cref{fig:intervals-plot} is a visual aid to the summury, and shows a variety of credible intervals of the estimates from the model.
 The blue-coloured bars represent (from darker to lighter blue) the 50%, 80%, and 95% credible intervals (CIs).
-THe black lines are the 66% (thick) and 98% (thin) CIs.
+The black lines are the 66% (thick) and 98% (thin) CIs.
 
 ```{r meta-summary, include=TRUE, size="footnotesize"}
 cat(capture.output(summary(meta_bm_syl))[8:16], sep = "\n")
@@ -415,12 +415,12 @@ The 95% credible interval (CI) of the model intercept (which corresponds to the 
 This means that there is a 95% probability that the true effect lies between about 56 and 96 ms.
 The mean of the posterior distribution is 75.83 ms (SD = 10.01).
 Given the 95% CI of the meta-analytical posterior distribution, it can be inferred that the true effect of voicing in word-final syllables in English is positive and between 50 and 100 ms.
-However, note that the meta-anlytical estimate might suffer from publication bias (cf. below).
+However, note that the meta-analytical estimate might suffer from publication bias (cf. below).
 
 The posterior mean of the coefficient when the target syllable is in penultimate position is -49.14 ms (SD = 19.10, 95% CI = [-85.69, -8.98]).
 Note that the estimated error is double compared to that of the intercept, which means the there is greater uncertainty in this than the other estimate.
 We can argue that, on average, the mean voicing effect in penultimate syllables is about 50 ms smaller than the mean effect in monosyllabic words in the surveyed studies.
-The mean of the voicing effect in disyllabic words can thus be estimated to be around 25 ms (about 75 - 50 ms).
+The mean of the voicing effect in disyllabic words can thus be estimated to be around 25 ms (75 - 50 ms).
 
 A visual representation of the meta-analytical distributions is given in \Cref{fig:syl-plot}.
 The plot shows the full posterior distributions of the voicing effect in the word-final and penultimate contexts.
@@ -489,7 +489,7 @@ studies_shrunk <- (c(posterior_samples(meta_bm_syl, pars = "b_Intercept")) +
   left_join(y = studies)
 ```
 
-```{r origin-shrunk-plot, include=TRUE, fig.cap = "Estimated voicing effect from the original source and from the meta-analysis."}
+```{r origin-shrunk-plot, include=TRUE, fig.cap = "Estimated voicing effect from the original source and from the meta-analysis.", out.extra = "width=\\textwidth"}
 bind_rows(estimated_tbl, studies_shrunk) %>%
   mutate(source = factor(source, levels = c("meta-analysis", "original"))) %>%
   ggplot(aes(reorder(study_ref, Estimate), Estimate, colour = source, linetype = syl_pos)) +

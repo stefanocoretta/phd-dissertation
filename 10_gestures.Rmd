@@ -41,12 +41,12 @@ knitr::knit_hooks$set(chunk = function(x, options) {
 })
 ```
 
-A consequence of the gestural organisation proposed to account for the stability of the release-to-release interval duration is that the timing of the gestural onset should not be affected by the voicing status of the consonant in disyllabic words.
+A consequence of the gestural organisation proposed to account for the stability of the release-to-release interval duration in disyllabic words is that the timing of the gestural onset should not be affected by the voicing status of the consonant in disyllabic words.
 In other words, the interval between the release of the the consonant preceding the vowel and the onset of the closing gesture of the post-vocalic consonant should be the same whether the consonant is voiceless or voiced.
-The difference in vowel duration (and closure duration) would be a consequence of the different velocity of the closing gesture in voiceless vs voiced stops, rather than of a difference in gestural onset.
+The difference in vowel duration (and closure duration) would be a consequence of the different velocity of the closing gesture in voiceless vs. voiced stops, rather than of a difference in gestural onset.
 
 The ultrasound tongue imaging data from Study I partially suggests that the temporal distance between C1 release and C2 gestural onset is not affected by C2 voicing.
-A Bayesian regression was fit to the duration of the C1 release to C2 gesture onset (GONS) interval, with C2 voicing, vowel, C2 place of articulation, interactions between voicing and vowel and voicing and place, and centred speech rate.
+A Bayesian regression was fit to the duration of the C1 release to C2 gesture onset (GONS) interval, with C2 voicing, vowel, C2 place of articulation, interactions between voicing and vowel and voicing and place, and centred speech rate as predictors.
 By speaker and by-word random intercepts were also included.
 A normal distribution with mean 0 ms and SD 200 was used as prior for the intercept, while a distribution with mean 0 and SD 10 was used for vowel, place and the interactions.
 For speech rate, the prior was a normal distribution with mean 0 and SD 50.
@@ -118,7 +118,7 @@ rel_gons_draws %>%
 
 The present data does not offer unambiguous support for isochronous timing of C2 gestural onset, but it suggests that the difference is smaller than 15 ms.
 The gestural literature does not explicitly posit a lower limit as to what range of values would indicate gestural isochrony.
-\citet{hermes2019} measure the lag between the gestures of an onset consonant and the vocalic nucleus and report that, in the standard population, the mean lag is 32 ms (SD - 66).
+\citet{hermes2019} measure the lag between the gestures of an onset consonant and the vocalic nucleus and report that, in the standard population, the mean lag is 32 ms (SD 66).
 If a 32 ms lag in implementation of two gestures can be interpreted as indicating a relation of synchrony between these gestures, than a difference below 15 ms could be interpreted as suggesting an isochronous production of voiceless and voiced consonantal gestures.
 Note that while in \citet{hermes2019} the temporal lag refers to a syntagmatic relation between two gestures, the case of the voiceless/voiced consonants is paradigmatic.
 Future work should: (1) identify a minimum theoretical value below which two gestures can be considered to be paradigmatically isochronous, and (2) investigate the temporal relation of gestural onsets in VCV sequences using a bigger sample.
