@@ -17,13 +17,13 @@ indent: true
 fontsize: 12pt
 mainfont: Tinos
 params:
-  version: "2.0.9000"
-  version-date: "2019/07/15"
+  version: "3.0"
+  version-date: "2019/08/27"
 ---
 
-\begin{textblock}{3}(0.2,0.2)
+<!--\begin{textblock}{3}(0.2,0.2)
   \textcolor{lightgray}{v`r params$version` (`r params[["version-date"]]`)}
-\end{textblock}
+\end{textblock}-->
 
 \newenvironment{abstract}{
     \subsection*{\centering Abstract}%
