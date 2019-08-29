@@ -673,7 +673,7 @@ This study set out to build on the results discussed in \citet{coretta2018j} by 
 It was expected that the release-to-release interval would not be affected by C2 voicing in disyllabic words but it would in monosyllabic words.
 Moreover, a conceptual replication of studies on the effect of consonant voicing on vowel and closure durations was sought, with a focus on comparing the effect in mono- vs. disyllabic words.
 This section discusses in turn the results in relation to the release-to-release interval duration (\Cref{s:rr-disc}) and to vowel and closure durations (\Cref{s:vc-disc}) by comparing them with the hypotheses of this study.
-\Cref{s:gen-disc} synthesises and links these findings back to the articulatory grounding of the temporal properties of the release-to-release interval in mono- and disyllabic words (\Cref{s:intro}).
+\Cref{s:rr-gen-disc} synthesises and links these findings back to the articulatory grounding of the temporal properties of the release-to-release interval in mono- and disyllabic words (\Cref{s:intro}).
 Limitations and future work are also discussed.
 
 ### Release-to-release interval
@@ -758,7 +758,7 @@ Ko's findings \citeyear{ko2018} support the idea that the voicing effect (and th
 More studies like \citet{ko2018} are needed to settle the issue of the diverging results.
 
 ### General discussion
-\label{s:gen-disc}
+\label{s:rr-gen-disc}
 
 \citet{coretta2018j} proposes that the voicing-related adjustments in the relative timing of the closure onset within an isochronous speech interval (acoustically identified as the release-to-release interval) is the diachronic precursor of the cross-linguistically widespread effect of voicing on vowel duration.\footnote{Note that isochrony here is intended as pertaining the context of voiceless vs. voices stops only.}
 Given that the duration of the release-to-release interval in Italian, Polish, and English disyllabic words is not affected by the voicing of the post-vocalic consonant, the relative durations of vowel and closure are thought to depend on the timing of the VC boundary within that interval.
