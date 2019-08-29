@@ -24,7 +24,7 @@ load("./cache/wavegam.Rdata")
 
 \noindent\fbox{%
     \parbox{\textwidth}{%
-        Coretta, Stefano. 2019. Modelling electroglottographic data with wavegrams and generalised additive mixed models. Manuscript. DOI: [...].
+        Coretta, Stefano. 2019. Modelling electroglottographic data with wavegrams and generalised additive mixed models. Manuscript. DOI: \url{https://doi.org/10.31219/osf.io/m623d}.
     }%
 }
 

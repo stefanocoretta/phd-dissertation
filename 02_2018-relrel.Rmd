@@ -31,7 +31,7 @@ round_2 <- function(...) {
 
 \noindent\fbox{%
     \parbox{\textwidth}{%
-        Coretta, Stefano. \textit{forthcoming}. An exploratory study of voicing-related differences in vowel duration as compensatory temporal adjustment in Italian and Polish. To appear in \textit{Glossa}.
+        Coretta, Stefano. \textit{forthcoming}. An exploratory study of voicing-related differences in vowel duration as compensatory temporal adjustment in Italian and Polish. To appear in \textit{Glossa}. DOI: \url{https://doi.org/10.31219/osf.io/8zm56}
     }%
 }
 

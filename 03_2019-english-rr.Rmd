@@ -24,7 +24,7 @@ eng_clos <- na.omit(eng_durations)
 
 \noindent\fbox{%
     \parbox{\textwidth}{%
-        Coretta, Stefano. 2019. Temporal (in)stability in English monosyllabic and disyllabic words: Insights on the effect of voicing on vowel duration. Submitted. DOI: [...].
+        Coretta, Stefano. 2019. Temporal (in)stability in English monosyllabic and disyllabic words: Insights on the effect of voicing on vowel duration. Submitted. DOI: \url{https://doi.org/10.31219/osf.io/jvwa8}.
     }%
 }
 

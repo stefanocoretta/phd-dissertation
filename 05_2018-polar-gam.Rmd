@@ -234,7 +234,7 @@ contrasts(tongue_pl07$vc_voicing) <- "contr.treatment"
 
 \noindent\fbox{%
     \parbox{\textwidth}{%
-        Coretta, Stefano. 2019. Assessing mid-sagittal tongue contours in polar coordinates using generalised additive (mixed) models. Manuscript. DOI: [...].
+        Coretta, Stefano. 2019. Assessing mid-sagittal tongue contours in polar coordinates using generalised additive (mixed) models. Manuscript. DOI: \url{https://doi.org/10.31219/osf.io/q6vzb}.
     }%
 }
 
