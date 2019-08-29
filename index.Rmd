@@ -17,7 +17,7 @@ indent: true
 fontsize: 12pt
 mainfont: Tinos
 params:
-  version: "3.1"
+  version: "3.2"
   version-date: "2019/08/29"
 ---
 
@@ -60,11 +60,11 @@ I declare that no portion of the work referred to in this thesis has been submit
 \label{s:copyright}
 \addcontentsline{toc}{section}{\nameref{s:copyright}}
 
-The author of this thesis (including any appendices and/or schedules to this thesis) owns certain copyright or related rights in it (the ''Copyright'') and s/he has given The University of Manchester certain rights to use such Copyright, including for administrative purposes.
+The author of this thesis (including any appendices and/or schedules to this thesis) owns certain copyright or related rights in it (the 'Copyright') and s/he has given The University of Manchester certain rights to use such Copyright, including for administrative purposes.
 
 Copies of this thesis, either in full or in extracts and whether in hard or electronic copy, may be made only in accordance with the Copyright, Designs and Patents Act 1988 (as amended) and regulations issued under it or, where appropriate, in accordance with licensing agreements which the University has from time to time. This page must form part of any such copies made.
 
-The ownership of certain Copyright, patents, designs, trademarks and other intellectual property (the ''Intellectual Property'') and any reproductions of copyright works in the thesis, for example graphs and tables (''Reproductions''), which may be described in this thesis, may not be owned by the author and may be owned by third parties. Such Intellectual Property and Reproductions cannot and must not be made available for use without the prior written permission of the owner(s) of the relevant Intellectual Property and/or Reproductions.
+The ownership of certain Copyright, patents, designs, trademarks and other intellectual property (the 'Intellectual Property') and any reproductions of copyright works in the thesis, for example graphs and tables ('Reproductions'), which may be described in this thesis, may not be owned by the author and may be owned by third parties. Such Intellectual Property and Reproductions cannot and must not be made available for use without the prior written permission of the owner(s) of the relevant Intellectual Property and/or Reproductions.
 
 Further information on the conditions under which disclosure, publication and commercialisation of this thesis, the Copyright and any Intellectual Property and/or Reproductions described in it may take place is available in the University IP Policy (see \url{http://documents.manchester.ac.uk/DocuInfo.aspx?DocID=24420}), in any relevant Thesis restriction declarations deposited in the University Library, The University Library’s regulations (see \url{http://www.library.manchester.ac.uk/about/regulations/}) and in The University’s policy on Presentation of Theses.
 
@@ -94,7 +94,7 @@ Thanks to Jessica, for the lovely *chiacchierate* about all things and for her s
 
 Thanks to the fellows I started this journey with: Stephen, to whom I am grateful for his continuous help and for our creative exchanges; and Donald, to whom I am grateful for the cheerful wit and the appreciation for the good things in life.
 I have also received immense personal and academic support from George, whose exchanges of ideas were a continuous inspiration, and from Hannah, whose calmness and poise helped me cherish the good and the bad times.
-Last, but not least, a great thanks to all the other graduate students, some of whom were there before me, some of whom came later (Deepthi, Fernanda, Herni, Jane, Chris, Max, Lorenzo, Kai, Sarah, Mary, and many others whom I wished I had the chance to know better), and to all the other members of staff at SALC who contributed each with their own field to my broader understanding of linguistics.
+Last, but not least, a great thanks to all the other graduate students, some of whom were there before me, some of whom came later (Deepthi, Fernanda, Herni, Jane, Chris, Max, Lorenzo, Kai, Sarah, Mary, and many others whom I wished I had the chance to know better), and to all the other members of staff at LEL who contributed each with their own field to my broader understanding of linguistics.
 I am also indebted to Prof. Steven Lulich from Indiana University in Bloomington for hosting me in his Lab during October 2018 and letting me play with the 3D ultrasound machine (what a toy!), and to Prof. Małgorzata Čavar for sharing her ideas on the tongue root.
 Thanks also to Sherman, Romario, Rebecca, Luma, and all the beautiful people in Bloomington that accompanied me for too short a time along the PhD path.
 
