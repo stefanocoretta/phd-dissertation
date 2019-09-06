@@ -17,8 +17,8 @@ indent: true
 fontsize: 12pt
 mainfont: Tinos
 params:
-  version: "4.0"
-  version-date: "2019/09/04"
+  version: "5.0"
+  version-date: "2019/09/06"
 ---
 
 <!--\begin{textblock}{3}(0.2,0.2)
@@ -98,7 +98,7 @@ Last, but not least, a great thanks to all the other graduate students, some of 
 I am also indebted to Prof. Steven Lulich from Indiana University in Bloomington for hosting me in his Lab during October 2018 and letting me play with the 3D ultrasound machine (what a toy!), and to Prof. Małgorzata Ćavar for sharing her ideas on the tongue root.
 Thanks also to Sherman, Romario, Rebecca, Luma, and all the beautiful people in Bloomington that accompanied me for too short a time along the PhD path.
 
-I would have not made it through without all of my friends in Manchester, especially (in order of appearance, because they are all dearest to me) David, Juan, Richard and Jaqui, Mark and Kat, who offered me unconditional friendship and help when I most needed them. Also thanks to Mariana, Maxime, Gül, Valentina, Simena, Lucia, Edo, and to the friends I met in York but whom I found again in Manchester, thank you all for the great time.
+I would have not made it through without all of my friends in Manchester, especially (in order of appearance, because they are all dearest to me) David, Juan, Richard and Jaqui, Mark and Kat, and Crystal, who offered me unconditional friendship and help when I most needed them. Also thanks to Mariana, Maxime, Gül, Valentina, Ximena, Lucia, Edo, and to the friends I met in York but whom I found again in Manchester, thank you all for the great time.
 
 Thanks to my teachers and friends from *Il Loto Blu*, whose love has sustained me for all these years.
 Thanks to Valentina A., with whom I share an irrepressible thrust to 'acquire for ourselves a knowledge of higher worlds'.
