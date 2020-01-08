@@ -100,15 +100,25 @@ A similar position is taken by \citet{laeufer1992}, who directly compared French
 When the duration of a vowel is similar across languages, consonant voicing also has an effect which is comparable in degree.
 
 In addition to language, the voicing effect is also modulated by other phonological and phonetic factors.
-For example, \citet{umeda1975} reports that the difference in vowel duration before voiceless vs. voiced stops is greater when the test word is pre-pausal.
+For example, \citet{umeda1975} reports that the difference in vowel duration before voiceless vs. voiced consonants is greater when the test word is pre-pausal.
 The effect of voicing also seems to be more robust in stressed than in unstressed vowels \citep{davis1989}.
 There is also indication that the effect is modulated by the syllabic affiliation of the post-vocalic consonant in English, so that vowels followed by a coda show a greater effect than vowels followed by an onset (\citealt{sharf1962, klatt1973, davis1989}, but \citealt{abdelli-beruh2004} doesn't find a significant difference across these contexts in French).
 \citet{port1981} further argues that the effect in the word-initial stressed vowels is smaller along the hierarchy monosyllabic > disyllabic > trisyllabic words, which also reflects that of decreasing vowel durations.
 \citet{laeufer1992} discusses the voicing effect as a function of vowel height, and shows that the effect is greater in low (intrinsically longer) vowels than in high (intrinsically shorter) vowels.
-\citet{house1953} also report a greater durational difference before fricatives than before stops.
-<!-- not replicated in Tanner 2019 -->
+Moreover, \citet{sharf1964} shows that the effect persists even in whispered (unvoiced) speech.
+
+Manner of articulation of the consonant is a further relevant parameter.
+While most work seems to focus on stops, voicing of other types of consonants affects preceding vowel duration.
+For example, \citet{house1953} report that vowels are longer when followed by a voiced fricative than a voiceless one in English.
+They also argue that the durational difference is greater before fricatives than before stops.
+On average, vowels in \citet{house1953} are 84 ms longer when followed by a voiced stop (vs. a voiceless stop) and 93 ms longer when followed by a voiced fricative (vs. a voiceless fricative).
+\citet{laeufer1992} finds similar patterns in both English and French: vowels followed by voiced fricatives are longer than when followed by voiceless fricatives (average difference 93 ms in English, 47 ms in French) and the effect of voicing with fricatives is greater that with stops (average difference 60 ms in English stops, 35 ms in French stops).
+\citet{zimmerman1958} reports vowel durations before voiceless and voiced stops and fricatives in English and the difference is greater in the latter (95 vs 122 ms).
+On the other hand, \citet{tanner2019} rather find the opposite effect in a survey of spontaneous speech from different varieties of English.
+Across the English varieties, the effect of voicing is greater with stops than with fricatives by a mean factor of 1.3.
+To sum up, it is possible that the degree of the voicing effect is greater in fricatives than in stops, but it is difficult to make generalisation based on such small pool of studies.
+
 Post-vocalic nasals have been argued either to behave like voiced stops \citep{lisker1974, peterson1960} or to exercise an effect intermediate between that of voiceless and voiced stops \citep{house1953, zimmerman1958}.
-Finally, \citet{sharf1964} shows that the effect persists even in whispered (unvoiced) speech.
 
 Finally, the voicing effect can take on a linguistic function resulting in the phonologisation of the durational differences, as argued for English \citep{de-jong1991, de-jong2004, sole2007, sanker2019}.
 \citet{de-jong2004} shows that effect is greater in stressed syllables and under focus in English but not in Arabic \citep{de-jong2002}, and argues that vowel duration is used contrastively as a cue to voicing in the former.
@@ -117,6 +127,8 @@ A further argument for the phonologisation of the durational difference in Engli
 \citet{luce1985}, however, claim that vowel duration is a more robust cue across tempos than the CV ratio and the duration of the stop closure.
 Finally, \citet{ko2018} compares CV ratio values in three speaking styles (normal, faster, and slower) and finds that the ratio changes as a function of speaking style and that the effect of style interacts with consonant voicing.
 In sum, there is contrasting evidence as to whether the relative magnitude of the effect is stable across speaking tempos.
+
+<!-- since most work on stops, the rest of the diss will focus on stops -->
 
 ## One phenomenon, many explanations
 \label{s:accounts}
