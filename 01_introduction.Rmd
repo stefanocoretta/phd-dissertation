@@ -112,13 +112,19 @@ While most work seems to focus on stops, voicing of other types of consonants af
 For example, \citet{house1953} report that vowels are longer when followed by a voiced fricative than a voiceless one in English.
 They also argue that the durational difference is greater before fricatives than before stops.
 On average, vowels in \citet{house1953} are 84 ms longer when followed by a voiced stop (vs. a voiceless stop) and 93 ms longer when followed by a voiced fricative (vs. a voiceless fricative).
-\citet{laeufer1992} finds similar patterns in both English and French: vowels followed by voiced fricatives are longer than when followed by voiceless fricatives (average difference 93 ms in English, 47 ms in French) and the effect of voicing with fricatives is greater that with stops (average difference 60 ms in English stops, 35 ms in French stops).
+\citet{laeufer1992} finds similar patterns in both English and French: vowels followed by voiced fricatives are longer than when followed by voiceless fricatives (the average difference is 93 ms in English, 47 ms in French) and the effect of voicing with fricatives is greater than with stops (the average difference is 60 ms in English stops, 35 ms in French stops).
 \citet{zimmerman1958} reports vowel durations before voiceless and voiced stops and fricatives in English and the difference is greater in the latter (95 vs 122 ms).
 On the other hand, \citet{tanner2019} rather find the opposite effect in a survey of spontaneous speech from different varieties of English.
 Across the English varieties, the effect of voicing is greater with stops than with fricatives by a mean factor of 1.3.
 To sum up, it is possible that the degree of the voicing effect is greater in fricatives than in stops, but it is difficult to make generalisation based on such small pool of studies.
 
-Post-vocalic nasals have been argued either to behave like voiced stops \citep{lisker1974, peterson1960} or to exercise an effect intermediate between that of voiceless and voiced stops \citep{house1953, zimmerman1958}.
+The relation between the voicing effect in obstruents and durational effects of sonorant consonants further indicates mixed results.
+While only a few systematic investigations on the effect of sonorant voicing on vowel duration have been carried out, nasals have been found to exercise an effect intermediate between that of voiceless and voiced stops but closer to that of voiced stops but intermediate \citep{house1953, zimmerman1958}, to be preceded by vowels that are longer than those followed by voiced stops \citep{peterson1960}, or to be indistinguishable from voiced stops \citep{lisker1974}.
+In \citet{house1953}, vowels are on average 245 ms long when followed by a voiced stop, 232 ms long when followed by a nasal, and 161 ms when followed by a voiceless stop.
+\citet{zimmerman1958} report English vowel durations of 218 ms before voiced stops and 200 ms before nasals, while vowels are 123 ms long when followed by voiceless stops.
+On the other hand, the duration of vowels in \citet{peterson1960} are 273 ms when followed by nasals, 265 ms when followed by voiced stops, and 171 ms when followed by voiceless stops.
+\citet{lisker1974} argues that the duration of vowels followed by voiced stops and nasals are virtually the same, but measurements are not provided as evidence.
+In sum, nasals seem to behave more like voiced stops than voiceless stops, but it is less clear whether vowels preceding them are longer or shorter than those followed by voiced stops.
 
 Finally, the voicing effect can take on a linguistic function resulting in the phonologisation of the durational differences, as argued for English \citep{de-jong1991, de-jong2004, sole2007, sanker2019}.
 \citet{de-jong2004} shows that effect is greater in stressed syllables and under focus in English but not in Arabic \citep{de-jong2002}, and argues that vowel duration is used contrastively as a cue to voicing in the former.
