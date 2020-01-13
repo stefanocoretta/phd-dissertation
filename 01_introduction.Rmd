@@ -127,6 +127,15 @@ On the other hand, the duration of vowels in \citet{peterson1960} are 273 ms whe
 In sum, nasals seem to behave more like voiced stops than voiceless stops, but it is less clear whether vowels preceding them are longer or shorter than those followed by voiced stops.
 
 Finally, the voicing effect can take on a linguistic function resulting in the phonologisation of the durational differences, as argued for English \citep{de-jong1991, de-jong2004, sole2007, sanker2019}.
+Some clarification is due here as to what is meant by phonologisation.
+The classical or structuralist definition of phonologisation states that phonologisation occurs when a contextual allophone becomes contrastive, or in other words it becomes a phoneme \citep{kiparsky2015}, generally after the disappearance or replacement of the conditioning context.
+For example, in the history of Sanskrit, velar stops where palatalised when followed by /e/, crating an allophonic distinction between velars /k, g/ and palatals /tʃ, dʒ/.
+The subsequent change of /e/ to /a/ removed the conditioning context, creating minimal pairs opposing /ka, ga/ and /tʃa, dʒa/.
+At this stage, the palatal allophones were phonologised.
+This conceptualisation of phonologisation amounts to saying that phonetic features that were previously computed during derivation from an underlying lexical representation are now instead already part of the lexical representation (which is, in structural terms, a string of phonemes).
+
+Phonologisation assumes a different meaning within the framework of Stratal Optimality Theory \citep{kiparsky2000, bermudez-otero2017}.
+
 \citet{de-jong2004} shows that effect is greater in stressed syllables and under focus in English but not in Arabic \citep{de-jong2002}, and argues that vowel duration is used contrastively as a cue to voicing in the former.
 A further argument for the phonologisation of the durational difference in English is the stability of the effect across speaking tempos.
 \citet{port1982} suggest that the ratio of the consonant and vowel durations is stable at faster and slower speaking rates, and that the CV ratio proves to be the primary acoustic correlate of voicing in word-final position.
