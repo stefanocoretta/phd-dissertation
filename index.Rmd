@@ -4,7 +4,7 @@ author: "Stefano Coretta"
 site: bookdown::bookdown_site
 documentclass: book
 classoption:
-- openany
+- oneside
 - a4paper
 bibliography: linguistics
 biblio-style: unified
@@ -94,7 +94,7 @@ Thanks to Jessica, for the lovely *chiacchierate* about all things and for her s
 
 Thanks to the fellows I started this journey with: Stephen, to whom I am grateful for his continuous help and for our creative exchanges; and Donald, to whom I am grateful for the cheerful wit and the appreciation for the good things in life.
 I have also received immense personal and academic support from George, whose exchanges of ideas were a continuous inspiration, and from Hannah, whose calmness and poise helped me cherish the good and the bad times.
-Last, but not least, a great thanks to all the other graduate students, some of whom were there before me, some of whom came later (Deepthi, Fernanda, Herni, Jane, Chris, Max, Lorenzo, Kai, Sarah, Mary, and many others whom I wished I had the chance to know better), and to all the other members of staff at LEL who contributed each with their own field to my broader understanding of linguistics.
+Last, but not least, a great thanks to all the other graduate students, some of whom were there before me, some of whom came later (Deepthi, Fernanda, Henri, Jane, Chris, Max, Lorenzo, Kai, Sarah, Mary, and many others whom I wished I had the chance to know better), and to all the other members of staff at LEL who contributed each with their own field to my broader understanding of linguistics.
 I am also indebted to Prof. Steven Lulich from Indiana University in Bloomington for hosting me in his Lab during October 2018 and letting me play with the 3D ultrasound machine (what a toy!), and to Prof. Małgorzata Ćavar for sharing her ideas on the tongue root.
 Thanks also to Sherman, Romario, Rebecca, Luma, and all the beautiful people in Bloomington that accompanied me for too short a time along the PhD path.
 
