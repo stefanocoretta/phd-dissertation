@@ -99,6 +99,8 @@ It is thus possible that, once controlling for contextual factors, the apparent 
 A similar position is taken by \citet{laeufer1992}, who directly compared French and English using carefully designed experimental materials.
 When the duration of a vowel is similar across languages, consonant voicing also has an effect which is comparable in degree.
 
+## The voicing effect and other phonological and phonetic factors
+
 In addition to language, the voicing effect is also modulated by other phonological and phonetic factors.
 For example, \citet{umeda1975} reports that the difference in vowel duration before voiceless vs. voiced consonants is greater when the test word is pre-pausal.
 The effect of voicing also seems to be more robust in stressed than in unstressed vowels \citep{davis1989}.
@@ -126,28 +128,37 @@ On the other hand, the duration of vowels in \citet{peterson1960} are 273 ms whe
 \citet{lisker1974} argues that the duration of vowels followed by voiced stops and nasals are virtually the same, but measurements are not provided as evidence.
 In sum, nasals seem to behave more like voiced stops than voiceless stops, but it is less clear whether vowels preceding them are longer or shorter than those followed by voiced stops.
 
+## On the phonologisation of the voicing effect (phonetics or phonology?)
+
 Finally, the voicing effect can take on a linguistic function resulting in the phonologisation of the durational differences, as argued for English \citep{de-jong1991, de-jong2004, sole2007, sanker2019}.
 Some clarification is due here as to what is meant by phonologisation.
 The classical or structuralist definition of phonologisation states that phonologisation occurs when a contextual allophone becomes contrastive, or in other words it becomes a phoneme \citep{kiparsky2015}, generally after the disappearance or replacement of the conditioning context.
-For example, in the history of Sanskrit, velar stops where palatalised when followed by /e/, crating an allophonic distinction between velars /k, g/ and palatals /tʃ, dʒ/.
-The subsequent change of /e/ to /a/ removed the conditioning context, creating minimal pairs opposing /ka, ga/ and /tʃa, dʒa/.
+Sanskrit velar palatalisation is a classical example of phonologisation \citep[149]{hock1991}.
+At some point in the history of Sanskrit, the velar stops /k/ and /g/ where palatalised when followed by /i/ and /e/, creating an allophonic distinction between velars proper and palatal consonants of some sort.
+The subsequent change of /e/ to /a/ removed the context conditioning palatalisation, thus creating minimal pairs opposing /ka, ga/ and /tʃa, dʒa/.
 At this stage, the palatal allophones were phonologised.
-This conceptualisation of phonologisation amounts to saying that phonetic features that were previously computed during derivation from an underlying lexical representation are now instead already part of the lexical representation (which is, in structural terms, a string of phonemes).
+This conceptualisation of phonologisation amounts to saying that phonetic features that were previously computed procedurally (during phonological/phonetic derivation) from an underlying lexical representation are now instead already part of the lexical representation (which is, in structural terms, a string of phonemes).
 
-Phonologisation assumes a different meaning within the framework of Stratal Optimality Theory \citep{kiparsky2000, bermudez-otero2017}.
+Phonologisation assumes a different meaning within the framework of Lexical Phonology \citep{kiparsky1988}.
+Lexical Phonology argues that there exist two types of phonological processes: processes that apply at the lexical (stem and prosodic word) level, and processes that are post-lexical and apply across the board.
+According to the view of Lexical Phonology, a process is phonologised when it goes from being post-lexical to being lexical.
+To carry on with the Sanskrit example,
+
+Stratal Optimality Theory \citep{kiparsky2000, bermudez-otero2017}.
 Stratal OT assumes phonology is stratified into three strata (or levels, or domains): the stem, the word, and the phrasal stratum.
 Constraints are independently ordered within each stratum, so that different orders allow for different outputs to be selected.
 Stratal OT also stipulates that phonological constraints apply iteratively from the narrower domain (the stem), through the word domain, to the phrasal domain.
 This means that the input of one domain is passed over to the next, and so on.
 For \citet{kiparsky2000}, phonologisation is when the constraint ordering of the phrasal domain (a post-lexical stratum) of a grammar is carried over to the word and then the stem domain (the lexical strata).
 
-<!-- I should cite here the life cycle -->
+<!-- TODO: I should cite here the life cycle -->
 
 On the other hand, \citet{bermudez-otero2015} reserves the term "phonologisation" for when a physico-physiological (phonetic or mechanic) phenomenon comes under the control of the speaker/hearer and it in fact becomes part of her grammar (more specifically, part of the phonetics).
 A (gradient) phonologised process is said to be "stabilised" (and categorical) once it is generated by a categorical phonological rule.
 At this stage, a stabilised process has entered the phonology of the speaker/hearer.
 A stabilised process undergoes "domain narrowing" when it starts being applied at the word level and then at the stem level.
 
+<!-- TODO: exemplar theory -->
 
 \citet{de-jong2004} shows that effect is greater in stressed syllables and under focus in English but not in Arabic \citep{de-jong2002}, and argues that vowel duration is used contrastively as a cue to voicing in the former.
 A further argument for the phonologisation of the durational difference in English is the stability of the effect across speaking tempos.
@@ -156,10 +167,12 @@ A further argument for the phonologisation of the durational difference in Engli
 Finally, \citet{ko2018} compares CV ratio values in three speaking styles (normal, faster, and slower) and finds that the ratio changes as a function of speaking style and that the effect of style interacts with consonant voicing.
 In sum, there is contrasting evidence as to whether the relative magnitude of the effect is stable across speaking tempos.
 
-<!-- since most work on stops, the rest of the diss will focus on stops -->
+<!-- TODO: since most work on stops, the rest of the diss will focus on stops -->
 
 ## One phenomenon, many explanations
 \label{s:accounts}
+
+<!-- TODO: say that the emergence of the effect is independent of its alledged phonologisation and link it to the previous section -->
 
 Over a century of research on the voicing effect has without doubt brought progress in our understanding of this complex phenomenon.
 While several proposals were put forward in the period between the 50s and the 70s, subsequent years focussed on testing or extending previous hypotheses and no final consensus has been reached.
@@ -255,6 +268,8 @@ In conclusion, our partial understanding of the relation between vowel duration 
 This state of affairs can be taken as indication that, while most research (save a few recent exceptions) focussed on finding a unique and unified mechanism behind the voicing effect, we might rather seek multiple mechanisms that cooperate to produce the observed patterns.
 In light of this, this dissertation sets out to study the interrelations between different sources of evidence, and their interpretation.
 The following chapter presents an overview of the methodologies employed in this project to achieve this objective.
+
+<!-- TODO: move here research questions -->
 
 # Methodology
 \label{s:studies}
