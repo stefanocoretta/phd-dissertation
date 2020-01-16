@@ -165,7 +165,15 @@ The final step in the ascent through the grammar is...
 
 <!-- TODO: exemplar theory, add pic from Márton -->
 A further definition of phonologisation stems from exemplar theories of speech perception and production [...].
-A general tenet of these models is that lexical representations contain phonetic detail (at varying degrees of granularity depending on the specific model)
+A core tenet of these models is that speech tokens are stored in memory as so-called exemplars after having being experienced.
+Depending on the specifics of the particular model, exemplars are stored at varying degrees of granularity and richness of details.
+Each exemplar consists of a (more or less) faithful representation of the actual token of experience that generate it, and it thus contains information from multiple levels and factors (phonetic, lexical, syntactic, sociolinguistic, contextual, and so on).
+In all models, lexical units (and other linguistic units) are represented as sets of exemplars, or exemplar clouds.
+The representational space of exemplar clouds is multi-dimensional and can be operationalised as a multivariate distribution.
+In modular approaches to grammar as briefly expounded above, sound alternations can be encoded (in terms of derivational rules and/or constraints) either at the phonological level or at the phonetic level of representation.
+On the other hand, as \citet[183]{soskuthy2013} illustrates, a consequence of the exemplar mode of representation is that all sound alternations are directly encoded by exemplars within the exemplar cloud, at one single level of representation.
+As soon as an exemplar with new phonetic characteristics is experienced and stored, the lexical representation of that lexical item already contains information on the sound alternation.
+In this sense, every type of variation is "phonologised" (represented) from the outset as soon as it is experienced by the speaker/hearer.
 
 \citet{de-jong2004} shows that effect is greater in stressed syllables and under focus in English but not in Arabic \citep{de-jong2002}, and argues that vowel duration is used contrastively as a cue to voicing in the former.
 A further argument for the phonologisation of the durational difference in English is the stability of the effect across speaking tempos.
