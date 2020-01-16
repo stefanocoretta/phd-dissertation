@@ -175,12 +175,21 @@ On the other hand, as \citet[183]{soskuthy2013} illustrates, a consequence of th
 As soon as an exemplar with new phonetic characteristics is experienced and stored, the lexical representation of that lexical item already contains information on the sound alternation.
 In this sense, every type of variation is "phonologised" (represented) from the outset as soon as it is experienced by the speaker/hearer.
 
-\citet{de-jong2004} shows that effect is greater in stressed syllables and under focus in English but not in Arabic \citep{de-jong2002}, and argues that vowel duration is used contrastively as a cue to voicing in the former.
+When the term phonologisation is employed in the phonetic literature of the voicing effect, it is generally not attributed to any specific phonological framework.
+This make it less straightforward to interpret the term as the original author might have intended, but, as far as I can tell, most authors would interpret it at least as to mean that the effect is not just mechanical and/or low-level, but that it has assumed higher-level functions of some sort, whatever the specific function might be.
+Since the main focus of this work is on the source of the voicing effect rather than on what functions the voicing effect can assume in different languages, the topic of the phonologisation of the voicing effect will only briefly be touched upon in the rest of the dissertation.
+Note, however, that the account proposed in [...] is envisioned to be informed by some form of exemplar model of speech perception and production, where everything can be considered "phonologised" as soon as it is part of the lexical representation.
+In this sense, the effect is represented in the same way in all languages that have it, independent of its magnitude or function.
+A discussion of arguments for or against such position are, however, beyond the scope of this dissertation.
+
+<!-- maybe say a few words of why this it is beyond the scope -->
+
+Going back to the phonologisation (in the general sense) of the voicing effect in English, \citet{de-jong2004} shows that the effect is greater in stressed syllables and under focus in English but not in Arabic \citep{de-jong2002}, and argues that vowel duration is used contrastively as a cue to voicing in the former language.
 A further argument for the phonologisation of the durational difference in English is the stability of the effect across speaking tempos.
 \citet{port1982} suggest that the ratio of the consonant and vowel durations is stable at faster and slower speaking rates, and that the CV ratio proves to be the primary acoustic correlate of voicing in word-final position.
 \citet{luce1985}, however, claim that vowel duration is a more robust cue across tempos than the CV ratio and the duration of the stop closure.
 Finally, \citet{ko2018} compares CV ratio values in three speaking styles (normal, faster, and slower) and finds that the ratio changes as a function of speaking style and that the effect of style interacts with consonant voicing.
-In sum, there is contrasting evidence as to whether the relative magnitude of the effect is stable across speaking tempos.
+In sum, there is contrasting evidence as to whether the relative magnitude of the effect is stable across speaking tempos or not, and as to whether this can be taken as evidence for or against the phonologisation of the effect in English.
 
 <!-- TODO: since most work on stops, the rest of the diss will focus on stops -->
 
