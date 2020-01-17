@@ -19,8 +19,8 @@ A careful analysis of the process of observation in atomic physics has shown tha
 \vfill
 \end{adjustwidth}
 
-# Overview
-\label{s:overview}
+# The voicing effect and beyond
+\label{s:ve}
 
 The sounds of a language form an incredibly complex system of relations and dependencies, both at a physical and a more abstract level.
 A topic that masterfully exemplifies the complexities of such a system and that has generated great interest over the decades is the somewhat elusive connection between vowel duration and consonant voicing.
@@ -34,30 +34,13 @@ In particular, this thesis poses the question of what aspects of the articulatio
 In answering this question, I collected data from a combination of acoustic, ultrasound tongue imaging, and electroglottographic techniques as part of two studies on Italian, Polish, and English.
 These languages make up an appropriate set in that they constitute a methodological window into the complex variation of the voicing effect as seen both across and within languages.
 
-This research project has two broad aims.
-First, I sought to obtain acoustic and articulatory data using modern methods which would shed light on the production accounts put forward in the past century.
-The second objective was to enlighten the debate on reported cross-linguistic differences by conducting a comparative analysis which encompasses three related but contrasting languages.
-The papers in Part II offer evidence in relation to these goals.
-
-The specific questions touched upon in this dissertation encompass topics at the intersection between phonetics and phonology \citep{ohala1990, ohala1997, ohala2005, port2005, cohn2010}, and cover both concrete, observable phenomena, and abstract, formalised aspects of speech processing.
-Among the questions posed by this work there are the following:
-
-* Can the voicing effect be ascribed to mechanisms of temporal compensation and/or articulatory adjustments that result in the observed patters of both vowel and consonant duration?
-* Which articulatory properties of voicing directly affect vowel and consonant durations, and in particular what mechanisms influence the timing of the consonantal closure?
-* Do voiceless and voiced consonants target different articulatory realisations, or are there some oral and/or laryngeal configurations or processes that are shared between them?
-* Do these aspects of production follow universal patterns and constraints, or can different languages modulate their implementation in specific ways?
-* Can the mechanisms behind the voicing effect inform us on more general aspects of gestural phasing and articulatory timing within and beyond the traditional syllable?
-* Can the study of articulation provide us with insights into the enhancing role of perception?
-* What can we learn about other durational effects from the study of the voicing effect?
-* Can the magnitudes of the voicing effect reported in previous studies be replicated with new data, and what research aspects could be responsible for differences?
-* What level of confidence can we attribute to previous and current results, considering the weight of the evidence provided by the data?
+<!-- TODO: check cross-refs make sense -->
 
 The dissertation is organised thus. The following three chapters constitute the introductory part, and they present in turn a review of the literature on the voicing effect (\Cref{s:ve}), an overview of the studies conducted (\Cref{s:studies}), and a discussion of Open Science principles (\Cref{s:openscience}), which have had a deep impact on the shape of this project.
 The second part of the thesis is a collection of original manuscripts in the form of standalone papers (Papers I-V), which report and discuss the methodological and conceptual contributions of the present work.
 Finally, \Cref{s:gen-disc} and \Cref{s:final} summarise the results of this investigation by providing an overarching synthesis, and concludes with a discussion of limitations and future avenues of research.
 
-# The voicing effect and beyond
-\label{s:ve}
+## The voicing effect
 
 Across a wide variety of languages, vowels tend to be shorter when followed by voiceless consonants, and longer when followed by voiced ones.
 This phenomenon has been called the 'voicing effect' \citep{mitleb1982} or 'pre-fortis clipping' \citep{wells1990}.
@@ -100,6 +83,7 @@ A similar position is taken by \citet{laeufer1992}, who directly compared French
 When the duration of a vowel is similar across languages, consonant voicing also has an effect which is comparable in degree.
 
 ## The voicing effect and other phonological and phonetic factors
+<!-- TODO: maybe remove this heading -->
 
 In addition to language, the voicing effect is also modulated by other phonological and phonetic factors.
 For example, \citet{umeda1975} reports that the difference in vowel duration before voiceless vs. voiced consonants is greater when the test word is pre-pausal.
@@ -291,13 +275,43 @@ As discussed in \citet{begus2017}, these patterns are compatible with accounts o
 In conclusion, our partial understanding of the relation between vowel duration and consonant phonation is based on contrasting or complementary empirical evidence.
 This state of affairs can be taken as indication that, while most research (save a few recent exceptions) focussed on finding a unique and unified mechanism behind the voicing effect, we might rather seek multiple mechanisms that cooperate to produce the observed patterns.
 In light of this, this dissertation sets out to study the interrelations between different sources of evidence, and their interpretation.
-The following chapter presents an overview of the methodologies employed in this project to achieve this objective.
+<!-- TODO: be sure the following is a chapter or update name -->
+The following chapter presents a more detailed discussion of the rational behind the research of this dissertation and a summary of the main results and conceptual contribution.
+
+# Rationale of the current research
 
 <!-- TODO: move here research questions -->
 
-## Rationale of the current research
+A convenient way to investigate mechanic properties underlying the effect of voicing on vowel durations is to consider languages in which the effect has not been claimed to be phonologised.
+Moreover, comparing two languages that differ in the presence or degree of vowel durational differences can uncover variation motivating cross-linguistic differences.
+Italian and Polish are two good candidates in that they satisfy both of these requirements.
+Moreover, their phonological systems allow for a somewhat direct comparison.
+For these reasons, an exploratory study of Italian and Polish was carried out to examine the influence of voiceless and voiced stops on vowel duration.
+Note that, when talking about voiceless vs. voiced stops, I refer to the phonemic (lexical) contrast defined at an abstract level, rather than to the actual phonetic implementation of such contrast.
+This approach is generally helpful in light of the distinction between aspirating vs. true-voicing languages \citep{beckman2013}, and in the case of English in particular \citep{docherty1992}, which is the subject of the second study.
+
+## Research questions
+
+This research project has two broad aims.
+First, I sought to obtain acoustic and articulatory data using modern methods which would shed light on the production accounts put forward in the past century.
+The second objective was to enlighten the debate on reported cross-linguistic differences by conducting a comparative analysis which encompasses three related but contrasting languages.
+The papers in Part II offer evidence in relation to these goals.
+
+The specific questions touched upon in this dissertation encompass topics at the intersection between phonetics and phonology \citep{ohala1990, ohala1997, ohala2005, port2005, cohn2010}, and cover both concrete, observable phenomena, and abstract, formalised aspects of speech processing.
+Among the questions posed by this work there are the following:
+
+* Can the voicing effect be ascribed to mechanisms of temporal compensation and/or articulatory adjustments that result in the observed patters of both vowel and consonant duration?
+* Which articulatory properties of voicing directly affect vowel and consonant durations, and in particular what mechanisms influence the timing of the consonantal closure?
+* Do voiceless and voiced consonants target different articulatory realisations, or are there some oral and/or laryngeal configurations or processes that are shared between them?
+* Do these aspects of production follow universal patterns and constraints, or can different languages modulate their implementation in specific ways?
+* Can the mechanisms behind the voicing effect inform us on more general aspects of gestural phasing and articulatory timing within and beyond the traditional syllable?
+* Can the study of articulation provide us with insights into the enhancing role of perception?
+* What can we learn about other durational effects from the study of the voicing effect?
+* Can the magnitudes of the voicing effect reported in previous studies be replicated with new data, and what research aspects could be responsible for differences?
+* What level of confidence can we attribute to previous and current results, considering the weight of the evidence provided by the data?
 
 ## Summary of results
+\label{s:sumresults}
 
 The results of the investigation of acoustic segment durations, tongue root position, and glottal adjustments suggest a composite production account of the voicing effect which synthesises previous independent and seemingly contrasting proposals.
 Papers I deals with compensatory aspects of the voicing effect in Italian and Polish acoustic data, and provides evidence for the durational stability of a speech interval across voicing contexts.
@@ -330,7 +344,7 @@ By combining previous work on pre-aspiration \citep{lisker1974, nichasaide1985, 
 
 Finally, Paper IV and V introduce two methods for the analysis of tongue contours and electroglottographic data using generalised additive modelling, and discuss cross-linguistic and speaker-level similarities and differences concerning tongue root advancement and glottal spreading in Italian and Polish.
 
-# Methodology
+# Methods
 \label{s:studies}
 
 Each of the proposals regarding the origin of the voicing effect, reviewed in \Cref{s:ve}, stresses one particular aspect of the mechanisms that could lie behind this phenomenon.
@@ -350,13 +364,7 @@ Ethics clearance to undertake this work was obtained from the University Researc
 
 <!-- three aspects: exploratory, acoustics + articulatory, and Italian Polish -->
 
-A convenient way to investigate mechanic properties underlying the effect of voicing on vowel durations is to consider languages in which the effect has not been claimed to be phonologised.
-Moreover, comparing two languages that differ in the presence or degree of vowel durational differences can uncover variation motivating cross-linguistic differences.
-Italian and Polish are two good candidates in that they satisfy both of these requirements.
-Moreover, their phonological systems allow for a somewhat direct comparison.
-For these reasons, an exploratory study of Italian and Polish was carried out to examine the influence of voiceless and voiced stops on vowel duration.
-Note that, when talking about voiceless vs. voiced stops, I refer to the phonemic (lexical) contrast defined at an abstract level, rather than to the actual phonetic implementation of such contrast.
-This approach is generally helpful in light of the distinction between aspirating vs. true-voicing languages \citep{beckman2013}, and in the case of English in particular \citep{docherty1992}, which is the subject of the second study.
+
 
 Since the accounts this dissertation focusses on cover aspects of segmental duration, consonantal articulatory gestures, and voicing, data was obtained from three sources: (1) acoustics, (2) ultrasound tongue imaging, a non-invasive technique to image the tongue using ultrasonic equipment, and (3) electroglottography, an indirect and safe method to gather information on vocal fold activity.
 In the following sections, I offer an outline of the methodologies employed in Study I, while referring the reader to specific papers for a more in-depth description.
@@ -472,7 +480,7 @@ The test words were built according to the following structure: C\textsubscript{
 These words were embedded within five different frame sentences, so that each speaker would read a total of 120 stimuli (24 words × 5 frames).
 The audio recordings were force-aligned and the times of acoustic landmarks were extracted according to the same procedure as in Study I (with `make-textgrid.praat` and `get-measurements.praat` in \citealt{coretta2019g}).
 
-# Open Science
+## Open Science
 \label{s:openscience}
 
 <!-- In the academic world, great emphasis is given to the theoretical content of original research, whereas the scientific process that leads to the findings is relegated to a subordinate position.
@@ -495,7 +503,7 @@ For example, in a replication attempt of 100 psychology studies, only 39% of the
 Failure to replicate previous results have been claimed to be a consequence of low statistical power \citep{button2013}, and of so-called questionable research and measurement practices \citep{simmons2011, morin2015, flake2019}.
 The following sections discuss these problems in turn.
 
-## ``With great power comes great replicability''
+### ``With great power comes great replicability''
 
 One of the issues that can affect statistical analysis is related to errors in rejecting the null hypothesis.\footnote{The quote in the title is from a 2016 twitter status by Nathan C. Hall (\url{https://twitter.com/prof_nch/status/790744443313852417?s=20}).}
 A researcher could falsely reject the null hypothesis when in fact is correct (Type I errors, an effect is found when there is none), or they could falsely fail to reject the null hypothesis when in fact it should have been (Type II errors, an effect is not found when there is one).
@@ -520,7 +528,7 @@ In \citet{dumas-mallet2017}, half of the surveyed biomedical studies (N = 660) h
 \citet{tressoldi2015} also find that only 2.9% of 853 studies in psychology report a prospective power analysis for sample size determination, i.e. the estimation of the smallest sample size necessary to obtain a certain power level before the experiment is run.
 In sum, low statistical power (well below the recommended 80% threshold) seems to be the norm.
 
-## The dark side of research
+### The dark side of research
 
 Questionable research and measurement practices are practices that negatively affect the scientific enterprise, but that are employed (most of the time unintentionally) by a surprisingly high number of researchers \citep{john2012}.
 \citet{silberzahn2018} asked 29 teams (61 analysts) to answer the same research question given the same data set, and showed that data analysis can be highly subjective.
@@ -549,7 +557,7 @@ This practice not only can bias meta-analytical effect sizes, but also allows fo
 The questionable research and measurement practices described above, together with publication bias, conspire to unduly increase confidence in our research outcomes.
 A final exculpatory note is due, though, in that these practices are not necessarily intentional or fraudulent, and in some cases lie within a 'grey area' of accepted standard procedures.
 
-## Where we stand and where we are heading
+### Where we stand and where we are heading
 
 Given the similarities in methods between the psychological sciences and phonetics/phonology, it is reasonable to assume that the situation does not fare better in the latter.
 As mentioned above, sample size, coupled with the effects of increased variance due to between-subject designs, can have a big impact on statistical power.
@@ -589,7 +597,7 @@ Reproducible reporting further implements this concept \citep{peng2015} by autom
 In a reproducible report, data and results are computationally linked via the statistical software, and changes in data or analyses are reflected in changes in the results appearing in the text.
 This workflow reduces chances of reporting errors and facilitates validation of the data analyses by other researchers.
 
-## Putting this into practice
+### Putting this into practice
 \label{s:repro}
 
 <!-- maybe refer here to the Papers so don't need other section? -->
