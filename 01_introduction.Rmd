@@ -295,6 +295,41 @@ The following chapter presents an overview of the methodologies employed in this
 
 <!-- TODO: move here research questions -->
 
+## Rationale of the current research
+
+## Summary of results
+
+The results of the investigation of acoustic segment durations, tongue root position, and glottal adjustments suggest a composite production account of the voicing effect which synthesises previous independent and seemingly contrasting proposals.
+Papers I deals with compensatory aspects of the voicing effect in Italian and Polish acoustic data, and provides evidence for the durational stability of a speech interval across voicing contexts.
+This paper discusses the mechanisms of compensation between vowel and closure duration within such interval.
+Paper II extends the findings from Paper I to English, by comparing the durational aspects of monosyllabic and disyllabic words.
+More specifically, I discuss how differences in the gestural organisation of mono- vs disyllabic words illuminates us on diachronic pathways and perceptual biases behind the voicing effect in these two contexts.
+Moreover, I relate the current results with those from previous work, by means of a meta-analytical study of the voicing effect in English.
+
+Based on data from disyllabic words of Italian, Polish, and English, it is demonstrated that the duration of the speech interval between the releases of two stops flanking a stressed vowel is not affected by the voicing status of the post-vocalic consonant.
+By capitalising on known articulatory properties of vocalic and consonantal sequences \citep{ohman1967a, fowler1983, odell2008, saltzman2008}, the temporal stability of the release-to-release interval is proposed to be a consequence of the isochrony of the vocalic gestures of the word and of the phasing of the consonantal gestures relative to vowels.
+As a side effect of the release-to-release temporal stability, the timing of the VC boundary within such interval determines the respective durations of the vowel and the following consonant closure, the latter of which is known to be longer for voiceless than for voiced stops \citep{lisker1957, van-summers1987, davis1989, de-jong1991}.
+As a consequence, shorter vowels are followed by the longer closures of voiceless stops, while longer vowels are followed by the shorter closure of voiced stops.
+
+The results of English monosyllabic words, on the other hand, show that in this context the release-to-release interval is longer when the post-vocalic consonant is voiced.
+The absence of release-to-release temporal stability in monosyllabic words is argued in Paper II to be related to the absence of vowel-to-vowel isochrony, which in turn is a consequence of the lack of a second vowel functioning as a temporal anchor.
+The respective durations of vowel and closure can thus be modified independently, fact that speakers can exploit to enhance the voicing contrast. Contrast enhancement can be obtained by manipulating the ratio between the duration of the vowel and that of the closure without the constraint of keeping the release-to-release duration stable, as in disyllabic words.
+The presence of the voicing effect in monosyllabic words is conjectured to have been emerged either because of inheritance from earlier diachronic stages or as a consequence of mechanisms affecting the timing of the consonant closure onset.
+
+The time of the boundary between a vowel and the following consonant (i.e. the stop closure onset) is shown to be modulated, among other known factors, by the position of the tongue root, as evidenced by tongue imaging data, and by the interaction of glottal spreading and the tongue closing gesture, as suggested by an electroglottographic study of vocal folds activity.
+Paper III deals with voicing-related gestures that modulate the position of the tongue root in Italian and Polish, using ultrasound tongue imaging data.
+In particular, I explore the link between vowel duration, closure duration and tongue root advancement, and discuss how the timing of consonant closure affects all three aspects.
+Tongue root advancement was observed during the closure of voiced stops in some but not all speakers of both Italian and Polish.
+Moreover, it was found that tongue root advancement is initiated during the production of the vowel preceding the target consonant and that the degree of advancement at stop closure onset is positively correlated with preceding vowel duration, such that longer vowels correspond to greater tongue root advancement.
+Together with the shorter duration of the closure of voiced stops, this pattern fits with the known role of tongue root advancement in the maintenance of voicing during stop closure \citep{kent1969, perkell1969, westbury1983}.
+
+Furthermore, in Paper V, the analysis of vocal fold activity during the production of vowels showed that the latter portion of vowels followed by voiceless stops is produced with greater glottal spread in Italian than in Polish.
+This difference is taken as evidence for a language-specific implementation of the timing of glottal spreading.
+Increased glottal spread before voiceless stops is understood as the precursor of pre-aspiration, the presence of which has been reported in Italian \citep{ni-chasaide1993, stevens2004a, stevens2004, stevens2010, stevens2010b, stevens2014a}.
+By combining previous work on pre-aspiration \citep{lisker1974, nichasaide1985, stevens2014}, two alternative pathways of sound change development are proposed: either pre-aspiration is enhanced by shortening the closure of the stop, or it is reduced or prevented altogether by producing an earlier stop closure. The latter solution would mask the acoustic effects of glottal spreading and result in a longer closure duration, other things being equal.
+
+Finally, Paper IV and V introduce two methods for the analysis of tongue contours and electroglottographic data using generalised additive modelling, and discuss cross-linguistic and speaker-level similarities and differences concerning tongue root advancement and glottal spreading in Italian and Polish.
+
 # Methodology
 \label{s:studies}
 
@@ -436,39 +471,6 @@ The participants were native speakers of British English, aged between 20 and 29
 The test words were built according to the following structure: C\textsubscript{1}V́\textsubscript{1}C\textsubscript{2}(VC), where C\textsubscript{1} = /t/, V\textsubscript{1} = /iː, ɜː, ɑː/, C\textsubscript{2} = /p, b, k, g/, and (VC) = /əs/.
 These words were embedded within five different frame sentences, so that each speaker would read a total of 120 stimuli (24 words × 5 frames).
 The audio recordings were force-aligned and the times of acoustic landmarks were extracted according to the same procedure as in Study I (with `make-textgrid.praat` and `get-measurements.praat` in \citealt{coretta2019g}).
-
-## Summary of results
-
-The results of the investigation of acoustic segment durations, tongue root position, and glottal adjustments suggest a composite production account of the voicing effect which synthesises previous independent and seemingly contrasting proposals.
-Papers I deals with compensatory aspects of the voicing effect in Italian and Polish acoustic data, and provides evidence for the durational stability of a speech interval across voicing contexts.
-This paper discusses the mechanisms of compensation between vowel and closure duration within such interval.
-Paper II extends the findings from Paper I to English, by comparing the durational aspects of monosyllabic and disyllabic words.
-More specifically, I discuss how differences in the gestural organisation of mono- vs disyllabic words illuminates us on diachronic pathways and perceptual biases behind the voicing effect in these two contexts.
-Moreover, I relate the current results with those from previous work, by means of a meta-analytical study of the voicing effect in English.
-
-Based on data from disyllabic words of Italian, Polish, and English, it is demonstrated that the duration of the speech interval between the releases of two stops flanking a stressed vowel is not affected by the voicing status of the post-vocalic consonant.
-By capitalising on known articulatory properties of vocalic and consonantal sequences \citep{ohman1967a, fowler1983, odell2008, saltzman2008}, the temporal stability of the release-to-release interval is proposed to be a consequence of the isochrony of the vocalic gestures of the word and of the phasing of the consonantal gestures relative to vowels.
-As a side effect of the release-to-release temporal stability, the timing of the VC boundary within such interval determines the respective durations of the vowel and the following consonant closure, the latter of which is known to be longer for voiceless than for voiced stops \citep{lisker1957, van-summers1987, davis1989, de-jong1991}.
-As a consequence, shorter vowels are followed by the longer closures of voiceless stops, while longer vowels are followed by the shorter closure of voiced stops.
-
-The results of English monosyllabic words, on the other hand, show that in this context the release-to-release interval is longer when the post-vocalic consonant is voiced.
-The absence of release-to-release temporal stability in monosyllabic words is argued in Paper II to be related to the absence of vowel-to-vowel isochrony, which in turn is a consequence of the lack of a second vowel functioning as a temporal anchor.
-The respective durations of vowel and closure can thus be modified independently, fact that speakers can exploit to enhance the voicing contrast. Contrast enhancement can be obtained by manipulating the ratio between the duration of the vowel and that of the closure without the constraint of keeping the release-to-release duration stable, as in disyllabic words.
-The presence of the voicing effect in monosyllabic words is conjectured to have been emerged either because of inheritance from earlier diachronic stages or as a consequence of mechanisms affecting the timing of the consonant closure onset.
-
-The time of the boundary between a vowel and the following consonant (i.e. the stop closure onset) is shown to be modulated, among other known factors, by the position of the tongue root, as evidenced by tongue imaging data, and by the interaction of glottal spreading and the tongue closing gesture, as suggested by an electroglottographic study of vocal folds activity.
-Paper III deals with voicing-related gestures that modulate the position of the tongue root in Italian and Polish, using ultrasound tongue imaging data.
-In particular, I explore the link between vowel duration, closure duration and tongue root advancement, and discuss how the timing of consonant closure affects all three aspects.
-Tongue root advancement was observed during the closure of voiced stops in some but not all speakers of both Italian and Polish.
-Moreover, it was found that tongue root advancement is initiated during the production of the vowel preceding the target consonant and that the degree of advancement at stop closure onset is positively correlated with preceding vowel duration, such that longer vowels correspond to greater tongue root advancement.
-Together with the shorter duration of the closure of voiced stops, this pattern fits with the known role of tongue root advancement in the maintenance of voicing during stop closure \citep{kent1969, perkell1969, westbury1983}.
-
-Furthermore, in Paper V, the analysis of vocal fold activity during the production of vowels showed that the latter portion of vowels followed by voiceless stops is produced with greater glottal spread in Italian than in Polish.
-This difference is taken as evidence for a language-specific implementation of the timing of glottal spreading.
-Increased glottal spread before voiceless stops is understood as the precursor of pre-aspiration, the presence of which has been reported in Italian \citep{ni-chasaide1993, stevens2004a, stevens2004, stevens2010, stevens2010b, stevens2014a}.
-By combining previous work on pre-aspiration \citep{lisker1974, nichasaide1985, stevens2014}, two alternative pathways of sound change development are proposed: either pre-aspiration is enhanced by shortening the closure of the stop, or it is reduced or prevented altogether by producing an earlier stop closure. The latter solution would mask the acoustic effects of glottal spreading and result in a longer closure duration, other things being equal.
-
-Finally, Paper IV and V introduce two methods for the analysis of tongue contours and electroglottographic data using generalised additive modelling, and discuss cross-linguistic and speaker-level similarities and differences concerning tongue root advancement and glottal spreading in Italian and Polish.
 
 # Open Science
 \label{s:openscience}
