@@ -34,7 +34,7 @@ speakers %>%
 ```
 
 The following plot shows the number of speakers across publication year.
-There is a tendecy for an increase in number of speakers, although the trend is not particularly marked.
+There is a tendency for an increase in number of speakers, although the trend is not particularly marked.
 
 ```{r year}
 speakers %>%
