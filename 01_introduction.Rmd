@@ -82,6 +82,32 @@ It is thus possible that, once controlling for contextual factors, the apparent 
 A similar position is taken by \citet{laeufer1992}, who directly compared French and English using carefully designed experimental materials.
 When the duration of a vowel is similar across languages, consonant voicing also has an effect which is comparable in degree.
 
+## Voicing as a comparative concept
+
+All of the literature reviewed here does not explicitly tell what voicing refers to precisely, and the languages listed in them posses quite different phonation systems.
+For example languages that belong to the two major categories of aspirating and voicing languages [...] are treated together in the literature.
+After reviewing some of the views on how voicing can be defined, I will introduce the concept of "comparative concept" \citep{haspelmath2010} and show that voicing will be used in this sense in this dissertation.
+
+\citet{keating1984a} is an attempt to define "voicing" in such a way that even systems that are very dissimilar at the physical level can be group together.
+K's definition is restricted to languages that contrasts only two categories of phonation.
+\citet{keating1984a} proposes that three levels of representation are necessary.
+One level is purely phonological, and abstracts away from real physical properties of the contrast.
+This phonological level of representation corresponds to the traditional [(±)voice] feature (either binary or privative).
+The second level of representation pertains to what \citet{keating1984a} calls "modified systematic phonetics".
+She proposes three phonetic categories based on Voice Onset Time (VOT): {voiced}, {voiceless unaspirated}, and {voiceless aspirated}.
+The last level, "pseudo-physical", assigns a range of VOT values to such categories depending on the language and the phonological context.
+The [(±)voice] feature can then be interpreted rather than as presence vs. absence of voicing, as more voiced and less voiced.
+
+\citet{goldstein1986}, within their framework of Articulatory Phonology, take a different stance and ascribe voicing to simply the presence or absence of a glottal opening-and-closing gesture.
+Voiceless segments are then characterised by the presence of such a gesture, while voiced segments by its absence.
+This definitions abstracts away from the presence/absence of vocal fold vibration, and allows us to group together for example a language like English and one like Italian.
+
+<!-- TODO: Scobbie's work here? It's specific of English though -->
+
+\citet{haspelmath2010} introduces a helpful distinction between comparative concepts and descriptive categories.
+...
+Together with Haspelmath, I assume that phonological categories are not cross-linguistic entities, but rather they function as language-specific descriptive categories.
+
 ## The voicing effect and other phonological and phonetic factors
 <!-- TODO: maybe remove this heading -->
 
