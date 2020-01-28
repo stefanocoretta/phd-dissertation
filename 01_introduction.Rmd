@@ -479,7 +479,14 @@ The search area was created via Praat scripting (with `search-area.praat` in \ci
 The automatic fitting procedure was monitored by the author and manual correction of the fitted splines was applied if necessary.
 
 Subsequent data processing followed the method described in \citet{strycharczuk2015}.
-See Paper III and IV for details.
+<!-- TODO: check that cross-references still make sense -->
+See Paper III and IV for more details.
+Tongue displacement was obtained by tracking displacement along fan-lines from a fan-like coordinate system \citep{scobbie2011}.
+Displacement was measured for the tongue tip, tongue dorsum, and tongue root, broadly defined as the regions of the tongue that produce the closure for coronal stops and velar stops for respectively tongue tip and dorsum, and the region between the hyoid bone shadow and the tongue dorsum region for the tongue root.
+Within each tongue region, the fin-line with the highest standard deviation was chosen as the vector for calculating tongue displacement (these fan-lines were manually chosen for each speaker individually).
+A Savitzky--Golay smoothing filter (second-order, frame length 75 ms) was applied to raw tongue displacement along the chosen fan-line to generate smoothed displacement values.
+Tangential and absolute velocity was calculated from this smoothed displacement.
+
 The Cartesian coordinates of the fitted splines, together with tongue displacement, tangential velocity, and absolute velocity of the tongue root, dorsum and tip, were obtained from the following temporal landmarks (\Cref{fig:kine}): C2 closure onset, tongue maximum displacement during C2 closure (MAX), peak absolute velocity before and after tongue maximum displacement (PEAK_1 and PEAK_2), tongue closing gesture onset (GONS), closing gesture nucleus onset (NONS) and offset (NOFF).
 GONS, NONS, and NOFF were defined as the times where absolute velocity reaches 20% of the peak absolute velocity before PEAK_1, between PEAK_1 and MAX, and between MAX and PEAK_2 respectively \citep{kroos1997, gafos2010a}.
 Tongue displacement, and the tangential and absolute velocities of the tongue root, dorsum, and tip were also extracted as time-series along the entire duration of V1.
