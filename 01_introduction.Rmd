@@ -88,6 +88,8 @@ All of the literature reviewed here does not explicitly tell what voicing refers
 For example languages that belong to the two major categories of aspirating and voicing languages [...] are treated together in the literature.
 After reviewing some of the views on how voicing can be defined, I will introduce the concept of "comparative concept" \citep{haspelmath2010} and show that voicing will be used in this sense in this dissertation.
 
+<!-- TODO: aspirating vs. voicing languages? -->
+
 \citet{keating1984a} is an attempt to define "voicing" in such a way that even systems that are very dissimilar at the physical level can be group together.
 K's definition is restricted to languages that contrasts only two categories of phonation.
 \citet{keating1984a} proposes that three levels of representation are necessary.
@@ -102,11 +104,20 @@ The [(±)voice] feature can then be interpreted rather than as presence vs. abse
 Voiceless segments are then characterised by the presence of such a gesture, while voiced segments by its absence.
 This definitions abstracts away from the presence/absence of vocal fold vibration, and allows us to group together for example a language like English and one like Italian.
 
-<!-- TODO: Scobbie's work here? It's specific of English though -->
+<!-- TODO: Scobbie's work here? It's specific of English though; maybe just mention will be discussed later -->
 
 \citet{haspelmath2010} introduces a helpful distinction between comparative concepts and descriptive categories.
-...
-Together with Haspelmath, I assume that phonological categories are not cross-linguistic entities, but rather they function as language-specific descriptive categories.
+Following from what Haspelmath calls a "categorial particularism" approach, it is advocated that individual languages should be described in terms of language-specific categories.
+In this light, "voicing" in Italian is different from "voicing" in Spanish for the very fact that Italian and Spanish are two different linguistic systems.
+Typological comparison should not be based on (language-specific) these "descriptive categories", but rather on "comparative concepts".
+Comparative concepts are created by the linguist who performs language comparison, and are not components of particular languages.
+I assume here that traditional phonological categories like "voicing", "vowel height", "place of articulation", can be thought of either as (language-particular) descriptive categories or comparative concepts depending on the scientific enterprise.\footnote{\citet{haspelmath2010} proposes to use capitalised names for descriptive categories (for example, "Italian Voicing"), but since this use is not known among phonologists/phoneticians, I will not adop it here.}
+In relation to the voicing effect, the use of "voicing" in this context as adopted in this work will be intended as a comparative concept and not as a descriptive category.
+
+Note that the adoption of the distinction between descriptive categories and comparative concepts is a working assumption and a full fledged argument in support of the distinction will not be pursued here.
+Rather, reference to comparative concepts here allows us to compare the "voicing effect" across languages where "voicing" behaves very differently, and allows us to make cross-linguistic generalisations that transcend language-specific descriptive categories.
+<!-- TODO: fix cross reference -->
+The holistic account expounded in [...] rests on this working assumption, and should be read as applicable independently from language-specific voicing categories.
 
 ## The voicing effect and other phonological and phonetic factors
 <!-- TODO: maybe remove this heading -->
@@ -318,6 +329,8 @@ This approach is generally helpful in light of the distinction between aspiratin
 
 ## Research questions
 
+<!-- TODO: make questions into text and link to lit review and individual studies -->
+
 This research project has two broad aims.
 First, I sought to obtain acoustic and articulatory data using modern methods which would shed light on the production accounts put forward in the past century.
 The second objective was to enlighten the debate on reported cross-linguistic differences by conducting a comparative analysis which encompasses three related but contrasting languages.
@@ -335,6 +348,24 @@ Among the questions posed by this work there are the following:
 * What can we learn about other durational effects from the study of the voicing effect?
 * Can the magnitudes of the voicing effect reported in previous studies be replicated with new data, and what research aspects could be responsible for differences?
 * What level of confidence can we attribute to previous and current results, considering the weight of the evidence provided by the data?
+
+<!-- TODO: explain why methods are good for answering these questions and why languages where chosen? -->
+
+## Italian, Polish, and English phonological systems
+
+This section gives an overview of the phonological systems of Italian, Polish, and English, which will set the stage for the preview of the results in the following section and the discussion of these in the second part of the dissertation.
+
+### Italian
+
+
+
+### Polish
+
+
+
+### English
+
+
 
 ## Summary of results
 \label{s:sumresults}
