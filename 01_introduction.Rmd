@@ -354,14 +354,63 @@ Among the questions posed by this work there are the following:
 ## Italian, Polish, and English phonological systems
 
 This section gives an overview of the phonological systems of Italian, Polish, and English, which will set the stage for the preview of the results in the following section and the discussion of these in the second part of the dissertation.
+<!-- TODO: say that you are using names as languoids -->
+<!-- TODO: say that you use vowel categories as comparative concepts here too! since each phoneme makes sense only within the system it is from (Haspelmath cites Trubetskoj). -->
 
 ### Italian
 
+\ctable[caption = Italian consonant phonemes (adapted from \citep[50]{kramer2009}).,
+label = t:itacons,
+]{llllll}{}{
+FL
+            & labial & dental & alveolar & palatal & velar \ML
+stop        & p, b   & t, d   & ts, dz   & tʃ, dʒ  & k, g  \NN
+fricative   & f, v   &        & s, z     & ʃ, (ʒ)  &       \NN
+nasal       & m      &        & n        & ɲ       &       \NN
+lateral     &        &        & l        & ʎ       &       \NN
+rhotic      &        &        & r        &         &       \NN
+approximant & w      &        &          & j       &       \LL
+}
 
+\ctable[caption = Italian vocalic phonemes (adapted from \citep[51]{kramer2009}).,
+label = t:itavow,
+]{llll}{}{
+\FL
+         & front & central & back \ML
+high     & i     &         & u    \NN
+mid-high & e     &         & o    \NN
+mid-low  & ɛ     &         & ɔ    \NN
+low      &       & a       &      \LL
+}
+
+Although the exact phonemic inventory of Italian is still debated, especially for consonants \citep[44]{kramer2009}, a generally agreed upon phonemic set is given in \Cref{t:itacons} for consonants and \Cref{t:itavow} for vowels.
+
+Italian contrasts consonants along five (phonological) places of articulation: labial (bilabial and labiodental), dental, alveolar, palatal (palatal and post-alveolar), and velar.
+Stops (true stops and affricates) and fricatives contrast for voicing, although note that /z/ has limited functional load \citep{bertinetto2005} and /ʒ/ is relegated to loan words.
+<!-- add  -->
+The Italian voicing contrast is usually described to be between voiceless unaspirated consonants and fully voiced consonants \citep{vagges1978, bortolini1995, pape2014, kirby2016}.
+<!-- Pape 2014 talks about burst that could be used as a cue to voicelessness -->
+
+The vocalic system in \Cref{t:itavow} is found in stressed syllables, although the status of the mid-high and mid-low contrast is not straightforward, and the mid vowels show a high degree of geographical and idiosyncratic variation \citep{renwick2016}.
+In unstressed syllables, there is no contrast between mid-high and mid-low vowels, and these vowels are articulated as either mid-high or mid-low depending on the variety of Italian \citep{rogers2004, renwick2016}.
+Although vowel duration is not contrastive \citep{rogers2004, kramer2009, renwick2016}, vowels are longer when they appear in a stressed open syllable (/fa.to/ [faːto] 'fate') and shorter when the syllable is closed (/fat.to/ [fatto] 'fact').
+
+<!-- TODO: stress and rhythm -->
 
 ### Polish
 
+\ctable[caption = Polish vocalic phonemes (adapted from ).,
+label = t:polvow,
+]{llll}{}{
+\FL
+         & front & central & back \ML
+high     & i     &         & u    \NN
+mid-high &       & ɨ       &      \NN
+mid-low  & ɛ     &         & ɔ    \NN
+low      &       & a       &      \LL
+}
 
+<!-- /ɨ/ is front retracted rather than proper central -->
 
 ### English
 
