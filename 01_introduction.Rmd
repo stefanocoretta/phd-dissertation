@@ -359,7 +359,7 @@ This section gives an overview of the phonological systems of Italian, Polish, a
 
 ### Italian
 
-\ctable[caption = Italian consonant phonemes (adapted from \citep[50]{kramer2009}).,
+\ctable[caption = Italian consonant phonemes (adapted from \citealt[50]{kramer2009}).,
 label = t:itacons,
 ]{llllll}{}{
 FL
@@ -372,7 +372,7 @@ rhotic      &        &        & r        &         &       \NN
 approximant & w      &        &          & j       &       \LL
 }
 
-\ctable[caption = Italian vocalic phonemes (adapted from \citep[51]{kramer2009}).,
+\ctable[caption = Italian vocalic phonemes (adapted from \citealt[51]{kramer2009}).,
 label = t:itavow,
 ]{llll}{}{
 \FL
@@ -383,15 +383,26 @@ mid-low  & ɛ     &         & ɔ    \NN
 low      &       & a       &      \LL
 }
 
+\begin{vowel}
+    \putcvowel{i}{1}
+    \putcvowel{e}{2}
+    \putcvowel{ɛ}{3}
+    \putvowel{a}{3\vowelhunit}{3\vowelvunit}
+    \putcvowel{ɔ}{6}
+    \putcvowel{o}{7}
+    \putcvowel{u}{8}
+\end{vowel}
+
 Although the exact phonemic inventory of Italian is still debated, especially for consonants \citep[44]{kramer2009}, a generally agreed upon phonemic set is given in \Cref{t:itacons} for consonants and \Cref{t:itavow} for vowels.
 
 Italian contrasts consonants along five (phonological) places of articulation: labial (bilabial and labiodental), dental, alveolar, palatal (palatal and post-alveolar), and velar.
 Stops (true stops and affricates) and fricatives contrast for voicing, although note that /z/ has limited functional load \citep{bertinetto2005} and /ʒ/ is relegated to loan words.
-<!-- add  -->
+<!-- add what? -->
 The Italian voicing contrast is usually described to be between voiceless unaspirated consonants and fully voiced consonants \citep{vagges1978, bortolini1995, pape2014, kirby2016}.
-<!-- Pape 2014 talks about burst that could be used as a cue to voicelessness -->
+\citet{pape2014} shows that Italian speakers tend to percieve stops without a burst following the release as voiced consonants, independent of the duration of voicing during closure.
+While it is not clear which acustic cue is employed by Italian speakers to discriminate voiceless and voiced consonants, \citet{pape2014} find in their production study that Italian consistently articulate (velar) stops with full voicing during closure.
 
-The vocalic system in \Cref{t:itavow} is found in stressed syllables, although the status of the mid-high and mid-low contrast is not straightforward, and the mid vowels show a high degree of geographical and idiosyncratic variation \citep{renwick2016}.
+The vocalic system in \Cref{t:itavow} is found in stressed syllables, although the status of the mid-high and mid-low contrast is not straightforward (especially in the back vowels), and the mid vowels show a high degree of geographical and idiosyncratic variation \citep{renwick2016}.
 In unstressed syllables, there is no contrast between mid-high and mid-low vowels, and these vowels are articulated as either mid-high or mid-low depending on the variety of Italian \citep{rogers2004, renwick2016}.
 Although vowel duration is not contrastive \citep{rogers2004, kramer2009, renwick2016}, vowels are longer when they appear in a stressed open syllable (/fa.to/ [faːto] 'fate') and shorter when the syllable is closed (/fat.to/ [fatto] 'fact').
 
@@ -399,22 +410,82 @@ Although vowel duration is not contrastive \citep{rogers2004, kramer2009, renwic
 
 ### Polish
 
-\ctable[caption = Polish vocalic phonemes (adapted from ).,
+\ctable[caption = Polish consonant phonemes (adapted from \citealt{jassem2003}).,
+label = t:polcons,
+]{lllllll}{}{
+\FL
+            & labial & dental & alveolar & alveopalatal & palatal & velar \ML
+plosive     & p, b   & t, d   &          &              & c, ɟ    & k, g  \NN
+fricative   & f, v   & s, z   & ʃ, ʒ     & ɕ, ʑ         &         & x     \NN
+affricate   &        & ts, dz & tʃ, dʒ   & tɕ, dʑ       &         &       \NN
+nasal       & m      & n      &          &              &         & ŋ     \NN
+lateral     &        & l      &          &              &         &       \NN
+rhotic      &        &        & r        &              &         &       \NN
+approximant & w      &        &          &              &         &       \LL
+
+\ctable[caption = Polish vocalic phonemes (adapted from \citealt{jassem2003}).,
 label = t:polvow,
 ]{llll}{}{
 \FL
          & front & central & back \ML
 high     & i     &         & u    \NN
 mid-high &       & ɨ       &      \NN
-mid-low  & ɛ     &         & ɔ    \NN
+mid-low  & ɛ ɛ̃   &         & ɔ ɔ̃  \NN
 low      &       & a       &      \LL
 }
 
+\begin{vowel}
+    \putcvowel{i}{1}
+    \putcvowel[l]{ɛ}{3}
+    \putcvowel[r]{ɛ̃}{3}
+    \putvowel{a}{3\vowelhunit}{3\vowelvunit}
+    \putcvowel[l]{ɔ}{6}
+    \putcvowel[r]{ɔ̃}{6}
+    \putcvowel{u}{8}
+    \putvowel{ɨ}{1.9\vowelhunit}{0.8\vowelvunit}
+\end{vowel}
+
 <!-- /ɨ/ is front retracted rather than proper central -->
+
+Polish consonants contrast six places of articulation \citep{jassem2003}: labial (bilabial and labiodental), dental, (post-)alveolar, alveopalatal, palatal, and velar.
+Similarly to Italian, Polish stops, fricatives, and affricates can either be voiceless or voiced.
+\citet{keating1984} argues that the Polish voicing contrast is between fully voiced consonants and voiceless (short-lag VOT) consonants.
+\citet{waniek2011}, on the other hand, suggest a possible change in progress by which the duration of VOT in Polish voiceless stops before stressed vowels is increasing.
+In relation to this finding, \citet{schwartz2018} report that the perception of the voicing contrast by Polish speakers is not hindered by the absence of pre-voicing.
+Finally, the voicing contrast is neutralised in absolute word-final position \citep{gussmann2007}, but it is maintained syllable-finally word-medially \citep{strycharczuk2012a}.
+The Polish vocalic system is made of eight vowel phonemes, six oral and two nasalised: /i, ɛ, ɨ, a, ɔ, u/, /ɛ̃, ɔ̃/ \citep{jassem2003, gussmann2007}.
+
+<!-- TODO: rythm and stress -->
 
 ### English
 
+\ctable[caption = Polish consonant phonemes (adapted from \citealt{jassem2003}).,
+label = t:polcons,
+]{llllllll}{}{
+\FL
+            & labial & dental & alveolar & post-alveolar & palatal & velar & glottal \ML
+plosive     & p, b   & t, d   & t, d     &               &         & k, g  &         \NN
+fricative   & f, v   &        & s, z     & ʃ, ʒ          &         &       & h       \NN
+affricate   &        &        &          & tʃ, dʒ        &         &       &         \NN
+nasal       & m      &        & n        &               &         & ŋ     &         \NN
+lateral     &        &        & l        &               &         &       &         \NN
+rhotic      &        &        &          & r             &         &       &         \NN
+approximant & w      &        &          &               & j       &       &        \LL
 
+\begin{vowel}
+    \putvowel{iː}{0.3\vowelhunit}{0\vowelvunit}
+    \putcvowel{ɪ}{13}
+    \putvowel{e}{1.1\vowelhunit}{1.7\vowelvunit}
+    \putcvowel{æ}{16}
+    \putcvowel[l]{ə}{11}
+    \putcvowel[r]{ɜː}{11}
+    \putcvowel{ʌ}{15}
+    \putvowel{uː}{3.5\vowelhunit}{0\vowelvunit}
+    \putcvowel{ʊ}{14}
+    \putvowel{ɔː}{4\vowelhunit}{1.25\vowelvunit}
+    \putvowel{ɒ}{4\vowelhunit}{2.5\vowelvunit}
+    \putvowel{ɑː}{3.7\vowelhunit}{3\vowelvunit}
+\end{vowel}
 
 ## Summary of results
 \label{s:sumresults}
