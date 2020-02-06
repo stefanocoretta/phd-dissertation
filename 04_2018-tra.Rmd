@@ -82,6 +82,7 @@ trp_difference <- kines_mean %>%
 ```
 
 \chapter{Longer vowel duration correlates with greater tongue root displacement: Acoustic and articulatory data from Italian and Polish [Paper III]}
+\label{p:tra}
 
 \noindent\fbox{%
     \parbox{\textwidth}{%

@@ -37,7 +37,7 @@ These languages make up an appropriate set in that they constitute a methodologi
 <!-- TODO: check cross-refs make sense -->
 
 The dissertation is organised in three parts: an introduction (Part I), a collection of original manuscripts (Part II), and a conclusion (Part III).
-The three chapters of Part I present in turn a review of the literature on the voicing effect and related issues (\Cref{s:ve}), a rationale for the current research including a discussion of the questions to be addressed (\Cref{s:rationale}), and a description of the methodologies employed in the two studies that make up this research and of principles of Open Science, which which have had a deep impact on the shape of this project (\Cref{s:methods}).
+The three chapters of Part I present in turn a review of the literature on the voicing effect and related issues (\Cref{s:ve}), a rationale for the current research including a discussion of the questions to be addressed (\Cref{s:rationale}), and a description of the methodologies employed in the two studies that make up this research and of principles of Open Science (\Cref{s:methods}).
 Part II is a collection of original manuscripts in the form of standalone papers (Papers I-IV), which report and discuss the conceptual and methodological contribution of the present work.
 The papers are connected in that they investigate related but self-contained aspects of the voicing effect (as detailed in [...]).
 A "journal format" was chosen over a "book format" given the strong experimental and methodologically independent nature of the research behind each paper, and thanks to the fact that each paper can be read more or less independently of the others.
@@ -55,11 +55,22 @@ Finally, the chapter concludes with a discussion of the effects of aspiration an
 
 \Cref{s:rationale} provides a rationale for the current research.
 The research questions addressed in the dissertation are introduced and contextualised in relation to the topics touched upon in \Cref{s:veintro}.
-This chapter also offers an overview of the phonologies of the languages that have been chosen as the search ground for the research questions, namely Italian, Polish, and English.
+A justification of the choice of data sources and languages used to answer the research questions is given here.
+This chapter also offers an overview of the phonologies of the chosen languages, namely Italian, Polish, and English.
 For each language, a brief description of the consonantal and vocalic phonemic systems is given, with a focus on aspects of phonation contrasts, followed by a discussion of the stress and rhythmic systems.
 \Cref{s:sumresults} offers a prospective overview of the main results, which presented in full in Part II.
 
-The last chapter of Part I, \Cref{s:methods}
+The last chapter of Part I, \Cref{s:methods}, describes the methods employed in the exploratory study of the voicing effect in Italian and Polish (Study I) and in the confirmatory study of the compensatory aspects of the voicing effect in English (Study II).
+This chapter also introduces ultrasound tongue imaging and electroglottography, two articulatory techniques that allow us to learn in a non-invasive way about properties of tongue movement and vocal fold vibration.
+Finally, \Cref{s:openscience} discusses issues related to statistical aspects of scientific research, and introduces principles and practices of Open Science as a remedy to some of these issues and how Open Science has shaped the current research project.
+
+\Cref{p:relrel}
+
+\Cref{p:en-relrel}
+
+\Cref{p:tra}
+
+\Cref{p:wavegram}
 
 <!-- maybe leave them here and say that they will be expanded in section Research questions s:resq-->
 * Can the voicing effect be ascribed to mechanisms of temporal compensation and/or articulatory adjustments that result in the observed patters of both vowel and consonant duration?
@@ -386,7 +397,7 @@ Among the questions posed by this work there are the following:
 * Can the magnitudes of the voicing effect reported in previous studies be replicated with new data, and what research aspects could be responsible for differences?
 * What level of confidence can we attribute to previous and current results, considering the weight of the evidence provided by the data?
 
-<!-- TODO: explain why methods are good for answering these questions and why languages where chosen? -->
+<!-- TODO: explain why methods are good for answering these questions and why languages where chosen -->
 
 ## Italian, Polish, and English phonological systems
 
@@ -552,6 +563,7 @@ Generally speaking, while the voicing contrast in word-medial position especiall
 
 ## Summary of results
 \label{s:sumresults}
+<!-- TODO: maybe call it preview? -->
 
 The results of the investigation of acoustic segment durations, tongue root position, and glottal adjustments suggest a composite production account of the voicing effect which synthesises previous independent and seemingly contrasting proposals.
 Papers I deals with compensatory aspects of the voicing effect in Italian and Polish acoustic data, and provides evidence for the durational stability of a speech interval across voicing contexts.

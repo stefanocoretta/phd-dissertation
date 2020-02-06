@@ -21,6 +21,7 @@ eng_clos <- na.omit(eng_durations)
 ```
 
 \chapter{Temporal (in)stability in English monosyllabic and disyllabic words: Insights on the effect of voicing on vowel duration [Paper II]}
+\label{p:en-relrel}
 
 \noindent\fbox{%
     \parbox{\textwidth}{%

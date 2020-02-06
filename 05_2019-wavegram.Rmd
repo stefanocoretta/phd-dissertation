@@ -20,7 +20,8 @@ theme_set(theme_minimal())
 load("./cache/wavegam.Rdata")
 ```
 
-\chapter{Modelling electroglottographic data with wavegrams and generalised additive mixed models [Paper V]}
+\chapter{Modelling electroglottographic data with wavegrams and generalised additive mixed models [Paper IV]}
+\label{p:wavegram}
 
 \noindent\fbox{%
     \parbox{\textwidth}{%
