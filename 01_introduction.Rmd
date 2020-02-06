@@ -25,7 +25,7 @@ A careful analysis of the process of observation in atomic physics has shown tha
 The sounds of a language form an incredibly complex system of relations and dependencies, both at a physical and a more abstract level.
 A topic that masterfully exemplifies the complexities of such a system and that has generated great interest over the decades is the somewhat elusive connection between vowel duration and consonant voicing.
 According to a robust cross-linguistic tendency, vowels are shorter when followed by a voiceless consonant and longer when the following consonant is voiced \citep{meyer1903, heffner1937, house1953, lisker1957, peterson1960}.
-This so-called 'voicing effect' interacts with a variety of linguistic factors and scholars have sought its origins in properties of speech production, from aerodynamic mechanisms to gestural timing, and properties of speech perception \citep{belasco1953, zimmerman1958, sharf1962, lindblom1967, halle1967a, javkin1976, kluender1988}.
+This so-called "voicing effect" interacts with a variety of linguistic factors and scholars have sought its origins in properties of speech production, from aerodynamic mechanisms to gestural timing, and properties of speech perception \citep{belasco1953, zimmerman1958, sharf1962, lindblom1967, halle1967a, javkin1976, kluender1988}.
 While much progress has been made in understanding this link, after more than a century there is still disagreement as to what contributes to this phenomenon, as evidenced by the numerous accounts put forward.
 
 Given the plurality of views concerning less understood aspects of the voicing effect, this thesis set out to investigate this phenomenon by employing a diverse set of techniques and sources of data.
@@ -36,11 +36,44 @@ These languages make up an appropriate set in that they constitute a methodologi
 
 <!-- TODO: check cross-refs make sense -->
 
-The dissertation is organised thus. The following three chapters constitute the introductory part, and they present in turn a review of the literature on the voicing effect (\Cref{s:ve}), an overview of the studies conducted (\Cref{s:studies}), and a discussion of Open Science principles (\Cref{s:openscience}), which have had a deep impact on the shape of this project.
-The second part of the thesis is a collection of original manuscripts in the form of standalone papers (Papers I-V), which report and discuss the methodological and conceptual contributions of the present work.
-Finally, \Cref{s:gen-disc} and \Cref{s:final} summarise the results of this investigation by providing an overarching synthesis, and concludes with a discussion of limitations and future avenues of research.
+The dissertation is organised in three parts: an introduction (Part I), a collection of original manuscripts (Part II), and a conclusion (Part III).
+The three chapters of Part I present in turn a review of the literature on the voicing effect and related issues (\Cref{s:ve}), a rationale for the current research including a discussion of the questions to be addressed (\Cref{s:rationale}), and a description of the methodologies employed in the two studies that make up this research and of principles of Open Science, which which have had a deep impact on the shape of this project (\Cref{s:methods}).
+Part II is a collection of original manuscripts in the form of standalone papers (Papers I-IV), which report and discuss the conceptual and methodological contribution of the present work.
+The papers are connected in that they investigate related but self-contained aspects of the voicing effect (as detailed in [...]).
+A "journal format" was chosen over a "book format" given the strong experimental and methodologically independent nature of the research behind each paper, and thanks to the fact that each paper can be read more or less independently of the others.
+Nonetheless, the four papers are laid out here according to an order partly based on the chronological sequence of the research but also considering the logical dependence of the hypotheses treated in them (see below [...]).
+Finally, Part III summarises the results of this investigation by providing an overarching synthesis (\Cref{s:gen-disc}), and concludes with a discussion of limitations and future avenues of research (\Cref{s:final}).
+
+<!-- TODO: expand on content of individual chapters and say that Paper I is the foundation coz experimental, then you have II which is confirming I in English, then III and IV expand on the issue of VC boundary placement -->
+<!-- TODO: maybe include references to sections -->
+
+The following sections of this chapter (\Cref{s:ve}) introduce the phenomenon of the effect of consonant voicing on preceding vowel durations (the voicing effect).
+First, I will discuss how the voicing effect is cross-linguistically common (with the typological caveat that most investigated languages are from the Indo-European family), although alleged exceptions to its universality exists, both in terms of presence of the effect and of its magnitude.
+This is followed by a discussion of the use of "voicing" as a comparative concept rather than as a phonetically-motivated descriptive category, and by a presentation of other phonological and phonetic factors that are known to interact with the voicing effect, such as manner, prosody, and the process of phonologisation.
+The chapter proceeds with a critical review of the explanatory accounts proposed for the voicing effect over the course of more than a century, both from a production and a perception point of view.
+Finally, the chapter concludes with a discussion of the effects of aspiration and ejection on vowel duration, and how these can shed light on the voicing effect.
+
+\Cref{s:rationale} provides a rationale for the current research.
+The research questions addressed in the dissertation are introduced and contextualised in relation to the topics touched upon in \Cref{s:veintro}.
+This chapter also offers an overview of the phonologies of the languages that have been chosen as the search ground for the research questions, namely Italian, Polish, and English.
+For each language, a brief description of the consonantal and vocalic phonemic systems is given, with a focus on aspects of phonation contrasts, followed by a discussion of the stress and rhythmic systems.
+\Cref{s:sumresults} offers a prospective overview of the main results, which presented in full in Part II.
+
+The last chapter of Part I, \Cref{s:methods}
+
+<!-- maybe leave them here and say that they will be expanded in section Research questions s:resq-->
+* Can the voicing effect be ascribed to mechanisms of temporal compensation and/or articulatory adjustments that result in the observed patters of both vowel and consonant duration?
+* Which articulatory properties of voicing directly affect vowel and consonant durations, and in particular what mechanisms influence the timing of the consonantal closure?
+* Do voiceless and voiced consonants target different articulatory realisations, or are there some oral and/or laryngeal configurations or processes that are shared between them?
+* Do these aspects of production follow universal patterns and constraints, or can different languages modulate their implementation in specific ways?
+* Can the mechanisms behind the voicing effect inform us on more general aspects of gestural phasing and articulatory timing within and beyond the traditional syllable?
+* Can the study of articulation provide us with insights into the enhancing role of perception?
+* What can we learn about other durational effects from the study of the voicing effect?
+* Can the magnitudes of the voicing effect reported in previous studies be replicated with new data, and what research aspects could be responsible for differences?
+* What level of confidence can we attribute to previous and current results, considering the weight of the evidence provided by the data?
 
 ## The voicing effect
+\label{s:veintro}
 
 Across a wide variety of languages, vowels tend to be shorter when followed by voiceless consonants, and longer when followed by voiced ones.
 This phenomenon has been called the 'voicing effect' \citep{mitleb1982} or 'pre-fortis clipping' \citep{wells1990}.
@@ -318,6 +351,7 @@ In light of this, this dissertation sets out to study the interrelations between
 The following chapter presents a more detailed discussion of the rational behind the research of this dissertation and a summary of the main results and conceptual contribution.
 
 # Rationale of the current research
+\label{s:rationale}
 
 <!-- TODO: move here research questions -->
 
@@ -330,6 +364,7 @@ Note that, when talking about voiceless vs. voiced stops, I refer to the phonemi
 This approach is generally helpful in light of the distinction between aspirating vs. true-voicing languages \citep{beckman2013}, and in the case of English in particular \citep{docherty1992}, which is the subject of the second study.
 
 ## Research questions
+\label{s:resq}
 
 <!-- TODO: make questions into text and link to lit review and individual studies -->
 
@@ -550,7 +585,7 @@ By combining previous work on pre-aspiration \citep{lisker1974, nichasaide1985, 
 Finally, Paper IV and V introduce two methods for the analysis of tongue contours and electroglottographic data using generalised additive modelling, and discuss cross-linguistic and speaker-level similarities and differences concerning tongue root advancement and glottal spreading in Italian and Polish.
 
 # Methods
-\label{s:studies}
+\label{s:methods}
 
 Each of the proposals regarding the origin of the voicing effect, reviewed in \Cref{s:ve}, stresses one particular aspect of the mechanisms that could lie behind this phenomenon.
 Whereas some of the hypotheses concern biases of the perceptual system, others depend on articulatory and aerodynamic properties of speech production.
@@ -626,6 +661,8 @@ This procedure allows data to be rotated along the occlusal plane and provides u
 
 The participants read sentence stimuli containing test words presented on the screen via the software Articulate Assistant Advanced™ (AAA, \citealt{articulate2011}).
 The test words were C\textsubscript{1}V\textsubscript{1}C\textsubscript{2}V\textsubscript{2} words, where C\textsubscript{1} = /p/, V\textsubscript{1} = /a, o, u/, C\textsubscript{2} = /t, d, k, g/, and V\textsubscript{2} = V\textsubscript{1}.
+<!-- TODO: check that it is true :D -->
+Note that in both languages C2 is the onset of the second syllable.
 The choice of the segmental make-up of the test words was constrained by the use of ultrasound tongue imaging.
 The words were embedded in the frame sentence *Dico X lentamente* 'I say X slowly', and *Mówię X teraz* 'Say X now' for Italian and Polish respectively.
 Paper I provides more details on the rationale behind the material design.
@@ -689,6 +726,7 @@ A brief synthesis of the methodologies of the study is reported here.
 Fifteen university students were recorded in a sound attenuated room in the Phonetics Laboratory of the University of Manchester while reading sentence stimuli containing test words, presented on a computer screen with PsychoPy \citep{peirce2009}.
 The participants were native speakers of British English, aged between 20 and 29, born and raised within Greater Manchester.\footnote{No sociolinguistic information was collected for this study, given that sociolinguistic considerations were not part of the study aims and given the sensitivity of the data.}
 The test words were built according to the following structure: C\textsubscript{1}V́\textsubscript{1}C\textsubscript{2}(VC), where C\textsubscript{1} = /t/, V\textsubscript{1} = /iː, ɜː, ɑː/, C\textsubscript{2} = /p, b, k, g/, and (VC) = /əs/.
+<!-- TODO: syllable structure -->
 These words were embedded within five different frame sentences, so that each speaker would read a total of 120 stimuli (24 words × 5 frames).
 The audio recordings were force-aligned and the times of acoustic landmarks were extracted according to the same procedure as in Study I (with `make-textgrid.praat` and `get-measurements.praat` in \citealt{coretta2019g}).
 
