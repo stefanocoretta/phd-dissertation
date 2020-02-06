@@ -119,6 +119,8 @@ Rather, reference to comparative concepts here allows us to compare the "voicing
 <!-- TODO: fix cross reference -->
 The holistic account expounded in [...] rests on this working assumption, and should be read as applicable independently from language-specific voicing categories.
 
+<!-- TODO: passive vs active voicing and devoicing -->
+
 ## The voicing effect and other phonological and phonetic factors
 <!-- TODO: maybe remove this heading -->
 
@@ -383,6 +385,7 @@ mid-low  & ɛ     &         & ɔ    \NN
 low      &       & a       &      \LL
 }
 
+<!--
 \begin{vowel}
     \putcvowel{i}{1}
     \putcvowel{e}{2}
@@ -392,6 +395,7 @@ low      &       & a       &      \LL
     \putcvowel{o}{7}
     \putcvowel{u}{8}
 \end{vowel}
+-->
 
 Although the exact phonemic inventory of Italian is still debated, especially for consonants \citep[44]{kramer2009}, a generally agreed upon phonemic set is given in \Cref{t:itacons} for consonants and \Cref{t:itavow} for vowels.
 
@@ -399,6 +403,7 @@ Italian contrasts consonants along five (phonological) places of articulation: l
 Stops (true stops and affricates) and fricatives contrast for voicing, although note that /z/ has limited functional load \citep{bertinetto2005} and /ʒ/ is relegated to loan words.
 <!-- add what? -->
 The Italian voicing contrast is usually described to be between voiceless unaspirated consonants and fully voiced consonants \citep{vagges1978, bortolini1995, pape2014, kirby2016}.
+<!-- TODO: VOT -->
 \citet{pape2014} shows that Italian speakers tend to percieve stops without a burst following the release as voiced consonants, independent of the duration of voicing during closure.
 While it is not clear which acustic cue is employed by Italian speakers to discriminate voiceless and voiced consonants, \citet{pape2014} find in their production study that Italian consistently articulate (velar) stops with full voicing during closure.
 
@@ -434,6 +439,7 @@ mid-low  & ɛ ɛ̃   &         & ɔ ɔ̃  \NN
 low      &       & a       &      \LL
 }
 
+<!--
 \begin{vowel}
     \putcvowel{i}{1}
     \putcvowel[l]{ɛ}{3}
@@ -444,34 +450,55 @@ low      &       & a       &      \LL
     \putcvowel{u}{8}
     \putvowel{ɨ}{1.9\vowelhunit}{0.8\vowelvunit}
 \end{vowel}
+-->
 
 <!-- /ɨ/ is front retracted rather than proper central -->
 
 Polish consonants contrast six places of articulation \citep{jassem2003}: labial (bilabial and labiodental), dental, (post-)alveolar, alveopalatal, palatal, and velar.
 Similarly to Italian, Polish stops, fricatives, and affricates can either be voiceless or voiced.
 \citet{keating1984} argues that the Polish voicing contrast is between fully voiced consonants and voiceless (short-lag VOT) consonants.
+<!-- TODO: report VOT values -->
 \citet{waniek2011}, on the other hand, suggest a possible change in progress by which the duration of VOT in Polish voiceless stops before stressed vowels is increasing.
+\citet{moslin1977} also suggest that the VOT values tend to be longer under certain prosodic conditions.
 In relation to this finding, \citet{schwartz2018} report that the perception of the voicing contrast by Polish speakers is not hindered by the absence of pre-voicing.
 Finally, the voicing contrast is neutralised in absolute word-final position \citep{gussmann2007}, but it is maintained syllable-finally word-medially \citep{strycharczuk2012a}.
 The Polish vocalic system is made of eight vowel phonemes, six oral and two nasalised: /i, ɛ, ɨ, a, ɔ, u/, /ɛ̃, ɔ̃/ \citep{jassem2003, gussmann2007}.
 
-<!-- TODO: rythm and stress -->
+<!-- TODO: rhythm and stress -->
 
 ### English
 
-\ctable[caption = Polish consonant phonemes (adapted from \citealt{jassem2003}).,
+\ctable[caption = English consonant phonemes ().,
 label = t:polcons,
 ]{llllllll}{}{
 \FL
             & labial & dental & alveolar & post-alveolar & palatal & velar & glottal \ML
-plosive     & p, b   & t, d   & t, d     &               &         & k, g  &         \NN
-fricative   & f, v   &        & s, z     & ʃ, ʒ          &         &       & h       \NN
+plosive     & p, b   &        & t, d     &               &         & k, g  &         \NN
+fricative   & f, v   & θ, ð   & s, z     & ʃ, ʒ          &         &       & h       \NN
 affricate   &        &        &          & tʃ, dʒ        &         &       &         \NN
 nasal       & m      &        & n        &               &         & ŋ     &         \NN
 lateral     &        &        & l        &               &         &       &         \NN
 rhotic      &        &        &          & r             &         &       &         \NN
 approximant & w      &        &          &               & j       &       &        \LL
 
+\ctable[caption = British English vowel phonemes \citep{...}.,
+label = t:polcons,
+]{llll}{}{
+\FL
+     & front & central & back \ML
+high & ɪ iː  &         & ʊ uː \NN
+mid  & ɛ     & ə ɜː    & ɔː   \NN
+low  & æ     & ʌ       & ɒ ɑː \LL
+}
+
+<!-- maybe include Norther British English vowels? -->
+
+English consonant phonemes belong to one of seven places of articulation (labial, dental, alveolar, post-alveolar, palatal, velar, glottal) and seven manner of articulation (plosive, fricative, affricate, nasal, lateral, rhotic, approximant).
+The obstruents (plosives, fricatives, affricates) contrast for what has been traditionally described as voicing (...), which is also reflected in the standard use of IPA voiceless and voiced symbols.
+However, the actual articulatory implementation of the contrast is constituted by a complex set of features and it is affected by other phonological factors like syllabic structure and stress \citep{lisker1986}.
+Generally speaking, while the voicing contrast in word-medial position especially after stressed vowels is between a category with voicing during closure (voiced category) and one without it (voiceless category), in pre-stressed position and especially in word-initial position the contrast is between two voiceless categories that differ in voice onset time (short VOT vs long VOT, with no vibration of the vocal folds during closure in the former).
+
+<!--
 \begin{vowel}
     \putvowel{iː}{0.3\vowelhunit}{0\vowelvunit}
     \putcvowel{ɪ}{13}
@@ -486,6 +513,7 @@ approximant & w      &        &          &               & j       &       &    
     \putvowel{ɒ}{4\vowelhunit}{2.5\vowelvunit}
     \putvowel{ɑː}{3.7\vowelhunit}{3\vowelvunit}
 \end{vowel}
+-->
 
 ## Summary of results
 \label{s:sumresults}
