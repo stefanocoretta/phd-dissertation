@@ -165,7 +165,10 @@ Voiceless segments are then characterised by the presence of such a gesture, whi
 This definitions abstracts away from the presence/absence of vocal fold vibration, and allows us to group together for example a language like English and one like Italian.
 
 <!-- TODO: Scobbie's work here? It's specific of English though; maybe just mention will be discussed later -->
+\citet{gordeeva2011} show that in Scottish English the voicing distinction shows an idiosyncratic mapping between phonological categories and the phonetic correlates of vocal fold vibration, (pre-)aspiration, and glottalisation.
+The authors argue that even within the same language or language variety different mappings (which they call phonologisations) might be necessary.
 
+<!-- Jansen 2004 dissertation talks about the same but informally -->
 \citet{haspelmath2010} introduces a helpful distinction between comparative concepts and descriptive categories.
 Following from what Haspelmath calls a "categorial particularism" approach, it is advocated that individual languages should be described in terms of language-specific categories.
 In this light, "voicing" in Italian is different from "voicing" in Spanish for the very fact that Italian and Spanish are two different linguistic systems.
@@ -397,7 +400,7 @@ This approach is generally helpful in light of the distinction between aspiratin
 
 This research project has two broad aims.
 First, I sought to obtain acoustic and articulatory data using modern methods which would shed light on the production accounts put forward in the past century.
-The second objective was to enlighten the debate on reported cross-linguistic differences by conducting a comparative analysis which encompasses three related but contrasting languages.
+The second objective was to enlighten the debate on reported cross-linguistic differences by conducting an analysis which encompasses three related but contrasting languages.
 The papers in Part II offer evidence in relation to these goals.
 
 The specific questions touched upon in this dissertation encompass topics at the intersection between phonetics and phonology \citep{ohala1990, ohala1997, ohala2005, port2005, cohn2010}, and cover both concrete, observable phenomena, and abstract, formalised aspects of speech processing.
@@ -414,6 +417,12 @@ Among the questions posed by this work there are the following:
 * What level of confidence can we attribute to previous and current results, considering the weight of the evidence provided by the data?
 
 <!-- TODO: explain why methods are good for answering these questions and why languages where chosen -->
+The long-standing debate on the source of the voicing effect (what properties or biases in speech production and perception allow this effect to emerge in a language in the first place), evidenced by the different proposals discussed in [...], whether articulatory or perceptual, is evidence for the difficulty in pointing to a single cause of the differential duration of vowels followed by voiceless vs voiced stops.
+Moreover, the existence of durational phenomena related to other phonation types than voicing, like aspiration and ejection ([...]), call for an approach to the understanding of the voicing effect that is independent from voicing per se.
+Such an approach allows us to formulate an account that can be generalised and applied to other durational phenomena (related to phonation or not).
+
+
+<!-- need to say that what I am interested in is how the voicing effect emerges in the first place, and not how individual languages exploit or not the effect -->
 
 ## Italian, Polish, and English phonological systems
 
@@ -466,14 +475,17 @@ Stops (true stops and affricates) and fricatives contrast for voicing, although 
 <!-- add what? -->
 The Italian voicing contrast is usually described to be between voiceless unaspirated consonants and fully voiced consonants \citep{vagges1978, bortolini1995, pape2014, kirby2016}.
 <!-- TODO: VOT -->
-\citet{pape2014} shows that Italian speakers tend to percieve stops without a burst following the release as voiced consonants, independent of the duration of voicing during closure.
-While it is not clear which acustic cue is employed by Italian speakers to discriminate voiceless and voiced consonants, \citet{pape2014} find in their production study that Italian consistently articulate (velar) stops with full voicing during closure.
+\citet{pape2014} shows that Italian speakers tend to perceive stops without a burst following the release as voiced consonants, independent of the duration of voicing during closure.
+While it is not clear which acoustic cue is employed by Italian speakers to discriminate voiceless and voiced consonants, \citet{pape2014} find in their production study that Italian consistently articulate (velar) stops with full voicing during closure.
 
 The vocalic system in \Cref{t:itavow} is found in stressed syllables, although the status of the mid-high and mid-low contrast is not straightforward (especially in the back vowels), and the mid vowels show a high degree of geographical and idiosyncratic variation \citep{renwick2016}.
 In unstressed syllables, there is no contrast between mid-high and mid-low vowels, and these vowels are articulated as either mid-high or mid-low depending on the variety of Italian \citep{rogers2004, renwick2016}.
 Although vowel duration is not contrastive \citep{rogers2004, kramer2009, renwick2016}, vowels are longer when they appear in a stressed open syllable (/fa.to/ [faːto] 'fate') and shorter when the syllable is closed (/fat.to/ [fatto] 'fact').
 
 <!-- TODO: stress and rhythm -->
+Stress in Italian is contrastive (non-predicable), and main lexical stress is generally placed on one of the last three syllables \citep{imperio1999, kramer2009}.
+The basic foot is a maximally bimoraic trochee \citep{kramer2009}.
+Italian is traditionally ascribed to the syllable-timed class of rhythmic typology \citep{pike1945}, although properties stress-timed languages (like vowel reduction) can be observed in Italian, also depending on the regional variety \citep{white2009, giordano2010, pamies-bertran1999}.
 
 ### Polish
 
@@ -527,6 +539,7 @@ Finally, the voicing contrast is neutralised in absolute word-final position \ci
 The Polish vocalic system is made of eight vowel phonemes, six oral and two nasalised: /i, ɛ, ɨ, a, ɔ, u/, /ɛ̃, ɔ̃/ \citep{jassem2003, gussmann2007}.
 
 <!-- TODO: rhythm and stress -->
+Polish lexical stress is fixed on the penultimate syllable, with the only exceptions with ante-penultimate stress being loan words \citep{gussmann2007}.
 
 ### English
 
