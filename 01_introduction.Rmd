@@ -418,9 +418,32 @@ Among the questions posed by this work there are the following:
 
 <!-- TODO: explain why methods are good for answering these questions and why languages where chosen -->
 The long-standing debate on the source of the voicing effect (what properties or biases in speech production and perception allow this effect to emerge in a language in the first place), evidenced by the different proposals discussed in [...], whether articulatory or perceptual, is evidence for the difficulty in pointing to a single cause of the differential duration of vowels followed by voiceless vs voiced stops.
-Moreover, the existence of durational phenomena related to other phonation types than voicing, like aspiration and ejection ([...]), call for an approach to the understanding of the voicing effect that is independent from voicing per se.
+Moreover, the existence of durational phenomena related to other phonation types than voicing, like aspiration and ejection ([...]), call for an approach to the understanding of the voicing effect that is independent from voicing per se, while still limiting the investigation on the voicing contrast.
 Such an approach allows us to formulate an account that can be generalised and applied to other durational phenomena (related to phonation or not).
 
+<!-- TODO: in discussion, mention again perceptual factors as factors that enhance the VE and link back to the English paper -->
+<!-- TODO: include references for prod vs percept, and for oral vs laryngeal accounts -->
+In light of the complexity of the durational effects reviewed in [...], I decided to limit the scope of the investigation to aspects of production, while keeping an open mind about perceptual factors, as discussed in [... discussion].
+This choice was based in part on the paucity of recent articulatory data on the voicing effect in relation to for example acoustic and perceptual data, and in part on the greater number of production accounts of the voicing effect relative to perception accounts.
+<!-- TODO: probably need references for the claim that there is not much modern articulatory data and that the are more prod than percept accounts? -->
+Furthermore, the production accounts reviewed in [...] deal either with oral (tongue) gestures or laryngeal gestures.
+In order to potentially identify properties of these two types of gestures it followed as a natural choice to use ultrasound tongue imaging and electroglottography in combination with acoustics as three sources of data.
+Given that the voicing effect (and related durational phenomena) has been prevalently if not exclusively defined and dealt with in terms of acoustic segmental durations, the same approach is used here and analysis of acoustic durations will be at the core of the analyses presented in the Part [...].
+
+<!-- TODO: why part exploratory part confirmatory -->
+Another fundamental aspect of this research project is that its development is composed of two stages: an exploratory (hypothesis-generating) stage, and a confirmatory (hypothesis-testing) stage (on the exploratory/confirmatory dichotomy, see \citet{tukey1980} and \Cref{s:stand}).
+These stages correspond to Study I and Study II respectively, an overview of which is given in \Cref{s:studyi} and \Cref{s:studyii}.
+Research questions at the exploratory stage (Study I) were formulated while being agnostic in regards to specific hypotheses.
+Rather, the literature reviewed in [...] formed the basis for a set of general questions about articulatory properties of VC sequences.
+This set of general questions justified the experimental design of Study I (\Cref{s:studyi}).
+for example...
+More specific questions emerged while performing exploratory data analyses.
+for example...
+confirmatory Study II
+
+<!-- TODO: some questions span across the two stages, exploratory and confirmatory, like for example replication of previous results and comparison across languages -->
+
+<!-- TODO: Why these languages? -->
 
 <!-- need to say that what I am interested in is how the voicing effect emerges in the first place, and not how individual languages exploit or not the effect -->
 
@@ -850,6 +873,7 @@ The questionable research and measurement practices described above, together wi
 A final exculpatory note is due, though, in that these practices are not necessarily intentional or fraudulent, and in some cases lie within a 'grey area' of accepted standard procedures.
 
 ### Where we stand and where we are heading
+\label{s:stand}
 
 Given the similarities in methods between the psychological sciences and phonetics/phonology, it is reasonable to assume that the situation does not fare better in the latter.
 As mentioned above, sample size, coupled with the effects of increased variance due to between-subject designs, can have a big impact on statistical power.
@@ -867,7 +891,7 @@ It is reasonable to assume that, based on this cursory analysis, sample size in 
 
 As a partial remedy to the issues discussed so far, researchers have proposed two solutions: pre-registrations and Registered Reports.
 Pre-registration of a study consists in the researchers' commitment to an experimental and analytical protocol before collecting and seeing the data \citep{wagenmakers2012, veer2016}.
-Pre-registering a study establishes a clear separation between confirmatory (hypothesis testing) analyses and exploratory (hypothesis generating) research.
+Pre-registering a study establishes a clear separation between confirmatory (hypothesis-testing) analyses and exploratory (hypothesis-generating) research.
 While both types of research are essential to scientific progress \citep{tukey1980}, presenting exploratory analyses as confirmatory is detrimental to it.
 Pre-registrations ensure researchers comply to such demarcation, while leaving space to generate new hypotheses via exploratory research.
 A more recent initiative proposes Registered Reports as a publication format that can counteract questionable research practices and the exploitation of the researcher's degrees of freedom \citep{chambers2015}.
