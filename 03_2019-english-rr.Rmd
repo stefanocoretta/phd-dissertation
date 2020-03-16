@@ -140,9 +140,11 @@ Only a few studies directly compare the effect in different syllabic positions (
 The reported effects are in the range of 50-55 ms in word-final (closed-syllable) position and 20-25 in word-medial (open-syllable) position.
 The Bayesian meta-analysis of the voicing effect indicates a mean difference of 50 ms (75 ms in word-final position vs. 25 ms word-medially).
 
-The data in \citet{sharf1962} and \citet{luce1985} indicate that voiced stop closures in English are 10-13 ms shorter than voiceless closures.
-Given the paucity of studies on stop closure durations reporting statistical effects and related errors, no specific hypothesis was set in relation to this measurement.
-Closure duration was nonetheless investigated as a conceptual replication of previous work and to produce posterior distributions that can be used to set up priors in the statistical analyses of future studies.
+The data in \citet{sharf1962} and \citet{luce1985} indicate that voiced stop closures in English are 10-13 ms shorter than voiceless stop closures.
+Other surveyed studies did not report effect sizes for stop closure durations \citep{port-1979, van-summers1987, de-jong1991}.
+For this study, no specific hypothesis was set in relation to stop closure durations.
+Closure duration was nonetheless investigated as a conceptual replication of previous work.
+Moreover, the estimated posterior distributions can be used to set up priors in the statistical analyses of future studies, in accordance to the Bayesian principle of knowledge update via accumulation of evidence \citep{etz2018}.
 
 To summarise, the following research questions and respective hypotheses can be formulated:
 
