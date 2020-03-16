@@ -134,11 +134,15 @@ This could be a consequence of the fact that the closure of velar stops is short
 For example, \citeauthor{sharf1962}'s (\citeyear{sharf1962}) data on closure duration in English suggests that the closure of labial stops (60-90 ms) is about 10 ms longer than that of velar stops (55-75 ms).
 It can be expected that release-to-release intervals with a velar stop in English will be about 10 ms shorter than intervals with a labial stop.
 
-Another set of objectives concerns the effect of voicing on vowel and closure durations.
+Another set of objectives concerns the effect of voicing on vowel durations.
 A conceptual replication of previous studies' effect sizes is sought, with special attention to differences between monosyllabic and disyllabic words.
 Only a few studies directly compare the effect in different syllabic positions (for example, \citealt{sharf1962} and \citealt{klatt1973}).
 The reported effects are in the range of 50-55 ms in word-final (closed-syllable) position and 20-25 in word-medial (open-syllable) position.
 The Bayesian meta-analysis of the voicing effect indicates a mean difference of 50 ms (75 ms in word-final position vs. 25 ms word-medially).
+
+The data in \citet{sharf1962} and \citet{luce1985} indicate that voiced stop closures in English are 10-13 ms shorter than voiceless closures.
+Given the paucity of studies on stop closure durations reporting statistical effects and related errors, no specific hypothesis was set in relation to this measurement.
+Closure duration was nonetheless investigated as a conceptual replication of previous work and to produce posterior distributions that can be used to set up priors in the statistical analyses of future studies.
 
 To summarise, the following research questions and respective hypotheses can be formulated:
 
@@ -339,9 +343,11 @@ kable_styling(font_size = 10)
 ```
 
 \Cref{tab:rr-1-table} gives the posterior mean, posterior standard deviation, 2.5 and 97.5 quantiles (lower and upper bounds of the 95% credible interval), and the credible interval's width of the fixed effects of model 1.
-The precision goal (CI width ≤ 20 ms, based on the ROPE) was reached only for centred speech rate (CI width = 8.14 ms).
-The posterior distribution of the estimated effect of C2 voicing on the release-to-release duration has a 95% credible interval (95% CI) between -23.86 and 15.45 ms (the mean is -4.43 ms, SD = 10.03).
-The 95% CI of the estimated interaction between C2 voicing and number of syllables tends towards positive values, between -8.41 and 41.41 ms ($\bar{\theta}$ = 16.53 ms, SD = 12.72).
+According to the hypotheses H1a-b set out in \Cref{s:hypo}, the effect of the C2 voicing predictor (which refers to disyllabic words) should be 0 (i.e. the posterior distribution of the effect should be entirely within the ROPE), and the interaction between C2 voicing (= voiced) and number of syllables (= monosyllabic) should be positive.
+Based on H2a, the effect of the number of syllables (= monosyllabic) should be positive.
+However, note that the precision goal (CI width ≤ 20 ms, based on the ROPE) was reached only for centred speech rate (CI width = 8.14 ms), so that these results come with a high degree of uncertainty.
+The posterior distribution of the estimated effect of C2 voicing on the release-to-release duration in monosyllabic words has a 95% credible interval (95% CI) between -23.86 and 15.45 ms (the mean is -4.43 ms, SD = 10.03).
+The 95% CI of the estimated interaction between C2 voicing (= voiced) and number of syllables (= monosyllabic) tends towards positive values, between -8.41 and 41.41 ms ($\bar{\theta}$ = 16.53 ms, SD = 12.72).
 The difference in duration of the release-to-release interval between monosyllabic and disyllabic words is more clearly positive, between -1.58 and 36.53 ms (95% CI, $\bar{\theta}$ = 17.34, SD = 9.76).
 Speech rate has a strong negative effect on the release-to-release duration with 95% CI = [-40.14, -32.13].
 
@@ -388,9 +394,11 @@ kable_styling(font_size = 10)
 
 The summary of the fixed effects of model 2 are given in \Cref{tab:rr-2-table}.
 As with model 1, only the CI width of speech rate reached the intended precision.
+Based on the hypotheses H2b-c in \Cref{s:hypo}, the effects of vowel = /ɜː/ and vowel = /iː/ should be negative, and the latter effect should be more negative than the former.
 The posterior distribution of the effect of the vowel /ɜː/ shows that this vowel tends to a negative effect, with a 95% CI between −21.90 and 4.87 ms ($\bar{\theta}$ = −8.58 ms, SD = 6.9).
 The vowel /iː/ has a more robust negative effect on release-to-release duration, with a 95% CI between −50.10 and −22.26 ($\bar{\theta}$ = −36.94 ms, SD = 6.96).
-Less clear is the effect of C2 place of articulation (velar vs. labial stop): The mean of the posterior is 2.46 ms (SD = 5.68), and the 95% CI is [−9.15, 13.28].
+Hypothesis H2c states that the effect of C2 place of articulation when the consonant is labial is positive (i.e. the interval is longer when C2 is labial).
+The robustness of the effect of C2 place of articulation (velar vs. labial stop) is less compared to the other effects: The mean of the posterior is 2.46 ms (SD = 5.68), and the 95% CI is [−9.15, 13.28].
 
 The credible intervals of the effects in the models reported above have widths which are greater than the chosen ROPE width of 20 ms.
 The wide credible intervals indicate that the estimated posterior distributions of the effects have a somewhat high degree of uncertainty with them.
@@ -434,11 +442,15 @@ rr_3 <- brm(
 
 Including all the relevant terms in the model (C2 voicing and place, vowel, number of syllables in interaction with C2 voicing) reduces the width of the credible intervals substantially.
 \Cref{fig:rr-3-intervals} shows the posterior distributions of the model terms with a variety of credible intervals.
-The posterior distribution of the C2 voicing effect on release-to-release duration is tighter than that of model 1 (95% CI = [−10.45, 5.65]) while the mean (−2.43 ms, SD = 4.06) is virtually unchanged (−4.43 ms, only a 2 ms difference).
+Hypothesis H1a states that the effect of C2 voicing (= voiced) on the release-to-release duration of disyllabic words should be null (i.e., the posterior should be contained within the ROPE).
+The posterior distribution of the C2 voicing effect on release-to-release duration in this aggregated model (95% CI = [−10.45, 5.65]) is tighter than that of model 1 (95% CI = [-23.86, 15.45]) while the mean (−2.43 ms, SD = 4.06) is virtually unchanged (−4.43 ms, only a 2 ms difference).
+According to hypothesis H2a, the effect of number of syllables (= monosyllabic) on the release-to-release should be positive.
 The estimated effect of syllable number is robustly positive (95% CI = [9.17, 22.48]), with a mean (16.03 ms, SD = 3.32) similar to that in model 1.
+Based on hypothesis H1b, the interaction between C2 voicing (= voiced) and number of syllables (= monosyllabic) should be positive.
 The posterior distribution of the interaction between number of syllables and C2 voicing (95% CI = [2.65, 20.98]) suggests a positive and medium-sized interaction effect ($\bar{\theta}$ = 11.67 ms, SD = 4.71).
-This result indicates that the duration of the release-to-release is greater in monosyllabic words with voiced C2 than in monosyllabic words with voiceless C2.
+This result indicates that the duration of the release-to-release is greater in monosyllabic words with voiced C2 than in monosyllabic words with voiceless C2, compatibly with H1b.
 The effects of vowel and place of articulation have similar means as in model 2, but the credible intervals are smaller.
+According to hypotheses H2b-c, the effects of vowel = /ɜː/ and vowel = /iː/ should be negative, the later effect should be more negative than the former, and the effect of C2 place of articulation when the consonant is labial should be positive.
 The release-to-release is on average 10.05 ms (SD = 2.95, 95% CI = [−15.92, −4.24]) shorter if the vowel is /ɜː/ and 39.3 ms (SD = 2.99, 95% CI = [−45.03, −32.76]) shorter if the vowel is /iː/.
 C2 place of articulation (labial) has a negligible positive mean effect (2.6 ms, SD = 2.39, 95% CI = [−2.29, 7.28]).
 
@@ -536,7 +548,7 @@ kable_styling(font_size = 10)
 ```
 
 \Cref{tab:vow-4-table} reports the summary of model 4, while \Cref{fig:vow-4-intervals} shows the posterior distributions and credible intervals.
-The precision target was reached in the non-interacting predictors (permitting a few milliseconds above 20), with the exeption of the intercept.
+The precision target was reached in the non-interacting predictors (permitting a few milliseconds above 20), with the exception of the intercept.
 All the interactions terms have CI widths above 25 ms.
 The 95% CI of the posterior distribution of the duration of /ɑː/ is included in the range 112.94--136.77 ms ($\bar{\theta}$ = 124.91 ms, SD = 5.96).
 The vowel /ɜː/ is 9.03 ms shorter (SD = 5.16) with CI = [−19.08, 1.63], while /iː/ is 36.77 ms shorter (SD = 5, 95% CI = [−46.42, −26.67]).
@@ -546,6 +558,7 @@ The posterior of the interaction of voicing with vowel when the vowel is /ɜː/ 
 This indicates that /ɑː/ and /ɜː/ are similar in their behaviour of voicing-driven durational differences.
 On the other hand, the effect of voicing is on average 6.73 ms greater (SD = 6.59, 95% CI = [−6.54, 19.26]) when the vowel is /iː/.
 
+According to hypothesis H3, the interaction effect between C2 voicing (= voiced) and number of syllables (= monosyllabic) should be positive (i.e. the effect should be greater in monosyllabic than in disyllabic words).
 The magnitude of the voicing effect in disyllabic vs. monosyllabic words is modulated by the identity of the vowel.
 The posterior distribution for the interaction C2 voicing/number of syllables when the vowel is /ɑː/ has mean 4.03 ms (SD = 6.7) and 95% CI [−8.98, 17.69].
 This distribution indicates the possibility for a very small increase of the effect from disyllabic to monosyllabic words with /ɑː/.
@@ -636,6 +649,7 @@ kable_styling(font_size = 10)
 The summary of model 5 is shown in \Cref{tab:clos-5-table}.
 See \Cref{fig:clos-5-intervals} for the posteriors and credible intervals of the effects.
 The 96% CI width of all the terms, with the exception of the three-way interaction (voicing/place/number of syllables), is below 20 ms (the precision goal has been reached).
+As explained in \Cref{s:hypo}, no specific hypothesis addressing closure duration was formulated.
 The posterior distribution of the intercept for closure duration (corresponding to the duration of voiceless velar stops in disyllabic words) has mean 74.75 ms (SD = 2.86) and 95% CI = [69.07, 80.59].
 The effect of C2 voicing on closure duration is certainly negative, between −26.77 and −14.74 ms (95% CI).
 The posterior mean of this effect is −20.79 ms (SD = 3.06).
