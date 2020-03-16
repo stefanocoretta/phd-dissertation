@@ -218,8 +218,22 @@ The audio signal was sampled at 22050 Hz (16-bit).
 
 ### Materials
 
+\ctable[caption = The list of Italian and Polish target words. An asterisk indicates a real word.,
+label = t:targets,
+star,
+doinside = \footnotesize
+]{lllllll}{}{
+\FL
+Italian   &        &      & \hspace{0.5cm} & Polish &      &      \NN
+\cmidrule{1-3}\cmidrule{5-7}
+pata      & poto*  & putu & & pata   & poto & putu \NN
+pada      & podo   & pudu & & pada*  & podo & pudu \NN
+paca*     & poco*  & pucu & & paka*  & poko & puku \NN
+paga*     & pogo   & pugu & & paga   & pogo & pugu \LL
+}
+
 Disyllabic words of the form C\textsubscript{1}V\textsubscript{1}C\textsubscript{2}V\textsubscript{2} were used as targets, where C\textsubscript{1} = /p/, V\textsubscript{1} = /a, o, u/, C\textsubscript{2} = /t, d, k, g/, and V\textsubscript{2} = V\textsubscript{1} (e.g. *pata*, *pada*, *poto*, etc.), giving a total of 12 target words, used both for Italian and Polish.\footnote{Note that stressed vowels in open syllables in Italian are long \citep{renwick2016}. Moreover, /o/ is used here for typographical simplicity to indicate the mid-back vowels of Italian and Polish, although they do differ in quality. See \citet{kramer2009}, \citet{renwick2016}, and \citet{gussmann2007}.}
-The resulting words are nonce words, with a few exceptions, and they were presented in the languages' respective writing conventions (see \Cref{a:targets}).
+The resulting words are nonce words, with a few exceptions, and they were presented in the languages' respective writing conventions (see \Cref{t:targets}).
 A labial stop was chosen as the first consonant to reduce possible coarticulation with the following vowel.\footnote{However, note that \citet{westbury1983} and \citet{vazquez-alvarez2007} report tongue body lowering in the context of labial stops.}
 Central/back vowels only were included in the target words for two reasons.
 First, high and mid front vowels tend to be difficult to image with ultrasound, given their greater distance from the ultrasonic probe when compared with back vowels.
@@ -331,6 +345,11 @@ A linear mixed-effects model with tongue root position as the outcome variable w
 The effects of C2 voicing and vowel are significant according to *t*-tests with Satterthwaite's approximation to degrees of freedom.
 The tongue root at C2 closure onset is 0.77 mm (SE = 0.35) more front when C2 is voiced, and it is 1.87 mm (SE = 0.42) more retracted if V1 is /o/.
 
+```{r tra-lm-table}
+kable(tidy(tra_lm, effect = "fixed", conf.int = TRUE) %>% select(-effect) %>% mutate(term = c("Intercept", "Voicing = voiced", "Speech rate (centr.)", "Vowel = /o/", "Vowel = /u/")) %>% rename(Predictor = term, Estimate = estimate, SE = std.error, `t-value` = statistic, `p-value` = p.value, `CI low` = conf.low, `CI up` = conf.high) %>% select(Predictor, Estimate, SE, `CI low`, `CI up`, df, `t-value`, `p-value`) %>% mutate(`< α` = ifelse(`p-value` < 0.05, "*", "")), format = "latex", booktabs = TRUE, linesep = "", digits = 4, caption = "Summary of the linear mixed-effects model fitted to tongue root position at vowel offset (see \\Cref{s:tra-lm})") %>%
+kable_styling(font_size = 10)
+```
+
 ### Tongue root position during V1
 \label{s:trp-v1}
 
@@ -387,6 +406,23 @@ This forward movement is observed both in the context of a following voiced stop
 However, the magnitude of the movement is greater in the former.
 At V1 offset (= C2 closure onset), the graph suggests a difference in tongue root position of about 1 mm.
 
+```{r tra-gam-ar-table}
+kable(
+  tidy(tra_gam_ar, parametric = TRUE) %>%
+  bind_rows(tidy(tra_gam_ar)) %>%
+    mutate(term = c("Intercept", "Voicing = voiced", "s(Speech rate (centr.))", "s(Proportion)", "s(Proportion): voiced", "ti(Proportion, Speech Rate (c.))", "s(Proportion, Speaker)")) %>%
+    rename(Predictor = term, Estimate = estimate, SE = std.error, `p-value` = p.value, EDF = edf, Ref.DF = ref.df, Statistic = statistic) %>%
+    select(Predictor, Estimate, SE, EDF, Ref.DF, Statistic, `p-value`) %>%
+    mutate(`< α` = ifelse(`p-value` < 0.05, "*", "")),
+  format = "latex",
+  booktabs = TRUE,
+  linesep = "",
+  digits = 4,
+  caption = "Summary of the GAM model fitted to tongue root position during V1 (see \\Cref{s:trp-v1})"
+) %>%
+kable_styling(font_size = 10)
+```
+
 ```{r Figure3, include=TRUE, fig.cap="Predicted tongue root position (top figure) during vowels preceding voiceless and voiced stops, with 95\\% confidence intervals, and difference smooth (bottom figure). Higher values of tongue root position indicate a more advanced root. The shaded red area in the difference smooth indicates where the two curves are different. Predictions from a GAMM (see \\Cref{s:trp-v1}).", out.extra="width=\\linewidth", cache=TRUE}
 smooths <- predict_gam(tra_gam_ar, exclude_terms = list("s(proportion,speaker)", "s(speech_rate_c)", "ti(proportion,speech_rate_c)")) %>%
   filter(speaker == "it01") %>% # random effect have been cancelled, so selecting one speaker
@@ -440,6 +476,11 @@ All predictors and the V1 duration/vowel interaction are significant.
 V1 duration and tongue root position are positively correlated: The longer the vowel, the more advanced the tongue root is at V1 offset ($\hat{\beta}$ = 0.065 mm, SE = 0.007).
 The effect is stronger with /a/ than with /o/ and /u/ (see \Cref{fig:Figure4}).
 
+```{r tra-lm-2-table}
+kable(tidy(tra_lm_2, effect = "fixed", conf.int = TRUE) %>% select(-effect) %>% mutate(term = c("Intercept", "V1 duration (centr.)", "Speech rate (centr.)", "Vowel = /o/", "Vowel = /u/", "V1 duration × /o/", "V1 duration × /u/")) %>% rename(Predictor = term, Estimate = estimate, SE = std.error, `t-value` = statistic, `p-value` = p.value, `CI low` = conf.low, `CI up` = conf.high) %>% select(Predictor, Estimate, SE, `CI low`, `CI up`, df, `t-value`, `p-value`) %>% mutate(`< α` = ifelse(`p-value` < 0.05, "*", "")), format = "latex", booktabs = TRUE, linesep = "", digits = 4, caption = "Summary of the linear mixed-effects model for testing the correlation between tongue root position and V1 duration  (see \\Cref{s:trp-vdur})") %>%
+kable_styling(font_size = 10)
+```
+
 ### Tongue root position during V1 as a function of V1 duration
 \label{s:trp-v1-dur}
 
@@ -485,6 +526,23 @@ The full model with the tensor product interaction over V1 proportion and V1 dur
 \Cref{fig:Figure5} shows the estimated root trajectories at four values of vowel duration.
 The general trend is that the forward movement of the root during the vowel is greater the longer the duration of the vowel (\Cref{fig:Figure5}).
 Moreover, the trajectory curvature increases with vowel duration: Shorter vowels have a flatter trajectory of tongue root advancement.
+
+```{r tra-gam-ar-2-table}
+kable(
+  tidy(tra_gam_ar_2, parametric = TRUE) %>%
+  bind_rows(tidy(tra_gam_ar_2)) %>%
+    mutate(term = c("Intercept", "s(V1 duration)", "s(Proportion)", "ti(Proportion, V1 duration)", "s(Proportion, Speaker)")) %>%
+    rename(Predictor = term, Estimate = estimate, SE = std.error, `p-value` = p.value, EDF = edf, Ref.DF = ref.df, Statistic = statistic) %>%
+    select(Predictor, Estimate, SE, EDF, Ref.DF, Statistic, `p-value`) %>%
+    mutate(`< α` = ifelse(`p-value` < 0.05, "*", "")),
+  format = "latex",
+  booktabs = TRUE,
+  linesep = "",
+  digits = 4,
+  caption = "Summary of the GAM model fitted to tongue root position during V1 as a function of V1 duration (see \\Cref{s:trp-v1-dur})"
+) %>%
+kable_styling(font_size = 10)
+```
 
 ```{r Figure5, include=TRUE, fig.cap="Predicted tongue root position during vowels at 4 exemplifying values of vowel duration, with 95\\% confidence intervals. Predictions from a GAMM (see \\Cref{s:trp-v1-dur}).", out.extra="width=\\linewidth", cache=TRUE}
 predict_gam(tra_gam_ar_2, exclude_terms = "s(proportion,speaker)", values = list(v1_duration = c(50, 100, 145, 200))) %>%
@@ -716,71 +774,3 @@ The later closure onset of voiced stops within the release-to-release interval (
 Both of these aspects comply with the Aerodynamic Voicing Constraint \citep{ohala2011} by delaying trans-glottal pressure equalisation (which would prevent vocal fold vibration).
 Future studies will need to test whether these findings replicate in Italian and Polish, and if they extend to other languages and contexts.
 In particular, further work on the relative differences in timing and velocity of the closing gesture and the root advancement gesture will be necessary to obtain a more in-depth understanding of the relation between consonant voicing, tongue root position, and vowel duration.
-
-## Target words
-
-\label{a:targets}
-
-See \Cref{t:targets}.
-
-\ctable[caption = The list of Italian and Polish target words. An asterisk indicates a real word.,
-label = t:targets,
-star,
-doinside = \footnotesize
-]{lllllll}{}{
-\FL
-Italian   &        &      & \hspace{0.5cm} & Polish &      &      \NN
-\cmidrule{1-3}\cmidrule{5-7}
-pata      & poto*  & putu & & pata   & poto & putu \NN
-pada      & podo   & pudu & & pada*  & podo & pudu \NN
-paca*     & poco*  & pucu & & paka*  & poko & puku \NN
-paga*     & pogo   & pugu & & paga   & pogo & pugu \LL
-}
-
-## Output of statistical models
-
-See \Cref{tab:tra-lm-table}, \Cref{tab:tra-gam-ar-table}, \Cref{tab:tra-lm-2-table}, \Cref{tab:tra-gam-ar-2-table}.
-
-```{r tra-lm-table}
-kable(tidy(tra_lm, effect = "fixed", conf.int = TRUE) %>% select(-effect) %>% mutate(term = c("Intercept", "Voicing = voiced", "Speech rate (centr.)", "Vowel = /o/", "Vowel = /u/")) %>% rename(Predictor = term, Estimate = estimate, SE = std.error, `t-value` = statistic, `p-value` = p.value, `CI low` = conf.low, `CI up` = conf.high) %>% select(Predictor, Estimate, SE, `CI low`, `CI up`, df, `t-value`, `p-value`) %>% mutate(`< α` = ifelse(`p-value` < 0.05, "*", "")), format = "latex", booktabs = TRUE, linesep = "", digits = 4, caption = "Summary of the linear mixed-effects model fitted to tongue root position at vowel offset (see \\Cref{s:tra-lm})") %>%
-kable_styling(font_size = 10)
-```
-
-```{r tra-gam-ar-table}
-kable(
-  tidy(tra_gam_ar, parametric = TRUE) %>%
-  bind_rows(tidy(tra_gam_ar)) %>%
-    mutate(term = c("Intercept", "Voicing = voiced", "s(Speech rate (centr.))", "s(Proportion)", "s(Proportion): voiced", "ti(Proportion, Speech Rate (c.))", "s(Proportion, Speaker)")) %>%
-    rename(Predictor = term, Estimate = estimate, SE = std.error, `p-value` = p.value, EDF = edf, Ref.DF = ref.df, Statistic = statistic) %>%
-    select(Predictor, Estimate, SE, EDF, Ref.DF, Statistic, `p-value`) %>%
-    mutate(`< α` = ifelse(`p-value` < 0.05, "*", "")),
-  format = "latex",
-  booktabs = TRUE,
-  linesep = "",
-  digits = 4,
-  caption = "Summary of the GAM model fitted to tongue root position during V1 (see \\Cref{s:trp-v1})"
-) %>%
-kable_styling(font_size = 10)
-```
-
-```{r tra-lm-2-table}
-kable(tidy(tra_lm_2, effect = "fixed", conf.int = TRUE) %>% select(-effect) %>% mutate(term = c("Intercept", "V1 duration (centr.)", "Speech rate (centr.)", "Vowel = /o/", "Vowel = /u/", "V1 duration × /o/", "V1 duration × /u/")) %>% rename(Predictor = term, Estimate = estimate, SE = std.error, `t-value` = statistic, `p-value` = p.value, `CI low` = conf.low, `CI up` = conf.high) %>% select(Predictor, Estimate, SE, `CI low`, `CI up`, df, `t-value`, `p-value`) %>% mutate(`< α` = ifelse(`p-value` < 0.05, "*", "")), format = "latex", booktabs = TRUE, linesep = "", digits = 4, caption = "Summary of the linear mixed-effects model for testing the correlation between tongue root position and V1 duration  (see \\Cref{s:trp-vdur})") %>%
-kable_styling(font_size = 10)
-```
-
-```{r tra-gam-ar-2-table}
-kable(
-  tidy(tra_gam_ar_2, parametric = TRUE) %>%
-  bind_rows(tidy(tra_gam_ar_2)) %>%
-    mutate(term = c("Intercept", "s(V1 duration)", "s(Proportion)", "ti(Proportion, V1 duration)", "s(Proportion, Speaker)")) %>%
-    rename(Predictor = term, Estimate = estimate, SE = std.error, `p-value` = p.value, EDF = edf, Ref.DF = ref.df, Statistic = statistic) %>%
-    select(Predictor, Estimate, SE, EDF, Ref.DF, Statistic, `p-value`) %>%
-    mutate(`< α` = ifelse(`p-value` < 0.05, "*", "")),
-  format = "latex",
-  booktabs = TRUE,
-  linesep = "",
-  digits = 4,
-  caption = "Summary of the GAM model fitted to tongue root position during V1 as a function of V1 duration (see \\Cref{s:trp-v1-dur})"
-) %>%
-kable_styling(font_size = 10)
-```
