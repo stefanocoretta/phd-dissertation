@@ -143,6 +143,7 @@ A similar position is taken by \citet{laeufer1992}, who directly compared French
 When the duration of a vowel is similar across languages, consonant voicing also has an effect which is comparable in degree.
 
 ## Voicing as a comparative concept
+\label{s:voi-comp}
 
 All of the literature reviewed here does not explicitly tell what voicing refers to precisely, and the languages listed in them posses quite different phonation systems.
 For example languages that belong to the two major categories of aspirating and voicing languages [...] are treated together in the literature.
@@ -215,6 +216,7 @@ On the other hand, the duration of vowels in \citet{peterson1960} are 273 ms whe
 In sum, nasals seem to behave more like voiced stops than voiceless stops, but it is less clear whether vowels preceding them are longer or shorter than those followed by voiced stops.
 
 ## On the phonologisation of the voicing effect (phonetics or phonology?)
+\label{s:ve-phonologise}
 
 Finally, the voicing effect can take on a linguistic function resulting in the phonologisation of the durational differences, as argued for English \citep{de-jong1991, de-jong2004, sole2007, sanker2019}.
 Some clarification is due here as to what is meant by phonologisation.
@@ -383,54 +385,17 @@ The following chapter presents a more detailed discussion of the rational behind
 # Rationale of the current research
 \label{s:rationale}
 
-<!-- TODO: move here research questions -->
-
-A convenient way to investigate mechanic properties underlying the effect of voicing on vowel durations is to consider languages in which the effect has not been claimed to be phonologised.
-Moreover, comparing two languages that differ in the presence or degree of vowel durational differences can uncover variation motivating cross-linguistic differences.
-Italian and Polish are two good candidates in that they satisfy both of these requirements.
-Moreover, their phonological systems allow for a somewhat direct comparison.
-For these reasons, an exploratory study of Italian and Polish was carried out to examine the influence of voiceless and voiced stops on vowel duration.
-Note that, when talking about voiceless vs. voiced stops, I refer to the phonemic (lexical) contrast defined at an abstract level, rather than to the actual phonetic implementation of such contrast.
-This approach is generally helpful in light of the distinction between aspirating vs. true-voicing languages \citep{beckman2013}, and in the case of English in particular \citep{docherty1992}, which is the subject of the second study.
-
-## Research questions
-\label{s:resq}
-
-<!-- TODO: make questions into text and link to lit review and individual studies -->
-
-This research project has two broad aims.
-First, I sought to obtain acoustic and articulatory data using modern methods which would shed light on the production accounts put forward in the past century.
-The second objective was to enlighten the debate on reported cross-linguistic differences by conducting an analysis which encompasses three related but contrasting languages.
+<!-- TODO: move here research questions? or just give a brief paragraph with summary of this chapter -->
+<!-- Better to put the three questions as questions here! -->
+This research project had three broad aims (questions).
+First, I sought to obtain acoustic and articulatory data using modern methods which would shed light on the production accounts of the voicing effect put forward in the past century.
+The second main objective was to enlighten the debate on reported cross-linguistic differences by conducting an analysis which encompasses three related but contrasting languages.
 The papers in Part II offer evidence in relation to these goals.
-
-The specific questions touched upon in this dissertation encompass topics at the intersection between phonetics and phonology \citep{ohala1990, ohala1997, ohala2005, port2005, cohn2010}, and cover both concrete, observable phenomena, and abstract, formalised aspects of speech processing.
-Among the questions posed by this work there are the following:
-
-* Can the voicing effect be ascribed to mechanisms of temporal compensation and/or articulatory adjustments that result in the observed patters of both vowel and consonant duration?
-* Which articulatory properties of voicing directly affect vowel and consonant durations, and in particular what mechanisms influence the timing of the consonantal closure?
-* Do voiceless and voiced consonants target different articulatory realisations, or are there some oral and/or laryngeal configurations or processes that are shared between them?
-* Do these aspects of production follow universal patterns and constraints, or can different languages modulate their implementation in specific ways?
-* Can the mechanisms behind the voicing effect inform us on more general aspects of gestural phasing and articulatory timing within and beyond the traditional syllable?
-* Can the study of articulation provide us with insights into the enhancing role of perception?
-* What can we learn about other durational effects from the study of the voicing effect?
-* Can the magnitudes of the voicing effect reported in previous studies be replicated with new data, and what research aspects could be responsible for differences?
-* What level of confidence can we attribute to previous and current results, considering the weight of the evidence provided by the data?
-
-<!-- TODO: explain why methods are good for answering these questions and why languages where chosen -->
-The long-standing debate on the source of the voicing effect (what properties or biases in speech production and perception allow this effect to emerge in a language in the first place), evidenced by the different proposals discussed in [...], whether articulatory or perceptual, is evidence for the difficulty in pointing to a single cause of the differential duration of vowels followed by voiceless vs voiced stops.
-Moreover, the existence of durational phenomena related to other phonation types than voicing, like aspiration and ejection ([...]), call for an approach to the understanding of the voicing effect that is independent from voicing per se, while still limiting the investigation on the voicing contrast.
-Such an approach allows us to formulate an account that can be generalised and applied to other durational phenomena (related to phonation or not).
-
-<!-- TODO: in discussion, mention again perceptual factors as factors that enhance the VE and link back to the English paper -->
-<!-- TODO: include references for prod vs percept, and for oral vs laryngeal accounts -->
-In light of the complexity of the durational effects reviewed in [...], I decided to limit the scope of the investigation to aspects of production, while keeping an open mind about perceptual factors, as discussed in [... discussion].
-This choice was based in part on the paucity of recent articulatory data on the voicing effect in relation to for example acoustic and perceptual data, and in part on the greater number of production accounts of the voicing effect relative to perception accounts.
-<!-- TODO: probably need references for the claim that there is not much modern articulatory data and that the are more prod than percept accounts? -->
-Furthermore, the production accounts reviewed in [...] deal either with oral (tongue) gestures or laryngeal gestures.
-In order to potentially identify properties of these two types of gestures it followed as a natural choice to use ultrasound tongue imaging and electroglottography in combination with acoustics as three sources of data.
-Given that the voicing effect (and related durational phenomena) has been prevalently if not exclusively defined and dealt with in terms of acoustic segmental durations, the same approach is used here and analysis of acoustic durations will be at the core of the analyses presented in the Part [...].
+<!-- TODO: say here what this chapter is about -->
+<!-- say quesrtions are discussed in more detail in next section-->
 
 <!-- TODO: why part exploratory part confirmatory -->
+<!-- TODO: put here the three questions as questions? -->
 Another fundamental aspect of this research project is that its development is composed of two stages: an exploratory (hypothesis-generating) stage, and a confirmatory (hypothesis-testing) stage (on the exploratory/confirmatory dichotomy, see \citet{tukey1980} and \Cref{s:stand}).
 These stages correspond to Study I and Study II respectively, an overview of which is given in \Cref{s:studyi} and \Cref{s:studyii}.
 Research questions at the exploratory stage (Study I) were formulated while being agnostic in regards to specific hypotheses.
@@ -441,13 +406,72 @@ More specific questions emerged while performing exploratory data analyses.
 for example...
 confirmatory Study II
 
-<!-- TODO: some questions span across the two stages, exploratory and confirmatory, like for example replication of previous results and comparison across languages -->
+<!-- TODO: some questions span across the two stages, exploratory and confirmatory, like for example comparison across languages and replication of previous results -->
 
-<!-- TODO: Why these languages? -->
+The following sections will talk about...
 
-<!-- need to say that what I am interested in is how the voicing effect emerges in the first place, and not how individual languages exploit or not the effect -->
+## Research questions
+\label{s:resq}
 
-## Italian, Polish, and English phonological systems
+<!-- The specific questions touched upon in this dissertation encompass topics at the intersection between phonetics and phonology \citep{ohala1990, ohala1997, ohala2005, port2005, cohn2010}, and cover both concrete, observable phenomena, and abstract, formalised aspects of speech processing.
+Among the questions posed by this work there are the following:
+
+* Can the voicing effect be ascribed to mechanisms of temporal compensation and/or articulatory adjustments that result in the observed patters of both vowel and consonant duration?
+* Which articulatory properties of voicing directly affect vowel and consonant durations, and in particular what mechanisms influence the timing of the consonantal closure?
+* Do voiceless and voiced consonants target different articulatory realisations, or are there some oral and/or laryngeal configurations or processes that are shared between them?
+* Do these aspects of production follow universal patterns and constraints, or can different languages modulate their implementation in specific ways?
+* Can the mechanisms behind the voicing effect inform us on more general aspects of gestural phasing and articulatory timing within and beyond the traditional syllable?
+* Can the study of articulation provide us with insights into the enhancing role of perception?
+* What can we learn about other durational effects from the study of the voicing effect?
+* Can the magnitudes of the voicing effect reported in previous studies be replicated with new data, and what research aspects could be responsible for differences?
+* What level of confidence can we attribute to previous and current results, considering the weight of the evidence provided by the data? -->
+
+<!-- TODO: make questions into text and link to lit review and individual studies -->
+<!--
+1. What is the diachronic source of the voicing effect? Or what can synchronic acoustic and articualtory data (production data) tell us about the possible source and the various accounts of the VE? We can do that by compraing two languages that behave differently... Italian and Polish study + English study
+2. Cross-ling comparison.
+3. Replicating previous results and confidence of previous and current results.
+ -->
+
+<!-- TODO: explain why methods are good for answering these questions and why languages where chosen -->
+The first research question concerns the source of the voicing effect, or, in other words, the diachronic pathway that led or can lead to the emergence of the voicing effect in any particular language.
+More specifically, the questions asks how languages can develop the voicing effect and which speech aspects play a role in such development.
+The long-standing debate about the source of the voicing effect in light of the different proposals discussed in \Cref{s:accounts}, whether articulatory or perceptual, is evidence for the difficulty of selecting a single property of speech that is behind the differential duration of vowels followed by voiceless vs voiced stops.
+Moreover, the existence of durational phenomena related to other phonation types than voicing, like aspiration and ejection ([...]), call for an approach to the understanding of the voicing effect that is independent from voicing per se, while still limiting the investigation on the voicing contrast.
+Such an approach allows us to formulate an account that future research can generalise and apply to other durational phenomena (related to phonation or not).
+Furthermore, note that the focus of the current research is on how the voicing effect emerges in the first place, and not how individual languages exploit or not the effect to enhance cues of phonological contrast.
+
+A window into possible diachronic developments is offered by the investigation of cross-linguistic synchronic data, an approach taken here.
+This approach is justified by the idea that diacronic change draws upon synchronic variation and that synchronic variation is the outcome of diachronic change \citep{blevins2004, blevins2006, cristofaro2012, cristofaro2014, bermudez-otero2015}.
+Such view of synchrony/diachrony entanglement enables the use of synchronic information to infer possible diachronic changes that might have led to the current synchronic state.
+
+<!-- TODO: in discussion, mention again perceptual factors as factors that enhance the VE and link back to the English paper -->
+<!-- TODO: include references for prod vs percept, and for oral vs laryngeal accounts -->
+In light of the complexity of the durational effects reviewed in [...], I further decided to limit the scope of the investigation to aspects of production, while keeping an open mind about perceptual factors, as discussed in [... discussion].
+This choice was based in part on the relative paucity of recent articulatory data of the voicing effect in relation to, for example, acoustics and perception, and in part on the greater number of production accounts of the voicing effect relative to that of perception accounts.
+<!-- TODO: probably need references for the claim that there is not much modern articulatory data and that the are more prod than percept accounts? -->
+Furthermore, the production accounts reviewed in \Cref{s:accounts} deal either with oral (tongue) gestures or laryngeal gestures.
+In order to potentially identify properties of these two types of gestures it seemed a natural choice to use ultrasound tongue imaging and electroglottography in combination with acoustics as the three sources of data.
+Given that the voicing effect (and related durational phenomena) has been prevalently if not exclusively defined and dealt with in terms of acoustic segmental durations, the same approach is used here, and analysis of acoustic durations will be at the core of the analyses presented in the Part [...].
+
+A convenient way to investigate mechanic properties underlying the effect of voicing on vowel durations is to consider languages in which the effect has not been claimed to be phonologised, discussed in \Cref{s:ve-phonologise}.
+Moreover, comparing two languages that differ in the presence or degree of vowel durational differences can uncover variation motivating cross-linguistic differences.
+Italian and Polish are two good candidates in that they satisfy both of these requirements.
+Moreover, their phonological systems allow for a somewhat direct comparison.
+For these reasons, an exploratory study of Italian and Polish was carried out to examine the influence of voiceless and voiced stops on vowel duration.
+Note that, with the terms "voiceless" and "voiced", I refer to the phonemic (lexical) contrast defined at an abstract level, rather than to the actual phonetic implementation of such contrast, as detailed in \Cref{s:voi-comp}.
+This approach is generally helpful in light of the distinction between aspirating vs. true-voicing languages \citep{beckman2013}, and in the case of English in particular \citep{docherty1992}, which is the subject of the second study.
+
+<!-- TODO: Why English? -->
+<!-- Question 1bis. -->
+
+
+<!-- Question number 2 and 3 -->
+
+
+<!-- TODO: say that next section describes the languages sample -->
+
+## Languages sample
 
 This section gives an overview of the phonological systems of Italian, Polish, and English, which will set the stage for the preview of the results in the following section and the discussion of these in the second part of the dissertation.
 <!-- TODO: say that you are using names as languoids -->
@@ -613,9 +637,10 @@ Generally speaking, while the voicing contrast in word-medial position especiall
 \end{vowel}
 -->
 
-## Summary of results
+## Preview of results
 \label{s:sumresults}
 <!-- TODO: maybe call it preview? -->
+<!-- TODO: maybe mention questions again here -->
 
 The results of the investigation of acoustic segment durations, tongue root position, and glottal adjustments suggest a composite production account of the voicing effect which synthesises previous independent and seemingly contrasting proposals.
 Papers I deals with compensatory aspects of the voicing effect in Italian and Polish acoustic data, and provides evidence for the durational stability of a speech interval across voicing contexts.
