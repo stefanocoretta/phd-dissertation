@@ -186,12 +186,12 @@ The holistic account expounded in [...] rests on this working assumption, and sh
 <!-- TODO: passive vs active voicing and devoicing -->
 
 ## The voicing effect and other phonological and phonetic factors
-<!-- TODO: maybe remove this heading -->
+\label{s:ve-phonphon-fact}
 
 In addition to language, the voicing effect is also modulated by other phonological and phonetic factors.
 For example, \citet{umeda1975} reports that the difference in vowel duration before voiceless vs. voiced consonants is greater when the test word is pre-pausal.
 The effect of voicing also seems to be more robust in stressed than in unstressed vowels \citep{davis1989}.
-There is also indication that the effect is modulated by the syllabic affiliation of the post-vocalic consonant in English, so that vowels followed by a coda show a greater effect than vowels followed by an onset (\citealt{sharf1962, klatt1973, davis1989}, but \citealt{abdelli-beruh2004} doesn't find a significant difference across these contexts in French).
+There is also indication that the effect is modulated by the position of the syllable in the word in English, so that word-final syllables show a greater effect than word-medial syllables (\citealt{sharf1962, klatt1973, davis1989}, although \citealt{abdelli-beruh2004} doesn't find a significant difference across these contexts in French).
 \citet{port1981} further argues that the effect in the word-initial stressed vowels is smaller along the hierarchy monosyllabic > disyllabic > trisyllabic words, which also reflects that of decreasing vowel durations.
 \citet{laeufer1992} discusses the voicing effect as a function of vowel height, and shows that the effect is greater in low (intrinsically longer) vowels than in high (intrinsically shorter) vowels.
 Moreover, \citet{sharf1964} shows that the effect persists even in whispered (unvoiced) speech.
@@ -466,10 +466,19 @@ This approach is generally helpful in light of the distinction between aspiratin
 
 <!-- TODO: Why English? -->
 <!-- Question 1bis. -->
+As a follow up of Study I, Study II set out to investigate in English the patterns observed in Study I in Italian and Polish.
+English was chosen as a further test language given the abundance of previous work dealing with different aspects of the English voicing effect.
+Moreover, virtually all the accounts reviewed in \Cref{s:accounts} were originally posited based on English data.
+A second reason behind this choice is that English allows us to look into differences between word-medial and word-final contexts.\footnote{Note that Polish would not be a good candidate because of word-final neutralisation of voicing \citep{gussmann2007}.}
+This is warranted based on the reported difference in magnitude of the voicing effect in word-medial and word-final position, as mentioned in \Cref{s:ve-phonphon-fact}.
+Finally, ...
+The methods of Study II are discussed in \Cref{s:studyii}, while \Cref{p:en-relrel} presents the results.
 
+<!-- Question number 2 -->
+The second question this dissertation set out to answer is concerned with a cross-linguistic comparison of the voicing effect.
+The chapters of Part II set the ground for a synthesis of their results, discussed in \Cref{s:pluralist} and \Cref{s:gestural-phasing}, which in turn form the basis for a comparison of Italian, Polish, and English in \Cref{s:cross-ling-diff}.
 
-<!-- Question number 2 and 3 -->
-
+<!-- Question number 3 -->
 
 <!-- TODO: say that next section describes the languages sample -->
 
@@ -615,7 +624,7 @@ mid  & ɛ     & ə ɜː    & ɔː   \NN
 low  & æ     & ʌ       & ɒ ɑː \LL
 }
 
-<!-- maybe include Norther British English vowels? -->
+<!-- TODO: Include Norther British English vowels! -->
 
 English consonant phonemes belong to one of seven places of articulation (labial, dental, alveolar, post-alveolar, palatal, velar, glottal) and seven manner of articulation (plosive, fricative, affricate, nasal, lateral, rhotic, approximant).
 The obstruents (plosives, fricatives, affricates) contrast for what has been traditionally described as voicing (...), which is also reflected in the standard use of IPA voiceless and voiced symbols.

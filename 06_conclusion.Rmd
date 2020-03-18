@@ -23,6 +23,7 @@ Finally, in Paper V it was speculated that the timing of the stop closure is mod
 This chapter provides an over-arching synthesis of the account proposed here in light of the observed patterns, and discusses the implications for theories of speech production.
 
 ## A pluralist view
+\label{s:pluralist}
 
 The results of Study I and II bring together aspects of gestural compensation and articulatory timing and allow us to formulate a more holistic account that incorporates components of different accounts.
 Two important aspects of the account proposed here are the temporal stability of vocalic and consonantal gestures, and the timing of the vowel-consonant boundary.
@@ -57,6 +58,7 @@ On the other hand, when we can find independent physical explanations behind pro
 Since in the case of voicing there are independent production reasons for the observed patterns to exist, we can assume that, while perceptual biases can hook on the vowel duration differences as a cue to voicing and enhance such contrast, these differences emerge due to a production mechanism in the first place.
 
 ## Gestural phasing
+\label{s:gestural-phasing}
 
 As argued in Paper II, the temporal stability of the release-to-release interval is compatible with hypotheses about the gestural organisation of vowel and consonants within the domains of the syllable and the word.
 According to the coupled oscillators model \citep{odell2008}, embedded in the task-dynamic model of Articulatory Phonology \citep{ohala1986a, browman1988, browman2000, goldstein2006, goldstein2014}, speech gestures can be implemented according to two coupling modes: in-phase or anti-phase mode.
@@ -114,6 +116,7 @@ This is what it is argued to happen in monosyllabic words, where the distance be
 \citet{de-jong1991} indeed finds that, in English monosyllabic words, not only the velocity of the coda closing gesture differs depending on voicing, but also that the timing of the coda gesture onset does (the gesture onset is timed later during the production of the vowel in the context of voiced stops relative to that of voiceless stops).
 
 ## On cross-linguistic differences
+\label{s:cross-ling-diff}
 
 As discussed in \Cref{s:ve}, the degree of the voicing effect is generally thought to vary depending on the language.
 Allegedly, English is the language possessing the biggest effect, while the effect is smaller in Italian and possibly absent in Polish.
