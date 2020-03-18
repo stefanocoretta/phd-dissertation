@@ -454,13 +454,15 @@ Furthermore, the production accounts reviewed in \Cref{s:accounts} deal either w
 In order to potentially identify properties of these two types of gestures it seemed a natural choice to use ultrasound tongue imaging and electroglottography in combination with acoustics as the three sources of data.
 Given that the voicing effect (and related durational phenomena) has been prevalently if not exclusively defined and dealt with in terms of acoustic segmental durations, the same approach is used here, and analysis of acoustic durations will be at the core of the analyses presented in the Part [...].
 
+<!-- TODO: mention papers? -->
 A convenient way to investigate mechanic properties underlying the effect of voicing on vowel durations is to consider languages in which the effect has not been claimed to be phonologised, discussed in \Cref{s:ve-phonologise}.
 Moreover, comparing two languages that differ in the presence or degree of vowel durational differences can uncover variation motivating cross-linguistic differences.
 Italian and Polish are two good candidates in that they satisfy both of these requirements.
 Moreover, their phonological systems allow for a somewhat direct comparison.
-For these reasons, an exploratory study of Italian and Polish was carried out to examine the influence of voiceless and voiced stops on vowel duration.
+For these reasons, an exploratory study of Italian and Polish (Study I) was carried out to examine the influence of voiceless and voiced stops on vowel duration.
+\Cref{s:studyi} contains a description of the methods employed in Study I, while \Cref{p:relrel}, \Cref{p:tra}, and \Cref{p:wavegram} report the results.
 Note that, with the terms "voiceless" and "voiced", I refer to the phonemic (lexical) contrast defined at an abstract level, rather than to the actual phonetic implementation of such contrast, as detailed in \Cref{s:voi-comp}.
-This approach is generally helpful in light of the distinction between aspirating vs. true-voicing languages \citep{beckman2013}, and in the case of English in particular \citep{docherty1992}, which is the subject of the second study.
+This approach is generally helpful in light of the distinction between aspirating vs. true-voicing languages \citep{beckman2013}, and in the case of English in particular \citep{docherty1992}, which is the subject of Study II.
 
 <!-- TODO: Why English? -->
 <!-- Question 1bis. -->
