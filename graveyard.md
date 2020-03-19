@@ -16,3 +16,16 @@ We could take the smallest value (10 ms) as representative of a region of practi
 This means that differences smaller than 5 ms would be interpreted as noise.
 On the other hand, \citet{begus2017} reports very small standard errors, even below 1 ms.
 In sum, our current knowledge of perceptible and measurable differences is limited, and future work should focus on investigating both in light of theoretical and practical considerations.
+
+<!-- The specific questions touched upon in this dissertation encompass topics at the intersection between phonetics and phonology \citep{ohala1990, ohala1997, ohala2005, port2005, cohn2010}, and cover both concrete, observable phenomena, and abstract, formalised aspects of speech processing.
+Among the questions posed by this work there are the following:
+
+* Can the voicing effect be ascribed to mechanisms of temporal compensation and/or articulatory adjustments that result in the observed patters of both vowel and consonant duration?
+* Which articulatory properties of voicing directly affect vowel and consonant durations, and in particular what mechanisms influence the timing of the consonantal closure?
+* Do voiceless and voiced consonants target different articulatory realisations, or are there some oral and/or laryngeal configurations or processes that are shared between them?
+* Do these aspects of production follow universal patterns and constraints, or can different languages modulate their implementation in specific ways?
+* Can the mechanisms behind the voicing effect inform us on more general aspects of gestural phasing and articulatory timing within and beyond the traditional syllable?
+* Can the study of articulation provide us with insights into the enhancing role of perception?
+* What can we learn about other durational effects from the study of the voicing effect?
+* Can the magnitudes of the voicing effect reported in previous studies be replicated with new data, and what research aspects could be responsible for differences?
+* What level of confidence can we attribute to previous and current results, considering the weight of the evidence provided by the data? -->

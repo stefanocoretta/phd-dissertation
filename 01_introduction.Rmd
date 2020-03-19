@@ -413,19 +413,6 @@ The following sections will talk about...
 ## Research questions
 \label{s:resq}
 
-<!-- The specific questions touched upon in this dissertation encompass topics at the intersection between phonetics and phonology \citep{ohala1990, ohala1997, ohala2005, port2005, cohn2010}, and cover both concrete, observable phenomena, and abstract, formalised aspects of speech processing.
-Among the questions posed by this work there are the following:
-
-* Can the voicing effect be ascribed to mechanisms of temporal compensation and/or articulatory adjustments that result in the observed patters of both vowel and consonant duration?
-* Which articulatory properties of voicing directly affect vowel and consonant durations, and in particular what mechanisms influence the timing of the consonantal closure?
-* Do voiceless and voiced consonants target different articulatory realisations, or are there some oral and/or laryngeal configurations or processes that are shared between them?
-* Do these aspects of production follow universal patterns and constraints, or can different languages modulate their implementation in specific ways?
-* Can the mechanisms behind the voicing effect inform us on more general aspects of gestural phasing and articulatory timing within and beyond the traditional syllable?
-* Can the study of articulation provide us with insights into the enhancing role of perception?
-* What can we learn about other durational effects from the study of the voicing effect?
-* Can the magnitudes of the voicing effect reported in previous studies be replicated with new data, and what research aspects could be responsible for differences?
-* What level of confidence can we attribute to previous and current results, considering the weight of the evidence provided by the data? -->
-
 <!-- TODO: make questions into text and link to lit review and individual studies -->
 <!--
 1. What is the diachronic source of the voicing effect? Or what can synchronic acoustic and articualtory data (production data) tell us about the possible source and the various accounts of the VE? We can do that by compraing two languages that behave differently... Italian and Polish study + English study
@@ -476,13 +463,15 @@ The methods of Study II are discussed in \Cref{s:studyii}, while \Cref{p:en-relr
 
 <!-- Question number 2 -->
 The second question this dissertation set out to answer is concerned with a cross-linguistic comparison of the voicing effect.
-The chapters of Part II set the ground for a synthesis of their results, discussed in \Cref{s:pluralist} and \Cref{s:gestural-phasing}, which in turn form the basis for a comparison of Italian, Polish, and English in \Cref{s:cross-ling-diff}.
+Building on the results discussed in the chapters of Part II, \Cref{s:pluralist} and \Cref{s:gestural-phasing} offer a synthesis of the main topics touched upon in Part II.
+In turn, \Cref{s:pluralist} and \Cref{s:gestural-phasing} form the basis of the cross-linguistic comparison of Italian, Polish, and English in \Cref{s:cross-ling-diff}.
 
 <!-- Question number 3 -->
+Lastly, the third research aim is related the attempt to replicating previous results in relation to the voicing effect in the languages surveyed here, and the assessment the degree of confidence of previous and current results in terms of strength of evidence, in light of the issues and concepts reviewed in \Cref{s:openscience}.
 
 <!-- TODO: say that next section describes the languages sample -->
 
-## Languages sample
+## Language sample
 
 This section gives an overview of the phonological systems of Italian, Polish, and English, which will set the stage for the preview of the results in the following section and the discussion of these in the second part of the dissertation.
 <!-- TODO: say that you are using names as languoids -->
