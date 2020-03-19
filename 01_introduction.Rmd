@@ -417,7 +417,7 @@ The following sections will talk about...
 <!--
 1. What is the diachronic source of the voicing effect? Or what can synchronic acoustic and articualtory data (production data) tell us about the possible source and the various accounts of the VE? We can do that by compraing two languages that behave differently... Italian and Polish study + English study
 2. Cross-ling comparison.
-3. Replicating previous results and confidence of previous and current results.
+3. Apply OS things.
  -->
 
 <!-- TODO: explain why methods are good for answering these questions and why languages where chosen -->
@@ -459,7 +459,7 @@ Moreover, virtually all the accounts reviewed in \Cref{s:accounts} were original
 A second reason behind this choice is that English allows us to look into differences between word-medial and word-final contexts.\footnote{Note that Polish would not be a good candidate because of word-final neutralisation of voicing \citep{gussmann2007}.}
 This is warranted based on the reported difference in magnitude of the voicing effect in word-medial and word-final position, as mentioned in \Cref{s:ve-phonphon-fact}.
 Finally, ...
-The methods of Study II are discussed in \Cref{s:studyii}, while \Cref{p:en-relrel} presents the results.
+An overview of the methods of Study II is given in \Cref{s:studyii}, while \Cref{p:en-relrel} presents and discusses the study and its results in details.
 
 <!-- Question number 2 -->
 The second question this dissertation set out to answer is concerned with a cross-linguistic comparison of the voicing effect.
@@ -467,7 +467,9 @@ Building on the results discussed in the chapters of Part II, \Cref{s:pluralist}
 In turn, \Cref{s:pluralist} and \Cref{s:gestural-phasing} form the basis of the cross-linguistic comparison of Italian, Polish, and English in \Cref{s:cross-ling-diff}.
 
 <!-- Question number 3 -->
-Lastly, the third research aim is related the attempt to replicating previous results in relation to the voicing effect in the languages surveyed here, and the assessment the degree of confidence of previous and current results in terms of strength of evidence, in light of the issues and concepts reviewed in \Cref{s:openscience}.
+Lastly, the third objective is related to research practices and the Open Science movement.
+In light of the concepts and issues reviewed in \Cref{s:openscience}, the research described in this dissertation has been carried out according to principles of openness of data, transparency of analysis, and reproducibility and replicability of results.
+\Cref{s:repro} in particular discusses how these principles were applied.
 
 <!-- TODO: say that next section describes the languages sample -->
 
