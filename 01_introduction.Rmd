@@ -473,11 +473,18 @@ In light of the concepts and issues reviewed in \Cref{s:openscience}, the resear
 \Cref{s:repro} in particular discusses how these principles were applied.
 
 <!-- TODO: say that next section describes the languages sample -->
+The following section gives a description of the main phonological features of Italian, Polish, and English, paving the way to the preview of the results in \Cref{s:sumresults} and the discussion of the methods in \Cref{s:methods}.
 
 ## Language sample
 
 This section gives an overview of the phonological systems of Italian, Polish, and English, which will set the stage for the preview of the results in the following section and the discussion of these in the second part of the dissertation.
-<!-- TODO: say that you are using names as languoids -->
+Note that when referring to languages, the languoid model is implicitly assumed \citep{cysouw2013}.
+A languoid is the pairing of a glossonym (a name that refers to a languoid or doculect) with a collection of doculects.
+In turn, a doculect is the pairing of a glossonym with a specific publication (in any form, for example a book with the grammatical description of the doculect, or an article focussing on a linguistic specific aspect).
+Languoids can be hierarchical, so that a languoid can be composed of other languoids, and so on.
+The doculects in this dissertation are referred to by the glossonyms *Italian*, *Polish*, and *English*.
+The Italian doculect belongs to the languoid Italian [glottocode: ital1282], the Polish doculect to the languoid Polish [glottocode: poli1260], and the English doculect (more specifically *Mancunian English*, but *English* for short in this dissertation) to Western Central English [glottocode: west2900].\footnote{Languoid classification is controversial, as much as traditional language classification, so that classification decisions are taken here without fully committing to them. The classification adopted here does not directly bear on the research results. Future work is warranted for a more thorough languoid classification.}
+
 <!-- TODO: say that you use vowel categories as comparative concepts here too! since each phoneme makes sense only within the system it is from (Haspelmath cites Trubetskoj). -->
 
 ### Italian
@@ -644,6 +651,7 @@ Generally speaking, while the voicing contrast in word-medial position especiall
 \label{s:sumresults}
 <!-- TODO: maybe call it preview? -->
 <!-- TODO: maybe mention questions again here -->
+<!-- TODO: maybe move to end of PART I? NO, the examiners what it here. Maybe make a chapter on its own in PART I rather than section of Rationale chapter -->
 
 The results of the investigation of acoustic segment durations, tongue root position, and glottal adjustments suggest a composite production account of the voicing effect which synthesises previous independent and seemingly contrasting proposals.
 Papers I deals with compensatory aspects of the voicing effect in Italian and Polish acoustic data, and provides evidence for the durational stability of a speech interval across voicing contexts.
