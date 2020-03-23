@@ -230,7 +230,8 @@ tongue_pl07 <- read_aaa("./datasets/pl07-tongue-cart.tsv", columns)  %>%
 contrasts(tongue_pl07$vc_voicing) <- "contr.treatment"
 ```
 
-\chapter{Assessing mid-sagittal tongue contours in polar coordinates using generalised additive (mixed) models [Paper IV]}
+\chapter{Assessing mid-sagittal tongue contours in polar coordinates using generalised additive (mixed) models}
+\label{a:polar-gams}
 
 \noindent\fbox{%
     \parbox{\textwidth}{%
