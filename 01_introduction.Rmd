@@ -487,6 +487,8 @@ The Italian doculect can be included in the languoid Italian [glottocode: ital12
 
 <!-- TODO: say that you use vowel categories as comparative concepts here too! since each phoneme makes sense only within the system it is from (Haspelmath cites Trubetskoj). -->
 
+<!-- TODO: Say consonant and vowel phonemes are discussed, then syllabic structure and stress patterns, then briefly explain rythmic classes. -->
+
 ### Italian
 
 \ctable[caption = Italian consonant phonemes (adapted from \citealt[50]{kramer2009}).,
@@ -640,6 +642,8 @@ Manchester English distinguishes short and long vowels (\Cref{t:engvows}), which
 The split between /ʊ/ and /ʌ/ (respectively \textsc{foot} and \textsc{strut} in Well's lexical set, \citealt{wells1892}) present in many varieties of English is not present in Manchester English (as in Northern English more generally), so that there is a single vowel category realised as [ʊ] \citep{baranowski2015}.
 Other features of Manchester English are the fronting of /uː/, and the laxing of the *happ*\textsc{y} vowel (the final vowel in words like *happy*, *city*, *duty*) to [ɛ] in word-final position.
 
+English is more or less uncontroversially regarded a stress-timing language \citep{classe1939, pike1946, abercrombie1967, grabe2002}.
+
 <!--
 \begin{vowel}
     \putvowel{iː}{0.3\vowelhunit}{0\vowelvunit}
@@ -769,7 +773,7 @@ This procedure allows data to be rotated along the occlusal plane and provides u
 
 ### Procedure and data processing
 
-The participants read sentence stimuli containing test words presented on the screen via the software Articulate Assistant Advanced™ (AAA, \citealt{articulate2011}).
+The participants read sentence stimuli containing test words presented on the screen via the software Articulate Assistant Advanced™ (AAA v2.17.2, \citealt{articulate2011}).
 The test words were C\textsubscript{1}V\textsubscript{1}C\textsubscript{2}V\textsubscript{2} words, where C\textsubscript{1} = /p/, V\textsubscript{1} = /a, o, u/, C\textsubscript{2} = /t, d, k, g/, and V\textsubscript{2} = V\textsubscript{1}.
 <!-- TODO: check that it is true :D -->
 Note that in both languages C2 is the onset of the second syllable.
@@ -795,7 +799,7 @@ The placement of segment boundaries followed the suggestions in \citet{machac200
 See Paper I for details.
 
 Detection of the release of C1 and C2 was accomplished through the algorithmic procedure described in \citet{ananthapadmanabha2014}.
-I have written a custom implementation of the procedur in Praat for this study (`release-detection-c1.praat` and `burst-detection.praat` in \citealt{coretta2018m}).
+I have written a custom implementation of the procedure in Praat for this study (`release-detection-c1.praat` and `burst-detection.praat` in \citealt{coretta2018m}).
 The output of the automatic detection was manually checked and corrected.
 The times of the following landmarks were extracted via a custom Praat script (`get-duration.praat` in \citealt{coretta2018m}): sentence onset and offset, target word onset and offset, C1 release, V1 onset, V1 offset/C2 closure onset, C2 release, V2 onset.
 
@@ -803,21 +807,27 @@ UTI data processing was performed in AAA.
 Spline curves were fitted to the tongue surface images using a built-in automatic batch procedure, within a search area defined by the interval between the onset of the CV sequence preceding the target word and the offset of the that following it (*Di[co X le]natamente*, *Mów[ię X te]raz*).
 The search area was created via Praat scripting (with `search-area.praat` in \citealt{coretta2018m}) and imported in AAA for the batch procedure.
 The automatic fitting procedure was monitored by the author and manual correction of the fitted splines was applied if necessary.
+Splines were fitted to the tongue contours at the original frame rate, which varied between 43 and 68 frames per second depending on the participant.
+The ranges of other UTI settings were: 88-114 scan lines, 980--988 pixels per scan line, field of view 71--93°, pixel offset 109--263, scan depth 75--180 mm.
+After fitting, the splines are then interpolated from the original frame rate to a sampling rate of 100 kHz.
+<!-- TODO: what is the interpolation method? -->
 
-Subsequent data processing followed the method described in \citet{strycharczuk2015}.
-<!-- TODO: check that cross-references still make sense -->
-See Paper III and IV for more details.
-Tongue displacement was obtained by tracking displacement along fan-lines from a fan-like coordinate system \citep{scobbie2011}.
-Displacement was measured for the tongue tip, tongue dorsum, and tongue root, broadly defined as the regions of the tongue that produce the closure for coronal stops and velar stops for respectively tongue tip and dorsum, and the region between the hyoid bone shadow and the tongue dorsum region for the tongue root.
-Within each tongue region, the fin-line with the highest standard deviation was chosen as the vector for calculating tongue displacement (these fan-lines were manually chosen for each speaker individually).
+Subsequent data processing followed the method described in \citet{strycharczuk2015} (see also \Cref{p:tra} and \Cref{a:polar-gams}).
+Tongue displacement was obtained with a built-in procedure by tracking the time-varying displacement of the interpolated tongue splines along fan-lines from a fan-like coordinate system \citep{scobbie2011}.
+Tongue displacement was measured for (1) the tongue tip, (2) the tongue dorsum, and (3) the tongue root, broadly defined as the regions of the tongue that produce (1) the closure for coronal stops and (2) velar stops for respectively tongue tip and dorsum, and (3) the region between the hyoid bone shadow and the tongue dorsum region for the tongue root.
+Within each tongue region, the fan-line with the highest standard deviation was chosen as the vector for calculating tongue displacement (these fan-lines were manually chosen for each speaker individually).
 A Savitzky--Golay smoothing filter (second-order, frame length 75 ms) was applied to raw tongue displacement along the chosen fan-line to generate smoothed displacement values.
-Tangential and absolute velocity was calculated from this smoothed displacement.
+Tangential velocity was calculated from the smoothed displacement signal of the tongue tip and tongue dorsum (down-sampled to 1 kHz) with a Savitzky--Golay filter (second-order, frame length 75 ms), as implemented in AAA.
+After calculation, the velocity signal is interpolated back to 100 kHz and all subsequent analyses are based on this interpolated velocity signal.
 
-The Cartesian coordinates of the fitted splines, together with tongue displacement, tangential velocity, and absolute velocity of the tongue root, dorsum and tip, were obtained from the following temporal landmarks (\Cref{fig:kine}): C2 closure onset, tongue maximum displacement during C2 closure (MAX), peak absolute velocity before and after tongue maximum displacement (PEAK_1 and PEAK_2), tongue closing gesture onset (GONS), closing gesture nucleus onset (NONS) and offset (NOFF).
-GONS, NONS, and NOFF were defined as the times where absolute velocity reaches 20% of the peak absolute velocity before PEAK_1, between PEAK_1 and MAX, and between MAX and PEAK_2 respectively \citep{kroos1997, gafos2010a}.
+The absolute values of the tangential velocity were used for the identification of gestural landmarks using a built-in algorithm.
+The times of the following gestural landmarks were obtained for the tongue tip and the tongue dorsum (\Cref{fig:kine}): (a) maximum tongue displacement (MAX), (b) peak velocity before MAX (PEAK_1), (c) peak velocity after MAX (PEAK_2), (d) gesture onset (GONS), corresponding to the time when absolute velocity of tongue displacement reaches 20% of the peak absolute velocity before PEAK_1, (e) gesture nucleus (plateau) onset (NONS), when velocity is at 20% of the peak velocity between PEAK_1 and MAX, (f) nucleus offset (NOFF), when velocity is at 20% of the peak velocity between MAX and PEAK_2, and (g) gesture offset (GOFF), when velocty is at 20% of peak velocity after PEAK_2 \citep{kroos1997, gafos2010a}.
+
+![Gestural landmarks of tongue movements in the word *putu*. The top panel shows tongue tip displacement, while the bottom panel shows tangential and absolute velocity. \label{fig:kine}](./img/velocity.pdf){ width=80% }
+
+The Cartesian coordinates of the fitted splines, together with tongue displacement, tangential velocity, and absolute velocity of the tongue root, dorsum and tip, were obtained at the times corresponding to the following gestural landmarks: C2 closure onset, tongue maximum displacement during C2 closure (MAX), peak absolute velocity before and after tongue maximum displacement (PEAK_1 and PEAK_2), tongue closing gesture onset (GONS), closing gesture nucleus onset (NONS) and offset (NOFF).
 Tongue displacement, and the tangential and absolute velocities of the tongue root, dorsum, and tip were also extracted as time-series along the entire duration of V1.
-
-![Temporal kinematic landmarks of tongue movements in the word *putu*. The top panel shows tongue tip displacement, while the bottom panel shows tangential and absolute velocity. \label{fig:kine}](./img/velocity.pdf){ width=80% }
+<!-- TODO: why not velocity analysis? -->
 
 Finally, wavegram data was extracted from the EGG data, following the method proposed by \citet{herbst2010}.
 In brief, a wavegram is a spectrogram-like representation of the EGG signal, where individual glottal cycles are sequentially placed on the *x*-axis, the normalised time of the samples taken from within each glottal cycle is the *y*-axis, and the third dimension, represented by colours of different shading, is the normalised amplitude of the EGG signal.
