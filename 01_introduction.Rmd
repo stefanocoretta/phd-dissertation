@@ -830,8 +830,8 @@ The Cartesian coordinates of the fitted splines, together with tongue displaceme
 Tongue displacement, and the tangential and absolute velocities of the tongue root, dorsum, and tip were also extracted as time-series along the entire duration of V1.
 <!-- TODO: why not velocity analysis? -->
 As discussed in \Cref{s:resq}, Study II set out to gather data on acoustic segmental durations, the timing of the consonantal gestures, and properties of vocal fold vibration.
-For this reason, tongue movement velocity was not analysed as part of the current investigation.
-Moreover, while the smoothing of the AAA built-in procedure ensures the robust detection of the times of gestural landmarks, it can have a strong impact on the actual velocity values, so that future work is warranted to assess the magnitde of such influence.
+For this reason, tongue movement velocity was not analysed as part of the current investigation, and future work on this aspect is warranted.
+<!-- Moreover, while the smoothing of the AAA built-in procedure ensures the robust detection of the times of gestural landmarks, it can have a strong impact on the actual velocity values, so that future work is warranted to assess the magnitde of such influence. -->
 
 Finally, wavegram data was extracted from the EGG data, following the method proposed by \citet{herbst2010}.
 In brief, a wavegram is a spectrogram-like representation of the EGG signal, where individual glottal cycles are sequentially placed on the *x*-axis, the normalised time of the samples taken from within each glottal cycle is the *y*-axis, and the third dimension, represented by colours of different shading, is the normalised amplitude of the EGG signal.
