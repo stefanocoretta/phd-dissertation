@@ -622,12 +622,17 @@ In order to avoid influences of regional differences in English, especially in t
 The consonant system of Manchester English minimally diverges from the general Southern British English system (\Cref{t:engcons}), which is non-rhotic, with the notable exceptions of the so-called "T-glottaling" (realisation of /t/ in non-foot-initial position as [ʔ]), "TH-fronting" (realisation of /θ, ð/ and [f, v]), "H-dropping", and "velar nasal plus" (realisation of /ŋ/ as [ŋg/]) \citep{baranowski2015, baranowski2016, bermudez-otero2016, coretta2018i, bailey2019, bailey2019a}.
 The Manchester English consonantal phonemes belong to one of seven places of articulation (labial, dental, alveolar, post-alveolar, palatal, velar, glottal) and seven manner of articulation (plosive, fricative, affricate, nasal, lateral, rhotic, approximant).
 
-While voicing in Manchester English has not been systematically investigated, the literature on voicing in English in general is vast.
+While voicing in Manchester English has not been systematically investigated, the literature on voicing in English in general is vast [...].
 English obstruents (plosives, fricatives, affricates) contrast for what has been traditionally described as voicing (...), which is also reflected in the standard use of IPA voiceless and voiced symbols.
 However, the actual articulatory implementation of the contrast is constituted by a complex set of features and it is affected by other phonological factors, like syllabic structure and stress \citep{lisker1986}.
 Generally speaking, while the voicing contrast in word-medial position especially after stressed vowels is between a category with voicing during closure (voiced category) and one without it (voiceless category), in pre-stressed position and especially in word-initial position the contrast is between two voiceless categories that differ in voice onset time (short VOT vs long VOT, with no vibration of the vocal folds during closure in the former).
 
 <!-- TODO: sociophonetic work on voicing -->
+Another relevant dimension is the type of phonation used by speakers to encode the voicing contrast in English.
+For example, \citet{gordeeva2007, gordeeva2010, gordeeva2011} show that preaspiration, glottalisation, and ejection can be used by speakers as cues to the voicing contrast in fricatives and stops in Scottish English.
+Moreover, no evidence was found for a correlation between the type of phonation employed by each speaker and their general voice quality \citep{gordeeva2011}.
+The authors interpret this finding to mean that the speaker's voice quality settings and the use of one phonation type over another are decoupled, and that preaspiration, glottalisation, and ejection play an important role in the speaker-specific phonologisation of the contrast.
+The sociolinguistic aspects of voicing investigated in these studies stress the multidimentional nature of the English voicing contrast.
 
 \ctable[caption = Northern British English vowel monophthong phonemes \citep{orton1962, wells1892}.,
 label = t:engvows,
@@ -640,10 +645,10 @@ low  & æ     &         & ɒ ɑː \LL
 }
 
 Manchester English distinguishes short and long vowels (\Cref{t:engvows}), which differ in duration and quality.
-The split between /ʊ/ and /ʌ/ (respectively \textsc{foot} and \textsc{strut} in Well's lexical set, \citealt{wells1892}) present in many varieties of English is not present in Manchester English (as in Northern English more generally), so that there is a single vowel category realised as [ʊ] \citep{baranowski2015}.
-Other features of Manchester English are the fronting of /uː/, and the laxing of the *happ*\textsc{y} vowel (the final vowel in words like *happy*, *city*, *duty*) to [ɛ] in word-final position.
+The split between /ʊ/ and /ʌ/ (respectively \textsc{foot} and \textsc{strut} in Well's lexical set, \citealt{wells1892}) present in many varieties of English is not in Manchester English (as in Northern English more generally), so that there is a single vowel category realised as [ʊ] \citep{baranowski2015}.
+Other features of Manchester English vocalic system are the fronting of /uː/, and the laxing of the *happ*\textsc{y} vowel (the final vowel in words like *happy*, *city*, *duty*) to [ɛ] in word-final position.
 
-English is more or less uncontroversially regarded a stress-timing language \citep{classe1939, pike1946, abercrombie1967, grabe2002}.
+English is more or less uncontroversially regarded as a stress-timing language \citep{classe1939, pike1946, abercrombie1967, grabe2002}.
 
 <!--
 \begin{vowel}
