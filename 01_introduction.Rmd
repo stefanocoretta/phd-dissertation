@@ -855,20 +855,18 @@ The search area was created via Praat scripting (with `search-area.praat` in \ci
 The automatic fitting procedure was monitored by the author and manual correction of the fitted splines was applied if necessary.
 Splines were fitted to the tongue contours at the original frame rate, which varied between 43 and 68 frames per second depending on the participant.
 The ranges of other UTI settings were: 88-114 scan lines, 980--988 pixels per scan line, field of view 71--93°, pixel offset 109--263, scan depth 75--180 mm.
-After fitting, the splines are then interpolated from the original frame rate to a sampling rate of 100 kHz.
-<!-- TODO: what is the interpolation method? -->
+After fitting, the splines are linearly interpolated from the original frame rate to a sampling rate of 100 kHz.
 
-Subsequent data processing followed the method described in \citet{strycharczuk2015} (see also \Cref{p:tra} and \Cref{a:polar-gams}).
-<!-- TODO: spline linear interpolation -->
+Subsequent data processing followed the method described in \citet{strycharczuk2015} (see also \Cref{p:tra} and \Cref{a:polar-gams}) and it was based on the upsampled (100 kHz) spline data.
 Tongue displacement was obtained with a built-in procedure by tracking the time-varying displacement of the interpolated tongue splines along fan-lines from a fan-like coordinate system \citep{scobbie2011}.
 Tongue displacement was measured for (1) the tongue tip, (2) the tongue dorsum, and (3) the tongue root, broadly defined as the regions of the tongue that produce (1) the closure for coronal stops and (2) velar stops for respectively tongue tip and dorsum, and (3) the region between the hyoid bone shadow and the tongue dorsum region for the tongue root.
 Within each tongue region, the fan-line with the highest standard deviation was chosen as the vector for calculating tongue displacement (these fan-lines were manually chosen for each speaker individually).
 A Savitzky--Golay smoothing filter (second-order, frame length 75 ms) was applied to raw tongue displacement along the chosen fan-line to generate smoothed displacement values.
-Tangential velocity was calculated from the smoothed displacement signal of the tongue tip and tongue dorsum (down-sampled to 1 kHz) with a Savitzky--Golay filter (second-order, frame length 75 ms), as implemented in AAA.
-After calculation, the velocity signal is interpolated back to 100 kHz and all subsequent analyses are based on this interpolated velocity signal.
+Tangential velocity was calculated from the smoothed displacement signal of the tongue tip and tongue dorsum with a Savitzky--Golay filter (second-order, frame length 75 ms), as implemented in AAA.
 
 The absolute values of the tangential velocity were used for the identification of gestural landmarks using a built-in algorithm.
 The times of the following gestural landmarks were obtained for the tongue tip and the tongue dorsum (\Cref{fig:kine}): (a) maximum tongue displacement (MAX), (b) peak velocity before MAX (PEAK_1), (c) peak velocity after MAX (PEAK_2), (d) gesture onset (GONS), corresponding to the time when absolute velocity of tongue displacement reaches 20% of the peak absolute velocity before PEAK_1, (e) gesture nucleus (plateau) onset (NONS), when velocity is at 20% of the peak velocity between PEAK_1 and MAX, (f) nucleus offset (NOFF), when velocity is at 20% of the peak velocity between MAX and PEAK_2, and (g) gesture offset (GOFF), when velocty is at 20% of peak velocity after PEAK_2 \citep{kroos1997, gafos2010a}.
+The time resolution of the gestural landmarks is 100 kHz (the sampling rate of the upsampled spline data).
 
 ![Gestural landmarks of tongue movements in the word *putu*. The top panel shows tongue tip displacement, while the bottom panel shows tangential and absolute velocity. \label{fig:kine}](./img/velocity.pdf){ width=80% }
 
