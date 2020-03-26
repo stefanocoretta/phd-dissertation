@@ -145,10 +145,47 @@ When the duration of a vowel is similar across languages, consonant voicing also
 ## Voicing as a comparative concept
 \label{s:voi-comp}
 
-All of the literature reviewed here does not explicitly tell what voicing refers to precisely, and the languages listed in them posses quite different phonation systems.
-For example languages that belong to the two major categories of aspirating and voicing languages [...] are treated together in the literature.
-After reviewing some of the views on how voicing can be defined, I will introduce the concept of "comparative concept" \citep{haspelmath2010} and show that voicing will be used in this sense in this dissertation.
+The term "voicing", as used in the literature on the voicing effect and related phenomena, can have substantially different referents.
+A first major distinction can be drawn between voicing as a physical property and voicing as a linguistic (abstract) category of lexical contrast.
+Within each of these two classes, further distinctions are possible.
+This section will review the physical and the linguistic in turn.
+After providing a physical definition of voicing as periodicity and vocal fold vibration, I will review some of the views on how voicing can be defined linguistically.
+Finally, I will introduce the notions of "descriptive category" and "comparative concept" \citep{haspelmath2010} to show that voicing in the linguistic reading will be used in the latter sense in this dissertation.
 
+<!-- senses/readings of voicing, physical and linguistic sense -->
+
+From a physical point of view, voicing can be defined either acoustically or phisio-anatomically.
+Acoustically, voicing is the presence of periodicity in a speech signal.
+The phisio-anatomical source of acoustic periodicity is the cyclic vibration of the vocal folds.
+A speech interval that is characterised by vocal fold vibration/periodicity is said to be voiced, while an interval that does not have vocal fold vibration is said to be voiceless.
+The terms "voiced" and "voiceless" in this sense refer to the physical properties of the speech interval.
+
+<!-- The mechanics of vocal fold vibration are not yet fully understood. -->
+The initiation of vocal fold vibration requires that the air pressure of the cavity below the vocal folds (broadly speking, the lungs) is higher than that of the cavity above them (the oral tract).
+The positive trans-glottal air pressure differential is also necessary for the vibration to continue after it is initiated \citep{berg1958, rothenberg1967}.
+This property is formally known as the Aerodynamic Voicing Constraint \citep{ohala2011}.
+Vocal fold vibration in which no active articulatory adjustment is used to ensure the pressure differential is called *passive voicing*.
+The typical class of sounds characterised by passive voicing are sonorants (vowels, nasals, liquids).
+Similarly, the absence of voicing with no cuncurrent adjustments to prevent initiation and maintanence of vocal fold vibration is knows as *passive devoicing*.
+Passive devoicing can be observed in the voiceless closure of stops, and a sign of passive devoicing is the continuing presence of vocal fold vibration from the preceding voiced sound for some time into the closure (also know as voicing bleed, \citealt{davidson2016}).
+
+Certain articulatory conditions, like a reduced oral tract volume or the full closure of stops consonants, hinder passive voicing by reducing the trans-glottal pressure differential.
+When the pressure differential is 0 (i.e. when pressure equalisation is reached), vocal fold vibration can no longer be maintained and it ceases.
+In such articulatory conditions, several articulatory adjustments can be implemented to counteract pressure equalisation.
+Among the solutions to help sustaining vocal fold vibration there are som that decrease supra-glottal pressure like tongue root advancement \citep{kent1969, perkell1969, westbury1983}, larynx lowering \citep{riordan1980}, opening of the velopharyngeal port \citep{yanagihara1966}, producing a retroflex occlusion \citep{sprouse2008}, and other that lower the pressure differential threshold required for fold vibration, like slackening of the vocal folds \citep{halle1967} or producing a shorter stop closure \citep{lisker1957}.
+*Active voicing* is vocal fold vibration with articulatory adjustements that ensure continuing vibration.
+
+Sounds that are intended not to have vocal fold vibration (i.e. are inteded as voiceless) but that are characterised by favourable conditions for it tend to show passive voicing.
+In these cases, articulatory asjustments can be put in place to counteract the presence of pasive voicing.
+For example, glottal abduction, larynx raising, vocal fold tensing and oral wall tensing can all prevent passive voicing by either decresing the supra-glottal volume or raising the pressure differential threshold.
+The resulting phenomenon is called *active devoicing* \citep{jansen2004}.
+
+<!-- TODO: Rothenberg purpusive vs non-purposive-->
+
+
+Within linguistic reading you have language-specific category (descriptive category) and comparative concept.
+The languages listed in them possess quite different phonation systems.
+For example languages that belong to the two major categories of aspirating and voicing languages [...] are treated together in the literature.
 <!-- TODO: aspirating vs. voicing languages? -->
 
 \citet{keating1984a} is an attempt to define "voicing" in such a way that even systems that are very dissimilar at the physical level can be group together.
@@ -674,6 +711,7 @@ English is more or less uncontroversially regarded as a stress-timing language \
 <!-- TODO: maybe call it preview? -->
 <!-- TODO: maybe mention questions again here -->
 <!-- TODO: maybe move to end of PART I? NO, the examiners what it here. Maybe make a chapter on its own in PART I rather than section of Rationale chapter -->
+<!-- TODO: mention that voicing effect is not about voicing per se -->
 
 The results of the investigation of acoustic segment durations, tongue root position, and glottal adjustments suggest a composite production account of the voicing effect which synthesises previous independent and seemingly contrasting proposals.
 Papers I deals with compensatory aspects of the voicing effect in Italian and Polish acoustic data, and provides evidence for the durational stability of a speech interval across voicing contexts.
@@ -821,6 +859,7 @@ After fitting, the splines are then interpolated from the original frame rate to
 <!-- TODO: what is the interpolation method? -->
 
 Subsequent data processing followed the method described in \citet{strycharczuk2015} (see also \Cref{p:tra} and \Cref{a:polar-gams}).
+<!-- TODO: spline linear interpolation -->
 Tongue displacement was obtained with a built-in procedure by tracking the time-varying displacement of the interpolated tongue splines along fan-lines from a fan-like coordinate system \citep{scobbie2011}.
 Tongue displacement was measured for (1) the tongue tip, (2) the tongue dorsum, and (3) the tongue root, broadly defined as the regions of the tongue that produce (1) the closure for coronal stops and (2) velar stops for respectively tongue tip and dorsum, and (3) the region between the hyoid bone shadow and the tongue dorsum region for the tongue root.
 Within each tongue region, the fan-line with the highest standard deviation was chosen as the vector for calculating tongue displacement (these fan-lines were manually chosen for each speaker individually).
