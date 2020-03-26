@@ -531,7 +531,7 @@ The Italian doculect can be included in the languoid Italian [glottocode: ital12
 
 ### Italian
 
-\ctable[caption = Italian consonant phonemes (adapted from \citealt[50]{kramer2009}).,
+\ctable[caption = Italian consonant phonemes (adapted from \citealt{kramer2009}).,
 label = t:itacons,
 ]{llllll}{}{
 FL
@@ -544,7 +544,7 @@ rhotic      &        &        & r        &         &       \NN
 approximant & w      &        &          & j       &       \LL
 }
 
-\ctable[caption = Italian vocalic phonemes (adapted from \citealt[51]{kramer2009}).,
+\ctable[caption = Italian vocalic phonemes (adapted from \citealt{kramer2009}).,
 label = t:itavow,
 ]{llll}{}{
 \FL
