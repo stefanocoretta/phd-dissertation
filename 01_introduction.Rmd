@@ -452,6 +452,8 @@ For these reasons, an exploratory study of Italian and Polish (Study I) was carr
 \Cref{s:studyi} contains a description of the methods employed in Study I, while \Cref{p:relrel}, \Cref{p:tra}, and \Cref{p:wavegram} report the results.
 Note that, with the terms "voiceless" and "voiced", I refer to the phonemic (lexical) contrast defined at an abstract level, rather than to the actual phonetic implementation of such contrast, as detailed in \Cref{s:voi-comp}.
 This approach is generally helpful in light of the distinction between aspirating vs. true-voicing languages \citep{beckman2013}, and in the case of English in particular \citep{docherty1992}, which is the subject of Study II.
+Furthermore, I focus here on voicing as a categorical lexical contrast, given this is the approach followed by most of the relevant literature.
+Future work is warranted to ascertain the role of a gradient/continous operationalisation of voicing.
 
 <!-- TODO: Why English? -->
 <!-- Question 1bis. -->
