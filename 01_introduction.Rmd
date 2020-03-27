@@ -172,7 +172,8 @@ Passive devoicing can be observed in the voiceless closure of stops, and a sign 
 Certain articulatory conditions, like a reduced oral tract volume or the full closure of stops consonants, hinder passive voicing by reducing the trans-glottal pressure differential.
 When the pressure differential is 0 (i.e. when pressure equalisation is reached), vocal fold vibration can no longer be maintained and it ceases.
 In such articulatory conditions, several articulatory adjustments can be implemented to counteract pressure equalisation.
-Among the solutions to help sustaining vocal fold vibration there are som that decrease supra-glottal pressure like tongue root advancement \citep{kent1969, perkell1969, westbury1983}, larynx lowering \citep{riordan1980}, opening of the velopharyngeal port \citep{yanagihara1966}, producing a retroflex occlusion \citep{sprouse2008}, and other that lower the pressure differential threshold required for fold vibration, like slackening of the vocal folds \citep{halle1967} or producing a shorter stop closure \citep{lisker1957}.
+Active articulatory adjustmenst require muscular activity.
+Among the solutions to help sustaining vocal fold vibration there are some that decrease supra-glottal pressure like tongue root advancement \citep{kent1969, perkell1969, westbury1983}, larynx lowering \citep{riordan1980}, opening of the velopharyngeal port \citep{yanagihara1966}, producing a retroflex occlusion \citep{sprouse2008}, and other that lower the pressure differential threshold required for fold vibration, like slackening of the vocal folds \citep{halle1967} or producing a shorter stop closure \citep{lisker1957}.
 *Active voicing* is vocal fold vibration with articulatory adjustements that ensure continuing vibration.
 
 Sounds that are intended not to have vocal fold vibration (i.e. are inteded as voiceless) but that are characterised by favourable conditions for it tend to show passive voicing.
@@ -180,10 +181,15 @@ In these cases, articulatory asjustments can be put in place to counteract the p
 For example, glottal abduction, larynx raising, vocal fold tensing and oral wall tensing can all prevent passive voicing by either decresing the supra-glottal volume or raising the pressure differential threshold.
 The resulting phenomenon is called *active devoicing* \citep{jansen2004}.
 
-<!-- TODO: Rothenberg purpusive vs non-purposive-->
+\citet{rothenberg1967} makes an important further distiction between purposive and non-purposive active articulatory adjustments.
+For example, tongue root advancement can be executed by muscular activity with the intent to maintaining voicing, in which case we would call it a *purposive* (active) gesture.
+If tongue root advancement is executed by muscular activity with an intent different from maintining voicing, then this would be classified as a *non-purposive* (active) gesture in regards to voicing.
+While ascertaining whether an active gesture is purposive or non-purposive can be difficult, an active articulatory adjustment (executed by muscular activity) does not automatically imply the speaker's intention to achieve all of the benefits deriving from that adjustment.
+<!-- TODO: check that you actually discuss it somewhere -->
+While discussing articulatory adjustments in this dissertation, a classification between passive, active, purposive and non-purposive adjustments will not be attempted, but the potential difference will be discussed when relevant.
+Finally, the terms movement, adjustment, and gesture will be used interchangeably throughout without any theoretical commitment to differences among these.
 
-
-Within linguistic reading you have language-specific category (descriptive category) and comparative concept.
+Turning now to the linguistic sense of voicing, Within linguistic reading you have language-specific category (descriptive category) and comparative concept.
 The languages listed in them possess quite different phonation systems.
 For example languages that belong to the two major categories of aspirating and voicing languages [...] are treated together in the literature.
 <!-- TODO: aspirating vs. voicing languages? -->
