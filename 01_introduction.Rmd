@@ -189,44 +189,50 @@ While ascertaining whether an active gesture is purposive or non-purposive can b
 While discussing articulatory adjustments in this dissertation, a classification between passive, active, purposive and non-purposive adjustments will not be attempted, but the potential difference will be discussed when relevant.
 Finally, the terms movement, adjustment, and gesture will be used interchangeably throughout without any theoretical commitment to differences among these.
 
-Turning now to the linguistic sense of voicing, Within linguistic reading you have language-specific category (descriptive category) and comparative concept.
-The languages listed in them possess quite different phonation systems.
-For example languages that belong to the two major categories of aspirating and voicing languages [...] are treated together in the literature.
+Turning now to the linguistic sense of voicing, different approaches have been proposed on how to classify phonological systems of phonation contrasts.
+This discussion will focus on systems that contrast *two* categories, and only on those approaches to voicing that are relevant to topics at matter.
+In particular, I will review three main ideas: the distinction between voicing and aspirating languages \citep{beckman2013}, the tri-partite system of phonological categories \citep{keating1984a}, and the Articulatory Phonology definition of voicing \citep{goldstein1986}.
+Secondly, I will show that a typological approach that distinguishes between language-specific and comparative entities spares us the need to find a definition of voicing that can simultaneously account for the different phonological systems.
+This approach forms the basis of the conceptual background of this dissertation.
+
 <!-- TODO: aspirating vs. voicing languages? -->
+The voicing-effect languages listed in \Cref{s:veintro} possess quite different phonation systems.
+A major distinction can be drawn between so-called "true voicing" languages and "aspirating" languages \citep{beckman2013}.
+True voicing languages make use of the distinctive (privative) feature [voice], and segments specified with [voiced] are characterised by active voicing (vocal fold vibration).
+On the other hand, aspirating languages employ the feature [spread glottis].
+Segments specified with [spread glottis] generally have long Voice Onset Time (VOT) values, while unspecified segments can show passive voicing (vocal fold vibration).
+Typical true-voicing languages are Italian, Spanish, and Russian, while Germanic languages like German, English, and Icelandic are aspirating languages.
+These languages are, even if at an alledgedly different extent, voicing-effect languages.
+In true-voicing languages, vowels are longer when followed by [voice] segments, while in aspirating languages vowels are longer when followed by underspecified segments (segments withouth [spread glottis]).
 
 \citet{keating1984a} is an attempt to define "voicing" in such a way that even systems that are very dissimilar at the physical level can be group together.
-K's definition is restricted to languages that contrasts only two categories of phonation.
+This definition is restricted to languages that contrast only two categories of phonation.
 \citet{keating1984a} proposes that three levels of representation are necessary.
 One level is purely phonological, and abstracts away from real physical properties of the contrast.
 This phonological level of representation corresponds to the traditional [(±)voice] feature (either binary or privative).
 The second level of representation pertains to what \citet{keating1984a} calls "modified systematic phonetics".
-She proposes three phonetic categories based on Voice Onset Time (VOT): {voiced}, {voiceless unaspirated}, and {voiceless aspirated}.
+She proposes three phonetic categories based on VOT: {voiced}, {voiceless unaspirated}, and {voiceless aspirated}.
 The last level, "pseudo-physical", assigns a range of VOT values to such categories depending on the language and the phonological context.
-The [(±)voice] feature can then be interpreted rather than as presence vs. absence of voicing, as more voiced and less voiced.
+The [(±)voice] feature can then be interpreted as more or less voiced, rather than as presence vs. absence of vocal fold vibration.
 
 \citet{goldstein1986}, within their framework of Articulatory Phonology, take a different stance and ascribe voicing to simply the presence or absence of a glottal opening-and-closing gesture.
 Voiceless segments are then characterised by the presence of such a gesture, while voiced segments by its absence.
-This definitions abstracts away from the presence/absence of vocal fold vibration, and allows us to group together for example a language like English and one like Italian.
-
-<!-- TODO: Scobbie's work here? It's specific of English though; maybe just mention will be discussed later -->
-\citet{gordeeva2011} show that in Scottish English the voicing distinction shows an idiosyncratic mapping between phonological categories and the phonetic correlates of vocal fold vibration, (pre-)aspiration, and glottalisation.
-The authors argue that even within the same language or language variety different mappings (which they call phonologisations) might be necessary.
+This definitions abstracts away from the presence/absence of vocal fold vibration, and allows us to group together for example an aspirating language like English and a true-voicing one like Italian.
 
 <!-- Jansen 2004 dissertation talks about the same but informally -->
 \citet{haspelmath2010} introduces a helpful distinction between comparative concepts and descriptive categories.
-Following from what Haspelmath calls a "categorial particularism" approach, it is advocated that individual languages should be described in terms of language-specific categories.
+Following from what Haspelmath calls "categorial particularism", it is advocated that individual languages should be described in terms of language-specific categories.
 In this light, "voicing" in Italian is different from "voicing" in Spanish for the very fact that Italian and Spanish are two different linguistic systems.
-Typological comparison should not be based on (language-specific) these "descriptive categories", but rather on "comparative concepts".
-Comparative concepts are created by the linguist who performs language comparison, and are not components of particular languages.
-I assume here that traditional phonological categories like "voicing", "vowel height", "place of articulation", can be thought of either as (language-particular) descriptive categories or comparative concepts depending on the scientific enterprise.\footnote{\citet{haspelmath2010} proposes to use capitalised names for descriptive categories (for example, "Italian Voicing"), but since this use is not known among phonologists/phoneticians, I will not adop it here.}
+Typological comparison should not be based on (language-specific) "descriptive categories", but rather on "comparative concepts".
+Comparative concepts are created by the linguist who performs cross-lingusitic analyses, and are not components of particular languages.
+I assume here that traditional phonological categories like "voicing", "vowel height", "place of articulation", can be thought of either as (language-particular) descriptive categories or comparative concepts, depending on the scientific enterprise.\footnote{\citet{haspelmath2010} proposes to use capitalised names for descriptive categories (for example, "Italian Voicing"), but since this use is not common among phonologists/phoneticians, I will not adop it here.}
 In relation to the voicing effect, the use of "voicing" in this context as adopted in this work will be intended as a comparative concept and not as a descriptive category.
 
-Note that the adoption of the distinction between descriptive categories and comparative concepts is a working assumption and a full fledged argument in support of the distinction will not be pursued here.
+<!-- TODO: say that you won't specify the use (physical or lingusitic) unless ambigous -->
+Note that the adoption of the distinction between descriptive categories and comparative concepts is a working assumption and a fully fledged argument in support of the distinction will not be pursued here.
 Rather, reference to comparative concepts here allows us to compare the "voicing effect" across languages where "voicing" behaves very differently, and allows us to make cross-linguistic generalisations that transcend language-specific descriptive categories.
 <!-- TODO: fix cross reference -->
 The holistic account expounded in [...] rests on this working assumption, and should be read as applicable independently from language-specific voicing categories.
-
-<!-- TODO: passive vs active voicing and devoicing -->
 
 ## The voicing effect and other phonological and phonetic factors
 \label{s:ve-phonphon-fact}
