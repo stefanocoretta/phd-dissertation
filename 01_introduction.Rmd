@@ -195,7 +195,6 @@ In particular, I will review three main ideas: the distinction between voicing a
 Secondly, I will show that a typological approach that distinguishes between language-specific and comparative entities spares us the need to find a definition of voicing that can simultaneously account for the different phonological systems.
 This approach forms the basis of the conceptual background of this dissertation.
 
-<!-- TODO: aspirating vs. voicing languages? -->
 The voicing-effect languages listed in \Cref{s:veintro} possess quite different phonation systems.
 A major distinction can be drawn between so-called "true voicing" languages and "aspirating" languages \citep{beckman2013}.
 True voicing languages make use of the distinctive (privative) feature [voice], and segments specified with [voiced] are characterised by active voicing (vocal fold vibration).
@@ -678,7 +677,6 @@ English obstruents (plosives, fricatives, affricates) contrast for what has been
 However, the actual articulatory implementation of the contrast is constituted by a complex set of features and it is affected by other phonological factors, like syllabic structure and stress \citep{lisker1986}.
 Generally speaking, while the voicing contrast in word-medial position especially after stressed vowels is between a category with voicing during closure (voiced category) and one without it (voiceless category), in pre-stressed position and especially in word-initial position the contrast is between two voiceless categories that differ in voice onset time (short VOT vs long VOT, with no vibration of the vocal folds during closure in the former).
 
-<!-- TODO: sociophonetic work on voicing -->
 Another relevant dimension is the type of phonation used by speakers to encode the voicing contrast in English.
 For example, \citet{gordeeva2007, gordeeva2010, gordeeva2011} show that preaspiration, glottalisation, and ejection can be used by speakers as cues to the voicing contrast in fricatives and stops in Scottish English.
 Moreover, no evidence was found for a correlation between the type of phonation employed by each speaker and their general voice quality \citep{gordeeva2011}.
@@ -699,6 +697,7 @@ Manchester English distinguishes short and long vowels (\Cref{t:engvows}), which
 The split between /ʊ/ and /ʌ/ (respectively \textsc{foot} and \textsc{strut} in Well's lexical set, \citealt{wells1892}) present in many varieties of English is not in Manchester English (as in Northern English more generally), so that there is a single vowel category realised as [ʊ] \citep{baranowski2015}.
 Other features of Manchester English vocalic system are the fronting of /uː/, and the laxing of the *happ*\textsc{y} vowel (the final vowel in words like *happy*, *city*, *duty*) to [ɛ] in word-final position.
 
+Lexical stress is contrastive in English \citep{giegerich1992}.
 English is more or less uncontroversially regarded as a stress-timing language \citep{classe1939, pike1946, abercrombie1967, grabe2002}.
 
 <!--
@@ -720,7 +719,6 @@ English is more or less uncontroversially regarded as a stress-timing language \
 
 ## Preview of results
 \label{s:sumresults}
-<!-- TODO: maybe call it preview? -->
 <!-- TODO: maybe mention questions again here -->
 <!-- TODO: maybe move to end of PART I? NO, the examiners what it here. Maybe make a chapter on its own in PART I rather than section of Rationale chapter -->
 <!-- TODO: mention that voicing effect is not about voicing per se -->
@@ -884,7 +882,6 @@ The time resolution of the gestural landmarks is 100 kHz (the sampling rate of t
 
 The Cartesian coordinates of the fitted splines, together with tongue displacement, tangential velocity, and absolute velocity of the tongue root, dorsum and tip, were obtained at the times corresponding to the following gestural landmarks: C2 closure onset, tongue maximum displacement during C2 closure (MAX), peak absolute velocity before and after tongue maximum displacement (PEAK_1 and PEAK_2), tongue closing gesture onset (GONS), closing gesture nucleus onset (NONS) and offset (NOFF).
 Tongue displacement, and the tangential and absolute velocities of the tongue root, dorsum, and tip were also extracted as time-series along the entire duration of V1.
-<!-- TODO: why not velocity analysis? -->
 As discussed in \Cref{s:resq}, Study II set out to gather data on acoustic segmental durations, the timing of the consonantal gestures, and properties of vocal fold vibration.
 For this reason, tongue movement velocity was not analysed as part of the current investigation, and future work on this aspect is warranted.
 <!-- Moreover, while the smoothing of the AAA built-in procedure ensures the robust detection of the times of gestural landmarks, it can have a strong impact on the actual velocity values, so that future work is warranted to assess the magnitde of such influence. -->
@@ -1050,7 +1047,6 @@ Data from Study II was subject to a full Bayesian analysis, and greater emphasis
 <!-- TODO: talk about datasets -->
 
 Data, code, and information about software can be found in the research compendium of this project on the Open Science Framework (\url{https://osf.io/w92me/}).
-<!-- TODO: use public link -->
 This OSF repository acts as a hub for the research compendia of the project and of the individual papers.
 The data has been packaged and documented using R \citep{marwick2017}.
 The data packages (coretta2018itapol and coretta2019eng) are available on GitHub and links to them are given in the OSF repository (see the Data components in the repository).\footnote{The raw ultrasound tongue imaging AAA files were not uploaded given their size (almost 40 GB) and can be obtained from the author.}
