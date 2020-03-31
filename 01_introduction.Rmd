@@ -907,7 +907,12 @@ A brief synthesis of the methodologies of the study is reported here.
 Fifteen university students were recorded in a sound attenuated room in the Phonetics Laboratory of the University of Manchester while reading sentence stimuli containing test words, presented on a computer screen with PsychoPy \citep{peirce2009}.
 The participants were native speakers of British English, aged between 20 and 29, born and raised within Greater Manchester.\footnote{No sociolinguistic information was collected for this study, given that sociolinguistic considerations were not part of the study aims and given the sensitivity of the data.}
 The test words were built according to the following structure: C\textsubscript{1}V́\textsubscript{1}C\textsubscript{2}(VC), where C\textsubscript{1} = /t/, V\textsubscript{1} = /iː, ɜː, ɑː/, C\textsubscript{2} = /p, b, k, g/, and (VC) = /əs/.
-<!-- TODO: syllable structure -->
+The issue of the syllabification of word-medial consonants in English is far from settled and still a controversial topic in English phonology.
+All possible syllabification options continue to be defended \citep{bermudez-otero2013}: onset-maximal syllabification, rhyme-maximal
+syllabification, and ambisyllabicity.
+\citet{bermudez-otero2013} offers initial phonological evidence for preferring an onset-maximal approach.
+This view is adopted as a working assumption in this work, and C2 in CVCV words are taken to be onsets.
+Future articulatory work is needed to shed light on the syllabification issue.
 These words were embedded within five different frame sentences, so that each speaker would read a total of 120 stimuli (24 words × 5 frames).
 The audio recordings were force-aligned and the times of acoustic landmarks were extracted according to the same procedure as in Study I (with `make-textgrid.praat` and `get-measurements.praat` in \citealt{coretta2019g}).
 
