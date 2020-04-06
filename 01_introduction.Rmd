@@ -404,6 +404,7 @@ More specifically, two of these accounts posit a mechanism of compensation eithe
 In the following section I review the effects of two other phonation types (aspiration and ejection) on vowel duration, and how these shed light on the aforementioned accounts of the voicing effect.
 
 ## Beyond voicing
+\label{s:beyond}
 
 Two phonation modes other than voicing are known to affect preceding vowel duration: aspiration and ejection.
 While this project focusses on the voicing effect, the closely related aspiration and ejection effects have consequences of theoretical importance.
@@ -430,91 +431,78 @@ As discussed in \citet{begus2017}, these patterns are compatible with accounts o
 In conclusion, our partial understanding of the relation between vowel duration and consonant phonation is based on contrasting or complementary empirical evidence.
 This state of affairs can be taken as indication that, while most research (save a few recent exceptions) focussed on finding a unique and unified mechanism behind the voicing effect, we might rather seek multiple mechanisms that cooperate to produce the observed patterns.
 In light of this, this dissertation sets out to study the interrelations between different sources of evidence, and their interpretation.
-<!-- TODO: be sure the following is a chapter or update name -->
-The following chapter presents a more detailed discussion of the rational behind the research of this dissertation, and a summary and conceptual contribution of the main results.
+\Cref{s:rationale} presents a more detailed discussion of the rational behind the research of this dissertation, and a summary and conceptual contribution of the main results.
 
 # Rationale of the current research
 \label{s:rationale}
 
-<!-- TODO: move here research questions? or just give a brief paragraph with summary of this chapter -->
-<!-- Better to put the three questions as questions here! -->
-This research project had three broad aims (questions).
-First, I sought to obtain acoustic and articulatory data using modern methods which would shed light on the production accounts of the voicing effect put forward in the past century.
+This research project has three broad aims.
+First, I sought to obtain acoustic and articulatory data using modern methods which can shed light on the production accounts of the voicing effect put forward in the past century.
 The second main objective was to enlighten the debate on reported cross-linguistic differences by conducting an analysis which encompasses three related but contrasting languages.
 The papers in Part II offer evidence in relation to these goals.
-<!-- Question 3 -->
-<!-- TODO: say here what this chapter is about -->
-<!-- say quesrtions are discussed in more detail in next section-->
+The third aim was to carefully (re)consider previous and current results in light of the methodological debates related to the Open Science movement (\Cref{s:openscience}).
+This three aims correspond to the following questions:
 
-<!-- TODO: why part exploratory part confirmatory -->
-<!-- TODO: put here the three questions as questions? -->
+1. What is the diachronic articulatory source of the voicing effect, and what can synchronic acoustic and articulatory data tell us about the possible pathway to the emergence of the voicing effect?
+2. How can the comparison of three contrasting languages enlighten the debate of the source of the voicing effect?
+3. How can we effectively apply Open Science practices in phonetic research, and what level of confidence can we assign to the results?
+
+This chapter is an overview of how these three questions have been addressed and of the results.
+
 Another fundamental aspect of this research project is that its development is composed of two stages: an exploratory (hypothesis-generating) stage, and a confirmatory (hypothesis-testing) stage (on the exploratory/confirmatory dichotomy, see \citet{tukey1980} and \Cref{s:stand}).
 These stages correspond to Study I and Study II respectively, an overview of which is given in \Cref{s:studyi} and \Cref{s:studyii}.
-Research questions at the exploratory stage (Study I) were formulated while being agnostic in regards to specific hypotheses.
-Rather, the literature reviewed in [...] formed the basis for a set of general questions about articulatory properties of VC sequences.
-This set of general questions justified the experimental design of Study I (\Cref{s:studyi}).
-for example...
-More specific questions emerged while performing exploratory data analyses.
-for example...
-confirmatory Study II
+The research questions at the exploratory stage (Study I) were formulated while being agnostic in regards to specific hypotheses.
+Rather, the literature reviewed in \Cref{s:ve} formed the basis for a set of general questions about articulatory properties of VC sequences.
+These questions justified the experimental design of Study I (\Cref{s:studyi}).
+More specific questions emerged while performing exploratory data analyses at this stage.
+Finally, new hypotheses were generated by the exploratory phase, which justified a confirmatory study (Study II, \Cref{s:studyii}).
+Finally, questions pertaining to a comparison across languages and replication of previous results spanned across the two stages, and their discussion is brought up at different points across the dissertation.
 
-<!-- TODO: some questions span across the two stages, exploratory and confirmatory, like for example comparison across languages and replication of previous results -->
-
-The following sections will talk about...
+\Cref{s:resq} discusses in detail the research questions and a justificatio of methods.
+\Cref{s:langsample} is an overview of the chosen languages and of relevant aspects of their phonological systems.
+Finally, \Cref{s:sumresults} is a preview of the results.
 
 ## Research questions
 \label{s:resq}
 
-<!-- TODO: make questions into text and link to lit review and individual studies -->
-<!--
-1. What is the diachronic source of the voicing effect? Or what can synchronic acoustic and articualtory data (production data) tell us about the possible source and the various accounts of the VE? We can do that by compraing two languages that behave differently... Italian and Polish study + English study
-2. Cross-ling comparison.
-3. Apply OS things.
- -->
-
-<!-- TODO: explain why methods are good for answering these questions and why languages where chosen -->
+<!-- Question number 1 -->
 The first research question concerns the source of the voicing effect, or, in other words, the diachronic pathway that led or can lead to the emergence of the voicing effect in any particular language.
-More specifically, the questions asks how languages can develop the voicing effect and which speech aspects play a role in such development.
+More specifically, the question asks how a language can develop the voicing effect and which speech aspects play a role in such development.
 The long-standing debate about the source of the voicing effect in light of the different proposals discussed in \Cref{s:accounts}, whether articulatory or perceptual, is evidence for the difficulty of selecting a single property of speech that is behind the differential duration of vowels followed by voiceless vs voiced stops.
-Moreover, the existence of durational phenomena related to other phonation types than voicing, like aspiration and ejection ([...]), call for an approach to the understanding of the voicing effect that is independent from voicing per se, while still limiting the investigation on the voicing contrast.
+Moreover, the existence of durational phenomena related to phonation types other than voicing, like aspiration and ejection (\Cref{s:beyond}), call for an approach to the understanding of the voicing effect that is independent from voicing per se, while still limiting the investigation to the voicing contrast.
 Such an approach allows us to formulate an account that future research can generalise and apply to other durational phenomena (related to phonation or not).
 Furthermore, note that the focus of the current research is on how the voicing effect emerges in the first place, and not how individual languages exploit or not the effect to enhance cues of phonological contrast.
 
 A window into possible diachronic developments is offered by the investigation of cross-linguistic synchronic data, an approach taken here.
 This approach is justified by the idea that diacronic change draws upon synchronic variation and that synchronic variation is the outcome of diachronic change \citep{blevins2004, blevins2006, cristofaro2012, cristofaro2014, bermudez-otero2015}.
-Such view of synchrony/diachrony entanglement enables the use of synchronic information to infer possible diachronic changes that might have led to the current synchronic state.
+The view of synchrony/diachrony entanglement enables the use of synchronic information to infer possible diachronic changes that might have led to the current synchronic state.
 
 <!-- TODO: in discussion, mention again perceptual factors as factors that enhance the VE and link back to the English paper -->
-<!-- TODO: include references for prod vs percept, and for oral vs laryngeal accounts -->
-In light of the complexity of the durational effects reviewed in [...], I further decided to limit the scope of the investigation to aspects of production, while keeping an open mind about perceptual factors, as discussed in [... discussion].
+In light of the complexity of the durational effects reviewed in \Cref{s:ve}, I further decided to limit the scope of the investigation to aspects of production, while keeping an open mind about perceptual factors, as discussed in [... discussion].
 This choice was based in part on the relative paucity of recent articulatory data of the voicing effect in relation to, for example, acoustics and perception, and in part on the greater number of production accounts of the voicing effect relative to that of perception accounts.
 <!-- TODO: probably need references for the claim that there is not much modern articulatory data and that the are more prod than percept accounts? -->
-Furthermore, the production accounts reviewed in \Cref{s:accounts} deal either with oral (tongue) gestures or laryngeal gestures.
-In order to potentially identify properties of these two types of gestures it seemed a natural choice to use ultrasound tongue imaging and electroglottography in combination with acoustics as the three sources of data.
-In particular, the data collection sought to obtain data on segment durations, timing of the consonantal gestures, and properties of vocal fold vibration, given the focus on these features in the literature reviewed in \Cref{s:ve}.
-Given that the voicing effect (and related durational phenomena) has been prevalently if not exclusively defined and dealt with in terms of acoustic segmental durations, the same approach is used here, and analysis of acoustic durations will be at the core of the analyses presented in the Part [...].
+Furthermore, the production accounts reviewed in \Cref{s:accounts} deal either with oral (tongue) or laryngeal articulations.
+In order to potentially identify properties of these two types of gestures it seemed a natural choice to use ultrasound tongue imaging and electroglottography in combination with acoustics as three sources of data.
+In particular, the research sought to obtain data on segment durations, timing of the consonantal gestures, and properties of vocal fold vibration, given the focus on these features in the literature reviewed in \Cref{s:ve}.
+Given that the voicing effect (and related durational phenomena) has been prevalently if not exclusively defined and dealt with in terms of acoustic segmental durations, the same approach is used here, and analysis of acoustic durations will be at the core of the analyses presented in Part [...].
 
-<!-- TODO: mention papers? -->
-A convenient way to investigate mechanic properties underlying the effect of voicing on vowel durations is to consider languages in which the effect has not been claimed to be phonologised, discussed in \Cref{s:ve-phonologise}.
+A convenient way to investigate mechanic properties underlying the effect of voicing on vowel durations is to consider languages in which the effect has not been claimed to be phonologised (\Cref{s:ve-phonologise}).
 Moreover, comparing two languages that differ in the presence or degree of vowel durational differences can uncover variation motivating cross-linguistic differences.
 Italian and Polish are two good candidates in that they satisfy both of these requirements.
 Moreover, their phonological systems allow for a somewhat direct comparison.
 For these reasons, an exploratory study of Italian and Polish (Study I) was carried out to examine the influence of voiceless and voiced stops on vowel duration.
 \Cref{s:studyi} contains a description of the methods employed in Study I, while \Cref{p:relrel}, \Cref{p:tra}, and \Cref{p:wavegram} report the results.
-Note that, with the terms "voiceless" and "voiced", I refer to the phonemic (lexical) contrast defined at an abstract level, rather than to the actual phonetic implementation of such contrast, as detailed in \Cref{s:voi-comp}.
+Note that, with the terms "voiceless" and "voiced", I refer to the linguistic reading of "voicing", rather than to the physical implementation of such contrast, as detailed in \Cref{s:voi-comp}.
 This approach is generally helpful in light of the distinction between aspirating vs. true-voicing languages \citep{beckman2013}, and in the case of English in particular \citep{docherty1992}, which is the subject of Study II.
 Furthermore, I focus here on voicing as a categorical lexical contrast, given this is the approach followed by most of the relevant literature.
 Future work is warranted to ascertain the role of a gradient/continous operationalisation of voicing.
 
-<!-- TODO: Why English? -->
-<!-- Question 1bis. -->
 As a follow up of Study I, Study II set out to investigate in English the patterns observed in Study I in Italian and Polish.
 English was chosen as a further test language given the abundance of previous work dealing with different aspects of the English voicing effect.
 Moreover, virtually all the accounts reviewed in \Cref{s:accounts} were originally posited based on English data.
 A second reason behind this choice is that English allows us to look into differences between word-medial and word-final contexts.\footnote{Note that Polish would not be a good candidate because of word-final neutralisation of voicing \citep{gussmann2007}.}
 This is warranted based on the reported difference in magnitude of the voicing effect in word-medial and word-final position, as mentioned in \Cref{s:ve-phonphon-fact}.
-Finally, ...
-An overview of the methods of Study II is given in \Cref{s:studyii}, while \Cref{p:en-relrel} presents and discusses the study and its results in details.
+An overview of the methods of Study II is given in \Cref{s:studyii}, while \Cref{p:en-relrel} presents and discusses the study and its results.
 
 <!-- Question number 2 -->
 The second question this dissertation set out to answer is concerned with a cross-linguistic comparison of the voicing effect.
@@ -530,6 +518,7 @@ In light of the concepts and issues reviewed in \Cref{s:openscience}, the resear
 The following section gives a description of the main phonological features of Italian, Polish, and English, paving the way to the preview of the results in \Cref{s:sumresults} and the discussion of the methods in \Cref{s:methods}.
 
 ## Language sample
+\label{s:langsample}
 
 This section gives an overview of the phonological systems of Italian, Polish, and English, which will set the stage for the preview of the results in the following section and the discussion of these in the second part of the dissertation.
 Note that when referring to languages, the languoid model is implicitly assumed \citep{cysouw2013}.
@@ -537,7 +526,7 @@ A languoid is the pairing of a glossonym (a name that refers to a languoid or do
 In turn, a doculect is the pairing of a glossonym with a specific publication (in any form, for example a book with the grammatical description of the doculect, or an article focussing on a linguistic specific aspect).
 Languoids can be hierarchical, so that a languoid can be composed of other languoids, and so on.
 The doculects in this dissertation are referred to by the glossonyms *Italian*, *Polish*, and *Manchester English*.
-The Italian doculect can be included in the languoid Italian [glottocode: ital1282], the Polish doculect in the languoid Polish [glottocode: poli1260], and the Manchester English doculect (*English* for short in this dissertation) in Western Central English [glottocode: west2900].\footnote{Languoid classification is controversial, as much as traditional language classification, so that classification decisions are taken here without fully committing to them. The classification adopted here does not directly bear on the research results. Future work is warranted for a more thorough classification.}
+The Italian doculect is included in the languoid Italian [glottocode: ital1282], the Polish doculect in the languoid Polish [glottocode: poli1260], and the Manchester English doculect (*English* for short in this dissertation) in Western Central English [glottocode: west2900].\footnote{Languoid classification is controversial, as much as traditional language classification, so that classification decisions are taken here without fully committing to them. The classification adopted here does not directly bear on the research results. Future work is warranted for a more thorough classification.}
 
 <!-- TODO: say that you use vowel categories as comparative concepts here too! since each phoneme makes sense only within the system it is from (Haspelmath cites Trubetskoj). -->
 
@@ -589,8 +578,7 @@ Although the exact phonemic inventory of Italian is still debated, especially fo
 
 Italian contrasts consonants along five (phonological) places of articulation: labial (phonetically either bilabial or labiodental), dental, alveolar, palatal (palatal and post-alveolar), and velar.
 Stops (true stops and affricates) and fricatives contrast for voicing, although note that /z/ has limited functional load \citep{bertinetto2005} and /ʒ/ is relegated to loan words.
-<!-- add what? -->
-The Italian voicing contrast is usually described to be between voiceless unaspirated consonants and fully voiced consonants \citep{vagges1978, bortolini1995, pape2014, kirby2016}.
+The Italian voicing contrast is usually described in terms of an oppoistion between voiceless unaspirated consonants and fully voiced consonants \citep{vagges1978, bortolini1995, pape2014, kirby2016}.
 <!-- TODO: VOT -->
 \citet{pape2014} shows that Italian speakers tend to perceive stops without a burst following the release as voiced consonants, independent of the duration of voicing during closure.
 While it is not clear which acoustic cue is employed by Italian speakers to discriminate voiceless and voiced consonants, \citet{pape2014} find in their production study that Italian consistently articulate (velar) stops with full voicing during closure.
@@ -599,7 +587,7 @@ The vocalic system in \Cref{t:itavow} is found in stressed syllables, although t
 In unstressed syllables, there is no contrast between mid-high and mid-low vowels, and these vowels are articulated as either mid-high or mid-low depending on the variety of Italian \citep{rogers2004, renwick2016}.
 Although vowel duration is not contrastive \citep{rogers2004, kramer2009, renwick2016}, vowels are longer when they appear in a stressed open syllable (/fa.to/ [faːto] 'fate') and shorter when the syllable is closed (/fat.to/ [fatto] 'fact').
 
-Stress in Italian is contrastive (non-predicable), and main lexical stress is generally placed on one of the last three syllables \citep{imperio1999, kramer2009}.
+Stress in Italian is contrastive (non-predicable), and main lexical stress is generally placed on one of the last three syllables \citep{dimperio1999, kramer2009}.
 The basic foot is a maximally bimoraic trochee \citep{kramer2009}.
 Italian is traditionally ascribed to the syllable-timed class of rhythmic typology \citep{pike1945}.
 However, properties of stress-timed languages (like vowel reduction) can also be observed in Italian, depending on the regional variety \citep{white2009, giordano2010, pamies-bertran1999}.
@@ -682,12 +670,12 @@ approximant & w      &        &          &               & j       &       &    
 
 In order to avoid influences of regional differences in English, especially in the vowel system, Study II (\Cref{s:studyii}) was restricted to Manchester English.\footnote{Due to the difficulty of recruiting speakers of Italian and Polish in Manchester and in the field in Italy, such approach was not possible for these languages.}
 
-The consonant system of Manchester English minimally diverges from the general Southern British English system (\Cref{t:engcons}), which is non-rhotic, with the notable exceptions of the so-called "T-glottaling" (realisation of /t/ in non-foot-initial position as [ʔ]), "TH-fronting" (realisation of /θ, ð/ and [f, v]), "H-dropping", and "velar nasal plus" (realisation of /ŋ/ as [ŋg/]) \citep{baranowski2015, baranowski2016, bermudez-otero2016, coretta2018i, bailey2019, bailey2019a}.
-The Manchester English consonantal phonemes belong to one of seven places of articulation (labial, dental, alveolar, post-alveolar, palatal, velar, glottal) and seven manner of articulation (plosive, fricative, affricate, nasal, lateral, rhotic, approximant).
+The consonant system of Manchester English minimally diverges from the general Southern British English system (\Cref{t:engcons}), which is non-rhotic, with the notable exceptions of the so-called "T-glottaling" (realisation of /t/ in non-foot-initial position as [ʔ]), "TH-fronting" (realisation of /θ, ð/ and [f, v]), "H-dropping", and "velar nasal plus" (realisation of /ŋ/ as [ŋg/]) \citep{baranowski2015, baranowski2016, bermudez-otero2016, coretta2018i, bailey2019a, bailey2019}.
+The consonantal phonemes of Manchester English belong to one of seven places of articulation (labial, dental, alveolar, post-alveolar, palatal, velar, glottal) and seven manner of articulation (plosive, fricative, affricate, nasal, lateral, rhotic, approximant).
 
-While voicing in Manchester English has not been systematically investigated, the literature on voicing in English in general is vast [...].
-English obstruents (plosives, fricatives, affricates) contrast for what has been traditionally described as voicing (...), which is also reflected in the standard use of IPA voiceless and voiced symbols.
-However, the actual articulatory implementation of the contrast is constituted by a complex set of features and it is affected by other phonological factors, like syllabic structure and stress \citep{lisker1986}.
+While voicing in Manchester English has not been systematically investigated, the literature on voicing in English in general is vast (for a review, see \citealt{davidson2016}).
+English obstruents (plosives, fricatives, affricates) contrast for what has been traditionally described as voicing, which is also reflected in the standard use of IPA voiceless and voiced symbols.
+However, the actual articulatory implementation of the contrast is constituted by a complex set of features and it is affected by other phonological factors, like syllabic structure and stress \citep{lisker1986, docherty1992}.
 Generally speaking, while the voicing contrast in word-medial position especially after stressed vowels is between a category with voicing during closure (voiced category) and one without it (voiceless category), in pre-stressed position and especially in word-initial position the contrast is between two voiceless categories that differ in voice onset time (short VOT vs long VOT, with no vibration of the vocal folds during closure in the former).
 
 Another relevant dimension is the type of phonation used by speakers to encode the voicing contrast in English.
@@ -709,11 +697,11 @@ low  & æ     &         & ɒ ɑː \LL
 ```
 
 Manchester English distinguishes short and long vowels (\Cref{t:engvows}), which differ in duration and quality.
-The split between /ʊ/ and /ʌ/ (respectively \textsc{foot} and \textsc{strut} in Well's lexical set, \citealt{wells1892}) present in many varieties of English is not in Manchester English (as in Northern English more generally), so that there is a single vowel category realised as [ʊ] \citep{baranowski2015}.
-Other features of Manchester English vocalic system are the fronting of /uː/, and the laxing of the *happ*\textsc{y} vowel (the final vowel in words like *happy*, *city*, *duty*) to [ɛ] in word-final position.
+The split between /ʊ/ and /ʌ/ (respectively \textsc{foot} and \textsc{strut} in Well's lexical set, \citealt{wells1982}) present in many varieties of English is not in Manchester English (as in Northern English more generally), so that there is a single vowel category realised as [ʊ] \citep{baranowski2015}.
+Other features of the vocalic system in Manchester English are the fronting of /uː/, and the laxing of the *happ*\fauxsc{y} vowel (the final vowel in words like *happy*, *city*, *duty*) to [ɛ] in word-final position.
 
 Lexical stress is contrastive in English \citep{giegerich1992}.
-English is more or less uncontroversially regarded as a stress-timing language \citep{classe1939, pike1946, abercrombie1967, grabe2002}.
+English is more or less uncontroversially regarded as a stress-timing language \citep{classe1939, pike1945, abercrombie1967, grabe2002}.
 
 <!--
 \begin{vowel}
