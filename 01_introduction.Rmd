@@ -542,7 +542,8 @@ The Italian doculect can be included in the languoid Italian [glottocode: ital12
 
 ### Italian
 
-\ctable[caption = Italian consonant phonemes (adapted from \citealt{kramer2009}).,
+```{=latex}
+\ctable[caption = Italian consonant phonemes(adapted from Kramer 2009).,
 label = t:itacons,
 ]{llllll}{}{
 FL
@@ -554,8 +555,10 @@ lateral     &        &        & l        & ʎ       &       \NN
 rhotic      &        &        & r        &         &       \NN
 approximant & w      &        &          & j       &       \LL
 }
+```
 
-\ctable[caption = Italian vocalic phonemes (adapted from \citealt{kramer2009}).,
+```{=latex}
+\ctable[caption = Italian vocalic phonemes (adapted from Kramer 2009).,
 label = t:itavow,
 ]{llll}{}{
 \FL
@@ -565,6 +568,7 @@ mid-high & e     &         & o    \NN
 mid-low  & ɛ     &         & ɔ    \NN
 low      &       & a       &      \LL
 }
+```
 
 <!--
 \begin{vowel}
@@ -599,7 +603,8 @@ However, properties of stress-timed languages (like vowel reduction) can also be
 
 ### Polish
 
-\ctable[caption = Polish consonant phonemes (adapted from \citealt{jassem2003}).,
+```{=latex}
+\ctable[caption = {Polish consonant phonemes (adapted from \citealt{jassem2003}).},
 label = t:polcons,
 ]{lllllll}{}{
 \FL
@@ -611,8 +616,9 @@ nasal       & m      & n      &          &              &         & ŋ     \NN
 lateral     &        & l      &          &              &         &       \NN
 rhotic      &        &        & r        &              &         &       \NN
 approximant & w      &        &          &              &         &       \LL
+}
 
-\ctable[caption = Polish vocalic phonemes (adapted from \citealt{jassem2003}).,
+\ctable[caption = Polish vocalic phonemes (adapted from Jassem 2003).,
 label = t:polvow,
 ]{llll}{}{
 \FL
@@ -622,6 +628,7 @@ mid-high &       & ɨ       &      \NN
 mid-low  & ɛ ɛ̃   &         & ɔ ɔ̃  \NN
 low      &       & a       &      \LL
 }
+```
 
 <!--
 \begin{vowel}
@@ -654,7 +661,8 @@ As for the class of rythmic typology, Polish exhibits features from both stresse
 
 ### English
 
-\ctable[caption = English consonant phonemes ().,
+```{=latex}
+\ctable[caption = English consonant phonemes.,
 label = t:engcons,
 ]{llllllll}{}{
 \FL
@@ -666,6 +674,8 @@ nasal       & m      &        & n        &               &         & ŋ     &   
 lateral     &        &        & l        &               &         &       &         \NN
 rhotic      &        &        &          & r             &         &       &         \NN
 approximant & w      &        &          &               & j       &       &        \LL
+}
+```
 
 In order to avoid influences of regional differences in English, especially in the vowel system, Study II (\Cref{s:studyii}) was restricted to Manchester English.\footnote{Due to the difficulty of recruiting speakers of Italian and Polish in Manchester and in the field in Italy, such approach was not possible for these languages.}
 
@@ -683,7 +693,8 @@ Moreover, no evidence was found for a correlation between the type of phonation 
 The authors interpret this finding to mean that the speaker's voice quality settings and the use of one phonation type over another are decoupled, and that preaspiration, glottalisation, and ejection play an important role in the speaker-specific phonologisation of the contrast.
 The sociolinguistic aspects of voicing investigated in these studies stress the multidimentional nature of the English voicing contrast.
 
-\ctable[caption = Northern British English vowel monophthong phonemes \citep{orton1962, wells1892}.,
+```{=latex}
+\ctable[caption = {Northern British English vowel monophthong phonemes (Orton 1962, Wells 1892).},
 label = t:engvows,
 ]{llll}{}{
 \FL
@@ -692,6 +703,7 @@ high & ɪ iː  &         & ʊ uː \NN
 mid  & ɛ     & ə ɜː    & ɔː   \NN
 low  & æ     &         & ɒ ɑː \LL
 }
+```
 
 Manchester English distinguishes short and long vowels (\Cref{t:engvows}), which differ in duration and quality.
 The split between /ʊ/ and /ʌ/ (respectively \textsc{foot} and \textsc{strut} in Well's lexical set, \citealt{wells1892}) present in many varieties of English is not in Manchester English (as in Northern English more generally), so that there is a single vowel category realised as [ʊ] \citep{baranowski2015}.
