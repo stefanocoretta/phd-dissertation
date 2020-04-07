@@ -766,7 +766,7 @@ It is proposed that these three interacting aspects play a role in driving the d
 
 The conceptual contribution of this dissertation, as summarised in the previous paragraphs, is accompanied by an advancement of methodologies in phonetic data analysis and research more generally.
 \Cref{p:wavegram} and \Cref{a:polar-gams} introduce two methods for the analysis of electroglottographic data and tongue contours using generalised additive modelling.
-The application of generalised additive models on electroglottographic data allows us to obtain a dynamic and multidimentional view of vibratory properties of the vocal folds (\Cref{\Cref{p:wavegram}}).
+The application of generalised additive models on electroglottographic data allows us to obtain a dynamic and multidimentional view of vibratory properties of the vocal folds (\Cref{\Cref{p:wavegram}).
 This constitutes an improvement from methods that reduce the multidimentionality of fold vibration to a single measure, like the closed quotient.
 \Cref{a:polar-gams} in the Appendix shows how generalised additive modelling can be used with tongue contour data to control for complex random-effect structures.
 Modelling is exemplified by means of a comparison of tongue contours obtained from the time of maximum constriction of voiceless and voiced stops in Italian and Polish, which corroborates the between-speaker differences observed in \Cref{p:tra}.
