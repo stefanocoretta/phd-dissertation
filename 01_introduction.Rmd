@@ -735,7 +735,7 @@ The following paragraphs summarise the contribution of each original publication
 \Cref{p:relrel} deals with Italian and Polish acoustic data, and it shows that vowel-consonant sequences are embedded within a speech interval that is temporally stable across voicing contexts.
 This paper discusses mechanisms of compensation between vowel and consonant closure duration within such interval.
 \Cref{p:en-relrel} extends these findings to English, by comparing durational properties of monosyllabic and disyllabic words.
-More specifically, I discuss how differences in the gestural organisation of mono- vs disyllabic words illuminates us on diachronic pathways and perceptual biases behind the voicing effect in these two phonological contexts.
+More specifically, I discuss how differences in the gestural organisation of mono- vs disyllabic words illuminates the debate on diachronic pathways and perceptual biases behind the voicing effect in these two phonological contexts.
 In \Cref{a:ve-eng} of the Appendix, I relate the current results with those from previous work, by means of a meta-analytical study of the English voicing effect.
 
 Based on data from disyllabic words of Italian, Polish (\Cref{p:relrel}), and English (\Cref{p:en-relrel}), it is demonstrated that the duration of the speech interval between the releases of two stops flanking a stressed vowel is not affected by the voicing status of the post-vocalic consonant.
@@ -745,7 +745,7 @@ As a side effect of the release-to-release temporal stability, the timing of the
 As a consequence, shorter vowels are followed by the longer closures of voiceless stops, while longer vowels are followed by the shorter closure of voiced stops.
 
 The results of English monosyllabic words, on the other hand, show that in this context the release-to-release interval is longer when the post-vocalic consonant is voiced (\Cref{p-en-relrel}).
-The absence of release-to-release temporal stability in monosyllabic words is argued in Paper II to be related to the absence of vowel-to-vowel isochrony, which in turn is a consequence of the lack of a second vowel functioning as a temporal anchor.
+The absence of release-to-release temporal stability in monosyllabic words is argued in \Cref{p:en-relrel} to be related to the absence of vowel-to-vowel isochrony, which in turn is a consequence of the lack of a second vowel functioning as a temporal anchor.
 The respective durations of vowel and closure can thus be modified independently, fact that speakers can exploit to enhance the voicing contrast. Contrast enhancement can be obtained by manipulating the ratio between the duration of the vowel and that of the closure without the constraint of keeping the release-to-release duration stable, as in disyllabic words.
 The presence of the voicing effect in monosyllabic words is conjectured to have emerged as a consequence of mechanisms affecting the timing of the consonant closure onset, in accordance with the rate of closure and laryngeal adjustment accounts of the voicing effect.
 \Cref{p:tra} and \Cref{p:wavegram} offer insights about these accounts in relation to tongue root advancement and glottal spreading respectively.
@@ -766,14 +766,20 @@ It is proposed that these three interacting aspects play a role in driving the d
 
 The conceptual contribution of this dissertation, as summarised in the previous paragraphs, is accompanied by an advancement of methodologies in phonetic data analysis and research more generally.
 \Cref{p:wavegram} and \Cref{a:polar-gams} introduce two methods for the analysis of electroglottographic data and tongue contours using generalised additive modelling.
-The application of generalised additive models on electroglottographic data allows us to obtain a dynamic and multidimentional view of vibratory properties of the vocal folds (\Cref{\Cref{p:wavegram}).
+The application of generalised additive models on electroglottographic data allows us to obtain a dynamic and multidimentional view of vibratory properties of the vocal folds (\Cref{p:wavegram}).
 This constitutes an improvement from methods that reduce the multidimentionality of fold vibration to a single measure, like the closed quotient.
-\Cref{a:polar-gams} in the Appendix shows how generalised additive modelling can be used with tongue contour data to control for complex random-effect structures.
+\Cref{a:polar-gams} in the Appendix shows how generalised additive modelling can be used with tongue contour data in polar coordinates to control for a complex combination of effects.
 Modelling is exemplified by means of a comparison of tongue contours obtained from the time of maximum constriction of voiceless and voiced stops in Italian and Polish, which corroborates the between-speaker differences observed in \Cref{p:tra}.
 
-Research methods...
-Bayesian...
-OS which encompasses this whole research project.
+This dissertation is also an example of how state-of-the-art research methods can be applied to lingusitic research.
+The methods adopted in this dissertation were influenced by the Open Science movement.
+All the research materials (data, code, documentation) are available for download (<https://osf.io/w92me/>).
+In interpreting the results, more emphasis was given to estimation of parmeters in statistical models, and to the degree of uncertainty surrounding it.
+To facilitate this endeavour, Bayesian statistics was applied to address a subset of the research questions.
+Finally, custom research-management and analysis tools were developed in the form of R packages.
+
+The following chapter, \Cref{s:methods}, is overview of the reaserch methods of Study I (\Cref{s:studyi}) and Study II (\Cref{s:studyii}).
+\Cref{s:openscience} introduces the principles of Open Science and discusses how they shaped the current project.
 
 # Methods
 \label{s:methods}
