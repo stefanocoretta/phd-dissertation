@@ -371,7 +371,7 @@ The prior for the effect of centred speech rate is a normal distribution with me
 For the random effects, a half Cauchy distribution (location = 0, scale = 25) was used for the standard deviation and the residual standard deviation, and a LKJ(2) distribution for the correlation among the random terms.
 
 ```{r rr-1-table}
-rr_1_tidy <- tidy(rr_1, effect = "fixed", conf.int = TRUE) %>% select(-effect, -component) %>% mutate(term = c("Intercept", "Voicing = voiced", "Num. syll. = monosyllabic", "Speech rate (cntr.)", "voiced × monosyll.")) %>% rename(Predictor = term, Mean = estimate, SD = std.error, Q2.5 = conf.low, Q97.5 = conf.high) %>% mutate(`CI width` = abs(Q2.5 - `Q97.5`))
+rr_1_tidy <- fixef(rr_1) %>% as_tibble(rownames = "Predictor") %>% mutate(Predictor = c("Intercept", "Voicing = voiced", "Num. syll. = monosyllabic", "Speech rate (cntr.)", "voiced × monosyll.")) %>% rename(Mean = Estimate, SD = Est.Error) %>% mutate(`CI width` = abs(`Q2.5` - `Q97.5`))
 
 kable(rr_1_tidy, format = "latex", booktabs = TRUE, linesep = "", digits = 2, caption = "Summary of the Bayesian regression fitted to release-to-release duration (model 1, see \\Cref{s:rr}).") %>%
 kable_styling(font_size = 10)
@@ -421,7 +421,7 @@ For the effects of vowel (/ɜː/, /iː/) and place of articulation (labial), the
 This prior was based on duration differences depending on vowel height \citep{heffner1937, house1953, hertrich1997} and labial place of articulation \citep{sharf1962}, which both range between 10 and 30 ms.
 
 ```{r rr-2-table}
-rr_2_tidy <- tidy(rr_2, effect = "fixed", conf.int = TRUE) %>% select(-effect, -component) %>% mutate(term = c("Intercept", "Vowel = /ɜː/", "Vowel = /iː/", "C2 place = labial", "Speech rate (cntr.)")) %>% rename(Predictor = term, Mean = estimate, SD = std.error, Q2.5 = conf.low, Q97.5 = conf.high) %>% mutate(`CI width` = abs(Q2.5 - `Q97.5`))
+rr_2_tidy <- fixef(rr_2) %>% as_tibble(rownames = "Predictor") %>% mutate(Predictor = c("Intercept", "Vowel = /ɜː/", "Vowel = /iː/", "C2 place = labial", "Speech rate (cntr.)")) %>% rename(Mean = Estimate, SD = Est.Error) %>% mutate(`CI width` = abs(`Q2.5` - `Q97.5`))
 
 kable(rr_2_tidy, format = "latex", booktabs = TRUE, linesep = "", digits = 2, caption = "Summary of the Bayesian regression fitted to release-to-release duration (model 2, see \\Cref{s:rr}).") %>%
 kable_styling(font_size = 10)
@@ -490,7 +490,7 @@ The release-to-release is on average 10.05 ms (SD = 2.95, 95% CI = [−15.92, �
 C2 place of articulation (labial) has a negligible positive mean effect (2.6 ms, SD = 2.39, 95% CI = [−2.29, 7.28]).
 
 ```{r rr-3-table}
-rr_3_tidy <- tidy(rr_3, effect = "fixed", conf.int = TRUE) %>% select(-effect, -component) %>% mutate(term = c("Intercept", "Voicing = voiced", "Num. syll. = monosyllabic", "Vowel = /ɜː/", "Vowel = /iː/", "C2 place = labial", "Speech rate (cntr.)", "voiced × monosyll.")) %>% rename(Predictor = term, Mean = estimate, SD = std.error, Q2.5 = conf.low, Q97.5 = conf.high) %>% mutate(`CI width` = abs(Q2.5 - `Q97.5`))
+rr_3_tidy <- fixef(rr_3) %>% as_tibble(rownames = "Predictor") %>% mutate(Predictor = c("Intercept", "Voicing = voiced", "Num. syll. = monosyllabic", "Vowel = /ɜː/", "Vowel = /iː/", "C2 place = labial", "Speech rate (cntr.)", "voiced × monosyll.")) %>% rename(Mean = Estimate, SD = Est.Error) %>% mutate(`CI width` = abs(`Q2.5` - `Q97.5`))
 
 kable(rr_3_tidy, format = "latex", booktabs = TRUE, linesep = "", digits = 2, caption = "Summary of the Bayesian regression fitted to release-to-release duration and predictors from model 1 and 2 (model 3, see \\Cref{s:rr}).") %>%
 kable_styling(font_size = 10)
@@ -576,7 +576,7 @@ A slightly more informative prior was used for the interaction between C2 voicin
 The same priors as in the previous models were included for the random effects.
 
 ```{r vow-4-table}
-vow_4_tidy <- tidy(vow_4, effect = "fixed", conf.int = TRUE) %>% select(-effect, -component) %>% mutate(term = c("Intercept", "Voicing = voiced", "Vowel = /ɜː/", "Vowel = /iː/", "Num. syll. = monosyllabic", "Speech rate (cntr.)", "voiced × /ɜː/", "voiced × /iː/", "voiced × monosyll.", "/ɜː/ × monosyll.", "/iː/ × monosyll.", "voiced × /ɜː/ × monosyll.", "voiced × /iː/ × monosyll.")) %>% rename(Predictor = term, Mean = estimate, SD = std.error, Q2.5 = conf.low, Q97.5 = conf.high) %>% mutate(`CI width` = abs(Q2.5 - `Q97.5`))
+vow_4_tidy <- fixef(vow_4) %>% as_tibble(rownames = "Predictor") %>% mutate(Predictor = c("Intercept", "Voicing = voiced", "Vowel = /ɜː/", "Vowel = /iː/", "Num. syll. = monosyllabic", "Speech rate (cntr.)", "voiced × /ɜː/", "voiced × /iː/", "voiced × monosyll.", "/ɜː/ × monosyll.", "/iː/ × monosyll.", "voiced × /ɜː/ × monosyll.", "voiced × /iː/ × monosyll.")) %>% rename(Mean = Estimate, SD = Est.Error) %>% mutate(`CI width` = abs(`Q2.5` - `Q97.5`))
 
 kable(vow_4_tidy, format = "latex", booktabs = TRUE, linesep = "", digits = 2, caption = "Summary of the Bayesian regression fitted to vowel duration (model 4, see \\Cref{s:vow}).") %>%
 kable_styling(font_size = 10)
@@ -675,7 +675,7 @@ The same studies indicate that labial stops have a closure which is 10-20 ms lon
 For the effect of C2 place, a normal distribution with mean 15 ms (SD = 10) was used.
 
 ```{r clos-5-table}
-clos_5_tidy <- tidy(clos_5, effect = "fixed", conf.int = TRUE) %>% select(-effect, -component) %>% mutate(term = c("Intercept", "Voicing = voiced", "C2 place = labial", "Num. syll. = monosyllabic", "Speech rate (cntr.)", "voiced × labial", "voiced × monosyll.", "labial × monosyll.", "voiced × labial × monosyll.")) %>% rename(Predictor = term, Mean = estimate, SD = std.error, Q2.5 = conf.low, Q97.5 = conf.high) %>% mutate(`CI width` = abs(Q2.5 - `Q97.5`))
+clos_5_tidy <- fixef(clos_5) %>% as_tibble(rownames = "Predictor") %>% mutate(Predictor = c("Intercept", "Voicing = voiced", "C2 place = labial", "Num. syll. = monosyllabic", "Speech rate (cntr.)", "voiced × labial", "voiced × monosyll.", "labial × monosyll.", "voiced × labial × monosyll.")) %>% rename(Mean = Estimate, SD = Est.Error) %>% mutate(`CI width` = abs(`Q2.5` - `Q97.5`))
 
 kable(clos_5_tidy, format = "latex", booktabs = TRUE, linesep = "", digits = 2, caption = "Summary of the Bayesian regression fitted to closure duration (model 5, see \\Cref{s:clos}).") %>%
 kable_styling(font_size = 10)
