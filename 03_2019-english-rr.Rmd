@@ -51,11 +51,11 @@ Several hypotheses have been proposed as to the origin of this phenomenon, from 
 One such hypothesis, the compensatory temporal adjustment account, states that the voicing effect involves a compensatory mechanism between vowel and consonant closure duration.
 Vowels are shorter when followed by voiceless stops because the latter have longer closure durations, and, vice versa, vowels are longer before voiced stops because the latter have shorter closure durations.
 However, the compensatory account fails to clearly identify a speech interval within which compensation is implemented.
-Both the syllable \citep{lindblom1967, farnetani1986} and the word \citep{slis1969, slis1969a, lehiste1970a, lehiste1970} have been proposed as such intervals, but these have been subsequently criticised on empirical and logical grounds \citep{chen1970, jacewicz2009, maddieson1976, coretta2018j}.
+Both the syllable \citep{lindblom1967, farnetani1986} and the word \citep{slis1969a, slis1969b, lehiste1970a, lehiste1970b} have been proposed as such intervals, but these have been subsequently criticised on empirical and logical grounds \citep{chen1970, jacewicz2009, maddieson1976, coretta2018j}.
 
 In an exploratory study of acoustic durations in Italian and Polish trochaic CV́CV words, \citet{coretta2018j} finds that the duration of the interval between the two consonant releases is not affected by the voicing status of the second consonant.
 The duration of the release-to-release interval in words where the second consonant is voiceless (like /pata/) is not significantly different from that in words where the second consonant is voiced (for example, /pada/).
-The temporal stability of the release-to-release interval is compatible with a compensatory temporal adjustment account of the voicing effect \citep{lindblom1967, slis1969, slis1969a, lehiste1970a, lehiste1970}, and it offers a resolution to the drawbacks of previous versions of the account.
+The temporal stability of the release-to-release interval is compatible with a compensatory temporal adjustment account of the voicing effect \citep{lindblom1967, slis1969a, slis1969b, lehiste1970a, lehiste1970b}, and it offers a resolution to the drawbacks of previous versions of the account.
 
 Given the temporal stability of the release-to-release interval, the timing of the vowel/consonant (VC) boundary (corresponding to the vowel offset and the consonant closure onset) within that interval will determine the respective durations of vowel and consonant closure.
 Since the VC boundary in voiceless stops is timed earlier within the release-to-release relative to voiced stops, the vowel is shorter and closures is longer when the post-vocalic stop is voiceless than when it is voiced.
@@ -174,7 +174,7 @@ The reported effects are in the range of 50-55 ms in word-final (closed-syllable
 The Bayesian meta-analysis of the voicing effect indicates a mean difference of 50 ms (75 ms in word-final position vs. 25 ms word-medially).
 
 The data in \citet{sharf1962} and \citet{luce1985} indicate that voiced stop closures in English are 10-13 ms shorter than voiceless stop closures.
-Other surveyed studies did not report effect sizes for stop closure durations \citep{port-1979, van-summers1987, de-jong1991}.
+Other surveyed studies did not report effect sizes for stop closure durations \citep{port1979, van-summers1987, de-jong1991}.
 For this study, no specific hypothesis was set in relation to stop closure durations.
 Closure duration was nonetheless investigated as a conceptual replication of previous work.
 Moreover, the estimated posterior distributions can be used to set up priors in the statistical analyses of future studies, in accordance to the Bayesian principle of knowledge update via accumulation of evidence \citep{etz2018}.
@@ -816,7 +816,7 @@ A later VC boundary implies a longer vowel and a shorter closure, while, vice ve
 Behind the differential timing of the VC boundary within the release-to-release interval, several other accounts can be envisaged, like accounts relating to laryngeal and supraglottal adjustments \citep{halle1967, begus2017, coretta2019c}.
 
 As discussed in \Cref{s:gest}, a prerequisite of the articulatory account proposed here for the emergence of the voicing effect is the temporal stability of the acoustic release-to-release interval and of the related articulatory gestures.
-However, it was expected that English mono-syllabic words do not show such temporal stability, even though the voicing effect is present in this context and allegedly even grater than in disyllabic words (although cf. \Cref{s:ve-eng}).
+However, it was expected that English mono-syllabic words do not show such temporal stability, even though the voicing effect is present in this context and allegedly even grater than in disyllabic words (although cf. \Cref{a:ve-eng}).
 
 As mentioned at the end of \Cref{s:gest}, the absence of temporal stability and presence of the voicing effect in monosyllabic words can be reconciled by drawing from known mechanisms of perceptual enhancement.
 Perceptual biases, like the ones proposed by perceptual accounts of the voicing effect \citep{javkin1976, kluender1988, sanker2019}, can contribute to the increase of the effect of voicing, for example as a means to enhance the perceptual difference of voiceless vs. voiced stops \citep{lisker1974, lisker1986, stevens1989}.

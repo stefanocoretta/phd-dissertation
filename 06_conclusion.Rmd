@@ -150,7 +150,7 @@ More work is needed to assess cross-linguistic differences with a sufficiently s
 \label{s:final}
 
 The aim of this dissertation was to investigate properties of speech production that could illuminate the debate on the origin of the effect of consonant voicing on vowel duration.
-While the results of this endeavour contributed to answering the questions introduced in \Cref{s:overview}, some open issues remain and new questions are brought to light.
+While the results of this endeavour contributed to answering the questions introduced in \Cref{s:resq}, some open issues remain and new questions are brought to light.
 The following paragraphs review these and offer some final thoughts on future directions of research.
 
 The use of nonce words in the present experiments might be seen as problematic due to the fact that they might have encouraged unnatural speech.

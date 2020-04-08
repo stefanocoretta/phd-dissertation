@@ -48,7 +48,7 @@ The chapter proceeds with a critical review of the explanatory accounts proposed
 Finally, the chapter concludes with a discussion of the effects of aspiration and ejection on vowel duration, and how these can shed light on the voicing effect.
 
 \Cref{s:rationale} provides a rationale for the current research.
-The research questions addressed in the dissertation are introduced and contextualised in relation to the topics touched upon in \Cref{s:s:ve}.
+The research questions addressed in the dissertation are introduced and contextualised in relation to the topics touched upon in \Cref{s:ve}.
 A justification of the choice of data sources and languages used to answer the research questions is given here.
 This chapter also offers an overview of the phonologies of the chosen languages, namely Italian, Polish, and English.
 For each language, a brief description of the consonantal and vocalic phonemic systems is given, with a focus on aspects of phonation contrasts, followed by a discussion of stress and rhythm.
@@ -744,7 +744,7 @@ While experimental testing of vowel-to-vowel isochrony and vowel-consonant phasi
 As a side effect of the release-to-release temporal stability, the timing of the VC boundary within such interval determines the respective durations of the vowel and the following consonant closure, the latter of which is known to be longer for voiceless than for voiced stops \citep{lisker1957, van-summers1987, davis1989, de-jong1991}.
 As a consequence, shorter vowels are followed by the longer closures of voiceless stops, while longer vowels are followed by the shorter closure of voiced stops.
 
-The results of English monosyllabic words, on the other hand, show that in this context the release-to-release interval is longer when the post-vocalic consonant is voiced (\Cref{p-en-relrel}).
+The results of English monosyllabic words, on the other hand, show that in this context the release-to-release interval is longer when the post-vocalic consonant is voiced (\Cref{p:en-relrel}).
 The absence of release-to-release temporal stability in monosyllabic words is argued in \Cref{p:en-relrel} to be related to the absence of vowel-to-vowel isochrony, which in turn is a consequence of the lack of a second vowel functioning as a temporal anchor.
 The respective durations of vowel and closure can thus be modified independently, fact that speakers can exploit to enhance the voicing contrast. Contrast enhancement can be obtained by manipulating the ratio between the duration of the vowel and that of the closure without the constraint of keeping the release-to-release duration stable, as in disyllabic words.
 The presence of the voicing effect in monosyllabic words is conjectured to have emerged as a consequence of mechanisms affecting the timing of the consonant closure onset, in accordance with the rate of closure and laryngeal adjustment accounts of the voicing effect.
