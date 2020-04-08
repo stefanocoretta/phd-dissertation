@@ -150,40 +150,40 @@ A first major distinction can be drawn between voicing as a physical property an
 Within each of these two classes, further distinctions are possible.
 This section will review the physical and the linguistic sense in turn.
 After providing a physical definition of voicing as periodicity and vocal fold vibration, I will discuss some of the views on how voicing can be defined linguistically.
-Finally, I will introduce the notions of "descriptive category" and "comparative concept" \citep{haspelmath2010} to show that the lingusitic reading of voicing in this dissertation will be in the latter sense.
+Finally, I will introduce the notions of "descriptive category" and "comparative concept" \citep{haspelmath2010} to show that the linguistic reading of voicing in this dissertation will be in the latter sense.
 
 <!-- senses/readings of voicing, physical and linguistic sense -->
 
-From a physical point of view, voicing can be defined either acoustically or phisio-anatomically.
+From a physical point of view, voicing can be defined either acoustically or physio-anatomically.
 Acoustically, voicing is the presence of periodicity in a speech signal.
-The phisio-anatomical source of acoustic periodicity is the cyclic vibration of the vocal folds.
+The physio-anatomical source of acoustic periodicity is the cyclic vibration of the vocal folds.
 A speech interval that is characterised by vocal fold vibration/periodicity is said to be voiced, while an interval that does not have vocal fold vibration is said to be voiceless.
 The terms "voiced" and "voiceless" in this sense refer to the physical properties of the speech interval.
 
 <!-- The mechanics of vocal fold vibration are not yet fully understood. -->
-The initiation of vocal fold vibration requires that the air pressure of the cavity below the vocal folds (broadly speking, the lungs) is higher than that of the cavity above them (the oral tract).
+The initiation of vocal fold vibration requires that the air pressure of the cavity below the vocal folds (broadly speaking, the lungs) is higher than that of the cavity above them (the oral tract).
 The positive trans-glottal air pressure differential is also necessary for the vibration to continue after it is initiated \citep{berg1958, rothenberg1967}.
 This property is formally known as the Aerodynamic Voicing Constraint \citep{ohala2011}.
 Vocal fold vibration in which no active articulatory adjustment is used to ensure the pressure differential is called *passive voicing*.
 The typical class of sounds characterised by passive voicing are sonorants (vowels, nasals, liquids).
-Similarly, the absence of voicing with no cuncurrent adjustments to prevent initiation and maintanence of vocal fold vibration is known as *passive devoicing*.
+Similarly, the absence of voicing with no concurrent adjustments to prevent initiation and maintenance of vocal fold vibration is known as *passive devoicing*.
 Passive devoicing can be observed in the voiceless closure of stops, while a sign of passive voicing is the continuing presence of vocal fold vibration from the preceding voiced sound for some time into the closure (also know as voicing bleed, \citealt{davidson2016}).
 
 Certain articulatory conditions, like a reduced oral tract volume or the full closure of stops consonants, hinder passive voicing by reducing the trans-glottal pressure differential.
 When the pressure differential is 0 (i.e. when pressure equalisation is reached), vocal fold vibration can no longer be maintained and it ceases.
 In such articulatory conditions, several articulatory adjustments can be implemented to counteract pressure equalisation.
-Active adjustmenst require muscular activity.
+Active adjustments require muscular activity.
 Among the solutions to help sustaining vocal fold vibration there are (1) some that decrease supra-glottal pressure like tongue root advancement \citep{kent1969, perkell1969, westbury1983}, larynx lowering \citep{riordan1980}, opening of the velopharyngeal port \citep{yanagihara1966}, or producing a retroflex occlusion \citep{sprouse2008}, and (2) others that lower the pressure differential threshold required for fold vibration, like slackening of the vocal folds \citep{halle1967} or producing a shorter stop closure \citep{lisker1957}.
-*Active voicing* is vocal fold vibration with articulatory adjustements that ensure continuing vibration.
+*Active voicing* is vocal fold vibration with articulatory adjustments that ensure continuing vibration.
 
-Sounds that are intended not to have vocal fold vibration (i.e. are inteded as voiceless) but that are characterised by favourable conditions for it tend to show passive voicing.
-In these cases, articulatory asjustments can be put in place to counteract the presence of pasive voicing.
+Sounds that are intended not to have vocal fold vibration (i.e. are intended as voiceless) but that are characterised by favourable conditions for it tend to show passive voicing.
+In these cases, articulatory adjustments can be put in place to counteract the presence of passive voicing.
 For example, glottal abduction, larynx raising, vocal fold tensing and oral wall tensing can all prevent voicing by either decreasing the supra-glottal volume or raising the pressure differential threshold.
 The resulting phenomenon is called *active devoicing* \citep{jansen2004}.
 
-\citet{rothenberg1967} makes an important further distiction between purposive and non-purposive active articulatory adjustments.
+\citet{rothenberg1967} makes an important further distinction between purposive and non-purposive active articulatory adjustments.
 For example, tongue root advancement can be executed by muscular activity with the intent to maintaining voicing, in which case we would call it a *purposive* (active) gesture.
-If tongue root advancement is executed by muscular activity with an intent different from maintining voicing (for example, aiding the creation of a tongue contriction movement), then this would be classified as a *non-purposive* (active) gesture in regards to voicing.
+If tongue root advancement is executed by muscular activity with an intent different from maintaining voicing (for example, aiding the creation of a tongue constriction movement), then this would be classified as a *non-purposive* (active) gesture in regards to voicing.
 While ascertaining whether an active gesture is purposive or non-purposive can be difficult, an active articulatory adjustment (executed by muscular activity) does not automatically imply the speaker's intention to achieve all of the benefits deriving from that adjustment.
 <!-- TODO: check that you actually discuss it somewhere -->
 While discussing articulatory adjustments in this dissertation, a classification between passive, active, purposive and non-purposive adjustments will not be attempted, but the potential difference will be discussed when relevant.
@@ -201,8 +201,8 @@ True voicing languages make use of the distinctive (privative) feature [voice], 
 On the other hand, aspirating languages employ the feature [spread glottis].
 Segments specified with [spread glottis] generally have long Voice Onset Time (VOT) values, while unspecified segments can show passive voicing (vocal fold vibration).
 Typical true-voicing languages are Italian, Spanish, and Russian, while Germanic languages like German, English, and Icelandic are aspirating languages.
-All of these languages are, even if at an alledgedly different extent, voicing-effect languages.
-In true-voicing languages, vowels are longer when followed by [voice] segments, while in aspirating languages vowels are longer when followed by underspecified segments (segments withouth [spread glottis]).
+All of these languages are, even if at an allegedly different extent, voicing-effect languages.
+In true-voicing languages, vowels are longer when followed by [voice] segments, while in aspirating languages vowels are longer when followed by underspecified segments (segments without [spread glottis]).
 
 \citet{keating1984a} is an attempt to define "voicing" in such a way that even systems that are very dissimilar at the physical level can be group together.
 This definition is restricted to languages that contrast only two categories of phonation.
@@ -224,11 +224,11 @@ While the three approaches just reviewed try to posit categories that can both d
 Following from what Haspelmath calls "categorial particularism", it is advocated that individual languages should be described in terms of language-specific categories.
 In this light, "voicing" in Italian is different from "voicing" in Spanish for the very fact that Italian and Spanish are two different linguistic systems.
 Typological comparison should not be based on (language-specific) "descriptive categories", but rather on "comparative concepts".
-Comparative concepts are created by the linguist who performs cross-lingusitic analyses, and are not components of particular languages.
-I assume here that traditional phonological categories like "voicing", "vowel height", "place of articulation", can be thought of either as (language-particular) descriptive categories or comparative concepts, depending on the scientific enterprise.\footnote{\citet{haspelmath2010} proposes to use capitalised names for descriptive categories (for example, "Italian Voicing"), but since this use is not common among phonologists/phoneticians, I will not adop it here.}
+Comparative concepts are created by the linguist who performs cross-linguistic analyses, and are not components of particular languages.
+I assume here that traditional phonological categories like "voicing", "vowel height", "place of articulation", can be thought of either as (language-particular) descriptive categories or comparative concepts, depending on the scientific enterprise.\footnote{\citet{haspelmath2010} proposes to use capitalised names for descriptive categories (for example, "Italian Voicing"), but since this use is not common among phonologists/phoneticians, I will not adopt it here.}
 In relation to the voicing effect, the use of "voicing" in this context as adopted in this work will be intended as a comparative concept and not as a descriptive category.
 
-<!-- TODO: say that you won't specify the use (physical or lingusitic) unless ambigous -->
+<!-- TODO: say that you won't specify the use (physical or linguistic) unless ambigous -->
 Note that the adoption of the distinction between descriptive categories and comparative concepts is a working assumption and a fully fledged argument in support of the distinction will not be pursued here.
 Rather, reference to comparative concepts here allows us to compare the "voicing effect" across languages where "voicing" behaves very differently, and allows us to make cross-linguistic generalisations that transcend language-specific descriptive categories.
 <!-- TODO: fix cross reference -->
@@ -259,7 +259,7 @@ Across the English varieties, the effect of voicing is greater with stops than w
 To sum up, it is possible that the degree of the voicing effect is greater in fricatives than in stops, but it is difficult to make generalisation based on such small pool of studies.
 
 The relation between the voicing effect in obstruents and durational effects of sonorant consonants further indicates mixed results.
-While only a few systematic investigations on the effect of sonorant voicing on vowel duration have been carried out, it was found that (1) nasals exercise an effect intermediate between that of voiceless and voiced stops but closer to that of the latter \citep{house1953, zimmerman1958}; (2) nasals are preceded by vowels that are longer than those followed by voiced stops \citep{peterson1960}; or (3) the duration of vowels follwoed by nasals is indistinguishable from that of vowels followed by voiced stops \citep{lisker1974}.
+While only a few systematic investigations on the effect of sonorant voicing on vowel duration have been carried out, it was found that (1) nasals exercise an effect intermediate between that of voiceless and voiced stops but closer to that of the latter \citep{house1953, zimmerman1958}; (2) nasals are preceded by vowels that are longer than those followed by voiced stops \citep{peterson1960}; or (3) the duration of vowels followed by nasals is indistinguishable from that of vowels followed by voiced stops \citep{lisker1974}.
 In \citet{house1953}, vowels are on average 245 ms long when followed by a voiced stop, 232 ms long when followed by a nasal, and 161 ms when followed by a voiceless stop.
 \citet{zimmerman1958} report English vowel durations of 218 ms before voiced stops and 200 ms before nasals, while vowels are 123 ms long when followed by voiceless stops.
 On the other hand, the duration of vowels in \citet{peterson1960} are 273 ms when followed by nasals, 265 ms when followed by voiced stops, and 171 ms when followed by voiceless stops.
@@ -458,7 +458,7 @@ More specific questions emerged while performing exploratory data analyses at th
 Finally, new hypotheses were generated by the exploratory phase, which justified a confirmatory study (Study II, \Cref{s:studyii}).
 Finally, questions pertaining to a comparison across languages and replication of previous results spanned across the two stages, and their discussion is brought up at different points across the dissertation.
 
-\Cref{s:resq} discusses in detail the research questions and a justificatio of methods.
+\Cref{s:resq} discusses in detail the research questions and a justification of methods.
 \Cref{s:langsample} is an overview of the chosen languages and of relevant aspects of their phonological systems.
 Finally, \Cref{s:sumresults} is a preview of the results.
 
@@ -469,12 +469,12 @@ Finally, \Cref{s:sumresults} is a preview of the results.
 The first research question concerns the source of the voicing effect, or, in other words, the diachronic pathway that led or can lead to the emergence of the voicing effect in any particular language.
 More specifically, the question asks how a language can develop the voicing effect and which speech aspects play a role in such development.
 The long-standing debate about the source of the voicing effect in light of the different proposals discussed in \Cref{s:accounts}, whether articulatory or perceptual, is evidence for the difficulty of selecting a single property of speech that is behind the differential duration of vowels followed by voiceless vs voiced stops.
-Moreover, the existence of durational phenomena related to phonation types other than voicing, like aspiration and ejection (\Cref{s:beyond}), call for an approach to the understanding of the voicing effect that is independent from voicing per se, while still limiting the investigation to the voicing contrast.
+Moreover, the existence of durational phenomena related to phonation types other than voicing, like aspiration and ejection (\Cref{s:beyond}), call for an approach to the understanding of the voicing effect that is independent from voicing *per se*, while still limiting the investigation to the voicing contrast.
 Such an approach allows us to formulate an account that future research can generalise and apply to other durational phenomena (related to phonation or not).
 Furthermore, note that the focus of the current research is on how the voicing effect emerges in the first place, and not how individual languages exploit or not the effect to enhance cues of phonological contrast.
 
 A window into possible diachronic developments is offered by the investigation of cross-linguistic synchronic data, an approach taken here.
-This approach is justified by the idea that diacronic change draws upon synchronic variation and that synchronic variation is the outcome of diachronic change \citep{blevins2004, blevins2006, cristofaro2012, cristofaro2014, bermudez-otero2015}.
+This approach is justified by the idea that diachronic change draws upon synchronic variation and that synchronic variation is the outcome of diachronic change \citep{blevins2004, blevins2006, cristofaro2012, cristofaro2014, bermudez-otero2015}.
 The view of synchrony/diachrony entanglement enables the use of synchronic information to infer possible diachronic changes that might have led to the current synchronic state.
 
 <!-- TODO: in discussion, mention again perceptual factors as factors that enhance the VE and link back to the English paper -->
@@ -495,7 +495,7 @@ For these reasons, an exploratory study of Italian and Polish (Study I) was carr
 Note that, with the terms "voiceless" and "voiced", I refer to the linguistic reading of "voicing", rather than to the physical implementation of such contrast, as detailed in \Cref{s:voi-comp}.
 This approach is generally helpful in light of the distinction between aspirating vs. true-voicing languages \citep{beckman2013}, and in the case of English in particular \citep{docherty1992}, which is the subject of Study II.
 Furthermore, I focus here on voicing as a categorical lexical contrast, given this is the approach followed by most of the relevant literature.
-Future work is warranted to ascertain the role of a gradient/continous operationalisation of voicing.
+Future work is warranted to ascertain the role of a gradient/continuous operationalisation of voicing.
 
 As a follow up of Study I, Study II set out to investigate in English the patterns observed in Study I in Italian and Polish.
 English was chosen as a further test language given the abundance of previous work dealing with different aspects of the English voicing effect.
@@ -530,7 +530,7 @@ The Italian doculect is included in the languoid Italian [glottocode: ital1282],
 
 <!-- TODO: say that you use vowel categories as comparative concepts here too! since each phoneme makes sense only within the system it is from (Haspelmath cites Trubetskoj). -->
 
-<!-- TODO: Say consonant and vowel phonemes are discussed, then syllabic structure and stress patterns, then briefly explain rythmic classes. -->
+<!-- TODO: Say consonant and vowel phonemes are discussed, then syllabic structure and stress patterns, then briefly explain rhythmic classes. -->
 
 ### Italian
 
@@ -578,7 +578,7 @@ Although the exact phonemic inventory of Italian is still debated, especially fo
 
 Italian contrasts consonants along five (phonological) places of articulation: labial (phonetically either bilabial or labiodental), dental, alveolar, palatal (palatal and post-alveolar), and velar.
 Stops (true stops and affricates) and fricatives contrast for voicing, although note that /z/ has limited functional load \citep{bertinetto2005} and /ʒ/ is relegated to loan words.
-The Italian voicing contrast is usually described in terms of an oppoistion between voiceless unaspirated consonants and fully voiced consonants \citep{vagges1978, bortolini1995, pape2014, kirby2016}.
+The Italian voicing contrast is usually described in terms of an opposition between voiceless unaspirated consonants and fully voiced consonants \citep{vagges1978, bortolini1995, pape2014, kirby2016}.
 <!-- TODO: VOT -->
 \citet{pape2014} shows that Italian speakers tend to perceive stops without a burst following the release as voiced consonants, independent of the duration of voicing during closure.
 While it is not clear which acoustic cue is employed by Italian speakers to discriminate voiceless and voiced consonants, \citet{pape2014} find in their production study that Italian consistently articulate (velar) stops with full voicing during closure.
@@ -648,7 +648,7 @@ The Polish vocalic system is made of eight vowel phonemes, six oral and two nasa
 
 Polish lexical stress is fixed on the penultimate syllable, with exceptions having ante-penultimate stress being loan words \citep{gussmann2007}.
 The phonological nature of Polish lexical stress is still debated (see review in \citealt{lukaszewicz2018}).
-As for the class of rythmic typology, Polish exhibits features from both stressed-timed and syllable-timed languages \citep{dauer1987, nespor1990, grabe2002, arvaniti2009}.
+As for the class of rhythmic typology, Polish exhibits features from both stressed-timed and syllable-timed languages \citep{dauer1987, nespor1990, grabe2002, arvaniti2009}.
 
 ### English
 
@@ -682,7 +682,7 @@ Another relevant dimension is the type of phonation used by speakers to encode t
 For example, \citet{gordeeva2007, gordeeva2010, gordeeva2011} show that preaspiration, glottalisation, and ejection can be used by speakers as cues to the voicing contrast in fricatives and stops in Scottish English.
 Moreover, no evidence was found for a correlation between the type of phonation employed by each speaker and their general voice quality \citep{gordeeva2011}.
 The authors interpret this finding to mean that the speaker's voice quality settings and the use of one phonation type over another are decoupled, and that preaspiration, glottalisation, and ejection play an important role in the speaker-specific phonologisation of the contrast.
-The sociolinguistic aspects of voicing investigated in these studies stress the multidimentional nature of the English voicing contrast.
+The sociolinguistic aspects of voicing investigated in these studies stress the multidimensional nature of the English voicing contrast.
 
 ```{=latex}
 \ctable[caption = {Northern British English vowel monophthong phonemes (Orton 1962, Wells 1892).},
@@ -761,24 +761,24 @@ This difference is taken as evidence for a language-specific implementation of t
 Increased glottal spread before voiceless stops is understood as the precursor of pre-aspiration, the presence of which has been reported in Italian \citep{ni-chasaide1993, stevens2004a, stevens2004, stevens2010, stevens2010b, stevens2014a}.
 By combining previous work on pre-aspiration \citep{lisker1974, nichasaide1985, stevens2014}, two alternative pathways of sound change development are proposed: either pre-aspiration is enhanced by shortening the closure of the stop, or it is reduced or prevented altogether by producing an earlier stop closure. The latter solution would mask the acoustic effects of glottal spreading and result in a longer closure duration and shorter vowel duration, other things being equal.
 
-The general discussion in \Cref{s:gen-disc} combines (1) a word-holistic articulatory account of gestural phasing, of which the release-to-release temporal stability is a consequence, and the modulating properties of (2) tongue root advancement and (3) glottal spreading on the timing of the vowel offest/closure onset in vowel-consonant sequences.
+The general discussion in \Cref{s:gen-disc} combines (1) a word-holistic articulatory account of gestural phasing, of which the release-to-release temporal stability is a consequence, and the modulating properties of (2) tongue root advancement and (3) glottal spreading on the timing of the vowel offset/closure onset in vowel-consonant sequences.
 It is proposed that these three interacting aspects play a role in driving the development of the voicing effect.
 
 The conceptual contribution of this dissertation, as summarised in the previous paragraphs, is accompanied by an advancement of methodologies in phonetic data analysis and research more generally.
 \Cref{p:wavegram} and \Cref{a:polar-gams} introduce two methods for the analysis of electroglottographic data and tongue contours using generalised additive modelling.
-The application of generalised additive models on electroglottographic data allows us to obtain a dynamic and multidimentional view of vibratory properties of the vocal folds (\Cref{p:wavegram}).
-This constitutes an improvement from methods that reduce the multidimentionality of fold vibration to a single measure, like the closed quotient.
+The application of generalised additive models on electroglottographic data allows us to obtain a dynamic and multidimensional view of vibratory properties of the vocal folds (\Cref{p:wavegram}).
+This constitutes an improvement from methods that reduce the multidimensionality of fold vibration to a single measure, like the closed quotient.
 \Cref{a:polar-gams} in the Appendix shows how generalised additive modelling can be used with tongue contour data in polar coordinates to control for a complex combination of effects.
 Modelling is exemplified by means of a comparison of tongue contours obtained from the time of maximum constriction of voiceless and voiced stops in Italian and Polish, which corroborates the between-speaker differences observed in \Cref{p:tra}.
 
-This dissertation is also an example of how state-of-the-art research methods can be applied to lingusitic research.
+This dissertation is also an example of how state-of-the-art research methods can be applied to linguistic research.
 The methods adopted in this dissertation were influenced by the Open Science movement.
 All the research materials (data, code, documentation) are available for download (<https://osf.io/w92me/>).
-In interpreting the results, more emphasis was given to estimation of parmeters in statistical models, and to the degree of uncertainty surrounding it.
+In interpreting the results, more emphasis was given to estimation of parameters in statistical models, and to the degree of uncertainty surrounding it.
 To facilitate this endeavour, Bayesian statistics was applied to address a subset of the research questions.
 Finally, custom research-management and analysis tools were developed in the form of R packages.
 
-The following chapter, \Cref{s:methods}, is overview of the reaserch methods of Study I (\Cref{s:studyi}) and Study II (\Cref{s:studyii}).
+The following chapter, \Cref{s:methods}, is overview of the research methods of Study I (\Cref{s:studyi}) and Study II (\Cref{s:studyii}).
 \Cref{s:openscience} introduces the principles of Open Science and discusses how they shaped the current project.
 
 # Methods
@@ -789,8 +789,8 @@ Whereas some of the hypotheses concern biases of the perceptual system, others d
 Crucially, all accounts have found only partial support in the literature.
 Over the years, evidence has accumulated for the articulatory accounts based on compensatory temporal adjustments, laryngeal adjustments, and rate of consonant closure.
 Given the complex nature that characterises the production accounts, this thesis sets out to investigate durational and dynamic aspects of the articulation of vowel-consonant sequences.
-The outcomes of a time-synchronised analysis of acoustic and articulatory data from Italian and Polish indicate that components of temporal compensation and gestural phasing are the likely source of the differences in vowel and closure durations.
-A follow-up acoustic study of English further confirms these results, and offers new insights on the possible development of the voicing effect from the word-level structuring of vocalic and consonantal gestures.
+The outcomes of a time-synchronised analysis of acoustic and articulatory data from Italian and Polish (\Cref{s:studyi}) indicate that components of temporal compensation and gestural phasing are the likely source of the differences in vowel and closure durations.
+A follow-up acoustic study of English (\Cref{s:studyii}) further corroborates these results, and offers new insights on the possible development of the voicing effect from the word-level structuring of vocalic and consonantal gestures.
 
 An overview of these studies, with information on experimental materials, procedures, and data processing, is given in this chapter.
 The following sections constitute a synopsis of the methodologies presented in more specific details in the relevant papers.
@@ -801,9 +801,7 @@ Ethics clearance to undertake this work was obtained from the University Researc
 \label{s:studyi}
 <!-- three aspects: exploratory, acoustics + articulatory, and Italian Polish -->
 
-
-
-Since the accounts this dissertation focusses on cover aspects of segmental duration, consonantal articulatory gestures, and voicing, data was obtained from three sources: (1) acoustics, (2) ultrasound tongue imaging, a non-invasive technique to image the tongue using ultrasonic equipment, and (3) electroglottography, an indirect and safe method to gather information on vocal fold activity.
+As discussed in \Cref{s:resq}, since the accounts this dissertation focusses on cover aspects of segmental duration, consonantal articulatory gestures, and voicing, data was obtained from three sources: (1) acoustics, (2) ultrasound tongue imaging, a non-invasive technique to image the tongue using ultrasonic equipment, and (3) electroglottography, an indirect and safe method to gather information on vocal fold activity.
 In the following sections, I offer an outline of the methodologies employed in Study I, while referring the reader to specific papers for a more in-depth description.
 
 ### Participants
@@ -813,7 +811,7 @@ Eleven were native speakers of Italian (IT01-IT05, IT07, IT09, IT11-IT14), and s
 Missing speaker codes refer to test participants or participants that produced unusable data because of individual anatomy or recording issues.
 Recordings were made in a sound-attenuated room at the Phonetics Laboratory of the University of Manchester, or in a quiet room at a field location in Verbania (IT03-IT07).
 Due to technical issues or poor signal quality, ultrasonic data of /u/ from two speakers (IT07, PL05) and electroglottographic data from two others (IT04, IT05) are missing.
-Basic participants' sociolinguistic data is given in Paper I.
+Basic participants' sociolinguistic data is given in \Cref{p:relrel}.
 The participants were given an information sheet prior to the experiment and signed a consent form.
 
 ### Ultrasound tongue imaging and electroglottography
@@ -846,7 +844,7 @@ A P-Stretch unit (used for signal synchronisation) was connected to the ultrasou
 The P-Stretch unit and a Movo LV4-O2 Lavalier microphone fed into a FocusRight Scarlett Solo pre-amplifier, which was plugged into the ultrasound laptop via USB.
 A second Movo microphone and the electrodes were connected to a Glottal Enterprises EG2-PCX2 unit, which was plugged into the second laptop (the audio signals from the UTI and the EGG units were used for synchronisation, see below).
 
-The subject wore a metallic headset produced by \citet{articulate2008} (\Cref{fig:headset}), which stabilises the position of the ultrasound probe (allowing free head movement), and the velcro strap with the EGG electrodes around their neck.
+The subject wore a metallic headset produced by \citet{articulate2008} (\Cref{fig:headset}), which stabilises the position of the ultrasound probe (allowing free head movement), and the Velcro strap with the EGG electrodes around their neck.
 The electrodes were located on each side of the thyroid cartilage, at the level of the glottis.
 The microphones were clipped to the headset on either side, at identical heights.
 Before the reading task, the participant’s occlusal plane was obtained using a bite plate \citep{scobbie2011}.
@@ -862,7 +860,7 @@ The test words were C\textsubscript{1}V\textsubscript{1}C\textsubscript{2}V\text
 Note that in both languages C2 is the onset of the second syllable.
 The choice of the segmental make-up of the test words was constrained by the use of ultrasound tongue imaging.
 The words were embedded in the frame sentence *Dico X lentamente* 'I say X slowly', and *Mówię X teraz* 'Say X now' for Italian and Polish respectively.
-Paper I provides more details on the rationale behind the material design.
+\Cref{p:relrel} provides more details on the rationale behind the material design.
 
 The UTI+audio and EGG+audio signals were acquired and recorded by means of AAA and Praat \citep{boersma2018} respectively.
 Since the signals from the ultrasonic machine and the electroglottograph are recorded simultaneously but separately, data from both sources were synchronised after acquisition.
@@ -879,7 +877,7 @@ Since the audio recorded with the EGG system was nosier than that recorded with 
 The output of the force-alignment is a Praat TextGrid with time-aligned interval tiers containing the annotations of intonational phrase units (utterances), words, and phones.
 The automatic annotation was then manually checked by the author and corrected if necessary.
 The placement of segment boundaries followed the suggestions in \citet{machac2009}.
-See Paper I for details.
+See \Cref{p:relrel} for details.
 
 Detection of the release of C1 and C2 was accomplished through the algorithmic procedure described in \citet{ananthapadmanabha2014}.
 I have written a custom implementation of the procedure in Praat for this study (`release-detection-c1.praat` and `burst-detection.praat` in \citealt{coretta2018m}).
@@ -902,30 +900,31 @@ A Savitzky--Golay smoothing filter (second-order, frame length 75 ms) was applie
 Tangential velocity was calculated from the smoothed displacement signal of the tongue tip and tongue dorsum with a Savitzky--Golay filter (second-order, frame length 75 ms), as implemented in AAA.
 
 The absolute values of the tangential velocity were used for the identification of gestural landmarks using a built-in algorithm.
-The times of the following gestural landmarks were obtained for the tongue tip and the tongue dorsum (\Cref{fig:kine}): (a) maximum tongue displacement (MAX), (b) peak velocity before MAX (PEAK_1), (c) peak velocity after MAX (PEAK_2), (d) gesture onset (GONS), corresponding to the time when absolute velocity of tongue displacement reaches 20% of the peak absolute velocity before PEAK_1, (e) gesture nucleus (plateau) onset (NONS), when velocity is at 20% of the peak velocity between PEAK_1 and MAX, (f) nucleus offset (NOFF), when velocity is at 20% of the peak velocity between MAX and PEAK_2, and (g) gesture offset (GOFF), when velocty is at 20% of peak velocity after PEAK_2 \citep{kroos1997, gafos2010a}.
+The times of the following gestural landmarks were obtained for the tongue tip and the tongue dorsum (\Cref{fig:kine}): (a) maximum tongue displacement (MAX), (b) peak velocity before MAX (PEAK_1), (c) peak velocity after MAX (PEAK_2), (d) gesture onset (GONS), corresponding to the time when absolute velocity of tongue displacement reaches 20% of the peak absolute velocity before PEAK_1, (e) gesture nucleus (plateau) onset (NONS), when velocity is at 20% of the peak velocity between PEAK_1 and MAX, (f) nucleus offset (NOFF), when velocity is at 20% of the peak velocity between MAX and PEAK_2, and (g) gesture offset (GOFF), when velocity is at 20% of peak velocity after PEAK_2 \citep{kroos1997, gafos2010a}.
 The time resolution of the gestural landmarks is 100 kHz (the sampling rate of the upsampled spline data).
 
 ![Gestural landmarks of tongue movements in the word *putu*. The top panel shows tongue tip displacement, while the bottom panel shows tangential and absolute velocity. \label{fig:kine}](./img/velocity.pdf){ width=80% }
 
 The Cartesian coordinates of the fitted splines, together with tongue displacement, tangential velocity, and absolute velocity of the tongue root, dorsum and tip, were obtained at the times corresponding to the following gestural landmarks: C2 closure onset, tongue maximum displacement during C2 closure (MAX), peak absolute velocity before and after tongue maximum displacement (PEAK_1 and PEAK_2), tongue closing gesture onset (GONS), closing gesture nucleus onset (NONS) and offset (NOFF).
 Tongue displacement, and the tangential and absolute velocities of the tongue root, dorsum, and tip were also extracted as time-series along the entire duration of V1.
-As discussed in \Cref{s:resq}, Study II set out to gather data on acoustic segmental durations, the timing of the consonantal gestures, and properties of vocal fold vibration.
+The splines Cartesian coordinates were converted to polar for statistical analysis (see \Cref{a:polar-gams}).
+As discussed in \Cref{s:resq}, Study I set out to gather data on acoustic segmental durations, the timing of the consonantal gestures, and properties of vocal fold vibration.
 For this reason, tongue movement velocity was not analysed as part of the current investigation, and future work on this aspect is warranted.
 <!-- Moreover, while the smoothing of the AAA built-in procedure ensures the robust detection of the times of gestural landmarks, it can have a strong impact on the actual velocity values, so that future work is warranted to assess the magnitde of such influence. -->
 
 Finally, wavegram data was extracted from the EGG data, following the method proposed by \citet{herbst2010}.
 In brief, a wavegram is a spectrogram-like representation of the EGG signal, where individual glottal cycles are sequentially placed on the *x*-axis, the normalised time of the samples taken from within each glottal cycle is the *y*-axis, and the third dimension, represented by colours of different shading, is the normalised amplitude of the EGG signal.
 Wavegram data was obtained from the entire duration of V1.
-See Paper V for the detailed procedure.
+See \Cref{p:wavegram} for the detailed procedure.
 
 ## Compensatory aspects of the effect of voicing on vowel duration in English (Study II)
 \label{s:studyii}
 
-The results from Study I indicated that the temporal distance between two consecutive stop releases in disyllabic words of Italian and Polish is not affected by the voicing of the second stop.
+The results from Study I indicated that the temporal distance between two consecutive stop releases in disyllabic words of Italian and Polish is not affected by the voicing of the second stop (\Cref{p:relrel}).
 Within this temporally stable interval, differences in the timing of oral closure determines the respective durations of the vowel and the consonant closure.
-Thus, a second study was carried out to assess whether the durational pattern found in Study I would generalise to English, and to investigate differences between disyllabic and monosyllabic words as predicted by a word-holistic account of gestural phasing.
+Thus, a second study was carried out to assess whether the durational pattern found in Study I would generalise to English, and to investigate differences between disyllabic and monosyllabic words as predicted by a word-holistic account of gestural phasing (\Cref{p:en-relrel}).
 It was expected that, while the duration of the release-to-release interval would be insensitive to the voicing status of the second consonant, the interval would be longer in monosyllabic words with a voiced consonant.
-Paper II discusses the empirical and theoretical foundation of the research hypotheses and methods of Study II more in detail.
+\Cref{p:en-relrel} discusses the empirical and theoretical foundation of the research hypotheses and methods of Study II more in detail.
 A brief synthesis of the methodologies of the study is reported here.
 
 Fifteen university students were recorded in a sound attenuated room in the Phonetics Laboratory of the University of Manchester while reading sentence stimuli containing test words, presented on a computer screen with PsychoPy \citep{peirce2009}.
@@ -953,11 +952,11 @@ Matters of research transparency are part of a broader collection of problems, w
 Open Science is a movement that stresses the importance of a more honest and transparent scientific attitude by promoting a series of research principles and by warning from common, although not necessarily intentional, questionable practices and misconceptions.
 The term Open Science as a whole refers to the fundamental concepts of 'openness, transparency, rigour, reproducibility, replicability, and accumulation of knowledge' \citep[3]{cruwell2018}.
 The goodness of the latter depends in great part on the reproducibility and replicability of the studies that contribute to knowledge accumulation.
-While reproducibility and replicability are generally used interchangeably, they refer to two different ideas.
+While the terms "reproducibility" and "replicability" are generally used interchangeably, they refer to two different ideas.
 A study is *replicable* when researchers can independently run the study on new subjects/data and obtain the same results (in brief, same analysis, different data/researchers).
 The *reproducibility* of a study is, instead, related to the ability of independent researchers to run the original analysis on the original data and obtain the same results as those presented by the original authors, pending enough information on the analysis procedures is given (in brief, same analysis, same data).
 
-A sense of need for Open Science, now increasingly spreading to different disciplines and enterprises, arose primarily from the ongoing so-called 'replication crisis' \citep{pashler2012, schooler2014}, which has attracted the most attention within the circles of medical and psychological sciences.
+A sense of need for Open Science, now increasingly spreading to different disciplines and enterprises, arose primarily from the ongoing so-called "replication crisis" \citep{pashler2012, schooler2014}, which has attracted the most attention within the circles of medical and psychological sciences.
 Recent attempts to replicate results from high-impact studies in psychology have demonstrated an alarmingly high rate of failure to replicate.
 For example, in a replication attempt of 100 psychology studies, only 39% of the original results were rated by annotators as successfully replicated \citep{open-science-collaboration2015}.
 Failure to replicate previous results have been claimed to be a consequence of low statistical power \citep{button2013}, and of so-called questionable research and measurement practices \citep{simmons2011, morin2015, flake2019}.
@@ -969,7 +968,7 @@ One of the issues that can affect statistical analysis is related to errors in r
 A researcher could falsely reject the null hypothesis when in fact is correct (Type I errors, an effect is found when there is none), or they could falsely fail to reject the null hypothesis when in fact it should have been (Type II errors, an effect is not found when there is one).
 Type I and Type II errors do occur and cannot be totally prevented.
 Rather, the aim is to keep their rate of occurrence as low as possible.
-The generally accepted rates of Type I and Type II arrors are 0.05 and 0.2 respectively (usually referred to as the $\alpha$ and  $\beta$ levels).
+The generally accepted rates of Type I and Type II errors are 0.05 and 0.2 respectively (usually referred to as the $\alpha$ and  $\beta$ levels).
 This means that, in a series of imaginary multiple replications of a study, 5% of the times the null hypothesis will be falsely rejected, and 20% of the times will falsely be not rejected.
 A concept closely related to Type II errors is statistical power, which is the probability of correctly rejecting the null hypothesis when it is false (calculated as $B = 1 - \beta$).
 In other words, power is the probability of detecting an effect equal or greater than a specified effect size.
@@ -993,13 +992,13 @@ In sum, low statistical power (well below the recommended 80% threshold) seems t
 Questionable research and measurement practices are practices that negatively affect the scientific enterprise, but that are employed (most of the time unintentionally) by a surprisingly high number of researchers \citep{john2012}.
 \citet{silberzahn2018} asked 29 teams (61 analysts) to answer the same research question given the same data set, and showed that data analysis can be highly subjective.
 A total of 21 unique combinations of predictors were used across the 29 teams, leading to diverging results (20 teams obtained a significant result, while 9 did not).
-At various stages of the study timeline, a researcher can exploit the so-called 'researchers' degrees of freedom' to obtain a significant result \citep{simmons2011}.
-The researchers' degrees of freedom create a 'garden of forking paths' \citep{gelman2013}, that the researcher can explore until the results are satisfactory (i.e., they lead to high-impact or expected findings).
+At various stages of the study timeline, a researcher can exploit the so-called "researcher's degrees of freedom" to obtain a significant result \citep{simmons2011}.
+The researcher's degrees of freedom create a "garden of forking paths" \citep{gelman2013}, that the researcher can explore until the results are satisfactory (i.e., they lead to high-impact or expected findings).
 
 *P*-hacking is a general term that refers to the process of choosing and reporting those analyses that change a non-significant *p*-value to a significant one \citep{simmons2011, wagenmakers2007, motulsky2014}.
 *P*-hacking can be achieved by several means, for example by trying different dependent variables, including and/or excluding predictors, selective inclusion/exclusion of subjects and observations, or sequential testing (collecting data until the results are significant).
 Another common practice is to back-engineer a hypothesis after obtaining unexpected results, also known as Hypothesising After the Results are Known (HARKing, \citealt{kerr1998}).
-\citet{lieber2009} warns against 'double dipping', or the use of the same data to generate a hypothesis and test it.
+\citet{lieber2009} warns against "double dipping", or the use of the same data to generate a hypothesis and test it.
 \citet{morin2015} and \citet{flake2019} more specifically discuss questionable practices related to how research variables are measured and operationalised.
 The literature reviewed in \citet{flake2019} suggests that a very high percentage of published papers contains measures that are created on the fly but lack any reference to reliability tests.
 Researchers have also been found to manipulate validated scales to obtain desired results.
@@ -1011,11 +1010,11 @@ Finally, \citet{wagenmakers2007} and \citet{motulsky2014} examine mistaken belie
 
 A bias in the observed effects can also arise at the stage of publication.
 A publication bias has been observed in that significant and novel results are generally favoured over null results or replications \citep{easterbrook1991, ioannidis2005, song2010, kicinski2013, nissen2016}.
-\citet{rosenthal1979} called the bias agains publishing null results the 'file drawer' problem.
+\citet{rosenthal1979} called the bias against publishing null results the "file drawer" problem.
 Studies that don't lead to a significant result are stored in a metaphorical file drawer and forgotten.
 This practice not only can bias meta-analytical effect sizes, but also allows for waste of resources when studies with undisclosed null results are repeatedly performed.
 The questionable research and measurement practices described above, together with publication bias, conspire to unduly increase confidence in our research outcomes.
-A final exculpatory note is due, though, in that these practices are not necessarily intentional or fraudulent, and in some cases lie within a 'grey area' of accepted standard procedures.
+A final exculpatory note is due, though, in that these practices are not necessarily intentional or fraudulent, and in some cases lie within a "grey area" of accepted standard procedures.
 
 ### Where we stand and where we are heading
 \label{s:stand}
@@ -1070,11 +1069,11 @@ This last section of the Introduction discusses how the principles and methods e
 Study I was not pre-registered, since the absence of a specific hypothesis did not allow for the formulation of a corresponding analysis.
 Sample size was determined on the basis of practical considerations concerning the time required for processing ultrasound tongue imaging data.
 Several different parameters and models have been explored in search of relevant patterns, while only a few of these have been reported in the papers of this study.
-The models of Study I were conducted within a Neyman-Pearson (frequentist) framework of statistical inference \citep{perezgonzalez2015}, while a Bayes factor analysis \citep{kass1995} was performed in those cases that demanded it (Paper I).
+The models of Study I were conducted within a Neyman-Pearson (frequentist) framework of statistical inference \citep{perezgonzalez2015}, while a Bayes factor analysis \citep{kass1995} was performed in those cases that demanded it (\Cref{p:relrel}).
 To compensate for the asymmetry between the number of models run and those reported, less attention has been given to *p*-values, while greater focus was placed on effect sizes and their hypothesis-generating value.
 The design and analyses of Study II have been pre-registered on the Open Science Framework (\url{https://osf.io/2m39u/}).
 Sample size determination followed the method of the Region Of Practical Equivalence \citep{vasishth2018a}.
-Data from Study II was subject to a full Bayesian analysis, and greater emphasis was given on the posterior probability distributions of the effect estimates rather than on their means (see Paper II for details).
+Data from Study II was subject to a full Bayesian analysis, and greater emphasis was given on the posterior probability distributions of the effect estimates rather than on their means (\Cref{p:en-relrel}).
 
 <!-- TODO: talk about datasets -->
 
@@ -1083,6 +1082,7 @@ This OSF repository acts as a hub for the research compendia of the project and 
 The data has been packaged and documented using R \citep{marwick2017}.
 The data packages (coretta2018itapol and coretta2019eng) are available on GitHub and links to them are given in the OSF repository (see the Data components in the repository).\footnote{The raw ultrasound tongue imaging AAA files were not uploaded given their size (almost 40 GB) and can be obtained from the author.}
 Following the recommendations in \citet{berez-kroeker2018}, each data component is given a standard bibliographical citation \citep{coretta2018m, coretta2019g}.
+<!-- TODO: upload UTI data and delete footnote -->
 
 Data processing using Praat scripting followed the principles of literate programming, i.e. code and documentation coexist in a single source file.
 The source files were written in literate markdown, a flavour of markdown that allows extracting code from markdown text to build the scripts from the source file.
