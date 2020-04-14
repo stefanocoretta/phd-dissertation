@@ -11,8 +11,10 @@ Rather than trying to disprove a given hypothesis or showing that one is primary
 
 \vspace{1cm}
 
+<!-- TODO: repeat 3 question -->
+
 This dissertation investigated the influence of consonant voicing on vowel duration by focussing on production aspects of vowel-consonant sequences.
-As a cross-linguistic tendency, vowels are shorter when followed by voiceless consonants and longer when followed by voiced ones.
+As a cross-linguistic tendency, known as the "voicing effect", vowels are shorter when followed by voiceless consonants and longer when followed by voiced ones.
 Several proposals as to what mechanisms underly this tendency have been put forward, but no account has won consensus.
 Two studies were carried out to investigate durational and articulatory properties of vowels and consonants in Italian, Polish, and English.
 Five papers presented and discussed the results from these studies.
@@ -24,40 +26,36 @@ This chapter provides an over-arching synthesis of the account proposed here in 
 
 ## A pluralist view
 \label{s:pluralist}
+<!-- Question 1 -->
 
-The results of Study I and II bring together aspects of gestural compensation and articulatory timing and allow us to formulate a more holistic account that incorporates components of different accounts.
-Two important aspects of the account proposed here are the temporal stability of vocalic and consonantal gestures, and the timing of the vowel-consonant boundary.
-The gestural temporal stability is one fundamental aspect of the compensatory temporal adjustment account.
-The articulatory temporal stability across voicing contexts is evidenced by the durational stability of the interval between two consecutive stop releases.
-The duration of this release-to-release interval is not affected by the voicing of the second stop.
+Previous articulatory accounts of the voicing effect, reviewed in \Cref{s:accounts}, ascribe the driving force behind the voicing effect each to an individual property of speech.
+According to the compensatory temporal adjustment account \citep{lindblom1967, slis1969a, slis1969b, lehiste1970a, lehiste1970b}, there is a trading relationship between the duration of vowels and that of the following consonant.
+The account of rate of stop closure transition states that the rate of the closing gesture of voiceless stops is higher than that of voiced stops \citep{ohman1967a, chen1970}.
+As a consequence, full closure is achieved earlier relative to the onset of the closing gesture when the stop is voiceless.
+A third notable account, that of laryngeal adjustment \citep{halle1967, halle1967a, chomsky1968}, holds that the achievement of stop closure in voiced stops is slower than that of voiceless stops to allow for enough time to produce a glottal configuration that is suitable for voicing during closure.
+
+The results of Study I (\Cref{p:relrel}, \Cref{p:tra}, \Cref{p:wavegram}) and II (\Cref{p:en-relrel}) bring together aspects of these three accounts, and allow us to formulate a holistic account of the voicing effect that incorporates different components, which is discussed in the following paragraphs.
+Two important aspects of the account proposed here are: (1) the temporal stability of the interval spanning the vowel-consonant sequence, and (2) the timing of the vowel-consonant (VC) boundary within that interval.
+While (1) draws on the compensatory temporal adjustment account, (2) is informed by the account of rate of closure and that of laryngeal adjustment.
+
+In \Cref{p:relrel}, we saw that Italian and Polish disyllabic words show properties of temporal stability, as expected by an account of compensatory adjustment.
+In particular, it was observed that the duration of the interval between the release of the first consonant and the release of the second in CVCV words (the release-to-release interval) is not affected by the voicing category of the second consonant.
 However, while the original compensatory account states that the stop closure duration *determines* the duration of the preceding vowel, the formulation of the account proposed here takes a more neutral position.
-The timing of the VC boundary within the release-to-release interval determines the durations of *both* the vowel and closure.
+More specifically, I argue that the timing of the VC boundary within the release-to-release interval determines the durations of *both* vowel and stop closure, as discussed in \Cref{s:comp}.
 
-The second fundamental aspect of the holistic account is that the timing of the VC boundary is modulated by aspects that would fall under the laryngeal adjustments and the rate of closure accounts.
-The ultrasound and EGG data from Study I, as discussed in Papers III--V, suggest that mechanisms independent from closure duration per se can act upon the timing of the VC boundary and, indirectly, on the duration of closure.
-For one, tongue root position might influence the timing of the boundary by delaying it to allow for greater tongue root advancement, which is known to facilitate voicing during the production of the stop closure (see Paper III).
-Second, the development of pre-aspiration could also influence the timing of the VC boundary by delaying or anticipating it depending on whether pre-aspiration is enhanced or prevented (Paper V).
+The second fundamental aspect of the account put forward here is that the timing of the VC boundary is modulated by aspects that would fall under the rate of closure and the laryngeal adjustments accounts.
+The ultrasound and EGG data from Study I, as discussed in \Cref{p:tra} and \Cref{p:wavegram}, suggest that mechanisms independent from closure duration *per se* can act upon the timing of the VC boundary and, indirectly, on the duration of stop closure.
+For one, tongue root position can influence the timing of the boundary by delaying it to allow for greater tongue root advancement, which is known to facilitate voicing during the production of the stop closure (\Cref{p:tra}).
+Second, the development of pre-aspiration could also influence the timing of the VC boundary by delaying or anticipating it depending on whether pre-aspiration is enhanced or prevented (\Cref{p:wavegram}).
 
-Moreover, the account proposed here is diachronic in nature, in as much as it reveals a possible historical pathway to the emergence of the difference in vowel duration rooted in production aspects of vowels and consonants.
-In particular, I argue that the voicing effect can emerge because of the temporal stability of CVC sequences and the differences in timing of the closure in voiceless and voiced stops.
-Such an account assumes that the original scenario is one in which the duration of vowels and that of closures do not differ across voicing contexts.
-Speakers would start producing the difference via developmental learning or historical change.
-On top of this, when VV isochrony does not constrain the temporal distances in CVC sequences, vowel and closure durations are free to be manipulated independently with the aim of enhancing VC ratio differences, as argued by perceptual accounts of the voicing effect.
+In Study II, discussed in \Cref{p:en-relrel}, it was found that the temporal properties of English disyllabic words reflect those of Italian and Polish.
+As in the latter languages, the duration of the release-to-release interval is not affected by the voicing of the post-vocalic stop.
+However, the situation is different in English monosyllabic words.
+In this context, voicing does affect the duration of the interval, and the interval is longer when the post-vocalic consonant is voiced.
+The fact that voicing affects release-to-release duration was ascribed to mechanisms of contrast enhancement driven by perceptual factors \Cref{s:gest}.
 
-While the account proposed here is based on production mechanisms, it cannot be completely excluded that the production differences observed and stipulated here are a consequence of perceptual biases.
-In such a scenario, there could be a design feature of the perceptual system that generates the differential duration percept, even when there is not such difference in the acoustic output/input.
-An example from the domain of vision illustrates this possibility.
-When looking at a wheel spinning in a clockwise direction, the observer will see the wheel rotating counter-clockwise when the rotation speed exceeds a threshold.
-There is nothing in the mechanics of a wheel spinning around its axis that can explain this perceptual fact.
-Rather, visual processing has a design feature (for example, vision refresh rate) that creates the illusion of the wheel spinning in the opposite direction.
-In this example, the wheel and its percept are two clearly separable ontological entities, so that the percept cannot change how the wheel is spinning.
-In the case of speech, however, a bias in the the perceptual system can (and very often does) result into difference in production.
 
-Teasing apart production and perceptual mechanisms in speech is more difficult than in the spinning wheel case, since production and perception operate within a single agent, i.e. the speaker/hearer.
-On the other hand, when we can find independent physical explanations behind production biases, we can considered them design features of the production system, and not just a consequence of perceptual biases.
-Since in the case of voicing there are independent production reasons for the observed patterns to exist, we can assume that, while perceptual biases can hook on the vowel duration differences as a cue to voicing and enhance such contrast, these differences emerge due to a production mechanism in the first place.
-
-## Gestural phasing
+### Gestural phasing
 \label{s:gestural-phasing}
 
 As argued in Paper II, the temporal stability of the release-to-release interval is compatible with hypotheses about the gestural organisation of vowel and consonants within the domains of the syllable and the word.
@@ -115,8 +113,30 @@ In such case, VV isochrony is broken and the duration of V1 can be modulated fre
 This is what it is argued to happen in monosyllabic words, where the distance between the releases of C1 and C2 differs depending on C2 voicing.
 \citet{de-jong1991} indeed finds that, in English monosyllabic words, not only the velocity of the coda closing gesture differs depending on voicing, but also that the timing of the coda gesture onset does (the gesture onset is timed later during the production of the vowel in the context of voiced stops relative to that of voiceless stops).
 
+### Diachrony, production, and perception
+
+The account proposed here is diachronic in nature, in as much as it reveals a possible historical pathway to the emergence of the difference in vowel duration rooted in production aspects of vowels and consonants.
+In particular, I argue that the voicing effect can emerge because of the temporal stability of CVC sequences and the differences in timing of the VC boundary depending on the voicing of the post-vocalic consonant.
+Such an account assumes that the original scenario is one in which the duration of vowels and that of closures do not differ across voicing contexts.
+Durational differences can emerge via developmental learning or historical change in individual speakers and spread across the population.
+The fact that the voicing effect is cross-linguistically widespread
+
+While the account proposed here is based on production mechanisms, it cannot be completely excluded that the production differences observed and stipulated here are a consequence of perceptual biases.
+In such a scenario, there could be a design feature of the perceptual system that generates the differential duration percept, even when there is not such difference in the acoustic output/input.
+An example from the domain of vision illustrates this possibility.
+When looking at a wheel spinning in a clockwise direction, the observer will see the wheel rotating counter-clockwise when the rotation speed exceeds a threshold.
+There is nothing in the mechanics of a wheel spinning around its axis that can explain this perceptual fact.
+Rather, visual processing has a design feature (for example, vision refresh rate) that creates the illusion of the wheel spinning in the opposite direction.
+In this example, the wheel and its percept are two clearly separable ontological entities, so that the percept cannot change how the wheel is spinning.
+In the case of speech, however, a bias in the the perceptual system can (and very often does) result into difference in production.
+
+Teasing apart production and perceptual mechanisms in speech is more difficult than in the spinning wheel case, since production and perception operate within a single agent, i.e. the speaker/hearer.
+On the other hand, when we can find independent physical explanations behind production biases, we can considered them design features of the production system, and not just a consequence of perceptual biases.
+Since in the case of voicing there are independent production reasons for the observed patterns to exist, we can assume that, while perceptual biases can hook on the vowel duration differences as a cue to voicing and enhance such contrast, these differences emerge due to a production mechanism in the first place.
+
 ## On cross-linguistic differences
 \label{s:cross-ling-diff}
+<!-- Question 2 -->
 
 As discussed in \Cref{s:ve}, the degree of the voicing effect is generally thought to vary depending on the language.
 Allegedly, English is the language possessing the biggest effect, while the effect is smaller in Italian and possibly absent in Polish.
@@ -145,6 +165,11 @@ I am not claiming, however, that the voicing effect is necessarily universal.
 Especially in the case of monosyllabic words, as argued above, language-specific perceptual enhancement can modulate the magnitude of the effect.
 For example, \citet{tanner2019} demonstrate that, although not unambiguously, the effect of voicing on vowel duration in monosyllabic words differs across varieties of English.
 More work is needed to assess cross-linguistic differences with a sufficiently sampled dataset and by experimental procedures designed to reduce phonological differences.
+
+## Embracing variation and accepting uncertainty
+<!-- Question 3 -->
+
+[...] @vasishth2019
 
 # Implications and future research
 \label{s:final}
