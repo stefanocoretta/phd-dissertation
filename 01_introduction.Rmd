@@ -853,6 +853,7 @@ This procedure allows data to be rotated along the occlusal plane and provides u
 ![Ultrasonic probe stabilisation headset.\label{fig:headset}](./img/headset.png){ width=50% }
 
 ### Procedure and data processing
+\label{s:procdata}
 
 The participants read sentence stimuli containing test words presented on the screen via the software Articulate Assistant Advanced™ (AAA v2.17.2, \citealt{articulate2011}).
 The test words were C\textsubscript{1}V\textsubscript{1}C\textsubscript{2}V\textsubscript{2} words, where C\textsubscript{1} = /p/, V\textsubscript{1} = /a, o, u/, C\textsubscript{2} = /t, d, k, g/, and V\textsubscript{2} = V\textsubscript{1}.

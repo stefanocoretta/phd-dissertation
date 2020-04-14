@@ -71,7 +71,7 @@ A tentative account of the underlying gestural coordination from which the relea
 ### A gestural account of the voicing effect
 \label{s:gest}
 
-The task-dynamic model \citep{saltzman2008} of Articulatory Phonology \citep{ohala1986a, browman1988, browman1992}, based on the coupled oscillators model \citep{odell2008}, states that any two gestures can be implemented according to two modes.
+The task-dynamic model \citep{saltzman2008} of Articulatory Phonology \citep{browman1986, browman1988, browman1992} states that any two gestures can be implemented according to two modes.
 Either they are initiated in synchrony or they are implemented sequentially.
 These modes of gestural phasing (in-phase and anti-phase) can account for a variety of patterns of articulatory timing.
 Relevant to our discussion is that onset consonants are generally produced in-phase with the following vowel, meaning that the vocalic and consonantal gestures are initiated together.
