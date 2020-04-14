@@ -115,7 +115,7 @@ and the timing of the release of C2 is not affected by voicing,
 This is in part confirmed by the ultrasound tongue imaging data of Study I (see \Cref{a:gons}).
 The duration of the interval between the acoustic release of C1 and the gestural onset time of C2 in CVCV words is not affected by the voicing status of C2, as discussed in \Cref{p:relrel} for Italian and Polish and \Cref{p:en-relrel} for English.
 
-On the other hand, the velocity of the closing gesture is known to differ in voiceless vs voiced stops \citep{van-summers1987}.\footnote{As mentioned in \Cref{s:procdata, tongue movement velocity was not analysed as part of the current investigation, and future work on this aspect is warranted.}
+On the other hand, the velocity of the closing gesture is known to differ in voiceless vs voiced stops \citep{van-summers1987}.\footnote{As mentioned in \Cref{s:procdata}, tongue movement velocity was not analysed as part of the current investigation, and future work on this aspect is warranted.}
 While the timing of gestural onset is identical in both voicing contexts, the difference in closing velocity produces the observed acoustic pattern of the later timing of the acoustic VC boundary when the consonant is voiced than when it is voiceless.
 In \Cref{fig:vv-cent-3}(b), the time of full oral closure is signalled by a dot on the displacement trajectory.
 Faster closing velocity in voiceless stops creates an early VC boundary, while a slow closing gesture generates a later VC boundary.
