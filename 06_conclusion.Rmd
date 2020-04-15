@@ -128,6 +128,10 @@ This scenario is depicted in \Cref{fig:vv-cent-3}(c).
 This is what it is argued to have happened in the English monosyllabic words, where the temporal distance between the releases of C1 and C2 differs depending on C2 voicing, as shown in \Cref{p:en-relrel}.
 \citet{raphael1972} and \citet{de-jong1991} indeed find that, in English monosyllabic words, the vocalic gesture is held for longer when the following consonant is voiced and that the gesture onset of voiced stops is timed later during the production of the vowel relative to that of voiceless stops.
 
+As a final note, in \Cref{s:comp} I mentioned Tilsen's selection-coordination model as a promising one in that it provides us with theoretical machinery to describe word-holistic patterns of gestural phasing \citet{tilsen2013, tilsen2016}.
+This aspect sets the selection-coordination model apart when compared with classical Articulatory Phonology, the focus of which is generally restricted to the level of syllables, as we have seen in the outline of the coupling modes above.
+However, a detailed development of a selection-coordination interpretation of the gestural phasing account proposed here is beyond the scope of this dissertation, and it is left to future research.
+
 ### Diachrony, production, and perception
 
 The composite account proposed in the previous sections is diachronic in nature, in as much as it reveals a possible historical pathway to the development of the voicing effect, rooted in production aspects of vowels and consonants.
@@ -142,7 +146,7 @@ Durational differences can emerge via developmental learning and historical chan
   \label{fig:histve}
 \end{figure}
 
-\Cref{fig:histve} illustrates how the emergence of the voicing effect in disyllabic (a) and monosyllabic (b) words with either a voiceless or a voiced post-vocalic stop is envisaged to work.
+\Cref{fig:histve} illustrates how the emergence of the voicing effect in disyllabic (a) and monosyllabic (b) words with either a voiceless or a voiced post-vocalic stop is envisioned to work.
 For each type of word, the figure shows three stages that can be thought of as three stages in a continuum of developmental learning and/or the historical change of a language across generations (future work is needed to work out the full details of these scenarios).
 Starting with disyllabic words in (a) stage 1 (top left panel), the words *pata* and *pada* show an identical temporal profile.
 The release of the stops are indicated by a dashed line, while full oral closure (the acoustic VC boundary) is signalled by a black dot on the profile of the second consonant.
@@ -172,6 +176,7 @@ Finally, note that the same contrast-enhancing perceptual biases that operate in
 
 <!-- TODO: Exemplar Theory -->
 The discussion in \Cref{s:comp} hinted at an exemplar-theoretic account of the diachronic scenario outlined here.
+<!-- TODO: summarise -->
 Under exemplar-based theories, speech processing operates on parameters the values of which are obtained from statistical distributions.
 At the early stages of the emergence of the voicing effect, the timing of the VC boundary (as produced by gestural phasing) would come from a distribution shared across voiceless and voiced stops.
 Deviation from this distribution are a consequence of the application of VC boundary shifting driven by physiological factors.
@@ -180,11 +185,12 @@ Statistical sub-distributions in the timing of the VC boundary would thus start 
 These sub-distributions can then act as distributions from which timing information is directly obtained during speech processing.
 At this point, while the original physiological biases might still be in place, the presence of independent sub-distributions blurs the statistical relationship among durational measures, and, as argued in \Cref{s:comp}, the true underlying mechanisms are difficult if not impossible to be recovered from synchronic data.
 
+<!-- TODO: expand on the above, link it back to production/perception -->
+
 An exemplar-based view was chosen as an illustrative example of the cognitive mechanisms behind the emergence of the voicing effect, although other frameworks might as readily account for the patterns discussed in this dissertation.
 Future work is warranted to weight the goodness of each individual framework in doing so.
 
 <!-- TODO: Widespread? -->
-The fact that the voicing effect is cross-linguistically widespread
 
 While the account proposed here is based on production mechanisms, it cannot be completely excluded that the production differences observed and stipulated here are a consequence of perceptual biases.
 In such a scenario, there could be a design feature of the perceptual system that generates the differential duration percept, even when there is not such difference in the acoustic output/input.
