@@ -171,6 +171,17 @@ This is possible due to the absence of vowel-to-vowel isochrony (since there is 
 Finally, note that the same contrast-enhancing perceptual biases that operate in the context of monosyllabic words can also operate in disyllabic ones, with the exception that vowel-to-vowel isochrony (and release-to-release temporal stability) is preserved in the latter.
 
 <!-- TODO: Exemplar Theory -->
+The discussion in \Cref{s:comp} hinted at an exemplar-theoretic account of the diachronic scenario outlined here.
+Under exemplar-based theories, speech processing operates on parameters the values of which are obtained from statistical distributions.
+At the early stages of the emergence of the voicing effect, the timing of the VC boundary (as produced by gestural phasing) would come from a distribution shared across voiceless and voiced stops.
+Deviation from this distribution are a consequence of the application of VC boundary shifting driven by physiological factors.
+The boundary shifting can then accumulate through time via a perception-production feedback-loop.
+Statistical sub-distributions in the timing of the VC boundary would thus start emerging for voiceless and voiced stops from the prior unique distribution.
+These sub-distributions can then act as distributions from which timing information is directly obtained during speech processing.
+At this point, while the original physiological biases might still be in place, the presence of independent sub-distributions blurs the statistical relationship among durational measures, and, as argued in \Cref{s:comp}, the true underlying mechanisms are difficult if not impossible to be recovered from synchronic data.
+
+An exemplar-based view was chosen as an illustrative example of the cognitive mechanisms behind the emergence of the voicing effect, although other frameworks might as readily account for the patterns discussed in this dissertation.
+Future work is warranted to weight the goodness of each individual framework in doing so.
 
 <!-- TODO: Widespread? -->
 The fact that the voicing effect is cross-linguistically widespread
