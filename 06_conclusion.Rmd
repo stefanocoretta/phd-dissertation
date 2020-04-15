@@ -130,10 +130,49 @@ This is what it is argued to have happened in the English monosyllabic words, wh
 
 ### Diachrony, production, and perception
 
-The account proposed here is diachronic in nature, in as much as it reveals a possible historical pathway to the emergence of the difference in vowel duration rooted in production aspects of vowels and consonants.
-In particular, I argue that the voicing effect can emerge because of the temporal stability of CVC sequences and the differences in timing of the VC boundary depending on the voicing of the post-vocalic consonant.
+The composite account proposed in the previous sections is diachronic in nature, in as much as it reveals a possible historical pathway to the development of the voicing effect, rooted in production aspects of vowels and consonants.
+In particular, I argue that the voicing effect can emerge because of the temporal stability of VC sequences and the differences in timing of the VC boundary depending on the voicing of the post-vocalic consonant.
 Such an account assumes that the original scenario is one in which the duration of vowels and that of closures do not differ across voicing contexts.
-Durational differences can emerge via developmental learning or historical change in individual speakers and spread across the population.
+Durational differences can emerge via developmental learning and historical change in individual speakers and spread across the population.
+
+\begin{figure}
+  \centering
+  \includegraphics[\textwidth]{./img/histve.pdf}
+  \caption{Schematics of the developmental/historical emergence of the voicing effect in disyllabic (a) and monosyllabic (b) words. See text for details.}
+  \label{fig:histve}
+\end{figure}
+
+\Cref{fig:histve} illustrates how the emergence of the voicing effect in disyllabic (a) and monosyllabic (b) words with either a voiceless or a voiced post-vocalic stop is envisaged to work.
+For each type of word, the figure shows three stages that can be thought of as three stages in a continuum of developmental learning and/or the historical change of a language across generations (future work is needed to work out the full details of these scenarios).
+Starting with disyllabic words in (a) stage 1 (top left panel), the words *pata* and *pada* show an identical temporal profile.
+The release of the stops are indicated by a dashed line, while full oral closure (the acoustic VC boundary) is signalled by a black dot on the profile of the second consonant.
+The timing of the vocalic and consonantal gestures (including the timing of the release and the VC boundary) coincide, as illustrated by the straight vertical lines indicating releases and connecting oral closures.
+In other words, there is no voicing effect, and both the duration of vowels and that of stop closures is not affected by voicing.
+
+At stage 2, the timing of the VC boundary in the two voicing conditions has shifted.
+There is now a voicing effect: vowels are shorter when followed by voiceless stops and longer when followed by voiced stops, and vice versa voiceless stop closures are longer and voiced stop closures shorter.
+This change is brought about by the differing closing velocity of voiceless and voiced stops.
+In relation to the VC boundary shift, three scenarios are possible: (1) the VC boundary shifts leftwards in the voiceless context, (2) the VC boundary shifts rightwards in the voiced context, (3) both (1) and (2) are implemented.
+Only diachronic data will be able to indicate which of these three scenarios is the correct one, but possibly (3) is compatible with the finding of two mechanisms that can lead to the closure velocity differential and hence to a VC boundary shift.
+As discussed in \Cref{p:tra} and \Cref{p:wavegram}, these mechanisms are tongue root advancement in voiced stops and the emergence of pre-aspiration in voiceless stops.
+Tongue root advancement would be responsible for a delayed VC boundary in voiced stops, while prevention of pre-aspiration for an earlier VC boundary in voiceless stops.
+It goes without saying that other mechanisms not investigated here might also play a role, so I do not wish to attribute boundary shifts exclusively to these two mechanisms.
+
+Finally, in (a) stage 3, the temporal distance between the VC boundaries in *pata* and *pada* has increased through time and has now reached a stable state.
+The absolute difference in vowel and closure durations will depend on the language and on how other factors, like perceptual ones, further modulate it.
+Note that throughout stages 1 to 3, the temporal stability of the release-to-release interval is maintained due to the preservation of vowel-to-vowel isochrony.
+
+Turning to monosyllabic words in \Cref{fig:histve}(b), the bottom left panel in 1 illustrates the initial stage of *pat* and *pad* words where the temporal profiles are, as in (a)1, identical.
+There is no voicing effect.
+As in (a)2-3, the VC boundary in the voiceless and voiced contexts shifts in (b)2, and a voicing effect emerges.
+Now, as discussed in \Cref{p:en-relrel}, the duration of the vowels can be modulated for contrast enhancement purposes by temporal shortening in the voiceless context and/or lengthening in the voiced one (the schematics in (b)3 shows the case where both shortening and lengthening occur).
+The temporal stability of the release-to-release interval is now disrupted.
+This is possible due to the absence of vowel-to-vowel isochrony (since there is no second vowel to temporally lock in monosyllabic words).
+Finally, note that the same contrast-enhancing perceptual biases that operate in the context of monosyllabic words can also operate in disyllabic ones, with the exception that vowel-to-vowel isochrony (and release-to-release temporal stability) is preserved in the latter.
+
+<!-- TODO: Exemplar Theory -->
+
+<!-- TODO: Widespread? -->
 The fact that the voicing effect is cross-linguistically widespread
 
 While the account proposed here is based on production mechanisms, it cannot be completely excluded that the production differences observed and stipulated here are a consequence of perceptual biases.
