@@ -28,7 +28,8 @@ This chapter provides an over-arching synthesis of the account proposed here in 
 \label{s:pluralist}
 <!-- Question 1 -->
 
-Previous articulatory accounts of the voicing effect, reviewed in \Cref{s:accounts}, ascribe the driving force behind the voicing effect each to an individual property of speech.
+One of the questions posed at the beginning of the dissertation (\Cref{s:resq}) concerned the diachronic pathway to the emergence of the voicing effect.
+Previous articulatory accounts of the voicing effect, reviewed in \Cref{s:accounts}, ascribe the driving force behind this phenomenon each to an individual property of speech.
 According to the compensatory temporal adjustment account \citep{lindblom1967, slis1969a, slis1969b, lehiste1970a, lehiste1970b}, there is a trading relationship between the duration of vowels and that of the following consonant.
 The account of rate of stop closure transition states that the rate of the closing gesture of voiceless stops is higher than that of voiced stops \citep{ohman1967a, chen1970}.
 As a consequence, full closure is achieved earlier relative to the onset of the closing gesture when the stop is voiceless.
@@ -199,16 +200,17 @@ When looking at a wheel spinning in a clockwise direction, the observer will see
 There is nothing in the mechanics of a wheel spinning around its axis that can explain this perceptual fact.
 Rather, visual processing has a design feature (for example, vision refresh rate) that creates the illusion of the wheel spinning in the opposite direction.
 In this example, the wheel and its percept are two clearly separable ontological entities, so that the percept cannot change how the wheel is spinning.
-In the case of speech, however, a bias in the the perceptual system can (and very often does) result into difference in production.
+In the case of speech, however, a bias in the the perceptual system can (and very often does) result in differences in production.
 
 Teasing apart production and perceptual mechanisms in speech is more difficult than in the spinning wheel case, since production and perception operate within a single agent, i.e. the speaker/hearer.
-On the other hand, when we can find independent physical explanations behind production biases, we can considered them design features of the production system, and not just a consequence of perceptual biases.
+On the other hand, when we can find independent physical explanations behind production biases, we can consider them design features of the production system, and not just a consequence of perceptual biases.
 Since in the case of voicing there are independent production reasons for the observed patterns to exist, we can assume that, while perceptual biases can hook on the vowel duration differences as a cue to voicing and enhance such contrast, these differences emerge due to a production mechanism in the first place.
 
 ## On cross-linguistic differences
 \label{s:cross-ling-diff}
 <!-- Question 2 -->
 
+The second aim of the dissertation was concerned with cross-linguistic differences in the development and implementation of the voicing effect.
 As discussed in \Cref{s:ve}, the degree of the voicing effect is generally thought to vary depending on the language.
 Allegedly, English is the language possessing the biggest effect, while the effect is smaller in Italian and possibly absent in Polish.
 However, Papers I and II indicate a somewhat different scenario.
@@ -216,11 +218,16 @@ A direct comparison of the data from Study I and II is not straightforward, give
 A Bayesian analysis of the effect of voicing in disyllabic words comparing English, Italian, and Polish (see \Cref{a:ve-comp}) suggests that, when controlling for differences in average baseline vowel duration and speech rate, there is no strong evidence for a difference in the effect of voicing across these languages.
 Note, however, that no conclusive statement can be done in this regard, due to the low precision of the relevant estimates obtained in the meta-analysis.
 
-Crucially, previous work \citep{sharf1962, klatt1973}, and in some part the results in Paper II, indicate there is a tendency for the effect in English to be greater in monosyllabic than disyllabic words.
+As thoroughly discussed in \Cref{s:veitapoldisc}, the magnitude of the voicing effect found in Study I for Italian aligns with previous work on this language, which is unanimously regarded as a voicing-effect language.
+Polish, on the other hand, has been claimed both to show a voicing effect \citep{slowiaczek1985, nowak2006, malisz2008} or not \citep{jassem1989, keating1984, strycharczuk2012a}.
+In \Cref{p:relrel}, it was argued that the Polish speakers surveyed in Study I do show the voicing effect, and that this effect is similar in magnitude to that of Italian.
+As mentioned in \Cref{s:veitapoldisc}, it is possible that the null results reported in some of the literature are due to low statistical power, rather than absence of the effect (based on what discussed in \Cref{s:openscience}).
+
+Previous work \citep{sharf1962, klatt1973}, and in some part the results in Paper II, crucially indicate there is a tendency for the effect in English to be greater in monosyllabic than disyllabic words.
 It is important, then, that differences across languages are tested directly and within the same phonological contexts.
 An example of this approach is the study in \citet{laeufer1992}, who shows that the effect in English and French is comparable when the vowel baseline duration is analogous.
 
-Moreover, the results of the Bayesian meta-analysis of the English voicing effect (\Cref{a:ve-eng}) indicate that, while there is clearly a positive effect of voicing on vowel duration, less can be said about the magnitude of such effect.
+Moreover, the results of the Bayesian meta-analysis of the English voicing effect (\Cref{a:ve-eng}) indicate that, while there is a clear positive effect of voicing on vowel duration, less can be said about the magnitude of such effect.
 Although the estimated range of values is between 55 and 95 ms, the analysis revealed a possibility for publication bias in favour of larger effects, meaning that the obtained values might be overestimated.
 Note also that there could be differences in speech rate across studies which cannot be controlled for, and older studies might have obtained data based on lower speech rates (which could explain the greater baseline vowel duration in these studies).
 The smaller effect found in Study II is indicative of such differences.
