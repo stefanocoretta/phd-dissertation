@@ -247,7 +247,25 @@ More work is needed to assess cross-linguistic differences with a sufficiently s
 ## Embracing variation and accepting uncertainty
 <!-- Question 3 -->
 
-[...] @vasishth2019
+The third objective of this dissertation focussed on research methods and practices in light of the principles of Open Science (\Cref{s:openscience}).
+The planning and execution of research were carried out with openness and transparency in mind.
+Following state-of-the art recommendations on how to curate and share research objects \citep{marwick2017, berez-kroeker2018, nust2018}, the data, code, documentation, and software information have been made available as a research compendium on the Open Science Framework (\url{https://osf.io/w92me/}, \citealt{coretta2020a}).
+Data and code have been released under a Creative Commons Attribution 4.0 International license and a MIT licence respectively, so as to facilitate and encourage re-use and attribution.
+Three R packages were developed while conducting this research as complementary software: speakr \citep{coretta2019h}, tidymv \citep{coretta2019i}, and rticulate \citep{coretta2018}.
+
+Attention has been given in reporting the results from the statistical analyses in a way commensurate with the weight of the evidence provided.
+As \citep{vasishth2019} put it, "conclusions based on data are *always* uncertain, and this is regardless of whether the outcome of the statistical test is statistically significant or not."
+Rather than focussing on a dichotomous distinction between "significant" and "non-significant", greater emphasis has been put on parameter estimation and quantification of uncertainty.
+This approach culminated in Study II with the full adoption of the framework of Bayesian statistics.
+What this dissertation as a whole hopefully highlights is the importance of embracing variation and accepting uncertainty, not as a detrimental aspect for science, but rather as a necessary step in the cumulative enterprise of knowledge acquisition.
+
+One aspect not directly touched upon here is how Open Science practices affect collaboration among multiple researchers.
+In fact, the workflow followed here has a ready application in collaborative environments.
+For example, the Git versioning software has built-in functionalities which can streamline collaboration, like the ability to cleverly merge changes applied by different team members on the same file.
+The same workflow can be used not only for data collection and analysis, but also for collaborative writing.
+Although most institutions nowadays are equipped with self-hosted servers, platforms like GitHub, GitLab, and the Open Science Framework provide free servers and software solutions that facilitates research teamwork.
+Finally, sharing data and code can further foster scientific collaboration \citep{mckiernan2016, klein2018}.
+In this regard, it is hoped that the linguistic community at large will be able to appreciate the innumerable benefits of Open Science, and that researchers in this discipline will decide to adopt and cultivate its principles.
 
 # Implications and future research
 \label{s:final}
