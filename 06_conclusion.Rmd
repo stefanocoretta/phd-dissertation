@@ -328,7 +328,7 @@ Jaw displacement could be employed as an index of the gestural timing of the voc
 The temporal distance between the onsets or maxima of jaw displacement should be identical or very similar across voicing contexts, place of articulation, and manner of the intervening consonant.
 
 To conclude, this work has drawn from acoustic data, ultrasound tongue imaging, and electroglottography, and a diverse set of related but contrasting languages (namely Italian, English, and Polish) with the aim of shedding new light on the widespread phenomenon known as the voicing effect.
-This investigation culminated in the proposal of a holistic account of the voicing effect that combines durational and articulatory aspects of previous research, complimented with diachronic considerations of the pathways that can lead to the emergence of this phenomenon.
-While contributing to our understanding of the voicing effect, the proposed account also opened new promising and exciting venues of research, which can further our knowledge in the domain of speech and language.
+This investigation led to the development of a holistic account of the voicing effect that combines durational and articulatory aspects of previous research, complemented with diachronic considerations of the pathways that can lead to the emergence of this phenomenon.
+While contributing to our understanding of the voicing effect, the proposed account also opens up promising and exciting new venues for research, which can further our knowledge in the domain of speech and language.
 
 # (PART) Appendices {-}
