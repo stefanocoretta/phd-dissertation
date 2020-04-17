@@ -140,12 +140,14 @@ In particular, I argue that the voicing effect can emerge because of the tempora
 Such an account assumes that the original scenario is one in which the duration of vowels and that of closures do not differ across voicing contexts.
 Durational differences can emerge via developmental learning and historical change in individual speakers and spread across the population.
 
+```{=latex}
 \begin{figure}
   \centering
-  \includegraphics[\textwidth]{./img/histve.pdf}
+  \includegraphics{./img/histve.pdf}
   \caption{Schematics of the developmental/historical emergence of the voicing effect in disyllabic (a) and monosyllabic (b) words. See text for details.}
   \label{fig:histve}
 \end{figure}
+```
 
 \Cref{fig:histve} illustrates how the emergence of the voicing effect in disyllabic (a) and monosyllabic (b) words with either a voiceless or a voiced post-vocalic stop is envisioned to work.
 For each type of word, the figure shows three stages that can be thought of as three stages in a continuum of developmental learning and/or the historical change of a language across generations (future work is needed to work out the full details of these scenarios).
@@ -270,7 +272,7 @@ In this regard, it is hoped that the linguistic community at large will be able 
 # Implications and future research
 \label{s:final}
 
-The aim of this dissertation was to investigate properties of speech production that could illuminate the debate on the origin of the effect of consonant voicing on vowel duration.
+This dissertation set out to investigate properties of speech production that could illuminate the debate on the origin of the effect of consonant voicing on vowel duration.
 While the results of this endeavour contributed to answering the questions introduced in \Cref{s:resq}, some open issues remain and new questions are brought to light.
 The following paragraphs review these and offer some final thoughts on future directions of research.
 
@@ -321,9 +323,12 @@ As a consequence, the gestural onset of the second consonant is delayed in the g
 
 Future work should investigate vowel-to-vowel isochrony within contexts that have a comparable phasing profile (for example, within CV.CV words and within CVC.CV, but not across the two).
 The acoustic patterns discussed in this dissertation assume that the distance between the vowels in CV.CV words is not affected by the second consonant and that the timing of the gestural onset and release are the same independent of voicing, while the velocity profiles of the closing gesture differs (\Cref{fig:vv-cent}b).
-By extension, I propose that the vowel-to-vowel interval should be isochronous when comparing different manners of articulation, like in pairs such as Italian /kadi/ and /kazi/.
+By extension, I propose that the vowel-to-vowel interval should be isochronous when comparing different manners of articulation, like in pairs such as Italian /kadi/ 'you fall' and /kazi/ 'cases'.
 Jaw displacement could be employed as an index of the gestural timing of the vocalic gestures in plurisyllabic words \citep{menezes2013, erickson2016, kawahara2017}.
 The temporal distance between the onsets or maxima of jaw displacement should be identical or very similar across voicing contexts, place of articulation, and manner of the intervening consonant.
 
+To conclude, this work has drawn from acoustic data, ultrasound tongue imaging, and electroglottography, and a diverse set of related but contrasting languages (namely Italian, English, and Polish) with the aim of shedding new light on the widespread phenomenon known as the voicing effect.
+This investigation culminated in the proposal of a holistic account of the voicing effect that combines durational and articulatory aspects of previous research, complimented with diachronic considerations of the pathways that can lead to the emergence of this phenomenon.
+While contributing to our understanding of the voicing effect, the proposed account also opened new promising and exciting venues of research, which can further our knowledge in the domain of speech and language.
 
 # (PART) Appendices {-}
