@@ -37,8 +37,8 @@ These languages make up an appropriate set in that they constitute a methodologi
 
 The dissertation is organised in three parts: an introduction (Part I), a collection of original manuscripts (Part II), and a conclusion (Part III).
 
-The three chapters of Part I present in turn a review of the literature on the voicing effect and related issues (\Cref{s:ve}), a rationale for the current research including a discussion of the questions to be addressed (\Cref{s:rationale}), and a description of the methodologies employed in the two studies that make up this research and of principles of Open Science (\Cref{s:methods}).
-The following sections of this chapter (\Cref{s:ve}) introduce the phenomenon of the effect of consonant voicing on preceding vowel durations (the "voicing effect").
+The three chapters of Part I present in turn a review of the literature on the voicing effect and related issues (\Cref{s:ve}), a rationale for the current research including a discussion of the questions to be addressed (\Cref{s:rationale}), and a description of the methodologies employed in the studies that make up this research (\Cref{s:methods}).
+The following sections introduce the phenomenon of the effect of consonant voicing on preceding vowel durations (the "voicing effect").
 First, I will discuss how the voicing effect is cross-linguistically common (with the typological caveat that most investigated languages are from the Indo-European family), although alleged exceptions to its universality exist, both in terms of presence of the effect and of its magnitude (\Cref{s:veintro}).
 This is followed by a discussion of the use of "voicing" as a comparative concept rather than as a phonetically-motivated descriptive category (\Cref{s:voi-comp}), and by a presentation of other phonological and phonetic factors that are known to interact with the voicing effect, such as manner, prosody (\Cref{s:ve-phonphon-fact}), and processes of phonologisation (\Cref{s:ve-phonologise}).
 The chapter proceeds with a critical review of the explanatory accounts proposed for the voicing effect, both from a production and a perception point of view (\Cref{s:accounts}).
@@ -73,7 +73,7 @@ An articulatory account inferred from the acoustic data presented in \Cref{p:rel
 These hypotheses, formulated in terms of acoustic durational patterns, are tested against acoustic data from English disyllabic and monosyllabic words.
 The paper also links differences in magnitude of the voicing effect in di- vs monosyllabic words to the interplay between the articulatory organisation of gestures and perceptual factors.
 
-Two more papers present articulatory aspects of the voicing effect in Italian and Polish from Study I (\Cref{s:studyi}).
+Two more papers present articulatory aspects of the voicing effect in Italian and Polish from Study I.
 This part of the study was carried out to explore voicing-driven differences in articulation during the production of vowel/consonant sequences that could favour the emergence of the voicing effect.
 \Cref{p:tra} (Paper III) discusses ultrasound tongue imaging data and focusses on tongue root advancement, a mechanism known to facilitate voicing during closure.
 Both the static configuration of tongue root advancement at vowel onset and its dynamic development during the production of vowels followed by voiceless and voiced stops are discussed.
