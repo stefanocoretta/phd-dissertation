@@ -295,14 +295,14 @@ Tongue contours obtained from ultrasound imaging lend themselves to be efficient
 
 ### Polar coordinates
 
-\citet{mielke2015} and \citet{heyne2015, heyne2015a} have shown that using polar coordinates of tongue contours rather than cartesian coordinates brings several benefits, among which reduced variance at the edges of the tongue contour.
+\citet{mielke2015} and \citet{heyne2015, heyne2015a} have shown that using polar coordinates of tongue contours rather than Cartesian coordinates brings several benefits, among which reduced variance at the edges of the tongue contour.
 Points in a polar coordinate system are defined by pairs of radial and angular values.
 A point is described by a radius, which corresponds to the radial distance from the origin, and by the angle from a reference radius.
 Tongue contours, due to their shape, tend to have increasing slope at the left and right edges, in certain cases tending to become almost completely vertical.
 The verticality of the contours has the effect of increasing the variance of the fitted contours (and hence the confidence intervals), and in some cases it can even generate uninterpretable curves.
 
 This issue is illustrated in \Cref{fig:Figure02}.
-The *x* and *y* axes are the *x* and *y* cartesian coordinates in millimeters.
+The *x* and *y* axes are the *x* and *y* Cartesian coordinates in millimetres.
 The plot shows LOESS smooths superimposed on the points of the individual tongue contours of an Italian speaker (IT01, see \Cref{s:data}).
 These contours refer to the mid-sagittal shape of the tongue during the closure of four consonants (/t, d, k, g/) preceded by one of three vowels (/a, o, u/).
 The tip of the tongue is on the right-end side of each panel.
@@ -332,10 +332,10 @@ tongue_it01 %>%
   facet_grid(vowel ~ c2) +
   theme(legend.position = "none")
 ```
-These figures illustrate that using cartesian coordinates for modelling tongue contours can introduce smoothing artefacts which can in turn negatively affect the model output.
+These figures illustrate that using Cartesian coordinates for modelling tongue contours can introduce smoothing artefacts which can in turn negatively affect the model output.
 When tongue contours are expressed with polar coordinates, on the other hand, the variance is reduced and the fitted contours generally reflect more closely the underlying tongue shape.
 Mielke has implemented a series of R [@r-core-team2018] functions for fitting polar SSANOVAs to tongue contours (\url{http://phon.chass.ncsu.edu/manual/tongue_ssanova.r}).
-While model fitting is achieved using polar coordinates, plotting is done by reconverting the coordinates to a cartesian system.
+While model fitting is achieved using polar coordinates, plotting is done by reconverting the coordinates to a Cartesian system.
 This same procedure is used in the polar GAM modelling presented here.
 
 ## Polar GAM(M)s
@@ -345,18 +345,18 @@ A polar GAM is constructed as follows.
 The outcome variable of the model are the radial coordinates, while a smooth term over the angular coordinates is the predictor which takes care of modelling the curved shape of the contour.
 Other predictors, such as consonant or vowel type, speech rate, or random effects, can also be included.
 The model returns fitted smooths in polar coordinates.
-The predicted polar coordinates of the smooths can be derived from the model and converted into a cartesian coordinate system (centred on the origin of the polar system) for plotting.
+The predicted polar coordinates of the smooths can be derived from the model and converted into a Cartesian coordinate system (centred on the origin of the polar system) for plotting.
 A simple example with data from one speaker will illustrate how to fit polar GAMs with the R package rticulate.
 The following section gives information on the ultrasonic system used for data collection and on how the data has been processed, before moving onto model fitting itself.
 
-<!-- The function `polar_gam()` accepts cartesian coordinates, which are converted into polar using a user specified origin or the origin estimated from the data.
+<!-- The function `polar_gam()` accepts Cartesian coordinates, which are converted into polar using a user specified origin or the origin estimated from the data.
 The polar origin is either known or estimated from the data, depending on the ultrasonic system used.
-The GAM is fitted on the polar coordinates and the predicted values are converted back to cartesian using the same origin for plotting. -->
+The GAM is fitted on the polar coordinates and the predicted values are converted back to Cartesian using the same origin for plotting. -->
 
 ### Data collection and processing
 \label{s:data}
 
-Synchronised audio and ultrasound tongue imaging data have been recorded from 11 speakers of Italian and 6 speakers of Polish while reading a series of controlled sentences.
+Synchronised audio and ultrasound tongue imaging data have been recorded from 11 speakers of Italian and 6 speakers of Polish while reading a series of controlled sentences (only 6 of the 11 Italian speakers are analysed here, see \Cref{s:comptrp}).
 An Articulate Instruments Ltd™ set-up was used for this study.
 The ultrasonic data was collected through a TELEMED Echo Blaster 128 unit with a TELEMED C3.5/20/128Z-3 ultrasonic transducer (20mm radius, 2-4 MHz).
 A synchronisation unit (P-Stretch) was plugged into the Echo Blaster unit and used for automatic audio/ultrasound synchronisation.
@@ -378,7 +378,7 @@ Tongue displacement was thus calculated as the displacement of the fitted spline
 The time of maximum tongue displacement was the time of greater displacement along the fan-line vector with the greatest standard deviation.
 The vector standard deviation search area was restricted to the portion of the contour corresponding to the tongue tip for coronal consonants, and to the portion corresponding to the tongue dorsum for velar consonants.
 
-The cartesian coordinates of the tongue contours were extracted from the ultrasonic data at the time of maximum tongue displacement (always within C2 closure).
+The Cartesian coordinates of the tongue contours were extracted from the ultrasonic data at the time of maximum tongue displacement (always within C2 closure).
 The contours were subsequently normalised within speaker by applying offsetting and rotation relative to the participant’s occlusal plane [@scobbie2011].
 Each participants' dataset is thus constituted by *x* and *y* coordinates of the tongue contours that define respectively the horizontal and vertical axes.
 The horizontal plane is parallel to the speaker's occlusal plane.
@@ -389,15 +389,15 @@ GAMs can be fitted in R with the `gam()` function from package mgcv [@wood2011; 
 `bam()` is a more efficient function when the dataset has several hundreds observations.
 The package rticulate has been developed as a wrapper of the `bam()` function to be used with tongue contours.
 The special function `polar_gam()` can fit a variety of GAM models to tongue contours coordinates, using the same syntax of mgcv.
-The function accepts tongue contours either in cartesian or polar coordinates.
+The function accepts tongue contours either in Cartesian or polar coordinates.
 In the first case, the coordinates can be transformed into polar before fitting.
 If the data is in the AAA fan-like coordinate system, the origin is automatically estimated with the method in \citet{heyne2015a}.
 If the data is not exported from AAA, the user can specify the known coordinates of the probe origin.
-The function `plot_polar_smooths()`, used for plotting the estimated contours, converts the coordinates back into cartesian using the same origin as with GAM fitting.
+The function `plot_polar_smooths()`, used for plotting the estimated contours, converts the coordinates back into Cartesian using the same origin as with GAM fitting.
 
 A GAM in R can be specified with a formula that uses the same syntax of lme4, a commonly used package for linear mixed-effects models \citep{bates2015}.
 The mgcv package allows to specify smoothing spline terms with the function `s()`.
-This function takes the term along which a spline is created (for example, time in a time series, or *x*-coordinates in a cartesian system).
+This function takes the term along which a spline is created (for example, time in a time series, or *x*-coordinates in a Cartesian system).
 Among the arguments of `s()`, the user can select the type of spline (the `bs` argument) and the grouping factor used for comparison (the `by` argument).
 For a more in-depth introduction to GAMs in R for linguistics, see \citet{soskuthy2017} and \citet{wieling2017}.
 
@@ -483,7 +483,7 @@ As per usual, the tongue tip is on the right-end side of each plot.
 The difference smooths indicate that there is a significant difference along the posterior part of the tongue (the root and dorsum).
 Based on the predicted smooths sown in \Cref{fig:Figure04}, we can argue that, in the context of coronal consonants, the root is more advanced in voiced relative to voiceless stops (when the vowel is either /a/ or /u/), and that the dorsum is also somewhat retracted in voiced stops if the vowel is /u/.
 
-```{r Figure05, include=TRUE, fig.cap = "Difference smooth of voiceless vs. voiced stops in the context of /a/ (left) and /u/ (right).", fig.show="hold",out.width=".7\\linewidth", out.height="5cm"}
+```{r Figure05, include=TRUE, fig.cap = "Difference smooth of voiceless vs. voiced stops in the context of /a/ (top) and /u/ (bottom).", fig.show="hold",out.width=".7\\linewidth", out.height="6cm"}
 plot_difference(
   it01_gam,
   X,
@@ -503,7 +503,7 @@ plot_difference(
 
 As mentioned in the introduction, autocorrelation in the data can produce unwanted patterns in the residuals, which in turn can affect the estimated smooths (and falsely increase certainty about them).
 A first-order autoregressive (AR1) model can be included to reduce autocorrelation at lag 1.
-\Cref{fig:Figure06} show the autocorrelations in the residuals without (left) and with (right) an AR1 model.
+\Cref{fig:Figure06} show the autocorrelations in the residuals without (top) and with (bottom) an AR1 model.
 The GAM model with the AR1 correction has lower autocorrelation values.
 In this case, it is thus advisable to perform ML comparison and smooths plotting with models in which an AR1 model has been included.
 For a more in-depth treatment of issues related to autocorrelation, see \citet{soskuthy2017}.
@@ -523,12 +523,13 @@ it01_gam_ar <- polar_gam(
 )
 ```
 
-```{r Figure06, include=TRUE, fig.cap = "Autocorrelation plots of a model fitted without (left) and with (right) a first-order autoregressive model (AR1).", fig.show="hold",out.width=".7\\linewidth", out.height="5cm"}
+```{r Figure06, include=TRUE, fig.cap = "Autocorrelation plots of a model fitted without (top) and with (bottom) a first-order autoregressive model (AR1).", fig.show="hold",out.width=".7\\linewidth", out.height="6cm"}
 acf_resid(it01_gam, split_pred = list(tongue_it01$start_event))
 acf_resid(it01_gam_ar, split_pred = "AR.start")
 ```
 
 ## Comparing tongue root position in voiceless and voiced stops
+\label{s:comptrp}
 
 Tongue root advancement is a well-known mechanism employed to keep intra-oral pressure below the threshold required for voicing \citep{ohala2011, kent1969, perkell1969, westbury1983, ahn2018}.
 Among the languages reported to show tongue root position differences between phonation categories in stops there are English \citep{westbury1983, ahn2018}, Brazilian Portuguese \citep{ahn2018}, and Hindi \citep{ahn2016a}.

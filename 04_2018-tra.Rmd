@@ -158,7 +158,7 @@ While this gesture is not exclusive of voiced stops and it can be implemented ev
 ### Vowel duration and voicing
 
 The results discussed here are part of a larger study which focusses on the effect of consonant voicing on preceding vowel durations.
-A great number of studies showed that, cross-linguistically, vowels tend to be longer when followed by voiced obstruents than when they are followed by voiceless ones \citep{house1953, peterson1960, chen1970, klatt1973, lisker1974, farnetani1986, fowler1992, hussein1994, esposito2002, lampp2004, durvasula2012}.
+A great number of studies shows that, cross-linguistically, vowels tend to be longer when followed by voiced obstruents than when they are followed by voiceless ones \citep{house1953, peterson1960, chen1970, klatt1973, lisker1974, farnetani1986, fowler1992, hussein1994, esposito2002, lampp2004, durvasula2012}.
 This so-called 'voicing effect' has been reported in a variety of languages,
 including (but not limited to) English, German, Hindi, Russian, Arabic, Korean, Italian, and Polish (see \citealt{maddieson1976} and \citealt{begus2017} for a more comprehensive list).
 
@@ -265,7 +265,7 @@ A total of 1212 tokens (792 from Italian, 420 from Polish) were obtained.
 ### Data processing and statistical analysis
 \label{s:process}
 
-The audio data was subject to force alignment using the SPeech Phonetisation Alignment and Syllabification software (SPPAS, \citealt{bigi2015}).
+The audio data was subject to forced alignment using the SPeech Phonetisation Alignment and Syllabification software (SPPAS, \citealt{bigi2015}).
 The outcome of the automatic alignment was then manually corrected, according to the recommendations in \citet{machac2009}.
 The onset and offset of V1 in the C\textsubscript{1}V\textsubscript{1}C\textsubscript{2}V\textsubscript{2} test words were respectively placed in correspondence of the appearance and disappearance of higher formant structure in the spectrogram.
 Vowel duration was calculated as the duration of the V1 onset to V1 offset interval.
@@ -276,7 +276,7 @@ The displacement of the tongue root was obtained from the ultrasonic data accord
 Smoothing splines were automatically fitted to the visible tongue contours in AAA.
 Manual correction was then applied in cases of clear tracking errors.
 A fan-like frame consisting of 42 equidistant radial lines superimposed on the ultrasonic image was used as the coordinate system.
-The origin of the 42 fan-lines coincides with the (virtual) origin of the ultrasonic beams, such that each fan-line is parallel to the direction of the ultrasonic scan lines.
+The origin of the 42 fan-lines coincides with the (virtual) origin of the ultrasonic beams, such that each fan-line is parallel to the direction of the nearest ultrasonic scan lines.
 Tongue root displacement was thus calculated as the displacement of the fitted spline along a selected vector \citep{strycharczuk2015}, see \Cref{fig:trp}.
 For each participant, the fan-line with the highest standard deviation of displacement within the area corresponding to the speaker's tongue root was chosen as the tongue root displacement vector.
 A Savitzky--Golay smoothing filter (second-order, frame length 75 ms) was applied to the raw displacement.

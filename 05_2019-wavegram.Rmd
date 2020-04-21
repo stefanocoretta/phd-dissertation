@@ -225,10 +225,10 @@ Focussing now on the second half of the vowel, the wavegrams in \Cref{fig:surfac
 Namely, glottal opening increases towards the end of the vowel (also see \citealt{halle1967a}).
 The magnitude and timing of the change, however, differs in the voiceless and voiced contexts.
 The change is greater and is implemented earlier in vowels followed by voiceless stops (left panels) than those followed by voiced stops (right panels).
-The earlier and greater glottal spreading in vowels followed by voiceless stops could be implemented in anticipation of the open glottis required in the production of voiceless stops as a mechanism to cease vocal fold vibration.
+The earlier and greater glottal spreading in vowels followed by voiceless stops could be implemented in anticipation of the open glottis required in the production of voiceless stops as a mechanism to cease/attenuate vocal fold vibration.
 In the case of voiced stops, \citet{halle1967a} propose that increased glottal width can facilitate voicing while the oral tract is constricted (cf. \citealt{westbury1983}, who rather argues that decreased glottal width favours voicing).
 
-The wavegrams of vowels followed by voiceless stops also suggest an effect of language (the GAM terms with a by-language factor return *p*-values below 0.001).
+The wavegrams of vowels followed by voiceless stops also suggest an effect of language (the GAM terms with a by-language factor return *p*-values less than 0.001).
 The change in activity before voiceless stops is initiated earlier in Italian (at around 65% into the vowel) than in Polish (at about 80%).
 The approximate time of the change onset is represented by the vertical dashed lines in \Cref{fig:surface}.
 On the other hand, activity in vowels followed by voiced stops is similar in the two languages.
@@ -256,13 +256,13 @@ The onset of the closure would be temporally attracted towards the time of glott
 Speculatively, this could be one of the mechanisms responsible for longer closure durations of voiceless stops relative to that of voiced stops \citep{lisker1957, umeda1977, van-summers1987, davis1989, de-jong1991}, other things being equal.
 
 To summarise, glottal spreading, which is a typical feature of the production of voiceless stops, is initiated during the articulation of the vowel preceding the stop.
-If the degree of spreading surpasses a particular threshold, a percept of breathy phonation can arise.
+If the degree of spreading surpasses a particular threshold, soon enough a percept of breathy phonation can arise.
 At this point, two possible scenarios can be envisaged.
 According to one pathway, breathiness can lead to voiceless pre-aspiration and subsequent enhancement by closure shortening.
 In such case, pre-aspiration could ultimately develop into normative pre-aspiration like that found in Icelandic.
 In the alternative scenario, on the other hand, pre-aspiration is prevented from arising.
 This can be achieved by shifiting the timing of the stop closure towards the onset of the glottal spreading gesture, while keeping the timing of the latter unchanged.
-As a consequence, stop closure duration is increased, resulting in the know pattern of the differential closure durations of voiceless vs. voiced stops.
+As a consequence, stop closure duration is increased, resulting in the known pattern of the differential closure durations of voiceless vs. voiced stops.
 
 ## Conclusion
 \label{s:conclusion}

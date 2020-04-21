@@ -40,7 +40,7 @@ There is a tendency for an increase in number of speakers, although the trend is
 speakers %>%
   ggplot(aes(year, no_speakers)) +
   geom_point(position = position_jitter(seed = 394), colour = "#306754", size = 2) +
-  geom_smooth(method = "lm") +
+  geom_smooth(method = "lm", formula = "y ~ x") +
   labs(
     title = "Number of speakers per study through the years",
     x = "Year",
@@ -80,7 +80,7 @@ Note also that the decreasing trend is in fact small (1/2 speakers).
 speakers %>%
   ggplot(aes(status, no_speakers, colour = status)) +
   geom_jitter(alpha = 0.8, position = position_jitter(width = 0.3, seed = 123)) +
-  stat_summary(fun.y = median, geom = "point", shape = 18, size = 4, color = "black") +
+  stat_summary(fun = median, geom = "point", shape = 18, size = 4, color = "black") +
   scale_x_discrete(
     labels = function(labels) {
       fixedLabels <- c()

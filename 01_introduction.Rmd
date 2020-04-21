@@ -119,15 +119,15 @@ This corresponds to a raw difference of 10.5 ms, which the author reports not to
 Given the low number of speakers and the relative high standard error of the effect (about 28 ms, calculated as the mean difference over the *t*-value, \citealt{nicenboim2018a}), it is possible that the null result is due to low statistical power.
 \citet{machac2007} analyse 638 VCV sequences recorded from 53 speakers of Czech and found partial evidence for an effect of voicing in the language.
 
-As for Polish, \citet{slowiaczek1985} measured the duration of vowels in word-final syllables from 5 speakers, and vowels followed by an underlyingly voiced stop are 10--15 ms longer.
+As for Polish, \citet{slowiaczek1985} measures the duration of vowels in word-final syllables from 5 speakers, and vowels followed by an underlyingly voiced stop are 10--15 ms longer.
 @nowak2006 investigates several properties of vowel duration in 4 speakers (from different parts of Poland), and finds that vowels followed by voiced stops are 4.5 ms longer (a significant difference).
 <!-- I should read about what stats he did -->
 @malisz2008 analyse data from 40 speakers of "Standard Polish", and while they don't report estimates from the whole dataset, the means from 4 speakers suggest a difference in vowel duration before voiceless vs. voiced stops of about 3.5 ms.
 On the other hand, an equal number of studies argue that voicing does not significantly affect vowel duration in Polish.
-\citet{jassem1989} could not replicate the results in \citet{slowiaczek1985}.
+\citet{jassem1989} do not replicate the results in \citet{slowiaczek1985}.
 \citet{keating1984} reports a non-significant difference of 2 ms in the word pair /rata/ (167.4) and /rada/ (169.5 ms), based on data from 24 speakers living in Wrocław.
 Finally, \citet{strycharczuk2012a} reports a non-significant effect in 6 Warsaw speakers in pre-sonorant word-final position.
-To summarise, the evidence concerning the presence or absence of the voicing effect in Czech and Polish is mixed and it is not possible to draw certain conclusions.
+To summarise, the evidence concerning the presence or absence of the voicing effect in Czech and Polish is mixed and it is not possible to draw firm conclusions.
 
 A second common stance about the voicing effect is that its magnitude differs across languages, and that the greatest effect is observed in English.
 The reported effect of voicing in word-final syllables in English varies between 35 and 150 ms \citep{heffner1937, house1953, zimmerman1958, peterson1960, sharf1962, chen1970, klatt1973, mack1982, luce1985, laeufer1992, ko2018}.
@@ -135,7 +135,7 @@ However, the effect is smaller in non-final syllables, with values between 18 an
 Taking Italian for comparison, the mean difference in vowel duration before voiceless vs. voiced stops in the first syllable of Italian disyllabic words is 22 in \citet{farnetani1986} and 24 ms in \citet{esposito2002}.
 These values are within the range of the reported effect in English non-final syllables.
 It is thus possible that, once controlling for contextual factors, the apparent cross-linguistic differences in magnitude are, if not removed, at least reduced.
-A similar position is taken by \citet{laeufer1992}, who directly compared French and English using carefully designed experimental materials.
+A similar position is taken by \citet{laeufer1992}, who directly compares French and English using carefully designed experimental materials.
 When the duration of a vowel is similar across languages, consonant voicing also has an effect which is comparable in degree.
 
 ## Voicing as a physical property and as a linguistic category
@@ -412,7 +412,8 @@ While \citet{maddieson1976} argue against a compensatory effect between vowel an
 The results in \citet{sanker2018} on Hindi, but not Telugu, are also compatible with a compensatory mechanism.
 Closure duration is longer in unaspirated stops and shorter in aspirated stops in both languages, but the effect of aspiration on vowel duration has opposite directions depending on language, as discussed above.
 
-An investigation of the effect of ejection in Georgian \citep{begus2017} shows that vowels are shortest when followed by aspirated stops, longer when followed by ejectives, and longest when followed by voiced stops (Georgian contrasts aspirated voiceless, ejective, and voiced unaspirated stops).
+An investigation of the effect of ejection in Georgian \citep{begus2017} shows that vowels are shortest when followed by aspirated stops, longer when followed by ejectives, and longest when followed by voiced stops.
+Georgian contrasts aspirated voiceless, ejective, and voiced unaspirated stops.
 The negative correlation between closure and vowel duration has greater magnitude in the context of voiced compared to that of aspirated and ejective stops.
 Moreover, the author shows that the closure effect on vowel duration coexists with a "Laryngeal Features" effect (both closure duration and phonation, when entered in a single regression model, lead to significant *p*-values).
 In other words, the variance in vowel duration is accounted for in part by the duration of the stop closure and in part by the voicing category of the post-vocalic stop.
@@ -799,7 +800,7 @@ Eleven were native speakers of Italian (IT01-IT05, IT07, IT09, IT11-IT14), and s
 Missing speaker codes refer to test participants or participants that produced unusable data because of individual anatomy or recording issues.
 Recordings were made in a sound-attenuated room at the Phonetics Laboratory of the University of Manchester, or in a quiet room at a field location in Verbania (IT03-IT07).
 Due to technical issues or poor signal quality, ultrasonic data of /u/ from two speakers (IT07, PL05) and electroglottographic data from two others (IT04, IT05) are missing.
-Basic participants' sociolinguistic data is given in \Cref{p:relrel}.
+Participants' sociolinguistic data is given in \Cref{p:relrel}.
 The participants were given an information sheet prior to the experiment and signed a consent form.
 
 ### Ultrasound tongue imaging and electroglottography
@@ -961,7 +962,7 @@ The generally accepted rates of Type I and Type II errors are 0.05 and 0.2 respe
 This means that, in a series of imaginary multiple replications of a study, 5% of the times the null hypothesis will be falsely rejected, and 20% of the times will falsely be not rejected.
 A concept closely related to Type II errors is statistical power, which is the probability of correctly rejecting the null hypothesis when it is false (calculated as $B = 1 - \beta$).
 In other words, power is the probability of detecting an effect equal or greater than a specified effect size.
-Given the standard $\beta = 0.2$, an accepted (minimum) power threshold is 80% (which means that an effect equal or greater than a chosen size will be detected 80% of the times).
+Given the standard $\beta = 0.2$, an accepted (minimum) power threshold is 80% (which means that an effect equal or greater than a chosen size will be detected 80% of the time).
 <!-- NHST vs Bayesian power? -->
 
 Two other types of statistical errors are the Type S (sign) and Type M (magnitude) errors \citep{gelman2000, gelman2014}.

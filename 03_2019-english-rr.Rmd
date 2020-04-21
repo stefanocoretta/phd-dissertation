@@ -120,7 +120,7 @@ This is represented in \Cref{fig:vv-cent-2} (c).
 
 ### The voicing effect in English
 
-English is one of the most investigated language in relation to the voicing effect \citep{meyer1904, heffner1937, house1953, belasco1953, peterson1960, halle1967, chen1970, klatt1973, lisker1974, laeufer1992, fowler1992, hussein1994, lampp2004, warren2005, durvasula2012, ko2018}.
+English is one of the most investigated languages in relation to the voicing effect \citep{meyer1904, heffner1937, house1953, belasco1953, peterson1960, halle1967, chen1970, klatt1973, lisker1974, laeufer1992, fowler1992, hussein1994, lampp2004, warren2005, durvasula2012, ko2018}.
 English is also the language in which the voicing effect has the greatest magnitude relative to that of other languages.
 This special status of English is traditionally attributed to the phonologisation of the voicing effect in this language \citep{sharf1964, de-jong2004}.
 Vowel duration and the vowel-to-consonant duration ratio are considered to be among the most stable cues to consonantal voicing \citep{peterson1960, raphael1972, port1982}.
@@ -692,7 +692,7 @@ A very small positive effect of place of articulation (labial) is suggested by t
 A possibly even smaller effect of number of syllables or no effect at all can be inferred from the posterior distribution which has mean 2.98 ms and SD 2.9 (95% CI = [−2.8, 8.77]).
 Note that the 95% CIs of the posterior distributions of all the effects, with the exception for the effect of voicing, are within the ROPE around 0.
 
-```{r clos-5-intervals, include=TRUE, fig.cap="Posterior distributions and Bayesian credible intervals of the effects on closure duration (model 4). For each effect, the thick blue-coloured bars indicate (from darker to lighter) the 50\\%, 80\\%, and 95\\% CI. The black point with bars are the posterior median (the point), the 98\\% (thin bar) and 66\\% (thicker bar) CI. The shaded grey area around 0 is the ROPE.", out.extra="width=\\linewidth"}
+```{r clos-5-intervals, include=TRUE, fig.cap="Posterior distributions and Bayesian credible intervals of the effects on closure duration (model 5). For each effect, the thick blue-coloured bars indicate (from darker to lighter) the 50\\%, 80\\%, and 95\\% CI. The black point with bars are the posterior median (the point), the 98\\% (thin bar) and 66\\% (thicker bar) CI. The shaded grey area around 0 is the ROPE.", out.extra="width=\\linewidth"}
 clos_5_draws <- clos_5 %>%
   gather_draws(b_voicingvoiced, b_num_sylmono, `b_voicingvoiced:num_sylmono`, b_placelabial, `b_voicingvoiced:placelabial`, `b_placelabial:num_sylmono`, `b_voicingvoiced:placelabial:num_sylmono`)
 

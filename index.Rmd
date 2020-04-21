@@ -75,7 +75,8 @@ Further information on the conditions under which disclosure, publication and co
 \begin{adjustwidth}{7cm}{}
 {\tengwar    } \\
 Elen síla lúmenn' omentielvo.\\
-\textit{A star shines on the hour of our meeting.}
+\textit{A star shines on the hour of our meeting.}\\
+---J.R.R. Tolkien, The Fellowship of the Ring
 \end{adjustwidth}
 
 \vspace{1cm}
