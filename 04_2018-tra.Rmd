@@ -86,7 +86,11 @@ trp_difference <- kines_mean %>%
 
 \noindent\fbox{%
     \parbox{\textwidth}{%
-        Coretta, Stefano. 2019. Longer vowel duration correlates with greater tongue root displacement: Acoustic and articulatory data from Italian and Polish. Submitted. DOI: \url{https://doi.org/10.31219/osf.io/zrqyx}.
+        This paper has been published in the Journal of the Acoustical Society of America as:
+
+        Coretta, Stefano. 2020. Longer vowel duration correlates with greater tongue root displacement: Acoustic and articulatory data from Italian and Polish. \textit{The Journal of the Acoustical Society of America}(147). 245--259. DOI: \url{https://doi.org/10.1121/10.0000556}.
+
+        When citing, please refer to the published version.
     }%
 }
 
