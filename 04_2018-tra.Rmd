@@ -159,7 +159,7 @@ While this gesture is not exclusive of voiced stops and it can be implemented ev
 
 The results discussed here are part of a larger study which focusses on the effect of consonant voicing on preceding vowel durations.
 A great number of studies shows that, cross-linguistically, vowels tend to be longer when followed by voiced obstruents than when they are followed by voiceless ones \citep{house1953, peterson1960, chen1970, klatt1973, lisker1974, farnetani1986, fowler1992, hussein1994, esposito2002, lampp2004, durvasula2012}.
-This so-called 'voicing effect' has been reported in a variety of languages,
+This so-called "voicing effect" has been reported in a variety of languages,
 including (but not limited to) English, German, Hindi, Russian, Arabic, Korean, Italian, and Polish (see \citealt{maddieson1976} and \citealt{begus2017} for a more comprehensive list).
 
 Italian and Polish offer an opportunity to study the articulatory aspects of the voicing effect, given their reported differences in magnitude/presence of the effect and the relative ease of comparison.
@@ -576,7 +576,7 @@ Moreover, similarly to the results in \citet{westbury1983}, some tongue root adv
 A possible reason for the presence of such a small degree of advancement in voiceless lingual stops is offered by arguments in relation to the absence of advancement in labials (voiced or voiceless).
 \citet{westbury1983} proposes that the articulation of the closure of lingual stops mechanically involves movements of the tongue root, so that, in order to keep a constant oral cavity volume, the root moves forward while the tongue body moves upward.
 On the other hand, the tongue can move freely in labial stops since their closure involves the lips.
-This idea is supported by the 'trough effect' \citep{vazquez-alvarez2007}, i.e. VCV sequences involving a labial stop show tongue body lowering, and by the fact that voiced labials tend to resort to tongue body lowering rather than tongue root advancement as a mechanism for voicing maintenance \citep{perkell1969, westbury1983, ahn2018}.
+This idea is supported by the "trough effect" \citep{vazquez-alvarez2007}, i.e. VCV sequences involving a labial stop show tongue body lowering, and by the fact that voiced labials tend to resort to tongue body lowering rather than tongue root advancement as a mechanism for voicing maintenance \citep{perkell1969, westbury1983, ahn2018}.
 The small degree of advancement in voiceless lingual stops could then as well be a mechanic consequence of the tongue moving upward for producing the stop closure.
 
 The data discussed here also suggest that tongue root position is positively correlated with vowel duration, such that longer vowels show a more advanced tongue root at vowel offset (= closure onset) than shorter vowels.
@@ -584,7 +584,7 @@ Said correlation exists independent of the voicing status of the consonant follo
 The correlation between tongue root and vowel duration could be interpreted as to indicate that the onset of the forward gesture of the root is timed relative to a landmark preceding the closure, independent of the duration of the vowel.
 The timing of the stop closure along the advancement movement would sanction the degree of advancement found at closure onset.
 
-<!-- there is still the possibility that the velocity profiles are different in voiceless vs. voiced, or they could derive from the curvature differences? -->
+<!-- there is still the possibility that the velocity profiles are different in voiceless vs voiced, or they could derive from the curvature differences? -->
 
 The dynamic data of tongue root advancement during the articulation of the vowel indicates that vowels followed by voiced stops have greater tongue root advancement at vowel offset than vowels followed by voiceless stops, in accordance with the results from the static analysis at vowel offset.
 Moreover, a significant interaction between vowel duration and the trajectory shape was found.
@@ -608,7 +608,7 @@ Moreover, the temporal distance between the releases of the two consecutive stop
 Given the stability of the release-to-release interval duration, the delay in producing a full closure seen in the context of voiced stops has thus a double advantage: (1) A greater degree of tongue root advancement is achieved at vowel offset/closure onset, and (2) the stop closure is shorter.
 Both of these articulatory features are compliant with the requirements dictated by the Aerodynamic Voicing Constraint.
 A more advanced tongue root ensures that the trans-glottal pressure differential is sufficient for voicing to be sustained, and a shorter closure reduces the pressure build-up during the stop closure.
-To conclude, it is proposed that the combined action of a temporally stable release-to-release interval and the differential timing of the VC boundary in the context of voiceless vs. voiced stops contribute to both the acoustic patterns of vowel and closure duration and the articulatory patterns of tongue root position.
+To conclude, it is proposed that the combined action of a temporally stable release-to-release interval and the differential timing of the VC boundary in the context of voiceless vs voiced stops contribute to both the acoustic patterns of vowel and closure duration and the articulatory patterns of tongue root position.
 
 ### Estimates of tongue root displacement
 
@@ -704,7 +704,7 @@ trp_difference %>%
   scale_shape_discrete(name = "Language")
 ```
 
-The mean difference in tongue root position in voiceless vs. voiced stops has been calculated for each speaker from the raw data.
+The mean difference in tongue root position in voiceless vs voiced stops has been calculated for each speaker from the raw data.
 \Cref{fig:Figure7} plots the speakers' mean differences, with the respective standard error bars.
 The bottom 7 speakers (3 Polish, 4 Italian) show either a weak negative difference (the tongue root is slightly more advanced in voiceless stops) or a weak positive difference with wide standard errors which include 0.
 The remaining 11 speakers have a more robust positive difference (the tongue root is more advanced in voiced stops).
@@ -712,10 +712,10 @@ Finally, speakers of each language do not cluster together, reiterating the obse
 
 Finally, interesting individual patterns can also be seen in the trajectories of tongue root position.
 \Cref{fig:Figure8} shows these trajectories for all the speakers (note that the *y*-axis of each plot is on a different scale, so magnitude comparisons should not be made visually).
-Speakers IT01, IT03, and PL04 in particular have a somewhat categorical distinction in tongue root position during vowels followed by voiceless vs. voiced stops.
+Speakers IT01, IT03, and PL04 in particular have a somewhat categorical distinction in tongue root position during vowels followed by voiceless vs voiced stops.
 Such tongue root distinction is implemented across the total duration of the vowel, rather than towards the end (as suggested by the results from the aggregated data, see \Cref{s:trp-v1}).
 The phonological literature reports cases in which the difference in tongue root position in vowels is enhanced, leading to phonological alternations or diachronic loss of the voicing distinction with maintenance of the tongue root distinction (see \citealt{vaux1996} and references therein).
-The ultrasound data from this study offers articulatory evidence for a possible precursor of said phonological patterns.\footnote{All the examples in \citet{vaux1996} are on vowels \textit{following} voiceless vs. voiced stops, rather than preceding, as in the current study. While beyond the scope of this paper, whether this is a systematic gap or not and how this relates to the present findings should be examined in future work.}
+The ultrasound data from this study offers articulatory evidence for a possible precursor of said phonological patterns.\footnote{All the examples in \citet{vaux1996} are on vowels \textit{following} voiceless vs voiced stops, rather than preceding, as in the current study. While beyond the scope of this paper, whether this is a systematic gap or not and how this relates to the present findings should be examined in future work.}
 
 ```{r tra-gam-s-ar, cache=TRUE}
 tra_gam_s <- bam(

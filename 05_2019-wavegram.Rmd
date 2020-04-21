@@ -85,7 +85,7 @@ The ratio of the closed phase relative to the total cycle duration, the closed q
 Modal voice has higher closed quotient values than breathy voice, and lower values than creaky voice.
 One method for the detection of the closing and opening instants is based on the first derivative of the EGG signal (the dEGG, see \Cref{fig:egg}).
 \citet{herbst2017}, however, showed that this method returns values that are just a surrogate of the actual articulatory movements, due to the complex anatomy of the vocal folds, and that there are no clear contacting and decontact instants, but rather intervals.
-\citet{herbst2017} call this EGG-based closed quotient the 'contact quotient' and recommend to keep it distinct from the closed quotient obtained from direct observation of the vocal folds.
+\citet{herbst2017} call this EGG-based closed quotient the "contact quotient" and recommend to keep it distinct from the closed quotient obtained from direct observation of the vocal folds.
 
 As an alternative to the contact quotient, \citet{herbst2010} propose the wavegram, a visualisation method which does not reduce the EGG signal to a single value and thus suffers less from the limitations of the contact quotient.
 The wavegram incorporates information from the whole signal to obtain an image of vocal folds activity.
@@ -169,10 +169,10 @@ wavegam_p_ar_pred %>%
   theme(panel.grid = element_blank())
 ```
 
-## Wavegram GAM analysis of vowels followed by voiceless vs. voiced stops
+## Wavegram GAM analysis of vowels followed by voiceless vs voiced stops
 \label{s:voicing}
 
-This section further illustrates the use of wavegram GAMs by discussing a dynamic analysis of changes in vocal folds activity during the production of vowels followed by voiceless vs. voiced stops in Italian and Polish.
+This section further illustrates the use of wavegram GAMs by discussing a dynamic analysis of changes in vocal folds activity during the production of vowels followed by voiceless vs voiced stops in Italian and Polish.
 EGG data was obtained from 9 Italian speakers and 6 Polish speakers.
 A detailed description of the experimental design is given in \citet{coretta2018j}.
 Trochaic words with the form C\textsubscript{1}V\textsubscript{1}C\textsubscript{2}V\textsubscript{2} were used, where C\textsubscript{1} = /p/, V\textsubscript{1} = /a, o, u/, C\textsubscript{2} = /t, d, k, g/, and V\textsubscript{2} = V\textsubscript{1} (e.g. /pata/, /pada/, /poto/, etc.), embedded in the frame sentences *Dico X lentamente* 'I say X slowly' in Italian, and *Mówię X teraz* 'I say X now' in Polish.
@@ -262,7 +262,7 @@ According to one pathway, breathiness can lead to voiceless pre-aspiration and s
 In such case, pre-aspiration could ultimately develop into normative pre-aspiration like that found in Icelandic.
 In the alternative scenario, on the other hand, pre-aspiration is prevented from arising.
 This can be achieved by shifiting the timing of the stop closure towards the onset of the glottal spreading gesture, while keeping the timing of the latter unchanged.
-As a consequence, stop closure duration is increased, resulting in the known pattern of the differential closure durations of voiceless vs. voiced stops.
+As a consequence, stop closure duration is increased, resulting in the known pattern of the differential closure durations of voiceless vs voiced stops.
 
 ## Conclusion
 \label{s:conclusion}

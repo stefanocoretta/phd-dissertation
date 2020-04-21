@@ -149,7 +149,7 @@ ve_post <- posterior_samples(brm_1, pars = "b_") %>%
 ```
 
 The following plot shows the posterior probability distributions of the effect of voicing marginalised over language.
-The great overlap among the distributions is indicative of the high uncertainty regarding the presence vs. absence of cross-lingusitic differences.
+The great overlap among the distributions is indicative of the high uncertainty regarding the presence vs absence of cross-lingusitic differences.
 
 ```{r ve-post-dens}
 ve_post %>%

@@ -316,7 +316,7 @@ As a consequence, the gestural onset of the second consonant is delayed in the g
 
 \begin{figure}
   \includegraphics{./img/vv-cent.pdf}
-  \caption{Schematics of the gestural phasing of vocalic and consonantal gestures in four different contexts. (a) shows singleton vs. geminate stops, while in (b) voiceless and voiced stops are contrasted. Note that in (a) the distance between the vowels increases in the geminate context, while it is stable in (b). The different slopes of the closing part of the gesture in /t/ vs. /d/ accounts for the difference in acoustic closure onset.}
+  \caption{Schematics of the gestural phasing of vocalic and consonantal gestures in four different contexts. (a) shows singleton vs geminate stops, while in (b) voiceless and voiced stops are contrasted. Note that in (a) the distance between the vowels increases in the geminate context, while it is stable in (b). The different slopes of the closing part of the gesture in /t/ vs /d/ accounts for the difference in acoustic closure onset.}
   \label{fig:vv-cent}
 \end{figure}
 

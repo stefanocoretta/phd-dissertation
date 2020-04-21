@@ -122,7 +122,7 @@ Given the low number of speakers and the relative high standard error of the eff
 As for Polish, \citet{slowiaczek1985} measures the duration of vowels in word-final syllables from 5 speakers, and vowels followed by an underlyingly voiced stop are 10--15 ms longer.
 @nowak2006 investigates several properties of vowel duration in 4 speakers (from different parts of Poland), and finds that vowels followed by voiced stops are 4.5 ms longer (a significant difference).
 <!-- I should read about what stats he did -->
-@malisz2008 analyse data from 40 speakers of "Standard Polish", and while they don't report estimates from the whole dataset, the means from 4 speakers suggest a difference in vowel duration before voiceless vs. voiced stops of about 3.5 ms.
+@malisz2008 analyse data from 40 speakers of "Standard Polish", and while they don't report estimates from the whole dataset, the means from 4 speakers suggest a difference in vowel duration before voiceless vs voiced stops of about 3.5 ms.
 On the other hand, an equal number of studies argue that voicing does not significantly affect vowel duration in Polish.
 \citet{jassem1989} do not replicate the results in \citet{slowiaczek1985}.
 \citet{keating1984} reports a non-significant difference of 2 ms in the word pair /rata/ (167.4) and /rada/ (169.5 ms), based on data from 24 speakers living in Wrocław.
@@ -132,7 +132,7 @@ To summarise, the evidence concerning the presence or absence of the voicing eff
 A second common stance about the voicing effect is that its magnitude differs across languages, and that the greatest effect is observed in English.
 The reported effect of voicing in word-final syllables in English varies between 35 and 150 ms \citep{heffner1937, house1953, zimmerman1958, peterson1960, sharf1962, chen1970, klatt1973, mack1982, luce1985, laeufer1992, ko2018}.
 However, the effect is smaller in non-final syllables, with values between 18 and 35 ms \citep{sharf1962, klatt1973, davis1989}.
-Taking Italian for comparison, the mean difference in vowel duration before voiceless vs. voiced stops in the first syllable of Italian disyllabic words is 22 in \citet{farnetani1986} and 24 ms in \citet{esposito2002}.
+Taking Italian for comparison, the mean difference in vowel duration before voiceless vs voiced stops in the first syllable of Italian disyllabic words is 22 in \citet{farnetani1986} and 24 ms in \citet{esposito2002}.
 These values are within the range of the reported effect in English non-final syllables.
 It is thus possible that, once controlling for contextual factors, the apparent cross-linguistic differences in magnitude are, if not removed, at least reduced.
 A similar position is taken by \citet{laeufer1992}, who directly compares French and English using carefully designed experimental materials.
@@ -204,10 +204,10 @@ This definition is restricted to languages that contrast only two categories of 
 \citet{keating1984a} proposes that three levels of representation are necessary.
 One level is purely phonological, and abstracts away from real physical properties of the contrast.
 This phonological level of representation corresponds to the traditional [(±)voice] feature (either binary or privative).
-The second level of representation pertains to what \citet{keating1984a} calls "modified systematic phonetics".
+The second level of representation pertains to what \citet{keating1984a} calls "modified systematic phonetics."
 She proposes three phonetic categories based on VOT: {voiced}, {voiceless unaspirated}, and {voiceless aspirated}.
 The last level, "pseudo-physical", assigns a range of VOT values to such categories depending on the language and the phonological context.
-The [(±)voice] feature can then be interpreted as "more" or "less voiced", rather than as presence vs. absence of vocal fold vibration.
+The [(±)voice] feature can then be interpreted as "more" or "less voiced", rather than as presence vs absence of vocal fold vibration.
 
 \citet{goldstein1986}, within their framework of Articulatory Phonology, take a different stance and ascribe voicing to simply the presence or absence of a glottal opening-and-closing gesture.
 Voiceless segments are then characterised by the presence of such a gesture, while voiced segments by its absence.
@@ -218,7 +218,7 @@ While the three approaches just reviewed try to posit categories that can both d
 \citet{haspelmath2010} introduces a helpful distinction between comparative concepts and descriptive categories.
 Following from what Haspelmath calls "categorial particularism", it is advocated that individual languages should be described in terms of language-specific categories.
 In this light, "voicing" in Italian is different from "voicing" in Spanish for the very fact that Italian and Spanish are two different linguistic systems.
-Typological comparison should not be based on (language-specific) "descriptive categories", but rather on "comparative concepts".
+Typological comparison should not be based on (language-specific) "descriptive categories", but rather on "comparative concepts."
 Comparative concepts are created by the linguist who performs cross-linguistic analyses, and are not components of particular languages.
 I assume here that traditional phonological categories like "voicing", "vowel height", "place of articulation", can be thought of either as (language-particular) descriptive categories or comparative concepts, depending on the scientific enterprise.\footnote{\citet{haspelmath2010} proposes to use capitalised names for descriptive categories (for example, "Italian Voicing"), but since this use is not common among phonologists/phoneticians, I will not adopt it here.}
 In relation to the voicing effect, the use of "voicing" in this context as adopted in this work will be intended as a comparative concept and not as a descriptive category.
@@ -233,7 +233,7 @@ I will not specify the sense of the term "voicing" when used (physical, descript
 
 In \Cref{s:veintro}, we saw that the voicing effect can differ depending on the language.
 In addition to language, this phenomenon is also modulated by other phonological and phonetic factors.
-For example, \citet{umeda1975} reports that the difference in vowel duration before voiceless vs. voiced consonants is greater when the test word is pre-pausal.
+For example, \citet{umeda1975} reports that the difference in vowel duration before voiceless vs voiced consonants is greater when the test word is pre-pausal.
 The effect of voicing also seems to be more robust in stressed than in unstressed vowels \citep{davis1989}.
 There is also indication that the effect is modulated by the position of the syllable in the word in English, so that word-final syllables show a greater effect than word-medial syllables (\citealt{sharf1962, klatt1973, davis1989}, although \citealt{abdelli-beruh2004} doesn't find a significant difference across these contexts in French).
 \citet{port1981} further argues that the effect in word-initial stressed vowels is smaller along the hierarchy monosyllabic > disyllabic > trisyllabic words, which also reflects that of decreasing average vowel durations.
@@ -244,7 +244,7 @@ Manner of articulation of the consonant is a further relevant parameter.
 While most work seems to focus on stops, voicing of other types of consonants affects preceding vowel duration.
 For example, \citet{house1953} report that vowels are longer when followed by a voiced fricative than a voiceless one in English.
 They also argue that the durational difference is greater before fricatives than before stops.
-On average, vowels in \citet{house1953} are 84 ms longer when followed by a voiced stop (vs. a voiceless stop) and 93 ms longer when followed by a voiced fricative (vs. a voiceless fricative).
+On average, vowels in \citet{house1953} are 84 ms longer when followed by a voiced stop (vs a voiceless stop) and 93 ms longer when followed by a voiced fricative (vs a voiceless fricative).
 \citet{laeufer1992} finds similar patterns in both English and French: vowels followed by voiced fricatives are longer than when followed by voiceless fricatives (the average difference is 93 ms in English, 47 ms in French) and the effect of voicing with fricatives is greater than with stops (the average difference is 60 ms in English stops, 35 ms in French stops).
 \citet{zimmerman1958} report vowel durations before voiceless and voiced stops and fricatives in English, and the difference is greater in the latter (95 vs 122 ms).
 On the other hand, \citet{tanner2019} rather find the opposite effect in a survey of spontaneous speech from different varieties of English.
@@ -483,7 +483,7 @@ Moreover, their phonological systems allow for a somewhat direct comparison.
 For these reasons, an exploratory study of Italian and Polish (Study I) was carried out to examine the influence of voiceless and voiced stops on vowel duration.
 \Cref{s:studyi} contains a description of the methods employed in Study I, while \Cref{p:relrel}, \Cref{p:tra}, and \Cref{p:wavegram} report the results.
 Note that, with the terms "voiceless" and "voiced", I refer to the linguistic reading of "voicing", rather than to the physical implementation of such contrast, as detailed in \Cref{s:voi-comp}.
-This approach is generally helpful in light of the distinction between aspirating vs. true-voicing languages \citep{beckman2013}, and in the case of English in particular \citep{docherty1992}, which is the subject of Study II.
+This approach is generally helpful in light of the distinction between aspirating vs true-voicing languages \citep{beckman2013}, and in the case of English in particular \citep{docherty1992}, which is the subject of Study II.
 Furthermore, I focus here on voicing as a categorical lexical contrast, given this is the approach followed by most of the relevant literature.
 Future work is warranted to ascertain the role of a gradient/continuous operationalisation of voicing.
 
@@ -933,14 +933,14 @@ The audio recordings were force-aligned and the times of acoustic landmarks were
 \label{s:openscience}
 
 <!-- In the academic world, great emphasis is given to the theoretical content of original research, whereas the scientific process that leads to the findings is relegated to a subordinate position.
-However, as brilliantly put by Prof. Chris Chambers\footnote{From a keynote speech given at the Leibniz Institute for Psychology Information (\url{https://youtu.be/d2nVPhVacFk}).}, the methods section traditionally included in papers was originally meant to be a 'recipe' that would allow future researchers to follow and reproduce the steps used by the authors to go from a set of ideas to a set of results.
+However, as brilliantly put by Prof. Chris Chambers\footnote{From a keynote speech given at the Leibniz Institute for Psychology Information (\url{https://youtu.be/d2nVPhVacFk}).}, the methods section traditionally included in papers was originally meant to be a "recipe" that would allow future researchers to follow and reproduce the steps used by the authors to go from a set of ideas to a set of results.
 Through the years, though, this paper section has become a place where the authors can give a statement that confirms they have followed accepted analytical procedures.
 More recently, on the other hand, scholars have developed a greater preoccupation towards methodological accountability.
 The consideration of these issues in phonetics and phonology is evidenced by the publication of a recent special issue on data analysis in the Journal of Phonetics and by the ongoing adoption of a new method-oriented form of publication by the Journal of the Association for Laboratory Phonology.
 Matters of research transparency are part of a broader collection of problems, which have fuelled the birth of an international campaign which falls under the umbrella term of 'Open Science'. -->
 
 Open Science is a movement that stresses the importance of a more honest and transparent scientific attitude by promoting a series of research principles and by warning from common, although not necessarily intentional, questionable practices and misconceptions.
-The term Open Science as a whole refers to the fundamental concepts of 'openness, transparency, rigour, reproducibility, replicability, and accumulation of knowledge' \citep[3]{cruwell2018}.
+The term Open Science as a whole refers to the fundamental concepts of "openness, transparency, rigour, reproducibility, replicability, and accumulation of knowledge" \citep[3]{cruwell2018}.
 The goodness of the latter depends in great part on the reproducibility and replicability of the studies that contribute to knowledge accumulation.
 While the terms "reproducibility" and "replicability" are generally used interchangeably, they refer to two different ideas.
 A study is *replicable* when researchers can independently run the study on new subjects/data and obtain the same results (in brief, same analysis, different data/researchers).
@@ -1036,7 +1036,7 @@ As discussed above, a research analysis is reproducible when different researche
 Ensuring full reproducibility also means ensuring computational reproducibility, or in other words enabling researchers to perform the original analysis in an identical computational environment \citep{schwab2000, fomel2009}.
 \citet{peng2009} mentions exposed cases of fraudulent data manipulation and unintentional analysis errors that call for policies of reproducibility to ensure accountability of published results.
 <!-- Ho Chunk case from Donald -->
-Our field is not immune from these issues (see for example the 'Yokuts vowels' case, \citealt{weigel2002, weigel2005, blevins2004}), and the idea of reproducibility is not new to linguistics in general \citep{bird2003, thieberger2004, maxwell2005, maxwell2013, cysouw2015,  gawne2017} nor to phonetics/phonology specifically \citep{abari2012, roettger2019}.
+Our field is not immune from these issues (see for example the "Yokuts vowels" case, \citealt{weigel2002, weigel2005, blevins2004}), and the idea of reproducibility is not new to linguistics in general \citep{bird2003, thieberger2004, maxwell2005, maxwell2013, cysouw2015,  gawne2017} nor to phonetics/phonology specifically \citep{abari2012, roettger2019}.
 
 The objective of making research accountable can be achieved by publicly sharing data (subject to ethical restrictions), analysis code, and detailed information on the software that produced the results \citep{sandve2013}.
 Sharing data is also fundamental for the accumulation of knowledge, for example in the context of meta-analytical studies.

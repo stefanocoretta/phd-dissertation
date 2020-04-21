@@ -271,7 +271,7 @@ Ultrasound imaging is a non-invasive technique for obtaining an image of interna
 2D ultrasound imaging has been successfully used for imaging sections of the tongue surface (for a review, see \citealt{gick2002} and \citealt{lulich2018}).
 An image of the (2D) tongue surface can be obtained by placing the transducer in contact with the sub-mental triangle (the area under the chin), aligned either with the mid-sagittal or the coronal plane.
 The ultrasonic waves propagate from the transducer in a radial fashion through the aperture of the mandible and get reflected when they hit the air above the tongue surface.
-This 'echo' is captured by the transducer and translated into an image like the one shown in \Cref{fig:uti} (for a technical description, see \citealt{stone2005}).
+This "echo" is captured by the transducer and translated into an image like the one shown in \Cref{fig:uti} (for a technical description, see \citealt{stone2005}).
 
 \begin{figure}
   \centering
@@ -478,12 +478,12 @@ compareML(it01_gam_0, it01_gam)
 
 To check which part of the contour differs among conditions, the method recommended in \citet{soskuthy2017} is to plot the difference smooth and check the confidence interval.
 The parts of the confidence interval that don't include 0 indicate that the difference between contours in that part is significant.
-\Cref{fig:Figure05} illustrates the use of difference smooths with the difference smooths of voiceless vs. voiced coronal stops when the vocalic context is /a/ or /u/.
+\Cref{fig:Figure05} illustrates the use of difference smooths with the difference smooths of voiceless vs voiced coronal stops when the vocalic context is /a/ or /u/.
 As per usual, the tongue tip is on the right-end side of each plot.
 The difference smooths indicate that there is a significant difference along the posterior part of the tongue (the root and dorsum).
 Based on the predicted smooths sown in \Cref{fig:Figure04}, we can argue that, in the context of coronal consonants, the root is more advanced in voiced relative to voiceless stops (when the vowel is either /a/ or /u/), and that the dorsum is also somewhat retracted in voiced stops if the vowel is /u/.
 
-```{r Figure05, include=TRUE, fig.cap = "Difference smooth of voiceless vs. voiced stops in the context of /a/ (top) and /u/ (bottom).", fig.show="hold",out.width=".7\\linewidth", out.height="6cm"}
+```{r Figure05, include=TRUE, fig.cap = "Difference smooth of voiceless vs voiced stops in the context of /a/ (top) and /u/ (bottom).", fig.show="hold",out.width=".7\\linewidth", out.height="6cm"}
 plot_difference(
   it01_gam,
   X,
