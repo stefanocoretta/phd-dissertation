@@ -878,24 +878,25 @@ The search area was created via Praat scripting (with `search-area.praat` in \ci
 The automatic fitting procedure was monitored by the author and manual correction of the fitted splines was applied if necessary.
 Splines were fitted to the tongue contours at the original frame rate, which varied between 43 and 68 frames per second depending on the participant.
 The ranges of other UTI settings were: 88-114 scan lines, 980--988 pixels per scan line, field of view 71--93°, pixel offset 109--263, scan depth 75--180 mm.
-After fitting, the splines are linearly interpolated from the original frame rate to a sampling rate of 100 kHz.
+After fitting, the splines were linearly interpolated from the original frame rate to a sampling rate of 100 kHz (this is a default feature in AAA).
 
 Subsequent data processing followed the method described in \citet{strycharczuk2015} (see also \Cref{p:tra} and \Cref{a:polar-gams}) and it was based on the upsampled (100 kHz) spline data.
 Tongue displacement was obtained with a built-in procedure by tracking the time-varying displacement of the interpolated tongue splines along fan-lines from a fan-like coordinate system \citep{scobbie2011}.
-Tongue displacement was measured for (1) the tongue tip, (2) the tongue dorsum, and (3) the tongue root, broadly defined as the regions of the tongue that produce (1) the closure for coronal stops and (2) velar stops for respectively tongue tip and dorsum, and (3) the region between the hyoid bone shadow and the tongue dorsum region for the tongue root.
+Tongue displacement was measured for (1) the tongue tip, (2) the tongue dorsum, and (3) the tongue root.
+These were broadly defined as follows: (1) tongue tip as the region of the tongue that produces the closure of coronal stops, (2) tongue dorsum as the region that produces the closure of velar stops, (3) tongue root as the region between the hyoid bone shadow and the tongue dorsum region.
 Within each tongue region, the fan-line with the highest standard deviation was chosen as the vector for calculating tongue displacement (these fan-lines were manually chosen for each speaker individually).
 A Savitzky--Golay smoothing filter (second-order, frame length 75 ms) was applied to raw tongue displacement along the chosen fan-line to generate smoothed displacement values.
 Tangential velocity was calculated from the smoothed displacement signal of the tongue tip and tongue dorsum with a Savitzky--Golay filter (second-order, frame length 75 ms), as implemented in AAA.
 
 The absolute values of the tangential velocity were used for the identification of gestural landmarks using a built-in algorithm.
-The times of the following gestural landmarks were obtained for the tongue tip and the tongue dorsum (\Cref{fig:kine}): (a) maximum tongue displacement (MAX), (b) peak velocity before MAX (PEAK_1), (c) peak velocity after MAX (PEAK_2), (d) gesture onset (GONS), corresponding to the time when absolute velocity of tongue displacement reaches 20% of the peak absolute velocity before PEAK_1, (e) gesture nucleus (plateau) onset (NONS), when velocity is at 20% of the peak velocity between PEAK_1 and MAX, (f) nucleus offset (NOFF), when velocity is at 20% of the peak velocity between MAX and PEAK_2, and (g) gesture offset (GOFF), when velocity is at 20% of peak velocity after PEAK_2 \citep{kroos1997, gafos2010a}.
+The times of the following gestural landmarks were obtained for the tongue tip and the tongue dorsum (\Cref{fig:kine} exemplifies the tongue tip case): (a) maximum tongue displacement (MAX), (b) peak velocity before MAX (PEAK_1), (c) peak velocity after MAX (PEAK_2), (d) gesture onset (GONS), corresponding to the time when absolute velocity of tongue displacement reaches 20% of the peak absolute velocity before PEAK_1, (e) gesture nucleus (plateau) onset (NONS), when velocity is at 20% of the peak velocity between PEAK_1 and MAX, (f) nucleus offset (NOFF), when velocity is at 20% of the peak velocity between MAX and PEAK_2, and (g) gesture offset (GOFF), when velocity is at 20% of peak velocity after PEAK_2 \citep{kroos1997, gafos2010a}.
 The time resolution of the gestural landmarks is 100 kHz (the sampling rate of the upsampled spline data).
 
 ![Gestural landmarks of tongue movements in the word *putu*. The top panel shows tongue tip displacement, while the bottom panel shows tangential and absolute velocity. \label{fig:kine}](./img/velocity.pdf){ width=80% }
 
 The Cartesian coordinates of the fitted splines, together with tongue displacement, tangential velocity, and absolute velocity of the tongue root, dorsum and tip, were obtained at the times corresponding to the following gestural landmarks: C2 closure onset, tongue maximum displacement during C2 closure (MAX), peak absolute velocity before and after tongue maximum displacement (PEAK_1 and PEAK_2), tongue closing gesture onset (GONS), closing gesture nucleus onset (NONS) and offset (NOFF).
 Tongue displacement, and the tangential and absolute velocities of the tongue root, dorsum, and tip were also extracted as time-series along the entire duration of V1.
-The splines Cartesian coordinates were converted to polar for statistical analysis (see \Cref{a:polar-gams}).
+The coordinates of the splines were converted from Cartesian to polar for statistical analysis (see \Cref{a:polar-gams}).
 As discussed in \Cref{s:resq}, Study I set out to gather data on acoustic segmental durations, the timing of the consonantal gestures, and properties of vocal fold vibration.
 For this reason, tongue movement velocity was not analysed as part of the current investigation, and future work on this aspect is warranted.
 <!-- Moreover, while the smoothing of the AAA built-in procedure ensures the robust detection of the times of gestural landmarks, it can have a strong impact on the actual velocity values, so that future work is warranted to assess the magnitde of such influence. -->
@@ -924,7 +925,7 @@ syllabification, and ambisyllabicity.
 \citet{bermudez-otero2013} offers initial phonological evidence for preferring an onset-maximal approach.
 This view is adopted as a working assumption in this work, and C2 in CVCV words are taken to be onsets.
 Future articulatory work is needed to shed light on the syllabification issue.
-These words were embedded within five different frame sentences, so that each speaker would read a total of 120 stimuli (24 words × 5 frames).
+The target words were embedded within five different frame sentences, so that each speaker would read a total of 120 stimuli (24 words × 5 frames).
 The audio recordings were force-aligned and the times of acoustic landmarks were extracted according to the same procedure as in Study I (with `make-textgrid.praat` and `get-measurements.praat` in \citealt{coretta2019g}).
 
 ## Open Science
@@ -950,7 +951,7 @@ For example, in a replication attempt of 100 psychology studies, only 39% of the
 Failure to replicate previous results have been claimed to be a consequence of low statistical power \citep{button2013}, and of so-called questionable research and measurement practices \citep{simmons2011, morin2015, flake2019}.
 The following sections discuss these problems in turn.
 
-### ``With great power comes great replicability''
+### "With great power comes great replicability"
 
 One of the issues that can affect statistical analysis is related to errors in rejecting the null hypothesis.\footnote{The quote in the title is from a 2016 twitter status by Nathan C. Hall (\url{https://twitter.com/prof_nch/status/790744443313852417?s=20}).}
 A researcher could falsely reject the null hypothesis when in fact is correct (Type I errors, an effect is found when there is none), or they could falsely fail to reject the null hypothesis when in fact it should have been (Type II errors, an effect is not found when there is one).
@@ -1065,7 +1066,7 @@ Data from Study II was subject to a full Bayesian analysis, and greater emphasis
 
 <!-- TODO: talk about datasets -->
 
-Data, code, and information about software can be found in the research compendium of this project on the Open Science Framework (\url{https://osf.io/w92me/}).
+Data, code, and information about software can be found in the research compendium of this project on the Open Science Framework (\citealt{coretta2020a}, \url{https://osf.io/w92me/}).
 This OSF repository acts as a hub for the research compendia of the project and of the individual papers.
 The data has been packaged and documented using R \citep{marwick2017}.
 The data packages (coretta2018itapol and coretta2019eng) are available on GitHub and links to them are given in the OSF repository (see the Data components in the repository).\footnote{The raw ultrasound tongue imaging AAA files were not uploaded given their size (almost 40 GB) and can be obtained from the author.}
