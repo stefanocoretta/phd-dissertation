@@ -566,6 +566,7 @@ The following sections discuss, in turn, the results regarding the effect of voi
 The section concludes by discussing the limitations and open issues of this study.
 
 ### Voicing effect in Italian and Polish
+\label{s:veitapoldisc}
 
 The results of vowel duration and C2 voicing indicate that vowels are longer when followed by voiced than when followed by voiceless stops both in Italian and Polish.
 The estimated effect is around 16 ms when C2 is voiced for Italian.
