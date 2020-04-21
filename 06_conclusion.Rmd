@@ -332,3 +332,5 @@ This investigation led to the development of a holistic account of the voicing e
 While contributing to our understanding of the voicing effect, the proposed account also opens up promising and exciting new avenues for research, which can further our knowledge in the domain of speech and language.
 
 # (PART) Appendices {-}
+
+\appendix

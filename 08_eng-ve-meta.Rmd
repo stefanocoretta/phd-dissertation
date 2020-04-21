@@ -31,8 +31,6 @@ studies <- stressed %>% select(study, n_syl:word_pos_2) %>% unique() %>%
   droplevels()
 ```
 
-\appendix
-
 \chapter{Bayesian meta-analysis of the voicing effect in English}
 \label{a:ve-eng}
 
