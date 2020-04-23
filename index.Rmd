@@ -17,8 +17,8 @@ indent: true
 fontsize: 12pt
 mainfont: Tinos
 params:
-  version: "6.1"
-  version-date: "2020/03/24"
+  version: "6.1.9000"
+  version-date: "2020/04/23"
 ---
 
 <!--\begin{textblock}{3}(0.2,0.2)
