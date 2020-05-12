@@ -101,6 +101,7 @@ A possible reason for why the isochrony breaks in the geminate context is that g
 For example, \citet{zeroual2015} argue that their findings support the interpretation of geminates as two identical consonants produced sequentially.
 This would mean that the first part of the geminate is implemented anti-phase with the preceding vowel, while the second part is articulated in-phase with the following.
 The presence of an anti-phase gesture intervening between the vowels could be responsible for the disruption of the vowel-to-vowel isochrony.
+In other words, any consonant cluster made of heterosyllabic consonants would show absence of vowel-to-vowel isochrony.
 If this is the case, then isochrony would apply only in those cases where the intervening consonants are in-phase with the second vowel (see \Cref{s:final} for a set of hypotheses).
 This scenario is shown in \Cref{fig:vv-cent-3}(a).
 
@@ -240,7 +241,7 @@ However, when their results are compared to those of Study II, this apparent dif
 The ratio of the difference in vowel duration in \citet{tanner2019} is estimated to be between 1 and 1.16.
 The ratio in Study II is between 1.03 and 1.17, a range that is virtually identical to that of \citet{tanner2019}.
 
-I am not claiming, however, that the voicing effect is necessarily universal.
+While there is indication that the voicing effect is similar across some languages in some contexts, I am not claiming that the voicing effect is necessarily universal.
 Especially in the case of monosyllabic words, as argued above, language-specific perceptual enhancement can modulate the magnitude of the effect.
 For example, \citet{tanner2019} demonstrate that, although not unambiguously, the effect of voicing on vowel duration in monosyllabic words differs across varieties of English.
 More work is needed to assess cross-linguistic differences with a sufficiently sampled dataset and by experimental procedures designed to reduce phonological differences.
