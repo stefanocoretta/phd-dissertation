@@ -1,4 +1,4 @@
-# (PART) Conclusion {-}
+# (PART) Discussion and conclusion {-}
 
 # General discussion
 \label{s:gen-disc}
@@ -16,20 +16,20 @@ Rather than trying to disprove a given hypothesis or showing that one is primary
 This dissertation investigated the influence of consonant voicing on vowel duration by focussing on production aspects of vowel-consonant sequences.
 As a cross-linguistic tendency, known as the "voicing effect", vowels are shorter when followed by voiceless consonants and longer when followed by voiced ones.
 Several proposals as to what mechanisms underlie this tendency have been put forward, but no account has won consensus.
-Two studies were carried out to investigate durational and articulatory properties of vowels and consonants in Italian, Polish, and English.
+I carried out two studies to investigate durational and articulatory properties of vowels and consonants in Italian, Polish, and English.
 Four original publications presented and discussed the results from these studies.
-\Cref{p:relrel, p:en-relrel} show that the duration of the interval between the releases of the stops of a disyllabic word is not affected by the voicing of the second stop in Italian, Polish, and English.
+\Cref{p:relrel} and \Cref{p:en-relrel} show that the duration of the interval between the releases of the stops of a disyllabic word is not affected by the voicing of the second stop in Italian, Polish, and English.
 On the other hand, the release-to-release interval of English monosyllabic words is longer when the second consonant is voiced.
 The results in \Cref{p:tra} suggest the existence of a statistical correlation between vowel duration and degree of tongue root advancement, such that longer vowel durations correspond to greater tongue root advancement.
-Finally, in \Cref{p:wavegram} it was speculated that the timing of the stop closure is modulated by the presence of emerging voiceless pre-aspiration, so that either enhancement of pre-aspiration delays closure or its prevention anticipates it.
+Finally, in \Cref{p:wavegram} I speculate that the timing of the stop closure is modulated by the presence of emerging voiceless pre-aspiration, so that either enhancement of pre-aspiration delays closure or its prevention anticipates it.
 This chapter provides an over-arching synthesis of the account proposed here in light of the observed patterns, and discusses the implications for theories of speech production.
 
 ## A pluralist view
 \label{s:pluralist}
 <!-- Question 1 -->
 
-One of the questions posed at the beginning of the dissertation (\Cref{s:resq}) concerned the diachronic pathway to the emergence of the voicing effect.
-Previous articulatory accounts of the voicing effect, reviewed in \Cref{s:accounts}, ascribe the driving force behind this phenomenon each to an individual property of speech.
+One of the questions posed at the beginning of the dissertation (\Cref{s:resq}) concerned the source of the voicing effect and the diachronic pathway to its emergence.
+Each previous articulatory account of the voicing effect, reviewed in \Cref{s:accounts}, ascribes the driving force behind this phenomenon to a different individual property of speech.
 According to the compensatory temporal adjustment account \citep{lindblom1967, slis1969a, slis1969b, lehiste1970a, lehiste1970b}, there is a trading relationship between the duration of vowels and that of the following consonant.
 The account of rate of stop closure transition states that the rate of the closing gesture of voiceless stops is higher than that of voiced stops \citep{ohman1967a, chen1970}.
 As a consequence, full closure is achieved earlier relative to the onset of the closing gesture when the stop is voiceless.
@@ -49,7 +49,7 @@ The ultrasound and EGG data from Study I, as discussed in \Cref{p:tra} and \Cref
 For one, tongue root position can influence the timing of the boundary by delaying it to allow for greater tongue root advancement, which is known to facilitate voicing during the production of the stop closure (\Cref{p:tra}).
 Second, the development of pre-aspiration can influence the timing of the VC boundary by delaying or anticipating it depending on whether pre-aspiration is enhanced or prevented (\Cref{p:wavegram}).
 
-In Study II, discussed in \Cref{p:en-relrel}, it was found that the temporal properties of English disyllabic words reflect those of Italian and Polish.
+In Study II, discussed in \Cref{p:en-relrel}, it was found that the temporal properties of English disyllabic words resemble those of Italian and Polish.
 As in the latter languages, the duration of the release-to-release interval is not affected by the voicing of the post-vocalic stop.
 However, the situation is different in English monosyllabic words.
 In this context, voicing does affect the duration of the interval, and the interval is longer when the post-vocalic consonant is voiced.
@@ -86,7 +86,7 @@ Consonants can thus be said to follow either a C-centre or a left-edge organisat
 
 Phasing modes are defined within a unit that corresponds to the traditional syllable, or, in other words, relative to the following vowel for onsets and the preceding vowel for codas.
 Less is known about the relation between segments belonging to different syllables and how syllables are timed and phased within words.
-\citet{ohman1967} and \citet{fowler1983} propose that vocalic gestures are implemented according to a rhythmic programme and that consonantal (constriction gestures) are superimposed to the vocalic gestural stream.
+\citet{ohman1967} and \citet{fowler1983} propose that vocalic gestures are implemented according to a rhythmic programme and that consonantal (constriction gestures) are superimposed on the vocalic gestural stream.
 Furthermore, the authors argue that the timing of vocalic gestures follows a regular cyclic pattern, which is in turn responsible for the rhythmic patterns of speech.
 \citet{fowler1983} reviews a collection of findings from speech production, perception, and phonological patterns that support the idea of a cyclic production of vowels.
 
@@ -96,7 +96,7 @@ Using electromagnetic articulography, both studies find that the distance betwee
 Furthermore, \citet{de-jong1991} finds only partial support for the independence of vowel and consonant gestures, based on the fact that the tail end of the opening gesture of the vowel is affected by the following consonant.
 These studies also find substantial inter-speaker variation in the particulars of the gestural implementation of vowel-consonant sequences.
 
-While the strong prediction of vowel-to-vowel isochrony is not confirmed by data comparing singleton and geminate consonants, a weaker formulation of isochrony might still be appropriate.
+While the strong prediction of vowel-to-vowel isochrony is not confirmed by data comparing singleton and geminate consonants, a weaker formulation of isochrony might still hold.
 A possible reason for why the isochrony breaks in the geminate context is that geminate consonants are a blend of two phasing patterns.
 For example, \citet{zeroual2015} argue that their findings support the interpretation of geminates as two identical consonants produced sequentially.
 This would mean that the first part of the geminate is implemented anti-phase with the preceding vowel, while the second part is articulated in-phase with the following.
@@ -134,7 +134,7 @@ However, a detailed development of a selection-coordination interpretation of th
 
 ### Diachrony, production, and perception
 
-The composite account proposed in the previous sections is diachronic in nature, in as much as it reveals a possible historical pathway to the development of the voicing effect, rooted in production aspects of vowels and consonants.
+The composite account proposed in the previous sections is diachronic in nature, in so much as it reveals a possible historical pathway to the development of the voicing effect, rooted in production aspects of vowels and consonants.
 In particular, I argue that the voicing effect can emerge because of the temporal stability of VC sequences and the differences in timing of the VC boundary depending on the voicing of the post-vocalic consonant.
 Such an account assumes that the original scenario is one in which the duration of vowels and that of closures do not differ across voicing contexts.
 Durational differences can emerge via developmental learning and historical change in individual speakers and spread across the population.
@@ -195,7 +195,7 @@ Future work is warranted to weight the goodness of each individual framework in 
 <!-- TODO: Widespread? -->
 
 While the account proposed here is based on production mechanisms, it cannot be completely excluded that the production differences observed and stipulated here are a consequence of perceptual biases.
-In such a scenario, there could be a design feature of the perceptual system that generates the differential duration percept, even when there is not such difference in the acoustic output/input.
+In such a scenario, there could be a design feature of the perceptual system that generates the differential duration percept, even when there is no such difference in the acoustic output/input.
 An example from the domain of vision illustrates this possibility.
 When looking at a wheel spinning in a clockwise direction, the observer will see the wheel rotating counter-clockwise when the rotation speed exceeds a threshold.
 There is nothing in the mechanics of a wheel spinning around its axis that can explain this perceptual fact.
@@ -213,10 +213,10 @@ Since in the case of voicing there are independent production reasons for the ob
 
 The second aim of the dissertation was concerned with cross-linguistic differences in the development and implementation of the voicing effect.
 As discussed in \Cref{s:ve}, the degree of the voicing effect is generally thought to vary depending on the language.
-Allegedly, English is the language possessing the biggest effect, while the effect is smaller in Italian and possibly absent in Polish.
+Allegedly, English is the language showing the biggest effect, while the effect is smaller in Italian and possibly absent in Polish.
 However, Papers I and II indicate a somewhat different scenario.
 A direct comparison of the data from Study I and II is not straightforward, given the different materials used in the two studies, but it still provides us with some directions as to what difference, if any, there are between the languages in question.
-A Bayesian analysis of the effect of voicing in disyllabic words comparing English, Italian, and Polish (see \Cref{a:ve-comp}) suggests that, when controlling for differences in average baseline vowel duration and speech rate, there is no strong evidence for a difference in the effect of voicing across these languages.
+A Bayesian analysis of the effect of voicing in disyllabic words comparing English, Italian, and Polish (see \Cref{a:ve-comp}) suggests that, when controlling for differences in average baseline vowel duration and speech rate, there is no strong evidence for a difference in the magnitude of the voicing effect across these languages.
 Note, however, that no conclusive statement can be done in this regard, due to the low precision of the relevant estimates obtained in the meta-analysis.
 
 As thoroughly discussed in \Cref{s:veitapoldisc}, the magnitude of the voicing effect found in Study I for Italian aligns with previous work on this language, which is unanimously regarded as a voicing-effect language.
@@ -228,7 +228,7 @@ Previous work \citep{sharf1962, klatt1973}, and in some part the results in \Cre
 It is important, then, that differences across languages are tested directly and within the same phonological contexts.
 An example of this approach is the study in \citet{laeufer1992}, who shows that the effect in English and French is comparable when the vowel baseline duration is analogous.
 
-Moreover, the results of the Bayesian meta-analysis of the English voicing effect (\Cref{a:ve-eng}) indicate that, while there is a clear positive effect of voicing on vowel duration, less can be said about the magnitude of such effect.
+Moreover, the results of the Bayesian meta-analysis of the English voicing effect (\Cref{a:ve-eng}) indicate that, while there is a clear positive effect of voicing on vowel duration, there is less certainty around the magnitude of such effect.
 Although the estimated range of values is between 55 and 95 ms, the analysis revealed a possibility for publication bias in favour of larger effects, meaning that the obtained values might be overestimated.
 Note also that there could be differences in speech rate across studies which cannot be controlled for, and older studies might have obtained data based on lower speech rates (which could explain the greater baseline vowel duration in these studies).
 The smaller effect found in Study II is indicative of such differences.
@@ -255,7 +255,7 @@ Data and code have been released under a Creative Commons Attribution 4.0 Intern
 Three R packages were developed while conducting this research as complementary software: speakr \citep{coretta2019h}, tidymv \citep{coretta2019i}, and rticulate \citep{coretta2018}.
 
 Attention has been given in reporting the results from the statistical analyses in a way commensurate with the weight of the evidence provided.
-As \citep{vasishth2019} put it, "conclusions based on data are *always* uncertain, and this is regardless of whether the outcome of the statistical test is statistically significant or not."
+As \citet{vasishth2019} put it, "conclusions based on data are *always* uncertain, and this is regardless of whether the outcome of the statistical test is statistically significant or not."
 Rather than focussing on a dichotomous distinction between "significant" and "non-significant", greater emphasis has been put on parameter estimation and quantification of uncertainty.
 This approach culminated in Study II with the full adoption of the framework of Bayesian statistics.
 What this dissertation as a whole hopefully highlights is the importance of embracing variation and accepting uncertainty, not as a detrimental aspect for science, but rather as a necessary step in the cumulative enterprise of knowledge acquisition.
