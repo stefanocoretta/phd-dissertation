@@ -33,9 +33,8 @@ Given the plurality of views concerning less understood aspects of the voicing e
 To keep this type of enquiry manageable, I decided to undertake this endeavour from a speech production outlook, an area which has fuelled a great part of the debate within the voicing effect literature.
 In particular, this thesis poses the question of what aspects of the articulation of vowel-consonant sequences can inform us about the influence of consonant voicing on the duration of vowels.
 In answering this question, I collected data from a combination of acoustic, ultrasound tongue imaging, and electroglottographic techniques as part of two studies on Italian, Polish, and English.
-These languages make up an appropriate set in that they constitute a window into the complex variation of the voicing effect as seen both across and within languages.
-While the voicing effect in English is generally regarded as particularly large in magnitude, the effect is smaller in Italian, and a divide exists in the literature on the effect in Polish between studies that find an effect and studies that do not.
-\Cref{s:rationale} discusses in details the rationale behind the current research.
+While the voicing effect in English is generally regarded as particularly large in magnitude, the effect is smaller in Italian, and the literature on the effect in Polish is divided between studies that find an effect and studies that do not.
+These languages thus make up an appropriate set in that they constitute a window into the complex variation of the voicing effect as seen both across and within languages.
 
 The dissertation is organised in three parts: an introduction (Part I), a collection of original manuscripts (Part II), and a conclusion (Part III).
 
@@ -115,13 +114,13 @@ This notwithstanding, the voicing effect is generally regarded as a very common 
 While the voicing effect is cross-linguistically common, it is not universal, and some languages lack voicing-induced durational differences.
 Czech and Polish are generally reputed to be languages in which the duration of vowels does not significantly differ before voiceless and voiced stops.
 In fact, the results concerning the effect in these languages are mixed, and support can be found both for and against an effect of voicing on vowel duration.
-\citet{keating1984} examined the duration of vowels in 3 Czech speakers.
+\citet{keating1984} examines the duration of vowels in 3 Czech speakers.
 Vowels are 193.7 ms long when followed by /t/ and 204.2 ms when followed by /d/.
 This corresponds to a raw difference of 10.5 ms, which the author reports not to be significant (*t*(30) = -0.37, p > 0.2).
 Given the low number of speakers and the relative high standard error of the effect (about 28 ms, calculated as the mean difference over the *t*-value, \citealt{nicenboim2018a}), it is possible that the null result is due to low statistical power.
-\citet{machac2007} analyse 638 VCV sequences recorded from 53 speakers of Czech and found partial evidence for an effect of voicing in the language.
+\citet{machac2007} analyse 638 VCV sequences recorded from 53 speakers of Czech and find partial evidence for an effect of voicing in the language.
 
-As for Polish, \citet{slowiaczek1985} measures the duration of vowels in word-final syllables from 5 speakers, and vowels followed by an underlyingly voiced stop are 10--15 ms longer.
+As for Polish, \citet{slowiaczek1985} measure the duration of vowels in word-final syllables from 5 speakers, and vowels followed by an underlyingly voiced stop are 10--15 ms longer.
 @nowak2006 investigates several properties of vowel duration in 4 speakers (from different parts of Poland), and finds that vowels followed by voiced stops are 4.5 ms longer (a significant difference).
 <!-- I should read about what stats he did -->
 @malisz2008 analyse data from 40 speakers of Standard Polish, and while they don't report estimates from the whole dataset, the means from 4 speakers suggest a difference in vowel duration before voiceless vs voiced stops of about 3.5 ms.
@@ -224,10 +223,10 @@ Typological comparison should not be based on (language-specific) "descriptive c
 Comparative concepts are created by the linguist who performs cross-linguistic analyses, and are not components of particular languages.
 I assume here that traditional phonological categories like "voicing", "vowel height", "place of articulation", can be thought of either as (language-particular) descriptive categories or comparative concepts, depending on the scientific enterprise.\footnote{\citet{haspelmath2010} proposes to use capitalised names for descriptive categories (for example, "Italian Voicing"), but since this use is not common among phonologists/phoneticians, I will not adopt it here.}
 In relation to the voicing effect, the use of "voicing" as adopted in this work will be intended as a comparative concept and not as a descriptive category.
-In other words, "voicing" is used here as a convenience cross-linguistic term for phonological oppositions that are similar in behaviour and that are treated similarly in the voicing effect literature, but no claim of identity across categories is made (nor is it necessary for the account proposed here).
+In other words, "voicing" is used here as a convenience cross-linguistic term for phonological oppositions that are similar in behaviour and that are treated similarly in the voicing effect literature, but no claim of identity of the categories across languages is made (nor is it necessary for the account proposed here).
 
 Note that the adoption of the distinction between descriptive categories and comparative concepts is a working assumption and a fully fledged argument in support of the distinction will not be pursued here.
-Rather, reference to comparative concepts here allows us to compare the voicing effect across languages where "voicing" behaves very differently, and allows us to make cross-linguistic generalisations that transcend language-specific descriptive categories.
+Rather, reference to comparative concepts allows us to compare the voicing effect across languages where "voicing" behaves very differently, and allows us to make cross-linguistic generalisations that transcend language-specific descriptive categories.
 The holistic account expounded in \Cref{s:pluralist} rests on this working assumption, and should be interpreted as applicable independently from language-specific voicing categories.
 I will not specify the sense of the term "voicing" when used (physical, descriptive, comparative), unless in cases where its interpretation is ambiguous.
 
@@ -238,7 +237,7 @@ In \Cref{s:veintro}, we saw that the voicing effect can differ depending on the 
 In addition to language, this phenomenon is also modulated by other phonological and phonetic factors.
 For example, \citet{umeda1975} reports that the difference in vowel duration before voiceless vs voiced consonants is greater when the test word is pre-pausal.
 The voicing effect also seems to be more robust in stressed than in unstressed vowels \citep{davis1989}.
-There is also indication that the effect is modulated by the position of the syllable in the word in English, so that word-final syllables show a greater effect than word-medial syllables (\citealt{sharf1962, klatt1973, davis1989}, although \citealt{abdelli-beruh2004} doesn't find a significant difference across these contexts in French).
+There is also indication that the effect is modulated by the position of the syllable in the word in English, so that word-final syllables show a greater effect than word-medial syllables (\citealt{sharf1962, klatt1973, davis1989}, although \citealt{abdelli-beruh2004} does not find a significant difference across these contexts in French).
 \citet{port1981} further argues that the effect in word-initial stressed vowels is smaller along the hierarchy monosyllabic > disyllabic > trisyllabic words, which also reflects that of decreasing average vowel durations.
 \citet{laeufer1992} discusses the voicing effect as a function of vowel height, and shows that the effect is greater in low (intrinsically longer) vowels than in high (intrinsically shorter) vowels.
 Moreover, \citet{sharf1964} shows that the effect persists even in whispered (unvoiced) speech.
@@ -290,7 +289,7 @@ For \citet{kiparsky2000}, phonologisation occurs when the constraint ordering of
 <!-- add picture from RBO -->
 
 An extension of Stratal OT, the life cycle of phonological processes \citep{bermudez-otero2007, bermudez-otero2015}, offers yet another definition of phonologisation and a more fine-grained terminological set.
-\citet{bermudez-otero2015} reserves the term "phonologisation" for when a physico-physiological (phonetic or mechanic) phenomenon comes under the control of the speaker/hearer and in fact becomes part of her grammar (more specifically, part of the phonetic module of the grammar).
+\citet{bermudez-otero2015} reserves the term "phonologisation" for when a physico-physiological (mechanic) phenomenon comes under the control of the speaker/hearer and in fact becomes part of her grammar (more specifically, part of the phonetic module of the grammar).
 The process, once it has entered the grammar, can further its "ascent" through increasingly deeper grammatical modules.
 A (gradient) phonologised process is said to be "stabilised" (and thus categorical) once it is generated by a categorical phonological rule, which applies at the phrase level.
 At this stage, a stabilised process has entered the phonological module of the speaker/hearer.
@@ -313,7 +312,7 @@ When the term phonologisation is employed in the phonetic literature of the voic
 This makes it less straightforward to interpret the term as the original author might have intended, but, as far as I can tell, most authors would interpret it at least as to mean that the effect is not just mechanical and/or low-level, but that it has assumed higher-level functions of some sort, whatever the specific function might be.
 Since the main focus of this work is on the source of the voicing effect rather than on what functions the voicing effect can assume in different languages, the topic of the phonologisation of the voicing effect will only briefly be touched upon in the rest of the dissertation.
 Note, however, that the account proposed in \Cref{s:gen-disc} is envisioned to be informed by some form of exemplar model of speech perception and production, where everything can be considered "phonologised" as soon as it is part of the lexical representation.
-In this sense, the effect is represented in the same way in all languages that have it, independent of its magnitude or function.
+In this sense, the effect is part of the mental word representations in all languages that have it, independent of its magnitude or function.
 A discussion of arguments for or against such position are, however, beyond the scope of this dissertation.
 
 Going back to the phonologisation (in the general sense) of the voicing effect in English, \citet{de-jong2004} shows that the effect is greater in stressed syllables and under focus in English but not in Arabic \citep{de-jong2002}, and argues that vowel duration is used contrastively as a cue to voicing in the former language.
@@ -670,6 +669,7 @@ While voicing in Manchester English has not been systematically investigated, th
 English obstruents (plosives, fricatives, affricates) contrast for what has been traditionally described as voicing, which is also reflected in the standard use of IPA voiceless and voiced symbols.
 However, the actual articulatory implementation of the contrast is constituted by a complex set of features and it is affected by other phonological factors, like syllabic structure and stress \citep{lisker1986, docherty1992}.
 Generally speaking, while the voicing contrast in word-medial position especially after stressed vowels is between a category with voicing during closure (voiced category) and one without it (voiceless category), in pre-stressed position and especially in word-initial position the contrast is between two voiceless categories that differ in voice onset time (short VOT vs long VOT, with no vibration of the vocal folds during closure in the former).
+Furthermore, \citet{docherty1992} shows how the binary distinction between voiceless and voiced stops is an oversimplification of the fine-grained timing patterns of vocal fold vibration into, within, and out of the stop closure, and argues that temporal information plays an important role in defining phonological categories and should be regarded as part of the representational make-up of these.
 
 Another relevant dimension is the type of phonation used by speakers to encode the voicing contrast in English.
 For example, \citet{gordeeva2007, gordeeva2010, gordeeva2011} show that preaspiration, glottalisation, and ejection can be used by speakers as cues to the voicing contrast in fricatives and stops in Scottish English.
@@ -718,8 +718,8 @@ English is more or less uncontroversially regarded as a stress-timing language \
 
 This section presents an overview of the results derived from the investigation of acoustic durations and articulatory properties of vowel-consonant sequences of three related but contrasting languages (Italian, Polish, English) in Study I and II.
 The results suggest a composite production account of the voicing effect which synthesises previous independent and seemingly contrasting proposals.
-In particular, the proposed account revisits and combines elements from the compensatory temporal adjustment account, the laryngeal adjustment account, and rate of closure account (\Cref{s:accounts}).
-The following paragraphs summarise the contribution of each original publication in Part II, while a full-fledged discussion of the holistic proposal will be given in \Cref{s:gen-disc}.
+In particular, the proposed account revisits and combines elements from the compensatory temporal adjustment account, the laryngeal adjustment account, and rate of closure account, which were presented in \Cref{s:accounts}.
+The following paragraphs summarise the contribution of each original publication in Part II, while a full-fledged discussion of the holistic proposal I put forward will be given in \Cref{s:gen-disc}.
 
 \Cref{p:relrel} and \Cref{p:en-relrel} provide evidence for a revised compensatory adjustment account of the voicing effect.
 \Cref{p:relrel} deals with Italian and Polish acoustic data, and it shows that vowel-consonant sequences are embedded within a speech interval that is temporally stable across voicing contexts.
@@ -886,7 +886,7 @@ After fitting, the splines were linearly interpolated from the original frame ra
 Subsequent data processing followed the method described in \citet{strycharczuk2015} (see also \Cref{p:tra} and \Cref{a:polar-gams}) and it was based on the upsampled (100 kHz) spline data.
 Tongue displacement was obtained with a built-in procedure by tracking the time-varying displacement of the interpolated tongue splines along fan-lines from a fan-like coordinate system \citep{scobbie2011}.
 Tongue displacement was measured for (1) the tongue tip, (2) the tongue dorsum, and (3) the tongue root.
-These were broadly defined as follows: (1) tongue tip as the region of the tongue that produces the closure of coronal stops, (2) tongue dorsum as the region that produces the closure of velar stops, (3) tongue root as the region between the hyoid bone shadow and the tongue dorsum region.
+These were broadly defined, on a speaker-by-speaker basis, as follows: (1) tongue tip as the region of the tongue that produces the closure of coronal stops, (2) tongue dorsum as the region that produces the closure of velar stops, (3) tongue root as the region between the hyoid bone shadow and the tongue dorsum region.
 Within each tongue region, the fan-line with the highest standard deviation was chosen as the vector for calculating tongue displacement (these fan-lines were manually chosen for each speaker individually).
 A Savitzky--Golay smoothing filter (second-order, frame length 75 ms) was applied to raw tongue displacement along the chosen fan-line to generate smoothed displacement values.
 Tangential velocity was calculated from the smoothed displacement signal of the tongue tip and tongue dorsum with a Savitzky--Golay filter (second-order, frame length 75 ms), as implemented in AAA.
