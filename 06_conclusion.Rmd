@@ -11,8 +11,6 @@ Rather than trying to disprove a given hypothesis or showing that one is primary
 
 \vspace{1cm}
 
-<!-- TODO: repeat 3 question -->
-
 This dissertation investigated the influence of consonant voicing on vowel duration by focussing on production aspects of vowel-consonant sequences.
 As a cross-linguistic tendency, known as the "voicing effect", vowels are shorter when followed by voiceless consonants and longer when followed by voiced ones.
 Several proposals as to what mechanisms underlie this tendency have been put forward, but no account has won consensus.
@@ -177,9 +175,8 @@ The temporal stability of the release-to-release interval is now disrupted.
 This is possible due to the absence of vowel-to-vowel isochrony (since there is no second vowel to temporally lock in monosyllabic words).
 Finally, note that the same contrast-enhancing perceptual biases that operate in the context of monosyllabic words can also operate in disyllabic ones, with the exception that vowel-to-vowel isochrony (and release-to-release temporal stability) is preserved in the latter.
 
-<!-- TODO: Exemplar Theory -->
+
 The discussion in \Cref{s:comp} hinted at an exemplar-theoretic account of the diachronic scenario outlined here.
-<!-- TODO: summarise -->
 Under exemplar-based theories, speech processing operates on parameters the values of which are obtained from statistical distributions.
 At the early stages of the emergence of the voicing effect, the timing of the VC boundary (as produced by gestural phasing) would come from a distribution shared across voiceless and voiced stops.
 Deviation from this distribution are a consequence of the application of VC boundary shifting driven by physiological factors.
@@ -188,12 +185,8 @@ Statistical sub-distributions in the timing of the VC boundary would thus start 
 These sub-distributions can then act as distributions from which timing information is directly obtained during speech processing.
 At this point, while the original physiological biases might still be in place, the presence of independent sub-distributions blurs the statistical relationship among durational measures, and, as argued in \Cref{s:comp}, the true underlying mechanisms are difficult if not impossible to be recovered from synchronic data.
 
-<!-- TODO: expand on the above, link it back to production/perception -->
-
 An exemplar-based view was chosen as an illustrative example of the cognitive mechanisms behind the emergence of the voicing effect, although other frameworks might as readily account for the patterns discussed in this dissertation.
 Future work is warranted to weight the goodness of each individual framework in doing so.
-
-<!-- TODO: Widespread? -->
 
 While the account proposed here is based on production mechanisms, it cannot be completely excluded that the production differences observed and stipulated here are a consequence of perceptual biases.
 In such a scenario, there could be a design feature of the perceptual system that generates the differential duration percept, even when there is no such difference in the acoustic output/input.

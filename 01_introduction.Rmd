@@ -1067,8 +1067,6 @@ The design and analyses of Study II were pre-registered on the Open Science Fram
 Sample size determination followed the method of the Region Of Practical Equivalence \citep{vasishth2018a}.
 Data from Study II was subject to a full Bayesian analysis, and greater emphasis was given on the posterior probability distributions of the effect estimates rather than on their means (\Cref{p:en-relrel}).
 
-<!-- TODO: talk about datasets -->
-
 Data, code, and information about software can be found in the research compendium of this project on the Open Science Framework (\citealt{coretta2020a}, \url{https://osf.io/w92me/}).
 This OSF repository acts as a hub for the research compendia of the project and of the individual papers.
 The data has been packaged and documented using R \citep{marwick2017}.
