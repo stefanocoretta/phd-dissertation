@@ -300,6 +300,9 @@ $else$
 \renewcommand\refname{$biblio-title$}
 $endif$
 $endif$
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Bibliography}
 \bibliography{$for(bibliography)$$bibliography$$sep$,$endfor$}
 
 $endif$
