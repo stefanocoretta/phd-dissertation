@@ -261,7 +261,7 @@ At this point, two possible scenarios can be envisaged.
 According to one pathway, breathiness can lead to voiceless pre-aspiration and subsequent enhancement by closure shortening.
 In such case, pre-aspiration could ultimately develop into normative pre-aspiration like that found in Icelandic.
 In the alternative scenario, on the other hand, pre-aspiration is prevented from arising.
-This can be achieved by shifiting the timing of the stop closure towards the onset of the glottal spreading gesture, while keeping the timing of the latter unchanged.
+This can be achieved by shifting the timing of the stop closure towards the onset of the glottal spreading gesture, while keeping the timing of the latter unchanged.
 As a consequence, stop closure duration is increased, resulting in the known pattern of the differential closure durations of voiceless vs voiced stops.
 
 ## Conclusion

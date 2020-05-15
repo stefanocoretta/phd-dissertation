@@ -141,7 +141,7 @@ Finally, tongue root adjustments seem to target more specifically lingual conson
 
 However, the relation between tongue root advancement and voicing is a complex one.
 First, tongue root advancement is not the only mechanism for sustaining voicing during a stop \citep{rothenberg1967, westbury1983, ohala2011} and it has a certain degree of idiosyncrasy \citep{ahn2018}.
-For example, a cross-lingusitically common difference between voiceless and voiced stops concerns their respective closure durations.
+For example, a cross-linguistically common difference between voiceless and voiced stops concerns their respective closure durations.
 The closure of voiced stops is generally longer than that of voiceless stops \citep{lisker1957, umeda1977, van-summers1987, davis1989, de-jong1991}.
 A shorter closure favours maintenance of vocal fold vibration by ensuring that the pressure build-up in the oral cavity does not equalise the sub-glottal and supra-glottal pressures (at which point voicing would stop).
 Other solutions which can help sustaining voicing during closure include larynx lowering \citep{riordan1980}, slackening of the vocal folds \citep{halle1967}, opening of the velopharyngeal port \citep{yanagihara1966}, and producing a retroflex occlusion \citep{sprouse2008}.

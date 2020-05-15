@@ -795,7 +795,7 @@ More research is warranted in relation to the observed patterns.
 
 Turning now to consonants, there was no specific hypothesis concerning differences in the effect of voicing on closure durations between mono- and disyllabic words.
 C2 voicing has a robust negative effect on closure duration in disyllabic words, so that voiced closures are 14.6-26.8 ms shorter than voiceless closures.
-The posterior of the interaction between C2 voicing and number of syllables lies entirely iwithin the ROPE, indicating that the effect of voicing on closure duration is similar in mono- and disyllabic words.
+The posterior of the interaction between C2 voicing and number of syllables lies entirely within the ROPE, indicating that the effect of voicing on closure duration is similar in mono- and disyllabic words.
 The effects of number of syllables and place of articulation have credible intervals that are narrower than 20 ms (the ROPE width) but they lie entirely within the ROPE around 0.
 If these variables do have an effect on closure duration, the present analysis suggests that the means of these effects are between 0 and 5 ms.
 For C2 place, these values are smaller than those in \citet{sharf1962}, which indicate a difference of 15 ms between velar and labial closure durations.

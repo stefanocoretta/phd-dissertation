@@ -134,7 +134,7 @@ Speech rate has a strong and robust negative effect on vowel duration: for each 
 The posterior distributions for the interaction between language and voicing indicate that probably the effect of voicing in Italian is very similar to that of English, while there is some extremely weak indication for a slightly smaller effect in Polish.
 Note, however, that the posterior distributions of the interactions are very wide (more than 20 ms).
 
-In sum, the present data does not offer robust evidence neither for or against cross-lingustic differences in voicing effect.
+In sum, the present data does not offer robust evidence neither for or against cross-linguistic differences in voicing effect.
 If there is a difference, it will likely be within the range ±10 ms.
 
 ```{r ve-post}
@@ -149,7 +149,7 @@ ve_post <- posterior_samples(brm_1, pars = "b_") %>%
 ```
 
 The following plot shows the posterior probability distributions of the effect of voicing marginalised over language.
-The great overlap among the distributions is indicative of the high uncertainty regarding the presence vs absence of cross-lingusitic differences.
+The great overlap among the distributions is indicative of the high uncertainty regarding the presence vs absence of cross-linguistic differences.
 
 ```{r ve-post-dens}
 ve_post %>%

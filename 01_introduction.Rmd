@@ -876,7 +876,7 @@ The output of the automatic detection was manually checked and corrected.
 The times of the following landmarks were extracted via a custom Praat script (`get-duration.praat` in \citealt{coretta2018m}): sentence onset and offset, target word onset and offset, C1 release, V1 onset, V1 offset/C2 closure onset, C2 release, V2 onset.
 
 UTI data processing was performed in AAA.
-Spline curves were fitted to the tongue surface images using a built-in automatic batch procedure, within a search area defined by the interval between the onset of the CV sequence preceding the target word and the offset of the that following it (*Di[co X le]natamente*, *Mów[ię X te]raz*).
+Spline curves were fitted to the tongue surface images using a built-in automatic batch procedure, within a search area defined by the interval between the onset of the CV sequence preceding the target word and the offset of the that following it (*Di[co X le]ntamente*, *Mów[ię X te]raz*).
 The search area was created via Praat scripting (with `search-area.praat` in \citealt{coretta2018m}) and imported in AAA for the batch procedure.
 The automatic fitting procedure was monitored by the author and manual correction of the fitted splines was applied if necessary.
 Splines were fitted to the tongue contours at the original frame rate, which varied between 43 and 68 frames per second depending on the participant.
@@ -996,7 +996,7 @@ The literature reviewed in \citet{flake2019} suggests that a very high percentag
 Researchers have also been found to manipulate validated scales to obtain desired results.
 
 Cognitive biases and statistical misconceptions can also have a negative impact on research conduct.
-\citet{wagenmakers2012} discuss the effects of congnitive biases like the confirmation bias (the tendency to look for facts and interpretations that confirm one's prior conviction, \citealt{nickerson1998}) and the hindsight bias (the tendency to find an event less surprising after it has occurred, \citealt{roese2012}).
+\citet{wagenmakers2012} discuss the effects of cognitive biases like the confirmation bias (the tendency to look for facts and interpretations that confirm one's prior conviction, \citealt{nickerson1998}) and the hindsight bias (the tendency to find an event less surprising after it has occurred, \citealt{roese2012}).
 \citet{greenland2017} defines further common distortions pertaining to methodological approaches, like statistical reification (interpreting statistical results as reflections of an actual physical reality).
 Finally, \citet{wagenmakers2007} and \citet{motulsky2014} examine mistaken beliefs about the meaning of *p*-values and statistical significance (like interpreting *p*-values as an index to statistical evidence or the idea that *p*-values inform us about the likelihood of the null-hypothesis given the data).
 
