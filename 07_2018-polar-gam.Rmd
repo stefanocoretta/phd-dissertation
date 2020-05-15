@@ -1,7 +1,7 @@
 ---
 params:
-  version: 1.0
-  version-date: "2019/04/15"
+  version: 1.1
+  version-date: "2020/05/15"
 ---
 
 ```{r setup, include=FALSE}
@@ -235,7 +235,7 @@ contrasts(tongue_pl07$vc_voicing) <- "contr.treatment"
 
 \noindent\fbox{%
     \parbox{\textwidth}{%
-        Coretta, Stefano. 2019. Assessing mid-sagittal tongue contours in polar coordinates using generalised additive (mixed) models. Manuscript. DOI: \url{https://doi.org/10.31219/osf.io/q6vzb}.
+        Coretta, Stefano. 2020. Assessing mid-sagittal tongue contours in polar coordinates using generalised additive (mixed) models. Manuscript.
     }%
 }
 
@@ -973,7 +973,7 @@ Finally, polar GAMs can also be readily extended to model 3D tongue surfaces and
 
 ## Data Accessibility Statement
 
-The data and code used in this paper can be viewed and downloaded at the Open Science Framework link <https://osf.io/q7hyz/?view_only=f9d9f865619848f4bc575bc86cb07282>.
+The data and code used in this paper can be viewed and downloaded at the Open Science Framework <https://osf.io/j79uw/>.
 
 ```{r Figure07, include=TRUE, fig.cap = "Tongue contours of voiceless and voiced stops in IT01.", out.width=".8\\textwidth"}
 plot_polar_smooths(it01_gam_ar, X, voicing, facet_terms = c2_place + vowel, split = list(vc_voicing = c("vowel", "c2_place", "voicing"))) +
