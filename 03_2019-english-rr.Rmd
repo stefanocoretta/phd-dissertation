@@ -1,7 +1,7 @@
 ---
 params:
-  version: 1.1.9000
-  version-date: "2020/03/16"
+  version: 2.1
+  version-date: "2020/05/15"
 ---
 
 ```{r setup, include=FALSE}
@@ -25,7 +25,7 @@ eng_clos <- na.omit(eng_durations)
 
 \noindent\fbox{%
     \parbox{\textwidth}{%
-        Coretta, Stefano. 2019. Temporal (in)stability in English monosyllabic and disyllabic words: Insights on the effect of voicing on vowel duration. Manuscript. DOI: \url{https://doi.org/10.31219/osf.io/jvwa8}.
+        Coretta, Stefano. 2020. Temporal (in)stability in English monosyllabic and disyllabic words: Insights on the effect of voicing on vowel duration. Manuscript.
     }%
 }
 
@@ -79,7 +79,7 @@ This mechanism gives rise to the so-called C-centre effects observed with onsets
 
 According to \citet{ohman1966, ohman1967}, the speech stream is composed by a series of continuous vocalic gestures interrupted by gestures of oral constriction (consonants).
 \citet{fowler1983} further proposes that the vocalic gestures of a VCV sequence are characterised by a cyclic pattern of production, so that the temporal distance between the two vowels is constant, independent of the nature of the intervening consonant.
-However, the temporal distance of the V-to-V interval is modulated by the number of intervening consonants \citep{zmarich2011, zeroual2015}.
+However, the temporal distance of the V-to-V interval is modulated by the number of intervening consonants \citep{smith1995, zmarich2011, zeroual2015}.
 \Cref{fig:vv-cent-2} (a) illustrates this point.
 
 \begin{figure}
@@ -95,7 +95,7 @@ The bottom scheme of \Cref{fig:vv-cent-2} (a) represents the word *patta*, sylla
 As a representational device, the geminate stop is given as two separate consecutive gestures (the actual details of gestural implementation depend on one's chosen gestural account and are not directly relevant to the present discussion).
 In *patta*, the onset of /p/ and that of the second /t/ are, as in *pata*, aligned with the onset of the respective following vowels.
 However, the first /t/ in /pat.ta/ is instead produced anti-phase with the preceding vowel.
-As it can be seen by comparing the top and bottom scheme of \Cref{fig:vv-cent-2} (a), the temporal distance between the two vowels differs in *pata* and *patta*, as per the results in \citet{zmarich2011} and \citet{zeroual2015}.
+As it can be seen by comparing the top and bottom scheme of \Cref{fig:vv-cent-2} (a), the temporal distance between the two vowels differs in *pata* and *patta*, as per the results in \citet{smith1995}, \citet{zmarich2011} and \citet{zeroual2015}.
 
 On the other hand, the distance of the vowels can still be expected to be stable when there is a single intervocalic consonant that alternates in voicing.
 This is shown in \Cref{fig:vv-cent-2} (b).
