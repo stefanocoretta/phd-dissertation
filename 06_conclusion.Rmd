@@ -89,14 +89,14 @@ Furthermore, the authors argue that the timing of vocalic gestures follows a reg
 \citet{fowler1983} reviews a collection of findings from speech production, perception, and phonological patterns that support the idea of a cyclic production of vowels.
 
 A consequence of the cyclic production of vowels and the independence of the vocalic and consonantal gestures is that two consecutive vowels within a word would be at a stable temporal distance, independent of the nature and number of the intervening consonants.
-This hypothesis, however, is not borne out by the empirical evidence in \citet{zmarich2011} and \citet{zeroual2015}.
-Using electromagnetic articulography, both studies find that the distance between two vowels is greater when the intervening consonant is a geminate compared to when it is a singleton consonant.
+This hypothesis, however, is not borne out by the empirical evidence in \citet{smith1995}, \citet{zmarich2011} and \citet{zeroual2015}.
+Using electromagnetic articulography, these studies find that the distance between two vowels is greater when the intervening consonant is a geminate compared to when it is a singleton consonant.
 Furthermore, \citet{de-jong1991} finds only partial support for the independence of vowel and consonant gestures, based on the fact that the tail end of the opening gesture of the vowel is affected by the following consonant.
 These studies also find substantial inter-speaker variation in the particulars of the gestural implementation of vowel-consonant sequences.
 
 While the strong prediction of vowel-to-vowel isochrony is not confirmed by data comparing singleton and geminate consonants, a weaker formulation of isochrony might still hold.
 A possible reason for why the isochrony breaks in the geminate context is that geminate consonants are a blend of two phasing patterns.
-For example, \citet{zeroual2015} argue that their findings support the interpretation of geminates as two identical consonants produced sequentially.
+For example, \citet{smith1995} and \citet{zeroual2015} argue that their findings support the interpretation of geminates as two consonants produced sequentially.
 This would mean that the first part of the geminate is implemented anti-phase with the preceding vowel, while the second part is articulated in-phase with the following.
 The presence of an anti-phase gesture intervening between the vowels could be responsible for the disruption of the vowel-to-vowel isochrony.
 In other words, any consonant cluster made of heterosyllabic consonants would show absence of vowel-to-vowel isochrony.
@@ -301,7 +301,7 @@ However, while \citet{house1953} and \citet{peterson1960} find that the effect i
 Future work should directly test the relation between differences in consonant duration and the voicing effect with consonants belonging to different manners of articulation.
 
 The compensatory account presented here rests on the cyclic production of vocalic gestures \citep{ohman1967, fowler1983}.
-\citet{zmarich2011} and \citet{zeroual2015} demonstrate that the temporal distance between two vowels with an intervening stop differs depending on whether the stop is a singleton or a geminate (e.g. *aba* vs *abba*, the distance is greater in the latter case).
+\citet{smith1995}, \citet{zmarich2011} and \citet{zeroual2015} demonstrate that the temporal distance between two vowels with an intervening stop differs depending on whether the stop is a singleton or a geminate (e.g. *aba* vs *abba*, the distance is greater in the latter case).
 However, I argue that the absence of vowel-to-vowel isochrony across these contexts follows from the gestural organisation of the segments involved.
 In the case of singleton stops, the vocalic gestures are executed consecutively and the intervocalic consonant is executed synchronously with the second vowel (\Cref{fig:vv-cent}a top).
 In the case of geminates, on the other hand, the intervening consonant is the outcome of the double selection of a single gesture where the first selection is executed anti-phase with the first vowel and the second in-phase with the second vowel (\Cref{fig:vv-cent}a bottom).
