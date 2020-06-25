@@ -106,7 +106,7 @@ This scenario is shown in \Cref{fig:vv-cent-3}(a).
 \begin{figure}
   \centering
   \includegraphics[height=12cm]{./img/vv-cent-3.pdf}
-  \caption{Schematics of the gestural phasing of vocalic and consonantal gestures in different contexts, which partially repeats \Cref{fig:vv-cent-2} from \Cref{p:en-relrel}. The \textit{x}-axis is time, while the \textit{y}-axis can be interpreted as oral aperture for vowels and oral constriction for consonants. (a) shows singleton vs geminate stops, (b) voiceless and voiced stops in disyllabic words, and (c) voiceless and voiced stops in monosyllabic words. Note that in (a) the distance between the vowels increases in the geminate context, while it is stable in (b) and (c). The dots in (b) on the consonant gesture lines indicate the time of acoustic closure onset.}
+  \caption{Schematics of the gestural phasing of vocalic and consonantal gestures in different contexts, which partially repeats \Cref{fig:vv-cent-2} from \Cref{p:en-relrel}. The \textit{x}-axis is time, while the \textit{y}-axis can be interpreted as oral aperture for vowels and oral constriction for consonants. (a) shows singleton vs geminate stops, (b) voiceless and voiced stops in disyllabic words, and (c) voiceless and voiced stops in monosyllabic words. Note that in (a) the distance between the vowels increases in the geminate context, while it is stable in (b) and (c). The circles in (b) on the consonant gesture lines indicate the time of acoustic closure onset.}
   \label{fig:vv-cent-3}
 \end{figure}
 
@@ -118,13 +118,13 @@ The duration of the interval between the acoustic release of C1 and the gestural
 
 On the other hand, the velocity of the closing gesture is known to differ in voiceless vs voiced stops \citep{van-summers1987}.\footnote{As mentioned in \Cref{s:procdata}, tongue movement velocity was not analysed as part of the current investigation, and future work on this aspect is warranted.}
 While the timing of gestural onset is identical in both voicing contexts, the difference in closing velocity produces the observed acoustic pattern of the later timing of the acoustic VC boundary when the consonant is voiced than when it is voiceless.
-In \Cref{fig:vv-cent-3}(b), the time of full oral closure is signalled by a dot on the displacement trajectory.
+In \Cref{fig:vv-cent-3}(b), the time of full oral closure is signalled by a circle on the displacement trajectory.
 Faster closing velocity in voiceless stops creates an early VC boundary, while a slow closing gesture generates a later VC boundary.
 
 However, in tautosyllabic VC sequences, the consonant gesture is implemented anti-phase with the preceding vowel, meaning that the vocalic and consonantal gestures are produced sequentially.
 In such case, VV isochrony is broken and the duration of V1 can be modulated freely without proportionally affecting closure duration.
 This scenario is depicted in \Cref{fig:vv-cent-3}(c).
-This is what it is argued to have happened in English monosyllabic words, where the temporal distance between the releases of C1 and C2 differs depending on C2 voicing, as shown in \Cref{p:en-relrel}.
+This is what is argued to have happened in English monosyllabic words, where the temporal distance between the releases of C1 and C2 differs depending on C2 voicing, as shown in \Cref{p:en-relrel}.
 \citet{raphael1972} and \citet{de-jong1991} indeed find that, in English monosyllabic words, the vocalic gesture is held for longer when the following consonant is voiced and that the gesture onset of voiced stops is timed later during the production of the vowel relative to that of voiceless stops.
 
 As a final note, in \Cref{s:comp} I mentioned Tilsen's selection-coordination model as a promising one in that it provides us with theoretical machinery to describe word-holistic patterns of gestural phasing \citep{tilsen2013, tilsen2016}.
@@ -150,7 +150,7 @@ Durational differences can emerge via developmental learning and historical chan
 \Cref{fig:histve} illustrates how the emergence of the voicing effect in disyllabic (a) and monosyllabic (b) words with either a voiceless or a voiced post-vocalic stop is envisioned to work.
 For each type of word, the figure shows three stages that can be thought of as three stages in a continuum of developmental learning and/or the historical change of a language across generations (future work is needed to work out the full details of these scenarios).
 Starting with disyllabic words in (a) stage 1 (top left panel), the words *pata* and *pada* show an identical temporal profile.
-The release of the stops are indicated by a dashed line, while full oral closure (the acoustic VC boundary) is signalled by a black dot on the profile of the second consonant.
+The release of the stops are indicated by a dashed line, while full oral closure (the acoustic VC boundary) is signalled by a circle on the profile of the second consonant.
 The timing of the vocalic and consonantal gestures (including the timing of the release and the VC boundary) coincide, as illustrated by the straight vertical lines indicating releases and connecting oral closures.
 In other words, there is no voicing effect, and both the duration of vowels and that of stop closures is not affected by voicing.
 
@@ -160,7 +160,7 @@ This change is brought about by the differing closing velocity of voiceless and 
 In relation to the VC boundary shift, three scenarios are possible: (1) the VC boundary shifts leftwards in the voiceless context, (2) the VC boundary shifts rightwards in the voiced context, (3) both (1) and (2) are implemented.
 Only diachronic data will be able to indicate which of these three scenarios is the correct one, but possibly (3) is compatible with the finding of two mechanisms that can lead to the closure velocity differential and hence to a VC boundary shift.
 As discussed in \Cref{p:tra} and \Cref{p:wavegram}, these mechanisms are tongue root advancement in voiced stops and the emergence of pre-aspiration in voiceless stops.
-Tongue root advancement would be responsible for a delayed VC boundary in voiced stops, while prevention of pre-aspiration for an earlier VC boundary in voiceless stops.
+The later closure onset of voiced stops gives enough time for the tongue root to advance (as a mechanism for sustaining closure voicing), while the earlier closure onset of voiceless stops masks glottal spread (a correlate of voicelessness) which otherwise would result in pre-aspiration.
 It goes without saying that other mechanisms not investigated here might also play a role, so I do not wish to attribute boundary shifts exclusively to these two mechanisms.
 
 Finally, in (a) stage 3, the temporal distance between the VC boundaries in *pata* and *pada* has increased through time and has now reached a stable state.
@@ -179,11 +179,11 @@ Finally, note that the same contrast-enhancing perceptual biases that operate in
 The discussion in \Cref{s:comp} hinted at an exemplar-theoretic account of the diachronic scenario outlined here.
 Under exemplar-based theories, speech processing operates on parameters the values of which are obtained from statistical distributions.
 At the early stages of the emergence of the voicing effect, the timing of the VC boundary (as produced by gestural phasing) would come from a distribution shared across voiceless and voiced stops.
-Deviation from this distribution are a consequence of the application of VC boundary shifting driven by physiological factors.
+Deviations from this distribution are a consequence of the application of VC boundary shifting driven by physiological factors.
 The boundary shifting can then accumulate through time via a perception-production feedback-loop.
 Statistical sub-distributions in the timing of the VC boundary would thus start emerging for voiceless and voiced stops from the prior unique distribution.
 These sub-distributions can then act as distributions from which timing information is directly obtained during speech processing.
-At this point, while the original physiological biases might still be in place, the presence of independent sub-distributions blurs the statistical relationship among durational measures, and, as argued in \Cref{s:comp}, the true underlying mechanisms are difficult if not impossible to be recovered from synchronic data.
+At this point, while the original physiological biases might still be in place, the presence of independent sub-distributions blurs the statistical relationship among durational measures, and, as argued in \Cref{s:comp}, the true underlying mechanisms are difficult if not impossible to recover from synchronic data.
 
 An exemplar-based view was chosen as an illustrative example of the cognitive mechanisms behind the emergence of the voicing effect, although other frameworks might as readily account for the patterns discussed in this dissertation.
 Future work is warranted to weight the goodness of each individual framework in doing so.

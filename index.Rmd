@@ -6,7 +6,7 @@ documentclass: book
 classoption:
 - oneside
 - a4paper
-bibliography: linguistics
+bibliography: linguistics.bib
 biblio-style: unified
 geometry:
 - top=3cm
@@ -17,8 +17,8 @@ indent: true
 fontsize: 12pt
 mainfont: Tinos
 params:
-  version: "6.4"
-  version-date: "2020/05/15"
+  version: "7.0"
+  version-date: "2020/06/25"
 ---
 
 <!--\begin{textblock}{3}(0.2,0.2)
@@ -66,7 +66,7 @@ Copies of this thesis, either in full or in extracts and whether in hard or elec
 
 The ownership of certain Copyright, patents, designs, trademarks and other intellectual property (the 'Intellectual Property') and any reproductions of copyright works in the thesis, for example graphs and tables ('Reproductions'), which may be described in this thesis, may not be owned by the author and may be owned by third parties. Such Intellectual Property and Reproductions cannot and must not be made available for use without the prior written permission of the owner(s) of the relevant Intellectual Property and/or Reproductions.
 
-Further information on the conditions under which disclosure, publication and commercialisation of this thesis, the Copyright and any Intellectual Property and/or Reproductions described in it may take place is available in the University IP Policy (see \url{http://documents.manchester.ac.uk/DocuInfo.aspx?DocID=24420}), in any relevant Thesis restriction declarations deposited in the University Library, The University Library’s regulations (see \url{http://www.library.manchester.ac.uk/about/regulations/}) and in The University’s policy on Presentation of Theses.
+Further information on the conditions under which disclosure, publication and commercialisation of this thesis, the Copyright and any Intellectual Property and/or Reproductions described in it may take place is available in the University IP Policy (see http<!-- -->://documents.manchester.ac.uk/DocuInfo.aspx?DocID=24420), in any relevant Thesis restriction declarations deposited in the University Library, The University Library’s regulations (see http<!-- -->://www.library.manchester.ac.uk/about/regulations/) and in The University’s policy on Presentation of Theses.
 
 \chapter*{Acknowledgements}
 \label{s:acknowledgements}

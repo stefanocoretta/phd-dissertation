@@ -1,7 +1,7 @@
 ---
 params:
-  version: 2.1
-  version-date: "2020/05/15"
+  version: 2.2
+  version-date: "2020/06/16"
 ---
 
 ```{r setup, include=FALSE}
@@ -84,7 +84,7 @@ However, the temporal distance of the V-to-V interval is modulated by the number
 
 \begin{figure}
   \includegraphics{./img/vv-cent-2.pdf}
-  \caption{Schematics of the gestural phasing of vocalic and consonantal gestures in different contexts. The \textit{x}*-axis is time, while the \textit{y}-axis can be interpreted as oral aperture for vowels and oral constriction for consonants. (a) shows singleton vs geminate stops, (b) voiceless and voiced stops, and (c) singleton vs tautosyllabic cluster. Note that in (a) the distance between the vowels increases in the geminate context, while it is stable in (b) and (c). The dots in (b) on the consonant gesture lines indicate the time of closure onset.}
+  \caption{Schematics of the gestural phasing of vocalic and consonantal gestures in different contexts. The \textit{x}*-axis is time, while the \textit{y}-axis can be interpreted as oral aperture for vowels and oral constriction for consonants. (a) shows singleton vs geminate stops, (b) voiceless and voiced stops, and (c) singleton vs tautosyllabic cluster. Note that in (a) the distance between the vowels increases in the geminate context, while it is stable in (b) and (c). The circles in (b) on the consonant gesture lines indicate the time of closure onset.}
   \label{fig:vv-cent-2}
 \end{figure}
 
