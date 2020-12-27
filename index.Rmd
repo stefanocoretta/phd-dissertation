@@ -8,6 +8,7 @@ classoption:
 - a4paper
 bibliography: linguistics.bib
 biblio-style: unified
+link-citations: true
 geometry:
 - top=3cm
 - bottom=3cm
