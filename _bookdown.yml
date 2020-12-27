@@ -1,3 +1,4 @@
 book_filename: "phd-dissertation"
 new_session: yes
-rmd_files: ["index.Rmd", "01_introduction.Rmd", "02_2018-relrel.Rmd", "99_references.Rmd"]
+# rmd_files: ["index.Rmd", "01_introduction.Rmd", "02_2018-relrel.Rmd", "03_2019-english-rr.Rmd", "99_references.Rmd"]
+rmd_files: ["index.Rmd", "03_2019-english-rr.Rmd", "99_references.Rmd"]
