@@ -21,7 +21,11 @@ params:
   version-date: "2020/12/27"
 ---
 
-
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_knit$set(root.dir = here::here())
+options(knitr.graphics.auto_pdf = TRUE)
+```
 
 # Abstract {-}
 
@@ -103,4 +107,3 @@ asaṃśayaṃ mahābāho mano durnigrahaṃ calam |\
 abhyāsena tu kaunteya vairāgyeṇa ca gṛhyate || 6-35 ||
 
 *O mighty-armed one, it is undoubtedly very difficult to curb the flickering mind, but it can be controlled, O son of Kunti, by constant practice and by detachment.* [BG 6.35]
-
