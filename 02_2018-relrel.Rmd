@@ -4,6 +4,10 @@ params:
   version-date: "2019/05/30"
 ---
 
+# (PART) Original publications {-}
+
+# An exploratory study of voicing-related differences in vowel duration as compensatory temporal adjustment in Italian and Polish [Paper I]
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE)
 library(usdm)
@@ -27,51 +31,43 @@ round_2 <- function(...) {
 }
 ```
 
-\chapter{An exploratory study of voicing-related differences in vowel duration as compensatory temporal adjustment in Italian and Polish [Paper I]}
-\label{p:relrel}
 
-\noindent\fbox{%
-    \parbox{\textwidth}{%
-        This paper has been published in Glossa as:
+This paper has been published in Glossa as:
 
-        Coretta, Stefano. 2019. An exploratory study of voicing-related differences in vowel duration as compensatory temporal adjustment in Italian and Polish. \textit{Glossa}(4)1. 1--25. DOI: \url{https://doi.org/10.5334/gjgl.869}.
+Coretta, Stefano. 2019. An exploratory study of voicing-related differences in vowel duration as compensatory temporal adjustment in Italian and Polish. *Glossa*(4)1. 1--25. DOI: <https://doi.org/10.5334/gjgl.869>.
 
-        When citing, please refer to the published version.
-    }%
-}
+When citing, please refer to the published version.
 
-\begin{abstract}
-  Over a century of phonetic research has established the cross-linguistic existence of the so called `voicing effect', by which vowels tend to be shorter when followed by voiceless stops and longer when the following stop is voiced.
-  However, no agreement is found among scholars regarding the source of this effect, and several causal accounts have been advanced.
-  A notable one is the compensatory temporal adjustment account, according to which the duration of the vowel is inversely correlated with the stop closure duration (voiceless stops having longer closure durations than voiced stops).
-  The compensatory account has been criticised due to lack of empirical support and its vagueness regarding the temporal interval within which compensation is implemented.
-  The results from an exploratory study of Italian and Polish suggest that the duration of the interval between two consecutive stop releases in CVCV words in these languages is not affected by the voicing of the second stop.
-  The durational difference of the first vowel and the stop closure would then follow from differences in timing of the VC boundary within this interval.
-  While other aspects, like production mechanisms related to laryngeal features effects and perceptual biases cannot be ruled out, the data discussed here are compatible with a production account based on compensatory mechanisms.
-\end{abstract}
+## Abstract
+
+Over a century of phonetic research has established the cross-linguistic existence of the so called `voicing effect', by which vowels tend to be shorter when followed by voiceless stops and longer when the following stop is voiced.
+However, no agreement is found among scholars regarding the source of this effect, and several causal accounts have been advanced.
+A notable one is the compensatory temporal adjustment account, according to which the duration of the vowel is inversely correlated with the stop closure duration (voiceless stops having longer closure durations than voiced stops).
+The compensatory account has been criticised due to lack of empirical support and its vagueness regarding the temporal interval within which compensation is implemented.
+The results from an exploratory study of Italian and Polish suggest that the duration of the interval between two consecutive stop releases in CVCV words in these languages is not affected by the voicing of the second stop.
+The durational difference of the first vowel and the stop closure would then follow from differences in timing of the VC boundary within this interval.
+While other aspects, like production mechanisms related to laryngeal features effects and perceptual biases cannot be ruled out, the data discussed here are compatible with a production account based on compensatory mechanisms.
 
 ## Introduction
 \label{s:introR}
 
-<!-- it might be interesting to say that the VE applies even in cases when voicing is not actually present -->
-
-Almost a hundred years of research have consistently shown that consonantal voicing has an effect on preceding vowel duration: vowels followed by voiced obstruents are longer than when followed by voiceless ones (\citealt{meyer1904}; \citealt{heffner1937}; \citealt{house1953}; \citealt{belasco1953}; \citealt{peterson1960}; \citealt{halle1967}; \citealt{chen1970}; \citealt{klatt1973}; \citealt{lisker1974}; \citealt{laeufer1992}; \citealt{fowler1992}; \citealt{hussein1994}; \citealt{lampp2004}; \citealt{warren2005}; \citealt{durvasula2012}).
-This so called "voicing effect" has been found in a considerable variety of languages.\footnote{One of the first attestations of the term `voicing effect' can be attributed to \citet{mitleb1982}. Another term used to refer to the same phenomenon is `pre-fortis clipping', probably introduced by \citet{wells1990}.}
-These include (but are not limited to) English, German, French, Spanish, Hindi, Russian, Italian, Arabic, and Korean (see \citealt{maddieson1976} for a more comprehensive, but still not exhaustive list).\footnote{A typological note. Most languages reported having a voicing effect come from the Indo-European family. Others are from a pool of widely studied languages. It is thus of vital importance that future studies look at other language families and underdocumented/underdescribed languages.}
+Almost a hundred years of research have consistently shown that consonantal voicing has an effect on preceding vowel duration: vowels followed by voiced obstruents are longer than when followed by voiceless ones [@meyer1904; @heffner1937; @house1953; @belasco1953; @peterson1960; @halle1967; @chen1970; @klatt1973; @lisker1974; @laeufer1992; @fowler1992; @hussein1994; @lampp2004; @warren2005; @durvasula2012].
+This so called "voicing effect" has been found in a considerable variety of languages.^[One of the first attestations of the term 'voicing effect' can be attributed to @mitleb1982]. Another term used to refer to the same phenomenon is 'pre-fortis clipping', probably introduced by @wells1990}.]
+These include (but are not limited to) English, German, French, Spanish, Hindi, Russian, Italian, Arabic, and Korean [see @maddieson1976] for a more comprehensive, but still not exhaustive list).^[A typological note. Most languages reported having a voicing effect come from the Indo-European family. Others are from a pool of widely studied languages. It is thus of vital importance that future studies look at other language families and underdocumented/underdescribed languages.]
 Despite of the plethora of evidence in support of the *existence* of the voicing effect, agreement hasn't been reached regarding its *source*.
 
-Several proposals have been put forward in relation to the possible source of the voicing effect (see \citealt{soskuthy2013} and \citealt{begus2017} for an overview).
+Several proposals have been put forward in relation to the possible source of the voicing effect [see @soskuthy2013; and @begus2017 for an overview].
 Some of the proposed mechanisms for the emergence of the voicing effect refer to properties of speech production.
 A notable production account, which will be the focus of this study, is based on compensatory temporal adjustments [@lindblom1967; @slis1969a; @slis1969b; @lehiste1970a; @lehiste1970b].
 According to this account, the voicing effect follows from the reorganisation of gestures within a unit of speech the duration of which is not affected by stop voicing.
 The duration of such a unit is held constant across voicing contexts, while the duration of voiceless and voiced obstruents differs.
 The closure of voiceless stops is longer than that of voiced stops [@lisker1957; @van-summers1987; @davis1989; @de-jong1991].
 As a consequence, vowels followed by voiceless stops (which have a long closure) are shorter than vowels followed by voiced stops (which have a short closure).
-Advocates of a compensatory mechanism propose two prosodic units as the scope of the temporal adjustment: the syllable (and, equivalently, the VC sequence or vowel-to-vowel interval, \citealt{lindblom1967, farnetani1986}), and the word [@slis1969a; @slis1969b; @lehiste1970a; @lehiste1970b].
+Advocates of a compensatory mechanism propose two prosodic units as the scope of the temporal adjustment: the syllable [and, equivalently, the VC sequence or vowel-to-vowel interval, @lindblom1967; @farnetani1986], and the word [@slis1969a; @slis1969b; @lehiste1970a; @lehiste1970b].
 However, the compensatory temporal adjustment account has been criticised in subsequent work.
 
 Empirical evidence and logic challenge the proposal that the syllable or the word have a constant duration and hence drive compensation.
-First, Lindblom's \citeyear{lindblom1967} argument that the duration of the syllable is constant is not supported by the findings in @chen1970 and @jacewicz2009.
+First, Lindblom's [-@lindblom1967] argument that the duration of the syllable is constant is not supported by the findings in @chen1970 and @jacewicz2009.
 @chen1970 rejects a syllable-based compensatory mechanism in the light of the fact that the duration of the syllable is affected by consonant voicing.
 @jacewicz2009 further show that the duration of monosyllabic words in American English changes depending on the voicing of the coda consonant.
 Second, although the results in @slis1969a suggest that the duration of disyllabic words in Dutch is constant whether the second stop is voiceless or voiced, it does not follow from this fact that compensation should necessarily target the vowel preceding the stop.
@@ -86,11 +82,11 @@ The consonant /t/, which has the shortest duration, is preceded by the shortest 
 However, a re-evaluation of the way consonant duration is measured in @maddieson1976 might actually turn their findings in favour of a compensatory account.
 Due to difficulties in detecting the release of the consonant of interest, consonant duration in @maddieson1976 is measured from the closure of the relevant consonant to the release of the following, (e.g., in *ab sāth kaho*, the duration of /tʰ/ in *sāth* is calculated as the interval between the closure of /tʰ/ and the release of /k/).
 This measure includes the burst and aspiration (if present) of the consonant following the target vowel.
-@slis1969a, however, state that the inverse relation between vowel duration and the following consonant applies to \textit{closure} duration, and not to the entire \textit{consonant} duration.\footnote{In this paper, I use the term \textit{relation} to mean a categorical pattern of entailment (like in `a long vowel entails a short closure'), while the term \textit{correlation} is reserved to a statistical correlation of two continuous variables.}
+@slis1969a, however, state that the inverse relation between vowel duration and the following consonant applies to *closure* duration, and not to the entire *consonant* duration.^[In this paper, I use the term *relation* to mean a categorical pattern of entailment (like in 'a long vowel entails a short closure'), while the term *correlation* is reserved to a statistical correlation of two continuous variables.]
 If an inverse relation exists between vowel and closure duration, the inclusion of burst and/or aspiration clearly alters this relationship.
 
 Indeed, the study on Hindi voicing and aspiration effects conducted by @durvasula2012 indicates that closure duration, measured from closure onset to closure offset, decreases according to the hierarchy voiceless unaspirated > voiced unaspirated > voiceless aspirated > voiced aspirated, which closely resembles the order of increasing vowel duration in @maddieson1976.
-Nonetheless, \citet{durvasula2012} do not find a negative correlation between vowel duration and consonant closure duration, but rather a (small) *positive effect*.
+Nonetheless, @durvasula2012 do not find a negative correlation between vowel duration and consonant closure duration, but rather a (small) *positive effect*.
 Vowel duration increases with closure duration when voicing and aspiration are taken into account.
 However, as noted in @begus2017, it is likely that this result is a consequence of not controlling for speech rate.
 A small negative effect of closure duration can turn positive if the effect of speech rate (which is positive) is greater, given the cumulative nature of these effects.
@@ -103,17 +99,16 @@ Further evidence for a compensatory account and a negative correlation between v
 @begus2017 finds that in Georgian (which contrasts aspirated, voiced, and ejective consonants) vowels are short when followed by voiceless aspirated stops, longer before ejective stops, and longest when followed by voiced stops.
 Crucially, stop closure duration follows the reversed pattern: closure is short in voiced stops, longer in ejectives, and longest in voiceless aspirated stops.
 Moreover, vowel duration is inversely correlated with closure across the three phonation types.
-\citet{begus2017} mentions the possibility that the negative correlation is an artefact of the vowel and closure intervals sharing a boundary.
+@begus2017 mentions the possibility that the negative correlation is an artefact of the vowel and closure intervals sharing a boundary.
 This annotation bias could generate negative correlations (by which the vowel would shorten and the closure would lengthen by the same amount when, for example, the boundary is placed to the left of the "actual" boundary).
 However, Beguš shows with a cross-annotator analysis that this was not the case.
 <!-- Such statistical argument, however, follows only when boundary misplacement is indeed random, and it is not biased towards one side or the other. -->
 <!-- ask Begus about coefficient -->
-@begus2017 argues that these findings support temporal compensation (although not univocally, see \citealt[Section V]{begus2017}, and \Cref{s:comp} of this paper).
+@begus2017 argues that these findings support temporal compensation [although not univocally, see @begus2017, Section V; and \Cref{s:comp} of this paper].
 
 To summarise, a mechanism of compensatory temporal adjustment has been proposed as the pathway to the emergence of the voicing effect.
 According to such an account, the difference in vowel duration before consonants varying in voicing (and possibly other phonation types) is the outcome of a compensation between vowel and closure duration.
-After reviewing the critiques advanced by @chen1970 and @maddieson1976, and in face of the results in @slis1969a, @de-jong1991 and @begus2017,
-a temporal compensation mechanism gains credibility.
+After reviewing the critiques advanced by @chen1970 and @maddieson1976, and in face of the results in @slis1969a, @de-jong1991 and @begus2017, a temporal compensation mechanism gains credibility.
 However, issues about the actual implementation of the compensation mechanism still remain.
 While compensatory temporal adjustments are plausible in light of the reviewed literature, we are still left with the necessity of identifying a speech interval the duration of which is not affected by the voicing of the post-vocalic consonant, and within which compensation can be logically implemented.
 <!-- add here what the good candidate is in this study? -->
@@ -122,39 +117,39 @@ While compensatory temporal adjustments are plausible in light of the reviewed l
 ### The present study
 
 This paper reports on selected results from a broader exploratory study that investigates the relationship between vowel duration and consonant voicing from both an acoustic and articulatory perspective.
-Synchronised recordings of audio, ultrasound tongue imaging, and electroglottography were carried out to enable a data-driven approach to the analysis of features related to the voicing effect in the context of disyllabic (CV́CV) words in Italian and Polish.\footnote{As per \citet{cysouw2013}, the glossonyms \textit{Italian} and \textit{Polish} as used here to refer, respectively, to the languoids Italian [\textsc{Glottocode}: \texttt{ital1282}] and Polish [\textsc{Glottocode}: \texttt{poli1260}].}
+Synchronised recordings of audio, ultrasound tongue imaging, and electroglottography were carried out to enable a data-driven approach to the analysis of features related to the voicing effect in the context of disyllabic (CV́CV) words in Italian and Polish.^[As per @cysouw2013, the glossonyms *Italian* and *Polish* as used here to refer, respectively, to the languoids Italian [\textsc{Glottocode}: `ital1282`] and Polish [\textsc{Glottocode}: `poli1260`].]
 This study was not designed to test the compensatory account, but rather to collect synchronised articulatory and acoustic data on the voicing effect.
 Moreover, the design of the study has been constrained by the use of ultrasound articulatory techniques (see \Cref{s:method}).
 Since the tongue imaging and electroglottographic data don't bear on the main argument put forward here, only the results from acoustics will be discussed.
 
 Italian and Polish reportedly differ in the magnitude (or presence) of the effect of stop voicing on vowel duration.
-On the other hand, the typical realisation of phonological voiced stops in these languages are similar (but see \citealt{huszthy2016} and \citealt{schwartz2018} for a phonological and phonetic discussion on laryngeal aspects of Italian and Polish respectively).\footnote{Polish neutralises the voicing contrast word-finally, although the contrast is maintained word-medially \citep{gussmann2007}.}
-\citet{cyran2011} argues for a distinction between voicing and aspirating varieties of Polish, based on phonological arguments.
-\citet{waniek2011}, on the other hand, cautiously argues that a possible change in progress in Polish is affecting the VOT values of voiceless stops in pre-stressed position.
+On the other hand, the typical realisation of phonological voiced stops in these languages are similar (but see @huszthy2016 and @schwartz2018 for a phonological and phonetic discussion on laryngeal aspects of Italian and Polish respectively).^[Polish neutralises the voicing contrast word-finally, although the contrast is maintained word-medially [@gussmann2007].]
+@cyran2011 argues for a distinction between voicing and aspirating varieties of Polish, based on phonological arguments.
+@waniek2011, on the other hand, cautiously argues that a possible change in progress in Polish is affecting the VOT values of voiceless stops in pre-stressed position.
 
 The non-clear status of Polish laryngeal phonology/phonetics could be seen as a hindrance affecting the comparison with Italian.
-However, based on data from Italian, \citeauthor{kirby2016a} propose that the distinction between voicing and aspirating languages itself \citep{beckman2013} cannot be straightforwardly mapped onto phonetics, and they remind us that "the production of laryngeal contrasts of all kinds are considerably more complex" than generally described in the phonological literature \citep[2409]{kirby2016a}.
+However, based on data from Italian, @kirby2016a propose that the distinction between voicing and aspirating languages itself [@beckman2013} cannot be straightforwardly mapped onto phonetics, and they remind us that "the production of laryngeal contrasts of all kinds are considerably more complex" than generally described in the phonological literature [@kirby2016a, pp. 2409].
 Since this study focusses on the effect of post-stressed stops on preceding vowel durations, we believe that the comparison between Italian and Polish is still feasible, even in the case Polish voiceless pre-stressed stops are articulated with longer VOT values.
 Given that Italian and Polish share some features of the segmental and prosodic make-up of their phonological systems, the design of the experimental material and comparison of the results were facilitated.
 For these reasons, these languages offer an opportunity to investigate differences that could reveal mechanisms underlying the voicing effect, at least on a general level.
 
 Italian has been unanimously reported as a voicing-effect language [@caldognetto1979; @farnetani1986; @esposito2002].
-The mean difference in vowel duration when followed by voiceless vs voiced consonants ranges between 22 and 24 ms in these studies, with longer vowels followed by voiced consonants. The mean differences are based on 3 speakers in \citealt{farnetani1986} and 7 speakers in \citealt{esposito2002}. \citet{caldognetto1979} don't report estimates of vowel duration, just the direction of the effect, but the study is based on 10 speakers.
+The mean difference in vowel duration when followed by voiceless vs voiced consonants ranges between 22 and 24 ms in these studies, with longer vowels followed by voiced consonants. The mean differences are based on 3 speakers in @farnetani1986 and 7 speakers in @esposito2002. @caldognetto1979 don't report estimates of vowel duration, just the direction of the effect, but the study is based on 10 speakers.
 
 The results regarding the presence and magnitude of the effect in Polish are instead mixed.
-\citet{slowiaczek1985} find that vowels followed by word-final underlyingly voiced stops are 10--15 ms longer in 5 Polish speakers, although \citet{jassem1989} did not replicate their results.
+@slowiaczek1985 find that vowels followed by word-final underlyingly voiced stops are 10--15 ms longer in 5 Polish speakers, although @jassem1989 did not replicate their results.
 Similarly, @keating1984 reports a difference of 2 ms in the duration of stressed vowels in disyllabic words from 24 speakers, which the author argues to be non-significant.
 On the other hand, @nowak2006 finds that vowels followed by voiced stops are 4.5 ms longer in the 4 speakers recorded.
 @malisz2008 argue based on data from 40 speakers that the magnitude of the voicing effect in Polish is highly idiosyncratic, and claim that their results are inconclusive on this matter.
 While they do not report estimates from the 40 speakers, a table with mean vowel durations from 4 suggests a mean difference before voiceless vs voiced stops of 3.5 ms.
-Finally, \citet{strycharczuk2012a} reports a non-significant effect in 6 speakers in pre-sonorant word-final position.
+Finally, @strycharczuk2012a reports a non-significant effect in 6 speakers in pre-sonorant word-final position.
 
 The variety of results concerning the voicing effect in Polish could be related to differences in methodology.
 However, no clear pattern between studies which find a voicing effect and those which don't can be identified.
 For example, the studies reviewed here looked at either word-final or word-medial stops, controlled or read speech, speakers with a low or advanced proficiency in English.
 However, in all the individual cases both a positive and a negative result are reported depending on the study.
 What might be more relevant, though, is that the estimates of the difference in vowel duration are generally very low, between 3.5 and 15 ms.
-Given the small magnitude of the difference, it is likely that the failure to obtain significant *p*-values in some studies are due to low statistical power, rather than because of absence of the effect (as also hinted in \citealt{begus2017}, see arguments in \citealt{roettger2019} and \citealt{nicenboim2018a}).
+Given the small magnitude of the difference, it is likely that the failure to obtain significant *p*-values in some studies are due to low statistical power, rather than because of absence of the effect [as also hinted at in @begus2017; see arguments in @roettger2019; and @nicenboim2018a].
 
 The acoustic data from the study discussed here suggests that (1) a voicing effect can be detected both in Italian and Polish, and that (2) the duration of the interval between two consecutive stop releases (the release-to-release interval) is not affected by the voicing of the second consonant in both languages.
 This finding is compatible with a compensatory temporal adjustment account by which the timing of the closure onset of the stop following the vowel within said interval determines the respective durations of vowel and closure.
@@ -165,11 +160,6 @@ This finding is compatible with a compensatory temporal adjustment account by wh
 
 ### Participants
 
-<!-- A target of 10 speakers per language was set for this study. -->
-<!-- A low target number of participants was required to keep the time needed for processing the ultrasound data at manageable levels, since it generally requires more time than in more standard acoustic analysis.
-The stopping rule for recruitment was to reach 10 speakers in both languages or to end data collection within 15 months from the start.
-This rule was chosen to comply with resources and time limits. -->
-<!-- Recruitment proved to be difficult, and among potential participants, several decided not to participate after considering the experimental task too demanding. -->
 Participants were sought in Manchester (UK), and in Verbania (Italy).
 Seventeen subjects in total participated in this study.
 Eleven subjects are native speakers of Italian (5 female, 6 male), while six are native speakers of Polish (3 female, 3 male).
@@ -181,7 +171,7 @@ The participants signed a written consent and received a monetary compensation o
 
 ### Equipment
 
-The acquisition of the audio signal was achieved with the software Articulate Assistant Advanced™ (AAA, v2.17.2, \citealt{articulate2011}) running on a Hewlett-Packard ProBook 6750b laptop with Microsoft Windows 7.
+The acquisition of the audio signal was achieved with the software Articulate Assistant Advanced™ [AAA, v2.17.2, @articulate2011] running on a Hewlett-Packard ProBook 6750b laptop with Microsoft Windows 7.
 Audio recordings were sampled at 22050 Hz (16-bit) and saved in a proprietary format (`.aa0`).
 A FocusRight Scarlett Solo pre-amplifier and a Movo LV4-O2 Lavalier microphone were used for audio recording.
 The microphone was placed at the level of the participant's mouth on one side, at a distance of about 10 cm.
@@ -192,30 +182,25 @@ The microphone was clipped onto a metal headset worn by the participant, which w
 
 <!-- maybe note on /u/ in italian is phonotactically not good -->
 
-The target stimuli were disyllabic words with C\textsubscript{1}V\textsubscript{1}C\textsubscript{2}V\textsubscript{2} structure, where C\textsubscript{1} = /p/, V\textsubscript{1} = /a, o, u/, C\textsubscript{2} = /t, d, k, g/, and V\textsubscript{2} = V\textsubscript{1} (e.g. /pata/, /pada/, /poto/, etc.).\footnote{Italian has both a mid-low [ɔ] and a mid-high [o] back vowel in its vowel inventory. These vowels are traditionally described as two distinct phonemes \citep{kramer2009}, although both their phonemic status and their phonetic substance are subject to a high degree of geographical and idiosyncratic variability \citep{renwick2016}. As a rule of thumb, stressed open syllables in Italian (like the ones used in this study) have [ɔː] (vowels in penultimate stressed open syllables are long) rather than [oː] \citep{renwick2016}. On the other hand, Polish has only a mid-low back vowel phoneme /ɔ/ \citep{gussmann2007}. For the sake of typographical simplicity, the symbol /o/ will be used here for both languages.}
+The target stimuli were disyllabic words with C\textsubscript{1}V\textsubscript{1}C\textsubscript{2}V\textsubscript{2} structure, where C\textsubscript{1} = /p/, V\textsubscript{1} = /a, o, u/, C\textsubscript{2} = /t, d, k, g/, and V\textsubscript{2} = V\textsubscript{1} (e.g. /pata/, /pada/, /poto/, etc.).\footnote{Italian has both a mid-low [ɔ] and a mid-high [o] back vowel in its vowel inventory. These vowels are traditionally described as two distinct phonemes [@kramer2009], although both their phonemic status and their phonetic substance are subject to a high degree of geographical and idiosyncratic variability [@renwick2016]. As a rule of thumb, stressed open syllables in Italian (like the ones used in this study) have [ɔː] (vowels in penultimate stressed open syllables are long) rather than [oː] [@renwick2016]. On the other hand, Polish has only a mid-low back vowel phoneme /ɔ/ [@gussmann2007]. For the sake of typographical simplicity, the symbol /o/ will be used here for both languages.}
 Most are nonce words, although inevitably some combinations produce real words both in Italian (4 words) and Polish (2 words, see \Cref{t:targetsR}).
 The lexical stress of the target words was placed by speakers of both Italian and Polish on V\textsubscript{1}, as intended.
 
-\ctable[caption = Target words. Asterisks indicate real words.,
-label = t:targetsR,
-pos=h,
-star,
-doinside = \footnotesize
-]{lllllll}{}{
-\FL
-Italian   &        &      & \hspace{0.5cm} & Polish &      &      \NN
-\cmidrule{1-3}\cmidrule{5-7}
-pata      & poto*  & putu & & pata   & poto & putu \NN
-pada      & podo   & pudu & & pada*  & podo & pudu \NN
-paca*     & poco*  & pucu & & paka*  & poko & puku \NN
-paga*     & pogo   & pugu & & paga   & pogo & pugu \LL
-}
+Table: (\#tab:targetsR) Target words. Asterisks indicate real words.
+
+| Italian |       |      |   | Polish |      |      |
+|---------|-------|------|---|--------|------|------|
+| pata    | poto* | putu |   | pata   | poto | putu |
+| pada    | podo  | pudu |   | pada*  | podo | pudu |
+| paca*   | poco* | pucu |   | paka*  | poko | puku |
+| paga*   | pogo  | pugu |   | paga   | pogo | pugu |
+
 
 The make-up of the target words was constrained by the design of the experiment, which included ultrasound tongue imaging (UTI).
 Front vowels are difficult to be imaged with UTI, since their articulation involves tongue surface positions which are particularly far from the ultrasonic probe, hence reducing the visibility of the tongue contour.
 For this reason, only central and back vowels were included.
 Since one of the variables of interest in the study was the closing gesture of C\textsubscript{2}, only lingual consonants were used.
-A labial stop was chosen as the first consonant to reduce possible coarticulation with the following vowel (although see \citealt{vazquez-alvarez2007}).
+A labial stop was chosen as the first consonant to reduce possible coarticulation with the following vowel [although see @vazquez-alvarez2007].
 The number of target words was kept low to reduce the time required for completing the task, since the ultrasonic equipment can get very uncomfortable for the speaker when worn for more than 15/20 minutes.
 
 The target words were embedded in a frame sentence.
@@ -244,33 +229,30 @@ Data collection started in December 2016 and ended in March 2018.
 
 ### Data processing and measurements
 
-\ctable[caption = Criteria for the identification of acoustics landmarks.,
-label = t:dur-measures,
-width=\textwidth,
-star
-]{ll>{\raggedright}p{7cm}}{}{
-\FL
-\textbf{landmark}               &                  & \textbf{criteria}                                                                                    \ML
-vowel onset           & (V1 onset)         & Appearance of higher formants in the spectrogram following the release of /p/ (C1)            \NN
-vowel offset          & (V1 offset)        & Disappearance of the higher formants in the spectrogram preceding the target consonant (C2) \NN
-consonant onset       & (C2 onset)         & Corresponds to V1 offset                                                                    \NN
-closure onset         & (C2 closure onset) & Corresponds to V1 offset                                                                    \NN
-consonant offset      & (C2 offset)        & Appearance of higher formants of the vowel following C2 (V2); corresponds to V2 onset                                \NN
-consonant release & (C1/C2 release)         & Automatic detection + manual correction \citep{ananthapadmanabha2014}                                           \LL
-}
+Table: (\#tab:dur-measures) Criteria for the identification of acoustics landmarks.
+
+| landmark   |                    | criteria |
+|------------|--------------------|-----------------------------------------------------------|
+| vowel onset       | (V1 onset) | Appearance of higher formants in the spectrogram following the release of /p/ (C1)          |
+| vowel offset      | (V1 offset) | Disappearance of the higher formants in the spectrogram preceding the target consonant (C2) |
+| consonant onset   | (C2 onset) | Corresponds to V1 offset |
+| closure onset     | (C2 closure onset) | Corresponds to V1 offset |
+| consonant offset  | (C2 offset) | Appearance of higher formants of the vowel following C2 (V2); corresponds to V2 onset |
+| consonant release | (C1/C2 release) | Automatic detection + manual correction [@ananthapadmanabha2014] |
+
 
 The audio recordings were exported from AAA in the `.wav` format for further processing.
 The sample and bit rate were kept as upon recording (22050 Hz, 16-bit).
-A forced aligned transcription was accomplished through the SPeech Phonetisation Alignment and Syllabification software (SPPAS, \citealt{bigi2015}).
+A forced aligned transcription was accomplished through the SPeech Phonetisation Alignment and Syllabification software [SPPAS, @bigi2015].
 The outcome of the automatic annotation was manually corrected for the relevant boundaries, according to the criteria in \Cref{t:dur-measures} based on @machac2009.
 Segmentation boundaries not used in the analyses have not been checked to speed up processing.
 The releases of C1 and C2 were detected automatically by means of a Praat scripting implementation of the algorithm described in @ananthapadmanabha2014, and subsequently corrected if necessary.
 The identification of the stop release was not possible in 99 tokens (8%) of C1 and 265 tokens (22\%) of C2 out of 1212.
 This was due either to the absence of a clear burst in the waveform and spectrogram, or the realisation of voiced stops as voiced fricatives.
-Most of the fricativised tokens come from three speakers of Central Italian, IT12, IT13, and IT14, a variety of Italian known to show processes of lenition \citep{hualde2011}.
+Most of the fricativised tokens come from three speakers of Central Italian, IT12, IT13, and IT14, a variety of Italian known to show processes of lenition [@hualde2011].
 
 Moreover IT12 and IT14 produced several tokens of voiceless stops with voicing during closure (in some cases the closure was completely voiced).
-These tokens have been used in the analyses (as voiceless tokens), because (1) the actual presence or absence of voicing during closure does not bear on the compensatory account discussed here (which concerns supraglottal gestures) and laryngeal gestures can be implemented almost entirely independently from oral gestures, and (2) the voicing effect has been shown to exist even in whispered speech, where vocal fold vibration is entirely absent [@sharf1964].\footnote{A reviewer makes interesting phonological remarks. The presence of lenition and voicing of voiceless stops in some varieties of Italian and its absence in Polish could be related to differences in laryngeal phonology and prosodic structure between these languages, namely the absence of a feature [voice] in Italian and the absence of true trochees in Polish. This hypothesis is compatible with work by \citet{schwartz2018} and \citet{schwartz2016}, to which the reader is referred.}
+These tokens have been used in the analyses (as voiceless tokens), because (1) the actual presence or absence of voicing during closure does not bear on the compensatory account discussed here (which concerns supraglottal gestures) and laryngeal gestures can be implemented almost entirely independently from oral gestures, and (2) the voicing effect has been shown to exist even in whispered speech, where vocal fold vibration is entirely absent [@sharf1964].^[A reviewer makes interesting phonological remarks. The presence of lenition and voicing of voiceless stops in some varieties of Italian and its absence in Polish could be related to differences in laryngeal phonology and prosodic structure between these languages, namely the absence of a feature [voice] in Italian and the absence of true trochees in Polish. This hypothesis is compatible with work by @schwartz2018 and @schwartz2016, to which the reader is referred.]
 
 The durations in milliseconds of the following intervals were extracted with a series of custom Praat scripts from the annotated acoustic landmarks: word duration, vowel duration (V1 onset to V1 offset), consonant closure duration (V1 offset to C2 release), and release-to-release duration (C1 release to C2 release).
 Sentence duration was measured in seconds.
@@ -278,20 +260,16 @@ Sentence duration was measured in seconds.
 Syllable rate (syllables per second) was used as a proxy to speech rate [@plug2018a], and was calculated as the number of syllables divided by the duration of the sentence in seconds (8 syllables in Italian, 6 in Polish).
 All further data processing and visualisation was done in R v3.5.2 [@r-core-team2018; @wickham2017].
 
-\begin{figure}
-  \centering
-  \subfigure[/pata/]{\includegraphics[height=3.5in]{img/Figure1a.pdf}}
-  \subfigure[/pada/]{\includegraphics[height=3.5in]{img/Figure1b.pdf}}
-  \caption{Segmentation example of the words \textit{pata} and \textit{pada} uttered by the Italian speaker IT09 (the times on the \textit{x}-axis refer to the times in the concatenated audio file).}
-  \label{fig:segmentation}
-\end{figure}
+```{r segmentation, fig.cap="Segmentation example of the words *pata* and *pada* uttered by the Italian speaker IT09 (the times on the *x*-axis refer to the times in the concatenated audio file)."}
+knitr::include_graphics(c("./img/Figure1a.png", "./img/Figure1b.png"))
+```
 
 ### Statistical analysis
 
 <!-- add power analysis? -->
 <!-- NEED TO CITE KIRBY -->
 
-Given the data-driven nature of the study, all statistical analyses reported here are to be considered exploratory (hypothesis-generating) rather than confirmatory (hypothesis-driven, \citealt{kerr1998, gelman2013, roettger2019}).
+Given the data-driven nature of the study, all statistical analyses reported here are to be considered exploratory (hypothesis-generating) rather than confirmatory [hypothesis-driven, @kerr1998; @gelman2013; @roettger2019].
 The durational measurements were analysed with linear mixed-effects models using lme4 v1.1-19 in R [@bates2015], and model estimates were extracted with the effects package v4.1-0 [@fox2003].
 All factors were coded with treatment contrasts and the following reference levels: voiceless (vs voiced), /a/ (vs /o/, /u/), coronal (vs velar), Italian (vs Polish).
 Speech rate has been centred when included in the models to make the intercept estimates more interpretable.
@@ -299,32 +277,29 @@ The models were fitted by Restricted Maximum Likelihood estimation (REML).
 The estimates in the results section refer to these reference levels unless interactions are discussed.
 *P*-values for the individual terms were obtained with lmerTest v3.0-1, which uses the Satterthwaite's approximation to degrees of freedom [@kuznetsova2017; @luke2017].
 A result is considered significant if the *p*-value is below the alpha level ($\alpha = 0.05$).
-The choice of not using likelihood ratio tests for statistical inference is based on \citet{luke2017} who argues that this approach can lead to inflated Type I error rates.
-In any case, \citet[1501]{luke2017} also warns that `results [from mixed-effects models] should be interpreted with caution, regardless of the method adopted for obtaining \textit{p}-values'.
+The choice of not using likelihood ratio tests for statistical inference is based on @luke2017 who argues that this approach can lead to inflated Type I error rates.
+In any case, @luke2017, pp. 1501 also warns that 'results [from mixed-effects models] should be interpreted with caution, regardless of the method adopted for obtaining *p*-values'.
 Inspection of residual plots and QQ plots of the models described below indicated absence of patterns in the residuals.
 
 Bayes factors were used to test whether word and release-to-release duration are not affected by C2 voicing (i.e., the effect of C2 voicing on duration is `0`).\footnote{The choice of Bayes factors over other information criteria, like AIC, is a practical one. First, Bayes factors can be used to identify the relative strength of the evidence for each hypothesis. The higher the Bayes factor of H\textsubscript{01}, the stronger the evidence for H\textsubscript{0} according to the data. Second, a Bayes factor near 1 indicates that the data is compatible with both hypotheses (even when AIC indicates a preference of one over the other), in which case it is not possible to chose among them. Note that the AICs of the word duration and release-to-release duration models reported below are lower when C2 voicing is not included as a predictor than when it is included, although the difference in AIC between the null and full models is very small (below 2).}
-For each set of null/alternative hypotheses, a full model (with the predictor of interest) and a null model (excluding it) were fitted separately using the Maximum Likelihood estimation (ML, \citealt[34]{bates2015}).
+For each set of null/alternative hypotheses, a full model (with the predictor of interest) and a null model (excluding it) were fitted separately using the Maximum Likelihood estimation [ML, @bates2015, pp. 34].
 The Bayes Information Criterion (BIC) approximation was then used to obtain Bayes factors [@raftery1995; @raftery1999; @wagenmakers2007; @jarosz2014].
-The approximation is calculated according to the equation in \ref{eq:bayes} \citep[796]{wagenmakers2007}.
+The approximation is calculated according to the equation in \ref{eq:bayes} [@wagenmakers2007, pp. 796].
 
-\begin{equation}
-\label{eq:bayes}
-BF_{01} \approx exp(\Delta{}BIC_{10}/2)
-\end{equation}
+$$BF_{01} \approx exp(\Delta{}BIC_{10}/2)$$
 
 where $\Delta{}BIC_{10} = BIC_1 - BIC_0$, $BIC_1$ is the BIC of the full model, and $BIC_0$ is the BIC of the null model.
 Values of $BF_{01} > 1$ indicate a preference of H\textsubscript{0} over H\textsubscript{1}.
 The interpretation of the Bayes factors follows the recommendations in @raftery1995 [p. 139]: 1--3 = weak evidence, 3--20 = positive evidence, 20--150 = strong evidence, > 150 = very strong evidence.
 
 The extracted measurements were filtered before statistical analysis.
-Measures of vowel duration, closure duration, word duration, and release-to-release duration that are 3 standard deviations lower or higher than the respective means were excluded from the final dataset (this procedure generally corresponds to a loss of around 2.5\% of the data).
+Measures of vowel duration, closure duration, word duration, and release-to-release duration that are 3 standard deviations lower or higher than the respective means were excluded from the final dataset (this procedure generally corresponds to a loss of around 2.5% of the data).
 One sentence (sentence 48 of IT07, *Dico pada lentamente*) included a speech error and has been excluded.
 After excluding missing measurements, these operations yield a total of 920 tokens of vowel and closure durations, 1176 tokens of word duration, and 848 tokens of release-to-release duration.
 
 ### Open Science statement
 
-Following recommendations for Open Science in @cruwell2018 and @berez-kroeker2018, the data and code used to produce the analyses discussed in this paper are available on the Open Science Framework at \url{https://osf.io/quy7k/}.
+Following recommendations for Open Science in @cruwell2018 and @berez-kroeker2018, the data and code used to produce the analyses discussed in this paper are available on the Open Science Framework at <https://osf.io/quy7k/>.
 
 ## Results
 
@@ -600,12 +575,12 @@ The section concludes by discussing the limitations and open issues of this stud
 The results of vowel duration and C2 voicing indicate that vowels are longer when followed by voiced than when followed by voiceless stops both in Italian and Polish.
 The estimated effect is around 16 ms when C2 is voiced for Italian.
 This value is not too far from the estimates of previous works on this language [@caldognetto1979; @farnetani1986; @esposito2002], the range of which is between 22 and 24 ms.
-The higher estimates of these studies compared to the one here could be related to differences in experimental design, or Type M (magnitude) errors due to low statistical power (see \citealt{kirby2018}).
+The higher estimates of these studies compared to the one here could be related to differences in experimental design, or Type M (magnitude) errors due to low statistical power [see @kirby2018].
 The estimate of the effect of voicing on C2 closure duration is around -18 ms.
 Crucially, the effect of voicing on vowel and closure duration have very similar magnitudes and opposite signs.
 These results suggest a compensatory mechanism between vowel and closure duration.
 
-Furthermore, the effect of voicing on the duration of Italian /u/ is smaller than with /a/ and /o/ (about 3 vs 16 ms respectively), a fact already observed by \citealt{ferrero1978}.
+Furthermore, the effect of voicing on the duration of Italian /u/ is smaller than with /a/ and /o/ (about 3 vs 16 ms respectively), a fact already observed by @ferrero1978.
 While it is not clear why the duration of this particular vowel should not be affected by C2 voicing, the data reported here indicate that the magnitude of the difference in closure duration when the preceding vowel is /u/ is smaller than with /a/ and /o/ (about 7 vs 17 ms respectively).
 If vowel duration compensates for closure duration, then a smaller difference in closure duration should correspond to a small difference in vowel duration, as the estimates seem to suggest.
 
@@ -640,7 +615,7 @@ On the other hand, while the estimated differences in vowel durations can be int
 \Cref{fig:FigureR-6} shows the random coefficients of the effect of C2 voicing on vowel duration for the individual speakers, extracted from the mixed-effects model presented in \Cref{s:vduration}.
 Black indicates Italian speakers, while grey is for Polish speakers.
 As can be seen, speakers of both languages are scattered along the values of the voicing effect.
-These results are in agreement with the idiosyncrasy of the voicing effect of Polish found in \citet{malisz2008}.
+These results are in agreement with the idiosyncrasy of the voicing effect of Polish found in @malisz2008.
 While large-scale studies could reveal clear language-level patterns, the data discussed here point to a scenario in which the speaker's individual behaviour is substantial.
 Future studies could thus look into the respective role of individual-level and community-level factors and how these contribute to the magnitude of the durational differences across speakers and languages.
 
@@ -660,12 +635,9 @@ On the other hand, a later VC boundary produces a longer vowel and a shorter clo
 Note that the term "temporal stability" (and "temporally stable") as used here means that the underlying statistical distribution of the interval duration is stable *across contexts of C2 voicing*.
 No specific statement is implied about the variance of the duration around the mean, across or within phonological contexts.
 
-\begin{figure}
-  \centering
-  \includegraphics{img/Figure6.pdf}
-  \caption{A schematic representation of the oral cavity cross-sectional area, as inferred from acoustics. Design based on \citet{esposito2002}. The top panel shows a CV́C sequence with a voiceless C2, the bottom panel with a voiced C2. Oral cavity aperture (on the \textit{y}-axis, as the inverse of oral constriction) through time (on the \textit{x}-axis) is represented by the black line. Lower values represent a more constricted oral tract (a contoid configuration), while higher values indicate a more open oral tract (a vocoid configuration). The black bars below the time axis represent voicing (vocal fold vibration). Various landmarks and intervals are indicated in the schematic.}
-  \label{fig:compensatory}
-\end{figure}
+```{r compensatory, fig.cap="A schematic representation of the oral cavity cross-sectional area, as inferred from acoustics. Design based on @esposito2002. The top panel shows a CV́C sequence with a voiceless C2, the bottom panel with a voiced C2. Oral cavity aperture (on the *y*-axis, as the inverse of oral constriction) through time (on the *x*-axis) is represented by the black line. Lower values represent a more constricted oral tract (a contoid configuration), while higher values indicate a more open oral tract (a vocoid configuration). The black bars below the time axis represent voicing (vocal fold vibration). Various landmarks and intervals are indicated in the schematic."}
+knitr::include_graphics("./img/Figure6.png")
+```
 
 The invariance of the release-to-release interval allows us to refine the logistics of the compensatory account by narrowing the scope of the temporal adjustment action.
 A limitation of this account, as proposed by @slis1969a and @lehiste1970a, is the lack of a precise identification of the word-internal mechanics of compensation.
@@ -679,7 +651,7 @@ Indeed, the temporal stability of this interval should be derivable from a theor
 
 The non-exclusivity of the release-to-release interval is also shown by the fact that excluding the VOT from it still indicates that C2 voicing is not affecting the interval duration.
 The duration of the vowel onset to release interval (the release-to-release minus VOT) is stable across voicing contexts (Bayes factor = 9).
-However, the duration of release-to-release interval has relatively more cohesion than that of the vowel onset to release interval, as indicated by two measures of relative dispersion (the coefficient of variation CV and the coefficient of quartile variation CQV, see \citealt{bonett2006}).\footnote{The CV of the release-to-release duration is 0.203, while that of the vowel onset to release duration is 0.232. The CQV is 0.127 for the release-to-release and 0.136 for the vowel onset to release. Lower values mean less dispersion/more cohesion.}
+However, the duration of release-to-release interval has relatively more cohesion than that of the vowel onset to release interval, as indicated by two measures of relative dispersion [the coefficient of variation CV and the coefficient of quartile variation CQV, see @bonett2006].^[The CV of the release-to-release duration is 0.203, while that of the vowel onset to release duration is 0.232. The CQV is 0.127 for the release-to-release and 0.136 for the vowel onset to release. Lower values mean less dispersion/more cohesion.]
 On the other hand, the duration of the interval between the vowel onset of V1 to the vowel onset of V2 does change depending on C2 voicing (the interval is around 20 ms longer if C2 is voiceless).
 This fact is simply a consequence of including the VOT of C2 in the measure.
 Voiceless stops have longer VOT values, which increases the duration of the interval.
@@ -689,27 +661,27 @@ For these reasons, the release-to-release interval is probably a better measure 
 It is possible that the temporal stability of the release-to-release interval is not an antecedent, but rather a consequence of manipulating vowel and closure durations.
 If this were the case, the differential duration of vowels and closures would not be the result of a compensatory mechanism.
 The present data cannot disambiguate between these two scenarios, and future studies should look into investigating independent reasons for the release-to-release interval stability across voicing contexts.
-The account of gestural phasing proposed by \citet{tilsen2013, tilsen2016} is promising, in that the temporal stability of the release-to-release interval would directly follow from the relative phasing of the vowels in CVCV words (see Figure 6 in \citealt{tilsen2013}).
+The account of gestural phasing proposed by @tilsen2013; @tilsen2016 is promising, in that the temporal stability of the release-to-release interval would directly follow from the relative phasing of the vowels in CVCV words [see Figure 6 in @tilsen2013].
 Articulatory work on the gestural coordination of sequences besides the traditional syllable might reveal a principled organisation that results in the temporal patterns observed in this study and in other durational phenomena.
 
 However, even if independent reasons for the interval stability can be identified, other mechanisms, unrelated to compensatory effects, would still be required to explain the differential timing of the VC boundary within that interval.
-Accounts compatible with other aspects of production and perception would not be ultimately ruled out, as thoroughly discussed in \citet{begus2017}.
-For example, the laryngeal adjustment hypothesis \citep{halle1967a} states that adjustments of the glottis for obstruent voicing require more time to be implemented, so that stop closure onset (VC boundary) for a voiced stops will be achieved later than that of a voiceless stop, relative to the onset of the preceding vowel.
-Tongue root advancement \citep{rothenberg1967, westbury1983, ohala2011} could also play a role in modulating the time required before closure can be implemented.
-Another account \citep{chen1970} makes direct reference to velocity of the closing gesture, which is faster in voiceless than in voiced stops \citep{van-summers1987, de-jong1991}, so that the VC boundary within the release-to-release would be timed earlier in the former than in the latter case.
-Moreover, perceptual explanations of the voicing effect have been proposed in \citet{javkin1976} and \citet{kluender1988}, and these perceptual factors might play a role in the enhancement of the effect (see \citealt{kingston1994}, \citealt{port1982}, and \citealt{luce1985}, see \citealt{fowler1992} for a critique to \citealt{kluender1988}).
-Finally, whether the timing of the VC boundary depends on modulations of the vocalic or consonantal gesture, or both, is another aspect that should be investigated further (see \citealt{de-jong1991} for an example).
+Accounts compatible with other aspects of production and perception would not be ultimately ruled out, as thoroughly discussed in @begus2017.
+For example, the laryngeal adjustment hypothesis [@halle1967a] states that adjustments of the glottis for obstruent voicing require more time to be implemented, so that stop closure onset (VC boundary) for a voiced stops will be achieved later than that of a voiceless stop, relative to the onset of the preceding vowel.
+Tongue root advancement [@rothenberg1967; @westbury1983; @ohala2011] could also play a role in modulating the time required before closure can be implemented.
+Another account [@chen1970] makes direct reference to velocity of the closing gesture, which is faster in voiceless than in voiced stops [@van-summers1987; @de-jong1991], so that the VC boundary within the release-to-release would be timed earlier in the former than in the latter case.
+Moreover, perceptual explanations of the voicing effect have been proposed in @javkin1976 and @kluender1988, and these perceptual factors might play a role in the enhancement of the effect [see @kingston1994; @port1982}; and @luce1985; see @fowler1992 for a critique to @kluender1988].
+Finally, whether the timing of the VC boundary depends on modulations of the vocalic or consonantal gesture, or both, is another aspect that should be investigated further [see @de-jong1991 for an example].
 
 A comment is also due in relation to possible coexisting effects on vowel duration.
-\citet{begus2017} finds that, even when C2 closure duration is controlled for, C2 phonation (ejective, voiceless, voiced) in Georgian is still a significant predictor.
+@begus2017 finds that, even when C2 closure duration is controlled for, C2 phonation (ejective, voiceless, voiced) in Georgian is still a significant predictor.
 The author argues for a separate laryngeal features effect, which operates in addition to a closure duration effect.
-In the present study, C2 voicing (voiceless, voiced) and its interactions are not significant when included in the model discussed in section \Cref{s:vcduration}, which has vowel duration as outcome and C2 closure duration as one of the predictors.\footnote{Multicollinearity is not an issue here, since the VIFs are all below 3 \citep{zuur2010}.}
+In the present study, C2 voicing (voiceless, voiced) and its interactions are not significant when included in the model discussed in section \Cref{s:vcduration}, which has vowel duration as outcome and C2 closure duration as one of the predictors.^[Multicollinearity is not an issue here, since the VIFs are all below 3 [@zuur2010].]
 <!-- The difference in results between this and Beguš's study could be related to differences in the stimuli make-up (disyllabic vs monosyllabic words). -->
-However, even when multicollinearity between predictors is minimal, presence or lack of statistical significance of multiple terms cannot unequivocally inform us on the actual contribution of those terms, since it is possible that unknown relations between terms mask underlying mechanisms (for a discussion see \citealt{mcelreath2015}).
-The diachronic development of context-driven statistical sub-distributions can override the original causal link \citep{soskuthy2013}.
-Under this scenario, it is not possible to discern which of the competing predictors is diachronically responsible for the relation, and either or both the compensatory mechanism and the laryngeal features could have had a role in generating the synchronic patterns (this kind of
+However, even when multicollinearity between predictors is minimal, presence or lack of statistical significance of multiple terms cannot unequivocally inform us on the actual contribution of those terms, since it is possible that unknown relations between terms mask underlying mechanisms [for a discussion see @mcelreath2015].
+The diachronic development of context-driven statistical sub-distributions can override the original causal link [@soskuthy2013].
+Under this scenario, it is not possible to discern which of the competing predictors is diachronically responsible for the relation, and either or both the compensatory mechanism and the laryngeal features could have had a role in generating the synchronic patterns [this kind of
 reasoning is compatible for example with exemplar theories of speech perception and
-production, see among others \citealt{johnson1997, soskuthy2018, ambridge2018, todd2019}).
+production, see among others @johnson1997; @soskuthy2018; @ambridge2018; @todd2019].
 
 Since diverging results have been obtained in relation to the significance of  C2 phonation in addition to C2 closure durations, these aspects need to be further investigated in future studies, although to ascertain whether they are artefacts of statistical procedures or if they reflect an underlying state of affairs might still prove difficult.
 To conclude, lack of significance of a separate laryngeal features effect in this study cannot be taken as evidence for its absence in the present data, and a compensatory mechanism could coexist with mechanisms directly related to laryngeal features, which would in turn explain the differential timing of the VC boundary.
@@ -735,13 +707,13 @@ Experimental work is required which addresses the differential effect of speakin
 
 Some concern could be raised in relation to possible influences of English on the native productions of participants recorded in the English-speaking context of the University of Manchester Laboratory.
 However, as reported in \Cref{s:procedure}, conversations during the session prior to the experiment and instructions were in the participant's native language.
-\citet{antoniou2010} show that, in a situational language context study of Greek-English bilinguals, being exposed to the native language during the experiment elicited Greek native-like phonetic values even when the dominant language at the time of recording was English (the bilingual speakers acquired English as a second language, being Greek their first).
-A small effect of L2 could persist in proficient L2 speakers, as found by \citet{schwartz2015}.
+@antoniou2010 show that, in a situational language context study of Greek-English bilinguals, being exposed to the native language during the experiment elicited Greek native-like phonetic values even when the dominant language at the time of recording was English (the bilingual speakers acquired English as a second language, being Greek their first).
+A small effect of L2 could persist in proficient L2 speakers, as found by @schwartz2015.
 The five Polish speakers with a highly proficient level of English investigated in that study showed a 10 ms increase in VOT values compared to the quasi-monolingual base level.
 While previous studies focussed on VOT, future work should directly test the influence of English on the magnitude of the voicing effect of one's native language.
 
 <!-- \Cref{s:gestural} discusses the interpretation of the release-to-release invariance in CV́CV words as a consequence of the timing of C2 rather than of a holistic CV́C motor plan in which the release-to-release interval is held constant.
-Although beyond the scope of this paper, disambiguating between these two interpretations on articulatory grounds is fundamental for a general understanding of a theory of gestural organisation (a promising venue of research might be the activation-spin model by \citealt{tilsen2013}). -->
+Although beyond the scope of this paper, disambiguating between these two interpretations on articulatory grounds is fundamental for a general understanding of a theory of gestural organisation (a promising venue of research might be the activation-spin model by @tilsen2013}). -->
 
 The compensatory temporal adjustment account presented here extends to other durational effects discussed in the literature.
 In particular, the account bears predictions on the direction of the durational difference led by phonation types different from voicing, like aspiration and ejection.
@@ -757,10 +729,38 @@ The temporal invariance of the release-to-release interval, together with a diff
 <!-- hybrid account, in which you get compensation because of different closure durations because of different articulations, and so on. multiple mechanisms might conspire, as also noted by Begus, so compensatory is not uniquely supported-->
 As discussed in \Cref{s:comp}, the temporal patterns reported here do not univocally exclude other possible sources for the duration differential.
 Multiple mechanisms (both articulatory and perceptual) could conspire together to produce the observed patterns.
-Such a pluralist view has already been proposed for the voicing effect (for example, \citealt{begus2017} and \citealt{sanker2018}), and for other related phenomena, like vowel duration in incomplete neutralisation \citep{winter2011}.
-For a review of explanatory pluralism in the cognitive sciences, see \citealt{dale2009} and references therein.
+Such a pluralist view has already been proposed for the voicing effect (for example, @begus2017 and @sanker2018}), and for other related phenomena, like vowel duration in incomplete neutralisation [@winter2011].
+For a review of explanatory pluralism in the cognitive sciences, see @dale2009 and references therein.
 Indeed, a hybrid account, which takes into consideration and synthesises aspects of multiple proposed accounts, is probably warranted, given the diversity of compatible results obtained so far.
 Future work will need to investigate further aspects of the patterns found in this study, with a particular focus on the effects of different segmental and prosodic structures and different laryngeal contrasts on the release-to-release interval, and in relation to other attributes of consonant effects on vowel duration.
+
+
+## Socio-linguistic information of participants {-}
+\label{a:socioling}
+
+See \@ref(tab:socio).
+
+Table: (\#tab:socio) Participants' sociolinguistic information. The column 'Spent most time in' gives the city in which the participant spent most of their life. The last column ('> 6 mo') indicates whether the participant has spent more than 6 months abroad.
+
+| ID | Age | Sex | Native L | Other Ls | City of birth | Spent most time in | > 6 mo |
+|---|---|---|---|---|---|---|---|
+| IT01 | 29 | Male | Italian | English, Spanish | Verbania | Verbania | Yes |
+| IT02 | 26 | Male | Italian | Friulian, English, Ladin-Venetan | Udine | Tricesimo | Yes |
+| IT03 | 28 | Female | Italian | English, German | Verbania | Verbania | No |
+| IT04 | 54 | Female | Italian | Calabrese | Verbania | Verbania | No |
+| IT05 | 28 | Female | Italian | English | Verbania | Verbania | No |
+| IT09 | 35 | Female | Italian | English | Vignola | Vignola | Yes |
+| IT11 | 24 | Male | Italian | English | Monza | Monza | Yes |
+| IT12 | 26 | Male | Italian | English | Rome | Rome | Yes |
+| IT13 | 20 | Female | Italian | English, French, Arabic, Farsi | Ancona | Chiaravalle | Yes |
+| IT14 | 32 | Male | Italian | English, Spanish | Frosinone | Frosinone | Yes |
+| PL02 | 32 | Female | Polish | English, Norwegian, French, German, Dutch | Koło | Poznań | Yes |
+| PL03 | 26 | Male | Polish | Russian, English, French, German | Nowa Sol | Poznań | Yes |
+| PL04 | 34 | Female | Polish | Spanish, English, French | Warsaw | Warsaw | No |
+| PL05 | 42 | Male | Polish | English, French | Przasnysz | Warsaw | No |
+| PL06 | 33 | Male | Polish | English | Zgierz | Zgierz | Yes |
+| PL07 | 32 | Female | Polish | English, Russian | Bielsk Podlaski | Bielsk Podlaski | Yes |
+
 
 ```{r vif, include=FALSE}
 ## Check multicollinearity by VIF
@@ -864,36 +864,3 @@ vv_bf_01 <- exp((BIC(vv_lm) - BIC(vv_lm_null)) / 2)
 vv_bf_10 <- 1 / vv_bf_01
 ```
 
-## Socio-linguistic information of participants
-\label{a:socioling}
-
-See \Cref{t:socio}.
-
-<!-- say why there are missing IDs -->
-
-\ctable[caption = Participants' sociolinguistic information. The column 'Spent most time in' gives the city in which the participant spent most of their life. The last column ('> 6 mo') indicates whether the participant has spent more than 6 months abroad.,
-label = t:socio,
-pos=h,
-width=\textwidth,
-star,
-doinside = \scriptsize
-]{llll>{\raggedright}p{3cm}l>{\raggedright}p{2cm}l}{}{
-\FL
-ID & Age & Sex    & Native L & Other Ls& City of birth & Spent most time in & > 6 mo \ML
-IT01 & 29 & Male   & Italian & English, Spanish                          & Verbania            & Verbania        & Yes \NN
-IT02 & 26 & Male   & Italian & Friulian, English, Ladin-Venetan          & Udine               & Tricesimo & Yes \NN
-IT03 & 28 & Female & Italian & English, German                           & Verbania            & Verbania        & No  \NN
-IT04 & 54 & Female & Italian & Calabrese                                 & Verbania            & Verbania        & No  \NN
-IT05 & 28 & Female & Italian & English                                   & Verbania            & Verbania        & No  \NN
-IT09 & 35 & Female & Italian & English                                   & Vignola & Vignola         & Yes \NN
-IT11 & 24 & Male   & Italian & English                                   & Monza               & Monza           & Yes \NN
-IT12 & 26 & Male   & Italian & English                                   & Rome               & Rome           & Yes \NN
-IT13 & 20 & Female & Italian & English, French, Arabic, Farsi            & Ancona              & Chiaravalle     & Yes \NN
-IT14 & 32 & Male & Italian & English, Spanish & Frosinone & Frosinone & Yes \NN
-PL02 & 32 & Female & Polish  & English, Norwegian, French, German, Dutch & Koło                & Poznań          & Yes \NN
-PL03 & 26 & Male   & Polish  & Russian, English, French, German          & Nowa Sol            & Poznań          & Yes \NN
-PL04 & 34 & Female & Polish  & Spanish, English, French                  & Warsaw              & Warsaw          & No  \NN
-PL05 & 42 & Male   & Polish  & English, French                           & Przasnysz           & Warsaw        & No  \NN
-PL06 & 33 & Male   & Polish  & English                                   & Zgierz              & Zgierz          & Yes \NN
-PL07 & 32 & Female & Polish  & English, Russian                          & Bielsk Podlaski     & Bielsk Podlaski & Yes \LL
-}
