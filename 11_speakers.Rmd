@@ -1,5 +1,5 @@
 
-\chapter{An informal analysis of number of speakers per phonetic study by year and endangerment status}
+# An informal analysis of number of speakers per phonetic study by year and endangerment status
 \label{a:speakers}
 
 ```{r setup, include=FALSE}
@@ -13,7 +13,7 @@ theme_set(theme_minimal())
 load("./datasets/speakers.rds")
 ```
 
-This analysis is based on the dataset used in \citet{roettger2017} and \citet{gordon2017} \citep{gordon2018}.\footnote{A previous version of this appendix appeared as a blog post at \url{https://stefanocoretta.github.io/post/an-estimate-of-number-of-speakers-per-study-in-phonetics/}.}
+This analysis is based on the dataset used in @roettger2017 and @gordon2017, @gordon2018.^[A previous version of this appendix appeared as a blog post at <https://stefanocoretta.github.io/post/an-estimate-of-number-of-speakers-per-study-in-phonetics/>.]
 The dataset contains information on number of participants from 113 studies, published between 1955 and 2017 (the majority of the studies are within the range 1990--2017).
 
 The median number of speakers per study across the entire dataset is 5.
@@ -70,7 +70,7 @@ speakers %>%
   )
 ```
 
-Information on the endangerment status of the languages in the dataset was obtained from GlottoLog.\footnote{\url{https://glottolog.org/meta/downloads}.}
+Information on the endangerment status of the languages in the dataset was obtained from GlottoLog.^[<https://glottolog.org/meta/downloads>.}
 The following strip chart shows the number of speakers for each of the studies (each point) categorised by the endangerment of the target language.
 With the caveat that there are more studies on safe languages, there is a trend of decreasing number of speakers from safe, to vulnerable, to definitely endangered languages.
 The very low number of studies on languages of greater endangerment status makes it harder to establish patterns.
