@@ -6,4 +6,4 @@ new_session: yes
 #    "09_ve-comp.Rmd", "10_gestures.Rmd", "11_speakers.Rmd",
 #    "99_references.Rmd"
 #   ]
-rmd_files: ["index.Rmd", "09_ve-comp.Rmd", "99_references.Rmd"]
+rmd_files: ["index.Rmd", "10_gestures.Rmd", "99_references.Rmd"]

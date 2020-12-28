@@ -1,6 +1,5 @@
 
-\chapter{Gesture onset timing of voiceless and voiced stops in Italian and Polish}
-\label{a:gons}
+# Gesture onset timing of voiceless and voiced stops in Italian and Polish
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -118,7 +117,7 @@ rel_gons_draws %>%
 
 The present data does not offer unambiguous support for isochronous timing of C2 gestural onset, but it suggests that the difference is smaller than 15 ms.
 The gestural literature does not explicitly posit a lower limit as to what range of values would indicate gestural isochrony.
-\citet{hermes2019} measure the lag between the gestures of an onset consonant and the vocalic nucleus and report that, in the standard population, the mean lag is 32 ms (SD 66).
+@hermes2019 measure the lag between the gestures of an onset consonant and the vocalic nucleus and report that, in the standard population, the mean lag is 32 ms (SD 66).
 If a 32 ms lag in implementation of two gestures can be interpreted as indicating a relation of synchrony between these gestures, than a difference below 15 ms could be interpreted as suggesting an isochronous production of voiceless and voiced consonantal gestures.
-Note that while in \citet{hermes2019} the temporal lag refers to a syntagmatic relation between two gestures, the case of the voiceless/voiced consonants is paradigmatic.
+Note that while in @hermes2019 the temporal lag refers to a syntagmatic relation between two gestures, the case of the voiceless/voiced consonants is paradigmatic.
 Future work should: (1) identify a minimum theoretical value below which two gestures can be considered to be paradigmatically isochronous, and (2) investigate the temporal relation of gestural onsets in VCV sequences using a bigger sample.
