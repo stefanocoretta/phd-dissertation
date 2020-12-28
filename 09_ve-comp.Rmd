@@ -1,3 +1,4 @@
+# Cross-linguistic comparison of the voicing effect in English, Italian, and Polish
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -17,9 +18,6 @@ knitr::knit_hooks$set(chunk = function(x, options) {
   ifelse(options$size != "normalsize", paste0("\\", options$size,"\n\n", x, "\n\n \\normalsize"), x)
 })
 ```
-
-\chapter{Cross-linguistic comparison of the voicing effect in English, Italian, and Polish}
-\label{a:ve-comp}
 
 ```{r merge-data}
 ita_pol <- token_measures %>%
@@ -60,7 +58,7 @@ enitpl %>%
   )
 ```
 
-A Bayesian mixed-effects regression was fitted to V1 duration with brms \citep{burkner2017, burkner2018} in R \citep{r-core-team2019}.
+A Bayesian mixed-effects regression was fitted to V1 duration with brms [@burkner2017; @burkner2018] in R [@r-core-team2019].
 Language, C2 voicing, centred speech rate, and an interaction between language and voicing were included as predictors.
 Random intercepts for speaker and word were used, together with by-speaker and by-word random coefficients for voicing.
 
