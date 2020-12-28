@@ -9,6 +9,7 @@ classoption:
 bibliography: linguistics.bib
 biblio-style: unified
 link-citations: true
+csl: unified-style-sheet-for-linguistics.csl
 geometry:
 - top=3cm
 - bottom=3cm
