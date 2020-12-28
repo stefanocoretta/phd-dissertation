@@ -1,3 +1,5 @@
+# Bayesian meta-analysis of the voicing effect in English
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, include = FALSE, fig.align = "center", out.extra = "width=.7\\linewidth")
@@ -31,19 +33,16 @@ studies <- stressed %>% select(study, n_syl:word_pos_2) %>% unique() %>%
   droplevels()
 ```
 
-\chapter{Bayesian meta-analysis of the voicing effect in English}
-\label{a:ve-eng}
-
-A Bayesian meta-analysis of the English voicing effect was run on the basis of 11 estimated posterior distributions extracted from 9 different publications, following the procedures discussed in \citet{nicenboim2018a}.
+A Bayesian meta-analysis of the English voicing effect was run on the basis of 11 estimated posterior distributions extracted from 9 different publications, following the procedures discussed in @nicenboim2018a.
 The studies were selected by scraping the first 100 results on Google Scholar with the keywords "vowel duration voicing English."
-Other studies which were known to the author but not present among the Google Scholar results were also included. Since two publications (\citealt{sharf1962} and \citealt{klatt1973}) tested both monosyllabic and disyllabic words, two separate posterior distributions were estimated for each word type.
+Other studies which were known to the author but not present among the Google Scholar results were also included. Since two publications [@sharf1962; and @klatt1973] tested both monosyllabic and disyllabic words, two separate posterior distributions were estimated for each word type.
 This leads to a total of 11 posterior distribution of the effect of consonant voicing on vowel duration in English (7 estimated posteriors from 7 publications plus 2 each from 2 publications).
 
 <!-- give more details about the contexts of the studies -->
 
 The posterior distributions of each study have been obtained by fitting a Bayesian linear model to the summary data (the means of vowel duration before voiceless and voiced stops) provided by the respective publications.
 These models had the mean vowel durations as outcome and consonant voicing (voiceless vs voiced) as the only predictor.
-Three studies, \citet{luce1985}, \citet{davis1989}, and \citet{ko2018}, reported measures of dispersion along with the means.
+Three studies, @luce1985, @davis1989, and @ko2018, reported measures of dispersion along with the means.
 Measurement error models were used to obtain the posterior distributions from these studies.
 The measurement error term in such models allows us to include information of the dispersion of the mean vowel durations, and hence of the uncertainty that comes with them.
 All the models for estimating the posterior of the individual studies were fitted with the following priors: a normal distribution with mean = 0 ms and SD = 300 for the intercept, and a normal distribution with mean = 0 ms and SD = 100 for the effect of consonant voicing.
@@ -476,10 +475,18 @@ studies_shrunk <- (c(posterior_samples(meta_bm_syl, pars = "b_Intercept")) +
     quantile(., probs = c(.025, 0.975)),
     sd(.)
   )))) %>%
-  unnest() %>%
+  unnest(cols = c("r_study[chen1970,Intercept]", "r_study[davis1989,Intercept]", 
+    "r_study[heffner1937,Intercept]", "r_study[housefairbanks1953,Intercept]", 
+    "r_study[klatt1973_di,Intercept]", "r_study[klatt1973_mono,Intercept]", 
+    "r_study[ko2018,Intercept]", "r_study[laeufer1992,Intercept]", 
+    "r_study[luce1985_final,Intercept]", "r_study[luce1985_medial,Intercept]", 
+    "r_study[mack1982,Intercept]", "r_study[petersonlehiste1960,Intercept]", 
+    "r_study[sharf1962_di,Intercept]", "r_study[sharf1962_mono,Intercept]", 
+    "r_study[zimmerman1958,Intercept]")) %>%
   transpose() %>%
   setNames(c("Estimate", "Q2.5", "Q97.5", "Est.Error")) %>%
-  map_df(unlist) %>%
+  as_tibble() %>%
+  unnest(cols = c(Estimate, Q2.5, Q97.5, Est.Error)) %>%
   mutate(
     study = estimated_tbl$study,
     source = factor("meta-analysis", levels = c("original", "meta-analysis"))
