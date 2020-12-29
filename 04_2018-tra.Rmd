@@ -194,14 +194,12 @@ The Polish speakers came from different parts of Poland (2 from the west, 3 from
 This study has been approved by the School of Arts, Languages, and Culture Ethics committee of the University of Manchester (REF 2016-0099-76).
 The participants signed a written consent and received a monetary compensation of £10.
 
-### Equipment
-
-\label{s:equipment}
+### Equipment {#s:equipment}
 
 <!-- \begin{figure*}
     \centering
     \includegraphics[width=.7\textwidth]{../../graphics/uti-setup.pdf}
-    \caption{Schematic representation of the equipment setup (@articulate2011}). The system is described in details in \Cref{s:equipment}.}
+    \caption{Schematic representation of the equipment setup (@articulate2011}). The system is described in details in \@ref(s:equipment}.)
     \label{fig:uti-setup}
 \end{figure*} -->
 
@@ -229,12 +227,12 @@ Table: (\#tab:targetsR) Target words. Asterisks indicate real words.
 | paga*   | pogo  | pugu |   | paga   | pogo | pugu |
 
 Disyllabic words of the form C\textsubscript{1}V\textsubscript{1}C\textsubscript{2}V\textsubscript{2} were used as targets, where C\textsubscript{1} = /p/, V\textsubscript{1} = /a, o, u/, C\textsubscript{2} = /t, d, k, g/, and V\textsubscript{2} = V\textsubscript{1} (e.g. *pata*, *pada*, *poto*, etc.), giving a total of 12 target words, used both for Italian and Polish.^[Note that stressed vowels in open syllables in Italian are long [@renwick2016}. Moreover, /o/ is used here for typographical simplicity to indicate the mid-back vowels of Italian and Polish, although they do differ in quality. See @kramer2009, @renwick2016, and @gussmann2007.]
-The resulting words are nonce words, with a few exceptions, and they were presented in the languages' respective writing conventions (see \Cref{t:targets}).
+The resulting words are nonce words, with a few exceptions, and they were presented in the languages' respective writing conventions (see \@ref(t:targets)).
 A labial stop was chosen as the first consonant to reduce possible coarticulation with the following vowel.^[However, note that @westbury1983 and @vazquez-alvarez2007 report tongue body lowering in the context of labial stops.]
 Central/back vowels only were included in the target words for two reasons.
 First, high and mid front vowels tend to be difficult to image with ultrasound, given their greater distance from the ultrasonic probe when compared with back vowels.
 Second, high and mid front vowels usually produce less tongue displacement from and to a stop consonant.
-This characteristic can make it more difficult to identify gestural landmarks using the methodology discussed in \Cref{s:process}.
+This characteristic can make it more difficult to identify gestural landmarks using the methodology discussed in \@ref(s:process).
 Since the focus of the study was to explore differences in the closing gesture of voiceless and voiced stops, only lingual consonants have been included (the closure of labial stops cannot of course be imaged with ultrasound).
 The sentence *Dico X lentamente* 'I say X slowly' in Italian, and *Mówię X teraz* 'I say X now' for Polish functioned as frames for the test words.
 Speakers were instructed to read the sentences without pauses and to speak at a comfortable pace.
@@ -245,7 +243,7 @@ The participants familiarised themselves with the sentence stimuli at the beginn
 Headset and probe were then fitted on the participant's head.
 <!-- A reference for the coordinate system was obtained by imaging the occlusal plane with a metallic bite plate inserted in the participant's mouth [@scobbie2011}.
 The participant gently bites on the bite plate while pressing the tongue against it to keep it still.
-The trace of the metallic plate visible in the ultrasonic image was then used to rotate the tongue data (see \Cref{s:process}). -->
+The trace of the metallic plate visible in the ultrasonic image was then used to rotate the tongue data (see \@ref(s:process)). -->
 <!-- add image -->
 The participant read the sentence stimuli, which were presented on the computer screen in a random order, while the audio and ultrasonic signals were acquired simultaneously.
 The random list of sentences was read 6 times consecutively (with the exception of IT02, who repeated the sentences 5 times only).
@@ -254,8 +252,7 @@ The participant could optionally take breaks between one repetition and the othe
 Sentences with hesitations or speech errors were immediately discarded and re-recorded.
 A total of 1212 tokens (792 from Italian, 420 from Polish) were obtained.
 
-### Data processing and statistical analysis
-\label{s:process}
+### Data processing and statistical analysis {#s:process}
 
 The audio data was subject to forced alignment using the SPeech Phonetisation Alignment and Syllabification software [SPPAS; @bigi2015].
 The outcome of the automatic alignment was then manually corrected, according to the recommendations in @machac2009.
@@ -269,7 +266,7 @@ Smoothing splines were automatically fitted to the visible tongue contours in AA
 Manual correction was then applied in cases of clear tracking errors.
 A fan-like frame consisting of 42 equidistant radial lines superimposed on the ultrasonic image was used as the coordinate system.
 The origin of the 42 fan-lines coincides with the (virtual) origin of the ultrasonic beams, such that each fan-line is parallel to the direction of the nearest ultrasonic scan lines.
-Tongue root displacement was thus calculated as the displacement of the fitted spline along a selected vector [@strycharczuk2015, see \Cref{fig:trp}].
+Tongue root displacement was thus calculated as the displacement of the fitted spline along a selected vector [@strycharczuk2015, see \@ref(fig:trp)].
 For each participant, the fan-line with the highest standard deviation of displacement within the area corresponding to the speaker's tongue root was chosen as the tongue root displacement vector.
 A Savitzky--Golay smoothing filter (second-order, frame length 75 ms) was applied to the raw displacement.
 Displacement values for analysis are taken from the smoothed displacement signal.
@@ -295,15 +292,13 @@ The models were fitted by maximum likelihood (ML) and autoregression in the resi
 
 Significance testing of the relevant predictors was achieved by comparing the ML score of the full model with the score of a null model (in which the relevant predictor is dropped), using the `compareML()` function of the itsadug package [@van-rij2017].
 A preliminary analysis indicated that including either language or C2 place of articulation as predictors produced respective *p*-values above the alpha level, without affecting the estimates of the other terms.
-\Cref{s:idio} further discusses the idiosyncratic behaviour of the tongue root observed between speakers, which does not seem to pattern in any way with their native language.
+\@ref(s:idio) further discusses the idiosyncratic behaviour of the tongue root observed between speakers, which does not seem to pattern in any way with their native language.
 For these reasons, these variables were not included in the models reported here and will not be discussed.
 Future research is warranted to ascertain language-related differences and possible effects of place of articulation.
 
-## Results
-\label{s:results}
+## Results {#s:results}
 
-### Tongue root position at C2 closure onset
-\label{s:tra-lm}
+### Tongue root position at C2 closure onset {#s:tra-lm}
 
 ```{r tra-lm, include=FALSE, cache=TRUE}
 tra_lm <- lmer(
@@ -329,21 +324,20 @@ kines %>%
   labs(x = "C2 voicing", y = "Tongue root position (z-scores)")
 ```
 
-\Cref{fig:Figure2} shows raw data points and boxplots of the position of the tongue root at C2 closure onset when C2 is voiceless (left) and voiced (right).
+\@ref(fig:Figure2) shows raw data points and boxplots of the position of the tongue root at C2 closure onset when C2 is voiceless (left) and voiced (right).
 Since the position of the tongue root in millimetres depends on the speaker's anatomy and on the probe location, scaled tongue root position is used in this plot (note though that the unscaled data is used in statistical modelling).
 As a trend, the position of the tongue root is more advanced if C2 is voiced compared to its position when C2 is voiceless.
 
-A linear mixed-effects model with tongue root position as the outcome variable was fitted with the following predictors (\Cref{tab:tra-lm-table}): fixed effects for C2 voicing (voiceless, voiced), centred speech rate (as number of syllables per second, centred), vowel (/a/, /o/, /u/); by-speaker and by-word random intercepts (a by-speaker random coefficient for C2 voicing led to singular fit, so it was not included in the final model).
+A linear mixed-effects model with tongue root position as the outcome variable was fitted with the following predictors (\@ref(tab:tra-lm-table)): fixed effects for C2 voicing (voiceless, voiced), centred speech rate (as number of syllables per second, centred), vowel (/a/, /o/, /u/); by-speaker and by-word random intercepts (a by-speaker random coefficient for C2 voicing led to singular fit, so it was not included in the final model).
 The effects of C2 voicing and vowel are significant according to *t*-tests with Satterthwaite's approximation to degrees of freedom.
 The tongue root at C2 closure onset is 0.77 mm (SE = 0.35) more front when C2 is voiced, and it is 1.87 mm (SE = 0.42) more retracted if V1 is /o/.
 
 ```{r tra-lm-table}
-kable(tidy(tra_lm, effect = "fixed", conf.int = TRUE) %>% select(-effect) %>% mutate(term = c("Intercept", "Voicing = voiced", "Speech rate (centr.)", "Vowel = /o/", "Vowel = /u/")) %>% rename(Predictor = term, Estimate = estimate, SE = std.error, `t-value` = statistic, `p-value` = p.value, `CI low` = conf.low, `CI up` = conf.high) %>% select(Predictor, Estimate, SE, `CI low`, `CI up`, df, `t-value`, `p-value`) %>% mutate(`< α` = ifelse(`p-value` < 0.05, "*", "")), format = "latex", booktabs = TRUE, linesep = "", digits = 4, caption = "Summary of the linear mixed-effects model fitted to tongue root position at vowel offset (see \\Cref{s:tra-lm})") %>%
+kable(tidy(tra_lm, effect = "fixed", conf.int = TRUE) %>% select(-effect) %>% mutate(term = c("Intercept", "Voicing = voiced", "Speech rate (centr.)", "Vowel = /o/", "Vowel = /u/")) %>% rename(Predictor = term, Estimate = estimate, SE = std.error, `t-value` = statistic, `p-value` = p.value, `CI low` = conf.low, `CI up` = conf.high) %>% select(Predictor, Estimate, SE, `CI low`, `CI up`, df, `t-value`, `p-value`) %>% mutate(`< α` = ifelse(`p-value` < 0.05, "*", "")), format = "latex", booktabs = TRUE, linesep = "", digits = 4, caption = "Summary of the linear mixed-effects model fitted to tongue root position at vowel offset (see \\@ref(s:tra-lm))") %>%
 kable_styling(font_size = 10)
 ```
 
-### Tongue root position during V1
-\label{s:trp-v1}
+### Tongue root position during V1 {#s:trp-v1}
 
 ```{r tra-gam, include=FALSE, cache=TRUE}
 tra_gam <- bam(
@@ -391,9 +385,9 @@ compareML(tra_gam_ar_0, tra_gam_ar)
 ```
 
 The position of the tongue root during the articulation of V1 was assessed with generalised additive mixed models (GAMM).
-A GAMM was fitted to tongue root position with the following terms (\Cref{tab:tra-gam-ar-table}): C2 voicing as a parametric term; a smooth term over centred speech rate, a smooth term over V1 proportion with a by-C2 voicing difference smooth, a tensor product interaction over V1 proportion and centred speech rate; a factor random smooth over V1 proportion by speaker (penalty order = 1).
+A GAMM was fitted to tongue root position with the following terms (\@ref(tab:tra-gam-ar-table)): C2 voicing as a parametric term; a smooth term over centred speech rate, a smooth term over V1 proportion with a by-C2 voicing difference smooth, a tensor product interaction over V1 proportion and centred speech rate; a factor random smooth over V1 proportion by speaker (penalty order = 1).
 A chi-squared test on the ML scores of the full model and a model excluding C2 voicing indicates that C2 voicing significantly improves fit ($\chi$(3) = 7.758, *p* = 0.001).
-\Cref{fig:Figure3} shows that the root advances during the production of the vowel, relative to its position at V1 onset.
+\@ref(fig:Figure3) shows that the root advances during the production of the vowel, relative to its position at V1 onset.
 This forward movement is observed both in the context of a following voiced stop and in that of a following voiceless stop.
 However, the magnitude of the movement is greater in the former.
 At V1 offset (= C2 closure onset), the graph suggests a difference in tongue root position of about 1 mm.
@@ -410,12 +404,12 @@ kable(
   booktabs = TRUE,
   linesep = "",
   digits = 4,
-  caption = "Summary of the GAM model fitted to tongue root position during V1 (see \\Cref{s:trp-v1})"
+  caption = "Summary of the GAM model fitted to tongue root position during V1 (see \\@ref(s:trp-v1))"
 ) %>%
 kable_styling(font_size = 10)
 ```
 
-```{r Figure3, include=TRUE, fig.cap="Predicted tongue root position (top figure) during vowels preceding voiceless and voiced stops, with 95\\% confidence intervals, and difference smooth (bottom figure). Higher values of tongue root position indicate a more advanced root. The shaded red area in the difference smooth indicates where the two curves are different. Predictions from a GAMM (see \\Cref{s:trp-v1}).", out.extra="width=\\linewidth", cache=TRUE}
+```{r Figure3, include=TRUE, fig.cap="Predicted tongue root position (top figure) during vowels preceding voiceless and voiced stops, with 95\\% confidence intervals, and difference smooth (bottom figure). Higher values of tongue root position indicate a more advanced root. The shaded red area in the difference smooth indicates where the two curves are different. Predictions from a GAMM (see \\@ref(s:trp-v1}).", out.extra="width=\\linewidth", cache=TRUE)
 smooths <- predict_gam(tra_gam_ar, exclude_terms = list("s(proportion,speaker)", "s(speech_rate_c)", "ti(proportion,speech_rate_c)")) %>%
   filter(speaker == "it01") %>% # random effect have been cancelled, so selecting one speaker
   ggplot(aes(proportion, fit)) +
@@ -433,8 +427,7 @@ difference <- plot_difference(tra_gam_ar, proportion, list(c2_phonation_o = c("v
 smooths + difference + plot_layout(ncol = 1, heights = c(3, 1))
 ```
 
-### Correlation between tongue root position and V1 duration
-\label{s:trp-vdur}
+### Correlation between tongue root position and V1 duration {#s:trp-vdur}
 
 ```{r tra-lm-2, include=FALSE, cache=TRUE}
 tra_lm_2 <- lmer(
@@ -451,7 +444,7 @@ tra_lm_2 <- lmer(
 summary(tra_lm_2)
 ```
 
-```{r Figure4, include=TRUE, fig.cap="Raw data, regression lines, and 95\\% confidence intervals of the correlation between vowel duration and tongue root position for each vowel (/a/, /o/, and /u/). The regression line and confidence intervals are from a mixed-effects model (see \\Cref{s:trp-vdur}).", out.extra="width=\\linewidth"}
+```{r Figure4, include=TRUE, fig.cap="Raw data, regression lines, and 95\\% confidence intervals of the correlation between vowel duration and tongue root position for each vowel (/a/, /o/, and /u/). The regression line and confidence intervals are from a mixed-effects model (see \\@ref(s:trp-vdur}).", out.extra="width=\\linewidth")
 as_tibble(effect("v1_duration_c:vowel", tra_lm_2)) %>%
   ggplot(aes(v1_duration_c, fit)) +
   geom_point(data = kines, aes(y = trp), alpha = 0.1) +
@@ -462,19 +455,18 @@ as_tibble(effect("v1_duration_c:vowel", tra_lm_2)) %>%
   labs(x = "Vowel duration (centred)", y = "Tongue root position (ms)")
 ```
 
-A second linear mixed regression was fitted to tongue root position to assess the effect of V1 duration on root position (\Cref{tab:tra-lm-2-table}).
+A second linear mixed regression was fitted to tongue root position to assess the effect of V1 duration on root position (\@ref(tab:tra-lm-2-table)).
 The following terms were included: centred V1 duration (in milliseconds), centred speech rate (as number of syllables per second), vowel (/a/, /o/, /u/), C2 place of articulation (coronal, velar); an interaction between centred V1 duration and vowel; by-speaker and by-word random intercept (a by-speaker random coefficient for V1 duration led to non-convergence, so it was not included in the final model).
 All predictors and the V1 duration/vowel interaction are significant.
 V1 duration and tongue root position are positively correlated: The longer the vowel, the more advanced the tongue root is at V1 offset ($\hat{\beta}$ = 0.065 mm, SE = 0.007).
-The effect is stronger with /a/ than with /o/ and /u/ (see \Cref{fig:Figure4}).
+The effect is stronger with /a/ than with /o/ and /u/ (see \@ref(fig:Figure4)).
 
 ```{r tra-lm-2-table}
-kable(tidy(tra_lm_2, effect = "fixed", conf.int = TRUE) %>% select(-effect) %>% mutate(term = c("Intercept", "V1 duration (centr.)", "Speech rate (centr.)", "Vowel = /o/", "Vowel = /u/", "V1 duration × /o/", "V1 duration × /u/")) %>% rename(Predictor = term, Estimate = estimate, SE = std.error, `t-value` = statistic, `p-value` = p.value, `CI low` = conf.low, `CI up` = conf.high) %>% select(Predictor, Estimate, SE, `CI low`, `CI up`, df, `t-value`, `p-value`) %>% mutate(`< α` = ifelse(`p-value` < 0.05, "*", "")), format = "latex", booktabs = TRUE, linesep = "", digits = 4, caption = "Summary of the linear mixed-effects model for testing the correlation between tongue root position and V1 duration  (see \\Cref{s:trp-vdur})") %>%
+kable(tidy(tra_lm_2, effect = "fixed", conf.int = TRUE) %>% select(-effect) %>% mutate(term = c("Intercept", "V1 duration (centr.)", "Speech rate (centr.)", "Vowel = /o/", "Vowel = /u/", "V1 duration × /o/", "V1 duration × /u/")) %>% rename(Predictor = term, Estimate = estimate, SE = std.error, `t-value` = statistic, `p-value` = p.value, `CI low` = conf.low, `CI up` = conf.high) %>% select(Predictor, Estimate, SE, `CI low`, `CI up`, df, `t-value`, `p-value`) %>% mutate(`< α` = ifelse(`p-value` < 0.05, "*", "")), format = "latex", booktabs = TRUE, linesep = "", digits = 4, caption = "Summary of the linear mixed-effects model for testing the correlation between tongue root position and V1 duration  (see \\@ref(s:trp-vdur))") %>%
 kable_styling(font_size = 10)
 ```
 
-### Tongue root position during V1 as a function of V1 duration
-\label{s:trp-v1-dur}
+### Tongue root position during V1 as a function of V1 duration {#s:trp-v1-dur}
 
 ```{r tra-gam-2, include=FALSE, cache=TRUE}
 tra_gam_2 <- bam(
@@ -513,10 +505,10 @@ tra_gam_ar_0_2 <- bam(
 )
 ```
 
-The effect of V1 duration on tongue root position during V1 was modelled by fitting a GAMM with the following terms (\Cref{tab:tra-gam-ar-2-table}): tongue root position as the outcome variable, smooth terms over V1 duration and V1 proportion, a tensor product interaction over V1 proportion and V1 duration; a factor random smooth over V1 proportion by speaker (penalty order = 1).
+The effect of V1 duration on tongue root position during V1 was modelled by fitting a GAMM with the following terms (\@ref(tab:tra-gam-ar-2-table)): tongue root position as the outcome variable, smooth terms over V1 duration and V1 proportion, a tensor product interaction over V1 proportion and V1 duration; a factor random smooth over V1 proportion by speaker (penalty order = 1).
 The full model with the tensor product interaction over V1 proportion and V1 duration has better fit according to model comparison with a model without the interaction ($\chi$(3) = 12.559, *p* < 0.001).
-\Cref{fig:Figure5} shows the estimated root trajectories at four values of vowel duration.
-The general trend is that the forward movement of the root during the vowel is greater the longer the duration of the vowel (\Cref{fig:Figure5}).
+\@ref(fig:Figure5) shows the estimated root trajectories at four values of vowel duration.
+The general trend is that the forward movement of the root during the vowel is greater the longer the duration of the vowel (\@ref(fig:Figure5)).
 Moreover, the trajectory curvature increases with vowel duration: Shorter vowels have a flatter trajectory of tongue root advancement.
 
 ```{r tra-gam-ar-2-table}
@@ -531,12 +523,12 @@ kable(
   booktabs = TRUE,
   linesep = "",
   digits = 4,
-  caption = "Summary of the GAM model fitted to tongue root position during V1 as a function of V1 duration (see \\Cref{s:trp-v1-dur})"
+  caption = "Summary of the GAM model fitted to tongue root position during V1 as a function of V1 duration (see \\@ref(s:trp-v1-dur))"
 ) %>%
 kable_styling(font_size = 10)
 ```
 
-```{r Figure5, include=TRUE, fig.cap="Predicted tongue root position during vowels at 4 exemplifying values of vowel duration, with 95\\% confidence intervals. Predictions from a GAMM (see \\Cref{s:trp-v1-dur}).", out.extra="width=\\linewidth", cache=TRUE}
+```{r Figure5, include=TRUE, fig.cap="Predicted tongue root position during vowels at 4 exemplifying values of vowel duration, with 95\\% confidence intervals. Predictions from a GAMM (see \\@ref(s:trp-v1-dur}).", out.extra="width=\\linewidth", cache=TRUE)
 predict_gam(tra_gam_ar_2, exclude_terms = "s(proportion,speaker)", values = list(v1_duration = c(50, 100, 145, 200))) %>%
   filter(speaker == "it01") %>% # random effect have been cancelled, so selecting one speaker
   ggplot(aes(proportion, fit)) +
@@ -549,8 +541,7 @@ predict_gam(tra_gam_ar_2, exclude_terms = "s(proportion,speaker)", values = list
   scale_linetype_discrete(name = "V1 duration (ms)")
 ```
 
-## Discussion
-\label{s:discussion}
+## Discussion {#s:discussion}
 
 ### Voicing, tongue root position and vowel duration
 
@@ -607,7 +598,7 @@ The 95% confidence interval for the difference is approximately within the range
 Figure 1 in @kirkham2017 suggests that the tongue root of one of the Twi speakers recorded is about 4 mm more front in /e/ (a +ATR vowel) than in /ɛ/ (a -ATR vowel).
 Given that a difference of 4 mm in root position can produce a substantially distinct acoustic output in vowels (like the two different phonemes of Twi), it makes sense to expect that differences in tongue root position as driven by consonantal factors should be of some magnitude smaller, like the ones found in this study.
 <!-- \footnote{Thanks to Sam Kirkham for bringing this point to my attention.} -->
-Moreover, the data presented here indicates that for every millisecond increase in vowel duration there is a 0.065 mm increase in tongue root advancement (see \Cref{s:trp-vdur}).
+Moreover, the data presented here indicates that for every millisecond increase in vowel duration there is a 0.065 mm increase in tongue root advancement (see \@ref(s:trp-vdur)).
 If a maximal ballistic forward movement of the tongue root takes between 70 and 90 ms [@rothenberg1967], we can calculate the maximum plausible displacement to be between 4.55 to 5.85 mm (0.065 mm times 70–90 ms).
 These values are in agreement with the maximum root displacement of 5 mm estimated by Rothenberg.
 
@@ -624,8 +615,7 @@ Investigating the relative phasing of tongue root and body gestures in lingual a
 Moreover, while the paper so far has focussed on group-level trends, it should be noted that, as found in other studies on the tongue root, individual speakers show a somewhat high degree of variability.
 The following section discusses this point.
 
-### Individual differences
-\label{s:idio}
+### Individual differences {#s:idio}
 
 ```{r Figure6, include=TRUE, fig.cap="Slope plots of mean torngue root position in voiceless and voiced stops at closure onset, by-speaker. The plot on the left has raw position values in millimetres, while the plot on the right shows standardised values (z-scores) by speaker. See text for details.", fig.height=3, out.width="\\linewidth", fig.align="center"}
 fig_a <- kines_mean %>%
@@ -655,9 +645,9 @@ fig_b <- kines_mean %>%
 fig_a + fig_b
 ```
 
-The results presented in \Cref{s:results} and discussed in \Cref{s:discussion} are group-level patterns of the population sampled in the present study.
+The results presented in \@ref(s:results} and discussed in \Cref{s:discussion) are group-level patterns of the population sampled in the present study.
 However, the data is characterised by a certain degree of individual-level differences.
-\Cref{fig:Figure6} shows two slope plots of mean tongue root position depending on C2 voicing for each speaker.
+\@ref(fig:Figure6) shows two slope plots of mean tongue root position depending on C2 voicing for each speaker.
 In each plot, the two means of each speaker are linked by a line that shows the difference (or lack thereof) in means.
 Solid lines are Italian speakers, while dashed lines are Polish speakers.
 The *y*-axis of the left plot is the raw mean position in millimetres, while that of the right plot is the standardised values (z-scores) of the mean position.
@@ -668,8 +658,8 @@ This plot shows that all three possibilities of slope direction are found in the
 The mean value of tongue root position of a voiced C2 relative to that of a voiceless stop is greater in some speakers, smaller in others, and similar in yet other speakers.
 Moreover, no discernible pattern can be found between speakers of Italian and Polish.
 Speakers of both languages show more or less the same range of variation.
-However, as we have seen in \Cref{s:results}, the estimated overall effect of C2 voicing is robust and it implies a more advanced tongue root in voiced stops.
-The right plot of \Cref{fig:Figure6} confirms this point visually.
+However, as we have seen in \@ref(s:results), the estimated overall effect of C2 voicing is robust and it implies a more advanced tongue root in voiced stops.
+The right plot of \@ref(fig:Figure6) confirms this point visually.
 Two speakers show a declining slope (one is Italian and the other Polish), one speaker has a virtually flat slope, while all the others have a slope increasing at varying degrees.
 Note that the individual variation across speakers found in this data is qualitatively comparable to that in @ahn2018.
 
@@ -693,15 +683,15 @@ trp_difference %>%
 ```
 
 The mean difference in tongue root position in voiceless vs voiced stops has been calculated for each speaker from the raw data.
-\Cref{fig:Figure7} plots the speakers' mean differences, with the respective standard error bars.
+\@ref(fig:Figure7) plots the speakers' mean differences, with the respective standard error bars.
 The bottom 7 speakers (3 Polish, 4 Italian) show either a weak negative difference (the tongue root is slightly more advanced in voiceless stops) or a weak positive difference with wide standard errors which include 0.
 The remaining 11 speakers have a more robust positive difference (the tongue root is more advanced in voiced stops).
 Finally, speakers of each language do not cluster together, reiterating the observation made above that language does not seem to be an informative parameter.
 
 Finally, interesting individual patterns can also be seen in the trajectories of tongue root position.
-\Cref{fig:Figure8} shows these trajectories for all the speakers (note that the *y*-axis of each plot is on a different scale, so magnitude comparisons should not be made visually).
+\@ref(fig:Figure8) shows these trajectories for all the speakers (note that the *y*-axis of each plot is on a different scale, so magnitude comparisons should not be made visually).
 Speakers IT01, IT03, and PL04 in particular have a somewhat categorical distinction in tongue root position during vowels followed by voiceless vs voiced stops.
-Such tongue root distinction is implemented across the total duration of the vowel, rather than towards the end (as suggested by the results from the aggregated data, see \Cref{s:trp-v1}).
+Such tongue root distinction is implemented across the total duration of the vowel, rather than towards the end (as suggested by the results from the aggregated data, see \@ref(s:trp-v1)).
 The phonological literature reports cases in which the difference in tongue root position in vowels is enhanced, leading to phonological alternations or diachronic loss of the voicing distinction with maintenance of the tongue root distinction [see @vaux1996, and references therein].
 The ultrasound data from this study offers articulatory evidence for a possible precursor of said phonological patterns.^[All the examples in @vaux1996 are on vowels *following* voiceless vs voiced stops, rather than preceding, as in the current study. While beyond the scope of this paper, whether this is a systematic gap or not and how this relates to the present findings should be examined in future work.]
 

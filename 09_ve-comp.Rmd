@@ -42,7 +42,7 @@ enitpl <- bind_rows(eng, ita_pol) %>%
 ```
 
 A Bayesian analysis was run to statistically test differences in the voicing effect in disyllabic (CV́CV) words of English (Study II), Italian, and Polish (Study I).
-Note that the experimental design differs between the two studies (see \Cref{s:methods}), so results should be interpreted with caution.
+Note that the experimental design differs between the two studies (see \@ref(s:methods)), so results should be interpreted with caution.
 The following graph shows violin and box plots of the raw vowel duration data, by voicing of C2 and language.
 English and Italian have similar vowel durations and a similar effect of voicing, while Polish has generally shorter vowels and a somewhat smaller effect.
 
