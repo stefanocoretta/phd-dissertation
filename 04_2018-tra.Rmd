@@ -1,10 +1,10 @@
 ---
 params:
   version: 3.1
-  version-date: "2019/12/06"
+  version-date: 2019/12/06
 ---
 
-# Longer vowel duration correlates with greater tongue root displacement: Acoustic and articulatory data from Italian and Polish [Paper III]
+# Longer vowel duration correlates with greater tongue root displacement: Acoustic and articulatory data from Italian and Polish [Paper III] {#p:tra}
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
@@ -217,7 +217,7 @@ The audio signal was sampled at 22050 Hz (16-bit).
 
 ### Materials
 
-Table: (\#tab:targetsR) Target words. Asterisks indicate real words.
+Table: (\#tab:targetstra) Target words. Asterisks indicate real words.
 
 | Italian |       |      |   | Polish |      |      |
 |---------|-------|------|---|--------|------|------|
@@ -227,7 +227,7 @@ Table: (\#tab:targetsR) Target words. Asterisks indicate real words.
 | paga*   | pogo  | pugu |   | paga   | pogo | pugu |
 
 Disyllabic words of the form C\textsubscript{1}V\textsubscript{1}C\textsubscript{2}V\textsubscript{2} were used as targets, where C\textsubscript{1} = /p/, V\textsubscript{1} = /a, o, u/, C\textsubscript{2} = /t, d, k, g/, and V\textsubscript{2} = V\textsubscript{1} (e.g. *pata*, *pada*, *poto*, etc.), giving a total of 12 target words, used both for Italian and Polish.^[Note that stressed vowels in open syllables in Italian are long [@renwick2016}. Moreover, /o/ is used here for typographical simplicity to indicate the mid-back vowels of Italian and Polish, although they do differ in quality. See @kramer2009, @renwick2016, and @gussmann2007.]
-The resulting words are nonce words, with a few exceptions, and they were presented in the languages' respective writing conventions (see \@ref(t:targets)).
+The resulting words are nonce words, with a few exceptions, and they were presented in the languages' respective writing conventions (see \@ref(tab:targetstra)).
 A labial stop was chosen as the first consonant to reduce possible coarticulation with the following vowel.^[However, note that @westbury1983 and @vazquez-alvarez2007 report tongue body lowering in the context of labial stops.]
 Central/back vowels only were included in the target words for two reasons.
 First, high and mid front vowels tend to be difficult to image with ultrasound, given their greater distance from the ultrasonic probe when compared with back vowels.
@@ -409,7 +409,7 @@ kable(
 kable_styling(font_size = 10)
 ```
 
-```{r Figure3, include=TRUE, fig.cap="Predicted tongue root position (top figure) during vowels preceding voiceless and voiced stops, with 95\\% confidence intervals, and difference smooth (bottom figure). Higher values of tongue root position indicate a more advanced root. The shaded red area in the difference smooth indicates where the two curves are different. Predictions from a GAMM (see \\@ref(s:trp-v1}).", out.extra="width=\\linewidth", cache=TRUE)
+```{r Figure3, include=TRUE, fig.cap="Predicted tongue root position (top figure) during vowels preceding voiceless and voiced stops, with 95\\% confidence intervals, and difference smooth (bottom figure). Higher values of tongue root position indicate a more advanced root. The shaded red area in the difference smooth indicates where the two curves are different. Predictions from a GAMM (see \\@ref(s:trp-v1)).", out.extra="width=\\linewidth", cache=TRUE}
 smooths <- predict_gam(tra_gam_ar, exclude_terms = list("s(proportion,speaker)", "s(speech_rate_c)", "ti(proportion,speech_rate_c)")) %>%
   filter(speaker == "it01") %>% # random effect have been cancelled, so selecting one speaker
   ggplot(aes(proportion, fit)) +
@@ -444,7 +444,7 @@ tra_lm_2 <- lmer(
 summary(tra_lm_2)
 ```
 
-```{r Figure4, include=TRUE, fig.cap="Raw data, regression lines, and 95\\% confidence intervals of the correlation between vowel duration and tongue root position for each vowel (/a/, /o/, and /u/). The regression line and confidence intervals are from a mixed-effects model (see \\@ref(s:trp-vdur}).", out.extra="width=\\linewidth")
+```{r Figure4, include=TRUE, fig.cap="Raw data, regression lines, and 95\\% confidence intervals of the correlation between vowel duration and tongue root position for each vowel (/a/, /o/, and /u/). The regression line and confidence intervals are from a mixed-effects model (see \\@ref(s:trp-vdur)).", out.extra="width=\\linewidth"}
 as_tibble(effect("v1_duration_c:vowel", tra_lm_2)) %>%
   ggplot(aes(v1_duration_c, fit)) +
   geom_point(data = kines, aes(y = trp), alpha = 0.1) +
@@ -528,7 +528,7 @@ kable(
 kable_styling(font_size = 10)
 ```
 
-```{r Figure5, include=TRUE, fig.cap="Predicted tongue root position during vowels at 4 exemplifying values of vowel duration, with 95\\% confidence intervals. Predictions from a GAMM (see \\@ref(s:trp-v1-dur}).", out.extra="width=\\linewidth", cache=TRUE)
+```{r Figure5, include=TRUE, fig.cap="Predicted tongue root position during vowels at 4 exemplifying values of vowel duration, with 95\\% confidence intervals. Predictions from a GAMM (see \\@ref(s:trp-v1-dur)).", out.extra="width=\\linewidth", cache=TRUE}
 predict_gam(tra_gam_ar_2, exclude_terms = "s(proportion,speaker)", values = list(v1_duration = c(50, 100, 145, 200))) %>%
   filter(speaker == "it01") %>% # random effect have been cancelled, so selecting one speaker
   ggplot(aes(proportion, fit)) +
@@ -645,7 +645,7 @@ fig_b <- kines_mean %>%
 fig_a + fig_b
 ```
 
-The results presented in \@ref(s:results} and discussed in \Cref{s:discussion) are group-level patterns of the population sampled in the present study.
+The results presented in \@ref(s:results) and discussed in \@ref(s:discussion) are group-level patterns of the population sampled in the present study.
 However, the data is characterised by a certain degree of individual-level differences.
 \@ref(fig:Figure6) shows two slope plots of mean tongue root position depending on C2 voicing for each speaker.
 In each plot, the two means of each speaker are linked by a line that shows the difference (or lack thereof) in means.

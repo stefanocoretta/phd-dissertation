@@ -4,12 +4,11 @@ params:
   version-date: "2019/05/29"
 ---
 
-# Modelling electroglottographic data with wavegrams and generalised additive mixed models [Paper IV]
+# Modelling electroglottographic data with wavegrams and generalised additive mixed models [Paper IV] {#p:wavegram}
 
 ```{r setup, include=FALSE}
-library(here)
 knitr::opts_chunk$set(echo = FALSE, include = FALSE)
-knitr::opts_knit$set(root.dir = here())
+knitr::opts_knit$set(root.dir = here::here())
 library(tidyverse)
 theme_set(theme_minimal())
 ## library(coretta2017egg)
@@ -33,12 +32,11 @@ Results from a pilot study which assesses the reliability of this method by comp
 The applicability of wavegram GAMs is exemplified with the discussion of an exploratory study on the dynamical properties of voicing in vowels followed by voiceless and voiced stops in Italian and Polish.
 Increasing average glottal opening can be observed in the second half of vowels, although the timing and magnitude of the increase differs depending on the voicing of the following stop and on the language.
 Insights on the diachronic development of pre-aspiration based on these results are also discussed.
-\end{abstract}
 
 ## Introduction
 
 
-```{r egg-setup, fig.cap="A schematics of the electroglottograph. A transverse section of the neck is shown with open glottis (on the left) and closed glottis (on the right). The electric field passing through the neck is represented by lines. When the vocal folds are apart, the opening distorts the electric field and impedance increases."}
+```{r eggsetup, include=TRUE, fig.cap="A schematics of the electroglottograph. A transverse section of the neck is shown with open glottis (on the left) and closed glottis (on the right). The electric field passing through the neck is represented by lines. When the vocal folds are apart, the opening distorts the electric field and impedance increases."}
 knitr::include_graphics("./img/egg-setup.png")
 ```
 
@@ -52,13 +50,13 @@ In this paper, generalised additive modelling [@hastie1986] is proposed as a mea
 Wavegram generalised additive models will then be exemplified by discussing the results of a pilot study which compares modal and breathy phonation, and the results of an exploratory study on differences of glottal activity in vowels followed by voiceless and voiced stops. -->
 
 Electroglottography, or EGG [@fabre1957], is a technique that measures the degree of contact between the vocal folds (the Vocal Folds Contact Area, VFCA).
-A high frequency low voltage electrical current is sent through two electrodes which are in contact with the surface of the neck, one on each side of the thyroid cartilage (\@ref(fig:egg-setup)).
+A high frequency low voltage electrical current is sent through two electrodes which are in contact with the surface of the neck, one on each side of the thyroid cartilage (\@ref(fig:deggsetup)).
 Impedance of this current is modulated by the VFCA, and greater vocal folds contact creates less impedance.
 The amplitude of the current is inversely correlated with VFCA and impedance, so that higher amplitude values indicate a greater contact area [@titze1990].
 The EGG unit registers the current impedance and converts it to relative amplitude values.
 The time-developing amplitude signal thus provides us with information on the changes in VFCA, i.e. on properties of vocal folds vibration (voicing).
 
-```{r egg, fig.cap="The electroglottographic signal (EGG) with corresponding first derivative (dEGG)."}
+```{r degg, include=TRUE, fig.cap="The electroglottographic signal (EGG) with corresponding first derivative (dEGG)."}
 knitr::include_graphics("./img/degg-signal.png")
 ```
 
@@ -66,7 +64,7 @@ A glottal cycle can be divided in two phases [@childers1985; @hampala2016]: (a) 
 Transversal to this two-phase representation, the glottal cycle can be described in terms of whether the glottis is closed or not.
 According to this classification, the cycle can be divided into (1) a closed phase, in which the glottis is completely closed and glottal flow is 0 (in some contexts this phase could be absent, like in breathy voicing), and (2) an open phase, in which there is no complete contact between the vocal folds.
 The timing of these phases can be approximated from the EGG signal, as demonstrated by both experimental and modelling work [@hampala2016].
-An example EGG signal is provided in \@(fig:egg).
+An example EGG signal is provided in \@ref(fig:degg).
 <!-- cited in Hampala 2016 -->
 <!-- point the reader to Hampala for figure on movements of the vocal folds -->
 
@@ -74,7 +72,7 @@ Two important landmarks of glottal movement are the closing instant (the timepoi
 These points delimit the open and closed phases of a glottal cycle.
 The ratio of the closed phase relative to the total cycle duration, the closed quotient, has been used as an index of phonation type [@scherer1987].
 Modal voice has higher closed quotient values than breathy voice, and lower values than creaky voice.
-One method for the detection of the closing and opening instants is based on the first derivative of the EGG signal (the dEGG, see \@ref(fig:egg)).
+One method for the detection of the closing and opening instants is based on the first derivative of the EGG signal (the dEGG, see \@ref(fig:degg)).
 @herbst2017, however, showed that this method returns values that are just a surrogate of the actual articulatory movements, due to the complex anatomy of the vocal folds, and that there are no clear contacting and decontact instants, but rather intervals.
 @herbst2017 call this EGG-based closed quotient the "contact quotient" and recommend to keep it distinct from the closed quotient obtained from direct observation of the vocal folds.
 
@@ -89,12 +87,9 @@ Differences in intensity along the *x*-axis indicate changes in glottal activity
 The procedure for constructing a wavegram is given in \@ref(fig:wavegram).
 A wavegram can be produced for the EGG signal and for any of its transformations, like the dEGG.
 
-\begin{figure}
-  \centering
-  \includegraphics{./img/wavegram.png}
-  \caption{The wavegram. Created by Christian T. Herbst under a CC BY-SA 3.0 license.}
-  \label{fig:wavegram}
-\end{figure}
+```{r wavegram, include=TRUE, fig.cap="The wavegram. Created by Christian T. Herbst under a CC BY-SA 3.0 license."}
+knitr::include_graphics("./img/wavegram.png")
+```
 
 The wavegram method was originally intended for a qualitative analysis based on visual inspection.
 However, wavegram data can be modelled using generalised additive models [GAMs, @hastie1986; @zuur2012; @wood2017].

@@ -6,7 +6,7 @@ params:
 
 # (APPENDIX) Appendices {-}
 
-# Assessing mid-sagittal tongue contours in polar coordinates using generalised additive (mixed) models
+# Assessing mid-sagittal tongue contours in polar coordinates using generalised additive (mixed) models {#a:polar-gams}
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
@@ -247,7 +247,6 @@ Polar GAMs fitting, significance testing, and model plotting are illustrated by 
 A brief tutorial illustrates fitting and plotting of polar GAMs with the R package rticulate.
 The series of polar GAMs indicates a high degree of idiosyncrasy in tongue root position in voiceless and voiced stops, within and across speakers.
 Limitations of the current implementation of polar GAMs (such as across-speaker normalisation) and future directions are also briefly discussed.
-\end{abstract}
 
 ## Introduction
 
@@ -471,7 +470,7 @@ compareML(it01_gam_0, it01_gam)
 
 To check which part of the contour differs among conditions, the method recommended in @soskuthy2017] is to plot the difference smooth and check the confidence interval.
 The parts of the confidence interval that don't include 0 indicate that the difference between contours in that part is significant.
-\@ref(fig:Figure05) illustrates the use of difference smooths with the difference smooths of voiceless vs voiced coronal stops when the vocalic context is /a/ or /u/.
+Figures \@ref(fig:Figure05-1) and \@ref(fig:Figure05-2) illustrate the use of difference smooths with the difference smooths of voiceless vs voiced coronal stops when the vocalic context is /a/ or /u/.
 As per usual, the tongue tip is on the right-end side of each plot.
 The difference smooths indicate that there is a significant difference along the posterior part of the tongue (the root and dorsum).
 Based on the predicted smooths sown in \@ref(fig:Figure04), we can argue that, in the context of coronal consonants, the root is more advanced in voiced relative to voiceless stops (when the vowel is either /a/ or /u/), and that the dorsum is also somewhat retracted in voiced stops if the vowel is /u/.
@@ -496,7 +495,7 @@ plot_difference(
 
 As mentioned in the introduction, autocorrelation in the data can produce unwanted patterns in the residuals, which in turn can affect the estimated smooths (and falsely increase certainty about them).
 A first-order autoregressive (AR1) model can be included to reduce autocorrelation at lag 1.
-\@ref(fig:Figure06) show the autocorrelations in the residuals without (top) and with (bottom) an AR1 model.
+\@ref(fig:Figure06-1) and \@ref(fig:Figure06-2) show the autocorrelations in the residuals without (top) and with (bottom) an AR1 model.
 The GAM model with the AR1 correction has lower autocorrelation values.
 In this case, it is thus advisable to perform ML comparison and smooths plotting with models in which an AR1 model has been included.
 For a more in-depth treatment of issues related to autocorrelation, see @soskuthy2017.
@@ -531,7 +530,7 @@ The decrease in pressure that follows from such expansion ensures that voicing c
 Mid-sagittal tongue contours at maximum tongue displacement of voiceless and voiced stops have been compared using polar GAMs.
 To exemplify how polar GAMs can be used to model articulatory differences within and between speakers, data from 6 speakers of Italian and 6 speakers of Polish will be discussed.
 Note that the 6 Italian speakers are representative of the general trends found in the entire sample of 11 speakers.
-\@ref(fig:Figure07} to \Cref{fig:Figure18) show an appreciable degree of variation across speakers and phonological contexts in relation to the differences in tongue shapes between voiceless and voiced stops (IT07 and Pl05 both miss data from /u/ due to the poor quality of the ultrasonic image for this vowel).
+\@ref(fig:Figure07) to \@ref(fig:Figure18) show an appreciable degree of variation across speakers and phonological contexts in relation to the differences in tongue shapes between voiceless and voiced stops (IT07 and Pl05 both miss data from /u/ due to the poor quality of the ultrasonic image for this vowel).
 In some speakers and contexts, the tongue root (the left part of the tongue contours) is more advanced in voiced stops than in voiceless stops.
 
 In particular, IT01, IT02, PL05, and PL06 show a robust pattern in which the tongue root in voiced stops is more advanced than in voiceless stops in most vowel/place contexts.

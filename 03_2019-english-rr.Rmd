@@ -4,7 +4,7 @@ params:
   version-date: "2020/06/16"
 ---
 
-# Temporal (in)stability in English monosyllabic and disyllabic words: Insights on the effect of voicing on vowel duration [Paper II]
+# Temporal (in)stability in English monosyllabic and disyllabic words: Insights on the effect of voicing on vowel duration [Paper II] {#p:en-relrel}
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE)
@@ -190,7 +190,7 @@ The following subsections describe the experimental and statistical methods of t
 The research design and data analyses were pre-registered on the Open Science Framework prior to data collection (<https://osf.io/m4rzy/>).
 <!-- explain why pre-registration -->
 Data [@coretta2019g] and analysis scripts (<https://osf.io/32fst/>) are also available on the Open Science Framework.
-Choices on experimental design and analysis were made within the Bayesian framework of statistical inference (see \@ref(s:sample-size} and \Cref{s:bayes) for details).
+Choices on experimental design and analysis were made within the Bayesian framework of statistical inference (see \@ref(s:sample-size) and \@ref(s:bayes) for details).
 
 ### Sample size and stopping rule {#s:sample-size}
 
@@ -238,7 +238,7 @@ Table: (\#tab:words) Test C\textsubscript{1}V́\textsubscript{1}C\textsubscript{
 
 The test words were C\textsubscript{1}V́\textsubscript{1}C\textsubscript{2}(VC) words, where C\textsubscript{1} = /t/, V\textsubscript{1} = /iː, ɜː, ɑː/, C\textsubscript{2} = /p, b, k, g/, and (VC) = /əs/.
 /əs/ was chosen for its lower parsability as a native suffix, in order to prevent morphological complexity in disyllabic words.
-This structure specification generates 24 test words, shown in \@ref(t:words).
+This structure specification generates 24 test words, shown in \@ref(tab:words).
 All of these are nonce words, with the exception of *turk* and *tarp*, and of *teek* via the homophone *teak*.
 Building stimuli from a structure template rather than from the lexicon ensures greater experimental and statistical control.
 Moreover, the use of nonce words removes or reduces confounds from some usage variables, like for example lexical frequency.^[The three real words in the materials have low lexical frequency (Zipf 1-7 log-frequency: *tarp* 2.23, *teak* 2.76, and *turk* 2.91) according to the SUBTLEX-UK corpus [@van-heuven2014].]
@@ -570,7 +570,7 @@ kable(vow_4_tidy, format = "latex", booktabs = TRUE, linesep = "", digits = 2, c
 kable_styling(font_size = 10)
 ```
 
-\@ref(tab:vow-4-table} reports the summary of model 4, while \Cref{fig:vow-4-intervals) shows the posterior distributions and credible intervals.
+\@ref(tab:vow-4-table) reports the summary of model 4, while \@ref(fig:vow-4-intervals) shows the posterior distributions and credible intervals.
 The precision target was reached in the non-interacting predictors (permitting a few milliseconds above 20), with the exception of the intercept.
 All the interactions terms have CI widths above 25 ms.
 The 95% CI of the posterior distribution of the duration of /ɑː/ is included in the range 112.94--136.77 ms ($\bar{\theta}$ = 124.91 ms, SD = 5.96).
@@ -709,8 +709,8 @@ clos_5_draws %>%
 This study set out to build on the results discussed in @coretta2018j by investigating durational properties of the release-to-release interval in English monosyllabic and disyllabic words.
 It was expected that the release-to-release interval would not be affected by C2 voicing in disyllabic words but it would in monosyllabic words.
 Moreover, a conceptual replication of studies on the effect of consonant voicing on vowel and closure durations was sought, with a focus on comparing the effect in mono- vs disyllabic words.
-This section discusses in turn the results in relation to the release-to-release interval duration (\@ref(s:rr-disc}) and to vowel and closure durations (\Cref{s:vc-disc)) by comparing them with the hypotheses of this study.
-\@ref(s:rr-gen-disc} synthesises and links these findings back to the articulatory grounding of the temporal properties of the release-to-release interval in mono- and disyllabic words (\Cref{s:gest)).
+This section discusses in turn the results in relation to the release-to-release interval duration (\@ref(s:rr-disc)) and to vowel and closure durations (\@ref(s:vc-disc)) by comparing them with the hypotheses of this study.
+\@ref(s:rr-gen-disc) synthesises and links these findings back to the articulatory grounding of the temporal properties of the release-to-release interval in mono- and disyllabic words (\@ref(s:gest)).
 Limitations and future work are also discussed.
 
 ### Release-to-release interval {#s:rr-disc}
@@ -795,7 +795,7 @@ More studies like @ko2018 which directly test the effect of speaking rates on th
 
 ### General discussion {#s:rr-gen-disc}
 
-@coretta2018j proposes that the voicing-related adjustments in the relative timing of the closure onset within an isochronous speech interval (acoustically identified as the release-to-release interval) is the diachronic precursor of the cross-linguistically widespread effect of voicing on vowel duration.\footnote{Note that isochrony here is intended as pertaining the context of voiceless vs voices stops only.}
+@coretta2018j proposes that the voicing-related adjustments in the relative timing of the closure onset within an isochronous speech interval (acoustically identified as the release-to-release interval) is the diachronic precursor of the cross-linguistically widespread effect of voicing on vowel duration.^[Note that isochrony here is intended as pertaining the context of voiceless vs voices stops only.]
 Given that the duration of the release-to-release interval in Italian, Polish, and English disyllabic words is not affected by the voicing of the post-vocalic consonant, the relative durations of vowel and closure are thought to depend on the timing of the VC boundary within that interval.
 A later VC boundary implies a longer vowel and a shorter closure, while, vice versa, an earlier boundary produces a shorter vowel and a longer closure.
 Behind the differential timing of the VC boundary within the release-to-release interval, several other accounts can be envisaged, like accounts relating to laryngeal and supraglottal adjustments [@halle1967; @begus2017; @coretta2019c].

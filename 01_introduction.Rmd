@@ -19,6 +19,9 @@ A careful analysis of the process of observation in atomic physics has shown tha
 
 --------
 
+<!-- TODO: ciaone -->
+<!-- NOTE: come stai? -->
+
 The sounds of a language form an incredibly complex system of relations and dependencies, both at a physical and a more abstract level.
 A topic that masterfully exemplifies the complexities of such a system and that has generated great interest over the decades is the somewhat elusive connection between vowel duration and consonant voicing.
 According to a robust cross-linguistic tendency, vowels are shorter when followed by a voiceless consonant and longer when the following consonant is voiced [@meyer1903; @heffner1937; @house1953; @lisker1957; @peterson1960].
@@ -591,7 +594,7 @@ Table: (\#tab:engcons) English consonant phonemes
 | approximant | w      |        |          |               | j       |       |             |
 
 
-In order to avoid influences of regional differences in English, especially in the vowel system, Study II (\@ref(s:studyii)) was restricted to Manchester English.\footnote{Due to the difficulty of recruiting speakers of Italian and Polish in Manchester and in the field in Italy, such approach was not possible for these languages.}
+In order to avoid influences of regional differences in English, especially in the vowel system, Study II (\@ref(s:studyii)) was restricted to Manchester English.^[Due to the difficulty of recruiting speakers of Italian and Polish in Manchester and in the field in Italy, such approach was not possible for these languages.]
 
 The consonant system of Manchester English minimally diverges from the general Southern British English system (\@ref(tab:engcons)), which is non-rhotic, with the notable exceptions of the so-called "T-glottaling" (realisation of /t/ in non-foot-initial position as [ʔ]), "TH-fronting" (realisation of /θ, ð/ and [f, v]), "H-dropping", and "velar nasal plus" (realisation of /ŋ/ as [ŋg/]) [@baranowski2015; @baranowski2016; @bermudez-otero2016; @coretta2018i; @bailey2019a; @bailey2019].
 The consonantal phonemes of Manchester English belong to one of seven places of articulation (labial, dental, alveolar, post-alveolar, palatal, velar, glottal) and seven manner of articulation (plosive, fricative, affricate, nasal, lateral, rhotic, approximant).
@@ -733,11 +736,11 @@ The unit outputs a synchronised stereo recording which contains the EGG signal f
 
 ### Equipment set-up
 
-```{r set-up, fig.cap="Schematics of the equipment set-up of Study I. Stabilisation headset not shown."}
+```{r setup-scheme, fig.cap="Schematics of the equipment set-up of Study I. Stabilisation headset not shown."}
 knitr::include_graphics("./img/setup.png")
 ```
 
-\@ref(fig:setup) shows a schematics of the equipment set-up used in this study.
+\@ref(fig:setup-scheme) shows a schematics of the equipment set-up used in this study.
 The left part of the figure shows the ultrasonic components [@articulate2011], while the EGG components (Glottal Enterprises) are shown on the right.
 Two separate Hewlett-Packard ProBook 6750b laptops with Microsoft Windows 7 were used for the acquisition of the UTI and EGG recordings.
 The main ultrasonic component was a TELEMED Echo Blaster 128 unit with a TELEMED C3.5/20/128Z-3 ultrasonic transducer (20mm radius, 2-4 MHz), plugged into one laptop via a USB cable.
@@ -833,7 +836,7 @@ It was expected that, while the duration of the release-to-release interval woul
 A brief synthesis of the methodologies of the study is reported here.
 
 Fifteen university students were recorded in a sound attenuated room in the Phonetics Laboratory of the University of Manchester while reading sentence stimuli containing test words, presented on a computer screen with PsychoPy [@peirce2009].
-The participants were native speakers of British English, aged between 20 and 29, born and raised within Greater Manchester.\footnote{No sociolinguistic information was collected for this study, given that sociolinguistic considerations were not part of the study aims and given the sensitivity of the data.}
+The participants were native speakers of British English, aged between 20 and 29, born and raised within Greater Manchester.^[No sociolinguistic information was collected for this study, given that sociolinguistic considerations were not part of the study aims and given the sensitivity of the data.]
 The test words were built according to the following structure: C\textsubscript{1}V́\textsubscript{1}C\textsubscript{2}(VC), where C\textsubscript{1} = /t/, V\textsubscript{1} = /iː, ɜː, ɑː/, C\textsubscript{2} = /p, b, k, g/, and (VC) = /əs/.
 The issue of the syllabification of word-medial consonants in English is far from settled and still a controversial topic in English phonology.
 All possible syllabification options continue to be defended [@bermudez-otero2013]: onset-maximal syllabification, rhyme-maximal
