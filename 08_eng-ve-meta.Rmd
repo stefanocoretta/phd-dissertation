@@ -345,7 +345,7 @@ est <- estimated_tbl %>%
   select(study_ref_2, Estimate, Est.Error, Q2.5, Q97.5, syl_pos, n_speakers) %>%
   rename(Study = study_ref_2, `Syllable position` = syl_pos, `N. speakers` = n_speakers)
 
-kable(est, format = "latex", booktabs = TRUE, linesep = "", digits = 2, caption = "Bayesian estimates of the voicing effect in indvidual studies.") %>%
+kable(est, linesep = "", digits = 2, caption = "Bayesian estimates of the voicing effect in indvidual studies.") %>%
 kable_styling(font_size = 8)
 ```
 

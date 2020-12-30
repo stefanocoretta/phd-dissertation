@@ -69,7 +69,7 @@ speakers %>%
   )
 ```
 
-Information on the endangerment status of the languages in the dataset was obtained from GlottoLog.^[<https://glottolog.org/meta/downloads>.}
+Information on the endangerment status of the languages in the dataset was obtained from GlottoLog.^[<https://glottolog.org/meta/downloads>.]
 The following strip chart shows the number of speakers for each of the studies (each point) categorised by the endangerment of the target language.
 With the caveat that there are more studies on safe languages, there is a trend of decreasing number of speakers from safe, to vulnerable, to definitely endangered languages.
 The very low number of studies on languages of greater endangerment status makes it harder to establish patterns.

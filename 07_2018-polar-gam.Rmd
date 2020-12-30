@@ -383,7 +383,7 @@ The package rticulate has been developed as a wrapper of the `bam()` function to
 The special function `polar_gam()` can fit a variety of GAM models to tongue contours coordinates, using the same syntax of mgcv.
 The function accepts tongue contours either in Cartesian or polar coordinates.
 In the first case, the coordinates can be transformed into polar before fitting.
-If the data is in the AAA fan-like coordinate system, the origin is automatically estimated with the method in @heyne2015a}.
+If the data is in the AAA fan-like coordinate system, the origin is automatically estimated with the method in @heyne2015a.
 If the data is not exported from AAA, the user can specify the known coordinates of the probe origin.
 The function `plot_polar_smooths()`, used for plotting the estimated contours, converts the coordinates back into Cartesian using the same origin as with GAM fitting.
 

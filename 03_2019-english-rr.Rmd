@@ -362,7 +362,7 @@ For the random effects, a half Cauchy distribution (location = 0, scale = 25) wa
 ```{r rr-1-table}
 rr_1_tidy <- fixef(rr_1) %>% as_tibble(rownames = "Predictor") %>% mutate(Predictor = c("Intercept", "Voicing = voiced", "Num. syll. = monosyllabic", "Speech rate (cntr.)", "voiced × monosyll.")) %>% rename(Mean = Estimate, SD = Est.Error) %>% mutate(`CI width` = abs(`Q2.5` - `Q97.5`))
 
-kable(rr_1_tidy, format = "latex", booktabs = TRUE, linesep = "", digits = 2, caption = "Summary of the Bayesian regression fitted to release-to-release duration (model 1, see \\@ref(s:rr)).") %>%
+kable(rr_1_tidy, linesep = "", digits = 2, caption = "Summary of the Bayesian regression fitted to release-to-release duration (model 1, see \\@ref(s:rr)).") %>%
 kable_styling(font_size = 10)
 ```
 
@@ -412,7 +412,7 @@ This prior was based on duration differences depending on vowel height [@heffner
 ```{r rr-2-table}
 rr_2_tidy <- fixef(rr_2) %>% as_tibble(rownames = "Predictor") %>% mutate(Predictor = c("Intercept", "Vowel = /ɜː/", "Vowel = /iː/", "C2 place = labial", "Speech rate (cntr.)")) %>% rename(Mean = Estimate, SD = Est.Error) %>% mutate(`CI width` = abs(`Q2.5` - `Q97.5`))
 
-kable(rr_2_tidy, format = "latex", booktabs = TRUE, linesep = "", digits = 2, caption = "Summary of the Bayesian regression fitted to release-to-release duration (model 2, see \\@ref(s:rr)).") %>%
+kable(rr_2_tidy, linesep = "", digits = 2, caption = "Summary of the Bayesian regression fitted to release-to-release duration (model 2, see \\@ref(s:rr)).") %>%
 kable_styling(font_size = 10)
 ```
 
@@ -481,7 +481,7 @@ C2 place of articulation (labial) has a negligible positive mean effect (2.6 ms,
 ```{r rr-3-table}
 rr_3_tidy <- fixef(rr_3) %>% as_tibble(rownames = "Predictor") %>% mutate(Predictor = c("Intercept", "Voicing = voiced", "Num. syll. = monosyllabic", "Vowel = /ɜː/", "Vowel = /iː/", "C2 place = labial", "Speech rate (cntr.)", "voiced × monosyll.")) %>% rename(Mean = Estimate, SD = Est.Error) %>% mutate(`CI width` = abs(`Q2.5` - `Q97.5`))
 
-kable(rr_3_tidy, format = "latex", booktabs = TRUE, linesep = "", digits = 2, caption = "Summary of the Bayesian regression fitted to release-to-release duration and predictors from model 1 and 2 (model 3, see \\@ref(s:rr)).") %>%
+kable(rr_3_tidy, linesep = "", digits = 2, caption = "Summary of the Bayesian regression fitted to release-to-release duration and predictors from model 1 and 2 (model 3, see \\@ref(s:rr)).") %>%
 kable_styling(font_size = 10)
 ```
 
@@ -566,7 +566,7 @@ The same priors as in the previous models were included for the random effects.
 ```{r vow-4-table}
 vow_4_tidy <- fixef(vow_4) %>% as_tibble(rownames = "Predictor") %>% mutate(Predictor = c("Intercept", "Voicing = voiced", "Vowel = /ɜː/", "Vowel = /iː/", "Num. syll. = monosyllabic", "Speech rate (cntr.)", "voiced × /ɜː/", "voiced × /iː/", "voiced × monosyll.", "/ɜː/ × monosyll.", "/iː/ × monosyll.", "voiced × /ɜː/ × monosyll.", "voiced × /iː/ × monosyll.")) %>% rename(Mean = Estimate, SD = Est.Error) %>% mutate(`CI width` = abs(`Q2.5` - `Q97.5`))
 
-kable(vow_4_tidy, format = "latex", booktabs = TRUE, linesep = "", digits = 2, caption = "Summary of the Bayesian regression fitted to vowel duration (model 4, see \\@ref(s:vow)).") %>%
+kable(vow_4_tidy, linesep = "", digits = 2, caption = "Summary of the Bayesian regression fitted to vowel duration (model 4, see \\@ref(s:vow)).") %>%
 kable_styling(font_size = 10)
 ```
 
@@ -664,7 +664,7 @@ For the effect of C2 place, a normal distribution with mean 15 ms (SD = 10) was 
 ```{r clos-5-table}
 clos_5_tidy <- fixef(clos_5) %>% as_tibble(rownames = "Predictor") %>% mutate(Predictor = c("Intercept", "Voicing = voiced", "C2 place = labial", "Num. syll. = monosyllabic", "Speech rate (cntr.)", "voiced × labial", "voiced × monosyll.", "labial × monosyll.", "voiced × labial × monosyll.")) %>% rename(Mean = Estimate, SD = Est.Error) %>% mutate(`CI width` = abs(`Q2.5` - `Q97.5`))
 
-kable(clos_5_tidy, format = "latex", booktabs = TRUE, linesep = "", digits = 2, caption = "Summary of the Bayesian regression fitted to closure duration (model 5, see \\@ref(s:clos)).") %>%
+kable(clos_5_tidy, linesep = "", digits = 2, caption = "Summary of the Bayesian regression fitted to closure duration (model 5, see \\@ref(s:clos)).") %>%
 kable_styling(font_size = 10)
 ```
 

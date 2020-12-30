@@ -290,7 +290,7 @@ However, while @house1953 and @peterson1960 find that the effect is greater in f
 Future work should directly test the relation between differences in consonant duration and the voicing effect with consonants belonging to different manners of articulation.
 
 The compensatory account presented here rests on the cyclic production of vocalic gestures [@ohman1967; @fowler1983].
-@smith1995, @zmarich2011, and @zeroual2015} demonstrate that the temporal distance between two vowels with an intervening stop differs depending on whether the stop is a singleton or a geminate (e.g. *aba* vs *abba*, the distance is greater in the latter case).
+@smith1995, @zmarich2011, and @zeroual2015] demonstrate that the temporal distance between two vowels with an intervening stop differs depending on whether the stop is a singleton or a geminate (e.g. *aba* vs *abba*, the distance is greater in the latter case).
 However, I argue that the absence of vowel-to-vowel isochrony across these contexts follows from the gestural organisation of the segments involved.
 In the case of singleton stops, the vocalic gestures are executed consecutively and the intervocalic consonant is executed synchronously with the second vowel (\@ref(fig:vv-cent)a top).
 In the case of geminates, on the other hand, the intervening consonant is the outcome of the double selection of a single gesture where the first selection is executed anti-phase with the first vowel and the second in-phase with the second vowel (\@ref(fig:vv-cent)a bottom).

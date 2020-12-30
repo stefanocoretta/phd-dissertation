@@ -196,13 +196,6 @@ The participants signed a written consent and received a monetary compensation o
 
 ### Equipment {#s:equipment}
 
-<!-- \begin{figure*}
-    \centering
-    \includegraphics[width=.7\textwidth]{../../graphics/uti-setup.pdf}
-    \caption{Schematic representation of the equipment setup (@articulate2011}). The system is described in details in \@ref(s:equipment}.)
-    \label{fig:uti-setup}
-\end{figure*} -->
-
 Simultaneous recordings of audio and ultrasound tongue imaging were obtained in the Phonetics Laboratory at the University of Manchester (UK) or in a quiet room in Verbania (Italy).
 An Articulate Instruments Ltd™ system was used for this study.
 The system is made of a TELEMED Echo Blaster 128 unit, an Articulate Instruments Ltd™ P-Stretch synchronisation unit, and a FocusRight Scarlett Solo pre-amplifier.
@@ -226,7 +219,7 @@ Table: (\#tab:targetstra) Target words. Asterisks indicate real words.
 | paca*   | poco* | pucu |   | paka*  | poko | puku |
 | paga*   | pogo  | pugu |   | paga   | pogo | pugu |
 
-Disyllabic words of the form C\textsubscript{1}V\textsubscript{1}C\textsubscript{2}V\textsubscript{2} were used as targets, where C\textsubscript{1} = /p/, V\textsubscript{1} = /a, o, u/, C\textsubscript{2} = /t, d, k, g/, and V\textsubscript{2} = V\textsubscript{1} (e.g. *pata*, *pada*, *poto*, etc.), giving a total of 12 target words, used both for Italian and Polish.^[Note that stressed vowels in open syllables in Italian are long [@renwick2016}. Moreover, /o/ is used here for typographical simplicity to indicate the mid-back vowels of Italian and Polish, although they do differ in quality. See @kramer2009, @renwick2016, and @gussmann2007.]
+Disyllabic words of the form C\textsubscript{1}V\textsubscript{1}C\textsubscript{2}V\textsubscript{2} were used as targets, where C\textsubscript{1} = /p/, V\textsubscript{1} = /a, o, u/, C\textsubscript{2} = /t, d, k, g/, and V\textsubscript{2} = V\textsubscript{1} (e.g. *pata*, *pada*, *poto*, etc.), giving a total of 12 target words, used both for Italian and Polish.^[Note that stressed vowels in open syllables in Italian are long [@renwick2016]. Moreover, /o/ is used here for typographical simplicity to indicate the mid-back vowels of Italian and Polish, although they do differ in quality. See @kramer2009, @renwick2016, and @gussmann2007.]
 The resulting words are nonce words, with a few exceptions, and they were presented in the languages' respective writing conventions (see \@ref(tab:targetstra)).
 A labial stop was chosen as the first consonant to reduce possible coarticulation with the following vowel.^[However, note that @westbury1983 and @vazquez-alvarez2007 report tongue body lowering in the context of labial stops.]
 Central/back vowels only were included in the target words for two reasons.
@@ -333,7 +326,7 @@ The effects of C2 voicing and vowel are significant according to *t*-tests with 
 The tongue root at C2 closure onset is 0.77 mm (SE = 0.35) more front when C2 is voiced, and it is 1.87 mm (SE = 0.42) more retracted if V1 is /o/.
 
 ```{r tra-lm-table}
-kable(tidy(tra_lm, effect = "fixed", conf.int = TRUE) %>% select(-effect) %>% mutate(term = c("Intercept", "Voicing = voiced", "Speech rate (centr.)", "Vowel = /o/", "Vowel = /u/")) %>% rename(Predictor = term, Estimate = estimate, SE = std.error, `t-value` = statistic, `p-value` = p.value, `CI low` = conf.low, `CI up` = conf.high) %>% select(Predictor, Estimate, SE, `CI low`, `CI up`, df, `t-value`, `p-value`) %>% mutate(`< α` = ifelse(`p-value` < 0.05, "*", "")), format = "latex", booktabs = TRUE, linesep = "", digits = 4, caption = "Summary of the linear mixed-effects model fitted to tongue root position at vowel offset (see \\@ref(s:tra-lm))") %>%
+kable(tidy(tra_lm, effect = "fixed", conf.int = TRUE) %>% select(-effect) %>% mutate(term = c("Intercept", "Voicing = voiced", "Speech rate (centr.)", "Vowel = /o/", "Vowel = /u/")) %>% rename(Predictor = term, Estimate = estimate, SE = std.error, `t-value` = statistic, `p-value` = p.value, `CI low` = conf.low, `CI up` = conf.high) %>% select(Predictor, Estimate, SE, `CI low`, `CI up`, df, `t-value`, `p-value`) %>% mutate(`< α` = ifelse(`p-value` < 0.05, "*", "")), linesep = "", digits = 4, caption = "Summary of the linear mixed-effects model fitted to tongue root position at vowel offset (see \\@ref(s:tra-lm))") %>%
 kable_styling(font_size = 10)
 ```
 
@@ -400,8 +393,7 @@ kable(
     rename(Predictor = term, Estimate = estimate, SE = std.error, `p-value` = p.value, EDF = edf, Ref.DF = ref.df, Statistic = statistic) %>%
     select(Predictor, Estimate, SE, EDF, Ref.DF, Statistic, `p-value`) %>%
     mutate(`< α` = ifelse(`p-value` < 0.05, "*", "")),
-  format = "latex",
-  booktabs = TRUE,
+
   linesep = "",
   digits = 4,
   caption = "Summary of the GAM model fitted to tongue root position during V1 (see \\@ref(s:trp-v1))"
@@ -462,7 +454,7 @@ V1 duration and tongue root position are positively correlated: The longer the v
 The effect is stronger with /a/ than with /o/ and /u/ (see \@ref(fig:Figure4)).
 
 ```{r tra-lm-2-table}
-kable(tidy(tra_lm_2, effect = "fixed", conf.int = TRUE) %>% select(-effect) %>% mutate(term = c("Intercept", "V1 duration (centr.)", "Speech rate (centr.)", "Vowel = /o/", "Vowel = /u/", "V1 duration × /o/", "V1 duration × /u/")) %>% rename(Predictor = term, Estimate = estimate, SE = std.error, `t-value` = statistic, `p-value` = p.value, `CI low` = conf.low, `CI up` = conf.high) %>% select(Predictor, Estimate, SE, `CI low`, `CI up`, df, `t-value`, `p-value`) %>% mutate(`< α` = ifelse(`p-value` < 0.05, "*", "")), format = "latex", booktabs = TRUE, linesep = "", digits = 4, caption = "Summary of the linear mixed-effects model for testing the correlation between tongue root position and V1 duration  (see \\@ref(s:trp-vdur))") %>%
+kable(tidy(tra_lm_2, effect = "fixed", conf.int = TRUE) %>% select(-effect) %>% mutate(term = c("Intercept", "V1 duration (centr.)", "Speech rate (centr.)", "Vowel = /o/", "Vowel = /u/", "V1 duration × /o/", "V1 duration × /u/")) %>% rename(Predictor = term, Estimate = estimate, SE = std.error, `t-value` = statistic, `p-value` = p.value, `CI low` = conf.low, `CI up` = conf.high) %>% select(Predictor, Estimate, SE, `CI low`, `CI up`, df, `t-value`, `p-value`) %>% mutate(`< α` = ifelse(`p-value` < 0.05, "*", "")), linesep = "", digits = 4, caption = "Summary of the linear mixed-effects model for testing the correlation between tongue root position and V1 duration  (see \\@ref(s:trp-vdur))") %>%
 kable_styling(font_size = 10)
 ```
 
@@ -519,8 +511,7 @@ kable(
     rename(Predictor = term, Estimate = estimate, SE = std.error, `p-value` = p.value, EDF = edf, Ref.DF = ref.df, Statistic = statistic) %>%
     select(Predictor, Estimate, SE, EDF, Ref.DF, Statistic, `p-value`) %>%
     mutate(`< α` = ifelse(`p-value` < 0.05, "*", "")),
-  format = "latex",
-  booktabs = TRUE,
+
   linesep = "",
   digits = 4,
   caption = "Summary of the GAM model fitted to tongue root position during V1 as a function of V1 duration (see \\@ref(s:trp-v1-dur))"

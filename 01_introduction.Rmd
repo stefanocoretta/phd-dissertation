@@ -154,7 +154,7 @@ Certain articulatory conditions, like a reduced oral tract volume or the full cl
 When the pressure differential is 0 (i.e. when pressure equalisation is reached), vocal fold vibration can no longer be maintained and it ceases.
 In such articulatory conditions, several articulatory adjustments can be implemented to counteract pressure equalisation.
 Active adjustments require muscular activity.
-Among the solutions to help sustaining vocal fold vibration there are (1) some that decrease supra-glottal pressure like tongue root advancement [@kent1969; @perkell1969; @westbury1983], larynx lowering [@riordan1980], opening of the velopharyngeal port [@yanagihara1966], or producing a retroflex occlusion [@sprouse2008}, and (2) others that lower the pressure differential threshold required for fold vibration, like slackening of the vocal folds [@halle1967] or producing a shorter stop closure [@lisker1957].
+Among the solutions to help sustaining vocal fold vibration there are (1) some that decrease supra-glottal pressure like tongue root advancement [@kent1969; @perkell1969; @westbury1983], larynx lowering [@riordan1980], opening of the velopharyngeal port [@yanagihara1966], or producing a retroflex occlusion [@sprouse2008], and (2) others that lower the pressure differential threshold required for fold vibration, like slackening of the vocal folds [@halle1967] or producing a shorter stop closure [@lisker1957].
 *Active voicing* is vocal fold vibration with articulatory adjustments that ensure continuing vibration.
 
 Sounds that are intended not to have vocal fold vibration (i.e. are intended as voiceless) but that are characterised by favourable conditions for it tend to show passive voicing.
@@ -528,7 +528,7 @@ Table: (\#tab:itavow) Italian vocalic phonemes (adapted from Krämer 2009)
 Although the exact phonemic inventory of Italian is still debated, especially for consonants [@kramer2009, p. 44], a generally agreed upon phonemic set is given in \@ref(tab:itacons) for consonants and \@ref(tab:itavow) for vowels.
 
 Italian contrasts consonants along five (phonological) places of articulation: labial (phonetically either bilabial or labiodental), dental, alveolar, palatal (palatal and post-alveolar), and velar.
-Stops (true stops and affricates) and fricatives contrast for voicing, although note that /z/ has limited functional load [@bertinetto2005}]and /ʒ/ is relegated to loan words.
+Stops (true stops and affricates) and fricatives contrast for voicing, although note that /z/ has limited functional load [@bertinetto2005] and /ʒ/ is relegated to loan words.
 The Italian voicing contrast is usually described in terms of an opposition between voiceless unaspirated consonants and fully voiced consonants [@vagges1978; @bortolini1995; @pape2014; @kirby2016].
 @pape2014 shows that Italian speakers tend to perceive stops without a burst following the release as voiced consonants, independent of the duration of voicing during closure.
 While it is not clear which acoustic cue is employed by Italian speakers to discriminate voiceless and voiced consonants, @pape2014 find in their production study that Italian consistently articulate (velar) stops with full voicing during closure.
@@ -786,7 +786,7 @@ The automatic annotation was then manually checked by the author and corrected i
 The placement of segment boundaries followed the suggestions in @machac2009.
 See \@ref(p:relrel) for details.
 
-Detection of the release of C1 and C2 was accomplished through the algorithmic procedure described in @ananthapadmanabha2014}.
+Detection of the release of C1 and C2 was accomplished through the algorithmic procedure described in @ananthapadmanabha2014.
 I have written a custom implementation of the procedure in Praat for this study [`release-detection-c1.praat` and `burst-detection.praat` in @coretta2018m].
 The output of the automatic detection was manually checked and corrected.
 The times of the following landmarks were extracted via a custom Praat script [`get-duration.praat` in @coretta2018m]: sentence onset and offset, target word onset and offset, C1 release, V1 onset, V1 offset/C2 closure onset, C2 release, V2 onset.
