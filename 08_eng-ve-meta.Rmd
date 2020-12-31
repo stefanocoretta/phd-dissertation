@@ -21,7 +21,7 @@ knitr::knit_hooks$set(chunk = function(x, options) {
 ```
 
 ```{r data}
-stressed <- read_csv("./datasets/stressed.csv") %>%
+stressed <- read_csv("./data/datasets/stressed.csv") %>%
   mutate(
     voice = factor(voice, levels = c("voiceless", "voiced")),
     n_syl = factor(n_syl, levels = c("mono", "di")),

@@ -24,7 +24,7 @@ source("./cache.R")
 ```
 
 ```{r read-data, include=FALSE, message=FALSE}
-load("./datasets/duration_data.Rdata")
+load("./data/datasets/duration_data.Rdata")
 durations_filtered <- durations_filtered %>%
   mutate(vor = (c2_rel - v1_ons) * 1000)
 round_2 <- function(...) {

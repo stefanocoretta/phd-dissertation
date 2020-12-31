@@ -21,9 +21,9 @@ source("./cache.R")
 ```
 
 ```{r read-data, include=FALSE}
-stimuli_it <- read_csv("./datasets/stimuli-it.csv")
+stimuli_it <- read_csv("./data/datasets/stimuli-it.csv")
 
-stimuli_pl <- read_csv("./datasets/stimuli-pl.csv")
+stimuli_pl <- read_csv("./data/datasets/stimuli-pl.csv")
 
 columns <- c(
   "speaker",
@@ -42,7 +42,7 @@ columns <- c(
   "TR_velocity_abs"
 )
 
-tongue_it01 <- read_aaa("./datasets/it01-tongue-cart.tsv", columns)  %>%
+tongue_it01 <- read_aaa("./data/datasets/it01-tongue-cart.tsv", columns)  %>%
   na.omit() %>%
   mutate(word = word(prompt, 2)) %>%
   left_join(y = stimuli_it) %>%
@@ -58,7 +58,7 @@ tongue_it01 <- read_aaa("./datasets/it01-tongue-cart.tsv", columns)  %>%
 
 contrasts(tongue_it01$vc_voicing) <- "contr.treatment"
 
-tongue_it02 <- read_aaa("./datasets/it02-tongue-cart.tsv", columns)  %>%
+tongue_it02 <- read_aaa("./data/datasets/it02-tongue-cart.tsv", columns)  %>%
   na.omit() %>%
   mutate(word = word(prompt, 2)) %>%
   left_join(y = stimuli_it) %>%
@@ -74,7 +74,7 @@ tongue_it02 <- read_aaa("./datasets/it02-tongue-cart.tsv", columns)  %>%
 
 contrasts(tongue_it02$vc_voicing) <- "contr.treatment"
 
-tongue_it03 <- read_aaa("./datasets/it03-tongue-cart.tsv", columns)  %>%
+tongue_it03 <- read_aaa("./data/datasets/it03-tongue-cart.tsv", columns)  %>%
   na.omit() %>%
   mutate(word = word(prompt, 2)) %>%
   left_join(y = stimuli_it) %>%
@@ -90,7 +90,7 @@ tongue_it03 <- read_aaa("./datasets/it03-tongue-cart.tsv", columns)  %>%
 
 contrasts(tongue_it03$vc_voicing) <- "contr.treatment"
 
-tongue_it04 <- read_aaa("./datasets/it04-tongue-cart.tsv", columns)  %>%
+tongue_it04 <- read_aaa("./data/datasets/it04-tongue-cart.tsv", columns)  %>%
   na.omit() %>%
   mutate(word = word(prompt, 2)) %>%
   left_join(y = stimuli_it) %>%
@@ -106,7 +106,7 @@ tongue_it04 <- read_aaa("./datasets/it04-tongue-cart.tsv", columns)  %>%
 
 contrasts(tongue_it04$vc_voicing) <- "contr.treatment"
 
-tongue_it07 <- read_aaa("./datasets/it07-tongue-cart.tsv", columns)  %>%
+tongue_it07 <- read_aaa("./data/datasets/it07-tongue-cart.tsv", columns)  %>%
   na.omit() %>%
   mutate(word = word(prompt, 2)) %>%
   left_join(y = stimuli_it) %>%
@@ -122,7 +122,7 @@ tongue_it07 <- read_aaa("./datasets/it07-tongue-cart.tsv", columns)  %>%
 
 contrasts(tongue_it07$vc_voicing) <- "contr.treatment"
 
-tongue_it11 <- read_aaa("./datasets/it11-tongue-cart.tsv", columns)  %>%
+tongue_it11 <- read_aaa("./data/datasets/it11-tongue-cart.tsv", columns)  %>%
   na.omit() %>%
   mutate(word = word(prompt, 2)) %>%
   left_join(y = stimuli_it) %>%
@@ -138,7 +138,7 @@ tongue_it11 <- read_aaa("./datasets/it11-tongue-cart.tsv", columns)  %>%
 
 contrasts(tongue_it11$vc_voicing) <- "contr.treatment"
 
-tongue_pl02 <- read_aaa("./datasets/pl02-tongue-cart.tsv", columns)  %>%
+tongue_pl02 <- read_aaa("./data/datasets/pl02-tongue-cart.tsv", columns)  %>%
   na.omit() %>%
   mutate(word = word(prompt, 2)) %>%
   left_join(y = stimuli_pl) %>%
@@ -154,7 +154,7 @@ tongue_pl02 <- read_aaa("./datasets/pl02-tongue-cart.tsv", columns)  %>%
 
 contrasts(tongue_pl02$vc_voicing) <- "contr.treatment"
 
-tongue_pl03 <- read_aaa("./datasets/pl03-tongue-cart.tsv", columns)  %>%
+tongue_pl03 <- read_aaa("./data/datasets/pl03-tongue-cart.tsv", columns)  %>%
   na.omit() %>%
   mutate(word = word(prompt, 2)) %>%
   left_join(y = stimuli_pl) %>%
@@ -170,7 +170,7 @@ tongue_pl03 <- read_aaa("./datasets/pl03-tongue-cart.tsv", columns)  %>%
 
 contrasts(tongue_pl03$vc_voicing) <- "contr.treatment"
 
-tongue_pl04 <- read_aaa("./datasets/pl04-tongue-cart.tsv", columns)  %>%
+tongue_pl04 <- read_aaa("./data/datasets/pl04-tongue-cart.tsv", columns)  %>%
   na.omit() %>%
   mutate(word = word(prompt, 2)) %>%
   left_join(y = stimuli_pl) %>%
@@ -186,7 +186,7 @@ tongue_pl04 <- read_aaa("./datasets/pl04-tongue-cart.tsv", columns)  %>%
 
 contrasts(tongue_pl04$vc_voicing) <- "contr.treatment"
 
-tongue_pl05 <- read_aaa("./datasets/pl05-tongue-cart.tsv", columns)  %>%
+tongue_pl05 <- read_aaa("./data/datasets/pl05-tongue-cart.tsv", columns)  %>%
   na.omit() %>%
   mutate(word = word(prompt, 2)) %>%
   left_join(y = stimuli_pl) %>%
@@ -202,7 +202,7 @@ tongue_pl05 <- read_aaa("./datasets/pl05-tongue-cart.tsv", columns)  %>%
 
 contrasts(tongue_pl05$vc_voicing) <- "contr.treatment"
 
-tongue_pl06 <- read_aaa("./datasets/pl06-tongue-cart.tsv", columns)  %>%
+tongue_pl06 <- read_aaa("./data/datasets/pl06-tongue-cart.tsv", columns)  %>%
   na.omit() %>%
   mutate(word = word(prompt, 2)) %>%
   left_join(y = stimuli_pl) %>%
@@ -218,7 +218,7 @@ tongue_pl06 <- read_aaa("./datasets/pl06-tongue-cart.tsv", columns)  %>%
 
 contrasts(tongue_pl06$vc_voicing) <- "contr.treatment"
 
-tongue_pl07 <- read_aaa("./datasets/pl07-tongue-cart.tsv", columns)  %>%
+tongue_pl07 <- read_aaa("./data/datasets/pl07-tongue-cart.tsv", columns)  %>%
   na.omit() %>%
   mutate(word = word(prompt, 2)) %>%
   left_join(y = stimuli_pl) %>%

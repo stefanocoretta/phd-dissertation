@@ -9,7 +9,7 @@ theme_set(theme_minimal())
 ```
 
 ```{r load-data, include=FALSE}
-load("./datasets/speakers.rds")
+load("./data/datasets/speakers.rds")
 ```
 
 This analysis is based on the dataset used in @roettger2017 and @gordon2017, @gordon2018.^[A previous version of this appendix appeared as a blog post at <https://stefanocoretta.github.io/post/an-estimate-of-number-of-speakers-per-study-in-phonetics/>.]
