@@ -311,7 +311,7 @@ vow_lm <- cache_rds({
     (1|item),
   data = durations_filtered
   )
-}, "02_2018-relrel/vow_lm")
+}, "./data/cache/02_2018-relrel/vow_lm")
 
 summary(vow_lm)
 ```
@@ -324,7 +324,7 @@ figurer_2 <- cache_rds({
   geom_jitter(alpha = 0.1, width = 0.2) +
   facet_grid(language ~ vowel) +
   labs(x = "C2 voicing", y = "Vowel duration (ms)")
-}, "02_2018-relrel/figurer_2")
+}, "./data/cache/02_2018-relrel/figurer_2")
 print(figurer_2)
 ```
 
@@ -333,7 +333,7 @@ vow_descr <- cache_rds({
     durations_filtered %>%
   group_by(language, c2_phonation) %>%
   summarise(mean = mean(v1_duration, na.rm = TRUE), sd = sd(v1_duration, na.rm = TRUE), .groups = "drop")
-}, "02_2018-relrel/vow_descr")
+}, "./data/cache/02_2018-relrel/vow_descr")
 ```
 
 \@ref(fig:FigureR-2) shows boxplots and raw data of vowel duration for the three vowels /a, o, u/ when followed by voiceless or voiced stops in Italian and Polish.
@@ -373,7 +373,7 @@ clo_lm <- cache_rds({
     (1|item),
   data = durations_filtered
 )
-}, "02_2018-relrel/clo_lm")
+}, "./data/cache/02_2018-relrel/clo_lm")
 
 summary(clo_lm)
 ```
@@ -386,7 +386,7 @@ figurer_3 <- cache_rds({
   geom_jitter(alpha = 0.1, width = 0.2) +
   facet_grid(language ~ vowel) +
   labs(x = "C2 voicing", y = "C2 closure duration (ms)")
-}, "02_2018-relrel/figurer_3")
+}, "./data/cache/02_2018-relrel/figurer_3")
 print(figurer_3)
 ```
 
@@ -395,7 +395,7 @@ clos_descr <- cache_rds({
   durations_filtered %>%
   group_by(language, c2_phonation) %>%
   summarise(mean = mean(c2_clos_duration, na.rm = TRUE), sd = sd(c2_clos_duration, na.rm = TRUE), .groups = "drop")
-}, "02_2018-relrel/clos_descr")
+}, "./data/cache/02_2018-relrel/clos_descr")
 ```
 
 \@ref(fig:FigureR-3) illustrates stop closure durations with boxplots and individual raw data points.
@@ -426,7 +426,7 @@ vow_clo_lm <- cache_rds({
     (1|item),
   data = durations_filtered
 )
-}, "02_2018-relrel/vow_clo_lm")
+}, "./data/cache/02_2018-relrel/vow_clo_lm")
 summary(vow_clo_lm)
 ```
 
@@ -442,7 +442,7 @@ figurer_4 <- cache_rds({
   facet_grid(~ vowel) +
   coord_fixed() +
   labs(x = "Closure duration (ms)", y = "Vowel duration (ms)")
-}, "02_2018-relrel/figurer_4")
+}, "./data/cache/02_2018-relrel/figurer_4")
 print(figurer_4)
 ```
 
@@ -479,7 +479,7 @@ word_lm <- cache_rds({
   data = durations_filtered,
   REML = FALSE
 )
-}, "02_2018-relrel/word_lm")
+}, "./data/cache/02_2018-relrel/word_lm")
 
 word_lm_null <- cache_rds({
   lme4::lmer(
@@ -494,7 +494,7 @@ word_lm_null <- cache_rds({
   data = durations_filtered,
   REML = FALSE
 )
-}, "02_2018-relrel/word_lm_null")
+}, "./data/cache/02_2018-relrel/word_lm_null")
 
 word_bf <- round(exp((BIC(word_lm) - BIC(word_lm_null)) / 2))
 ```
@@ -504,7 +504,7 @@ word_descr <- cache_rds({
   word_filtered %>%
   group_by(language, c2_phonation) %>%
   summarise(mean = mean(word_duration, na.rm = TRUE), sd = sd(word_duration, na.rm = TRUE), .groups = "drop")
-}, "02_2018-relrel/word_descr")
+}, "./data/cache/02_2018-relrel/word_descr")
 ```
 
 Words with a voiceless C2 are on average `r round_2(word_descr[[1, 3]])` ms long (SD = `r round_2(word_descr[[1, 4]])`) in Italian and `r round_2(word_descr[[2, 3]])` ms long (SD = `r round_2(word_descr[[2, 4]])`) in Polish.
@@ -528,7 +528,7 @@ figurer_5 <- cache_rds({
   facet_grid(~ language) +
   labs(x = "C2 voicing", y = "release-to-release duration (ms)") +
   theme(legend.position = "none")
-}, "02_2018-relrel/figurer_5")
+}, "./data/cache/02_2018-relrel/figurer_5")
 print(figurer_5)
 ```
 
@@ -546,7 +546,7 @@ rr_lm <- cache_rds({
   data = durations_filtered,
   REML = FALSE
 )
-}, "02_2018-relrel/rr_lm")
+}, "./data/cache/02_2018-relrel/rr_lm")
 
 rr_lm_null <- cache_rds({
   lme4::lmer(
@@ -561,7 +561,7 @@ rr_lm_null <- cache_rds({
   data = durations_filtered,
   REML = FALSE
 )
-}, "02_2018-relrel/rr_lm_null")
+}, "./data/cache/02_2018-relrel/rr_lm_null")
 
 rr_bf <- round(exp((BIC(rr_lm) - BIC(rr_lm_null)) / 2))
 ```
@@ -571,7 +571,7 @@ rr_descr <- cache_rds({
   word_filtered %>%
   group_by(language, c2_phonation) %>%
   summarise(mean = mean(rel_rel, na.rm = TRUE), sd = sd(rel_rel, na.rm = TRUE))
-}, "02_2018-relrel/rr_descr")
+}, "./data/cache/02_2018-relrel/rr_descr")
 ```
 
 In \@ref(fig:FigureR-5), boxplots and raw data points show the duration of the release-to-release interval in words with a voiceless vs a voiced C2 stop, in Italian and Polish.
@@ -629,7 +629,7 @@ figurer_6 <- cache_rds({
     y = "Speaker",
     x = "Voicing effect (ms)"
   )
-}, "02_2018-relrel/figurer_6")
+}, "./data/cache/02_2018-relrel/figurer_6")
 print(figurer_6)
 ```
 

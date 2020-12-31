@@ -4,10 +4,9 @@
 #' time the value is loaded from the file if it exists.
 #'
 #' @param expr An R expression.
-#' @param file The name of the \code{.rds} file in which the object returned by
-#'   the expression will be saved (the file hash will be added to the file
-#'   name).
-#' @param dir The cache directory path (default \code{r_cache/}).
+#' @param file The name of the \code{.rds} file (including the path to the file)
+#'   in which the object returned by the expression will be saved (the file hash
+#'   will be added to the file name).
 #' @param hash A \code{list} object that contributes to the MD5 hash of the
 #'   cache file name.
 #' @param clean Whether to clean up the old cache files automatically when
@@ -50,10 +49,10 @@
 #' compute()
 #' file.remove(f)
 cache_rds <- function(
-  expr = {}, file, dir = "r_cache/",
+  expr = {}, file,
   hash = NULL, clean = TRUE, rerun = FALSE, ...
 ) {
-  path <- paste0(dir, file)
+  path <- file
   if (!grepl(r <- '([.]rds)$', path)) path = paste0(path, '.rds')
   code <- deparse(substitute(expr))
   md5  <- md5sum_obj(code)

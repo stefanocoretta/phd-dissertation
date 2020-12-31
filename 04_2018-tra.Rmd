@@ -553,7 +553,7 @@ figure5 <- cache_rds({
   ) +
   scale_colour_discrete(name = "V1 duration (ms)") +
   scale_linetype_discrete(name = "V1 duration (ms)")
-}, "04_2918-tra/figure5")
+}, "./data/cache/04_2018-tra/figure5")
 print(figure5)
 ```
 
@@ -756,7 +756,7 @@ figure8 <- cache_rds({
   ) +
   scale_colour_discrete(name = "C2 voicing") +
   scale_linetype_discrete(name = "C2 voicing")
-}, "04_2018_tra/figure8")
+}, "./data/cache/04_2018_tra/figure8")
 print(figure8)
 ```
 

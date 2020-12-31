@@ -416,7 +416,7 @@ it01_gam <- cache_rds({
   data = tongue_it01,
   method = "ML"
 )
-}, "07_2018-polar-gam/it01_gam")
+}, "./data/cache/07_2018-polar-gam/it01_gam")
 ```
 
 ```{r it01-gam-2, echo=TRUE, eval=FALSE}
@@ -478,7 +478,7 @@ it01_gam_0 <- cache_rds({
   data = tongue_it01,
   method = "ML"
 )
-}, "07_2018-polar-gam/iti01_gam_0")
+}, "./data/cache/07_2018-polar-gam/iti01_gam_0")
 ```
 
 ```{r it01-gam-0-2, echo=TRUE, eval=FALSE}
@@ -542,7 +542,7 @@ it01_gam_ar <- cache_rds({
   rho = it01_rho,
   AR_start = tongue_it01$start_event
 )
-}, "07_2018-polar-gam/it01_gam_ar")
+}, "./data/cache/07_2018-polar-gam/it01_gam_ar")
 ```
 
 ```{r Figure06, include=TRUE, fig.cap = "Autocorrelation plots of a model fitted without (top) and with (bottom) a first-order autoregressive model (AR1)."}
@@ -587,7 +587,7 @@ it01_gam_ar_0 <- cache_rds({
   rho = it01_rho,
   AR_start = tongue_it01$start_event
 )
-}, "07_2018-polar-gam/it01_gam_ar_0")
+}, "./data/cache/07_2018-polar-gam/it01_gam_ar_0")
 
 compareML(it01_gam_ar_0, it01_gam_ar)
 ```
@@ -600,7 +600,7 @@ it02_gam <- cache_rds({polar_gam(
     s(X, by = vc_voicing),
   data = tongue_it02,
   method = "ML"
-)}, "07_2018-polar-gam/it02_gam")
+)}, "./data/cache/07_2018-polar-gam/it02_gam")
 
 it02_rho <- start_value_rho(it02_gam)
 
@@ -613,7 +613,7 @@ it02_gam_ar <- cache_rds({polar_gam(
   method = "ML",
   rho = it02_rho,
   AR_start = tongue_it02$start_event
-)}, "07_2018-polar-gam/it02_gam_ar")
+)}, "./data/cache/07_2018-polar-gam/it02_gam_ar")
 
 it02_gam_ar_0 <- cache_rds({polar_gam(
   Y ~
@@ -622,7 +622,7 @@ it02_gam_ar_0 <- cache_rds({polar_gam(
   method = "ML",
   rho = it02_rho,
   AR_start = tongue_it02$start_event
-)}, "07_2018-polar-gam/it02_gam_ar_0")
+)}, "./data/cache/07_2018-polar-gam/it02_gam_ar_0")
 
 compareML(it02_gam_ar_0, it02_gam_ar)
 ```
@@ -635,7 +635,7 @@ it03_gam <- cache_rds({polar_gam(
     s(X, by = vc_voicing),
   data = tongue_it03,
   method = "ML"
-)}, "07_2018-polar-gam/it03_gam")
+)}, "./data/cache/07_2018-polar-gam/it03_gam")
 
 it03_rho <- start_value_rho(it03_gam)
 
@@ -648,7 +648,7 @@ it03_gam_ar <- cache_rds({polar_gam(
   method = "ML",
   rho = it03_rho,
   AR_start = tongue_it03$start_event
-)}, "07_2018-polar-gam/it03_gam_ar")
+)}, "./data/cache/07_2018-polar-gam/it03_gam_ar")
 
 it03_gam_ar_0 <- cache_rds({polar_gam(
   Y ~
@@ -657,7 +657,7 @@ it03_gam_ar_0 <- cache_rds({polar_gam(
   method = "ML",
   rho = it03_rho,
   AR_start = tongue_it03$start_event
-)}, "07_2018-polar-gam/it03_gam_ar_0")
+)}, "./data/cache/07_2018-polar-gam/it03_gam_ar_0")
 
 compareML(it03_gam_ar_0, it03_gam_ar)
 ```
@@ -670,7 +670,7 @@ it04_gam <- cache_rds({polar_gam(
     s(X, by = vc_voicing),
   data = tongue_it04,
   method = "ML"
-)}, "07_2018-polar-gam/it04_gam")
+)}, "./data/cache/07_2018-polar-gam/it04_gam")
 
 it04_rho <- start_value_rho(it04_gam)
 
@@ -683,7 +683,7 @@ it04_gam_ar <- cache_rds({polar_gam(
   method = "ML",
   rho = it04_rho,
   AR_start = tongue_it04$start_event
-)}, "07_2018-polar-gam/it04_gam_ar")
+)}, "./data/cache/07_2018-polar-gam/it04_gam_ar")
 
 it04_gam_ar_0 <- cache_rds({polar_gam(
   Y ~
@@ -692,7 +692,7 @@ it04_gam_ar_0 <- cache_rds({polar_gam(
   method = "ML",
   rho = it04_rho,
   AR_start = tongue_it04$start_event
-)}, "07_2018-polar-gam/it04_gam_ar_0")
+)}, "./data/cache/07_2018-polar-gam/it04_gam_ar_0")
 
 compareML(it04_gam_ar_0, it04_gam_ar)
 ```
@@ -705,7 +705,7 @@ it07_gam <- cache_rds({polar_gam(
     s(X, by = vc_voicing),
   data = tongue_it07,
   method = "ML"
-)}, "07_2018-polar-gam/it07_gam")
+)}, "./data/cache/07_2018-polar-gam/it07_gam")
 
 it07_rho <- start_value_rho(it07_gam)
 
@@ -718,7 +718,7 @@ it07_gam_ar <- cache_rds({polar_gam(
   method = "ML",
   rho = it07_rho,
   AR_start = tongue_it07$start_event
-)}, "07_2018-polar-gam/it07_gam_ar")
+)}, "./data/cache/07_2018-polar-gam/it07_gam_ar")
 
 it07_gam_ar_0 <- cache_rds({polar_gam(
   Y ~
@@ -727,7 +727,7 @@ it07_gam_ar_0 <- cache_rds({polar_gam(
   method = "ML",
   rho = it07_rho,
   AR_start = tongue_it07$start_event
-)}, "07_2018-polar-gam/it07_gam_ar_0")
+)}, "./data/cache/07_2018-polar-gam/it07_gam_ar_0")
 
 compareML(it07_gam_ar_0, it07_gam_ar)
 ```
@@ -740,7 +740,7 @@ it11_gam <- cache_rds({polar_gam(
     s(X, by = vc_voicing),
   data = tongue_it11,
   method = "ML"
-)}, "07_2018-polar-gam/it11_gam")
+)}, "./data/cache/07_2018-polar-gam/it11_gam")
 
 it11_rho <- start_value_rho(it11_gam)
 
@@ -753,7 +753,7 @@ it11_gam_ar <- cache_rds({polar_gam(
   method = "ML",
   rho = it11_rho,
   AR_start = tongue_it11$start_event
-)}, "07_2018-polar-gam/it11_gam_ar")
+)}, "./data/cache/07_2018-polar-gam/it11_gam_ar")
 
 it11_gam_ar_0 <- cache_rds({polar_gam(
   Y ~
@@ -762,7 +762,7 @@ it11_gam_ar_0 <- cache_rds({polar_gam(
   method = "ML",
   rho = it11_rho,
   AR_start = tongue_it11$start_event
-)}, "07_2018-polar-gam/it11_gam_ar_0")
+)}, "./data/cache/07_2018-polar-gam/it11_gam_ar_0")
 
 compareML(it11_gam_ar_0, it11_gam_ar)
 ```
@@ -775,7 +775,7 @@ pl02_gam <- cache_rds({polar_gam(
     s(X, by = vc_voicing),
   data = tongue_pl02,
   method = "ML"
-)}, "07_2018-polar-gam/pl02_gam")
+)}, "./data/cache/07_2018-polar-gam/pl02_gam")
 
 pl02_rho <- start_value_rho(pl02_gam)
 
@@ -788,7 +788,7 @@ pl02_gam_ar <- cache_rds({polar_gam(
   method = "ML",
   rho = pl02_rho,
   AR_start = tongue_pl02$start_event
-)}, "07_2018-polar-gam/pl02_gam_ar")
+)}, "./data/cache/07_2018-polar-gam/pl02_gam_ar")
 
 pl02_gam_ar_0 <- cache_rds({polar_gam(
   Y ~
@@ -797,7 +797,7 @@ pl02_gam_ar_0 <- cache_rds({polar_gam(
   method = "ML",
   rho = pl02_rho,
   AR_start = tongue_pl02$start_event
-)}, "07_2018-polar-gam/pl02_gam_ar_0")
+)}, "./data/cache/07_2018-polar-gam/pl02_gam_ar_0")
 
 compareML(pl02_gam_ar_0, pl02_gam_ar)
 ```
@@ -810,7 +810,7 @@ pl03_gam <- cache_rds({polar_gam(
     s(X, by = vc_voicing),
   data = tongue_pl03,
   method = "ML"
-)}, "07_2018-polar-gam/pl03_gam")
+)}, "./data/cache/07_2018-polar-gam/pl03_gam")
 
 pl03_rho <- start_value_rho(pl03_gam)
 
@@ -823,7 +823,7 @@ pl03_gam_ar <- cache_rds({polar_gam(
   method = "ML",
   rho = pl03_rho,
   AR_start = tongue_pl03$start_event
-)}, "07_2018-polar-gam/pl03_gam_ar")
+)}, "./data/cache/07_2018-polar-gam/pl03_gam_ar")
 
 pl03_gam_ar_0 <- cache_rds({polar_gam(
   Y ~
@@ -832,7 +832,7 @@ pl03_gam_ar_0 <- cache_rds({polar_gam(
   method = "ML",
   rho = pl03_rho,
   AR_start = tongue_pl03$start_event
-)}, "07_2018-polar-gam/pl03_gam_ar_0")
+)}, "./data/cache/07_2018-polar-gam/pl03_gam_ar_0")
 
 compareML(pl03_gam_ar_0, pl03_gam_ar)
 ```
@@ -845,7 +845,7 @@ pl04_gam <- cache_rds({polar_gam(
     s(X, by = vc_voicing),
   data = tongue_pl04,
   method = "ML"
-)}, "07_2018-polar-gam/pl04_gam_ar")
+)}, "./data/cache/07_2018-polar-gam/pl04_gam_ar")
 
 pl04_rho <- start_value_rho(pl04_gam)
 
@@ -858,7 +858,7 @@ pl04_gam_ar <- cache_rds({polar_gam(
   method = "ML",
   rho = pl04_rho,
   AR_start = tongue_pl04$start_event
-)}, "07_2018-polar-gam/pl04_gam_ar")
+)}, "./data/cache/07_2018-polar-gam/pl04_gam_ar")
 
 pl04_gam_ar_0 <- cache_rds({polar_gam(
   Y ~
@@ -867,7 +867,7 @@ pl04_gam_ar_0 <- cache_rds({polar_gam(
   method = "ML",
   rho = pl04_rho,
   AR_start = tongue_pl04$start_event
-)}, "07_2018-polar-gam/pl04_gam_ar_0")
+)}, "./data/cache/07_2018-polar-gam/pl04_gam_ar_0")
 
 compareML(pl04_gam_ar_0, pl04_gam_ar)
 ```
@@ -880,7 +880,7 @@ pl05_gam <- cache_rds({polar_gam(
     s(X, by = vc_voicing),
   data = tongue_pl05,
   method = "ML"
-)}, "07_2018-polar-gam/pl05_gam")
+)}, "./data/cache/07_2018-polar-gam/pl05_gam")
 
 pl05_rho <- start_value_rho(pl05_gam)
 
@@ -893,7 +893,7 @@ pl05_gam_ar <- cache_rds({polar_gam(
   method = "ML",
   rho = pl05_rho,
   AR_start = tongue_pl05$start_event
-)}, "07_2018-polar-gam/pl05_gam_ar")
+)}, "./data/cache/07_2018-polar-gam/pl05_gam_ar")
 
 pl05_gam_ar_0 <- cache_rds({polar_gam(
   Y ~
@@ -902,7 +902,7 @@ pl05_gam_ar_0 <- cache_rds({polar_gam(
   method = "ML",
   rho = pl05_rho,
   AR_start = tongue_pl05$start_event
-)}, "07_2018-polar-gam/pl05_gam_ar_0")
+)}, "./data/cache/07_2018-polar-gam/pl05_gam_ar_0")
 
 compareML(pl05_gam_ar_0, pl05_gam_ar)
 ```
@@ -916,7 +916,7 @@ pl06_gam <- cache_rds({polar_gam(
   data = tongue_pl06,
   method = "ML",
   fan_lines = c(16, 19)
-)}, "07_2018-polar-gam/pl06_gam")
+)}, "./data/cache/07_2018-polar-gam/pl06_gam")
 
 pl06_rho <- start_value_rho(pl06_gam)
 
@@ -930,7 +930,7 @@ pl06_gam_ar <- cache_rds({polar_gam(
   rho = pl06_rho,
   AR_start = tongue_pl06$start_event,
   fan_lines = c(16, 19)
-)}, "07_2018-polar-gam/pl06_gam_ar")
+)}, "./data/cache/07_2018-polar-gam/pl06_gam_ar")
 
 pl06_gam_ar_0 <- cache_rds({polar_gam(
   Y ~
@@ -940,7 +940,7 @@ pl06_gam_ar_0 <- cache_rds({polar_gam(
   rho = pl06_rho,
   AR_start = tongue_pl06$start_event,
   fan_lines = c(16, 19)
-)}, "07_2018-polar-gam/pl06_gam_ar_0")
+)}, "./data/cache/07_2018-polar-gam/pl06_gam_ar_0")
 
 compareML(pl06_gam_ar_0, pl06_gam_ar)
 ```
@@ -954,7 +954,7 @@ pl07_gam <- cache_rds({polar_gam(
   data = tongue_pl07,
   method = "ML",
   fan_lines = c(16, 19)
-)}, "07_2018-polar-gam/pl07_gam")
+)}, "./data/cache/07_2018-polar-gam/pl07_gam")
 
 pl07_rho <- start_value_rho(pl07_gam)
 
@@ -968,7 +968,7 @@ pl07_gam_ar <- cache_rds({polar_gam(
   rho = pl07_rho,
   AR_start = tongue_pl07$start_event,
   fan_lines = c(16, 19)
-)}, "07_2018-polar-gam/pl07_gam_ar")
+)}, "./data/cache/07_2018-polar-gam/pl07_gam_ar")
 
 pl07_gam_ar_0 <- cache_rds({polar_gam(
   Y ~
@@ -978,7 +978,7 @@ pl07_gam_ar_0 <- cache_rds({polar_gam(
   rho = pl07_rho,
   AR_start = tongue_pl07$start_event,
   fan_lines = c(16, 19)
-)}, "07_2018-polar-gam/pl07_gam_ar_0")
+)}, "./data/cache/07_2018-polar-gam/pl07_gam_ar_0")
 
 compareML(pl07_gam_ar_0, pl07_gam_ar)
 ```
