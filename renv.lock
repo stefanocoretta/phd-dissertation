@@ -219,6 +219,13 @@
       "Repository": "CRAN",
       "Hash": "9addc7e2c5954eca5719928131fed98c"
     },
+    "bookdown": {
+      "Package": "bookdown",
+      "Version": "0.21",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "1bf627f1f77313e345f71e779b658578"
+    },
     "boot": {
       "Package": "boot",
       "Version": "1.3-25",
@@ -344,6 +351,30 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "0f22be39ec1d141fd03683c06f3a6e67"
+    },
+    "coretta2018itapol": {
+      "Package": "coretta2018itapol",
+      "Version": "1.0.0",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "coretta2018itapol",
+      "RemoteUsername": "stefanocoretta",
+      "RemoteRef": "v1.0.0",
+      "RemoteSha": "595ab46b35cedb6cc2514b9b6b6b95e4a685e2e9",
+      "Hash": "a0b8d1b2fd0bc3f86767b37be234cae3"
+    },
+    "coretta2019eng": {
+      "Package": "coretta2019eng",
+      "Version": "1.0.0",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "coretta2019eng",
+      "RemoteUsername": "stefanocoretta",
+      "RemoteRef": "v1.0.0",
+      "RemoteSha": "39c5eda16b2419040d79f1419b3a4321531075a1",
+      "Hash": "07b15f83bb5873f602424b5db1bfb332"
     },
     "cpp11": {
       "Package": "cpp11",
@@ -821,6 +852,13 @@
       "Repository": "CRAN",
       "Hash": "5b5b02f621d39a499def7923a5aee746"
     },
+    "magick": {
+      "Package": "magick",
+      "Version": "2.5.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "857faefb4087451c588f37ee3f6f7312"
+    },
     "magrittr": {
       "Package": "magrittr",
       "Version": "2.0.1",
@@ -968,6 +1006,13 @@
       "Repository": "CRAN",
       "Hash": "2ebd34a38f4248281096cc723535b66d"
     },
+    "pander": {
+      "Package": "pander",
+      "Version": "0.6.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "121198ce37b5a6b5227edc5a38223da4"
+    },
     "parallelly": {
       "Package": "parallelly",
       "Version": "1.22.0",
@@ -1087,6 +1132,13 @@
       "Repository": "CRAN",
       "Hash": "a8730dcbdd19f9047774909f0ec214a4"
     },
+    "pryr": {
+      "Package": "pryr",
+      "Version": "0.1.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "bdc2df7c4155553e5a97a56a6c9f0a0d"
+    },
     "ps": {
       "Package": "ps",
       "Version": "1.5.0",
@@ -1107,6 +1159,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "aa9e6fe999d7c41f2b69c2bd3cf33f40"
+    },
+    "rapportools": {
+      "Package": "rapportools",
+      "Version": "1.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "91e40b68935a214e80ce91b628519253"
     },
     "raster": {
       "Package": "raster",
@@ -1156,6 +1215,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "b06bfb3504cc8a4579fd5567646f745b"
+    },
+    "reshape": {
+      "Package": "reshape",
+      "Version": "0.8.8",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "0f4d941129e00ed34a7d192b1da7ccef"
     },
     "reshape2": {
       "Package": "reshape2",
@@ -1331,6 +1397,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "0759e6b6c0957edb1311028a49a35e76"
+    },
+    "summarytools": {
+      "Package": "summarytools",
+      "Version": "0.9.8",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "1690b9db16e591b475e744c72fdd24a7"
     },
     "survey": {
       "Package": "survey",
