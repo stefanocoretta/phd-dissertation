@@ -27,6 +27,7 @@ library(broom)
 library(broom.mixed)
 library(knitr)
 library(kableExtra)
+source("./cache.R")
 ```
 
 ```{r read-data}

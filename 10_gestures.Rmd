@@ -11,7 +11,7 @@ scale_fill_discrete <- function(...) scale_fill_brewer(..., type = "qual")
 scale_colour_discrete <- function(...) scale_colour_brewer(..., type = "qual")
 library(brms)
 library(tidybayes)
-
+source("./cache.R")
 library(coretta2018itapol)
 data("token_measures")
 
@@ -78,7 +78,7 @@ rel_gons_bm <- brm(
   prior = priors,
   data = gestures,
   cores = 4,
-  file = "./cache/rel_gons_bm"
+  file = "./r_cache/10_gestures/rel_gons_bm"
 )
 ```
 

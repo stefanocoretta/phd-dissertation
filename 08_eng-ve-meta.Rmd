@@ -11,6 +11,7 @@ library(brms)
 library(tidybayes)
 library(knitr)
 library(kableExtra)
+source("./cache.R")
 
 def.chunk.hook  <- knitr::knit_hooks$get("chunk")
 knitr::knit_hooks$set(chunk = function(x, options) {
@@ -67,7 +68,7 @@ h37_bm <- brm(
   data = h37,
   prior = priors,
   seed = 9899,
-  file = "./cache/h37_bm"
+  file = "./r_cache/08_eng-ve-meta/h37_bm"
 )
 ```
 
@@ -86,7 +87,7 @@ hf53_bm <- brm(
   data = hf53,
   prior = priors,
   seed = 9899,
-  file = "./cache/hf53_bm"
+  file = "./r_cache/08_eng-ve-meta/hf53_bm"
 )
 ```
 
@@ -105,7 +106,7 @@ z58_bm <- brm(
   data = z58,
   prior = priors,
   seed = 9899,
-  file = "./cache/z58_bm"
+  file = "./r_cache/08_eng-ve-meta/z58_bm"
 )
 ```
 
@@ -124,7 +125,7 @@ pl60_bm <- brm(
   data = pl60,
   prior = priors,
   seed = 9899,
-  file = "./cache/pl60_bm"
+  file = "./r_cache/08_eng-ve-meta/pl60_bm"
 )
 ```
 
@@ -144,7 +145,7 @@ s62_di_bm <- brm(
   data = s62_di,
   prior = priors,
   seed = 9899,
-  file = "./cache/s62_di_bm"
+  file = "./r_cache/08_eng-ve-meta/s62_di_bm"
 )
 
 s62_mono_bm <- brm(
@@ -153,7 +154,7 @@ s62_mono_bm <- brm(
   data = s62_mono,
   prior = priors,
   seed = 9899,
-  file = "./cache/s62_mono_bm"
+  file = "./r_cache/08_eng-ve-meta/s62_mono_bm"
 )
 ```
 
@@ -172,7 +173,7 @@ c70_bm <- brm(
   data = c70,
   prior = priors,
   seed = 9899,
-  file = "./cache/c70_bm"
+  file = "./r_cache/08_eng-ve-meta/c70_bm"
 )
 ```
 
@@ -192,7 +193,7 @@ k73_di_bm <- brm(
   data = k73_di,
   prior = priors,
   seed = 9899,
-  file = "./cache/k73_di_bm",
+  file = "./r_cache/08_eng-ve-meta/k73_di_bm",
   control = list(adapt_delta = 0.999)
 )
 
@@ -202,7 +203,7 @@ k73_mono_bm <- brm(
   data = k73_mono,
   prior = priors,
   seed = 9899,
-  file = "./cache/k73_mono_bm",
+  file = "./r_cache/08_eng-ve-meta/k73_mono_bm",
   control = list(adapt_delta = 0.999)
 )
 ```
@@ -222,7 +223,7 @@ m82_bm <- brm(
   data = m82,
   prior = priors,
   seed = 9899,
-  file = "./cache/m82_bm"
+  file = "./r_cache/08_eng-ve-meta/m82_bm"
 )
 ```
 
@@ -241,7 +242,7 @@ l85_medial_bm <- brm(
   data = l85_medial,
   prior = priors,
   seed = 9899,
-  file = "./cache/l85_medial_bm"
+  file = "./r_cache/08_eng-ve-meta/l85_medial_bm"
 )
 
 l85_final_bm <- brm(
@@ -250,7 +251,7 @@ l85_final_bm <- brm(
   data = l85_final,
   prior = priors,
   seed = 9899,
-  file = "./cache/l85_final_bm"
+  file = "./r_cache/08_eng-ve-meta/l85_final_bm"
 )
 ```
 
@@ -268,7 +269,7 @@ d89_bm <- brm(
   data = d89,
   prior = priors,
   seed = 9899,
-  file = "./cache/d89_bm"
+  file = "./r_cache/08_eng-ve-meta/d89_bm"
 )
 ```
 
@@ -287,7 +288,7 @@ l92_bm <- brm(
   data = l92,
   prior = priors,
   seed = 9899,
-  file = "./cache/l92_bm"
+  file = "./r_cache/08_eng-ve-meta/l92_bm"
 )
 ```
 
@@ -305,7 +306,7 @@ k18_bm <- brm(
   data = k18,
   prior = priors,
   seed = 9899,
-  file = "./cache/k18_bm"
+  file = "./r_cache/08_eng-ve-meta/k18_bm"
 )
 ```
 
@@ -362,7 +363,7 @@ meta_bm_syl <- brm(
   prior = priors,
   control = list(adapt_delta = 0.999),
   seed = 9899,
-  file = "./cache/meta_bm_syl"
+  file = "./r_cache/08_eng-ve-meta/meta_bm_syl"
 )
 
 meta_bm_est <- fixef(meta_bm_syl)["Intercept","Estimate"]

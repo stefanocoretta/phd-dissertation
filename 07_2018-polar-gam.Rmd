@@ -17,6 +17,7 @@ library(tidymv) # install from https://github.com/stefanocoretta/tidymv
 library(rticulate) # install from https://github.com/stefanocoretta/rticulate
 library(mgcv)
 library(itsadug)
+source("./cache.R")
 ```
 
 ```{r read-data, include=FALSE}
@@ -405,7 +406,20 @@ The following code fits the specified model to the contour data of IT01.
 When running the code, the coordinates of the estimated origin used for the conversion to polar coordinates are returned.
 The model is fitted by Maximum Likelihood (ML) here to allow model comparison below.
 
-```{r it01-gam, echo=TRUE, cache=TRUE}
+```{r it01-gam, echo=FALSE}
+it01_gam <- cache_rds({
+  polar_gam(
+  Y ~
+    vc_voicing +            # parametric term
+    s(X) +                  # reference smooth
+    s(X, by = vc_voicing),  # difference smooth
+  data = tongue_it01,
+  method = "ML"
+)
+}, "07_2018-polar-gam/it01_gam")
+```
+
+```{r it01-gam-2, echo=TRUE, eval=FALSE}
 it01_gam <- polar_gam(
   Y ~
     vc_voicing +            # parametric term
@@ -422,7 +436,7 @@ Note that, differently from SSANOVA, statistical significance can't be assessed 
 The output of `plot_polar_smooths()` is shown in \@ref(fig:Figure04).
 For more details on fitting and plotting more complex models (for example models with multiple predictors or tensor product smooths), see the package vignette `polar-gams` (accessible with `vignette("polar-gams", package = "rticulate")`).
 
-```{r it01-gam-plot-code, echo=TRUE, eval=FALSE}
+```{r it01-gam-plot-code, echo=TRUE}
 plot_polar_smooths(
   it01_gam,
   X,
@@ -435,6 +449,7 @@ plot_polar_smooths(
   coord_fixed() +
   theme(legend.position = "top")
 ```
+
 
 ```{r Figure04, include=TRUE, fig.cap = "Estimated tongue contours of IT01 depending on C2 place, vowel and C2 voicing.", out.extra="width=\\linewidth"}
 plot_polar_smooths(
@@ -453,7 +468,20 @@ plot_polar_smooths(
 One way to assess significance of model terms is to compare the ML score of the full model against one without the relevant predictor, using the function `compareML()` from the itsadug package [@van-rij2017].
 Both the parametric term and the difference smooth need to be removed in the null model.
 
-```{r it01-gam-0, echo=TRUE, cache=TRUE}
+```{r it01-gam-0, echo=FALSE}
+it01_gam_0 <- cache_rds({
+  polar_gam(
+  Y ~
+    # vc_voicing +            # remove parametric term
+    s(X),                     # keep reference smooth
+    # s(X, by = vc_voicing),  # remove difference smooth
+  data = tongue_it01,
+  method = "ML"
+)
+}, "07_2018-polar-gam/iti01_gam_0")
+```
+
+```{r it01-gam-0-2, echo=TRUE, eval=FALSE}
 it01_gam_0 <- polar_gam(
   Y ~
     # vc_voicing +            # remove parametric term
@@ -500,10 +528,11 @@ The GAM model with the AR1 correction has lower autocorrelation values.
 In this case, it is thus advisable to perform ML comparison and smooths plotting with models in which an AR1 model has been included.
 For a more in-depth treatment of issues related to autocorrelation, see @soskuthy2017.
 
-```{r it01-gam-ar, cache=TRUE, message=FALSE}
+```{r it01-gam-ar, message=FALSE}
 it01_rho <- start_value_rho(it01_gam)
 
-it01_gam_ar <- polar_gam(
+it01_gam_ar <- cache_rds({
+  polar_gam(
   Y ~
     vc_voicing +
     s(X) +
@@ -513,6 +542,7 @@ it01_gam_ar <- polar_gam(
   rho = it01_rho,
   AR_start = tongue_it01$start_event
 )
+}, "07_2018-polar-gam/it01_gam_ar")
 ```
 
 ```{r Figure06, include=TRUE, fig.cap = "Autocorrelation plots of a model fitted without (top) and with (bottom) a first-order autoregressive model (AR1)."}
@@ -547,8 +577,9 @@ This movement corresponds to an average volume increase of 18 cm\textsuperscript
 Given these estimates, it can be argued that a 2 mm change in root position along the mid-sagittal plane contributes to an appreciable oral cavity volume increase.
 Considering that other volume expansion mechanisms can operate along with the advancement of the tongue root (like larynx lowering, tongue body lowering, etc.), the tongue root driven volume increase found here, although at first sight small, seems to be sufficient to allow for voicing to be maintained during the closure of voiced stops.
 
-```{r it01-gam-ar-2, cache=TRUE, message=FALSE, include=FALSE}
-it01_gam_ar_0 <- polar_gam(
+```{r it01-gam-ar-2, message=FALSE, include=FALSE}
+it01_gam_ar_0 <- cache_rds({
+  polar_gam(
   Y ~
     s(X),
   data = tongue_it01,
@@ -556,23 +587,24 @@ it01_gam_ar_0 <- polar_gam(
   rho = it01_rho,
   AR_start = tongue_it01$start_event
 )
+}, "07_2018-polar-gam/it01_gam_ar_0")
 
 compareML(it01_gam_ar_0, it01_gam_ar)
 ```
 
-```{r it02-gam-ar, cache=TRUE, message=FALSE, include=FALSE}
-it02_gam <- polar_gam(
+```{r it02-gam-ar, message=FALSE, include=FALSE}
+it02_gam <- cache_rds({polar_gam(
   Y ~
     vc_voicing +
     s(X) +
     s(X, by = vc_voicing),
   data = tongue_it02,
   method = "ML"
-)
+)}, "07_2018-polar-gam/it02_gam")
 
 it02_rho <- start_value_rho(it02_gam)
 
-it02_gam_ar <- polar_gam(
+it02_gam_ar <- cache_rds({polar_gam(
   Y ~
     vc_voicing +
     s(X) +
@@ -581,33 +613,33 @@ it02_gam_ar <- polar_gam(
   method = "ML",
   rho = it02_rho,
   AR_start = tongue_it02$start_event
-)
+)}, "07_2018-polar-gam/it02_gam_ar")
 
-it02_gam_ar_0 <- polar_gam(
+it02_gam_ar_0 <- cache_rds({polar_gam(
   Y ~
     s(X),
   data = tongue_it02,
   method = "ML",
   rho = it02_rho,
   AR_start = tongue_it02$start_event
-)
+)}, "07_2018-polar-gam/it02_gam_ar_0")
 
 compareML(it02_gam_ar_0, it02_gam_ar)
 ```
 
-```{r it03-gam-ar, cache=TRUE, message=FALSE, include=FALSE}
-it03_gam <- polar_gam(
+```{r it03-gam-ar, message=FALSE, include=FALSE}
+it03_gam <- cache_rds({polar_gam(
   Y ~
     vc_voicing +
     s(X) +
     s(X, by = vc_voicing),
   data = tongue_it03,
   method = "ML"
-)
+)}, "07_2018-polar-gam/it03_gam")
 
 it03_rho <- start_value_rho(it03_gam)
 
-it03_gam_ar <- polar_gam(
+it03_gam_ar <- cache_rds({polar_gam(
   Y ~
     vc_voicing +
     s(X) +
@@ -616,33 +648,33 @@ it03_gam_ar <- polar_gam(
   method = "ML",
   rho = it03_rho,
   AR_start = tongue_it03$start_event
-)
+)}, "07_2018-polar-gam/it03_gam_ar")
 
-it03_gam_ar_0 <- polar_gam(
+it03_gam_ar_0 <- cache_rds({polar_gam(
   Y ~
     s(X),
   data = tongue_it03,
   method = "ML",
   rho = it03_rho,
   AR_start = tongue_it03$start_event
-)
+)}, "07_2018-polar-gam/it03_gam_ar_0")
 
 compareML(it03_gam_ar_0, it03_gam_ar)
 ```
 
-```{r it04-gam-ar, cache=TRUE, message=FALSE, include=FALSE}
-it04_gam <- polar_gam(
+```{r it04-gam-ar, message=FALSE, include=FALSE}
+it04_gam <- cache_rds({polar_gam(
   Y ~
     vc_voicing +
     s(X) +
     s(X, by = vc_voicing),
   data = tongue_it04,
   method = "ML"
-)
+)}, "07_2018-polar-gam/it04_gam")
 
 it04_rho <- start_value_rho(it04_gam)
 
-it04_gam_ar <- polar_gam(
+it04_gam_ar <- cache_rds({polar_gam(
   Y ~
     vc_voicing +
     s(X) +
@@ -651,33 +683,33 @@ it04_gam_ar <- polar_gam(
   method = "ML",
   rho = it04_rho,
   AR_start = tongue_it04$start_event
-)
+)}, "07_2018-polar-gam/it04_gam_ar")
 
-it04_gam_ar_0 <- polar_gam(
+it04_gam_ar_0 <- cache_rds({polar_gam(
   Y ~
     s(X),
   data = tongue_it04,
   method = "ML",
   rho = it04_rho,
   AR_start = tongue_it04$start_event
-)
+)}, "07_2018-polar-gam/it04_gam_ar_0")
 
 compareML(it04_gam_ar_0, it04_gam_ar)
 ```
 
-```{r it07-gam-ar, cache=TRUE, message=FALSE, include=FALSE}
-it07_gam <- polar_gam(
+```{r it07-gam-ar, message=FALSE, include=FALSE}
+it07_gam <- cache_rds({polar_gam(
   Y ~
     vc_voicing +
     s(X) +
     s(X, by = vc_voicing),
   data = tongue_it07,
   method = "ML"
-)
+)}, "07_2018-polar-gam/it07_gam")
 
 it07_rho <- start_value_rho(it07_gam)
 
-it07_gam_ar <- polar_gam(
+it07_gam_ar <- cache_rds({polar_gam(
   Y ~
     vc_voicing +
     s(X) +
@@ -686,33 +718,33 @@ it07_gam_ar <- polar_gam(
   method = "ML",
   rho = it07_rho,
   AR_start = tongue_it07$start_event
-)
+)}, "07_2018-polar-gam/it07_gam_ar")
 
-it07_gam_ar_0 <- polar_gam(
+it07_gam_ar_0 <- cache_rds({polar_gam(
   Y ~
     s(X),
   data = tongue_it07,
   method = "ML",
   rho = it07_rho,
   AR_start = tongue_it07$start_event
-)
+)}, "07_2018-polar-gam/it07_gam_ar_0")
 
 compareML(it07_gam_ar_0, it07_gam_ar)
 ```
 
-```{r it11-gam-ar, cache=TRUE, message=FALSE, include=FALSE}
-it11_gam <- polar_gam(
+```{r it11-gam-ar, message=FALSE, include=FALSE}
+it11_gam <- cache_rds({polar_gam(
   Y ~
     vc_voicing +
     s(X) +
     s(X, by = vc_voicing),
   data = tongue_it11,
   method = "ML"
-)
+)}, "07_2018-polar-gam/it11_gam")
 
 it11_rho <- start_value_rho(it11_gam)
 
-it11_gam_ar <- polar_gam(
+it11_gam_ar <- cache_rds({polar_gam(
   Y ~
     vc_voicing +
     s(X) +
@@ -721,33 +753,33 @@ it11_gam_ar <- polar_gam(
   method = "ML",
   rho = it11_rho,
   AR_start = tongue_it11$start_event
-)
+)}, "07_2018-polar-gam/it11_gam_ar")
 
-it11_gam_ar_0 <- polar_gam(
+it11_gam_ar_0 <- cache_rds({polar_gam(
   Y ~
     s(X),
   data = tongue_it11,
   method = "ML",
   rho = it11_rho,
   AR_start = tongue_it11$start_event
-)
+)}, "07_2018-polar-gam/it11_gam_ar_0")
 
 compareML(it11_gam_ar_0, it11_gam_ar)
 ```
 
-```{r pl02-gam-ar, cache=TRUE, message=FALSE, include=FALSE}
-pl02_gam <- polar_gam(
+```{r pl02-gam-ar, message=FALSE, include=FALSE}
+pl02_gam <- cache_rds({polar_gam(
   Y ~
     vc_voicing +
     s(X) +
     s(X, by = vc_voicing),
   data = tongue_pl02,
   method = "ML"
-)
+)}, "07_2018-polar-gam/pl02_gam")
 
 pl02_rho <- start_value_rho(pl02_gam)
 
-pl02_gam_ar <- polar_gam(
+pl02_gam_ar <- cache_rds({polar_gam(
   Y ~
     vc_voicing +
     s(X) +
@@ -756,33 +788,33 @@ pl02_gam_ar <- polar_gam(
   method = "ML",
   rho = pl02_rho,
   AR_start = tongue_pl02$start_event
-)
+)}, "07_2018-polar-gam/pl02_gam_ar")
 
-pl02_gam_ar_0 <- polar_gam(
+pl02_gam_ar_0 <- cache_rds({polar_gam(
   Y ~
     s(X),
   data = tongue_pl02,
   method = "ML",
   rho = pl02_rho,
   AR_start = tongue_pl02$start_event
-)
+)}, "07_2018-polar-gam/pl02_gam_ar_0")
 
 compareML(pl02_gam_ar_0, pl02_gam_ar)
 ```
 
-```{r pl03-gam-ar, cache=TRUE, message=FALSE, include=FALSE}
-pl03_gam <- polar_gam(
+```{r pl03-gam-ar, message=FALSE, include=FALSE}
+pl03_gam <- cache_rds({polar_gam(
   Y ~
     vc_voicing +
     s(X) +
     s(X, by = vc_voicing),
   data = tongue_pl03,
   method = "ML"
-)
+)}, "07_2018-polar-gam/pl03_gam")
 
 pl03_rho <- start_value_rho(pl03_gam)
 
-pl03_gam_ar <- polar_gam(
+pl03_gam_ar <- cache_rds({polar_gam(
   Y ~
     vc_voicing +
     s(X) +
@@ -791,33 +823,33 @@ pl03_gam_ar <- polar_gam(
   method = "ML",
   rho = pl03_rho,
   AR_start = tongue_pl03$start_event
-)
+)}, "07_2018-polar-gam/pl03_gam_ar")
 
-pl03_gam_ar_0 <- polar_gam(
+pl03_gam_ar_0 <- cache_rds({polar_gam(
   Y ~
     s(X),
   data = tongue_pl03,
   method = "ML",
   rho = pl03_rho,
   AR_start = tongue_pl03$start_event
-)
+)}, "07_2018-polar-gam/pl03_gam_ar_0")
 
 compareML(pl03_gam_ar_0, pl03_gam_ar)
 ```
 
-```{r pl04-gam-ar, cache=TRUE, message=FALSE, include=FALSE}
-pl04_gam <- polar_gam(
+```{r pl04-gam-ar, message=FALSE, include=FALSE}
+pl04_gam <- cache_rds({polar_gam(
   Y ~
     vc_voicing +
     s(X) +
     s(X, by = vc_voicing),
   data = tongue_pl04,
   method = "ML"
-)
+)}, "07_2018-polar-gam/pl04_gam_ar")
 
 pl04_rho <- start_value_rho(pl04_gam)
 
-pl04_gam_ar <- polar_gam(
+pl04_gam_ar <- cache_rds({polar_gam(
   Y ~
     vc_voicing +
     s(X) +
@@ -826,33 +858,33 @@ pl04_gam_ar <- polar_gam(
   method = "ML",
   rho = pl04_rho,
   AR_start = tongue_pl04$start_event
-)
+)}, "07_2018-polar-gam/pl04_gam_ar")
 
-pl04_gam_ar_0 <- polar_gam(
+pl04_gam_ar_0 <- cache_rds({polar_gam(
   Y ~
     s(X),
   data = tongue_pl04,
   method = "ML",
   rho = pl04_rho,
   AR_start = tongue_pl04$start_event
-)
+)}, "07_2018-polar-gam/pl04_gam_ar_0")
 
 compareML(pl04_gam_ar_0, pl04_gam_ar)
 ```
 
-```{r pl05-gam-ar, cache=TRUE, message=FALSE, include=FALSE}
-pl05_gam <- polar_gam(
+```{r pl05-gam-ar, message=FALSE, include=FALSE}
+pl05_gam <- cache_rds({polar_gam(
   Y ~
     vc_voicing +
     s(X) +
     s(X, by = vc_voicing),
   data = tongue_pl05,
   method = "ML"
-)
+)}, "07_2018-polar-gam/pl05_gam")
 
 pl05_rho <- start_value_rho(pl05_gam)
 
-pl05_gam_ar <- polar_gam(
+pl05_gam_ar <- cache_rds({polar_gam(
   Y ~
     vc_voicing +
     s(X) +
@@ -861,22 +893,22 @@ pl05_gam_ar <- polar_gam(
   method = "ML",
   rho = pl05_rho,
   AR_start = tongue_pl05$start_event
-)
+)}, "07_2018-polar-gam/pl05_gam_ar")
 
-pl05_gam_ar_0 <- polar_gam(
+pl05_gam_ar_0 <- cache_rds({polar_gam(
   Y ~
     s(X),
   data = tongue_pl05,
   method = "ML",
   rho = pl05_rho,
   AR_start = tongue_pl05$start_event
-)
+)}, "07_2018-polar-gam/pl05_gam_ar_0")
 
 compareML(pl05_gam_ar_0, pl05_gam_ar)
 ```
 
-```{r pl06-gam-ar, cache=TRUE, message=FALSE, include=FALSE}
-pl06_gam <- polar_gam(
+```{r pl06-gam-ar, message=FALSE, include=FALSE}
+pl06_gam <- cache_rds({polar_gam(
   Y ~
     vc_voicing +
     s(X) +
@@ -884,11 +916,11 @@ pl06_gam <- polar_gam(
   data = tongue_pl06,
   method = "ML",
   fan_lines = c(16, 19)
-)
+)}, "07_2018-polar-gam/pl06_gam")
 
 pl06_rho <- start_value_rho(pl06_gam)
 
-pl06_gam_ar <- polar_gam(
+pl06_gam_ar <- cache_rds({polar_gam(
   Y ~
     vc_voicing +
     s(X) +
@@ -898,9 +930,9 @@ pl06_gam_ar <- polar_gam(
   rho = pl06_rho,
   AR_start = tongue_pl06$start_event,
   fan_lines = c(16, 19)
-)
+)}, "07_2018-polar-gam/pl06_gam_ar")
 
-pl06_gam_ar_0 <- polar_gam(
+pl06_gam_ar_0 <- cache_rds({polar_gam(
   Y ~
     s(X),
   data = tongue_pl06,
@@ -908,13 +940,13 @@ pl06_gam_ar_0 <- polar_gam(
   rho = pl06_rho,
   AR_start = tongue_pl06$start_event,
   fan_lines = c(16, 19)
-)
+)}, "07_2018-polar-gam/pl06_gam_ar_0")
 
 compareML(pl06_gam_ar_0, pl06_gam_ar)
 ```
 
-```{r pl07-gam-ar, cache=TRUE, message=FALSE, include=FALSE}
-pl07_gam <- polar_gam(
+```{r pl07-gam-ar, message=FALSE, include=FALSE}
+pl07_gam <- cache_rds({polar_gam(
   Y ~
     vc_voicing +
     s(X) +
@@ -922,11 +954,11 @@ pl07_gam <- polar_gam(
   data = tongue_pl07,
   method = "ML",
   fan_lines = c(16, 19)
-)
+)}, "07_2018-polar-gam/pl07_gam")
 
 pl07_rho <- start_value_rho(pl07_gam)
 
-pl07_gam_ar <- polar_gam(
+pl07_gam_ar <- cache_rds({polar_gam(
   Y ~
     vc_voicing +
     s(X) +
@@ -936,9 +968,9 @@ pl07_gam_ar <- polar_gam(
   rho = pl07_rho,
   AR_start = tongue_pl07$start_event,
   fan_lines = c(16, 19)
-)
+)}, "07_2018-polar-gam/pl07_gam_ar")
 
-pl07_gam_ar_0 <- polar_gam(
+pl07_gam_ar_0 <- cache_rds({polar_gam(
   Y ~
     s(X),
   data = tongue_pl07,
@@ -946,7 +978,7 @@ pl07_gam_ar_0 <- polar_gam(
   rho = pl07_rho,
   AR_start = tongue_pl07$start_event,
   fan_lines = c(16, 19)
-)
+)}, "07_2018-polar-gam/pl07_gam_ar_0")
 
 compareML(pl07_gam_ar_0, pl07_gam_ar)
 ```

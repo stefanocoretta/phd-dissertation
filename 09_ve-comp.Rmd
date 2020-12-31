@@ -11,6 +11,7 @@ library(coretta2018itapol)
 data("token_measures")
 library(coretta2019eng)
 data("eng_durations")
+source("./cache.R")
 
 def.chunk.hook  <- knitr::knit_hooks$get("chunk")
 knitr::knit_hooks$set(chunk = function(x, options) {
@@ -90,7 +91,7 @@ brm_1 <- brm(
   data = enitpl,
   family = gaussian(),
   prior = priors,
-  file = "cache/ve_comp",
+  file = "./r_cache/09_ve-comp/ve_comp",
   cores = 4,
   control = list(adapt_delta = 0.999, max_treedepth = 15),
   seed = 1432

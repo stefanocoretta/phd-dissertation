@@ -15,6 +15,7 @@ theme_set(theme_minimal())
 ## data("wavegram_p")
 ## library(coretta2018itapol)
 ## data("wavegram")
+source("./cache.R")
 ```
 
 ```{r load-data}
