@@ -1,0 +1,5 @@
+[core]
+    remote = ips
+['remote "ips"']
+    url = ssh://s.coretta@ssh.phonetik.uni-muenchen.de/homes/s.coretta/dvc/phd-dissertation/
+    ask_password = true
