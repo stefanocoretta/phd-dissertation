@@ -343,7 +343,7 @@ rr_1 <- brm(
   prior = priors,
   cores = 4,
   seed = 1234,
-  file = "./cache/model_1_rr"
+  file = "./r_cache/03_2019-english-rr/model_1_rr"
 )
 ```
 
@@ -398,7 +398,7 @@ rr_2 <- brm(
   prior = priors,
   cores = 4,
   seed = 1234,
-  file = "./cache/model_2_rr"
+  file = "./r_cache/03_2019-english-rr/model_2_rr"
 )
 ```
 
@@ -460,7 +460,7 @@ rr_3 <- brm(
   prior = priors,
   cores = 4,
   seed = 1234,
-  file = "./cache/model_3_rr"
+  file = "./r_cache/03_2019-english-rr/model_3_rr"
 )
 ```
 
@@ -547,7 +547,7 @@ vow_4 <- brm(
   family = gaussian(),
   data = eng_durations,
   prior = priors,
-  file = "./cache/model_4_vow",
+  file = "./r_cache/03_2019-english-rr/model_4_vow",
   cores = 4
 )
 ```
@@ -648,7 +648,7 @@ clos_5 <- brm(
   data = eng_clos,
   prior = priors,
   cores = 4,
-  file = "./cache/model_5_clos"
+  file = "./r_cache/03_2019-english-rr/model_5_clos"
 )
 ```
 

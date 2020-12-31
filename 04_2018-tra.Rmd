@@ -293,9 +293,10 @@ Future research is warranted to ascertain language-related differences and possi
 
 ### Tongue root position at C2 closure onset {#s:tra-lm}
 
-```{r tra-lm, include=FALSE, cache=TRUE}
-tra_lm <- lmer(
-  trp ~
+```{r tra-lm, include=FALSE}
+tra_lm <- cache_rds({
+    lmer(
+      trp ~
     c2_phonation +
     speech_rate_c +
     vowel +
@@ -303,6 +304,7 @@ tra_lm <- lmer(
     (1|item),
   data = kines
 )
+}, "04_2018-tra/tra_lm")
 
 summary(tra_lm)
 ```
@@ -332,8 +334,9 @@ kable_styling(font_size = 10)
 
 ### Tongue root position during V1 {#s:trp-v1}
 
-```{r tra-gam, include=FALSE, cache=TRUE}
-tra_gam <- bam(
+```{r tra-gam, include=FALSE}
+tra_gam <- cache_rds({
+  bam(
   trp ~
     c2_phonation_o +
     s(speech_rate_c) +
@@ -343,10 +346,12 @@ tra_gam <- bam(
     s(proportion, speaker, bs = "fs", m = 1),
   data = tra_series
 )
+}, "04_2018-tra/tra_gam")
 
 rho <- start_value_rho(tra_gam)
 
-tra_gam_ar <- bam(
+tra_gam_ar <-cache_rds({
+  bam(
   trp ~
     c2_phonation_o +
     s(speech_rate_c) +
@@ -359,8 +364,10 @@ tra_gam_ar <- bam(
   rho = rho,
   AR.start = tra_series$start_event
 )
+}, "04_2018-tra/tra_gam_ar")
 
-tra_gam_ar_0 <- bam(
+tra_gam_ar_0 <- cache_rds({
+  bam(
   trp ~
     # c2_phonation_o +
     s(speech_rate_c) +
@@ -373,6 +380,7 @@ tra_gam_ar_0 <- bam(
   rho = rho,
   AR.start = tra_series$start_event
 )
+}, "04_2018-tra/tra_gam_ar_0")
 
 compareML(tra_gam_ar_0, tra_gam_ar)
 ```
@@ -401,8 +409,9 @@ kable(
 kable_styling(font_size = 10)
 ```
 
-```{r Figure3, include=TRUE, fig.cap="Predicted tongue root position (top figure) during vowels preceding voiceless and voiced stops, with 95\\% confidence intervals, and difference smooth (bottom figure). Higher values of tongue root position indicate a more advanced root. The shaded red area in the difference smooth indicates where the two curves are different. Predictions from a GAMM (see \\@ref(s:trp-v1)).", out.extra="width=\\linewidth", cache=TRUE}
-smooths <- predict_gam(tra_gam_ar, exclude_terms = list("s(proportion,speaker)", "s(speech_rate_c)", "ti(proportion,speech_rate_c)")) %>%
+```{r Figure3, include=TRUE, fig.cap="Predicted tongue root position (top figure) during vowels preceding voiceless and voiced stops, with 95\\% confidence intervals, and difference smooth (bottom figure). Higher values of tongue root position indicate a more advanced root. The shaded red area in the difference smooth indicates where the two curves are different. Predictions from a GAMM (see \\@ref(s:trp-v1)).", out.extra="width=\\linewidth"}
+smooths <- cache_rds({
+  predict_gam(tra_gam_ar, exclude_terms = list("s(proportion,speaker)", "s(speech_rate_c)", "ti(proportion,speech_rate_c)")) %>%
   filter(speaker == "it01") %>% # random effect have been cancelled, so selecting one speaker
   ggplot(aes(proportion, fit)) +
   geom_smooth_ci(c2_phonation_o, size = 1) +
@@ -412,17 +421,21 @@ smooths <- predict_gam(tra_gam_ar, exclude_terms = list("s(proportion,speaker)",
   ) +
   scale_colour_discrete(name = "C2 voicing") +
   scale_linetype_discrete(name = "C2 voicing")
+}, "04_2018-tra/smooths")
 
-difference <- plot_difference(tra_gam_ar, proportion, list(c2_phonation_o = c("voiced", "voiceless"))) +
+difference <- cache_rds({
+  plot_difference(tra_gam_ar, proportion, list(c2_phonation_o = c("voiced", "voiceless"))) +
   scale_x_continuous(labels = NULL, name = element_blank())
+}, "04_2018-tra/difference")
 
 smooths + difference + plot_layout(ncol = 1, heights = c(3, 1))
 ```
 
 ### Correlation between tongue root position and V1 duration {#s:trp-vdur}
 
-```{r tra-lm-2, include=FALSE, cache=TRUE}
-tra_lm_2 <- lmer(
+```{r tra-lm-2, include=FALSE}
+tra_lm_2 <- cache_rds({
+  lmer(
   trp ~
     v1_duration_c +
     speech_rate_c +
@@ -432,6 +445,7 @@ tra_lm_2 <- lmer(
     (1|item),
   data = kines
 )
+}, "04_2018-tra/tra_lm_2")
 
 summary(tra_lm_2)
 ```
@@ -460,8 +474,9 @@ kable_styling(font_size = 10)
 
 ### Tongue root position during V1 as a function of V1 duration {#s:trp-v1-dur}
 
-```{r tra-gam-2, include=FALSE, cache=TRUE}
-tra_gam_2 <- bam(
+```{r tra-gam-2, include=FALSE}
+tra_gam_2 <- cache_rds({
+  bam(
   trp ~
     s(v1_duration) +
     s(proportion) +
@@ -469,10 +484,12 @@ tra_gam_2 <- bam(
     s(proportion, speaker, bs = "fs", m = 1),
   data = tra_series
 )
+}, "04_2018-tra/tra_gam_2")
 
 rho <- start_value_rho(tra_gam_2)
 
-tra_gam_ar_2 <- bam(
+tra_gam_ar_2 <- cache_rds({
+  bam(
   trp ~
     s(v1_duration) +
     s(proportion) +
@@ -483,8 +500,10 @@ tra_gam_ar_2 <- bam(
   rho = rho,
   AR.start = tra_series$start_event
 )
+}, "04_2018-tra/tra_gam_ar_2")
 
-tra_gam_ar_0_2 <- bam(
+tra_gam_ar_0_2 <- cache_rds({
+  bam(
   trp ~
     s(v1_duration) +
     s(proportion) +
@@ -495,6 +514,7 @@ tra_gam_ar_0_2 <- bam(
   rho = rho,
   AR.start = tra_series$start_event
 )
+}, "04_2018-tra/tra_gam_ar_0_2")
 ```
 
 The effect of V1 duration on tongue root position during V1 was modelled by fitting a GAMM with the following terms (\@ref(tab:tra-gam-ar-2-table)): tongue root position as the outcome variable, smooth terms over V1 duration and V1 proportion, a tensor product interaction over V1 proportion and V1 duration; a factor random smooth over V1 proportion by speaker (penalty order = 1).
@@ -519,8 +539,9 @@ kable(
 kable_styling(font_size = 10)
 ```
 
-```{r Figure5, include=TRUE, fig.cap="Predicted tongue root position during vowels at 4 exemplifying values of vowel duration, with 95\\% confidence intervals. Predictions from a GAMM (see \\@ref(s:trp-v1-dur)).", out.extra="width=\\linewidth", cache=TRUE}
-predict_gam(tra_gam_ar_2, exclude_terms = "s(proportion,speaker)", values = list(v1_duration = c(50, 100, 145, 200))) %>%
+```{r Figure5, include=TRUE, fig.cap="Predicted tongue root position during vowels at 4 exemplifying values of vowel duration, with 95\\% confidence intervals. Predictions from a GAMM (see \\@ref(s:trp-v1-dur)).", out.extra="width=\\linewidth"}
+figure5 <- cache_rds({
+  predict_gam(tra_gam_ar_2, exclude_terms = "s(proportion,speaker)", values = list(v1_duration = c(50, 100, 145, 200))) %>%
   filter(speaker == "it01") %>% # random effect have been cancelled, so selecting one speaker
   ggplot(aes(proportion, fit)) +
   geom_smooth_ci(v1_duration, size = 1, ci_alpha = 0.05) +
@@ -530,6 +551,8 @@ predict_gam(tra_gam_ar_2, exclude_terms = "s(proportion,speaker)", values = list
   ) +
   scale_colour_discrete(name = "V1 duration (ms)") +
   scale_linetype_discrete(name = "V1 duration (ms)")
+}, "04_2918-tra/figure5")
+print(figure5)
 ```
 
 ## Discussion {#s:discussion}
@@ -654,7 +677,7 @@ The right plot of \@ref(fig:Figure6) confirms this point visually.
 Two speakers show a declining slope (one is Italian and the other Polish), one speaker has a virtually flat slope, while all the others have a slope increasing at varying degrees.
 Note that the individual variation across speakers found in this data is qualitatively comparable to that in @ahn2018.
 
-```{r Figure7, include=TRUE, fig.cap="By-speaker raw mean difference in tongue root position between voiceless and voiced stops at closure onset (in millimetres). The horizontal segments are the standard errors of the mean differences.", out.extra="width=\\linewidth", cache=TRUE}
+```{r Figure7, include=TRUE, fig.cap="By-speaker raw mean difference in tongue root position between voiceless and voiced stops at closure onset (in millimetres). The horizontal segments are the standard errors of the mean differences.", out.extra="width=\\linewidth"}
 trp_difference %>%
   ggplot(aes(difference, reorder(speaker, difference))) +
   geom_vline(aes(xintercept = 0), colour = "grey") +
@@ -686,8 +709,9 @@ Such tongue root distinction is implemented across the total duration of the vow
 The phonological literature reports cases in which the difference in tongue root position in vowels is enhanced, leading to phonological alternations or diachronic loss of the voicing distinction with maintenance of the tongue root distinction [see @vaux1996, and references therein].
 The ultrasound data from this study offers articulatory evidence for a possible precursor of said phonological patterns.^[All the examples in @vaux1996 are on vowels *following* voiceless vs voiced stops, rather than preceding, as in the current study. While beyond the scope of this paper, whether this is a systematic gap or not and how this relates to the present findings should be examined in future work.]
 
-```{r tra-gam-s-ar, cache=TRUE}
-tra_gam_s <- bam(
+```{r tra-gam-s-ar}
+tra_gam_s <- cache_rds({
+  bam(
   trp ~
     s(speech_rate_c) +
     s(proportion) +
@@ -696,10 +720,12 @@ tra_gam_s <- bam(
   data = tra_series,
   method = "ML"
 )
+}, "04_2018-tra/tra_gam_s")
 
 rho <- start_value_rho(tra_gam_s)
 
-tra_gam_s_ar <- bam(
+tra_gam_s_ar <- cache_rds({
+  bam(
   trp ~
     s(speech_rate_c) +
     s(proportion) +
@@ -710,10 +736,12 @@ tra_gam_s_ar <- bam(
   rho = rho,
   AR.start = tra_series$start_event
 )
+}, "04_2018-tra/tra_gam_s_ar")
 ```
 
-```{r Figure8, include=TRUE, fig.cap="Predicted tongue root position during vowels followed by voiceless and voiced stops for each speaker. Predicted from a GAMM (see text). Note the different scales on the y-axis.", out.extra="width=\\linewidth", fig.height=8, cache=TRUE, dependson="tra-gam-s-ar"}
-predict_gam(tra_gam_s_ar, values = list(speech_rate_c = 0)) %>%
+```{r Figure8, include=TRUE, fig.cap="Predicted tongue root position during vowels followed by voiceless and voiced stops for each speaker. Predicted from a GAMM (see text). Note the different scales on the y-axis.", out.extra="width=\\linewidth", fig.height=8, dependson="tra-gam-s-ar"}
+figure8 <- cache_rds({
+  predict_gam(tra_gam_s_ar, values = list(speech_rate_c = 0)) %>%
   separate(speaker_voicing, c("speaker", "voicing")) %>%
   mutate(voicing = factor(voicing, levels = c("voiceless", "voiced"))) %>%
   ggplot(aes(proportion, fit)) +
@@ -726,6 +754,8 @@ predict_gam(tra_gam_s_ar, values = list(speech_rate_c = 0)) %>%
   ) +
   scale_colour_discrete(name = "C2 voicing") +
   scale_linetype_discrete(name = "C2 voicing")
+}, "04_2018_tra/figure8")
+print(figure8)
 ```
 
 ## Conclusion

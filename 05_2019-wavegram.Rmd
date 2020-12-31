@@ -18,7 +18,7 @@ theme_set(theme_minimal())
 ```
 
 ```{r load-data}
-load("./cache/wavegam.Rdata")
+load("./r_cache/05_2019-wavegram/wavegam.Rdata")
 ```
 
 Coretta, Stefano. 2020. Modelling electroglottographic data with wavegrams and generalised additive mixed models. OFS Preprints. DOI: <https://doi.org/10.31219/osf.io/m623d>.
