@@ -20,6 +20,7 @@ library(broom)
 library(broom.mixed)
 library(knitr)
 library(kableExtra)
+source("./cache.R")
 ```
 
 ```{r read-data, include=FALSE, message=FALSE}
@@ -297,8 +298,9 @@ When discussing the output of statistical modelling, only the relevant predictor
 
 ### Vowel duration {#s:vduration}
 
-```{r vow-lm, include=FALSE, cache=TRUE}
-vow_lm <- lmer(
+```{r vow-lm, include=FALSE}
+vow_lm <- cache_rds({
+  lmer(
   v1_duration ~
     c2_phonation *
     vowel *
@@ -308,23 +310,30 @@ vow_lm <- lmer(
     (1+c2_phonation|speaker) +
     (1|item),
   data = durations_filtered
-)
+  )
+}, "02_2018-relrel/vow_lm")
+
 summary(vow_lm)
 ```
 
-```{r FigureR-2, include=TRUE, fig.cap = "Raw data and boxplots of the duration in milliseconds of vowels in Italian (top row) and Polish (bottom row), for the vowels /a, o, u/ when followed by a voiceless or voiced stop.", out.extra="width=\\linewidth", cache=TRUE}
-durations_filtered %>%
+```{r FigureR-2, include=TRUE, fig.cap = "Raw data and boxplots of the duration in milliseconds of vowels in Italian (top row) and Polish (bottom row), for the vowels /a, o, u/ when followed by a voiceless or voiced stop.", out.extra="width=\\linewidth"}
+figurer_2 <- cache_rds({
+  durations_filtered %>%
   ggplot(aes(c2_phonation, v1_duration)) +
   geom_boxplot(alpha = 0.5) +
   geom_jitter(alpha = 0.1, width = 0.2) +
   facet_grid(language ~ vowel) +
   labs(x = "C2 voicing", y = "Vowel duration (ms)")
+}, "02_2018-relrel/figurer_2")
+print(figurer_2)
 ```
 
-```{r vow-descr, cache=TRUE}
-vow_descr <- durations_filtered %>%
+```{r vow-descr}
+vow_descr <- cache_rds({
+    durations_filtered %>%
   group_by(language, c2_phonation) %>%
-  summarise(mean = mean(v1_duration, na.rm = TRUE), sd = sd(v1_duration, na.rm = TRUE))
+  summarise(mean = mean(v1_duration, na.rm = TRUE), sd = sd(v1_duration, na.rm = TRUE), .groups = "drop")
+}, "02_2018-relrel/vow_descr")
 ```
 
 \@ref(fig:FigureR-2) shows boxplots and raw data of vowel duration for the three vowels /a, o, u/ when followed by voiceless or voiced stops in Italian and Polish.
@@ -351,8 +360,9 @@ kable_styling(font_size = 8, latex_options = "hold_position")
 
 ### Consonant closure duration {#s:cduration}
 
-```{r clo-lm, include=FALSE, cache=TRUE}
-clo_lm <- lmer(
+```{r clo-lm, include=FALSE}
+clo_lm <- cache_rds({
+    lmer(
   c2_clos_duration ~
     c2_phonation *
     vowel *
@@ -363,22 +373,29 @@ clo_lm <- lmer(
     (1|item),
   data = durations_filtered
 )
+}, "02_2018-relrel/clo_lm")
+
 summary(clo_lm)
 ```
 
-```{r FigureR-3, echo=FALSE, include=TRUE, fig.cap = "Raw data and boxplots of closure duration in milliseconds of voiceless and voiced stops in Italian (top row) and Polish (bottom row) when preceded by the vowels /a, o, u/.", out.extra="width=\\linewidth", cache=TRUE}
-durations_filtered %>%
+```{r FigureR-3, echo=FALSE, include=TRUE, fig.cap = "Raw data and boxplots of closure duration in milliseconds of voiceless and voiced stops in Italian (top row) and Polish (bottom row) when preceded by the vowels /a, o, u/.", out.extra="width=\\linewidth"}
+figurer_3 <- cache_rds({
+    durations_filtered %>%
   ggplot(aes(c2_phonation, c2_clos_duration)) +
   geom_boxplot(alpha = 0.5) +
   geom_jitter(alpha = 0.1, width = 0.2) +
   facet_grid(language ~ vowel) +
   labs(x = "C2 voicing", y = "C2 closure duration (ms)")
+}, "02_2018-relrel/figurer_3")
+print(figurer_3)
 ```
 
-```{r clos-descr, cache=TRUE}
-clos_descr <- durations_filtered %>%
+```{r clos-descr}
+clos_descr <- cache_rds({
+  durations_filtered %>%
   group_by(language, c2_phonation) %>%
-  summarise(mean = mean(c2_clos_duration, na.rm = TRUE), sd = sd(c2_clos_duration, na.rm = TRUE))
+  summarise(mean = mean(c2_clos_duration, na.rm = TRUE), sd = sd(c2_clos_duration, na.rm = TRUE), .groups = "drop")
+}, "02_2018-relrel/clos_descr")
 ```
 
 \@ref(fig:FigureR-3) illustrates stop closure durations with boxplots and individual raw data points.
@@ -398,8 +415,9 @@ kable_styling(font_size = 8, latex_options = "hold_position")
 
 ### Vowel and closure duration {#s:vcduration}
 
-```{r vow-clo-lm, include=FALSE, cache=TRUE}
-vow_clo_lm <- lmer(
+```{r vow-clo-lm, include=FALSE}
+vow_clo_lm <- cache_rds({
+  lmer(
   v1_duration ~
     c2_clos_duration *
     vowel *
@@ -408,11 +426,13 @@ vow_clo_lm <- lmer(
     (1|item),
   data = durations_filtered
 )
+}, "02_2018-relrel/vow_clo_lm")
 summary(vow_clo_lm)
 ```
 
-```{r FigureR-4, include=TRUE, fig.cap = "Raw data, estimated regression lines, and 95 per cent confidence intervals of the effect of closure duration on vowel duration for the vowels /a, o, u/ (from a mixed-effects model fitted to data pooled from Italian and Polish, see text for details).", out.extra="width=\\linewidth", cache=TRUE}
-as_tibble(effect("c2_clos_duration:vowel:speech_rate_c", vow_clo_lm)) %>%
+```{r FigureR-4, include=TRUE, fig.cap = "Raw data, estimated regression lines, and 95 per cent confidence intervals of the effect of closure duration on vowel duration for the vowels /a, o, u/ (from a mixed-effects model fitted to data pooled from Italian and Polish, see text for details).", out.extra="width=\\linewidth"}
+figurer_4 <- cache_rds({
+  as_tibble(effect("c2_clos_duration:vowel:speech_rate_c", vow_clo_lm)) %>%
   filter(speech_rate_c == -3e-04) %>%
   ggplot(aes(c2_clos_duration, fit)) +
   geom_point(data = durations_filtered, aes(y = v1_duration), alpha = 0.1) +
@@ -422,6 +442,8 @@ as_tibble(effect("c2_clos_duration:vowel:speech_rate_c", vow_clo_lm)) %>%
   facet_grid(~ vowel) +
   coord_fixed() +
   labs(x = "Closure duration (ms)", y = "Vowel duration (ms)")
+}, "02_2018-relrel/figurer_4")
+print(figurer_4)
 ```
 
 A model addressing the relationship between vowel and stop closure duration was fitted with the following terms and interactions: vowel duration as the outcome variable; as fixed effects, closure duration, vowel, speech rate (centred); all logical interactions between closure duration, vowel, and speech rate; by-speaker and by-word random intercepts (\@ref(tab:vow-clo-table)).
@@ -443,8 +465,9 @@ kable_styling(font_size = 8, latex_options = "hold_position")
 
 ### Word duration
 
-```{r word-bf, cache=TRUE}
-word_lm <- lme4::lmer(
+```{r word-bf}
+word_lm <- cache_rds({
+    lme4::lmer(
   word_duration ~
     c2_phonation +
     vowel +
@@ -456,8 +479,10 @@ word_lm <- lme4::lmer(
   data = durations_filtered,
   REML = FALSE
 )
+}, "02_2018-relrel/word_lm")
 
-word_lm_null <- lme4::lmer(
+word_lm_null <- cache_rds({
+  lme4::lmer(
   word_duration ~
     # c2_phonation +
     vowel +
@@ -469,14 +494,17 @@ word_lm_null <- lme4::lmer(
   data = durations_filtered,
   REML = FALSE
 )
+}, "02_2018-relrel/word_lm_null")
 
 word_bf <- round(exp((BIC(word_lm) - BIC(word_lm_null)) / 2))
 ```
 
-```{r word-descr, cache=TRUE}
-word_descr <- word_filtered %>%
+```{r word-descr}
+word_descr <- cache_rds({
+  word_filtered %>%
   group_by(language, c2_phonation) %>%
-  summarise(mean = mean(word_duration, na.rm = TRUE), sd = sd(word_duration, na.rm = TRUE))
+  summarise(mean = mean(word_duration, na.rm = TRUE), sd = sd(word_duration, na.rm = TRUE), .groups = "drop")
+}, "02_2018-relrel/word_descr")
 ```
 
 Words with a voiceless C2 are on average `r round_2(word_descr[[1, 3]])` ms long (SD = `r round_2(word_descr[[1, 4]])`) in Italian and `r round_2(word_descr[[2, 3]])` ms long (SD = `r round_2(word_descr[[2, 4]])`) in Polish.
@@ -491,18 +519,22 @@ This indicates that there is positive evidence for a null effect of C2 voicing o
 
 ### Release-to-release interval duration
 
-```{r FigureR-5, include=TRUE, fig.cap="Raw data and boxplots of the duration in milliseconds of the release-to-release interval in Italian (left) and Polish (right) when C2 is voiceless or voiced.", out.extra="width=\\linewidth", cache=TRUE, warning=FALSE}
-rel_filtered %>%
+```{r FigureR-5, include=TRUE, fig.cap="Raw data and boxplots of the duration in milliseconds of the release-to-release interval in Italian (left) and Polish (right) when C2 is voiceless or voiced.", out.extra="width=\\linewidth", warning=FALSE}
+figurer_5 <- cache_rds({
+  rel_filtered %>%
   ggplot(aes(c2_phonation, rel_rel)) +
   geom_boxplot(alpha = 0.5) +
   geom_jitter(alpha = 0.1, width = 0.3) +
   facet_grid(~ language) +
   labs(x = "C2 voicing", y = "release-to-release duration (ms)") +
   theme(legend.position = "none")
+}, "02_2018-relrel/figurer_5")
+print(figurer_5)
 ```
 
-```{r rr-bf, cache=TRUE}
-rr_lm <- lme4::lmer(
+```{r rr-bf}
+rr_lm <- cache_rds({
+  lme4::lmer(
   rel_rel ~
     c2_phonation +
     vowel +
@@ -514,8 +546,10 @@ rr_lm <- lme4::lmer(
   data = durations_filtered,
   REML = FALSE
 )
+}, "02_2018-relrel/rr_lm")
 
-rr_lm_null <- lme4::lmer(
+rr_lm_null <- cache_rds({
+  lme4::lmer(
   rel_rel ~
     # c2_phonation +
     vowel +
@@ -527,14 +561,17 @@ rr_lm_null <- lme4::lmer(
   data = durations_filtered,
   REML = FALSE
 )
+}, "02_2018-relrel/rr_lm_null")
 
 rr_bf <- round(exp((BIC(rr_lm) - BIC(rr_lm_null)) / 2))
 ```
 
-```{r rr-descr, cache=TRUE}
-rr_descr <- word_filtered %>%
+```{r rr-descr}
+rr_descr <- cache_rds({
+  word_filtered %>%
   group_by(language, c2_phonation) %>%
   summarise(mean = mean(rel_rel, na.rm = TRUE), sd = sd(rel_rel, na.rm = TRUE))
+}, "02_2018-relrel/rr_descr")
 ```
 
 In \@ref(fig:FigureR-5), boxplots and raw data points show the duration of the release-to-release interval in words with a voiceless vs a voiced C2 stop, in Italian and Polish.
@@ -579,8 +616,9 @@ The mean differences of Italian vowels and closures (11.5 and 13.33, respectivel
 It is plausible that the smaller effect of C2 voicing on preceding vowel duration in Polish is related to the smaller effect on closure duration, if we assume a temporal mechanism of compensation between the closure and the vowel.
 These patterns will need to be confirmed with a more balanced sample of Italian and Polish speakers.
 
-```{r FigureR-6, include=TRUE, fig.cap = "By-speaker random coefficients and error bars for the effect of C2 voicing on vowel duration, extracted from a mixed-effect model (Section 3.1).", out.extra="width=\\linewidth", cache=TRUE, warning=FALSE}
-as_tibble(coef(vow_lm)$speaker[,1:2], rownames = "speaker") %>%
+```{r FigureR-6, include=TRUE, fig.cap = "By-speaker random coefficients and error bars for the effect of C2 voicing on vowel duration, extracted from a mixed-effect model (Section 3.1).", out.extra="width=\\linewidth", warning=FALSE}
+figurer_6 <- cache_rds({
+  as_tibble(coef(vow_lm)$speaker[,1:2], rownames = "speaker") %>%
   rename("intercept" = `(Intercept)`, "ve" = c2_phonationvoiced) %>%
   mutate(language = ifelse(str_detect(speaker, "^it"), "Italian", "Polish"), speaker = toupper(speaker)) %>%
     ggplot(aes(ve, reorder(speaker, ve), colour = language)) +
@@ -591,6 +629,8 @@ as_tibble(coef(vow_lm)$speaker[,1:2], rownames = "speaker") %>%
     y = "Speaker",
     x = "Voicing effect (ms)"
   )
+}, "02_2018-relrel/figurer_6")
+print(figurer_6)
 ```
 
 On the other hand, while the estimated differences in vowel durations can be interpreted in reference to Italian and Polish as two independent linguistic objects, the patterns observed in the individual speakers does not indicate a systematic relation between magnitude of the effect and language.

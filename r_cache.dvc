@@ -1,0 +1,5 @@
+outs:
+- md5: 6723a667400c68b7e40630d219917cab.dir
+  size: 4557311
+  nfiles: 17
+  path: r_cache
