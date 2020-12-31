@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>A Assessing mid-sagittal tongue contours in polar coordinates using generalised additive (mixed) models | Vowel duration and consonant voicing: A production study</title>
+  <meta name="description" content="A Assessing mid-sagittal tongue contours in polar coordinates using generalised additive (mixed) models | Vowel duration and consonant voicing: A production study" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="A Assessing mid-sagittal tongue contours in polar coordinates using generalised additive (mixed) models | Vowel duration and consonant voicing: A production study" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="A Assessing mid-sagittal tongue contours in polar coordinates using generalised additive (mixed) models | Vowel duration and consonant voicing: A production study" />
+  
+  
+  
+
+<meta name="author" content="Stefano Coretta" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="s-final.html"/>
+<link rel="next" href="a-ve-eng.html"/>
+<script src="libs/header-attrs-2.6/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Abstract</a></li>
+<li class="chapter" data-level="" data-path="declaration.html"><a href="declaration.html"><i class="fa fa-check"></i>Declaration</a></li>
+<li class="chapter" data-level="" data-path="copyright-statement.html"><a href="copyright-statement.html"><i class="fa fa-check"></i>Copyright statement</a></li>
+<li class="chapter" data-level="" data-path="acknowledgements.html"><a href="acknowledgements.html"><i class="fa fa-check"></i>Acknowledgements</a></li>
+<li class="part"><span><b>I Introduction</b></span></li>
+<li class="chapter" data-level="1" data-path="s-ve.html"><a href="s-ve.html"><i class="fa fa-check"></i><b>1</b> The voicing effect and beyond</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="s-ve.html"><a href="s-ve.html#s:veintro"><i class="fa fa-check"></i><b>1.1</b> The voicing effect</a></li>
+<li class="chapter" data-level="1.2" data-path="s-ve.html"><a href="s-ve.html#s:voi-comp"><i class="fa fa-check"></i><b>1.2</b> Voicing as a physical property and as a linguistic category</a></li>
+<li class="chapter" data-level="1.3" data-path="s-ve.html"><a href="s-ve.html#s:ve-phonphon-fact"><i class="fa fa-check"></i><b>1.3</b> The voicing effect and other phonological and phonetic factors</a></li>
+<li class="chapter" data-level="1.4" data-path="s-ve.html"><a href="s-ve.html#s:ve-phonologise"><i class="fa fa-check"></i><b>1.4</b> On the phonologisation of the voicing effect</a></li>
+<li class="chapter" data-level="1.5" data-path="s-ve.html"><a href="s-ve.html#s:accounts"><i class="fa fa-check"></i><b>1.5</b> One phenomenon, many explanations</a></li>
+<li class="chapter" data-level="1.6" data-path="s-ve.html"><a href="s-ve.html#s:beyond"><i class="fa fa-check"></i><b>1.6</b> Beyond voicing</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="s-rationale.html"><a href="s-rationale.html"><i class="fa fa-check"></i><b>2</b> Rationale for the current research</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="s-rationale.html"><a href="s-rationale.html#s:resq"><i class="fa fa-check"></i><b>2.1</b> Research questions</a></li>
+<li class="chapter" data-level="2.2" data-path="s-rationale.html"><a href="s-rationale.html#s:langsample"><i class="fa fa-check"></i><b>2.2</b> Language sample</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="s-rationale.html"><a href="s-rationale.html#italian"><i class="fa fa-check"></i><b>2.2.1</b> Italian</a></li>
+<li class="chapter" data-level="2.2.2" data-path="s-rationale.html"><a href="s-rationale.html#polish"><i class="fa fa-check"></i><b>2.2.2</b> Polish</a></li>
+<li class="chapter" data-level="2.2.3" data-path="s-rationale.html"><a href="s-rationale.html#english"><i class="fa fa-check"></i><b>2.2.3</b> English</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="s-rationale.html"><a href="s-rationale.html#s:sumresults"><i class="fa fa-check"></i><b>2.3</b> Preview of results</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="s-methods.html"><a href="s-methods.html"><i class="fa fa-check"></i><b>3</b> Methods</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="s-methods.html"><a href="s-methods.html#s:studyi"><i class="fa fa-check"></i><b>3.1</b> Exploratory study of the voicing effect in Italian and Polish (Study I)</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="s-methods.html"><a href="s-methods.html#participants"><i class="fa fa-check"></i><b>3.1.1</b> Participants</a></li>
+<li class="chapter" data-level="3.1.2" data-path="s-methods.html"><a href="s-methods.html#ultrasound-tongue-imaging-and-electroglottography"><i class="fa fa-check"></i><b>3.1.2</b> Ultrasound tongue imaging and electroglottography</a></li>
+<li class="chapter" data-level="3.1.3" data-path="s-methods.html"><a href="s-methods.html#equipment-set-up"><i class="fa fa-check"></i><b>3.1.3</b> Equipment set-up</a></li>
+<li class="chapter" data-level="3.1.4" data-path="s-methods.html"><a href="s-methods.html#s:procdata"><i class="fa fa-check"></i><b>3.1.4</b> Procedure and data processing</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="s-methods.html"><a href="s-methods.html#s:studyii"><i class="fa fa-check"></i><b>3.2</b> Compensatory aspects of the effect of voicing on vowel duration in English (Study II)</a></li>
+<li class="chapter" data-level="3.3" data-path="s-methods.html"><a href="s-methods.html#s:openscience"><i class="fa fa-check"></i><b>3.3</b> Open Science</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="s-methods.html"><a href="s-methods.html#with-great-power-comes-great-replicability"><i class="fa fa-check"></i><b>3.3.1</b> “With great power comes great replicability”</a></li>
+<li class="chapter" data-level="3.3.2" data-path="s-methods.html"><a href="s-methods.html#the-dark-side-of-research"><i class="fa fa-check"></i><b>3.3.2</b> The dark side of research</a></li>
+<li class="chapter" data-level="3.3.3" data-path="s-methods.html"><a href="s-methods.html#s:stand"><i class="fa fa-check"></i><b>3.3.3</b> Where we stand and where we are heading</a></li>
+<li class="chapter" data-level="3.3.4" data-path="s-methods.html"><a href="s-methods.html#s:repro"><i class="fa fa-check"></i><b>3.3.4</b> Putting this into practice</a></li>
+</ul></li>
+</ul></li>
+<li class="part"><span><b>II Original publications</b></span></li>
+<li class="chapter" data-level="4" data-path="p-relrel.html"><a href="p-relrel.html"><i class="fa fa-check"></i><b>4</b> An exploratory study of voicing-related differences in vowel duration as compensatory temporal adjustment in Italian and Polish [Paper I]</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="p-relrel.html"><a href="p-relrel.html#abstract-1"><i class="fa fa-check"></i><b>4.1</b> Abstract</a></li>
+<li class="chapter" data-level="4.2" data-path="p-relrel.html"><a href="p-relrel.html#s:introR"><i class="fa fa-check"></i><b>4.2</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="p-relrel.html"><a href="p-relrel.html#the-present-study"><i class="fa fa-check"></i><b>4.2.1</b> The present study</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="p-relrel.html"><a href="p-relrel.html#s:method"><i class="fa fa-check"></i><b>4.3</b> Method</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="p-relrel.html"><a href="p-relrel.html#participants-1"><i class="fa fa-check"></i><b>4.3.1</b> Participants</a></li>
+<li class="chapter" data-level="4.3.2" data-path="p-relrel.html"><a href="p-relrel.html#equipment"><i class="fa fa-check"></i><b>4.3.2</b> Equipment</a></li>
+<li class="chapter" data-level="4.3.3" data-path="p-relrel.html"><a href="p-relrel.html#s:materials"><i class="fa fa-check"></i><b>4.3.3</b> Materials</a></li>
+<li class="chapter" data-level="4.3.4" data-path="p-relrel.html"><a href="p-relrel.html#s:procedure"><i class="fa fa-check"></i><b>4.3.4</b> Procedure</a></li>
+<li class="chapter" data-level="4.3.5" data-path="p-relrel.html"><a href="p-relrel.html#data-processing-and-measurements"><i class="fa fa-check"></i><b>4.3.5</b> Data processing and measurements</a></li>
+<li class="chapter" data-level="4.3.6" data-path="p-relrel.html"><a href="p-relrel.html#statistical-analysis"><i class="fa fa-check"></i><b>4.3.6</b> Statistical analysis</a></li>
+<li class="chapter" data-level="4.3.7" data-path="p-relrel.html"><a href="p-relrel.html#open-science-statement"><i class="fa fa-check"></i><b>4.3.7</b> Open Science statement</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="p-relrel.html"><a href="p-relrel.html#results"><i class="fa fa-check"></i><b>4.4</b> Results</a>
+<ul>
+<li class="chapter" data-level="4.4.1" data-path="p-relrel.html"><a href="p-relrel.html#s:vduration"><i class="fa fa-check"></i><b>4.4.1</b> Vowel duration</a></li>
+<li class="chapter" data-level="4.4.2" data-path="p-relrel.html"><a href="p-relrel.html#s:cduration"><i class="fa fa-check"></i><b>4.4.2</b> Consonant closure duration</a></li>
+<li class="chapter" data-level="4.4.3" data-path="p-relrel.html"><a href="p-relrel.html#s:vcduration"><i class="fa fa-check"></i><b>4.4.3</b> Vowel and closure duration</a></li>
+<li class="chapter" data-level="4.4.4" data-path="p-relrel.html"><a href="p-relrel.html#word-duration"><i class="fa fa-check"></i><b>4.4.4</b> Word duration</a></li>
+<li class="chapter" data-level="4.4.5" data-path="p-relrel.html"><a href="p-relrel.html#release-to-release-interval-duration"><i class="fa fa-check"></i><b>4.4.5</b> Release-to-release interval duration</a></li>
+</ul></li>
+<li class="chapter" data-level="4.5" data-path="p-relrel.html"><a href="p-relrel.html#s:discussionR"><i class="fa fa-check"></i><b>4.5</b> Discussion</a>
+<ul>
+<li class="chapter" data-level="4.5.1" data-path="p-relrel.html"><a href="p-relrel.html#s:veitapoldisc"><i class="fa fa-check"></i><b>4.5.1</b> Voicing effect in Italian and Polish</a></li>
+<li class="chapter" data-level="4.5.2" data-path="p-relrel.html"><a href="p-relrel.html#s:comp"><i class="fa fa-check"></i><b>4.5.2</b> Compensatory temporal adjustment</a></li>
+<li class="chapter" data-level="4.5.3" data-path="p-relrel.html"><a href="p-relrel.html#limitations-and-future-work"><i class="fa fa-check"></i><b>4.5.3</b> Limitations and future work</a></li>
+</ul></li>
+<li class="chapter" data-level="4.6" data-path="p-relrel.html"><a href="p-relrel.html#conclusions"><i class="fa fa-check"></i><b>4.6</b> Conclusions</a></li>
+<li class="chapter" data-level="4.7" data-path="p-relrel.html"><a href="p-relrel.html#a:socioling"><i class="fa fa-check"></i><b>4.7</b> Socio-linguistic information of participants {-}</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="p-en-relrel.html"><a href="p-en-relrel.html"><i class="fa fa-check"></i><b>5</b> Temporal (in)stability in English monosyllabic and disyllabic words: Insights on the effect of voicing on vowel duration [Paper II]</a>
+<ul>
+<li class="chapter" data-level="" data-path="p-en-relrel.html"><a href="p-en-relrel.html#abstract-2"><i class="fa fa-check"></i>Abstract</a></li>
+<li class="chapter" data-level="5.1" data-path="p-en-relrel.html"><a href="p-en-relrel.html#s:intro"><i class="fa fa-check"></i><b>5.1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="p-en-relrel.html"><a href="p-en-relrel.html#s:gest"><i class="fa fa-check"></i><b>5.1.1</b> A gestural account of the voicing effect</a></li>
+<li class="chapter" data-level="5.1.2" data-path="p-en-relrel.html"><a href="p-en-relrel.html#the-voicing-effect-in-english"><i class="fa fa-check"></i><b>5.1.2</b> The voicing effect in English</a></li>
+<li class="chapter" data-level="5.1.3" data-path="p-en-relrel.html"><a href="p-en-relrel.html#s:hypo"><i class="fa fa-check"></i><b>5.1.3</b> Research hypotheses</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="p-en-relrel.html"><a href="p-en-relrel.html#methods"><i class="fa fa-check"></i><b>5.2</b> Methods</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="p-en-relrel.html"><a href="p-en-relrel.html#s:sample-size"><i class="fa fa-check"></i><b>5.2.1</b> Sample size and stopping rule</a></li>
+<li class="chapter" data-level="5.2.2" data-path="p-en-relrel.html"><a href="p-en-relrel.html#participants-2"><i class="fa fa-check"></i><b>5.2.2</b> Participants</a></li>
+<li class="chapter" data-level="5.2.3" data-path="p-en-relrel.html"><a href="p-en-relrel.html#equipment-1"><i class="fa fa-check"></i><b>5.2.3</b> Equipment</a></li>
+<li class="chapter" data-level="5.2.4" data-path="p-en-relrel.html"><a href="p-en-relrel.html#materials"><i class="fa fa-check"></i><b>5.2.4</b> Materials</a></li>
+<li class="chapter" data-level="5.2.5" data-path="p-en-relrel.html"><a href="p-en-relrel.html#procedure"><i class="fa fa-check"></i><b>5.2.5</b> Procedure</a></li>
+<li class="chapter" data-level="5.2.6" data-path="p-en-relrel.html"><a href="p-en-relrel.html#data-processing-and-measurements-1"><i class="fa fa-check"></i><b>5.2.6</b> Data processing and measurements</a></li>
+<li class="chapter" data-level="5.2.7" data-path="p-en-relrel.html"><a href="p-en-relrel.html#s:bayes"><i class="fa fa-check"></i><b>5.2.7</b> Statistical analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="p-en-relrel.html"><a href="p-en-relrel.html#results-1"><i class="fa fa-check"></i><b>5.3</b> Results</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="p-en-relrel.html"><a href="p-en-relrel.html#s:rr"><i class="fa fa-check"></i><b>5.3.1</b> Release-to-release duration</a></li>
+<li class="chapter" data-level="5.3.2" data-path="p-en-relrel.html"><a href="p-en-relrel.html#s:vow"><i class="fa fa-check"></i><b>5.3.2</b> Vowel duration</a></li>
+<li class="chapter" data-level="5.3.3" data-path="p-en-relrel.html"><a href="p-en-relrel.html#s:clos"><i class="fa fa-check"></i><b>5.3.3</b> Consonant closure duration</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="p-en-relrel.html"><a href="p-en-relrel.html#discussion"><i class="fa fa-check"></i><b>5.4</b> Discussion</a>
+<ul>
+<li class="chapter" data-level="5.4.1" data-path="p-en-relrel.html"><a href="p-en-relrel.html#s:rr-disc"><i class="fa fa-check"></i><b>5.4.1</b> Release-to-release interval</a></li>
+<li class="chapter" data-level="5.4.2" data-path="p-en-relrel.html"><a href="p-en-relrel.html#s:vc-disc"><i class="fa fa-check"></i><b>5.4.2</b> Vowel and closure duration</a></li>
+<li class="chapter" data-level="5.4.3" data-path="p-en-relrel.html"><a href="p-en-relrel.html#s:rr-gen-disc"><i class="fa fa-check"></i><b>5.4.3</b> General discussion</a></li>
+</ul></li>
+<li class="chapter" data-level="5.5" data-path="p-en-relrel.html"><a href="p-en-relrel.html#conclusion"><i class="fa fa-check"></i><b>5.5</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="p-tra.html"><a href="p-tra.html"><i class="fa fa-check"></i><b>6</b> Longer vowel duration correlates with greater tongue root displacement: Acoustic and articulatory data from Italian and Polish [Paper III]</a>
+<ul>
+<li class="chapter" data-level="" data-path="p-tra.html"><a href="p-tra.html#abstract-3"><i class="fa fa-check"></i>Abstract</a></li>
+<li class="chapter" data-level="6.1" data-path="p-tra.html"><a href="p-tra.html#introduction"><i class="fa fa-check"></i><b>6.1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="p-tra.html"><a href="p-tra.html#tongue-root-position-and-voicing"><i class="fa fa-check"></i><b>6.1.1</b> Tongue root position and voicing</a></li>
+<li class="chapter" data-level="6.1.2" data-path="p-tra.html"><a href="p-tra.html#vowel-duration-and-voicing"><i class="fa fa-check"></i><b>6.1.2</b> Vowel duration and voicing</a></li>
+<li class="chapter" data-level="6.1.3" data-path="p-tra.html"><a href="p-tra.html#this-study"><i class="fa fa-check"></i><b>6.1.3</b> This study</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="p-tra.html"><a href="p-tra.html#methodology"><i class="fa fa-check"></i><b>6.2</b> Methodology</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="p-tra.html"><a href="p-tra.html#participants-3"><i class="fa fa-check"></i><b>6.2.1</b> Participants</a></li>
+<li class="chapter" data-level="6.2.2" data-path="p-tra.html"><a href="p-tra.html#s:equipment"><i class="fa fa-check"></i><b>6.2.2</b> Equipment</a></li>
+<li class="chapter" data-level="6.2.3" data-path="p-tra.html"><a href="p-tra.html#materials-1"><i class="fa fa-check"></i><b>6.2.3</b> Materials</a></li>
+<li class="chapter" data-level="6.2.4" data-path="p-tra.html"><a href="p-tra.html#procedure-1"><i class="fa fa-check"></i><b>6.2.4</b> Procedure</a></li>
+<li class="chapter" data-level="6.2.5" data-path="p-tra.html"><a href="p-tra.html#s:process"><i class="fa fa-check"></i><b>6.2.5</b> Data processing and statistical analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="p-tra.html"><a href="p-tra.html#s:results"><i class="fa fa-check"></i><b>6.3</b> Results</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="p-tra.html"><a href="p-tra.html#s:tra-lm"><i class="fa fa-check"></i><b>6.3.1</b> Tongue root position at C2 closure onset</a></li>
+<li class="chapter" data-level="6.3.2" data-path="p-tra.html"><a href="p-tra.html#s:trp-v1"><i class="fa fa-check"></i><b>6.3.2</b> Tongue root position during V1</a></li>
+<li class="chapter" data-level="6.3.3" data-path="p-tra.html"><a href="p-tra.html#s:trp-vdur"><i class="fa fa-check"></i><b>6.3.3</b> Correlation between tongue root position and V1 duration</a></li>
+<li class="chapter" data-level="6.3.4" data-path="p-tra.html"><a href="p-tra.html#s:trp-v1-dur"><i class="fa fa-check"></i><b>6.3.4</b> Tongue root position during V1 as a function of V1 duration</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="p-tra.html"><a href="p-tra.html#s:discussion"><i class="fa fa-check"></i><b>6.4</b> Discussion</a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="p-tra.html"><a href="p-tra.html#voicing-tongue-root-position-and-vowel-duration"><i class="fa fa-check"></i><b>6.4.1</b> Voicing, tongue root position and vowel duration</a></li>
+<li class="chapter" data-level="6.4.2" data-path="p-tra.html"><a href="p-tra.html#estimates-of-tongue-root-displacement"><i class="fa fa-check"></i><b>6.4.2</b> Estimates of tongue root displacement</a></li>
+<li class="chapter" data-level="6.4.3" data-path="p-tra.html"><a href="p-tra.html#s:idio"><i class="fa fa-check"></i><b>6.4.3</b> Individual differences</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="p-tra.html"><a href="p-tra.html#conclusion-1"><i class="fa fa-check"></i><b>6.5</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="p-wavegram.html"><a href="p-wavegram.html"><i class="fa fa-check"></i><b>7</b> Modelling electroglottographic data with wavegrams and generalised additive mixed models [Paper IV]</a>
+<ul>
+<li class="chapter" data-level="" data-path="p-wavegram.html"><a href="p-wavegram.html#abstract-4"><i class="fa fa-check"></i>Abstract</a></li>
+<li class="chapter" data-level="7.1" data-path="p-wavegram.html"><a href="p-wavegram.html#introduction-1"><i class="fa fa-check"></i><b>7.1</b> Introduction</a></li>
+<li class="chapter" data-level="7.2" data-path="p-wavegram.html"><a href="p-wavegram.html#s:pilot"><i class="fa fa-check"></i><b>7.2</b> Pilot study</a></li>
+<li class="chapter" data-level="7.3" data-path="p-wavegram.html"><a href="p-wavegram.html#s:voicing"><i class="fa fa-check"></i><b>7.3</b> Wavegram GAM analysis of vowels followed by voiceless vs voiced stops</a></li>
+<li class="chapter" data-level="7.4" data-path="p-wavegram.html"><a href="p-wavegram.html#s:conclusion"><i class="fa fa-check"></i><b>7.4</b> Conclusion</a></li>
+</ul></li>
+<li class="part"><span><b>III Discussion and conclusion</b></span></li>
+<li class="chapter" data-level="8" data-path="s-gen-disc.html"><a href="s-gen-disc.html"><i class="fa fa-check"></i><b>8</b> General discussion</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="s-gen-disc.html"><a href="s-gen-disc.html#s:pluralist"><i class="fa fa-check"></i><b>8.1</b> A pluralist view</a>
+<ul>
+<li class="chapter" data-level="8.1.1" data-path="s-gen-disc.html"><a href="s-gen-disc.html#s:gestural-phasing"><i class="fa fa-check"></i><b>8.1.1</b> Gestural phasing</a></li>
+<li class="chapter" data-level="8.1.2" data-path="s-gen-disc.html"><a href="s-gen-disc.html#diachrony-production-and-perception"><i class="fa fa-check"></i><b>8.1.2</b> Diachrony, production, and perception</a></li>
+</ul></li>
+<li class="chapter" data-level="8.2" data-path="s-gen-disc.html"><a href="s-gen-disc.html#s:cross-ling-diff"><i class="fa fa-check"></i><b>8.2</b> On cross-linguistic differences</a></li>
+<li class="chapter" data-level="8.3" data-path="s-gen-disc.html"><a href="s-gen-disc.html#embracing-variation-and-accepting-uncertainty"><i class="fa fa-check"></i><b>8.3</b> Embracing variation and accepting uncertainty</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="s-final.html"><a href="s-final.html"><i class="fa fa-check"></i><b>9</b> Implications and future research</a></li>
+<li class="appendix"><span><b>Appendices</b></span></li>
+<li class="chapter" data-level="A" data-path="a-polar-gams.html"><a href="a-polar-gams.html"><i class="fa fa-check"></i><b>A</b> Assessing mid-sagittal tongue contours in polar coordinates using generalised additive (mixed) models</a>
+<ul>
+<li class="chapter" data-level="" data-path="a-polar-gams.html"><a href="a-polar-gams.html#abstract-5"><i class="fa fa-check"></i>Abstract</a></li>
+<li class="chapter" data-level="A.1" data-path="a-polar-gams.html"><a href="a-polar-gams.html#introduction-2"><i class="fa fa-check"></i><b>A.1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="A.1.1" data-path="a-polar-gams.html"><a href="a-polar-gams.html#ultrasound-tongue-imaging"><i class="fa fa-check"></i><b>A.1.1</b> Ultrasound tongue imaging</a></li>
+<li class="chapter" data-level="A.1.2" data-path="a-polar-gams.html"><a href="a-polar-gams.html#generalised-additive-models"><i class="fa fa-check"></i><b>A.1.2</b> Generalised Additive models</a></li>
+<li class="chapter" data-level="A.1.3" data-path="a-polar-gams.html"><a href="a-polar-gams.html#polar-coordinates"><i class="fa fa-check"></i><b>A.1.3</b> Polar coordinates</a></li>
+</ul></li>
+<li class="chapter" data-level="A.2" data-path="a-polar-gams.html"><a href="a-polar-gams.html#polar-gamms"><i class="fa fa-check"></i><b>A.2</b> Polar GAM(M)s</a>
+<ul>
+<li class="chapter" data-level="A.2.1" data-path="a-polar-gams.html"><a href="a-polar-gams.html#s:data"><i class="fa fa-check"></i><b>A.2.1</b> Data collection and processing</a></li>
+<li class="chapter" data-level="A.2.2" data-path="a-polar-gams.html"><a href="a-polar-gams.html#fitting-a-polar-gam"><i class="fa fa-check"></i><b>A.2.2</b> Fitting a polar GAM</a></li>
+</ul></li>
+<li class="chapter" data-level="A.3" data-path="a-polar-gams.html"><a href="a-polar-gams.html#s:comptrp"><i class="fa fa-check"></i><b>A.3</b> Comparing tongue root position in voiceless and voiced stops</a></li>
+<li class="chapter" data-level="A.4" data-path="a-polar-gams.html"><a href="a-polar-gams.html#conclusions-1"><i class="fa fa-check"></i><b>A.4</b> Conclusions</a></li>
+<li class="chapter" data-level="A.5" data-path="a-polar-gams.html"><a href="a-polar-gams.html#data-accessibility-statement"><i class="fa fa-check"></i><b>A.5</b> Data Accessibility Statement</a></li>
+</ul></li>
+<li class="chapter" data-level="B" data-path="a-ve-eng.html"><a href="a-ve-eng.html"><i class="fa fa-check"></i><b>B</b> Bayesian meta-analysis of the voicing effect in English</a></li>
+<li class="chapter" data-level="C" data-path="a-ve-comp.html"><a href="a-ve-comp.html"><i class="fa fa-check"></i><b>C</b> Cross-linguistic comparison of the voicing effect in English, Italian, and Polish</a></li>
+<li class="chapter" data-level="D" data-path="a-gons.html"><a href="a-gons.html"><i class="fa fa-check"></i><b>D</b> Gesture onset timing of voiceless and voiced stops in Italian and Polish</a></li>
+<li class="chapter" data-level="E" data-path="a-speakers.html"><a href="a-speakers.html"><i class="fa fa-check"></i><b>E</b> An informal analysis of number of speakers per phonetic study by year and endangerment status</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Vowel duration and consonant voicing: A production study</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="a:polar-gams" class="section level1" number="10">
+<h1><span class="header-section-number">A</span> Assessing mid-sagittal tongue contours in polar coordinates using generalised additive (mixed) models</h1>
+<p>Coretta, Stefano. 2020. Assessing mid-sagittal tongue contours in polar coordinates using generalised additive (mixed) models. OSF Preprints. DOI: <a href="https://doi.org/10.31219/osf.io/q6vzb" class="uri">https://doi.org/10.31219/osf.io/q6vzb</a>.</p>
+<div id="abstract-5" class="section level2 unnumbered">
+<h2>Abstract</h2>
+<p>Statistical modelling of whole tongue contours has been mostly dominated by the use of Smoothing Splines Analysis of Variance (SSANOVA), although the quantitative analysis of UTI data remains a challenge.
+Recently, a variety of research disciplines witnessed an increased use of Generalised Additive Models (GAMs) and their mixed-effects counterpart.
+This family of models is a highly flexible solution which extends standard generalised linear mixed regressions to model non-linear effects.
+This paper offers a review of GAMs fitted to tongue contours in polar coordinates, as an alternative to polar SSANOVA, given the increasing popularity of these models among linguists.
+Polar GAMs fitting, significance testing, and model plotting are illustrated by means of an example study that compares tongue contours of voiceless and voiced stops of 12 speakers of Italian and Polish.
+A brief tutorial illustrates fitting and plotting of polar GAMs with the R package rticulate.
+The series of polar GAMs indicates a high degree of idiosyncrasy in tongue root position in voiceless and voiced stops, within and across speakers.
+Limitations of the current implementation of polar GAMs (such as across-speaker normalisation) and future directions are also briefly discussed.</p>
+</div>
+<div id="introduction-2" class="section level2" number="10.1">
+<h2><span class="header-section-number">A.1</span> Introduction</h2>
+<!-- need to say that tongue comes from UTI -->
+<p>Since the publication of the seminal paper by <span class="citation"><a href="references.html#ref-davidson2006" role="doc-biblioref">Davidson</a> (<a href="references.html#ref-davidson2006" role="doc-biblioref">2006</a>)</span>, statistical modelling of whole tongue contours obtained with ultrasound imaging has been dominated by the use of Smoothing Splines Analysis of Variance <span class="citation">(SSANOVA, <a href="references.html#ref-gu2013" role="doc-biblioref">Gu 2013</a>)</span>.
+These models have greatly advanced our understanding of tongue articulation and speech modelling.
+<!-- Some of the limitations of modelling tongue contours with SSANOVA is that separate models are needed for different phonetic contexts even within a single speaker, and that SSANOVA as implemented in most studies does not include random effects (for the importance of random effects in ).
+The general difficulty felt with SSANOVA and tongue contours has favoured alternative methods like Principal Component Analysis. -->
+On the other hand, Generalised Additive Models (GAMs) and their mixed-effects counterpart <span class="citation">(GAMMs, <a href="references.html#ref-wood2006" role="doc-biblioref">Wood 2006</a>)</span> are increasingly adopted in linguistics as a means to model complex data.
+This paper introduces an implementation of GAMs fitted to tongue contours using a polar coordinate system.
+The implementation of polar GAMs is illustrated with ultrasound tongue imaging data of an example study that compares voiceless and voiced stops.
+A brief tutorial shows how to fit polar GAMs with the R package rticulate, developed to facilitate the fitting procedure.
+Among the advantages of polar GAMs over the current implementation of polar tongue SSANOVA is the possibility of modelling the effect of multiple predictors and that of controlling for autocorrelation in the residuals with the inclusion of autoregressive models.</p>
+<div id="ultrasound-tongue-imaging" class="section level3" number="10.1.1">
+<h3><span class="header-section-number">A.1.1</span> Ultrasound tongue imaging</h3>
+<p>Ultrasound imaging is a non-invasive technique for obtaining an image of internal organs and other body tissues.
+2D ultrasound imaging has been successfully used for imaging sections of the tongue surface <span class="citation">(for a review, see <a href="references.html#ref-gick2002" role="doc-biblioref">Gick 2002</a>; and <a href="references.html#ref-lulich2018" role="doc-biblioref">Lulich, Berkson &amp; Jong 2018</a>)</span>.
+An image of the (2D) tongue surface can be obtained by placing the transducer in contact with the sub-mental triangle (the area under the chin), aligned either with the mid-sagittal or the coronal plane.
+The ultrasonic waves propagate from the transducer in a radial fashion through the aperture of the mandible and get reflected when they hit the air above the tongue surface.
+This “echo” is captured by the transducer and translated into an image like the one shown in <a href="a-polar-gams.html#fig:uti">A.1</a> <span class="citation">(for a technical description, see <a href="references.html#ref-stone2005" role="doc-biblioref">Stone 2005</a>)</span>.</p>
+<div class="figure" style="text-align: center"><span id="fig:uti"></span>
+<img src="img/Figure01-uti.png" alt="An ultrasound image showing a mid-sagittal view of the tongue. The white curved stripe in the image indicates where the ultrasonic waves have been reflected by the air above the tongue. The tongue surface corresponds to the lower edge of the white stripe. In this image, the tongue tip is located on the right. The green curve approximates the location of the palate."  />
+<p class="caption">
+Figure A.1: An ultrasound image showing a mid-sagittal view of the tongue. The white curved stripe in the image indicates where the ultrasonic waves have been reflected by the air above the tongue. The tongue surface corresponds to the lower edge of the white stripe. In this image, the tongue tip is located on the right. The green curve approximates the location of the palate.
+</p>
+</div>
+</div>
+<div id="generalised-additive-models" class="section level3" number="10.1.2">
+<h3><span class="header-section-number">A.1.2</span> Generalised Additive models</h3>
+<p>Generalised additive models, or GAMs, are a more general form of non-parametric modelling that allows fitting non-linear as well as linear effects, and combine properties of linear and additive modelling <span class="citation">(<a href="references.html#ref-hastie1986" role="doc-biblioref">Hastie &amp; Tibshirani 1986</a>)</span>.
+GAMs are built with smoothing splines <span class="citation">(like SSANOVA, see <a href="references.html#ref-helwig2016" role="doc-biblioref">Helwig &amp; Ma 2016</a>)</span>, which are defined piecewise with a set (the <em>basis</em>) of polynomial functions (the <em>basis functions</em>).
+When fitting GAMs, the smoothing splines try to maximise the fit to the data while being constrained by a smoothing penalty (usually estimated from the data itself).
+Such penalisation constitutes a guard against overfitting.
+GAMs are thus powerful and flexible models that can deal with non-linear data efficiently.</p>
+<p>Moreover, GAMs have a mixed-effect counterpart, Generalised Additive Mixed Models (GAMMs), in which random effects can be included <span class="citation">(for a technical introduction to GAM(M)s, see <a href="references.html#ref-zuur2012" role="doc-biblioref">Zuur 2012</a>; and <a href="references.html#ref-wood2017" role="doc-biblioref">Wood 2017</a>)</span>.
+GAMs can offer relief from issues of autocorrelation between points of a tongue contour (given that points close to each other are not independent from one another).
+For example, GAMs can fit separate smooths to individual contours, or a first-order autoregression model can be included which tries to account for the autocorrelation between each point in the contour and the one following it.
+Tongue contours obtained from ultrasound imaging lend themselves to be efficiently modelled using GAM(M)s.</p>
+</div>
+<div id="polar-coordinates" class="section level3" number="10.1.3">
+<h3><span class="header-section-number">A.1.3</span> Polar coordinates</h3>
+<p><span class="citation"><a href="references.html#ref-mielke2015" role="doc-biblioref">Mielke</a> (<a href="references.html#ref-mielke2015" role="doc-biblioref">2015</a>)</span> and <span class="citation"><a href="references.html#ref-heyne2015" role="doc-biblioref">Heyne &amp; Derrick</a> (<a href="references.html#ref-heyne2015" role="doc-biblioref">2015a</a>)</span>, <span class="citation"><a href="references.html#ref-heyne2015a" role="doc-biblioref">Heyne &amp; Derrick</a> (<a href="references.html#ref-heyne2015a" role="doc-biblioref">2015b</a>)</span> have shown that using polar coordinates of tongue contours rather than Cartesian coordinates brings several benefits, among which reduced variance at the edges of the tongue contour.
+Points in a polar coordinate system are defined by pairs of radial and angular values.
+A point is described by a radius, which corresponds to the radial distance from the origin, and by the angle from a reference radius.
+Tongue contours, due to their shape, tend to have increasing slope at the left and right edges, in certain cases tending to become almost completely vertical.
+The verticality of the contours has the effect of increasing the variance of the fitted contours (and hence the confidence intervals), and in some cases it can even generate uninterpretable curves.</p>
+<p>This issue is illustrated in <a href="a-polar-gams.html#fig:Figure02">A.2</a>.
+The <em>x</em> and <em>y</em> axes are the <em>x</em> and <em>y</em> Cartesian coordinates in millimetres.
+The plot shows LOESS smooths superimposed on the points of the individual tongue contours of an Italian speaker (IT01, see <a href="a-polar-gams.html#s:data">A.2.1</a>).
+These contours refer to the mid-sagittal shape of the tongue during the closure of four consonants (/t, d, k, g/) preceded by one of three vowels (/a, o, u/).
+The tip of the tongue is on the right-end side of each panel.
+Focussing on the smooths, it can be noticed that the smooths in the contexts of the vowel /u/ diverge substantially from the true contours (as inferred by the points).
+In the contexts of velar consonants and the other two vowels, the back/root of the tongue is somewhat flattened out relative to the actual contours.
+These smoothing artefacts arise because, especially at the left-edge of these particular contours, the slope of the curve increases in such a way that the curve bends under itself (see for example the context /ug/, when <em>x</em> is between -30 and -20).
+Since those points on the bend share the same <em>x</em> value, the smooth just averages across the <em>y</em> values of those points.
+<a href="a-polar-gams.html#fig:Figure03">A.3</a> shows a more appropriate (artefact-free) way of representing individual tongue contours.
+In these plots, the points of each contour are connected sequentially by a line, rather than smoothed over.
+The parts in which the contours bend over themselves are kept as such and visualised correctly.</p>
+<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
+<div class="figure" style="text-align: center"><span id="fig:Figure02"></span>
+<img src="07_2018-polar-gam_files/figure-html/Figure02-1.png" alt="Estimated tongue contours of IT01 depending on C2 place, vowel and C2 voicing." width="672" width=\linewidth />
+<p class="caption">
+Figure A.2: Estimated tongue contours of IT01 depending on C2 place, vowel and C2 voicing.
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:Figure03"></span>
+<img src="07_2018-polar-gam_files/figure-html/Figure03-1.png" alt="Estimated tongue contours of IT01 depending on C2 place, vowel and C2 voicing." width="672" width=\linewidth />
+<p class="caption">
+Figure A.3: Estimated tongue contours of IT01 depending on C2 place, vowel and C2 voicing.
+</p>
+</div>
+<p>These figures illustrate that using Cartesian coordinates for modelling tongue contours can introduce smoothing artefacts which can in turn negatively affect the model output.
+When tongue contours are expressed with polar coordinates, on the other hand, the variance is reduced and the fitted contours generally reflect more closely the underlying tongue shape.
+Mielke has implemented a series of R <span class="citation">(<a href="references.html#ref-r-core-team2018" role="doc-biblioref">R Core Team 2018</a>)</span> functions for fitting polar SSANOVAs to tongue contours (<a href="http://phon.chass.ncsu.edu/manual/tongue_ssanova.r" class="uri">http://phon.chass.ncsu.edu/manual/tongue_ssanova.r</a>).
+While model fitting is achieved using polar coordinates, plotting is done by reconverting the coordinates to a Cartesian system.
+This same procedure is used in the polar GAM modelling presented here.</p>
+</div>
+</div>
+<div id="polar-gamms" class="section level2" number="10.2">
+<h2><span class="header-section-number">A.2</span> Polar GAM(M)s</h2>
+<p>GAMs fitted to tongue contours in polar coordinates are introduced here.
+A polar GAM is constructed as follows.
+The outcome variable of the model are the radial coordinates, while a smooth term over the angular coordinates is the predictor which takes care of modelling the curved shape of the contour.
+Other predictors, such as consonant or vowel type, speech rate, or random effects, can also be included.
+The model returns fitted smooths in polar coordinates.
+The predicted polar coordinates of the smooths can be derived from the model and converted into a Cartesian coordinate system (centred on the origin of the polar system) for plotting.
+A simple example with data from one speaker will illustrate how to fit polar GAMs with the R package rticulate.
+The following section gives information on the ultrasonic system used for data collection and on how the data has been processed, before moving onto model fitting itself.</p>
+<!-- The function `polar_gam()` accepts Cartesian coordinates, which are converted into polar using a user specified origin or the origin estimated from the data.
+The polar origin is either known or estimated from the data, depending on the ultrasonic system used.
+The GAM is fitted on the polar coordinates and the predicted values are converted back to Cartesian using the same origin for plotting. -->
+<div id="s:data" class="section level3" number="10.2.1">
+<h3><span class="header-section-number">A.2.1</span> Data collection and processing</h3>
+<p>Synchronised audio and ultrasound tongue imaging data have been recorded from 11 speakers of Italian and 6 speakers of Polish while reading a series of controlled sentences (only 6 of the 11 Italian speakers are analysed here, see <a href="a-polar-gams.html#s:comptrp">A.3</a>).
+An Articulate Instruments Ltd™ set-up was used for this study.
+The ultrasonic data was collected through a TELEMED Echo Blaster 128 unit with a TELEMED C3.5/20/128Z-3 ultrasonic transducer (20mm radius, 2-4 MHz).
+A synchronisation unit (P-Stretch) was plugged into the Echo Blaster unit and used for automatic audio/ultrasound synchronisation.
+A FocusRight Scarlett Solo pre-amplifier and a Movo LV4-O2 Lavalier microphone were used for audio recording.
+The acquisition of the ultrasonic and audio signals was achieved with the software Articulate Assistant Advanced (AAA, v2.17.2) running on a Hawlett-Packard ProBook 6750b laptop with Microsoft Windows 7.
+Stabilisation of the ultrasonic transducer was ensured by using the metallic headset produced by Articulate Instruments Ltd™ <span class="citation">(<a href="references.html#ref-articulate2008" role="doc-biblioref">2008</a>)</span>.</p>
+<p>Before the reading task, the participant’s occlusal plane was obtained using a bite plate <span class="citation">(<a href="references.html#ref-scobbie2011" role="doc-biblioref">Scobbie et al. 2011</a>)</span>.
+The participants read nonce words embedded in the frame sentence <em>Dico __ lentamente</em> ‘I say __ slowly’ (Italian) and <em>Mówię __ teraz</em> ‘I say __ now’ (Polish).
+The words follow the structure CV́CV, where C = /p/, V = /a, o, u/, C = /t, d, k, g/, and V = V.
+Each speaker repeated the stimuli six times.</p>
+<p>Spline curves were fitted to the visible tongue contours using the AAA automatic tracking function.
+Manual correction was applied in those cases that showed clear tracking errors.
+The time of maximum tongue displacement within consonant closure was then calculated in AAA following the method in <span class="citation"><a href="references.html#ref-strycharczuk2015" role="doc-biblioref">Strycharczuk &amp; Scobbie</a> (<a href="references.html#ref-strycharczuk2015" role="doc-biblioref">2015</a>)</span>.
+A fan-like frame consisting of 42 equidistant radial lines was used as the coordinate system.
+The origin of the 42 fan-lines coincides with the centre of the ultrasonic probe, such that each fan-line is parallel to the direction of the ultrasonic signal.
+Tongue displacement was thus calculated as the displacement of the fitted splines along the fan-line vectors.
+The time of maximum tongue displacement was the time of greater displacement along the fan-line vector with the greatest standard deviation.
+The vector standard deviation search area was restricted to the portion of the contour corresponding to the tongue tip for coronal consonants, and to the portion corresponding to the tongue dorsum for velar consonants.</p>
+<p>The Cartesian coordinates of the tongue contours were extracted from the ultrasonic data at the time of maximum tongue displacement (always within C2 closure).
+The contours were subsequently normalised within speaker by applying offsetting and rotation relative to the participant’s occlusal plane <span class="citation">(<a href="references.html#ref-scobbie2011" role="doc-biblioref">Scobbie et al. 2011</a>)</span>.
+Each participants’ dataset is thus constituted by <em>x</em> and <em>y</em> coordinates of the tongue contours that define respectively the horizontal and vertical axes.
+The horizontal plane is parallel to the speaker’s occlusal plane.</p>
+</div>
+<div id="fitting-a-polar-gam" class="section level3" number="10.2.2">
+<h3><span class="header-section-number">A.2.2</span> Fitting a polar GAM</h3>
+<p>GAMs can be fitted in R with the <code>gam()</code> function from package mgcv <span class="citation">(<a href="references.html#ref-wood2011" role="doc-biblioref">Wood 2011</a>; <a href="references.html#ref-wood2017" role="doc-biblioref">Wood 2017</a>)</span>.
+<code>bam()</code> is a more efficient function when the dataset has several hundreds observations.
+The package rticulate has been developed as a wrapper of the <code>bam()</code> function to be used with tongue contours.
+The special function <code>polar_gam()</code> can fit a variety of GAM models to tongue contours coordinates, using the same syntax of mgcv.
+The function accepts tongue contours either in Cartesian or polar coordinates.
+In the first case, the coordinates can be transformed into polar before fitting.
+If the data is in the AAA fan-like coordinate system, the origin is automatically estimated with the method in <span class="citation"><a href="references.html#ref-heyne2015a" role="doc-biblioref">Heyne &amp; Derrick</a> (<a href="references.html#ref-heyne2015a" role="doc-biblioref">2015b</a>)</span>.
+If the data is not exported from AAA, the user can specify the known coordinates of the probe origin.
+The function <code>plot_polar_smooths()</code>, used for plotting the estimated contours, converts the coordinates back into Cartesian using the same origin as with GAM fitting.</p>
+<p>A GAM in R can be specified with a formula that uses the same syntax of lme4, a commonly used package for linear mixed-effects models <span class="citation">(<a href="references.html#ref-bates2015" role="doc-biblioref">Bates et al. 2015</a>)</span>.
+The mgcv package allows to specify smoothing spline terms with the function <code>s()</code>.
+This function takes the term along which a spline is created (for example, time in a time series, or <em>x</em>-coordinates in a Cartesian system).
+Among the arguments of <code>s()</code>, the user can select the type of spline (the <code>bs</code> argument) and the grouping factor used for comparison (the <code>by</code> argument).
+For a more in-depth introduction to GAMs in R for linguistics, see <span class="citation"><a href="references.html#ref-soskuthy2017" role="doc-biblioref">Sóskuthy</a> (<a href="references.html#ref-soskuthy2017" role="doc-biblioref">2017</a>)</span> and <span class="citation"><a href="references.html#ref-wieling2017" role="doc-biblioref">Wieling</a> (<a href="references.html#ref-wieling2017" role="doc-biblioref">2017</a>)</span>.</p>
+<p>As means of illustration, the following paragraphs will show how to fit a polar GAM with data from one of the Italian speakers.
+<!-- show the problem -->
+Due to differences in the placement of the probe and in the speakers’ anatomy, different portions of the tongue are likely to be imaged across speakers, so that scaling might not be possible (or wise).
+For this reason, it is recommended to fit separate models for each participant, rather than aggregate all of the data in a single model.</p>
+<p>We can start from a simple model in which we test the effect of C2 place, vowel, and voicing on tongue contours.
+<code>vc_voicing</code> is an ordered factor that specifies the combination of C2 place, vowel, and voicing.
+Modelling different contours for each combination of the three predictors can be achieved by using <code>vc_voicing</code> with the <code>by</code> argument of the difference smooth, and by including <code>vc_voicing</code> as a parametric term.
+The following code fits the specified model to the contour data of IT01.
+When running the code, the coordinates of the estimated origin used for the conversion to polar coordinates are returned.
+The model is fitted by Maximum Likelihood (ML) here to allow model comparison below.</p>
+<pre><code>## The origin is x = 14.3901068810439, y = -65.2314851170583.</code></pre>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="a-polar-gams.html#cb10-1" aria-hidden="true" tabindex="-1"></a>it01_gam <span class="ot">&lt;-</span> <span class="fu">polar_gam</span>(</span>
+<span id="cb10-2"><a href="a-polar-gams.html#cb10-2" aria-hidden="true" tabindex="-1"></a>  Y <span class="sc">~</span></span>
+<span id="cb10-3"><a href="a-polar-gams.html#cb10-3" aria-hidden="true" tabindex="-1"></a>    vc_voicing <span class="sc">+</span>            <span class="co"># parametric term</span></span>
+<span id="cb10-4"><a href="a-polar-gams.html#cb10-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">s</span>(X) <span class="sc">+</span>                  <span class="co"># reference smooth</span></span>
+<span id="cb10-5"><a href="a-polar-gams.html#cb10-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">s</span>(X, <span class="at">by =</span> vc_voicing),  <span class="co"># difference smooth</span></span>
+<span id="cb10-6"><a href="a-polar-gams.html#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> tongue_it01,</span>
+<span id="cb10-7"><a href="a-polar-gams.html#cb10-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">method =</span> <span class="st">&quot;ML&quot;</span></span>
+<span id="cb10-8"><a href="a-polar-gams.html#cb10-8" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<p>The function <code>plot_polar_smooths()</code> can be used to plot the estimated contours.
+The shaded areas around the estimated contours are 95% confidence intervals.
+Note that, differently from SSANOVA, statistical significance can’t be assessed from the overlapping (or lack thereof) of the confidence intervals.
+The output of <code>plot_polar_smooths()</code> is shown in <a href="a-polar-gams.html#fig:Figure04">A.4</a>.
+For more details on fitting and plotting more complex models (for example models with multiple predictors or tensor product smooths), see the package vignette <code>polar-gams</code> (accessible with <code>vignette("polar-gams", package = "rticulate")</code>).</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="a-polar-gams.html#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_polar_smooths</span>(</span>
+<span id="cb11-2"><a href="a-polar-gams.html#cb11-2" aria-hidden="true" tabindex="-1"></a>  it01_gam,</span>
+<span id="cb11-3"><a href="a-polar-gams.html#cb11-3" aria-hidden="true" tabindex="-1"></a>  X,</span>
+<span id="cb11-4"><a href="a-polar-gams.html#cb11-4" aria-hidden="true" tabindex="-1"></a>  voicing,</span>
+<span id="cb11-5"><a href="a-polar-gams.html#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">facet_terms =</span> c2_place <span class="sc">+</span> vowel,</span>
+<span id="cb11-6"><a href="a-polar-gams.html#cb11-6" aria-hidden="true" tabindex="-1"></a>  <span class="co"># the following splits the factor interaction into the individual terms,</span></span>
+<span id="cb11-7"><a href="a-polar-gams.html#cb11-7" aria-hidden="true" tabindex="-1"></a>  <span class="co"># so that they can be called in the plotting arguments</span></span>
+<span id="cb11-8"><a href="a-polar-gams.html#cb11-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">split =</span> <span class="fu">list</span>(<span class="at">vc_voicing =</span> <span class="fu">c</span>(<span class="st">&quot;vowel&quot;</span>, <span class="st">&quot;c2_place&quot;</span>, <span class="st">&quot;voicing&quot;</span>))</span>
+<span id="cb11-9"><a href="a-polar-gams.html#cb11-9" aria-hidden="true" tabindex="-1"></a>) <span class="sc">+</span></span>
+<span id="cb11-10"><a href="a-polar-gams.html#cb11-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_fixed</span>() <span class="sc">+</span></span>
+<span id="cb11-11"><a href="a-polar-gams.html#cb11-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">&quot;top&quot;</span>)</span></code></pre></div>
+<p><img src="07_2018-polar-gam_files/figure-html/it01-gam-plot-code-1.png" width="672" style="display: block; margin: auto;" /></p>
+<div class="figure" style="text-align: center"><span id="fig:Figure04"></span>
+<img src="07_2018-polar-gam_files/figure-html/Figure04-1.png" alt="Estimated tongue contours of IT01 depending on C2 place, vowel and C2 voicing." width="672" width=\linewidth />
+<p class="caption">
+Figure A.4: Estimated tongue contours of IT01 depending on C2 place, vowel and C2 voicing.
+</p>
+</div>
+<p>One way to assess significance of model terms is to compare the ML score of the full model against one without the relevant predictor, using the function <code>compareML()</code> from the itsadug package <span class="citation">(<a href="references.html#ref-van-rij2017" role="doc-biblioref">van Rij et al. 2017</a>)</span>.
+Both the parametric term and the difference smooth need to be removed in the null model.</p>
+<pre><code>## The origin is x = 14.3901068810439, y = -65.2314851170583.</code></pre>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="a-polar-gams.html#cb13-1" aria-hidden="true" tabindex="-1"></a>it01_gam_0 <span class="ot">&lt;-</span> <span class="fu">polar_gam</span>(</span>
+<span id="cb13-2"><a href="a-polar-gams.html#cb13-2" aria-hidden="true" tabindex="-1"></a>  Y <span class="sc">~</span></span>
+<span id="cb13-3"><a href="a-polar-gams.html#cb13-3" aria-hidden="true" tabindex="-1"></a>    <span class="co"># vc_voicing +            # remove parametric term</span></span>
+<span id="cb13-4"><a href="a-polar-gams.html#cb13-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">s</span>(X),                     <span class="co"># keep reference smooth</span></span>
+<span id="cb13-5"><a href="a-polar-gams.html#cb13-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># s(X, by = vc_voicing),  # remove difference smooth</span></span>
+<span id="cb13-6"><a href="a-polar-gams.html#cb13-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> tongue_it01,</span>
+<span id="cb13-7"><a href="a-polar-gams.html#cb13-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">method =</span> <span class="st">&quot;ML&quot;</span></span>
+<span id="cb13-8"><a href="a-polar-gams.html#cb13-8" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="a-polar-gams.html#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">compareML</span>(it01_gam_0, it01_gam)</span></code></pre></div>
+<pre><code>## it01_gam_0: Y ~ s(X)
+## 
+## it01_gam: Y ~ vc_voicing + s(X) + s(X, by = vc_voicing)
+## 
+## Chi-square test of ML scores
+## -----
+##        Model    Score Edf Difference     Df  p.value Sig.
+## 1 it01_gam_0 7085.633   3                                
+## 2   it01_gam 4417.563  36   2668.070 33.000  &lt; 2e-16  ***
+## 
+## AIC difference: 5602.30, model it01_gam has lower AIC.</code></pre>
+<p>To check which part of the contour differs among conditions, the method recommended in <span class="citation"><a href="references.html#ref-soskuthy2017" role="doc-biblioref">Sóskuthy</a> (<a href="references.html#ref-soskuthy2017" role="doc-biblioref">2017</a>)</span>] is to plot the difference smooth and check the confidence interval.
+The parts of the confidence interval that don’t include 0 indicate that the difference between contours in that part is significant.
+Figures <a href="a-polar-gams.html#fig:Figure05-1">A.5</a> and <a href="a-polar-gams.html#fig:Figure05-2">A.6</a> illustrate the use of difference smooths with the difference smooths of voiceless vs voiced coronal stops when the vocalic context is /a/ or /u/.
+As per usual, the tongue tip is on the right-end side of each plot.
+The difference smooths indicate that there is a significant difference along the posterior part of the tongue (the root and dorsum).
+Based on the predicted smooths sown in <a href="a-polar-gams.html#fig:Figure04">A.4</a>, we can argue that, in the context of coronal consonants, the root is more advanced in voiced relative to voiceless stops (when the vowel is either /a/ or /u/), and that the dorsum is also somewhat retracted in voiced stops if the vowel is /u/.</p>
+<div class="figure" style="text-align: center"><span id="fig:Figure05-1"></span>
+<img src="07_2018-polar-gam_files/figure-html/Figure05-1.png" alt="Difference smooth of voiceless vs voiced stops in the context of /a/ (top) and /u/ (bottom)." width="672" />
+<p class="caption">
+Figure A.5: Difference smooth of voiceless vs voiced stops in the context of /a/ (top) and /u/ (bottom).
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:Figure05-2"></span>
+<img src="07_2018-polar-gam_files/figure-html/Figure05-2.png" alt="Difference smooth of voiceless vs voiced stops in the context of /a/ (top) and /u/ (bottom)." width="672" />
+<p class="caption">
+Figure A.6: Difference smooth of voiceless vs voiced stops in the context of /a/ (top) and /u/ (bottom).
+</p>
+</div>
+<p>As mentioned in the introduction, autocorrelation in the data can produce unwanted patterns in the residuals, which in turn can affect the estimated smooths (and falsely increase certainty about them).
+A first-order autoregressive (AR1) model can be included to reduce autocorrelation at lag 1.
+<a href="a-polar-gams.html#fig:Figure06-1">A.7</a> and <a href="a-polar-gams.html#fig:Figure06-2">A.8</a> show the autocorrelations in the residuals without (top) and with (bottom) an AR1 model.
+The GAM model with the AR1 correction has lower autocorrelation values.
+In this case, it is thus advisable to perform ML comparison and smooths plotting with models in which an AR1 model has been included.
+For a more in-depth treatment of issues related to autocorrelation, see <span class="citation"><a href="references.html#ref-soskuthy2017" role="doc-biblioref">Sóskuthy</a> (<a href="references.html#ref-soskuthy2017" role="doc-biblioref">2017</a>)</span>.</p>
+<div class="figure" style="text-align: center"><span id="fig:Figure06-1"></span>
+<img src="07_2018-polar-gam_files/figure-html/Figure06-1.png" alt="Autocorrelation plots of a model fitted without (top) and with (bottom) a first-order autoregressive model (AR1)." width="672" />
+<p class="caption">
+Figure A.7: Autocorrelation plots of a model fitted without (top) and with (bottom) a first-order autoregressive model (AR1).
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:Figure06-2"></span>
+<img src="07_2018-polar-gam_files/figure-html/Figure06-2.png" alt="Autocorrelation plots of a model fitted without (top) and with (bottom) a first-order autoregressive model (AR1)." width="672" />
+<p class="caption">
+Figure A.8: Autocorrelation plots of a model fitted without (top) and with (bottom) a first-order autoregressive model (AR1).
+</p>
+</div>
+</div>
+</div>
+<div id="s:comptrp" class="section level2" number="10.3">
+<h2><span class="header-section-number">A.3</span> Comparing tongue root position in voiceless and voiced stops</h2>
+<p>Tongue root advancement is a well-known mechanism employed to keep intra-oral pressure below the threshold required for voicing <span class="citation">(<a href="references.html#ref-ohala2011" role="doc-biblioref">Ohala 2011</a>; <a href="references.html#ref-kent1969" role="doc-biblioref">Kent &amp; Moll 1969</a>; <a href="references.html#ref-perkell1969" role="doc-biblioref">Perkell 1969</a>; <a href="references.html#ref-westbury1983" role="doc-biblioref">Westbury 1983</a>; <a href="references.html#ref-ahn2018" role="doc-biblioref">Ahn 2018</a>)</span>.
+Among the languages reported to show tongue root position differences between phonation categories in stops there are English <span class="citation">(<a href="references.html#ref-westbury1983" role="doc-biblioref">Westbury 1983</a>; <a href="references.html#ref-ahn2018" role="doc-biblioref">Ahn 2018</a>)</span>, Brazilian Portuguese <span class="citation">(<a href="references.html#ref-ahn2018" role="doc-biblioref">Ahn 2018</a>)</span>, and Hindi <span class="citation">(<a href="references.html#ref-ahn2016a" role="doc-biblioref">Ahn 2016</a>)</span>.
+Tongue root advancement is one of several mechanisms employed by speakers to enlarge the oral cavity during the production of a stop closure.
+The decrease in pressure that follows from such expansion ensures that voicing can be maintained during the closure.</p>
+<p>Mid-sagittal tongue contours at maximum tongue displacement of voiceless and voiced stops have been compared using polar GAMs.
+To exemplify how polar GAMs can be used to model articulatory differences within and between speakers, data from 6 speakers of Italian and 6 speakers of Polish will be discussed.
+Note that the 6 Italian speakers are representative of the general trends found in the entire sample of 11 speakers.
+<a href="a-polar-gams.html#fig:Figure07">A.9</a> to <a href="a-polar-gams.html#fig:Figure18">A.20</a> show an appreciable degree of variation across speakers and phonological contexts in relation to the differences in tongue shapes between voiceless and voiced stops (IT07 and Pl05 both miss data from /u/ due to the poor quality of the ultrasonic image for this vowel).
+In some speakers and contexts, the tongue root (the left part of the tongue contours) is more advanced in voiced stops than in voiceless stops.</p>
+<p>In particular, IT01, IT02, PL05, and PL06 show a robust pattern in which the tongue root in voiced stops is more advanced than in voiceless stops in most vowel/place contexts.
+The other speakers, however, either don’t have any tongue root advancement (like Pl03), or they have advancement in only some of the phonological contexts (like PL07).
+Moreover, IT11 has the opposite pattern, especially with velar stops, such that voiced stops have a retracted tongue root compared to voiceless stops.
+IT04 is a clear example of tongue body lowering (another cavity expansion mechanism), as it can be seen in coronal stops.
+This level of idiosyncrasy (both within and between speakers) is not surprising, and it qualitatively resembles the degree of variability found, for example, in <span class="citation"><a href="references.html#ref-ahn2018" role="doc-biblioref">Ahn</a> (<a href="references.html#ref-ahn2018" role="doc-biblioref">2018</a>)</span> for English and Brasilian Portuguese.
+Finally, no clear patterns can be discerned between speakers of Italian and Polish that could point to cross-linguistic differences.</p>
+<p>As for the magnitude of the difference in tongue root position, such difference is about 2 mm in the data reported here.
+<span class="citation"><a href="references.html#ref-kirkham2017" role="doc-biblioref">Kirkham &amp; Nance</a> (<a href="references.html#ref-kirkham2017" role="doc-biblioref">2017</a>)</span> find that the tongue root in +ATR vowels is on average 4 mm more advanced than the respective −ATR vowels.
+<span class="citation"><a href="references.html#ref-rothenberg1967" role="doc-biblioref">Rothenberg</a> (<a href="references.html#ref-rothenberg1967" role="doc-biblioref">1967</a>)</span> argues, based on modelling, that the tongue root can move forward by a maximum of about 5 mm mid-sagittally.
+This movement corresponds to an average volume increase of 18 cm.
+Given these estimates, it can be argued that a 2 mm change in root position along the mid-sagittal plane contributes to an appreciable oral cavity volume increase.
+Considering that other volume expansion mechanisms can operate along with the advancement of the tongue root (like larynx lowering, tongue body lowering, etc.), the tongue root driven volume increase found here, although at first sight small, seems to be sufficient to allow for voicing to be maintained during the closure of voiced stops.</p>
+</div>
+<div id="conclusions-1" class="section level2" number="10.4">
+<h2><span class="header-section-number">A.4</span> Conclusions</h2>
+<p>Generalised additive (mixed) models (GAMs) can be efficiently used to statistically assess differences in tongue contour shapes as obtained from ultrasound tongue imaging.
+This paper showed how GAMs can be fitted to tongue contours in polar coordinates in R with the specialised package rticulate.
+An example of how GAMs can help modelling differences in tongue contours has been illustrated with data from 12 speakers of Italian and Polish in which the mid-sagittal tongue contours of voiceless and voiced stops where compared.
+The advantages of polar GAMs over the current implementation of polar tongue SSANOVA include: the ability to specify multiple predictors and random effects; control over the autocorrelation in the residuals which could otherwise make the model overconfident; separate methods for assessing statistical significance at the level of the predictor (with model comparison) and for identifying which part of the tongue differs significantly (by visualising the difference smooths).
+The same general issues noted in <span class="citation"><a href="references.html#ref-davidson2006" role="doc-biblioref">Davidson</a> (<a href="references.html#ref-davidson2006" role="doc-biblioref">2006</a>)</span> for SSANOVA apply to polar GAMs.
+In particular, while within-speaker normalisation can be achieved by rotation and offsetting of the data relative to a bite plate (as done here), across-speaker normalisation represents a bigger challenge.
+Since we can’t deduced with sufficient certainty from the ultrasonic image which part of the tongue is being actually imaged, it is not possible to define fixed anatomical landmarks across speakers that can be used in normalisation.
+For this reason it has been recommended here to fit separate models for each speaker.
+Future work will explore ways of allowing the user to use data aggregated from multiple speakers while accounting for the uncertainty in which parts of the tongue are imaged.
+Finally, polar GAMs can also be readily extended to model 3D tongue surfaces and whole tongue contours differences over time (in other words, how the sectional shape of the tongue changes over time).</p>
+</div>
+<div id="data-accessibility-statement" class="section level2" number="10.5">
+<h2><span class="header-section-number">A.5</span> Data Accessibility Statement</h2>
+<p>The data and code used in this paper can be viewed and downloaded at the Open Science Framework <a href="https://osf.io/j79uw/" class="uri">https://osf.io/j79uw/</a>.</p>
+<div class="figure" style="text-align: center"><span id="fig:Figure07"></span>
+<img src="07_2018-polar-gam_files/figure-html/Figure07-1.png" alt="Tongue contours of voiceless and voiced stops in IT01." width=".8\textwidth" />
+<p class="caption">
+Figure A.9: Tongue contours of voiceless and voiced stops in IT01.
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:Figure08"></span>
+<img src="07_2018-polar-gam_files/figure-html/Figure08-1.png" alt="Tongue contours of voiceless and voiced stops in IT02." width=".8\textwidth" />
+<p class="caption">
+Figure A.10: Tongue contours of voiceless and voiced stops in IT02.
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:Figure09"></span>
+<img src="07_2018-polar-gam_files/figure-html/Figure09-1.png" alt="Tongue contours of voiceless and voiced stops in IT03." width=".8\textwidth" />
+<p class="caption">
+Figure A.11: Tongue contours of voiceless and voiced stops in IT03.
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:Figure10"></span>
+<img src="07_2018-polar-gam_files/figure-html/Figure10-1.png" alt="Tongue contours of voiceless and voiced stops in IT04." width=".8\textwidth" />
+<p class="caption">
+Figure A.12: Tongue contours of voiceless and voiced stops in IT04.
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:Figure11"></span>
+<img src="07_2018-polar-gam_files/figure-html/Figure11-1.png" alt="Tongue contours of voiceless and voiced stops in IT07." width=".8\textwidth" />
+<p class="caption">
+Figure A.13: Tongue contours of voiceless and voiced stops in IT07.
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:Figure12"></span>
+<img src="07_2018-polar-gam_files/figure-html/Figure12-1.png" alt="Tongue contours of voiceless and voiced stops in IT11." width=".8\textwidth" />
+<p class="caption">
+Figure A.14: Tongue contours of voiceless and voiced stops in IT11.
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:Figure13"></span>
+<img src="07_2018-polar-gam_files/figure-html/Figure13-1.png" alt="Tongue contours of voiceless and voiced stops in PL02." width=".8\textwidth" />
+<p class="caption">
+Figure A.15: Tongue contours of voiceless and voiced stops in PL02.
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:Figure14"></span>
+<img src="07_2018-polar-gam_files/figure-html/Figure14-1.png" alt="Tongue contours of voiceless and voiced stops in PL03." width=".8\textwidth" />
+<p class="caption">
+Figure A.16: Tongue contours of voiceless and voiced stops in PL03.
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:Figure15"></span>
+<img src="07_2018-polar-gam_files/figure-html/Figure15-1.png" alt="Tongue contours of voiceless and voiced stops in PL04." width=".8\textwidth" />
+<p class="caption">
+Figure A.17: Tongue contours of voiceless and voiced stops in PL04.
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:Figure16"></span>
+<img src="07_2018-polar-gam_files/figure-html/Figure16-1.png" alt="Tongue contours of voiceless and voiced stops in PL05." width=".8\textwidth" />
+<p class="caption">
+Figure A.18: Tongue contours of voiceless and voiced stops in PL05.
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:Figure17"></span>
+<img src="07_2018-polar-gam_files/figure-html/Figure17-1.png" alt="Tongue contours of voiceless and voiced stops in PL06." width=".8\textwidth" />
+<p class="caption">
+Figure A.19: Tongue contours of voiceless and voiced stops in PL06.
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:Figure18"></span>
+<img src="07_2018-polar-gam_files/figure-html/Figure18-1.png" alt="Tongue contours of voiceless and voiced stops in PL07." width=".8\textwidth" />
+<p class="caption">
+Figure A.20: Tongue contours of voiceless and voiced stops in PL07.
+</p>
+</div>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="s-final.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="a-ve-eng.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

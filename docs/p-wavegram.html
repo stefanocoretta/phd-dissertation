@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>7 Modelling electroglottographic data with wavegrams and generalised additive mixed models [Paper IV] | Vowel duration and consonant voicing: A production study</title>
+  <meta name="description" content="7 Modelling electroglottographic data with wavegrams and generalised additive mixed models [Paper IV] | Vowel duration and consonant voicing: A production study" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="7 Modelling electroglottographic data with wavegrams and generalised additive mixed models [Paper IV] | Vowel duration and consonant voicing: A production study" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="7 Modelling electroglottographic data with wavegrams and generalised additive mixed models [Paper IV] | Vowel duration and consonant voicing: A production study" />
+  
+  
+  
+
+<meta name="author" content="Stefano Coretta" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="p-tra.html"/>
+<link rel="next" href="s-gen-disc.html"/>
+<script src="libs/header-attrs-2.6/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Abstract</a></li>
+<li class="chapter" data-level="" data-path="declaration.html"><a href="declaration.html"><i class="fa fa-check"></i>Declaration</a></li>
+<li class="chapter" data-level="" data-path="copyright-statement.html"><a href="copyright-statement.html"><i class="fa fa-check"></i>Copyright statement</a></li>
+<li class="chapter" data-level="" data-path="acknowledgements.html"><a href="acknowledgements.html"><i class="fa fa-check"></i>Acknowledgements</a></li>
+<li class="part"><span><b>I Introduction</b></span></li>
+<li class="chapter" data-level="1" data-path="s-ve.html"><a href="s-ve.html"><i class="fa fa-check"></i><b>1</b> The voicing effect and beyond</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="s-ve.html"><a href="s-ve.html#s:veintro"><i class="fa fa-check"></i><b>1.1</b> The voicing effect</a></li>
+<li class="chapter" data-level="1.2" data-path="s-ve.html"><a href="s-ve.html#s:voi-comp"><i class="fa fa-check"></i><b>1.2</b> Voicing as a physical property and as a linguistic category</a></li>
+<li class="chapter" data-level="1.3" data-path="s-ve.html"><a href="s-ve.html#s:ve-phonphon-fact"><i class="fa fa-check"></i><b>1.3</b> The voicing effect and other phonological and phonetic factors</a></li>
+<li class="chapter" data-level="1.4" data-path="s-ve.html"><a href="s-ve.html#s:ve-phonologise"><i class="fa fa-check"></i><b>1.4</b> On the phonologisation of the voicing effect</a></li>
+<li class="chapter" data-level="1.5" data-path="s-ve.html"><a href="s-ve.html#s:accounts"><i class="fa fa-check"></i><b>1.5</b> One phenomenon, many explanations</a></li>
+<li class="chapter" data-level="1.6" data-path="s-ve.html"><a href="s-ve.html#s:beyond"><i class="fa fa-check"></i><b>1.6</b> Beyond voicing</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="s-rationale.html"><a href="s-rationale.html"><i class="fa fa-check"></i><b>2</b> Rationale for the current research</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="s-rationale.html"><a href="s-rationale.html#s:resq"><i class="fa fa-check"></i><b>2.1</b> Research questions</a></li>
+<li class="chapter" data-level="2.2" data-path="s-rationale.html"><a href="s-rationale.html#s:langsample"><i class="fa fa-check"></i><b>2.2</b> Language sample</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="s-rationale.html"><a href="s-rationale.html#italian"><i class="fa fa-check"></i><b>2.2.1</b> Italian</a></li>
+<li class="chapter" data-level="2.2.2" data-path="s-rationale.html"><a href="s-rationale.html#polish"><i class="fa fa-check"></i><b>2.2.2</b> Polish</a></li>
+<li class="chapter" data-level="2.2.3" data-path="s-rationale.html"><a href="s-rationale.html#english"><i class="fa fa-check"></i><b>2.2.3</b> English</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="s-rationale.html"><a href="s-rationale.html#s:sumresults"><i class="fa fa-check"></i><b>2.3</b> Preview of results</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="s-methods.html"><a href="s-methods.html"><i class="fa fa-check"></i><b>3</b> Methods</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="s-methods.html"><a href="s-methods.html#s:studyi"><i class="fa fa-check"></i><b>3.1</b> Exploratory study of the voicing effect in Italian and Polish (Study I)</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="s-methods.html"><a href="s-methods.html#participants"><i class="fa fa-check"></i><b>3.1.1</b> Participants</a></li>
+<li class="chapter" data-level="3.1.2" data-path="s-methods.html"><a href="s-methods.html#ultrasound-tongue-imaging-and-electroglottography"><i class="fa fa-check"></i><b>3.1.2</b> Ultrasound tongue imaging and electroglottography</a></li>
+<li class="chapter" data-level="3.1.3" data-path="s-methods.html"><a href="s-methods.html#equipment-set-up"><i class="fa fa-check"></i><b>3.1.3</b> Equipment set-up</a></li>
+<li class="chapter" data-level="3.1.4" data-path="s-methods.html"><a href="s-methods.html#s:procdata"><i class="fa fa-check"></i><b>3.1.4</b> Procedure and data processing</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="s-methods.html"><a href="s-methods.html#s:studyii"><i class="fa fa-check"></i><b>3.2</b> Compensatory aspects of the effect of voicing on vowel duration in English (Study II)</a></li>
+<li class="chapter" data-level="3.3" data-path="s-methods.html"><a href="s-methods.html#s:openscience"><i class="fa fa-check"></i><b>3.3</b> Open Science</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="s-methods.html"><a href="s-methods.html#with-great-power-comes-great-replicability"><i class="fa fa-check"></i><b>3.3.1</b> “With great power comes great replicability”</a></li>
+<li class="chapter" data-level="3.3.2" data-path="s-methods.html"><a href="s-methods.html#the-dark-side-of-research"><i class="fa fa-check"></i><b>3.3.2</b> The dark side of research</a></li>
+<li class="chapter" data-level="3.3.3" data-path="s-methods.html"><a href="s-methods.html#s:stand"><i class="fa fa-check"></i><b>3.3.3</b> Where we stand and where we are heading</a></li>
+<li class="chapter" data-level="3.3.4" data-path="s-methods.html"><a href="s-methods.html#s:repro"><i class="fa fa-check"></i><b>3.3.4</b> Putting this into practice</a></li>
+</ul></li>
+</ul></li>
+<li class="part"><span><b>II Original publications</b></span></li>
+<li class="chapter" data-level="4" data-path="p-relrel.html"><a href="p-relrel.html"><i class="fa fa-check"></i><b>4</b> An exploratory study of voicing-related differences in vowel duration as compensatory temporal adjustment in Italian and Polish [Paper I]</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="p-relrel.html"><a href="p-relrel.html#abstract-1"><i class="fa fa-check"></i><b>4.1</b> Abstract</a></li>
+<li class="chapter" data-level="4.2" data-path="p-relrel.html"><a href="p-relrel.html#s:introR"><i class="fa fa-check"></i><b>4.2</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="p-relrel.html"><a href="p-relrel.html#the-present-study"><i class="fa fa-check"></i><b>4.2.1</b> The present study</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="p-relrel.html"><a href="p-relrel.html#s:method"><i class="fa fa-check"></i><b>4.3</b> Method</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="p-relrel.html"><a href="p-relrel.html#participants-1"><i class="fa fa-check"></i><b>4.3.1</b> Participants</a></li>
+<li class="chapter" data-level="4.3.2" data-path="p-relrel.html"><a href="p-relrel.html#equipment"><i class="fa fa-check"></i><b>4.3.2</b> Equipment</a></li>
+<li class="chapter" data-level="4.3.3" data-path="p-relrel.html"><a href="p-relrel.html#s:materials"><i class="fa fa-check"></i><b>4.3.3</b> Materials</a></li>
+<li class="chapter" data-level="4.3.4" data-path="p-relrel.html"><a href="p-relrel.html#s:procedure"><i class="fa fa-check"></i><b>4.3.4</b> Procedure</a></li>
+<li class="chapter" data-level="4.3.5" data-path="p-relrel.html"><a href="p-relrel.html#data-processing-and-measurements"><i class="fa fa-check"></i><b>4.3.5</b> Data processing and measurements</a></li>
+<li class="chapter" data-level="4.3.6" data-path="p-relrel.html"><a href="p-relrel.html#statistical-analysis"><i class="fa fa-check"></i><b>4.3.6</b> Statistical analysis</a></li>
+<li class="chapter" data-level="4.3.7" data-path="p-relrel.html"><a href="p-relrel.html#open-science-statement"><i class="fa fa-check"></i><b>4.3.7</b> Open Science statement</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="p-relrel.html"><a href="p-relrel.html#results"><i class="fa fa-check"></i><b>4.4</b> Results</a>
+<ul>
+<li class="chapter" data-level="4.4.1" data-path="p-relrel.html"><a href="p-relrel.html#s:vduration"><i class="fa fa-check"></i><b>4.4.1</b> Vowel duration</a></li>
+<li class="chapter" data-level="4.4.2" data-path="p-relrel.html"><a href="p-relrel.html#s:cduration"><i class="fa fa-check"></i><b>4.4.2</b> Consonant closure duration</a></li>
+<li class="chapter" data-level="4.4.3" data-path="p-relrel.html"><a href="p-relrel.html#s:vcduration"><i class="fa fa-check"></i><b>4.4.3</b> Vowel and closure duration</a></li>
+<li class="chapter" data-level="4.4.4" data-path="p-relrel.html"><a href="p-relrel.html#word-duration"><i class="fa fa-check"></i><b>4.4.4</b> Word duration</a></li>
+<li class="chapter" data-level="4.4.5" data-path="p-relrel.html"><a href="p-relrel.html#release-to-release-interval-duration"><i class="fa fa-check"></i><b>4.4.5</b> Release-to-release interval duration</a></li>
+</ul></li>
+<li class="chapter" data-level="4.5" data-path="p-relrel.html"><a href="p-relrel.html#s:discussionR"><i class="fa fa-check"></i><b>4.5</b> Discussion</a>
+<ul>
+<li class="chapter" data-level="4.5.1" data-path="p-relrel.html"><a href="p-relrel.html#s:veitapoldisc"><i class="fa fa-check"></i><b>4.5.1</b> Voicing effect in Italian and Polish</a></li>
+<li class="chapter" data-level="4.5.2" data-path="p-relrel.html"><a href="p-relrel.html#s:comp"><i class="fa fa-check"></i><b>4.5.2</b> Compensatory temporal adjustment</a></li>
+<li class="chapter" data-level="4.5.3" data-path="p-relrel.html"><a href="p-relrel.html#limitations-and-future-work"><i class="fa fa-check"></i><b>4.5.3</b> Limitations and future work</a></li>
+</ul></li>
+<li class="chapter" data-level="4.6" data-path="p-relrel.html"><a href="p-relrel.html#conclusions"><i class="fa fa-check"></i><b>4.6</b> Conclusions</a></li>
+<li class="chapter" data-level="4.7" data-path="p-relrel.html"><a href="p-relrel.html#a:socioling"><i class="fa fa-check"></i><b>4.7</b> Socio-linguistic information of participants {-}</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="p-en-relrel.html"><a href="p-en-relrel.html"><i class="fa fa-check"></i><b>5</b> Temporal (in)stability in English monosyllabic and disyllabic words: Insights on the effect of voicing on vowel duration [Paper II]</a>
+<ul>
+<li class="chapter" data-level="" data-path="p-en-relrel.html"><a href="p-en-relrel.html#abstract-2"><i class="fa fa-check"></i>Abstract</a></li>
+<li class="chapter" data-level="5.1" data-path="p-en-relrel.html"><a href="p-en-relrel.html#s:intro"><i class="fa fa-check"></i><b>5.1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="p-en-relrel.html"><a href="p-en-relrel.html#s:gest"><i class="fa fa-check"></i><b>5.1.1</b> A gestural account of the voicing effect</a></li>
+<li class="chapter" data-level="5.1.2" data-path="p-en-relrel.html"><a href="p-en-relrel.html#the-voicing-effect-in-english"><i class="fa fa-check"></i><b>5.1.2</b> The voicing effect in English</a></li>
+<li class="chapter" data-level="5.1.3" data-path="p-en-relrel.html"><a href="p-en-relrel.html#s:hypo"><i class="fa fa-check"></i><b>5.1.3</b> Research hypotheses</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="p-en-relrel.html"><a href="p-en-relrel.html#methods"><i class="fa fa-check"></i><b>5.2</b> Methods</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="p-en-relrel.html"><a href="p-en-relrel.html#s:sample-size"><i class="fa fa-check"></i><b>5.2.1</b> Sample size and stopping rule</a></li>
+<li class="chapter" data-level="5.2.2" data-path="p-en-relrel.html"><a href="p-en-relrel.html#participants-2"><i class="fa fa-check"></i><b>5.2.2</b> Participants</a></li>
+<li class="chapter" data-level="5.2.3" data-path="p-en-relrel.html"><a href="p-en-relrel.html#equipment-1"><i class="fa fa-check"></i><b>5.2.3</b> Equipment</a></li>
+<li class="chapter" data-level="5.2.4" data-path="p-en-relrel.html"><a href="p-en-relrel.html#materials"><i class="fa fa-check"></i><b>5.2.4</b> Materials</a></li>
+<li class="chapter" data-level="5.2.5" data-path="p-en-relrel.html"><a href="p-en-relrel.html#procedure"><i class="fa fa-check"></i><b>5.2.5</b> Procedure</a></li>
+<li class="chapter" data-level="5.2.6" data-path="p-en-relrel.html"><a href="p-en-relrel.html#data-processing-and-measurements-1"><i class="fa fa-check"></i><b>5.2.6</b> Data processing and measurements</a></li>
+<li class="chapter" data-level="5.2.7" data-path="p-en-relrel.html"><a href="p-en-relrel.html#s:bayes"><i class="fa fa-check"></i><b>5.2.7</b> Statistical analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="p-en-relrel.html"><a href="p-en-relrel.html#results-1"><i class="fa fa-check"></i><b>5.3</b> Results</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="p-en-relrel.html"><a href="p-en-relrel.html#s:rr"><i class="fa fa-check"></i><b>5.3.1</b> Release-to-release duration</a></li>
+<li class="chapter" data-level="5.3.2" data-path="p-en-relrel.html"><a href="p-en-relrel.html#s:vow"><i class="fa fa-check"></i><b>5.3.2</b> Vowel duration</a></li>
+<li class="chapter" data-level="5.3.3" data-path="p-en-relrel.html"><a href="p-en-relrel.html#s:clos"><i class="fa fa-check"></i><b>5.3.3</b> Consonant closure duration</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="p-en-relrel.html"><a href="p-en-relrel.html#discussion"><i class="fa fa-check"></i><b>5.4</b> Discussion</a>
+<ul>
+<li class="chapter" data-level="5.4.1" data-path="p-en-relrel.html"><a href="p-en-relrel.html#s:rr-disc"><i class="fa fa-check"></i><b>5.4.1</b> Release-to-release interval</a></li>
+<li class="chapter" data-level="5.4.2" data-path="p-en-relrel.html"><a href="p-en-relrel.html#s:vc-disc"><i class="fa fa-check"></i><b>5.4.2</b> Vowel and closure duration</a></li>
+<li class="chapter" data-level="5.4.3" data-path="p-en-relrel.html"><a href="p-en-relrel.html#s:rr-gen-disc"><i class="fa fa-check"></i><b>5.4.3</b> General discussion</a></li>
+</ul></li>
+<li class="chapter" data-level="5.5" data-path="p-en-relrel.html"><a href="p-en-relrel.html#conclusion"><i class="fa fa-check"></i><b>5.5</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="p-tra.html"><a href="p-tra.html"><i class="fa fa-check"></i><b>6</b> Longer vowel duration correlates with greater tongue root displacement: Acoustic and articulatory data from Italian and Polish [Paper III]</a>
+<ul>
+<li class="chapter" data-level="" data-path="p-tra.html"><a href="p-tra.html#abstract-3"><i class="fa fa-check"></i>Abstract</a></li>
+<li class="chapter" data-level="6.1" data-path="p-tra.html"><a href="p-tra.html#introduction"><i class="fa fa-check"></i><b>6.1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="p-tra.html"><a href="p-tra.html#tongue-root-position-and-voicing"><i class="fa fa-check"></i><b>6.1.1</b> Tongue root position and voicing</a></li>
+<li class="chapter" data-level="6.1.2" data-path="p-tra.html"><a href="p-tra.html#vowel-duration-and-voicing"><i class="fa fa-check"></i><b>6.1.2</b> Vowel duration and voicing</a></li>
+<li class="chapter" data-level="6.1.3" data-path="p-tra.html"><a href="p-tra.html#this-study"><i class="fa fa-check"></i><b>6.1.3</b> This study</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="p-tra.html"><a href="p-tra.html#methodology"><i class="fa fa-check"></i><b>6.2</b> Methodology</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="p-tra.html"><a href="p-tra.html#participants-3"><i class="fa fa-check"></i><b>6.2.1</b> Participants</a></li>
+<li class="chapter" data-level="6.2.2" data-path="p-tra.html"><a href="p-tra.html#s:equipment"><i class="fa fa-check"></i><b>6.2.2</b> Equipment</a></li>
+<li class="chapter" data-level="6.2.3" data-path="p-tra.html"><a href="p-tra.html#materials-1"><i class="fa fa-check"></i><b>6.2.3</b> Materials</a></li>
+<li class="chapter" data-level="6.2.4" data-path="p-tra.html"><a href="p-tra.html#procedure-1"><i class="fa fa-check"></i><b>6.2.4</b> Procedure</a></li>
+<li class="chapter" data-level="6.2.5" data-path="p-tra.html"><a href="p-tra.html#s:process"><i class="fa fa-check"></i><b>6.2.5</b> Data processing and statistical analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="p-tra.html"><a href="p-tra.html#s:results"><i class="fa fa-check"></i><b>6.3</b> Results</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="p-tra.html"><a href="p-tra.html#s:tra-lm"><i class="fa fa-check"></i><b>6.3.1</b> Tongue root position at C2 closure onset</a></li>
+<li class="chapter" data-level="6.3.2" data-path="p-tra.html"><a href="p-tra.html#s:trp-v1"><i class="fa fa-check"></i><b>6.3.2</b> Tongue root position during V1</a></li>
+<li class="chapter" data-level="6.3.3" data-path="p-tra.html"><a href="p-tra.html#s:trp-vdur"><i class="fa fa-check"></i><b>6.3.3</b> Correlation between tongue root position and V1 duration</a></li>
+<li class="chapter" data-level="6.3.4" data-path="p-tra.html"><a href="p-tra.html#s:trp-v1-dur"><i class="fa fa-check"></i><b>6.3.4</b> Tongue root position during V1 as a function of V1 duration</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="p-tra.html"><a href="p-tra.html#s:discussion"><i class="fa fa-check"></i><b>6.4</b> Discussion</a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="p-tra.html"><a href="p-tra.html#voicing-tongue-root-position-and-vowel-duration"><i class="fa fa-check"></i><b>6.4.1</b> Voicing, tongue root position and vowel duration</a></li>
+<li class="chapter" data-level="6.4.2" data-path="p-tra.html"><a href="p-tra.html#estimates-of-tongue-root-displacement"><i class="fa fa-check"></i><b>6.4.2</b> Estimates of tongue root displacement</a></li>
+<li class="chapter" data-level="6.4.3" data-path="p-tra.html"><a href="p-tra.html#s:idio"><i class="fa fa-check"></i><b>6.4.3</b> Individual differences</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="p-tra.html"><a href="p-tra.html#conclusion-1"><i class="fa fa-check"></i><b>6.5</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="p-wavegram.html"><a href="p-wavegram.html"><i class="fa fa-check"></i><b>7</b> Modelling electroglottographic data with wavegrams and generalised additive mixed models [Paper IV]</a>
+<ul>
+<li class="chapter" data-level="" data-path="p-wavegram.html"><a href="p-wavegram.html#abstract-4"><i class="fa fa-check"></i>Abstract</a></li>
+<li class="chapter" data-level="7.1" data-path="p-wavegram.html"><a href="p-wavegram.html#introduction-1"><i class="fa fa-check"></i><b>7.1</b> Introduction</a></li>
+<li class="chapter" data-level="7.2" data-path="p-wavegram.html"><a href="p-wavegram.html#s:pilot"><i class="fa fa-check"></i><b>7.2</b> Pilot study</a></li>
+<li class="chapter" data-level="7.3" data-path="p-wavegram.html"><a href="p-wavegram.html#s:voicing"><i class="fa fa-check"></i><b>7.3</b> Wavegram GAM analysis of vowels followed by voiceless vs voiced stops</a></li>
+<li class="chapter" data-level="7.4" data-path="p-wavegram.html"><a href="p-wavegram.html#s:conclusion"><i class="fa fa-check"></i><b>7.4</b> Conclusion</a></li>
+</ul></li>
+<li class="part"><span><b>III Discussion and conclusion</b></span></li>
+<li class="chapter" data-level="8" data-path="s-gen-disc.html"><a href="s-gen-disc.html"><i class="fa fa-check"></i><b>8</b> General discussion</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="s-gen-disc.html"><a href="s-gen-disc.html#s:pluralist"><i class="fa fa-check"></i><b>8.1</b> A pluralist view</a>
+<ul>
+<li class="chapter" data-level="8.1.1" data-path="s-gen-disc.html"><a href="s-gen-disc.html#s:gestural-phasing"><i class="fa fa-check"></i><b>8.1.1</b> Gestural phasing</a></li>
+<li class="chapter" data-level="8.1.2" data-path="s-gen-disc.html"><a href="s-gen-disc.html#diachrony-production-and-perception"><i class="fa fa-check"></i><b>8.1.2</b> Diachrony, production, and perception</a></li>
+</ul></li>
+<li class="chapter" data-level="8.2" data-path="s-gen-disc.html"><a href="s-gen-disc.html#s:cross-ling-diff"><i class="fa fa-check"></i><b>8.2</b> On cross-linguistic differences</a></li>
+<li class="chapter" data-level="8.3" data-path="s-gen-disc.html"><a href="s-gen-disc.html#embracing-variation-and-accepting-uncertainty"><i class="fa fa-check"></i><b>8.3</b> Embracing variation and accepting uncertainty</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="s-final.html"><a href="s-final.html"><i class="fa fa-check"></i><b>9</b> Implications and future research</a></li>
+<li class="appendix"><span><b>Appendices</b></span></li>
+<li class="chapter" data-level="A" data-path="a-polar-gams.html"><a href="a-polar-gams.html"><i class="fa fa-check"></i><b>A</b> Assessing mid-sagittal tongue contours in polar coordinates using generalised additive (mixed) models</a>
+<ul>
+<li class="chapter" data-level="" data-path="a-polar-gams.html"><a href="a-polar-gams.html#abstract-5"><i class="fa fa-check"></i>Abstract</a></li>
+<li class="chapter" data-level="A.1" data-path="a-polar-gams.html"><a href="a-polar-gams.html#introduction-2"><i class="fa fa-check"></i><b>A.1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="A.1.1" data-path="a-polar-gams.html"><a href="a-polar-gams.html#ultrasound-tongue-imaging"><i class="fa fa-check"></i><b>A.1.1</b> Ultrasound tongue imaging</a></li>
+<li class="chapter" data-level="A.1.2" data-path="a-polar-gams.html"><a href="a-polar-gams.html#generalised-additive-models"><i class="fa fa-check"></i><b>A.1.2</b> Generalised Additive models</a></li>
+<li class="chapter" data-level="A.1.3" data-path="a-polar-gams.html"><a href="a-polar-gams.html#polar-coordinates"><i class="fa fa-check"></i><b>A.1.3</b> Polar coordinates</a></li>
+</ul></li>
+<li class="chapter" data-level="A.2" data-path="a-polar-gams.html"><a href="a-polar-gams.html#polar-gamms"><i class="fa fa-check"></i><b>A.2</b> Polar GAM(M)s</a>
+<ul>
+<li class="chapter" data-level="A.2.1" data-path="a-polar-gams.html"><a href="a-polar-gams.html#s:data"><i class="fa fa-check"></i><b>A.2.1</b> Data collection and processing</a></li>
+<li class="chapter" data-level="A.2.2" data-path="a-polar-gams.html"><a href="a-polar-gams.html#fitting-a-polar-gam"><i class="fa fa-check"></i><b>A.2.2</b> Fitting a polar GAM</a></li>
+</ul></li>
+<li class="chapter" data-level="A.3" data-path="a-polar-gams.html"><a href="a-polar-gams.html#s:comptrp"><i class="fa fa-check"></i><b>A.3</b> Comparing tongue root position in voiceless and voiced stops</a></li>
+<li class="chapter" data-level="A.4" data-path="a-polar-gams.html"><a href="a-polar-gams.html#conclusions-1"><i class="fa fa-check"></i><b>A.4</b> Conclusions</a></li>
+<li class="chapter" data-level="A.5" data-path="a-polar-gams.html"><a href="a-polar-gams.html#data-accessibility-statement"><i class="fa fa-check"></i><b>A.5</b> Data Accessibility Statement</a></li>
+</ul></li>
+<li class="chapter" data-level="B" data-path="a-ve-eng.html"><a href="a-ve-eng.html"><i class="fa fa-check"></i><b>B</b> Bayesian meta-analysis of the voicing effect in English</a></li>
+<li class="chapter" data-level="C" data-path="a-ve-comp.html"><a href="a-ve-comp.html"><i class="fa fa-check"></i><b>C</b> Cross-linguistic comparison of the voicing effect in English, Italian, and Polish</a></li>
+<li class="chapter" data-level="D" data-path="a-gons.html"><a href="a-gons.html"><i class="fa fa-check"></i><b>D</b> Gesture onset timing of voiceless and voiced stops in Italian and Polish</a></li>
+<li class="chapter" data-level="E" data-path="a-speakers.html"><a href="a-speakers.html"><i class="fa fa-check"></i><b>E</b> An informal analysis of number of speakers per phonetic study by year and endangerment status</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Vowel duration and consonant voicing: A production study</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="p:wavegram" class="section level1" number="7">
+<h1><span class="header-section-number">7</span> Modelling electroglottographic data with wavegrams and generalised additive mixed models [Paper IV]</h1>
+<p>Coretta, Stefano. 2020. Modelling electroglottographic data with wavegrams and generalised additive mixed models. OFS Preprints. DOI: <a href="https://doi.org/10.31219/osf.io/m623d" class="uri">https://doi.org/10.31219/osf.io/m623d</a>.</p>
+<div id="abstract-4" class="section level2 unnumbered">
+<h2>Abstract</h2>
+<p>While electroglottography is a practical and safe technique for obtaining articulatory data on voicing, statistical analysis of the signal it returns poses a few challenges given the highly dimensional nature of the signal.
+The wavegram has been proposed as a visualisation method which overcomes the limitations of reducing the complex electroglottographic signal to a single measure like the contact quotient.
+This paper introduces a method for modelling dynamic electroglottographic data based on the wavegram using generalised additive models (GAMs).
+Results from a pilot study which assesses the reliability of this method by comparing sustained modal and breathy phonation are presented.
+The applicability of wavegram GAMs is exemplified with the discussion of an exploratory study on the dynamical properties of voicing in vowels followed by voiceless and voiced stops in Italian and Polish.
+Increasing average glottal opening can be observed in the second half of vowels, although the timing and magnitude of the increase differs depending on the voicing of the following stop and on the language.
+Insights on the diachronic development of pre-aspiration based on these results are also discussed.</p>
+</div>
+<div id="introduction-1" class="section level2" number="7.1">
+<h2><span class="header-section-number">7.1</span> Introduction</h2>
+<div class="figure"><span id="fig:deggsetup"></span>
+<img src="img/egg-setup.png" alt="A schematics of the electroglottograph. A transverse section of the neck is shown with open glottis (on the left) and closed glottis (on the right). The electric field passing through the neck is represented by lines. When the vocal folds are apart, the opening distorts the electric field and impedance increases."  />
+<p class="caption">
+Figure 7.1: A schematics of the electroglottograph. A transverse section of the neck is shown with open glottis (on the left) and closed glottis (on the right). The electric field passing through the neck is represented by lines. When the vocal folds are apart, the opening distorts the electric field and impedance increases.
+</p>
+</div>
+<p>The location of the vocal folds within the oral tract makes investigation of glottal activity difficult.
+Direct observation of the the larynx via invasive methods like laryngoscopy has the practical drawbacks of being of great discomfort to the participant and of requiring medical expertise to be performed.
+Electroglottography, on the other hand, is a non-invasive and safe technique which enables researchers to obtain an indirect account of glottal activity.
+However, the complexity of the electroglottographic signal and the imperfect mapping between the signal and the laryngeal activity it measures pose some analytical challenges deriving from the reduction of the signal to a single measure.
+The wavegram technique has been proposed as a visualisation form of electroglottographic data which maintains the multi-dimensionality of the signal <span class="citation">(<a href="references.html#ref-herbst2010" role="doc-biblioref">Herbst, Fitch &amp; Švec 2010</a>)</span>.
+In this paper, generalised additive modelling <span class="citation">(<a href="references.html#ref-hastie1986" role="doc-biblioref">Hastie &amp; Tibshirani 1986</a>)</span> is proposed as a means to statistically investigate glottal activity as derived from wavegrams.
+<!-- The following paragraphs introduce the basic concepts behind electroglottography and the wavegram technique.
+Wavegram generalised additive models will then be exemplified by discussing the results of a pilot study which compares modal and breathy phonation, and the results of an exploratory study on differences of glottal activity in vowels followed by voiceless and voiced stops. --></p>
+<p>Electroglottography, or EGG <span class="citation">(<a href="references.html#ref-fabre1957" role="doc-biblioref">Fabre 1957</a>)</span>, is a technique that measures the degree of contact between the vocal folds (the Vocal Folds Contact Area, VFCA).
+A high frequency low voltage electrical current is sent through two electrodes which are in contact with the surface of the neck, one on each side of the thyroid cartilage (<a href="p-wavegram.html#fig:deggsetup">7.1</a>).
+Impedance of this current is modulated by the VFCA, and greater vocal folds contact creates less impedance.
+The amplitude of the current is inversely correlated with VFCA and impedance, so that higher amplitude values indicate a greater contact area <span class="citation">(<a href="references.html#ref-titze1990" role="doc-biblioref">Titze 1990</a>)</span>.
+The EGG unit registers the current impedance and converts it to relative amplitude values.
+The time-developing amplitude signal thus provides us with information on the changes in VFCA, i.e. on properties of vocal folds vibration (voicing).</p>
+<div class="figure"><span id="fig:degg"></span>
+<img src="img/degg-signal.png" alt="The electroglottographic signal (EGG) with corresponding first derivative (dEGG)."  />
+<p class="caption">
+Figure 7.2: The electroglottographic signal (EGG) with corresponding first derivative (dEGG).
+</p>
+</div>
+<p>A glottal cycle can be divided in two phases <span class="citation">(<a href="references.html#ref-childers1985" role="doc-biblioref">Childers &amp; Krishnamurthy 1985</a>; <a href="references.html#ref-hampala2016" role="doc-biblioref">Hampala et al. 2016</a>)</span>: (a) a contacting phase, in which the vocal folds are approaching each other, and (b) a de-contacting phase, in which the vocal folds move apart from each other.
+Transversal to this two-phase representation, the glottal cycle can be described in terms of whether the glottis is closed or not.
+According to this classification, the cycle can be divided into (1) a closed phase, in which the glottis is completely closed and glottal flow is 0 (in some contexts this phase could be absent, like in breathy voicing), and (2) an open phase, in which there is no complete contact between the vocal folds.
+The timing of these phases can be approximated from the EGG signal, as demonstrated by both experimental and modelling work <span class="citation">(<a href="references.html#ref-hampala2016" role="doc-biblioref">Hampala et al. 2016</a>)</span>.
+An example EGG signal is provided in <a href="p-wavegram.html#fig:degg">7.2</a>.
+<!-- cited in Hampala 2016 -->
+<!-- point the reader to Hampala for figure on movements of the vocal folds --></p>
+<p>Two important landmarks of glottal movement are the closing instant (the timepoint of glottal complete closure) and the opening instant (the moment in which the glottis first opens).
+These points delimit the open and closed phases of a glottal cycle.
+The ratio of the closed phase relative to the total cycle duration, the closed quotient, has been used as an index of phonation type <span class="citation">(<a href="references.html#ref-scherer1987" role="doc-biblioref">Scherer &amp; Titze 1987</a>)</span>.
+Modal voice has higher closed quotient values than breathy voice, and lower values than creaky voice.
+One method for the detection of the closing and opening instants is based on the first derivative of the EGG signal (the dEGG, see <a href="p-wavegram.html#fig:degg">7.2</a>).
+<span class="citation"><a href="references.html#ref-herbst2017" role="doc-biblioref">Herbst et al.</a> (<a href="references.html#ref-herbst2017" role="doc-biblioref">2017</a>)</span>, however, showed that this method returns values that are just a surrogate of the actual articulatory movements, due to the complex anatomy of the vocal folds, and that there are no clear contacting and decontact instants, but rather intervals.
+<span class="citation"><a href="references.html#ref-herbst2017" role="doc-biblioref">Herbst et al.</a> (<a href="references.html#ref-herbst2017" role="doc-biblioref">2017</a>)</span> call this EGG-based closed quotient the “contact quotient” and recommend to keep it distinct from the closed quotient obtained from direct observation of the vocal folds.</p>
+<p>As an alternative to the contact quotient, <span class="citation"><a href="references.html#ref-herbst2010" role="doc-biblioref">Herbst, Fitch &amp; Švec</a> (<a href="references.html#ref-herbst2010" role="doc-biblioref">2010</a>)</span> propose the wavegram, a visualisation method which does not reduce the EGG signal to a single value and thus suffers less from the limitations of the contact quotient.
+The wavegram incorporates information from the whole signal to obtain an image of vocal folds activity.
+A wavegram is a 3D representation of the EGG signal developing in time.
+Its structure is similar to that of a classical phonetic spectrogram.
+The <em>x</em>-axis indicates the temporal sequence of individual glottal cycles.
+The <em>y</em>-axis represents the time within each glottal cycle, normalised between 0 and 1.
+Finally, the normalised amplitude of the signal corresponds to different colour intensities.
+Differences in intensity along the <em>x</em>-axis indicate changes in glottal activity.
+The procedure for constructing a wavegram is given in <a href="p-wavegram.html#fig:wavegram">7.3</a>.
+A wavegram can be produced for the EGG signal and for any of its transformations, like the dEGG.</p>
+<div class="figure"><span id="fig:wavegram"></span>
+<img src="img/wavegram.png" alt="The wavegram. Created by Christian T. Herbst under a CC BY-SA 3.0 license."  />
+<p class="caption">
+Figure 7.3: The wavegram. Created by Christian T. Herbst under a CC BY-SA 3.0 license.
+</p>
+</div>
+<p>The wavegram method was originally intended for a qualitative analysis based on visual inspection.
+However, wavegram data can be modelled using generalised additive models <span class="citation">(GAMs, <a href="references.html#ref-hastie1986" role="doc-biblioref">Hastie &amp; Tibshirani 1986</a>; <a href="references.html#ref-zuur2012" role="doc-biblioref">Zuur 2012</a>; <a href="references.html#ref-wood2017" role="doc-biblioref">Wood 2017</a>)</span>.
+GAMs are a family of generalised models which can fit non-linear effects by additive combinations of smoothing splines.
+The flexibility of GAMs allows researchers to generate a fitted wavegram based on data from multiple repetitions of a single speaker and from multiple speakers.
+Random effects can also be included to account for idiosyncratic differences.
+Moreover, the potential for overfitting is reduced by a smoothing penalty parameter, which constraints the maximum number of basis functions used to construct the smoothing splines.
+This paper introduces wavegram GAMs as a way to quantitatively assess wavegram data.
+First, <a href="p-wavegram.html#s:pilot">7.2</a> presents results from a pilot study which informally evaluates the reliability of the proposed method.
+<a href="p-wavegram.html#s:voicing">7.3</a> illustrates how to conduct a dynamical wavegram GAM analysis of dEGG data through a practical example in which the wavegrams of vowels followed by voiceless and voiced stops in Italian and Polish are compared.
+This analysis indicates the presence of a pattern of glottal spreading in the second half of vowels followed by voiceless stops and of cross-linguistic differences.
+Insights on the diachronic emergence of pre-aspiration based on these results are discussed.
+Finally, <a href="p-wavegram.html#s:conclusion">7.4</a> concludes and discusses the limitations of the current implementation of the method and future directions.
+The data [<span class="citation"><a href="references.html#ref-coretta2017e" role="doc-biblioref">Coretta</a> (<a href="references.html#ref-coretta2017e" role="doc-biblioref">2017</a>)</span>; coretta2018m] and analysis scripts of this paper (<a href="https://osf.io/3w8gh/" class="uri">https://osf.io/3w8gh/</a>) can be found on the Open Science Framework.</p>
+</div>
+<div id="s:pilot" class="section level2" number="7.2">
+<h2><span class="header-section-number">7.2</span> Pilot study</h2>
+<p>Synchronised audio and EGG data were obtained from 5 trained phoneticians, who were asked to produce sustained tokens of /a/ with modal and breathy voice.
+The data was collected using a Glottal Enterprises EG2-PCX2 electroglottograph and a Movo LV4-O2 Lavalier microphone, at a sample rate of 44100 Hz (16-bit).
+The acquisition of the signals was controlled with Audacity running on a MacBook Pro (Retina, 13-inch, Mid 2014).
+The placement of the electrodes strap was checked with the height indicator on the EGG unit.
+Each participant uttered 10 consecutive tokens of a sustained /a/ in modal voice, followed by 10 tokens of a sustained breathy /a/.
+All subsequent data processing was performed in Praat <span class="citation">(<a href="references.html#ref-boersma2018" role="doc-biblioref">Boersma &amp; Weenink 2018</a>)</span>.
+The onset and offset of each token were detected with an automatic procedure which finds voiced and unvoiced intervals (<code>To TextGrid (vuv)</code>).
+The dEGG wavegram data was extracted from the first 8 glottal cycles of a 500 ms window, centred around the mid-point of each token.
+A glottal cycle was arbitrarily defined as the interval between two consecutive EGG minima <span class="citation">(see <a href="references.html#ref-herbst2010" role="doc-biblioref">Herbst, Fitch &amp; Švec 2010</a> for an alternative algorithm)</span>.
+From each glottal cycle, the relative amplitude of the dEGG signal was extracted every 10 samples.
+The reader is referred to <span class="citation"><a href="references.html#ref-coretta2017e" role="doc-biblioref">Coretta</a> (<a href="references.html#ref-coretta2017e" role="doc-biblioref">2017</a>)</span> for the documentation of the algorithms and the research data.</p>
+<p>A generalised additive mixed model (GAMM) was fitted to the data to statistically assess differences in vocal fold activity between modal and breathy voicing <span class="citation">(see <a href="references.html#ref-soskuthy2017" role="doc-biblioref">Sóskuthy 2017</a>; and <a href="references.html#ref-wieling2018" role="doc-biblioref">Wieling 2018</a> for a practical introduction to fitting GAMs in R)</span>.
+The following terms were included: the amplitude of the dEGG signal as the outcome variable, an interaction factor with language and phonation as a parametric term, a smooth over the glottal cycle index to model average changes of the dEGG signal across glottal cycles, and a smooth over the normalised time of the sample within the glottal cycle (as the proportion of the time relative to the duration of the glottal cycle) to model average changes of the dEGG signal within the glottal cycle; two difference smooths over normalised time of the glottal cycle onset and normalised sample time using a by-variable with the phonation factor; a tensor product interaction between normalised cycle time and normalised sample time to model changes of glottal activity through time, and the same tensor product interaction with a language/phonation by-variable to model phonation-driven differences in changes of glottal activity.
+Finally, inter-speaker differences were modelled with a by-speaker factor smooth over normalised cycle time.
+A first-order autoregressive (AR1) model was included to deal with the relatively high auto-correlation in the residuals.</p>
+<p><a href="p-wavegram.html#fig:surface-p">7.4</a> shows the modelled wavegrams of modal and breathy tokens.
+Since the tokens were produced with sustained phonation, no appreciable change within each wavegram can be observed.
+However, the comparison of the wavegram of modal voice with that of breathy voice reveals differences between the two phonation types.
+As a general trend, the dEGG maximum and dEGG minimum are achieved later within the glottal cycle in breathy voicing relative to modal voicing.
+Moreover, differences in velocity of closing and opening movements of the vocal folds are signalled by the relative widths of the purple-coloured bands (around the dEGG maximum) and the green-coloured bands (around the dEGG minimum).
+While in modal voicing the green band is wider, the purple band is in breathy voicing, indicating that the velocity into and out of the beginning of the closed phase is slower in breathy voicing.
+According to the approximate significance of the smooth terms, phonation has an effect on the shape of the wavegram as expected (<em>F</em>(14.681) = 3.187, Ref.EDF = 19.027, <em>p</em> &lt; 0.001).</p>
+<div class="figure"><span id="fig:surface-p"></span>
+<img src="05_2019-wavegram_files/figure-html/surface-p-1.png" alt="Fitted wavegram of modal and breathy phonation (Section 2). The horizontal lines represent the dEGG maximum (solid line) and minimum (dashed line)." width="672" width=\linewidth />
+<p class="caption">
+Figure 7.4: Fitted wavegram of modal and breathy phonation (Section 2). The horizontal lines represent the dEGG maximum (solid line) and minimum (dashed line).
+</p>
+</div>
+</div>
+<div id="s:voicing" class="section level2" number="7.3">
+<h2><span class="header-section-number">7.3</span> Wavegram GAM analysis of vowels followed by voiceless vs voiced stops</h2>
+<p>This section further illustrates the use of wavegram GAMs by discussing a dynamic analysis of changes in vocal folds activity during the production of vowels followed by voiceless vs voiced stops in Italian and Polish.
+EGG data was obtained from 9 Italian speakers and 6 Polish speakers.
+A detailed description of the experimental design is given in <span class="citation"><a href="references.html#ref-coretta2018j" role="doc-biblioref">Coretta</a> (<a href="references.html#ref-coretta2018j" role="doc-biblioref">2019d</a>)</span>.
+Trochaic words with the form CVCV were used, where C = /p/, V = /a, o, u/, C = /t, d, k, g/, and V = V (e.g. /pata/, /pada/, /poto/, etc.), embedded in the frame sentences <em>Dico X lentamente</em> ‘I say X slowly’ in Italian, and <em>Mówię X teraz</em> ‘I say X now’ in Polish.
+The participants repeated each of the twelve sentence stimuli six times.
+Processing and analysis of the EGG data were the same as with the pilot study (<a href="p-wavegram.html#s:pilot">7.2</a>), with the exception that data was extracted from every glottal cycle within the whole duration of the first vowel of the word stimuli.
+The vocalic onset and offset were identified as the appearance and disappearance of higher formant structure respectively <span class="citation">(<a href="references.html#ref-machac2009" role="doc-biblioref">Machač &amp; Skarnitzl 2009</a>)</span>.
+Vowel duration was then normalised between 0 and 1 for analysis.
+The data of this study is available on the Open Science Framework <span class="citation">(<a href="references.html#ref-coretta2018m" role="doc-biblioref">Coretta 2018a</a>)</span>.</p>
+<div class="figure"><span id="fig:surface"></span>
+<img src="05_2019-wavegram_files/figure-html/surface-1.png" alt="Fitted wavegram of vowels followed by voiceless and voiced stops in Italian and Polish (Section 3)." width="672" width=\linewidth />
+<p class="caption">
+Figure 7.5: Fitted wavegram of vowels followed by voiceless and voiced stops in Italian and Polish (Section 3).
+</p>
+</div>
+<p>The same GAM specification as in the pilot study was used to model changes in glottal activity.
+Normalised vowel duration was used instead of glottal cycle index.
+<a href="p-wavegram.html#fig:surface">7.5</a> shows the modelled wavegrams of vowels followed by voiceless (left) and voiced stops (right), in Italian (top) and Polish (bottom).
+The pilot study showed that a widening of the wavegram dEGG maximum band (purple) with concomitant shrinkage of the dEGG minimum band (green) signals greater glottal opening.
+The change in band width corresponds to changes in velocity of the execution of the contacting and decontacting movements.
+An interesting aspect of the modelled glottal activity concerns the first half of the vowels.
+The change in the wavegram indicates a process of decreasing glottal opening (from a breathier to a more modal phonation).
+The greater glottal spread observed at vowel onset could be related to the residual glottal spread of the preceding voiceless stop /p/.
+This means that the phonation at vowel onset is breathier and becomes more modal during the production of the vowel, stabilising itself at about 20% of the vowel duration.</p>
+<p>Focussing now on the second half of the vowel, the wavegrams in <a href="p-wavegram.html#fig:surface">7.5</a> show a pattern that is symmetrical to that observed in the first half.
+Namely, glottal opening increases towards the end of the vowel <span class="citation">(also see <a href="references.html#ref-halle1967a" role="doc-biblioref">Halle, Stevens &amp; Oppenheim 1967</a>)</span>.
+The magnitude and timing of the change, however, differs in the voiceless and voiced contexts.
+The change is greater and is implemented earlier in vowels followed by voiceless stops (left panels) than those followed by voiced stops (right panels).
+The earlier and greater glottal spreading in vowels followed by voiceless stops could be implemented in anticipation of the open glottis required in the production of voiceless stops as a mechanism to cease/attenuate vocal fold vibration.
+In the case of voiced stops, <span class="citation"><a href="references.html#ref-halle1967a" role="doc-biblioref">Halle, Stevens &amp; Oppenheim</a> (<a href="references.html#ref-halle1967a" role="doc-biblioref">1967</a>)</span> propose that increased glottal width can facilitate voicing while the oral tract is constricted <span class="citation">(cf. <a href="references.html#ref-westbury1983" role="doc-biblioref">Westbury 1983</a>)</span>, who rather argues that decreased glottal width favours voicing).</p>
+<p>The wavegrams of vowels followed by voiceless stops also suggest an effect of language (the GAM terms with a by-language factor return <em>p</em>-values less than 0.001).
+The change in activity before voiceless stops is initiated earlier in Italian (at around 65% into the vowel) than in Polish (at about 80%).
+The approximate time of the change onset is represented by the vertical dashed lines in <a href="p-wavegram.html#fig:surface">7.5</a>.
+On the other hand, activity in vowels followed by voiced stops is similar in the two languages.</p>
+<p>The observed greater increase in glottal opening during the production of vowels followed by voiceless stops in Italian is compatible with the reported presence of pre-aspiration (breathy or voiceless) in Italian geminate stops <span class="citation">(<a href="references.html#ref-ni-chasaide1993" role="doc-biblioref">Nı́ Chasaide &amp; Gobl 1993</a>; <a href="references.html#ref-stevens2004a" role="doc-biblioref">Stevens &amp; Hajek 2004a</a>; <a href="references.html#ref-stevens2004" role="doc-biblioref">Stevens &amp; Hajek 2004b</a>; <a href="references.html#ref-stevens2010" role="doc-biblioref">Stevens &amp; Hajek 2010</a>; <a href="references.html#ref-stevens2010b" role="doc-biblioref">Stevens 2010</a>; <a href="references.html#ref-stevens2014a" role="doc-biblioref">Stevens &amp; Reubold 2014</a>)</span>.
+Increased glottal spreading during vocal fold vibration can be interpreted as a precursor of voiceless pre-aspiration.
+An enough opened glottis can generate enough glottal airflow so as to equalise sub-glottal and supra-glottal pressure, at which point vocal fold vibration cannot be supported any longer <span class="citation">(<a href="references.html#ref-berg1958" role="doc-biblioref">Berg 1958</a>; <a href="references.html#ref-rothenberg1967" role="doc-biblioref">Rothenberg 1967</a>; <a href="references.html#ref-ohala2011" role="doc-biblioref">Ohala 2011</a>)</span>.
+The outcome is voiceless glottal frication, or, in other words, voiceless pre-aspiration.</p>
+<p>The patterns of glottal spreading observed here fit with proposed mechanisms of emergence of voiceless pre-aspiration or lack thereof.
+Pre-aspiration (whether normative or not), now argued to be more common than previously thought <span class="citation">(<a href="references.html#ref-helgason2002" role="doc-biblioref">Helgason 2002</a>)</span>, is found in several Nordic languages <span class="citation">(<a href="references.html#ref-helgason1999" role="doc-biblioref">Helgason 1999</a>; <a href="references.html#ref-helgason2002" role="doc-biblioref">Helgason 2002</a>)</span>, English <span class="citation">(<a href="references.html#ref-gordeeva2007" role="doc-biblioref">Gordeeva &amp; Scobbie 2007</a>; <a href="references.html#ref-nance2013" role="doc-biblioref">Nance &amp; Stuart-Smith 2013</a>; <a href="references.html#ref-hejna2015a" role="doc-biblioref">Hejná 2015</a>)</span>, and, as mentioned above, Italian, among others.
+An interesting question is how glottal spreading in vowels in the context of voiceless stops can lead to the emergence of voiceless pre-aspiration in some cases and not in others.</p>
+<p><span class="citation"><a href="references.html#ref-nichasaide1985" role="doc-biblioref">Nı́ Chasaide</a> (<a href="references.html#ref-nichasaide1985" role="doc-biblioref">1985</a>)</span> argues that pre-aspiration develops as a means to enhance discriminability in geminate stops by increasing their overall duration.
+Under this account, closure shortening is a later development, rather than the cause of the emergence of pre-aspiration.
+<span class="citation"><a href="references.html#ref-stevens2014" role="doc-biblioref">Stevens, Keyser &amp; Kawasaki</a> (<a href="references.html#ref-stevens2014" role="doc-biblioref">2014</a>)</span> present further experimental evidence that the duration of pre-aspiration and that of closure are not correlated in Italian.
+In other words, pre-aspiration and the closure shortening process are independent.
+In agreement with Ní Chasaide’s hypothesis, the presence of pre-aspiration increases the total duration of the VC sequence.
+Pre-closure glottal spreading can thus lead to the emergence of voiceless pre-aspiration, which can in turn be enhanced by delaying the onset of stop closure.</p>
+<p><span class="citation"><a href="references.html#ref-lisker1974" role="doc-biblioref">Lisker</a> (<a href="references.html#ref-lisker1974" role="doc-biblioref">1974</a>)</span> proposes that the laryngeal gesture of glottal spreading can determine the onset of the stop closure.
+While some varieties of English have been reported to show pre-aspiration, others lack it.
+Lisker argues that stop closure in voiceless stops occurs not long after the spreading gesture is initiated in order to avoid the emergence of voiceless pre-aspiration.
+The onset of the closure would be temporally attracted towards the time of glottal opening onset.
+Speculatively, this could be one of the mechanisms responsible for longer closure durations of voiceless stops relative to that of voiced stops <span class="citation">(<a href="references.html#ref-lisker1957" role="doc-biblioref">Lisker 1957</a>; <a href="references.html#ref-umeda1977" role="doc-biblioref">Umeda 1977</a>; <a href="references.html#ref-van-summers1987" role="doc-biblioref">Summers 1987</a>; <a href="references.html#ref-davis1989" role="doc-biblioref">Davis &amp; Summers 1989</a>; <a href="references.html#ref-de-jong1991" role="doc-biblioref">Jong 1991</a>)</span>, other things being equal.</p>
+<p>To summarise, glottal spreading, which is a typical feature of the production of voiceless stops, is initiated during the articulation of the vowel preceding the stop.
+If the degree of spreading surpasses a particular threshold, soon enough a percept of breathy phonation can arise.
+At this point, two possible scenarios can be envisaged.
+According to one pathway, breathiness can lead to voiceless pre-aspiration and subsequent enhancement by closure shortening.
+In such case, pre-aspiration could ultimately develop into normative pre-aspiration like that found in Icelandic.
+In the alternative scenario, on the other hand, pre-aspiration is prevented from arising.
+This can be achieved by shifting the timing of the stop closure towards the onset of the glottal spreading gesture, while keeping the timing of the latter unchanged.
+As a consequence, stop closure duration is increased, resulting in the known pattern of the differential closure durations of voiceless vs voiced stops.</p>
+</div>
+<div id="s:conclusion" class="section level2" number="7.4">
+<h2><span class="header-section-number">7.4</span> Conclusion</h2>
+<p>This paper introduced a method for modelling glottal activity as obtained from wavegram data <span class="citation">(<a href="references.html#ref-herbst2010" role="doc-biblioref">Herbst, Fitch &amp; Švec 2010</a>)</span> using generalised additive (mixed) models <span class="citation">(<a href="references.html#ref-hastie1986" role="doc-biblioref">Hastie &amp; Tibshirani 1986</a>; <a href="references.html#ref-zuur2012" role="doc-biblioref">Zuur 2012</a>; <a href="references.html#ref-wood2017" role="doc-biblioref">Wood 2017</a>)</span>.
+A pilot study of the wavegram GAM method showed that the modelled wavegrams are affected by the global changes in glottal activity depending on the phonation mode of voicing.
+In particular, the ability of the model to distinguish between modal and breathy voicing was tested, and the results indicated that breathy voicing corresponds to delayed dEGG maxima and minima within the glottal cycle and decreased velocities of the contacting phase (with concomitant increased velocity of the decontacting phase).
+Building on the results of the pilot study, a second study was run to investigate glottal activity in vowels followed by either a voiceless or a voiced stop in Italian and Polish.
+The results suggest a change of glottal activity during the second half of the vowel in anticipation of the glottal configuration of the following stop <span class="citation">(in accordance with <a href="references.html#ref-halle1967a" role="doc-biblioref">Halle, Stevens &amp; Oppenheim 1967</a>)</span>.
+The change corresponds to increasing glottal width in both contexts.
+However the increase is greater and implemented earlier in the voiceless than in the voiced context.</p>
+<p>Moreover, the change in glottal activity in vowels followed by voiceless stops starts earlier in Italian than in Polish.
+It was argued that the earlier and grater increase in glottal width in Italian is compatible with reports of pre-aspiration in some varieties of the language <span class="citation">(<a href="references.html#ref-ni-chasaide1993" role="doc-biblioref">Nı́ Chasaide &amp; Gobl 1993</a>; <a href="references.html#ref-stevens2014a" role="doc-biblioref">Stevens &amp; Reubold 2014</a>)</span>.
+It was further speculated that once an appreciable degree of glottal spreading is implemented during the vowel, either spreading can result in voiceless pre-aspiration with subsequent stop closure shortening, or voiceless pre-aspiration can be avoided by anticipating oral closure while keeping the glottal gesture (with the consequence of increased closure duration).</p>
+<p>A limitation of the proposed wavegram GAM analysis is that, while the model can statistically assess global differences in the wavegram, more localised variation still needs to be assessed qualitatively.
+For example, while the modelled wavegrams show differences in timing of change in glottal activity, there is no straightforward way of obtaining a unique and robust measure of such timing, and statements about this differences rely on visual inspection of the modelled wavegram.
+A wavegram GAM analysis, however, is still useful in providing a method to model data from multiple repetitions and multiple speakers in a flexible way.
+Future work will have to investigate different phonation types (like creaky voice) and phonetic contexts.
+Moreover, further tests should be conducted to assess the reliability of the method.
+Finally, ways to obtain quantitative data on timing and degree of changes in glottal activity will be necessary to extend the applicability of the method.</p>
+
+</div>
+</div>
+
+
+
+<span id="cb7-2"><a href="p-wavegram.html#cb7-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span>opts_knit<span class="sc">$</span><span class="fu">set</span>(<span class="at">root.dir =</span> here<span class="sc">::</span><span class="fu">here</span>())</span></code></pre></div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="p-tra.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="s-gen-disc.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
