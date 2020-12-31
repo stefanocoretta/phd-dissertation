@@ -28,6 +28,7 @@ library(broom.mixed)
 library(knitr)
 library(kableExtra)
 source("./cache.R")
+dir.create("./data/cache/04_2018-tra", showWarnings = FALSE)
 ```
 
 ```{r read-data}
@@ -305,7 +306,7 @@ tra_lm <- cache_rds({
     (1|item),
   data = kines
 )
-}, "04_2018-tra/tra_lm")
+}, "./data/cache/04_2018-tra/tra_lm")
 
 summary(tra_lm)
 ```
@@ -347,7 +348,7 @@ tra_gam <- cache_rds({
     s(proportion, speaker, bs = "fs", m = 1),
   data = tra_series
 )
-}, "04_2018-tra/tra_gam")
+}, "./data/cache/04_2018-tra/tra_gam")
 
 rho <- start_value_rho(tra_gam)
 
@@ -365,7 +366,7 @@ tra_gam_ar <-cache_rds({
   rho = rho,
   AR.start = tra_series$start_event
 )
-}, "04_2018-tra/tra_gam_ar")
+}, "./data/cache/04_2018-tra/tra_gam_ar")
 
 tra_gam_ar_0 <- cache_rds({
   bam(
@@ -381,7 +382,7 @@ tra_gam_ar_0 <- cache_rds({
   rho = rho,
   AR.start = tra_series$start_event
 )
-}, "04_2018-tra/tra_gam_ar_0")
+}, "./data/cache/04_2018-tra/tra_gam_ar_0")
 
 compareML(tra_gam_ar_0, tra_gam_ar)
 ```
@@ -422,12 +423,12 @@ smooths <- cache_rds({
   ) +
   scale_colour_discrete(name = "C2 voicing") +
   scale_linetype_discrete(name = "C2 voicing")
-}, "04_2018-tra/smooths")
+}, "./data/cache/04_2018-tra/smooths")
 
 difference <- cache_rds({
   plot_difference(tra_gam_ar, proportion, list(c2_phonation_o = c("voiced", "voiceless"))) +
   scale_x_continuous(labels = NULL, name = element_blank())
-}, "04_2018-tra/difference")
+}, "./data/cache/04_2018-tra/difference")
 
 smooths + difference + plot_layout(ncol = 1, heights = c(3, 1))
 ```
@@ -446,7 +447,7 @@ tra_lm_2 <- cache_rds({
     (1|item),
   data = kines
 )
-}, "04_2018-tra/tra_lm_2")
+}, "./data/cache/04_2018-tra/tra_lm_2")
 
 summary(tra_lm_2)
 ```
@@ -485,7 +486,7 @@ tra_gam_2 <- cache_rds({
     s(proportion, speaker, bs = "fs", m = 1),
   data = tra_series
 )
-}, "04_2018-tra/tra_gam_2")
+}, "./data/cache/04_2018-tra/tra_gam_2")
 
 rho <- start_value_rho(tra_gam_2)
 
@@ -501,7 +502,7 @@ tra_gam_ar_2 <- cache_rds({
   rho = rho,
   AR.start = tra_series$start_event
 )
-}, "04_2018-tra/tra_gam_ar_2")
+}, "./data/cache/04_2018-tra/tra_gam_ar_2")
 
 tra_gam_ar_0_2 <- cache_rds({
   bam(
@@ -515,7 +516,7 @@ tra_gam_ar_0_2 <- cache_rds({
   rho = rho,
   AR.start = tra_series$start_event
 )
-}, "04_2018-tra/tra_gam_ar_0_2")
+}, "./data/cache/04_2018-tra/tra_gam_ar_0_2")
 ```
 
 The effect of V1 duration on tongue root position during V1 was modelled by fitting a GAMM with the following terms (\@ref(tab:tra-gam-ar-2-table)): tongue root position as the outcome variable, smooth terms over V1 duration and V1 proportion, a tensor product interaction over V1 proportion and V1 duration; a factor random smooth over V1 proportion by speaker (penalty order = 1).
@@ -721,7 +722,7 @@ tra_gam_s <- cache_rds({
   data = tra_series,
   method = "ML"
 )
-}, "04_2018-tra/tra_gam_s")
+}, "./data/cache/04_2018-tra/tra_gam_s")
 
 rho <- start_value_rho(tra_gam_s)
 
@@ -737,7 +738,7 @@ tra_gam_s_ar <- cache_rds({
   rho = rho,
   AR.start = tra_series$start_event
 )
-}, "04_2018-tra/tra_gam_s_ar")
+}, "./data/cache/04_2018-tra/tra_gam_s_ar")
 ```
 
 ```{r Figure8, include=TRUE, fig.cap="Predicted tongue root position during vowels followed by voiceless and voiced stops for each speaker. Predicted from a GAMM (see text). Note the different scales on the y-axis.", out.extra="width=\\linewidth", fig.height=8, dependson="tra-gam-s-ar"}
