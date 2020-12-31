@@ -14,7 +14,7 @@ library(tidybayes)
 source("./cache.R")
 library(coretta2018itapol)
 data("token_measures")
-
+dir.create("./data/cache/10_gestures", showWarnings = FALSE)
 gestures <- token_measures %>%
   filter(c1_phonation == "voiceless", !is.na(c1_rel), !is.na(GONS), !is.na(max), GONS > 0, max > 0) %>%
   mutate(
@@ -78,7 +78,7 @@ rel_gons_bm <- brm(
   prior = priors,
   data = gestures,
   cores = 4,
-  file = "./r_cache/10_gestures/rel_gons_bm"
+  file = "./data/cache/10_gestures/rel_gons_bm"
 )
 ```
 
