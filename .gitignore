@@ -384,4 +384,3 @@ vignettes/*.pdf
 # /*_files/
 
 # End of https://www.toptal.com/developers/gitignore/api/r,latex,macos,linux
-/r_cache
