@@ -738,7 +738,7 @@ Table: (\#tab:socio) Participants' sociolinguistic information. The column 'Spen
 | PL07 | 32 | Female | Polish | English, Russian | Bielsk Podlaski | Bielsk Podlaski | Yes |
 
 
-```{r vif, include=FALSE}
+```{r vif, eval=FALSE, include=FALSE}
 ## Check multicollinearity by VIF
 
 durations_filtered %>%
@@ -748,7 +748,7 @@ durations_filtered %>%
   vif(.)
 ```
 
-```{r lmer-check, include=FALSE}
+```{r lmer-check, eval=FALSE, include=FALSE}
 qqnorm(resid(vow_lm))
 plot(vow_lm)
 qqnorm(resid(clo_lm))
@@ -757,7 +757,7 @@ qqnorm(resid(vow_clo_lm))
 plot(vow_clo_lm)
 ```
 
-```{r variation, include=FALSE}
+```{r variation, eval=FALSE, include=FALSE}
 ## Coefficient of variation CV and coefficient of quartile variation CQV
 ## for vowel onset to vowel onset interval (VV) and release-to-release
 ## interval (RR)
@@ -777,7 +777,7 @@ durations_filtered %>%
   )
 ```
 
-```{r vor-bf, include=FALSE}
+```{r vor-bf, eval=FALSE, include=FALSE}
 vor_lm <- lme4::lmer(
   vor ~
     c2_phonation +
@@ -807,7 +807,7 @@ vor_lm_null <- lme4::lmer(
 vor_bf <- round(exp((BIC(vor_lm) - BIC(vor_lm_null)) / 2))
 ```
 
-```{r vv-bf, include=FALSE}
+```{r vv-bf, eval=FALSE, include=FALSE}
 vv_lm <- lme4::lmer(
   v_v ~
     c2_phonation +
