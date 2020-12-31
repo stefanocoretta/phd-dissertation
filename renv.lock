@@ -1463,10 +1463,15 @@
     },
     "tidymv": {
       "Package": "tidymv",
-      "Version": "3.0.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "43b3eaa44173d03ae17f2001c17cf14a"
+      "Version": "3.1.0.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "tidymv",
+      "RemoteUsername": "stefanocoretta",
+      "RemoteRef": "b9d7639cb",
+      "RemoteSha": "b9d7639cbfcc214682a63e69ca08de4bcecfb5d3",
+      "Hash": "5512e8185114e798fa8efc6a93d47d07"
     },
     "tidyr": {
       "Package": "tidyr",
