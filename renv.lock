@@ -1286,6 +1286,18 @@
       "Repository": "CRAN",
       "Hash": "06c85365a03fdaf699966cc1d3cf53ea"
     },
+    "rticulate": {
+      "Package": "rticulate",
+      "Version": "1.6.0.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "rticulate",
+      "RemoteUsername": "stefanocoretta",
+      "RemoteRef": "9ad4727d96",
+      "RemoteSha": "9ad4727d9636e1d91bd547693704a6c2f868dc72",
+      "Hash": "535e34a12d24881d939bcb1189fd425d"
+    },
     "rvest": {
       "Package": "rvest",
       "Version": "0.3.6",
