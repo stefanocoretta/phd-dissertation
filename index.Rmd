@@ -19,7 +19,7 @@ indent: true
 fontsize: 12pt
 mainfont: Tinos
 params:
-  version: "7.1"
+  version: "7.2"
   version-date: "2021/01/01"
 ---
 
@@ -27,6 +27,7 @@ params:
 knitr::opts_chunk$set(echo = FALSE)
 knitr::opts_knit$set(root.dir = here::here())
 options(knitr.graphics.auto_pdf = TRUE)
+dir.create("./docs", F); file.create("./docs/.nojekyll")
 ```
 
 # Abstract {-}

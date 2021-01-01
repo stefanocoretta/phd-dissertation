@@ -72,7 +72,8 @@ kines_mean <- kines %>%
     trp_sd = sd(trp, na.rm = TRUE),
     trp_z_mean = mean(trp_z, na.rm = TRUE),
     trp_z_sd = sd(trp, na.rm = TRUE),
-    n = n()
+    n = n(),
+    .groups = "drop"
   ) %>%
   ungroup()
 
@@ -352,7 +353,7 @@ tra_gam <- cache_rds({
 
 rho <- start_value_rho(tra_gam)
 
-tra_gam_ar <-cache_rds({
+tra_gam_ar <- cache_rds({
   bam(
   trp ~
     c2_phonation_o +
@@ -741,7 +742,7 @@ tra_gam_s_ar <- cache_rds({
 }, "./data/cache/04_2018-tra/tra_gam_s_ar")
 ```
 
-```{r Figure8, include=TRUE, fig.cap="Predicted tongue root position during vowels followed by voiceless and voiced stops for each speaker. Predicted from a GAMM (see text). Note the different scales on the y-axis.", out.extra="width=\\linewidth", fig.height=8, dependson="tra-gam-s-ar"}
+```{r Figure8, include=TRUE, fig.cap="Predicted tongue root position during vowels followed by voiceless and voiced stops for each speaker. Predicted from a GAMM (see text). Note the different scales on the y-axis.", out.extra="width=\\linewidth", fig.height=8}
 figure8 <- cache_rds({
   predict_gam(tra_gam_s_ar, values = list(speech_rate_c = 0)) %>%
   separate(speaker_voicing, c("speaker", "voicing")) %>%
