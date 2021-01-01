@@ -19,7 +19,7 @@ indent: true
 fontsize: 12pt
 mainfont: Tinos
 params:
-  version: "7.2"
+  version: "7.3"
   version-date: "2021/01/01"
 ---
 
