@@ -1,7 +1,7 @@
 # Cross-linguistic comparison of the voicing effect in English, Italian, and Polish {#a:ve-comp}
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 knitr::opts_knit$set(root.dir = here::here())
 library(tidyverse)
 theme_set(theme_minimal())

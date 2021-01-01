@@ -10,7 +10,7 @@ params:
 
 
 
-Coretta, Stefano. 2020. Modelling electroglottographic data with wavegrams and generalised additive mixed models. OFS Preprints. DOI: <https://doi.org/10.31219/osf.io/m623d>.
+> Coretta, Stefano. 2020. Modelling electroglottographic data with wavegrams and generalised additive mixed models. OFS Preprints. DOI: <https://doi.org/10.31219/osf.io/m623d>.
 
 ## Abstract {-}
 
@@ -25,7 +25,7 @@ Insights on the diachronic development of pre-aspiration based on these results 
 ## Introduction
 
 
-<div class="figure">
+<div class="figure" style="text-align: center">
 <img src="./img/egg-setup.png" alt="A schematics of the electroglottograph. A transverse section of the neck is shown with open glottis (on the left) and closed glottis (on the right). The electric field passing through the neck is represented by lines. When the vocal folds are apart, the opening distorts the electric field and impedance increases."  />
 <p class="caption">(\#fig:deggsetup)A schematics of the electroglottograph. A transverse section of the neck is shown with open glottis (on the left) and closed glottis (on the right). The electric field passing through the neck is represented by lines. When the vocal folds are apart, the opening distorts the electric field and impedance increases.</p>
 </div>
@@ -40,13 +40,13 @@ In this paper, generalised additive modelling [@hastie1986] is proposed as a mea
 Wavegram generalised additive models will then be exemplified by discussing the results of a pilot study which compares modal and breathy phonation, and the results of an exploratory study on differences of glottal activity in vowels followed by voiceless and voiced stops. -->
 
 Electroglottography, or EGG [@fabre1957], is a technique that measures the degree of contact between the vocal folds (the Vocal Folds Contact Area, VFCA).
-A high frequency low voltage electrical current is sent through two electrodes which are in contact with the surface of the neck, one on each side of the thyroid cartilage (\@ref(fig:deggsetup)).
+A high frequency low voltage electrical current is sent through two electrodes which are in contact with the surface of the neck, one on each side of the thyroid cartilage (Figure \@ref(fig:deggsetup)).
 Impedance of this current is modulated by the VFCA, and greater vocal folds contact creates less impedance.
 The amplitude of the current is inversely correlated with VFCA and impedance, so that higher amplitude values indicate a greater contact area [@titze1990].
 The EGG unit registers the current impedance and converts it to relative amplitude values.
 The time-developing amplitude signal thus provides us with information on the changes in VFCA, i.e. on properties of vocal folds vibration (voicing).
 
-<div class="figure">
+<div class="figure" style="text-align: center">
 <img src="./img/degg-signal.png" alt="The electroglottographic signal (EGG) with corresponding first derivative (dEGG)."  />
 <p class="caption">(\#fig:degg)The electroglottographic signal (EGG) with corresponding first derivative (dEGG).</p>
 </div>
@@ -55,7 +55,7 @@ A glottal cycle can be divided in two phases [@childers1985; @hampala2016]: (a) 
 Transversal to this two-phase representation, the glottal cycle can be described in terms of whether the glottis is closed or not.
 According to this classification, the cycle can be divided into (1) a closed phase, in which the glottis is completely closed and glottal flow is 0 (in some contexts this phase could be absent, like in breathy voicing), and (2) an open phase, in which there is no complete contact between the vocal folds.
 The timing of these phases can be approximated from the EGG signal, as demonstrated by both experimental and modelling work [@hampala2016].
-An example EGG signal is provided in \@ref(fig:degg).
+An example EGG signal is provided in Figure \@ref(fig:degg).
 <!-- cited in Hampala 2016 -->
 <!-- point the reader to Hampala for figure on movements of the vocal folds -->
 
@@ -63,7 +63,7 @@ Two important landmarks of glottal movement are the closing instant (the timepoi
 These points delimit the open and closed phases of a glottal cycle.
 The ratio of the closed phase relative to the total cycle duration, the closed quotient, has been used as an index of phonation type [@scherer1987].
 Modal voice has higher closed quotient values than breathy voice, and lower values than creaky voice.
-One method for the detection of the closing and opening instants is based on the first derivative of the EGG signal (the dEGG, see \@ref(fig:degg)).
+One method for the detection of the closing and opening instants is based on the first derivative of the EGG signal (the dEGG, see Figure \@ref(fig:degg)).
 @herbst2017, however, showed that this method returns values that are just a surrogate of the actual articulatory movements, due to the complex anatomy of the vocal folds, and that there are no clear contacting and decontact instants, but rather intervals.
 @herbst2017 call this EGG-based closed quotient the "contact quotient" and recommend to keep it distinct from the closed quotient obtained from direct observation of the vocal folds.
 
@@ -75,10 +75,10 @@ The *x*-axis indicates the temporal sequence of individual glottal cycles.
 The *y*-axis represents the time within each glottal cycle, normalised between 0 and 1.
 Finally, the normalised amplitude of the signal corresponds to different colour intensities.
 Differences in intensity along the *x*-axis indicate changes in glottal activity.
-The procedure for constructing a wavegram is given in \@ref(fig:wavegram).
+The procedure for constructing a wavegram is given in Figure \@ref(fig:wavegram).
 A wavegram can be produced for the EGG signal and for any of its transformations, like the dEGG.
 
-<div class="figure">
+<div class="figure" style="text-align: center">
 <img src="./img/wavegram.png" alt="The wavegram. Created by Christian T. Herbst under a CC BY-SA 3.0 license."  />
 <p class="caption">(\#fig:wavegram)The wavegram. Created by Christian T. Herbst under a CC BY-SA 3.0 license.</p>
 </div>
@@ -116,7 +116,7 @@ The following terms were included: the amplitude of the dEGG signal as the outco
 Finally, inter-speaker differences were modelled with a by-speaker factor smooth over normalised cycle time.
 A first-order autoregressive (AR1) model was included to deal with the relatively high auto-correlation in the residuals.
 
-\@ref(fig:surface-p) shows the modelled wavegrams of modal and breathy tokens.
+Figure \@ref(fig:surface-p) shows the modelled wavegrams of modal and breathy tokens.
 Since the tokens were produced with sustained phonation, no appreciable change within each wavegram can be observed.
 However, the comparison of the wavegram of modal voice with that of breathy voice reveals differences between the two phonation types.
 As a general trend, the dEGG maximum and dEGG minimum are achieved later within the glottal cycle in breathy voicing relative to modal voicing.
@@ -124,7 +124,7 @@ Moreover, differences in velocity of closing and opening movements of the vocal 
 While in modal voicing the green band is wider, the purple band is in breathy voicing, indicating that the velocity into and out of the beginning of the closed phase is slower in breathy voicing.
 According to the approximate significance of the smooth terms, phonation has an effect on the shape of the wavegram as expected (*F*(14.681) = 3.187, Ref.EDF = 19.027, *p* < 0.001).
 
-<div class="figure">
+<div class="figure" style="text-align: center">
 <img src="05_2019-wavegram_files/figure-html/surface-p-1.png" alt="Fitted wavegram of modal and breathy phonation (Section 2). The horizontal lines represent the dEGG maximum (solid line) and minimum (dashed line)." width="672" width=\linewidth />
 <p class="caption">(\#fig:surface-p)Fitted wavegram of modal and breathy phonation (Section 2). The horizontal lines represent the dEGG maximum (solid line) and minimum (dashed line).</p>
 </div>
@@ -141,14 +141,14 @@ The vocalic onset and offset were identified as the appearance and disappearance
 Vowel duration was then normalised between 0 and 1 for analysis.
 The data of this study is available on the Open Science Framework [@coretta2018m].
 
-<div class="figure">
+<div class="figure" style="text-align: center">
 <img src="05_2019-wavegram_files/figure-html/surface-1.png" alt="Fitted wavegram of vowels followed by voiceless and voiced stops in Italian and Polish (Section 3)." width="672" width=\linewidth />
 <p class="caption">(\#fig:surface)Fitted wavegram of vowels followed by voiceless and voiced stops in Italian and Polish (Section 3).</p>
 </div>
 
 The same GAM specification as in the pilot study was used to model changes in glottal activity.
 Normalised vowel duration was used instead of glottal cycle index.
-\@ref(fig:surface) shows the modelled wavegrams of vowels followed by voiceless (left) and voiced stops (right), in Italian (top) and Polish (bottom).
+Figure \@ref(fig:surface) shows the modelled wavegrams of vowels followed by voiceless (left) and voiced stops (right), in Italian (top) and Polish (bottom).
 The pilot study showed that a widening of the wavegram dEGG maximum band (purple) with concomitant shrinkage of the dEGG minimum band (green) signals greater glottal opening.
 The change in band width corresponds to changes in velocity of the execution of the contacting and decontacting movements.
 An interesting aspect of the modelled glottal activity concerns the first half of the vowels.
@@ -156,7 +156,7 @@ The change in the wavegram indicates a process of decreasing glottal opening (fr
 The greater glottal spread observed at vowel onset could be related to the residual glottal spread of the preceding voiceless stop /p/.
 This means that the phonation at vowel onset is breathier and becomes more modal during the production of the vowel, stabilising itself at about 20% of the vowel duration.
 
-Focussing now on the second half of the vowel, the wavegrams in \@ref(fig:surface) show a pattern that is symmetrical to that observed in the first half.
+Focussing now on the second half of the vowel, the wavegrams in Figure \@ref(fig:surface) show a pattern that is symmetrical to that observed in the first half.
 Namely, glottal opening increases towards the end of the vowel [also see @halle1967a].
 The magnitude and timing of the change, however, differs in the voiceless and voiced contexts.
 The change is greater and is implemented earlier in vowels followed by voiceless stops (left panels) than those followed by voiced stops (right panels).
@@ -165,7 +165,7 @@ In the case of voiced stops, @halle1967a propose that increased glottal width ca
 
 The wavegrams of vowels followed by voiceless stops also suggest an effect of language (the GAM terms with a by-language factor return *p*-values less than 0.001).
 The change in activity before voiceless stops is initiated earlier in Italian (at around 65% into the vowel) than in Polish (at about 80%).
-The approximate time of the change onset is represented by the vertical dashed lines in \@ref(fig:surface).
+The approximate time of the change onset is represented by the vertical dashed lines in Figure \@ref(fig:surface).
 On the other hand, activity in vowels followed by voiced stops is similar in the two languages.
 
 The observed greater increase in glottal opening during the production of vowels followed by voiceless stops in Italian is compatible with the reported presence of pre-aspiration (breathy or voiceless) in Italian geminate stops [@ni-chasaide1993; @stevens2004a; @stevens2004; @stevens2010; @stevens2010b; @stevens2014a].

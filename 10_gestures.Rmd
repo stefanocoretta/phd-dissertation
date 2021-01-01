@@ -2,7 +2,7 @@
 # Gesture onset timing of voiceless and voiced stops in Italian and Polish {#a:gons}
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 knitr::opts_knit$set(root.dir = here::here())
 
 library(tidyverse)

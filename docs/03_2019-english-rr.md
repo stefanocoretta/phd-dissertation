@@ -8,7 +8,7 @@ params:
 
 
 
-Coretta, Stefano. 2020. Temporal (in)stability in English monosyllabic and disyllabic words: Insights on the effect of voicing on vowel duration. OFS Preprints. DOI: <https://doi.org/10.31219/osf.io/jvwa8>.
+> Coretta, Stefano. 2020. Temporal (in)stability in English monosyllabic and disyllabic words: Insights on the effect of voicing on vowel duration. OFS Preprints. DOI: <https://doi.org/10.31219/osf.io/jvwa8>.
 
 
 ## Abstract {-}
@@ -61,26 +61,26 @@ This mechanism gives rise to the so-called C-centre effects observed with onsets
 According to @ohman1966; @ohman1967, the speech stream is composed by a series of continuous vocalic gestures interrupted by gestures of oral constriction (consonants).
 @fowler1983 further proposes that the vocalic gestures of a VCV sequence are characterised by a cyclic pattern of production, so that the temporal distance between the two vowels is constant, independent of the nature of the intervening consonant.
 However, the temporal distance of the V-to-V interval is modulated by the number of intervening consonants [@smith1995; @zmarich2011; @zeroual2015].
-\@ref(fig:vv-cent-2) (a) illustrates this point.
+Figure \@ref(fig:vv-cent-2) (a) illustrates this point.
 
 
-<div class="figure">
+<div class="figure" style="text-align: center">
 <img src="./img/vv-cent-2.png" alt="Schematics of the gestural phasing of vocalic and consonantal gestures in different contexts. The *x*-axis is time, while the *y*-axis can be interpreted as oral aperture for vowels and oral constriction for consonants. (a) shows singleton vs geminate stops, (b) voiceless and voiced stops, and (c) singleton vs tautosyllabic cluster. Note that in (a) the distance between the vowels increases in the geminate context, while it is stable in (b) and (c). The circles in (b) on the consonant gesture lines indicate the time of closure onset."  />
 <p class="caption">(\#fig:vv-cent-2)Schematics of the gestural phasing of vocalic and consonantal gestures in different contexts. The *x*-axis is time, while the *y*-axis can be interpreted as oral aperture for vowels and oral constriction for consonants. (a) shows singleton vs geminate stops, (b) voiceless and voiced stops, and (c) singleton vs tautosyllabic cluster. Note that in (a) the distance between the vowels increases in the geminate context, while it is stable in (b) and (c). The circles in (b) on the consonant gesture lines indicate the time of closure onset.</p>
 </div>
 
-The schematics at the top of \@ref(fig:vv-cent-2) (a) shows an abstract representation [based on @marin2010] of a word-like series of consonants and vowels, *pata* (nonce words are used as examples to enable the creation of a full set of minimal pairs, as needed).
+The schematics at the top of Figure \@ref(fig:vv-cent-2) (a) shows an abstract representation [based on @marin2010] of a word-like series of consonants and vowels, *pata* (nonce words are used as examples to enable the creation of a full set of minimal pairs, as needed).
 The *x*-axis represents time, while the *y*-axis can be interpreted as oral aperture for vowels and oral constriction for consonants.
 As per C-centre effects, the onset of the consonants /p/ and /t/ are aligned with the onset of the respective following vowels (the consonants are produced in-phase with the vowels).
-The bottom scheme of \@ref(fig:vv-cent-2) (a) represents the word *patta*, syllabified as /pat.ta/.
+The bottom scheme of Figure \@ref(fig:vv-cent-2) (a) represents the word *patta*, syllabified as /pat.ta/.
 As a representational device, the geminate stop is given as two separate consecutive gestures (the actual details of gestural implementation depend on one's chosen gestural account and are not directly relevant to the present discussion).
 In *patta*, the onset of /p/ and that of the second /t/ are, as in *pata*, aligned with the onset of the respective following vowels.
 However, the first /t/ in /pat.ta/ is instead produced anti-phase with the preceding vowel.
-As it can be seen by comparing the top and bottom scheme of \@ref(fig:vv-cent-2) (a), the temporal distance between the two vowels differs in *pata* and *patta*, as per the results in @smith1995, @zmarich2011 and @zeroual2015.
+As it can be seen by comparing the top and bottom scheme of Figure \@ref(fig:vv-cent-2) (a), the temporal distance between the two vowels differs in *pata* and *patta*, as per the results in @smith1995, @zmarich2011 and @zeroual2015.
 
 On the other hand, the distance of the vowels can still be expected to be stable when there is a single intervocalic consonant that alternates in voicing.
-This is shown in \@ref(fig:vv-cent-2) (b).
-In *pata* and *pada*, the consonants are in-phase with the respective following vowels, as we have seen in \@ref(fig:vv-cent-2) (a).
+This is shown in Figure \@ref(fig:vv-cent-2) (b).
+In *pata* and *pada*, the consonants are in-phase with the respective following vowels, as we have seen in Figure \@ref(fig:vv-cent-2) (a).
 @van-summers1987 and @de-jong1991 show that the closing gesture of voiceless stops has greater velocity than that of voiced stops.
 Assuming that the closing gesture of both voiceless and voiced stops is initiated in synchrony with that of the following vowel as per the in-phase alignment, full oral closure will be achieved earlier in voiceless than in voiced stops relative to the beginning of the preceding vocalic gesture.
 Under this scenario, the temporal distance of the vowels does not differ in *pata* vs *pada*.
@@ -96,7 +96,7 @@ Finally, further evidence for a vowel-based rhythmic gestural implementation of 
 These studies investigate the relation between vowel duration and syllable structure in Italian.
 In the first study, it was found that vowels followed by a singleton stop (for example in /la.da/) are longer than vowels followed by a cluster belonging to the following syllable (/la.dra/).
 This pattern can easily be derived from a scenario in which the distance between the vowels is the same in the two contexts (/la.da/ and /la.dra/), and the onset consonants follow a C-centre alignment.
-This is represented in \@ref(fig:vv-cent-2) (c).
+This is represented in Figure \@ref(fig:vv-cent-2) (c).
 @celata2014 also show that the duration of the consonant/consonant cluster is negatively correlated with the duration of the preceding vowel (although the magnitude of the correlation is low to moderate).
 
 ### The voicing effect in English
@@ -225,7 +225,7 @@ Table: (\#tab:words) Test C\textsubscript{1}V́\textsubscript{1}C\textsubscript{
 
 The test words were C\textsubscript{1}V́\textsubscript{1}C\textsubscript{2}(VC) words, where C\textsubscript{1} = /t/, V\textsubscript{1} = /iː, ɜː, ɑː/, C\textsubscript{2} = /p, b, k, g/, and (VC) = /əs/.
 /əs/ was chosen for its lower parsability as a native suffix, in order to prevent morphological complexity in disyllabic words.
-This structure specification generates 24 test words, shown in \@ref(tab:words).
+This structure specification generates 24 test words, shown in Table \@ref(tab:words).
 All of these are nonce words, with the exception of *turk* and *tarp*, and of *teek* via the homophone *teak*.
 Building stimuli from a structure template rather than from the lexicon ensures greater experimental and statistical control.
 Moreover, the use of nonce words removes or reduces confounds from some usage variables, like for example lexical frequency.^[The three real words in the materials have low lexical frequency (Zipf 1-7 log-frequency: *tarp* 2.23, *teak* 2.76, and *turk* 2.91) according to the SUBTLEX-UK corpus [@van-heuven2014].]
@@ -375,7 +375,7 @@ For the random effects, a half Cauchy distribution (location = 0, scale = 25) wa
 </tbody>
 </table>
 
-\@ref(tab:rr-1-table) gives the posterior mean, posterior standard deviation, 2.5 and 97.5 quantiles (lower and upper bounds of the 95% credible interval), and the credible interval's width of the fixed effects of model 1.
+Table \@ref(tab:rr-1-table) gives the posterior mean, posterior standard deviation, 2.5 and 97.5 quantiles (lower and upper bounds of the 95% credible interval), and the credible interval's width of the fixed effects of model 1.
 According to the hypotheses H1a-b set out in \@ref(s:hypo), the effect of the C2 voicing predictor (with reference to disyllabic words) should be 0 (i.e. the posterior distribution of the effect should be entirely within the ROPE; in other words, no effect of voicing in disyllabic words), and the interaction between C2 voicing (= voiced) and number of syllables (= monosyllabic) should be positive (the release-to-release interval should be longer when the consonant is voiced in monosyllabic words).
 Based on H2a, the effect of the number of syllables (= monosyllabic) should be positive (the interval is longer when the word is monosyllabic).
 However, note that the precision goal (CI width ≤ 20 ms, based on the ROPE) was reached only for centred speech rate (CI width = 8.14 ms), so that these results come with a high degree of uncertainty.
@@ -449,7 +449,7 @@ This prior was based on duration differences depending on vowel height [@heffner
 </tbody>
 </table>
 
-The summary of the fixed effects of model 2 are given in \@ref(tab:rr-2-table).
+The summary of the fixed effects of model 2 are given in Table \@ref(tab:rr-2-table).
 As with model 1, only the CI width of speech rate reached the intended precision.
 Based on the hypotheses H2b-c in \@ref(s:hypo), the effects of vowel = /ɜː/ and vowel = /iː/ should be negative, and the latter effect should be more negative than the former.
 The posterior distribution of the effect of the vowel /ɜː/ shows that this vowel tends to a negative effect, with a 95% CI between −21.90 and 4.87 ms ($\bar{\theta}$ = −8.58 ms, SD = 6.9).
@@ -466,7 +466,7 @@ The same priors of the two separate models were used in the combined model.
 
 
 Including all the relevant terms in the model (C2 voicing and place, vowel, number of syllables in interaction with C2 voicing) reduces the width of the credible intervals substantially.
-\@ref(fig:rr-3-intervals) shows the posterior distributions of the model terms with a variety of credible intervals.
+Figure \@ref(fig:rr-3-intervals) shows the posterior distributions of the model terms with a variety of credible intervals.
 Hypothesis H1a states that the effect of C2 voicing (= voiced) on the release-to-release duration of disyllabic words should be null (i.e., the posterior should be contained within the ROPE).
 The posterior distribution of the C2 voicing effect on release-to-release duration in this aggregated model (95% CI = [−10.45, 5.65]) is tighter than that of model 1 (95% CI = [-23.86, 15.45]) while the mean (−2.43 ms, SD = 4.06) is virtually unchanged (−4.43 ms, only a 2 ms difference).
 According to hypothesis H2a, the effect of number of syllables (= monosyllabic) on the release-to-release should be positive.
@@ -572,7 +572,7 @@ C2 place of articulation (labial) has a negligible positive mean effect (2.6 ms,
 ## See help("Deprecated") and help("tidybayes-deprecated").
 ```
 
-<div class="figure">
+<div class="figure" style="text-align: center">
 <img src="03_2019-english-rr_files/figure-html/rr-3-intervals-1.png" alt="Posterior distributions and Bayesian credible intervals of the effects on release-to-release duration (model 3). For each effect, the thick blue-coloured bars indicate (from darker to lighter) the 50\%, 80\%, and 95\% CI. The black point with bars are the posterior median (the point), the 98\% (thin bar) and 66\% (thicker bar) CI. The shaded grey area around 0 is the ROPE." width="672" width=\linewidth />
 <p class="caption">(\#fig:rr-3-intervals)Posterior distributions and Bayesian credible intervals of the effects on release-to-release duration (model 3). For each effect, the thick blue-coloured bars indicate (from darker to lighter) the 50\%, 80\%, and 95\% CI. The black point with bars are the posterior median (the point), the 98\% (thin bar) and 66\% (thicker bar) CI. The shaded grey area around 0 is the ROPE.</p>
 </div>
@@ -712,7 +712,7 @@ The same priors as in the previous models were included for the random effects.
 </tbody>
 </table>
 
-\@ref(tab:vow-4-table) reports the summary of model 4, while \@ref(fig:vow-4-intervals) shows the posterior distributions and credible intervals.
+Table \@ref(tab:vow-4-table) reports the summary of model 4, while Figure \@ref(fig:vow-4-intervals) shows the posterior distributions and credible intervals.
 The precision target was reached in the non-interacting predictors (permitting a few milliseconds above 20), with the exception of the intercept.
 All the interactions terms have CI widths above 25 ms.
 The 95% CI of the posterior distribution of the duration of /ɑː/ is included in the range 112.94--136.77 ms ($\bar{\theta}$ = 124.91 ms, SD = 5.96).
@@ -744,7 +744,7 @@ Note that the credible intervals of these interaction effects are quite large, s
 ## See help("Deprecated") and help("tidybayes-deprecated").
 ```
 
-<div class="figure">
+<div class="figure" style="text-align: center">
 <img src="03_2019-english-rr_files/figure-html/vow-4-intervals-1.png" alt="Posterior distributions and Bayesian credible intervals of the effects on vowel duration (model 4). For each effect, the thick blue-coloured bars indicate (from darker to lighter) the 50\%, 80\%, and 95\% CI. The black point with bars are the posterior median (the point), the 98\% (thin bar) and 66\% (thicker bar) CI. The shaded grey area around 0 is the ROPE." width="672" width=\linewidth />
 <p class="caption">(\#fig:vow-4-intervals)Posterior distributions and Bayesian credible intervals of the effects on vowel duration (model 4). For each effect, the thick blue-coloured bars indicate (from darker to lighter) the 50\%, 80\%, and 95\% CI. The black point with bars are the posterior median (the point), the 98\% (thin bar) and 66\% (thicker bar) CI. The shaded grey area around 0 is the ROPE.</p>
 </div>
@@ -850,8 +850,8 @@ For the effect of C2 place, a normal distribution with mean 15 ms (SD = 10) was 
 </tbody>
 </table>
 
-The summary of model 5 is shown in \@ref(tab:clos-5-table).
-See \@ref(fig:clos-5-intervals) for the posteriors and credible intervals of the effects.
+The summary of model 5 is shown in Table \@ref(tab:clos-5-table).
+See Figure \@ref(fig:clos-5-intervals) for the posteriors and credible intervals of the effects.
 The 96% CI width of all the terms, with the exception of the three-way interaction (voicing/place/number of syllables), is below 20 ms (the precision goal has been reached).
 As explained in \@ref(s:hypo), no specific hypothesis addressing closure duration was formulated.
 The posterior distribution of the intercept for closure duration (corresponding to the duration of voiceless velar stops in disyllabic words) has mean 74.75 ms (SD = 2.86) and 95% CI = [69.07, 80.59].
@@ -874,7 +874,7 @@ Note that the 95% CIs of the posterior distributions of all the effects, with th
 ## See help("Deprecated") and help("tidybayes-deprecated").
 ```
 
-<div class="figure">
+<div class="figure" style="text-align: center">
 <img src="03_2019-english-rr_files/figure-html/clos-5-intervals-1.png" alt="Posterior distributions and Bayesian credible intervals of the effects on closure duration (model 5). For each effect, the thick blue-coloured bars indicate (from darker to lighter) the 50\%, 80\%, and 95\% CI. The black point with bars are the posterior median (the point), the 98\% (thin bar) and 66\% (thicker bar) CI. The shaded grey area around 0 is the ROPE." width="672" width=\linewidth />
 <p class="caption">(\#fig:clos-5-intervals)Posterior distributions and Bayesian credible intervals of the effects on closure duration (model 5). For each effect, the thick blue-coloured bars indicate (from darker to lighter) the 50\%, 80\%, and 95\% CI. The black point with bars are the posterior median (the point), the 98\% (thin bar) and 66\% (thicker bar) CI. The shaded grey area around 0 is the ROPE.</p>
 </div>

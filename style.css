@@ -1,0 +1,7 @@
+div.figure {
+  font-style: italic;
+  border-bottom: 1px solid gray;
+  margin-bottom: 50px;
+  font-size: smaller;
+  text-align: center;
+}

@@ -106,7 +106,6 @@ the-dark-side-of-research
 s:stand
 s:repro
 p:relrel
-abstract-1
 s:introR
 the-present-study
 s:method

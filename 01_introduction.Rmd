@@ -1,5 +1,5 @@
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, fig.align = "center"}
 knitr::opts_chunk$set(echo = FALSE)
 knitr::opts_knit$set(root.dir = here::here())
 options(knitr.graphics.auto_pdf = TRUE)
@@ -525,7 +525,7 @@ Table: (\#tab:itavow) Italian vocalic phonemes (adapted from Krämer 2009)
 | low      |       | a       |      |
 
 
-Although the exact phonemic inventory of Italian is still debated, especially for consonants [@kramer2009, p. 44], a generally agreed upon phonemic set is given in \@ref(tab:itacons) for consonants and \@ref(tab:itavow) for vowels.
+Although the exact phonemic inventory of Italian is still debated, especially for consonants [@kramer2009, p. 44], a generally agreed upon phonemic set is given in Table \@ref(tab:itacons) for consonants and Table \@ref(tab:itavow) for vowels.
 
 Italian contrasts consonants along five (phonological) places of articulation: labial (phonetically either bilabial or labiodental), dental, alveolar, palatal (palatal and post-alveolar), and velar.
 Stops (true stops and affricates) and fricatives contrast for voicing, although note that /z/ has limited functional load [@bertinetto2005] and /ʒ/ is relegated to loan words.
@@ -533,7 +533,7 @@ The Italian voicing contrast is usually described in terms of an opposition betw
 @pape2014 shows that Italian speakers tend to perceive stops without a burst following the release as voiced consonants, independent of the duration of voicing during closure.
 While it is not clear which acoustic cue is employed by Italian speakers to discriminate voiceless and voiced consonants, @pape2014 find in their production study that Italian consistently articulate (velar) stops with full voicing during closure.
 
-The vocalic system in \@ref(tab:itavow) is found in stressed syllables, although the status of the mid-high and mid-low contrast is not straightforward (especially for the back vowels), and the mid vowels show a high degree of geographical and idiosyncratic variation [@renwick2016].
+The vocalic system in Table \@ref(tab:itavow) is found in stressed syllables, although the status of the mid-high and mid-low contrast is not straightforward (especially for the back vowels), and the mid vowels show a high degree of geographical and idiosyncratic variation [@renwick2016].
 In unstressed syllables, there is no contrast between mid-high and mid-low vowels, and these vowels are articulated as either mid-high or mid-low depending on the variety of Italian [@rogers2004; @renwick2016].
 Although vowel duration is not contrastive [@rogers2004; @kramer2009; @renwick2016], vowels are longer when they appear in a stressed open syllable (/fa.to/ [faːto] 'fate') and shorter when the syllable is closed (/fat.to/ [fatto] 'fact').
 
@@ -596,7 +596,7 @@ Table: (\#tab:engcons) English consonant phonemes
 
 In order to avoid influences of regional differences in English, especially in the vowel system, Study II (\@ref(s:studyii)) was restricted to Manchester English.^[Due to the difficulty of recruiting speakers of Italian and Polish in Manchester and in the field in Italy, such approach was not possible for these languages.]
 
-The consonant system of Manchester English minimally diverges from the general Southern British English system (\@ref(tab:engcons)), which is non-rhotic, with the notable exceptions of the so-called "T-glottaling" (realisation of /t/ in non-foot-initial position as [ʔ]), "TH-fronting" (realisation of /θ, ð/ and [f, v]), "H-dropping", and "velar nasal plus" (realisation of /ŋ/ as [ŋg/]) [@baranowski2015; @baranowski2016; @bermudez-otero2016; @coretta2018i; @bailey2019a; @bailey2019].
+The consonant system of Manchester English minimally diverges from the general Southern British English system (Table \@ref(tab:engcons)), which is non-rhotic, with the notable exceptions of the so-called "T-glottaling" (realisation of /t/ in non-foot-initial position as [ʔ]), "TH-fronting" (realisation of /θ, ð/ and [f, v]), "H-dropping", and "velar nasal plus" (realisation of /ŋ/ as [ŋg/]) [@baranowski2015; @baranowski2016; @bermudez-otero2016; @coretta2018i; @bailey2019a; @bailey2019].
 The consonantal phonemes of Manchester English belong to one of seven places of articulation (labial, dental, alveolar, post-alveolar, palatal, velar, glottal) and seven manner of articulation (plosive, fricative, affricate, nasal, lateral, rhotic, approximant).
 
 While voicing in Manchester English has not been systematically investigated, the literature on voicing in English in general is vast [for a review, see @davidson2016].
@@ -620,7 +620,7 @@ Table: (\#tab:engvows) Northern British English vowel monophthong phonemes (Orto
 | low  | æ     |         | ɒ ɑː |
 
 
-Manchester English distinguishes short and long vowels (\@ref(tab:engvows)), which differ in duration and quality.
+Manchester English distinguishes short and long vowels (Table \@ref(tab:engvows)), which differ in duration and quality.
 The split between /ʊ/ and /ʌ/ [respectively \fauxsc{foot} and \fauxsc{strut} in Well's lexical set, @wells1982] present in many varieties of English is not in Manchester English (as in Northern English more generally), so that there is a single vowel category realised as [ʊ] [@baranowski2015].
 Other features of the vocalic system in Manchester English are the fronting of /uː/, and the laxing of the *happ*\fauxsc{y} vowel (the final vowel in words like *happy*, *city*, *duty*) to [ɛ] in word-final position.
 
@@ -740,7 +740,7 @@ The unit outputs a synchronised stereo recording which contains the EGG signal f
 knitr::include_graphics("./img/setup.png")
 ```
 
-\@ref(fig:setup-scheme) shows a schematics of the equipment set-up used in this study.
+Figure \@ref(fig:setup-scheme) shows a schematics of the equipment set-up used in this study.
 The left part of the figure shows the ultrasonic components [@articulate2011], while the EGG components (Glottal Enterprises) are shown on the right.
 Two separate Hewlett-Packard ProBook 6750b laptops with Microsoft Windows 7 were used for the acquisition of the UTI and EGG recordings.
 The main ultrasonic component was a TELEMED Echo Blaster 128 unit with a TELEMED C3.5/20/128Z-3 ultrasonic transducer (20mm radius, 2-4 MHz), plugged into one laptop via a USB cable.
@@ -748,7 +748,7 @@ A P-Stretch unit (used for signal synchronisation) was connected to the ultrasou
 The P-Stretch unit and a Movo LV4-O2 Lavalier microphone fed into a FocusRight Scarlett Solo pre-amplifier, which was plugged into the ultrasound laptop via USB.
 A second Movo microphone and the electrodes were connected to a Glottal Enterprises EG2-PCX2 unit, which was plugged into the second laptop (the audio signals from the UTI and the EGG units were used for synchronisation, see below).
 
-The subject wore a metallic headset produced by @articulate2008 (\@ref(fig:headset)), which stabilises the position of the ultrasound probe (allowing free head movement), and the Velcro strap with the EGG electrodes around their neck.
+The subject wore a metallic headset produced by @articulate2008 (Figure \@ref(fig:headset)), which stabilises the position of the ultrasound probe (allowing free head movement), and the Velcro strap with the EGG electrodes around their neck.
 The electrodes were located on each side of the thyroid cartilage, at the level of the glottis.
 The microphones were clipped to the headset on either side, at identical heights.
 Before the reading task, the participant’s occlusal plane was obtained using a bite plate [@scobbie2011].
@@ -770,7 +770,7 @@ The words were embedded in the frame sentence *Dico X lentamente* 'I say X slowl
 The UTI+audio and EGG+audio signals were acquired and recorded by means of AAA and Praat [@boersma2018] respectively.
 Since the signals from the ultrasonic machine and the electroglottograph are recorded simultaneously but separately, data from both sources were synchronised after acquisition.
 Synchronisation was achieved using the cross-correlation of the audio signals obtained from the separate sources [@grimaldi2008].
-The interval between the start of the cross-correlated signal and the time of the signal maximum amplitude is equal to the lag between the two original sounds (\@ref(fig:cross-correlation)).
+The interval between the start of the cross-correlated signal and the time of the signal maximum amplitude is equal to the lag between the two original sounds (Figure \@ref(fig:cross-correlation)).
 Synchronisation of the original sound files was achieved by trimming the beginning of the longer sound by the lag obtained from cross-correlation.
 A Praat script was written to automate the synchronisation process [`sync-egg.praat` in @coretta2018m].
 
@@ -808,7 +808,7 @@ A Savitzky--Golay smoothing filter (second-order, frame length 75 ms) was applie
 Tangential velocity was calculated from the smoothed displacement signal of the tongue tip and tongue dorsum with a Savitzky--Golay filter (second-order, frame length 75 ms), as implemented in AAA.
 
 The absolute values of the tangential velocity were used for the identification of gestural landmarks using a built-in algorithm.
-The times of the following gestural landmarks were obtained for the tongue tip and the tongue dorsum (\@ref(fig:kine) exemplifies the tongue tip case): (a) maximum tongue displacement (MAX), (b) peak velocity before MAX (PEAK_1), (c) peak velocity after MAX (PEAK_2), (d) gesture onset (GONS), corresponding to the time when absolute velocity of tongue displacement reaches 20% of the peak absolute velocity before PEAK_1, (e) gesture nucleus (plateau) onset (NONS), when velocity is at 20% of the peak velocity between PEAK_1 and MAX, (f) nucleus offset (NOFF), when velocity is at 20% of the peak velocity between MAX and PEAK_2, and (g) gesture offset (GOFF), when velocity is at 20% of peak velocity after PEAK_2 [@kroos1997; @gafos2010a].
+The times of the following gestural landmarks were obtained for the tongue tip and the tongue dorsum (Figure \@ref(fig:kine) exemplifies the tongue tip case): (a) maximum tongue displacement (MAX), (b) peak velocity before MAX (PEAK_1), (c) peak velocity after MAX (PEAK_2), (d) gesture onset (GONS), corresponding to the time when absolute velocity of tongue displacement reaches 20% of the peak absolute velocity before PEAK_1, (e) gesture nucleus (plateau) onset (NONS), when velocity is at 20% of the peak velocity between PEAK_1 and MAX, (f) nucleus offset (NOFF), when velocity is at 20% of the peak velocity between MAX and PEAK_2, and (g) gesture offset (GOFF), when velocity is at 20% of peak velocity after PEAK_2 [@kroos1997; @gafos2010a].
 The time resolution of the gestural landmarks is 100 kHz (the sampling rate of the upsampled spline data).
 
 ```{r kine, fig.cap="Gestural landmarks of tongue movements in the word *putu*. The top panel shows tongue tip displacement, while the bottom panel shows tangential and absolute velocity."}

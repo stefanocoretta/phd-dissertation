@@ -64,7 +64,7 @@ At 80% probability, the effect of voicing is between −5 and +10 ms, while at 9
 ## See help("Deprecated") and help("tidybayes-deprecated").
 ```
 
-<img src="10_gestures_files/figure-html/rel-gons-intervals-1.png" width="672" />
+<img src="10_gestures_files/figure-html/rel-gons-intervals-1.png" width="672" style="display: block; margin: auto;" />
 
 The present data does not offer unambiguous support for isochronous timing of C2 gestural onset, but it suggests that the difference is smaller than 15 ms.
 The gestural literature does not explicitly posit a lower limit as to what range of values would indicate gestural isochrony.

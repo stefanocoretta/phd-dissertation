@@ -1,4 +1,5 @@
-bookdown::gitbook
+bookdown::gitbook:
+  css: "style.css"
 # bookdown::pdf_book:
 #   latex_engine: xelatex
 #   dev: cairo_pdf

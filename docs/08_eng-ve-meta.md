@@ -20,7 +20,7 @@ The measurement error term in such models allows us to include information of th
 All the models for estimating the posterior of the individual studies were fitted with the following priors: a normal distribution with mean = 0 ms and SD = 300 for the intercept, and a normal distribution with mean = 0 ms and SD = 100 for the effect of consonant voicing.
 The simple models (without an error term) also included a prior for the residual variance as a half Cauchy distribution with location = 0 ms and scale = 25.
 
-A data set with the mean estimates and estimated standard errors from these 11 posterior distributions (\@ref(tab:est)) has then been used to fit a further Bayesian measurement error model.
+A data set with the mean estimates and estimated standard errors from these 11 posterior distributions (Table \@ref(tab:est)) has then been used to fit a further Bayesian measurement error model.
 In this model, the mean estimates with the estimated standard errors were included as the outcome, while a by-study random intercept was the only predictor.
 The models were fitted in R with brms using Markov Chain Monte Carlo simulations, with 4 chains, 2000 iterations of which 1000 for warm-up.
 
@@ -206,7 +206,7 @@ The models were fitted in R with brms using Markov Chain Monte Carlo simulations
 
 The following is the summary of the meta-analytical model (as output by `summary()` function).
 The population-level effects are the ones of interest.
-\@ref(fig:intervals-plot) is a visual aid to the summary, and shows a variety of credible intervals of the estimates from the model.
+Figure \@ref(fig:intervals-plot) is a visual aid to the summary, and shows a variety of credible intervals of the estimates from the model.
 The blue-coloured bars represent (from darker to lighter blue) the 50%, 80%, and 95% credible intervals (CIs).
 The black lines are the 66% (thick) and 98% (thin) CIs.
 
@@ -256,7 +256,7 @@ Note that the estimated error is double compared to that of the intercept, which
 We can argue that, on average, the mean voicing effect in penultimate syllables is about 50 ms smaller than the mean effect in monosyllabic words in the surveyed studies.
 The mean of the voicing effect in disyllabic words can thus be estimated to be around 25 ms (75 - 50 ms).
 
-A visual representation of the meta-analytical distributions is given in \@ref(fig:syl-plot).
+A visual representation of the meta-analytical distributions is given in Figure \@ref(fig:syl-plot).
 The plot shows the full posterior distributions of the voicing effect in the word-final and penultimate contexts.
 Note how the posterior distribution in penultimate position is wider than the other.
 
@@ -267,7 +267,7 @@ Note how the posterior distribution in penultimate position is wider than the ot
 <p class="caption">(\#fig:syl-plot)Meta-analytical posterior distributions of the voicing effect in syllable-final and penultimate position.</p>
 </div>
 
-\@ref(fig:origin-shrunk-plot) shows the mean estimates (the points) of the voicing effect with 95% CIs (the horizontal segments) for each of the 11 studies.
+Figure \@ref(fig:origin-shrunk-plot) shows the mean estimates (the points) of the voicing effect with 95% CIs (the horizontal segments) for each of the 11 studies.
 For each study, the plot gives both the original estimate (as obtained from the raw data summary of the study) and the estimate shrunk by the random effects in the meta-analytical model.
 The vertical lines indicate the meta-analytical 95% CI of the voicing effect in final (solid) and penultimate syllable position (dashed).
 Original estimates further away from the meta-analytical mean effect and those with greater uncertainty (wider errors) show greater shrinkage to the mean.
@@ -279,7 +279,7 @@ Original estimates further away from the meta-analytical mean effect and those w
 <p class="caption">(\#fig:origin-shrunk-plot)Estimated voicing effect from the original source and from the meta-analysis.</p>
 </div>
 
-\@ref(fig:funnel-plot) is a funnel plot, which can be used to visually check whether the sample suffers from publication bias.
+Figure \@ref(fig:funnel-plot) is a funnel plot, which can be used to visually check whether the sample suffers from publication bias.
 In this plot, the x-axis corresponds to the original estimated difference in vowel duration, while the y-axis is a measure of precision (calculated as 1 divided by the estimated error of the difference).
 The meta-analytical means are indicated by the thick and dashed vertical lines for syllable-final and penultimate position respectively.
 The shaded areas indicate the 95% CI of the meta-analytical posterior of the voicing effect in final (light blue) and penultimate (dark blue) position.

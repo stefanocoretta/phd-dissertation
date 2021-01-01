@@ -2,7 +2,7 @@
 # An informal analysis of number of speakers per phonetic study by year and endangerment status {#a:speakers}
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 knitr::opts_knit$set(root.dir = here::here())
 library(tidyverse)
 theme_set(theme_minimal())

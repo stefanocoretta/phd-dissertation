@@ -9,7 +9,7 @@ Note that the experimental design differs between the two studies (see \@ref(s:m
 The following graph shows violin and box plots of the raw vowel duration data, by voicing of C2 and language.
 English and Italian have similar vowel durations and a similar effect of voicing, while Polish has generally shorter vowels and a somewhat smaller effect.
 
-<img src="09_ve-comp_files/figure-html/v1-dur-1.png" width="672" />
+<img src="09_ve-comp_files/figure-html/v1-dur-1.png" width="672" style="display: block; margin: auto;" />
 
 A Bayesian mixed-effects regression was fitted to V1 duration with brms [@burkner2017; @burkner2018] in R [@r-core-team2019].
 Language, C2 voicing, centred speech rate, and an interaction between language and voicing were included as predictors.
@@ -69,7 +69,7 @@ The following priors were used: for the intercept of vowel duration, a normal di
 ## See help("Deprecated") and help("tidybayes-deprecated").
 ```
 
-<img src="09_ve-comp_files/figure-html/ve-int-1.png" width="672" />
+<img src="09_ve-comp_files/figure-html/ve-int-1.png" width="672" style="display: block; margin: auto;" />
 
 The plot above shows the posterior distributions for the effects of language, voicing, centred speech rate, and language × voicing interaction.
 The effect of voicing in English is between 7 and 28.5 ms at 95% probability.
@@ -86,4 +86,4 @@ If there is a difference, it will likely be within the range ±10 ms.
 The following plot shows the posterior probability distributions of the effect of voicing marginalised over language.
 The great overlap among the distributions is indicative of the high uncertainty regarding the presence vs absence of cross-linguistic differences.
 
-<img src="09_ve-comp_files/figure-html/ve-post-dens-1.png" width="672" />
+<img src="09_ve-comp_files/figure-html/ve-post-dens-1.png" width="672" style="display: block; margin: auto;" />

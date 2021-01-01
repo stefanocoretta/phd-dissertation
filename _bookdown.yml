@@ -1,12 +1,13 @@
 book_filename: "phd-dissertation"
 new_session: yes
+output_dir: docs
 # rmd_files: ["index.Rmd", "01_introduction.Rmd", "02_2018-relrel.Rmd",
 #    "03_2019-english-rr.Rmd", "04_2018-tra.Rmd", "05_2019-wavegram.Rmd",
 #    "06_conclusion.Rmd", "07_2018-polar-gam.Rmd", "08_eng-ve-meta.Rmd",
 #    "09_ve-comp.Rmd", "10_gestures.Rmd", "11_speakers.Rmd",
 #    "99_references.Rmd"
 #   ]
-# rmd_files: ["index.Rmd", "02_2018-relrel.Rmd", "99_references.Rmd"]
+# rmd_files: ["index.Rmd", "02_2018-relrel.Rmd"]
 
 # TODO: fix cross-references
 # TODO: fix figure size and alignment
