@@ -19,8 +19,8 @@ indent: true
 fontsize: 12pt
 mainfont: Tinos
 params:
-  version: "7.0.9000"
-  version-date: "2020/12/27"
+  version: "7.1"
+  version-date: "2021/01/01"
 ---
 
 ```{r setup, include=FALSE}
@@ -97,7 +97,7 @@ Special thanks go to my friends in Verbania, who supported me and stood me (*sup
 Thanks to Sig.ra Racchelli, whose help and care provided me with the resources to survive difficult times.
 Thanks to my loving family on Earth and beyond, and a special thanks to my mother, whose continuous sacrifice encouraged me to keep on moving forward.
 
-The tutelage and support of these and many more people came as those of *Kṛṣṇa* upon *Arjuna* in the *Bhagavadgitā*, during the battle at *Kurukṣetra*.
+The tutelage and support of these and many more people came as those of *Kṛṣṇa* upon *Arjuna* in the *Bhagavadgitā*, during the battle at *Kurukṣetra*.
 Without their direction and kindness, I would have lost my way and strayed, never to find again the will to persist along the road.
 For all of you, a thousand thoughts, then a hundred, then another thousand, then a second hundred, then yet another thousand, then a hundred more.
 
